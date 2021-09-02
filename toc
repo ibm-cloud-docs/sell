@@ -1,0 +1,121 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="sell" category="platform_services" audience="platform" href="/docs/sell" path="sell"}
+Selling on IBM Cloud
+
+    {: .navgroup id="learn"}
+    sell-on-ibm-cloud.md
+
+    {: topicgroup}
+    Understanding how to sell services
+        service-get-start.md
+        service-checklist.md
+        service-platform.md
+
+    {: topicgroup}
+    Understanding how to sell software
+        software-get-start.md
+        software-checklist.md
+    {: .navgroup-end}
+
+    {: .navgroup id="tutorial"}
+    {: topicgroup}
+    Onboarding a Node-RED Operator
+        tutorial-define-operator.md
+        tutorial-onboard-operator.md
+        tutorial-publish-operator.md
+
+    {: topicgroup}
+    Onboarding a Certified Operator bundle from a Red Hat registry
+        tutorial-register-bundle.md
+        tutorial-define-bundle.md
+        tutorial-onboard-bundle.md
+        tutorial-publish-bundle.md
+
+    {: topicgroup}
+    Onboarding a virtual server image with Terraform
+        tutorial-register-vsimage.md
+        tutorial-define-vsimage.md
+        tutorial-onboard-vsimage.md
+        tutorial-publish-vsimage.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: topicgroup}
+    Selling services
+        service-onboard-overview.md
+        service-docs-marketing.md
+        service-rmc-define.md
+        service-broker.md
+        service-iam.md
+        service-rmc-publish.md
+        service-ga.md
+
+        {: .topicgroup}
+        Submitting usage and metering plans
+            service-submitusage.md
+            service-metering.md
+
+        service-parameters.md
+
+    {: topicgroup}
+    Selling software
+
+        {: .topicgroup}
+        Defining your product in Partner Center
+            software-catalog-details.md
+            software-pricing-details.md
+            software-support-details.md
+
+        {: .topicgroup}
+        Onboarding your software
+            source-repo-setup.md
+            software-validate.md
+
+        software-publish.md
+
+        {: .topicgroup}
+        Assigning access to onboard and publish software
+            software-invite-team.md
+            /account/account-account-services
+
+        {: .topicgroup}
+        Managing your software
+            software-partner-details.md
+            software-versions.md
+            software-reload-version.md
+            software-helm-target.md
+            software-suspend.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: topicgroup}
+    API reference
+
+        {: .topicgroup}
+        Services
+            [IBM Cloud Open Service Broker API](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api)
+            [IBM Cloud Usage Metering API](https://cloud.ibm.com/apidocs/usage-metering)
+
+        {: .topicgroup}
+        Software
+            [Catalog Management API](https://cloud.ibm.com/apidocs/resource-catalog/private-catalog)
+
+    service-parameter-example.md
+    software-ova-yaml-example.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    {: topicgroup}
+    FAQs
+        software-faq.md
+        service-faq.md
+
+    {: topicgroup}
+    Troubleshooting software
+        ts-repo-upload.md
+        ts-missing-products.md
+        ts-validate-terraform.md
+        ts-tgz.md
+    {: .navgroup-end}
