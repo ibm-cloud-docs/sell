@@ -72,6 +72,7 @@ Selling on IBM Cloud
         Onboarding your software
             source-repo-setup.md
             software-validate.md
+            software-helm-target.md
 
         software-publish.md
 
@@ -85,7 +86,6 @@ Selling on IBM Cloud
             software-partner-details.md
             software-versions.md
             software-reload-version.md
-            software-helm-target.md
             software-suspend.md
     {: .navgroup-end}
 
