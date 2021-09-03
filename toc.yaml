@@ -107,7 +107,6 @@ toc:
               - software-reload-version.md
               - /account/account-update-private
               - /account/account-dep-restore
-<!--	      - software-suspend.md      -->
       - pc-partner-profile.md
       - topicgroup:
           label: Building
@@ -147,7 +146,6 @@ toc:
       - topicgroup:
           label: FAQs
           topics:
-<!--      - faq.md   -->
           - software-faq.md
           - service-faq.md
       - topicgroup:
