@@ -1,0 +1,159 @@
+---
+toc:
+  properties:
+    subcollection: sell
+    category: platform_services
+    audience: platform
+    href: /docs/sell
+    console-page: https://cloud.ibm.com/partner-center
+    product-page: https://www.ibm.com/cloud/partners
+    path: sell
+    label: Selling on IBM Cloud
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - sell-on-ibm-cloud.md
+      - topicgroup:
+          label: Understanding how to sell services
+          topics:
+          - service-get-start.md
+          - service-checklist.md
+          - service-platform.md
+      - topicgroup:
+          label: Understanding how to sell software
+          topics:
+          - software-get-start.md
+          - software-checklist.md
+
+  - navgroup:
+      id: tutorial
+      topics:
+      - topicgroup:
+          label: Onboarding a Node-RED Operator
+          topics:
+          - tutorial-register-operator.md
+          - tutorial-define-operator.md
+          - tutorial-onboard-operator.md
+          - tutorial-publish-operator.md
+      - topicgroup:
+          label: Onboarding a Certified Operator bundle from a Red Hat registry
+          topics:
+          - tutorial-register-bundle.md
+          - tutorial-define-bundle.md
+          - tutorial-onboard-bundle.md
+          - tutorial-publish-bundle.md
+      - topicgroup:
+          label: Onboarding a virtual server image with Terraform
+          topics:
+          - tutorial-register-vsimage.md
+          - tutorial-define-vsimage.md
+          - tutorial-onboard-vsimage.md
+          - tutorial-publish-vsimage.md
+      - topicgroup:  
+          label: Onboarding a Terraform template
+          topics:
+          - tutorial-register-terraform.md
+          - tutorial-define-terraform.md
+          - tutorial-onboard-terraform.md
+          - tutorial-publish-terraform.md
+
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: Selling services
+          topics:
+          - service-onboard-overview.md
+          - service-docs-marketing.md
+          - service-rmc-define.md
+          - service-broker.md
+          - service-iam.md
+          - service-rmc-publish.md
+          - service-ga.md
+          - topicgroup:
+              label: Submitting usage and metering plans
+              topics:
+              - service-submitusage.md
+              - service-metering.md
+          - service-parameters.md
+      - topicgroup:
+          label: Selling software
+          topics:
+          - topicgroup:
+              label: Defining your product details in Partner Center
+              topics:
+              - software-catalog-details.md
+              - software-pricing-details.md
+              - software-support-details.md
+          - topicgroup:
+              label: Onboarding your software
+              topics:
+              - source-repo-setup.md
+              - software-validate.md
+              - software-helm-target.md
+          - software-publish.md
+          - topicgroup:
+              label: Assigning access to onboard and publish software
+              topics:
+              - software-invite-team.md
+              - /account/account-account-services
+          - topicgroup:
+              label: Managing your software
+              topics:
+              - software-partner-details.md
+              - software-versions.md
+              - software-reload-version.md
+              - /account/account-update-private
+              - /account/account-dep-restore
+      - pc-partner-profile.md
+      - topicgroup:
+          label: Building
+          topics:
+          - build-usage-offers.md
+          - build-fast-track.md
+          - build-workshops.md
+
+  - navgroup:
+      id: reference
+      topics:
+      - topicgroup:
+          label: API reference
+          topics:
+          - topicgroup:
+              label: Services
+              topics:
+              - link:
+                  label: IBM Cloud Open Service Broker API
+                  href: https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api
+              - link:
+                  label: IBM Cloud Usage Metering API
+                  href: https://cloud.ibm.com/apidocs/usage-metering
+          - topicgroup:
+              label: Software
+              topics:
+              - link:
+                  label: Catalog Management API
+                  href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
+      - service-parameter-example.md
+      - software-ova-yaml-example.md
+
+  - navgroup:
+      id: help
+      topics:
+      - pc-support.md
+      - topicgroup:
+          label: FAQs
+          topics:
+          - software-faq.md
+          - service-faq.md
+      - topicgroup:
+          label: Troubleshooting software
+          topics:
+          - ts-repo-upload.md
+          - ts-error-page.md
+          - ts-missing-products.md
+          - ts-cluster-reqs.md
+          - ts-validate-terraform.md
+          - ts-tgz.md
