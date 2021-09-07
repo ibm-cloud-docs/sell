@@ -33,7 +33,7 @@ subcollection: sell
 During the onboarding process, you provide certain details about your product that are displayed in the {{site.data.keyword.cloud}} catalog. The details include your product logo and description, a list of product features, supporting media, and a link to your warranted product documentation. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## Defining your catalog entry

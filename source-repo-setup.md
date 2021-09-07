@@ -28,7 +28,7 @@ subcollection: sell
 Set up your source code repository with the artifacts that are required to onboard your software. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## Creating a release

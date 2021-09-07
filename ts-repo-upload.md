@@ -28,7 +28,7 @@ content-type: troubleshoot
 {: #repo-upload-error}
 {: troubleshoot}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 You receive the following error message when you try to upload your source details from a GitHub repository:

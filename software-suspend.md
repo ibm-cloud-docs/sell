@@ -28,7 +28,7 @@ subcollection: sell
 If you need to remove a product from the {{site.data.keyword.cloud}} catalog, you can suspend it for a short time without permanently deleting it. Suspending a product can be useful if, for example, you discover a bug or a vulnerability in your product that must be investigated before more customers install it. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 Complete the following steps to suspend your product: 

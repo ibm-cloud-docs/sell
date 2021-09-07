@@ -28,7 +28,7 @@ subcollection: sell
 When onboarding your product, you will need to define the pricing model for your software. Currently, the {{site.data.keyword.cloud}} catalog supports free plans and bring your own license (BYOL).
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## Adding a free plan

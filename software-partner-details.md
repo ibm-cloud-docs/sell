@@ -28,7 +28,7 @@ subcollection: sell
 As an account administrator, you can update your company and product details in the {{site.data.keyword.cloud}} Partner Center. The details include the name of the product that you're onboarding and the name and email address of the primary contact for the product.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## Updating your partner information

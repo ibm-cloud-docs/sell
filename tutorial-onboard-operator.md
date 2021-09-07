@@ -37,7 +37,7 @@ completion-time: 45m
 This tutorial walks you through how to onboard a sample Node-RED Operator to your private catalog in {{site.data.keyword.cloud}}. You can onboard an Operator bundle using a TGZ file or an Operator using a CSV file. By completing this tutorial, you learn how to import the Operator, configure the deployment, license, and other details, and validate that the Operator can be installed on a Red Hat OpenShift cluster.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## Before you begin

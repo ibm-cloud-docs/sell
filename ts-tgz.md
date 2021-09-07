@@ -28,7 +28,7 @@ content-type: troubleshoot
 {: #tgz-import-error}
 {: troubleshoot}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have any questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have any questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 You imported your software package as a `.tgz` file from the Software tab in Partner Center, but you can't validate it. In your Schematics logs, the following message is displayed:   

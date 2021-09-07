@@ -33,7 +33,7 @@ FAQs about selling third-party software on {{site.data.keyword.cloud}} might inc
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## What types of software can I add to the {{site.data.keyword.cloud_notm}} catalog? 

@@ -28,7 +28,7 @@ subcollection: sell
 Making sure that your users understand how to get help and support for your product is key. Defining your support experience includes providing details about how users can contact your support team, and describing how {{site.data.keyword.cloud_notm}} Support can collaborate with your support team on customer escalations.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## Providing your support URL

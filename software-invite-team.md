@@ -28,7 +28,7 @@ subcollection: sell
 If you want to enlist team members to help onboard your third-party software to {{site.data.keyword.cloud}}, you can invite them to your account. By inviting team members to your account, they are automatically assigned the required access to complete the onboarding tasks. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 Some tasks, such as building your product's page for the {{site.data.keyword.cloud_notm}}  catalog, typically require a team member who can provide the product's features and benefits, pricing model, and support experience. Other tasks, such as onboarding and testing the product, are geared toward tech-savvy team members. This person will be doing the technical tasks. Send the details that they need to get set up.

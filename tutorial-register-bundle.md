@@ -35,7 +35,7 @@ completion-time: 15m
 This tutorial walks you through how to register an Operator bundle in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Certified Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -44,7 +44,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 {: #bundle-reg-prereqs}
 
 1. Go to {{site.data.keyword.redhat_notm}} OperatorHub to confirm that your Operator bundle exists in the {{site.data.keyword.redhat_notm}} registry.
-1. Request access to Partner Center by contacting kdmeyer@ibm.com. In your email, include your {{site.data.keyword.cloud_notm}} account ID, which you can find on the **Manage** > **Account** > **Account settings** page, and confirm that you understand the process to sell third-party software is a beta release. 
+1. Request access to Partner Center by contacting cloud.onboarding@us.ibm.com. In your email, include your {{site.data.keyword.cloud_notm}} account ID, which you can find on the **Manage** > **Account** > **Account settings** page, and confirm that you understand the process to sell third-party software is a beta release. 
 1. Verify that you're using a Pay-As-You-Go or Subscription account by going to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console. 
 1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
    * Administrator on all account management services and all Identity and Access Management (IAM) services

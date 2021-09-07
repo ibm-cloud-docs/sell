@@ -28,7 +28,7 @@ subcollection: sell
 As the last step in the onboarding process, you can submit a request to publish your third-party software to the {{site.data.keyword.cloud}} catalog. When you publish to the catalog, your software is publicly available for all users. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at kdmeyer@ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
 ## Requesting for approval
