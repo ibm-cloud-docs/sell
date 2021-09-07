@@ -51,13 +51,6 @@ toc:
           - tutorial-define-vsimage.md
           - tutorial-onboard-vsimage.md
           - tutorial-publish-vsimage.md
-      - topicgroup:  
-          label: Onboarding a Terraform template
-          topics:
-          - tutorial-register-terraform.md
-          - tutorial-define-terraform.md
-          - tutorial-onboard-terraform.md
-          - tutorial-publish-terraform.md
 
   - navgroup:
       id: howto
@@ -142,7 +135,6 @@ toc:
   - navgroup:
       id: help
       topics:
-      - pc-support.md
       - topicgroup:
           label: FAQs
           topics:
@@ -152,8 +144,6 @@ toc:
           label: Troubleshooting software
           topics:
           - ts-repo-upload.md
-          - ts-error-page.md
           - ts-missing-products.md
-          - ts-cluster-reqs.md
           - ts-validate-terraform.md
           - ts-tgz.md
