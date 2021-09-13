@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-06-04"
+lastupdated: "2021-09-09"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker
 
@@ -59,7 +59,7 @@ Not all languages are represented by a sample. If you need a sample Python broke
 ## View our {{site.data.keyword.Bluemix_notm}} Open Service Broker API Documentation
 {: #docs}
 
-Service brokers can be developed with an understanding of the [{{site.data.keyword.Bluemix_notm}} Open Service Broker API](https://{DomainName}/apidocs/resource-controller/ibm-cloud-osb-api){: external}. Become familiar with the Broker API, and how it interacts with your broker or brokers.
+Service brokers can be developed with an understanding of the [{{site.data.keyword.Bluemix_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api){: external}. Become familiar with the Broker API, and how it interacts with your broker or brokers.
 
 The {{site.data.keyword.Bluemix_notm}} Open Service Broker extends the Open Service Broker 2.12 specification.
 {: tip}
