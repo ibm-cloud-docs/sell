@@ -78,7 +78,7 @@ Provide details that are displayed on your catalog entry and product page when y
 
 1. Click **Product details** > **Add logo**, and enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`.
 1. Provide a short description of your product, which is displayed on your catalog entry. For the purposes of this tutorial, you can enter `This Operator is a developer tool.`
-1. From the **Category** list, select an option that best fits how users might use your product, for example, **Developer Tools**. Categories are used to organize products in the catalog based on common solutions, function, or use. 
+1. From the **Category** list, select an option that best fits how users might use your product, for example, **Developer tools**. Categories are used to organize products in the catalog based on common solutions, function, or use. 
 1. Select **Third party** as the **Provider** type.
 1. Enter keywords that users might use when searching the catalog for your product, for example, `cluster`, `operator`, `node-red`. 
 1. Provide a list of features that highlights your product's attributes and benefits for users.

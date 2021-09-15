@@ -80,10 +80,10 @@ The following table describes each type of category that you can select.
 | Compute | Infrastructure resources that serve as the basis for building apps in the cloud. |
 | Containers | A standard unit of software that packages up code, and all its dependencies, so the app runs quickly and reliably from one computing environment to another. |
 | Databases | Products that provide some form of access to a database without requiring setting up physical hardware, installing software, or configuring for performance. |
-| Developer Tools | Products that support developing, testing, and debugging software. |
+| Developer tools | Products that support developing, testing, and debugging software. |
 | Integration | Products that facilitate the connection of data, apps, APIs, and devices across an organization to be more efficient, productive, and agile. |
 | Internet of Things | Products that support receiving and transferring data over wireless networks without human intervention. |
-| Logging and Monitoring | Products that support storing, searching, analyzing, and monitoring log data and events. And, products that support reviewing and managing the operational workflow and processes being logged. |
+| Logging and monitoring | Products that support storing, searching, analyzing, and monitoring log data and events. And, products that support reviewing and managing the operational workflow and processes being logged. |
 | Mobile| Products with specific or special utility for users creatings things to be used on mobile devices. |
 | Networking | Products that support or augment the linking of computers so they can operate interactively. |
 | Security | Products that provide the protection of stored data from theft, leakage, and deletion. |
