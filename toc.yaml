@@ -98,6 +98,7 @@ toc:
               - software-partner-details.md
               - software-versions.md
               - software-reload-version.md
+              - software-suspend.md
               - /account/account-update-private
               - /account/account-dep-restore
       - pc-partner-profile.md
