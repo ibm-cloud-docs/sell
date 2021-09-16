@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2021
 
-lastupdated: "2021-06-11"
+lastupdated: "2021-09-02"
 
 keywords: Q P, offering usage, metering service, configuration, metering model, daily proration 
 
@@ -41,18 +41,20 @@ For general information about pricing, see [How to calculate your costs](/docs/b
 
 The following properties define how usage submissions for offering plans are metered and rated:
 
-<dl>
-<dt>Unit</dt>
-<dd>Metrics to be metered, for example, ApiCall, Bytes, Hours, Instances, and Nodes.</dd>
-<dt>Aggregation</dt>
-<dd>How metered unit data is compiled, for example INSTANCES_BY_MONTH, or ACTIVE_HOURS_BY_MONTH.</dd>
-<dt>Metering model</dt>
-<dd>How usage submission data is processed, as shown in the following table.</dd>
-<dt>Resource name</dt>
-<dd>The name of the resource that is being measured, for example, storage, instance, virtual server, or bytes transmitted.</dd>
-<dt>Unit name</dt>
-<dd>The descriptive name of the unit if the default name isn't relevant for the offering.</dd>
-</dl>
+Unit
+:   Metrics to be metered, for example, ApiCall, Bytes, Hours, Instances, and Nodes.
+
+Aggregation
+:   How metered unit data is compiled, for example INSTANCES_BY_MONTH, or ACTIVE_HOURS_BY_MONTH.
+
+Metering model
+:   How usage submission data is processed, as shown in the following table.
+
+Resource name
+:   The name of the resource that is being measured, for example, storage, instance, virtual server, or bytes transmitted.
+
+Unit name
+:   The descriptive name of the unit if the default name isn't relevant for the offering.
 
 ## Metering model types
 {: #metermodel}

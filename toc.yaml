@@ -2,6 +2,7 @@
 toc:
   properties:
     subcollection: sell
+    version: 2
     category: platform_services
     audience: platform
     href: /docs/sell
