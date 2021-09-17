@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2021
 
-lastupdated: "2021-06-11"
+lastupdated: "2021-09-02"
 
 keywords: Q P, offering usage, metering service, configuration, metering model, daily proration 
 
@@ -41,18 +41,20 @@ For general information about pricing, see [How to calculate your costs](/docs/b
 
 The following properties define how usage submissions for offering plans are metered and rated:
 
-<dl>
-<dt>Unit</dt>
-<dd>Metrics to be metered, for example, ApiCall, Bytes, Hours, Instances, and Nodes.</dd>
-<dt>Aggregation</dt>
-<dd>How metered unit data is compiled, for example INSTANCES_BY_MONTH, or ACTIVE_HOURS_BY_MONTH.</dd>
-<dt>Metering model</dt>
-<dd>How usage submission data is processed, as shown in the following table.</dd>
-<dt>Resource name</dt>
-<dd>The name of the resource that is being measured, for example, storage, instance, virtual server, or bytes transmitted.</dd>
-<dt>Unit name</dt>
-<dd>The descriptive name of the unit if the default name isn't relevant for the offering.</dd>
-</dl>
+Unit
+:   Metrics to be metered, for example, ApiCall, Bytes, Hours, Instances, and Nodes.
+
+Aggregation
+:   How metered unit data is compiled, for example INSTANCES_BY_MONTH, or ACTIVE_HOURS_BY_MONTH.
+
+Metering model
+:   How usage submission data is processed, as shown in the following table.
+
+Resource name
+:   The name of the resource that is being measured, for example, storage, instance, virtual server, or bytes transmitted.
+
+Unit name
+:   The descriptive name of the unit if the default name isn't relevant for the offering.
 
 ## Metering model types
 {: #metermodel}
@@ -198,9 +200,8 @@ The following table provides detailed information about the pricing models that 
 | Model          | Description | Calculation | Example (5000 quantity) |
 |:-----------------|:-------------|:----------- |:---------------------|
 | Linear         | Multiply the unit price per resource (P) by the usage quantity (Q) to get the total amount (T)  | P*Q    | P=$1 T=1*5000 =$5000        |
-| Proration      | Multiply the daily unit price per resource (P) by the daily usage quantity (Q) to get the total daily amount. The total charge involves cumulating the charges for all days within the month.         | T= (pd * Q1) + ...+(Pd * Qn)     | <br><br>P= $30<br><br>Pd (daily price) =$30/30=$1 (assuming 30 days in a month)<br><br>T1= $1 * 1 =$1<br><br>T2 = $1 * 0 =$0<br><br>Tn = 1 * 1 =$1<br><br>T = $1 + $0 +...+$1 = $5000<br><br>     |
-| Simple tier (granular tier)  | A P*Q model in which the unit price for all consumption is determined by the tier the quantity falls into.           | <br><br>If Q is <=Q1, T=P1*Q<br><br>If Q1 < Q <=Q2, T=P2*Q<br><br>If Q2 < Q <=Q3, T=P3*Q<br><br>     |   <br><br>Q1=1000, P1=$1<br><br>Q2=2500, P2=$0.9<br><br>Q3=10000, P3=$0.75<br><br>T=$0.75*5000=$3750<br><br>              |
-| Graduated tier (step tier)   | The price per unit varies as the quantity consumed moves into different predefined tiers. The total charge involves cumulating the charges from the previous tiers           | <br><br>T1=P1*Q (0 < Q<br><br>If Q1 < Q <=Q2, T=T2<br><br>If Q2 < Q <=Q3, T=T3<br><br>     | <br><br>Q1=1000, P1=$1, T1=1*1000<br><br>Q2=1500, P2=$0.9, T2=0.9*1500<br><br>Q3=10000, P3=$0.75, T3=0.75*2500<br><br>T=1000 +1350+1875=$4225<br><br>         |
-| Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     | <br><br>If Q is <=Q1, T=T1<br><br>If Q1 < Q <=Q2, T=T2<br><br>If Q2 < Q <=Q3, T=T3<br><br>    |  <br><br>Q1=1000, T1=$0<br><br>Q2=2500, T2=2500<br><br>Q3=10000, T3=$4500<br><br>T=$4500<br><br>            |
+| Proration      | Multiply the daily unit price per resource (P) by the daily usage quantity (Q) to get the total daily amount. The total charge involves cumulating the charges for all days within the month.         | T= (pd * Q1) + ...+(Pd * Qn)     |   \n  \nP= $30  \n  \nPd (daily price) =$30/30=$1 (assuming 30 days in a month)  \n  \nT1= $1 * 1 =$1  \n  \nT2 = $1 * 0 =$0  \n  \nTn = 1 * 1 =$1  \n  \nT = $1 + $0 +...+$1 = $5000  \n  \n     |
+| Simple tier (granular tier)  | A P*Q model in which the unit price for all consumption is determined by the tier the quantity falls into.           |   \n  \nIf Q is <=Q1, T=P1*Q  \n  \nIf Q1 < Q <=Q2, T=P2*Q  \n  \nIf Q2 < Q <=Q3, T=P3*Q  \n  \n | \n  \nQ1=1000, P1=$1  \n  \nQ2=2500, P2=$0.9  \n  \nQ3=10000, P3=$0.75  \n  \nT=$0.75*5000=$3750  \n  \n              |
+| Graduated tier (step tier)   | The price per unit varies as the quantity consumed moves into different predefined tiers. The total charge involves cumulating the charges from the previous tiers           |   \n  \nT1=P1*Q (0 < Q  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n     |   \n  \nQ1=1000, P1=$1, T1=1*1000  \n  \nQ2=1500, P2=$0.9, T2=0.9*1500  \n  \nQ3=10000, P3=$0.75, T3=0.75*2500  \n  \nT=1000 +1350+1875=$4225  \n  \n         |
+| Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     |   \n  \nIf Q is <=Q1, T=T1  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n    |   \n  \nQ1=1000, T1=$0  \n  \nQ2=2500, T2=2500  \n  \nQ3=10000, T3=$4500  \n  \nT=$4500  \n  \n            |
 {: caption="Table 7. Pricing models" caption-side="top"}
-

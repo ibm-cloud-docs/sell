@@ -39,8 +39,8 @@ The process to sell third-party software is still under development. With the cu
 1. Click **Dashboard**.
 1. To update the company name or primary contact, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to each field.
 
-  To update the primary contact, the user must already be a member of your account. For more information, see [Inviting team members to help onboard software](/docs/sell?topic=sell-sw-invite-team).
-  {: tip}
+   To update the primary contact, the user must already be a member of your account. For more information, see [Inviting team members to help onboard software](/docs/sell?topic=sell-sw-invite-team).
+   {: tip}
 
 ## Updating your company information
 {: #sw-details-company-name-dpa}

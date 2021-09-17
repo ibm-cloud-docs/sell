@@ -78,14 +78,14 @@ Provide details that are displayed on your catalog entry and product page when y
 1. Enter keywords that users might use when searching the catalog for your product, for example, `dev tools` and `operator`.
 1. Provide a list of features that highlights your product's attributes and benefits for users.
 
-  Use a descriptive title and 1-2 sentences for each feature. You want the information to be visually scannable for users.
-  {: tip}
+   Use a descriptive title and 1-2 sentences for each feature. You want the information to be visually scannable for users.
+   {: tip}
 
 1. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't simply repeat it. 
 1. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo. 
 
-  Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features.
-  {: tip}
+   Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features.
+   {: tip}
 
 1. Provide a link to your product's warranted documentation. 
 
@@ -106,16 +106,16 @@ Provide details that help users understand how to get support if they encounter 
 1. Click **Support**, and enter the URL to your support website, for example, `https://support.examplecorp.com/`.
 2. For your support response process, describe what users can expect when they contact your support team, for example:
 
-  `Contact Example Corp Support online at https://support.examplecorp.com, by chat at https://support.examplecorp.com/chat, or by phone at https://support.examplecorp.com/phone. Support is available 24 hours a day, 7 days a week, 365 days a year and is provided in English and French.`
+   `Contact Example Corp Support online at https://support.examplecorp.com, by chat at https://support.examplecorp.com/chat, or by phone at https://support.examplecorp.com/phone. Support is available 24 hours a day, 7 days a week, 365 days a year and is provided in English and French.`
   
 3. Enter or select all the countries in which support for your product is based.
 4. Describe the process that {{site.data.keyword.cloud_notm}} Support follows when customers escalate issues that are handled by your support team, for example:
 
-  `For client escalations, {{site.data.keyword.cloud_notm}} support representatives should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
+   `For client escalations, {{site.data.keyword.cloud_notm}} support representatives should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
   
 5. Describe how {{site.data.keyword.cloud_notm}} Support can contact your support team, for example:
 
-  `For support process discussions, {{site.data.keyword.cloud_notm}} support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
+   `For support process discussions, {{site.data.keyword.cloud_notm}} support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
 
 ## Next steps
 {: #bundle-define-next}
