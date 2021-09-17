@@ -34,7 +34,6 @@ toc:
       - topicgroup:
           label: Onboarding a Node-RED Operator
           topics:
-          - tutorial-register-operator.md
           - tutorial-define-operator.md
           - tutorial-onboard-operator.md
           - tutorial-publish-operator.md
@@ -101,13 +100,6 @@ toc:
               - software-reload-version.md
               - /account/account-update-private
               - /account/account-dep-restore
-      - pc-partner-profile.md
-      - topicgroup:
-          label: Building
-          topics:
-          - build-usage-offers.md
-          - build-fast-track.md
-          - build-workshops.md
 
   - navgroup:
       id: reference
