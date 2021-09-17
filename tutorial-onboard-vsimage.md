@@ -54,8 +54,8 @@ This tutorial includes deploying the virtual server image to a target VPC. As a 
 4. Create your [Terraform template](/docs/schematics?topic=schematics-create-tf-config). 
 5. [Upload your Terraform template and readme file to your GitHub repository](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/main#upload-your-terraform-template-to-a-github-release){: external}. 
 
-  Use the [latest release of the sample Terraform code](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/tag/v1.0 ){: external} as an example of how to set up your repository.
-  {: tip}
+   Use the [latest release of the sample Terraform code](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/tag/v1.0 ){: external} as an example of how to set up your repository.
+   {: tip}
    
 6. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the catalog management service and product lifecycle service. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
 7. Complete the previous tutorials in the series: [Registering a virtual server image in the Partner Center](/docs/sell?topic=sell-vsimage-register) and [Defining the product details of a virtual server image](/docs/sell?topic=sell-vsimage-define). 
