@@ -31,7 +31,7 @@ If you want to enlist team members to help onboard your third-party software to 
 The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
-Some tasks, such as building your product's page for the {{site.data.keyword.cloud_notm}}  catalog, typically require a team member who can provide the product's features and benefits, pricing model, and support experience. Other tasks, such as onboarding and testing the product, are geared toward tech-savvy team members. This person will be doing the technical tasks. Send the details that they need to get set up.
+When you invite team members to your account, they are assigned editor access to the following services by default:
 
 * Product lifecycle: Editors can complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog. 
 * Catalog management: Editors can onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visiblity of products in the {{site.data.keyword.cloud_notm}} catalog.
