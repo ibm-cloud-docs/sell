@@ -1,10 +1,18 @@
 ---
 
-
 copyright:
-  years: 2020
-lastupdated: "2021-05-19"
 
+  years: 2020, 2021
+
+lastupdated: "2021-09-24"
+
+keywords: OVA images, metadata, YAML, onboard, GitHub, publish
+
+subcollection: sell
+
+content-type: api-docs
+
+title: Example YAML file for onboarding OVA images
 
 ---
 
@@ -18,11 +26,12 @@ lastupdated: "2021-05-19"
 {:important: .important}
 {:download: .download}
 {:external: target="_blank" .external}
+{:yaml: .ph data-hd-programlang='yaml'}
 
 # Example YAML file for onboarding OVA images
 {: #3p-ova-prereqs}
 
-The process to onboard OVA images is the same as onboarding other third-party software except you need to add a YAML file that contains required onboarding information. Manually create the YAML and add it to your GitHub repo that you reference during the onboarding process.  
+The process to onboard OVA images is the same as onboarding other third-party software except you need to add a YAML file that contains required onboarding information. Manually create the YAML and add it to your GitHub repo that you reference during the onboarding process.
 {: shortdesc}
 
 The process to sell third-party software is available solely for providers that understand the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
@@ -39,7 +48,7 @@ The following table lists the metadata to include in your YAML file:
 |---------------|----------|
 | `app_id`      | The programmatic name of the product. Not exposed to the user. |
 | `title`       | The name of the product that's externally displayed in the public catalog. |
-| `version`     | The version ID of the OVA image. You must update each time that you update the OVA image. This value must be in semantic versioning, for example, `1.0.0`, `1.0.1`, `1.0.2`. | 
+| `version`     | The version ID of the OVA image. You must update each time that you update the OVA image. This value must be in semantic versioning, for example, `1.0.0`, `1.0.1`, `1.0.2`. |
 | `revision`    | The version of the OVA Metadata. You must update each time that you update your metadata. |
 | `kind`        | The value is always `ova`. |
 | `image`       | The object that contains `url` or `sha256` values. |
@@ -55,19 +64,20 @@ The following table lists the metadata to include in your YAML file:
 {: caption="Table 1. Required metadata for OVA images" caption-side="top"}
 
 
-## Example
+## YAML example
+{: yaml}
 
-The following example shows a YAML file that is formatted with the required metadata. 
+The following example shows a YAML file that is formatted with the required metadata.
 
-```
+```yaml
 app_id: devName
 title: productName
 version: 5.4.2-0
 revision: 3
-kind: ova,
+kind: ova
 image:
- url: https://productURL-5.4.2-0.ova
- sha256: 1aaa22bbb33c44444dd5e66f4g7hh8i99j11kk22ll33m4nn5555o6pp77qq888r
+  url: https://productURL-5.4.2-0.ova
+  sha256: 1aaa22bbb33c44444dd5e66f4g7hh8i99j11kk22ll33m4nn5555o6pp77qq888r
 eula_url: https://www.product.org/licenses/LICENSE-2.0.txt
 eula_label: Product 2.0
 categories:
@@ -77,12 +87,9 @@ description: "Description for OVA image offering."
 readme: The full text for the required readme about the ova image.
 links:
 - id: docs_index
- title: Getting started
- url: https://docs.OVAimage-gettingStarted.com
+    title: Getting started
+    url: https://docs.OVAimage-gettingStarted.com
 - id: support_index
- title: Product Support
- url: https://docs.OVAimage-support.com
+    title: Product Support
+    url: https://docs.OVAimage-support.com
 ```
-
-
-
