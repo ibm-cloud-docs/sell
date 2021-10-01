@@ -98,6 +98,8 @@ toc:
               - software-partner-details.md
               - software-versions.md
               - software-reload-version.md
+              - software-deprecate-product.md
+              - software-restore-product.md
               - software-suspend.md
               - /account/account-update-private
               - /account/account-dep-restore
