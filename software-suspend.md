@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-01"
+lastupdated: "2021-10-05"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, product lifecycle, remove, delete, deprecate
 
@@ -31,14 +31,7 @@ If you need to remove a product from the {{site.data.keyword.cloud}} catalog, yo
 The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
 {: beta}
 
-<!-- Deprecation note should be added back in to this topic when deprecation goes live in September 2021 
-Suspending your product will not permanently delete it from the {{site.data.keyword.cloud_notm}} catalog. If you need to permanently delete your product, deprecate it instead. 
-{: note}-->
-
 Complete the following steps to suspend your product: 
-
-<!-- STAGING ONLY: Link to PC in step 1. Confirming that the menu entry isn't available. If not the case, need to revert to original. -->
-<!-- Original: In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Team**. -->
 
 1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the product you want to suspend, and select **Suspend**.  

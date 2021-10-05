@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-01"
+lastupdated: "2021-10-05"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, product lifecycle, remove, delete, deprecate
 
@@ -35,9 +35,6 @@ Deprecating your product or version will permanently delete it from the {{site.d
 {: note}
 
 Complete the following steps to deprecate your product or version: 
-
-<!-- STAGING ONLY: Link to PC in step 1. Confirming that the menu entry isn't available. If not the case, need to revert to original. -->
-<!-- Original: In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Team**. -->
 
 1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the product you want to deprecate, and select **Deprecate**.  

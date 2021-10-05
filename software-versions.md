@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-10-05"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, version
 
@@ -23,7 +23,7 @@ subcollection: sell
 {:download: .download}
 
 
-# Adding a version of your software
+# Adding a new version of software
 {: #add-version-software}
 
 After onboarding your software, you can add multiple versions of your software to your private catalog.

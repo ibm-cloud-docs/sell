@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2021
 
-lastupdated: "2021-08-04"
+lastupdated: "2021-10-05"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -46,20 +46,18 @@ The process to sell third-party software is still under development. With the cu
 2. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
 3. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
 4. Set up the test environment that was previously created for you:
-  
-   * Install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.cloud_notm}} Schematics plug-in. See [Setting up the CLI](/docs/schematics?topic=schematics-setup-cli).
-   * Upload a readme file that contains your product installation instructions to your GitHub repository. See [Setting up your source code repository](/docs/sell?topic=sell-source-repo-setup).
-   * For containerized apps:
 
-    * Create your [Kubernetes cluster](/docs/containers?topic=containers-getting-started) or [Red Hat OpenShift cluster](/docs/openshift?topic=openshift-getting-started).
-    * For deployments to {{site.data.keyword.cloud_notm}} Kubernetes Service, [set up your Helm chart](/docs/containers?topic=containers-helm).
-    * For deployments to Red Hat OpenShift, set up your [Helm chart](/docs/openshift?topic=openshift-helm) or [Operator](/docs/openshift?topic=openshift-operators).
+* Install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.cloud_notm}} Schematics plug-in. See [Setting up the CLI](/docs/schematics?topic=schematics-setup-cli).
+* Upload a readme file that contains your product installation instructions to your GitHub repository. See [Setting up your source code repository](/docs/sell?topic=sell-source-repo-setup).
+* For containerized apps:
+   * Create your [Kubernetes cluster](/docs/containers?topic=containers-getting-started) or [Red Hat OpenShift cluster](/docs/openshift?topic=openshift-getting-started).
+   * For deployments to {{site.data.keyword.cloud_notm}} Kubernetes Service, [set up your Helm chart](/docs/containers?topic=containers-helm).
+   * For deployments to Red Hat OpenShift, set up your [Helm chart](/docs/openshift?topic=openshift-helm) or [Operator](/docs/openshift?topic=openshift-operators).
 
-   * For virtual machine images:
-
-    * Review the list of [supported images](/docs/vpc?topic=vpc-about-images).
-    * Create your [Terraform template](/docs/schematics?topic=schematics-getting-started).
-    * Create an instance of [{{site.data.keyword.cloud_notm}} Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and add your image to a bucket.
+* For virtual machine images:
+   * Review the list of [supported images](/docs/vpc?topic=vpc-about-images).
+   * Create your [Terraform template](/docs/schematics?topic=schematics-getting-started).
+   * Create an instance of [{{site.data.keyword.cloud_notm}} Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and add your image to a bucket.
 
 ## Importing a version to your private catalog
 {: #sw-validate-add}
@@ -131,6 +129,6 @@ The steps to validate your product can vary based on the type of software that y
 1. Configure your workspace, and click **Next**. This step applies only to Helm charts, Operators, Terraform templates, and virtual server images with Terraform. 
 1. Click **Validate**.  
 
-    To monitor the progress of the validation process, click **View logs**.
-    {: tip}
+To monitor the progress of the validation process, click **View logs**.
+{: tip}
 

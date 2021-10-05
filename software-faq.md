@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-07-30"
+lastupdated: "2021-10-05"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -55,6 +55,21 @@ See the following list for the types of third-party software that you can curren
 
 Use your {{site.data.keyword.cloud_notm}} account to onboard software to the catalog. In some cases an {{site.data.keyword.IBM_notm}} representative, with their own account, might be helping you with the onboarding process. If you want the representative to access your software in your test environment, you can add them to your account. For more details, see [Inviting users to an account](/docs/account?topic=account-iamuserinv).
 
+## What's the difference between onboarding an Operator from my GitHub repository and onboarding an Operator from Red Hat? 
+{: #onboard-operator-GitHub-vs-RedHat}
+{: faq}
+
+One major difference is the packaging format: a *ClusterServiceVersion* (CSV) file for an Operator from a GitHub repository and an Operator bundle from a Red Hat registry. For example formats of each option, see [Importing a version from your private catalog](/docs/sell?topic=sell-sw-validate#sw-validate-add).
+
+## Can I update an Operator that was onboarded from the Red Hat registry?
+{: #update-operator-redhat}
+{: faq}
+
+Yes, see the following links for more information:
+
+* [Adding a new version of software](/docs/sell?topic=sell-add-version-software).
+* [Reloading a software version](/docs/sell?topic=sell-software-reload).
+
 ## How do I upload a version from my GitHub repository?
 {: #gh-upload-sw}
 {: faq}
@@ -91,8 +106,8 @@ If you're the account owner, or if you have the required access, you can remove 
 
 Yes, go to **Manage > Access (IAM)** in the console, and select your name on the **Users** page. Then, depending on the access you're looking for, select the different tabs:
 
-   * To determine what access you have through the access groups you are assigned, select **Access groups**.
-   * To see IAM access policies that are assigned to you, select the **Access policies**.
+* To determine what access you have through the access groups you are assigned, select **Access groups**.
+* To see IAM access policies that are assigned to you, select the **Access policies**.
 
 ## How long does it take to onboard a product? 
 {: #time-onboard}

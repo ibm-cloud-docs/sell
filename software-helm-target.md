@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-08-04"
+lastupdated: "2021-10-05"
 
 keywords: onboard software, third-party software, Helm chart, software, partner, sellers, deploy, partner center, target, deployment target
 
@@ -23,7 +23,6 @@ subcollection: sell
 
 # Deploying a Helm chart to a new target
 {: #helm-target-new}
-
 
 To deploy a version of a Helm chart to another deployment target, you can copy the configuration of the existing version and deploy it to a new target. The deployment target options for Helm charts are {{site.data.keyword.containerlong_notm}} and {{site.data.keyword.openshiftlong_notm}}.
 {: shortdesc}

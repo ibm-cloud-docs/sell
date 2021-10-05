@@ -75,34 +75,35 @@ toc:
           label: Selling software
           topics:
           - topicgroup:
-              label: Defining your product details in Partner Center
-              topics:
-              - software-catalog-details.md
-              - software-pricing-details.md
-              - software-support-details.md
-          - topicgroup:
-              label: Onboarding your software
-              topics:
-              - source-repo-setup.md
-              - software-validate.md
-              - software-helm-target.md
-          - software-publish.md
-          - topicgroup:
               label: Assigning access to onboard and publish software
               topics:
               - software-invite-team.md
               - /account/account-account-services
           - topicgroup:
-              label: Managing your software
+              label: Defining your product details in Partner Center
               topics:
+              - software-catalog-details.md
+              - software-pricing-details.md
+              - software-support-details.md
               - software-partner-details.md
+          - topicgroup:
+              label: Onboarding your software
+              topics:
+              - source-repo-setup.md
+              - software-validate.md
+          - software-publish.md
+          - topicgroup:
+              label: Updating your software
+              topics:
               - software-versions.md
               - software-reload-version.md
+              - software-helm-target.md
+          - topicgroup:
+              label: Deprecatinga and restoring your software
+              topics:
               - software-deprecate-product.md
               - software-restore-product.md
-              - software-suspend.md
-              - /account/account-update-private
-              - /account/account-dep-restore
+          - software-suspend.md
 
   - navgroup:
       id: reference
