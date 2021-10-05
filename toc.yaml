@@ -99,7 +99,7 @@ toc:
               - software-reload-version.md
               - software-helm-target.md
           - topicgroup:
-              label: Deprecatinga and restoring your software
+              label: Deprecating and restoring your software
               topics:
               - software-deprecate-product.md
               - software-restore-product.md
