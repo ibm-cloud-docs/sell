@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-09-01"
+lastupdated: "2021-10-12"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -48,61 +48,58 @@ Review the list of supported software:
 ## Watch and learn
 {: #onboard-software}
 
-Onboarding software to {{site.data.keyword.cloud_notm}} involves four major steps: registering your product, defining your catalog entry and other details, onboarding your product, and publishing your product to the {{site.data.keyword.cloud_notm}} catalog. In the following demo, we use a sample Operator to walk you through the entire process.
+Onboarding software to {{site.data.keyword.cloud_notm}} involves four major steps: registering in Partner Center, customizing your product details for the {{site.data.keyword.cloud_notm}} catalog, testing and validating your product, and, finally, publishing your product. Check out the following video for a walk-through of the complete process.
 
-![Onboarding software to the IBM Cloud catalog](https://cdnapisec.kaltura.com/html5/html5lib/v2.89/mwEmbedFrame.php/p/1773841/uiconf_id/27941801/entry_id/1_7nuthfz6?wid=_1773841&iframeembed=true&entry_id=1_7nuthfz6){: video output="iframe" data-script="#onboard-software-script" id="mediacenterplayer" frameborder="0" allowfullscreen webkitallowfullscreen mozAllowFullScreen}
+![Selling on IBM Cloud](https://video.ibm.com/embed/channel/23952684/video/sell-on-ibm-cloud){: video output="iframe" data-script="#onboard-software-script" id="watsonmediaplayer" width="560" height="315" scrolling="no" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="border: 0 none transparent;"}
 
 ### Video transcript
 {: #onboard-software-script}
 {: notoc}
 
-As a third-party vendor, onboarding software to the {{site.data.keyword.cloud_notm}} catalog involves four major steps - getting started, defining your product, onboarding your product, and, finally, publishing your product. In this demo, we'll show you the onboarding process for an Operator. 
+By onboarding and selling your product on {{site.data.keyword.cloud_notm}}, you can grow your business and expand your reach to clients globally, by leveraging {{site.data.keyword.IBM_notm}}'s trusted relationships with fortune 500 enterprises. You can accelerate your time to market and gain a competitive edge, all while taking advantage of flexible, secure options across open source and compute technologies. 
 
-Get started in the Partner Center - your one-stop shop for onboarding third-party products to {{site.data.keyword.cloud_notm}}. [Click **Get started** on the Partner Center home page to open the Getting started dashboard].
+Onboarding your product involves four major steps - registering in Partner Center, customizing your product details, testing and validating your product, and, finally, publishing your product. In this demo, we’ll focus on using a Terraform template as the delivery method. 
 
-Provide the name of your company, then create your test environment. This test environment will house your product during the onboarding process. [In the Create your test environment section, click **Create**]
+Get started by heading to Partner Center in the {{site.data.keyword.cloud_notm}} console - your one-stop shop for onboarding your product. [Click **My products** on the Partner Center home page to open the Getting started dashboard] 
 
-Next, invite team members to help you onboard your product. You can also send invites later from the My My Team page in Partner Center. [In the Assign access section, click **Assign**. In the Onboard your product section, click **Let's go**.]
+First, register your product by providing the name of your company and then creating your test environment. This test environment will house your product during the onboarding process. [In the Create your test environment section, click **Create**]
+ 
+Next, if you want team members to help with the onboarding process, get them set up with access to your account. [In the Assign access section, click **Assign** to assign access. Then, click **Let's go**.] 
 
-Before you begin defining the details of your product, confirm your legal agreement with {{site.data.keyword.IBM}}. You can instantly accept the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, or you can upload your own custom agreement, which will need to be reviewed and approved by {{site.data.keyword.IBM_notm}}. [Click **Confirm your digital provider agreement**.]
+Confirm your legal agreement with {{site.data.keyword.IBM_notm}}. You can instantly accept the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, or you can upload your own custom agreement, which will need to be reviewed and approved by {{site.data.keyword.IBM_notm}}. [Click **Provide details** then click **Standard** and confirm that you've read and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement.] 
 
-After confirming your agreement, Click **Create**, and add the name of your product. 
+After confirming your agreement, click **Create**, and add the name of your product. [Click **My products** > **Create**] 
 
-Information that you provide on the Catalog entry tab displays on your product's catalog tile in the {{site.data.keyword.cloud_notm}} catalog. Provide a link to your company or product logo and a description of your product. To help users find your software in the catalog, select the category that best fits your product. [Click **Catalog entry**. Then, click **Add logo** to add a link to your logo. Then, click **Enter description** to enter a description of your product. Then, click **Select category**.]
+Now you’re ready to customize your product for the catalog. The information that you provide on the Product details tab is displayed in two places: your catalog tile and your detailed product page. For your catalog entry, provide a link to your company or product logo and a description of your product. To help users find your software in the catalog, select the category that best fits your product. [Click **Product details**. Then, click **Add logo** to add a link to your logo. Then, click **Summarize what the product is and its value** to enter a description of your product. Then, click **Select category** and select **Developer tools**.]   
+ 
+Next, select the third-party provider type. You can also enter keywords to help users find your product in the catalog.
+For your product page, provide a list of features that users can quickly scan to get an overview of what it’s all about. [Click **Add a list of product features**.]
+ 
+Then, provide a detailed description that explains its value in more detail. [Click **Enter text that explains the product's value and benefits to users**.] 
+ 
+Provide links to high-quality images or videos, and, finally, provide a link to your official documentation. [Click **Add media** to add images or videos. Click **Add your documentation URL** to add a link to your official documentation. ]
 
-Next, select the third-party provider type. You can also enter keywords to help users find your Operator in the catalog. [Click **Select a type**.]
+Next, define your pricing model. Currently, you can select a free plan or a bring your own license plan. Note that a bring your own license, or BYOL plan requires a URL to the license. [Click **Pricing** and select the Free pricing model.]
 
-Then, define the pricing model for your software. Currently, you can select a free plan or a bring your own license plan. Note that a Bring your own license, or BYOL plan requires a URL to the license. [Click **Pricing** and select the Free pricing model.]
+Head over to the Support tab and define your support experience. First, provide details that explain how users can get self-help, open support cases, and engage directly in real time with your support team. [Click **Support**. Then, click **Provide URL** to add your support site URL. Click **Desribe process for responding to support issues** to describe the support process. Then, click **Provide the countries in which support is available** to add support locations.]  
+ 
+Next, explain how {{site.data.keyword.cloud_notm}} Support leaders can contact your support team leaders. [Click **Describe process for {{site.data.keyword.cloud_notm}} response to support issues** and provide a description of the support process. Click **Provide support contact information** to share the support contacts with {{site.data.keyword.IBM_notm}}.]
 
-{{site.data.keyword.IBM_notm}} and users of your Operator will need support information in case there are any issues with your software. Provide a link to your support site, and describe the support process with as much detail as possible. Make sure to include contact information and response times. [Click **Support**. Then, click **Provide URL** to add your support site URL. Click **Desribe process for responding to support issues** to describe the support process. Then, click **Provide the countries in which support is available** to add support locations.]
+From the Software tab, import a version of your product to the test environment that you created when you registered your product. [Click **Software**. Then, click **Import a version**.] 
+ 
+Choose your delivery method and select your source repository type – either public or private – and provide the URL to it. Then, enter the version of your product. After importing your product, you're ready to configure it by adding any required deployment values. [Click **Step 2 - Configure the deployment details** to add deploymnt values.]  
 
-{{site.data.keyword.IBM_notm}} may need to be involved in the support process, so be sure to provide a direct contact to your support team. [Click **Describe process for {{site.data.keyword.cloud_notm}} response to support issues** and provide a description of the support process. Click **Provide support contact information** to share the support contacts with {{site.data.keyword.IBM_notm}}.]
+Add links to the license agreements that your users are required to accept when they install your product. [Click **Add license agreements**.]  
 
-From the Software tab, you can begin importing your product. In your test environment, select Operator as your deployment method. Confirm your public source repository and provide the URL. Make sure this repository contains your CSV file. Then, enter the version of your software. [Click **Software**. Then, click **Import a version**.]
+Now, you’re ready to validate that your product can be successfully installed on the deployment target. [Click **Validate product**. CLick **Next > Next > Validate** to validate your product.] 
 
-After importing a version of your software, you can configure your Operator. Since we're using the {{site.data.keyword.IBM_notm}} Container registry, which is public, we don't need to set an image pull secret. An image pull secret is needed if you want to use your own private container registry. 
+Head back to Partner Center and check your progress in the Onboarding checklist. [Once validation is complete, click **Go to Partner Center**.]  
+ 
+At this point, you’ve completed all the required tasks and you’re ready to submit your product for publishing approval. [Click **Request approval**.]  
+ 
+Submitting your request automatically notifies our onboarding team that you’re ready to publish your product to the catalog. We’ll review the details that you provided and either approve your product for publishing, or request some updates. You'll get an email with details about any changes that you might need to make. 
 
-If there are additional terms of use that end users are required to accept, add a link to the end user license agreements. Note that third-party products require an end user license agreement. [Click **Add license agreements**.]
-
-Users access installation instructions for your Operator in your readme file, which is generated from your CSV file. Review the readme, make any edits if needed, and save it. [click **Edit readme**.]
-
-To validate your Operator, select your target cluster and project. Then, return to Partner Center to finish onboarding your product. [Click **Validate product**. Select a cluster, and click **Add project** to add a new project. CLick **Next > Next > Validate** to validate your product. Once validation is complete, click **Go to Partner Center**.]
-
-In Partner Center, your Onboarding checklist should indicate that all required steps are complete. Review all the tabs to make sure the information is accurate, then request approval of your software.
-
-{{site.data.keyword.cloud_notm}} will review your Operator and will either approve your product, or request an update. You'll get an email with details about any changes that you might need to make. 
-
-After your Operator is approved, you're ready to return to Partner Center and publish your software. [Click **Refresh status** then, click **Publish**.]
-
-Your software is now live and available to users in the {{site.data.keyword.cloud_notm}} catalog. [Click **View in {{site.data.keyword.cloud_notm}} catalog** and search for the name of the product to open it.]
-
-
-## Workflow for selling software on {{site.data.keyword.cloud_notm}}
-{: #sw-workflow-image}
-
-The following diagram summarizes the process of onboarding software to the {{site.data.keyword.cloud_notm}} catalog. For details about each task, see the sections that follow.
-
-![Workflow for onboarding software to {{site.data.keyword.cloud_notm}}](images/onboarding.svg "The workflow for onboarding software to {{site.data.keyword.cloud_notm}}"){: caption="Figure 1. The workflow for onboarding software to the {{site.data.keyword.cloud_notm}}" caption-side="bottom"}
+After your product is approved, you're ready to return to Partner Center and publish it. Your software is now live and available to users in the {{site.data.keyword.cloud_notm}} catalog. [Click **Publish**. Click **View in {{site.data.keyword.cloud_notm}} catalog** and search for the name of the product to open it.] 
 
 ## Register your product
 {: #sw-start-checklist}
