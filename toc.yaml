@@ -32,6 +32,13 @@ toc:
       id: tutorial
       topics:
       - topicgroup:
+          label: Onboarding a service
+          topics:
+          - tutorial-register-svc.md
+          - tutorial-define-svc.md
+          - tutorial-onboard-broker.md
+          - tutorial-pricing-svc.md
+      - topicgroup:
           label: Onboarding a Node-RED Operator
           topics:
           - tutorial-define-operator.md
