@@ -147,8 +147,9 @@ toc:
           - software-faq.md
           - service-faq.md
       - topicgroup:
-          label: Troubleshooting software
+          label: Troubleshooting
           topics:
+          - ts-view-usage.md
           - ts-repo-upload.md
           - ts-missing-products.md
           - ts-validate-terraform.md
