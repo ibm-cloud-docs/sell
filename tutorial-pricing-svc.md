@@ -34,7 +34,7 @@ completion-time: 10m
 This tutorial walks you through the steps for adding pricing plans for your third-party service.
 {: shortdesc}
 
-The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. As you complete the tutorial, adapt each step to fit your needs.

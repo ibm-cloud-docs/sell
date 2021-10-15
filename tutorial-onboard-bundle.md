@@ -35,7 +35,7 @@ completion-time: 45m
 This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.redhat_full}} {{site.data.keyword.openshiftshort}} Operator bundle, configure the deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -62,7 +62,7 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 {: #bundle-onboard-import}
 {: step}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**. 
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Select **Operator from {{site.data.keyword.redhat_notm}} registry** as your deployment method. 

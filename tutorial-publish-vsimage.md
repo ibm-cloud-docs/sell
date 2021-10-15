@@ -33,7 +33,7 @@ completion-time: 30m
 This tutorial walks you through how to publish a virtual server image with Terraform to {{site.data.keyword.cloud}}. By completing this tutorial, you submit your publishing request, respond to any review feedback, and then publish the virtual server image to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party software is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample virtual server image with Terraform](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/v1.0){: external}. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -52,7 +52,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 
 The details of any third-party software must be reviewed by {{site.data.keyword.cloud_notm}} before it can be published to the catalog. Complete the following steps to submit a request to publish your virtual server image:
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your virtual server image.  
 1. From the Onboarding checklist, click **Request Approval**. 
 1. Select the version > **I affirm that my company is authorized to use all materials**. 

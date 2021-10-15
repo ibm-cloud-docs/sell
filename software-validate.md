@@ -33,10 +33,10 @@ subcollection: sell
 # Onboarding software to your private catalog
 {: #sw-validate}
 
-The process to onboard your software includes importing a version to your private catalog, configuring the deployment details, setting any license requirements, and validating that the version can be successfully installed on the target infrastructure that you require. 
+Onboarding your software includes importing a version to your private catalog, configuring the deployment details, setting any license requirements, and validating that the version can be successfully installed on the target infrastructure that you require. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 ## Before you begin
@@ -64,7 +64,7 @@ The process to sell third-party software is still under development. With the cu
 
 Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started). 
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**. 
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Select your deployment method. 

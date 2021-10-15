@@ -33,7 +33,7 @@ completion-time: 5m
 This tutorial walks you through how to register a service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide your company details, create a test environment, and grant team members access to help with the onboarding process
 {: shortdesc}
 
-The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your needs.

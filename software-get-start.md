@@ -34,7 +34,7 @@ completion-time: 10m
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your software to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 ## Before you begin
@@ -55,7 +55,7 @@ The process to sell third-party software is still under development. With the cu
 {: #sw-company-product}
 {: step}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
 2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.  
 
 The company name doesn't need to be finalized. You can update it later from the My Company page in Partner Center if necessary.

@@ -28,12 +28,12 @@ subcollection: sell
 If you need to remove a product from the {{site.data.keyword.cloud}} catalog, you can suspend it for a short time without permanently deleting or deprecating it. Suspending a product can be useful if, for example, you discover a bug or a vulnerability in your product that must be investigated before more customers install it. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 Complete the following steps to suspend your product: 
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the product you want to suspend, and select **Suspend**.  
 1. Explain why you want to suspend your product.  
 1. Click **Suspend**.

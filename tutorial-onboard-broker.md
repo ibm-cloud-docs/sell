@@ -35,7 +35,7 @@ completion-time: 10m
 This tutorial walks you through how to onboard a broker that you use to connect a pricing plan to your third-party service. When users create instances of your service from the {{site.data.keyword.cloud}} catalog, the broker manages the lifecycle of those instances, and connects the service to the applications that developers are building.
 {: shortdesc}
 
-The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a third-party service to {{site.data.keyword.cloud_notm}}. As you complete the tutorial, adapt each step to fit your product's needs.

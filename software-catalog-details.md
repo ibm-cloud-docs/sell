@@ -33,7 +33,7 @@ subcollection: sell
 During the onboarding process, you provide certain details about your product that are displayed in the {{site.data.keyword.cloud}} catalog. The details include your product logo and description, a list of product features, supporting media, and a link to your warranted product documentation. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 ## Defining your catalog entry
@@ -44,7 +44,7 @@ The contents of a catalog entry include the company or product logo, a short des
 ### Providing your company or product logo
 {: #catalog-logo}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select the product that you're onboarding, and click **Product details**.
 1. Click **Add logo**. 
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`, and **Save**.

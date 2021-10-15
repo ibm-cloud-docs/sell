@@ -28,7 +28,7 @@ subcollection: sell
 Making sure that your users understand how to get help and support for your product is key. Defining your support experience includes providing details about how users can contact your support team, and describing how {{site.data.keyword.cloud_notm}} Support can collaborate with your support team on customer escalations.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 ## Providing your support URL
@@ -36,7 +36,7 @@ The process to sell third-party software is still under development. With the cu
 
 Provide the URL that directs users to your support site. 
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select the product that you're onboarding, and click **Support**. 
 1. In the **Support site URL** field, enter the URL to your support website, for example, `https://support.examplecorp.com/`.
 1. Click **Save**.

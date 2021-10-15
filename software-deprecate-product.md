@@ -28,15 +28,15 @@ subcollection: sell
 If you need to permanently delete your product or version from the {{site.data.keyword.cloud}} catalog, deprecate it first. Your product remains available for use during a 90-day deprecation period, and is removed after 90 days. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
-Deprecating your product or version will permanently delete it from the {{site.data.keyword.cloud_notm}} catalog. If you want to temporarily remove your product from the catalog, suspend it instead.  
+Deprecating your product or version results in it being permanently deleted  from the {{site.data.keyword.cloud_notm}} catalog. If you want to temporarily remove your product from the catalog, suspend it instead.  
 {: note}
 
 Complete the following steps to deprecate your product or version: 
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the product you want to deprecate, and select **Deprecate**.  
 1. Optionally, you can include more details, like a link to a deprecation announcement.  
 1. Click **Deprecate**.

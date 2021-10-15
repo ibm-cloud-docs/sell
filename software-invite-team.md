@@ -28,7 +28,7 @@ subcollection: sell
 If you want to enlist team members to help onboard your third-party software to {{site.data.keyword.cloud}}, you can invite them to your account. By inviting team members to your account, they are automatically assigned the required access to complete the onboarding tasks. 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 When you invite team members to your account, they are assigned editor access to the following services by default:
@@ -38,7 +38,7 @@ When you invite team members to your account, they are assigned editor access to
 
 Complete the following steps to invite team members to your account: 
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Team**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Team**.
 1. Click **Invite users**.
 1. Enter the email address of each user.  
 1. Click **Invite**.

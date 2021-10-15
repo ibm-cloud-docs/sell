@@ -29,15 +29,15 @@ subcollection: sell
 After onboarding your software, you can add multiple versions of your software to your private catalog.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 ## Adding a version of a Helm chart
 {: #add-version-helm}
 
-This process is for adding a new version. If you would like to deploy your existing version to a new target, see [Deploying a Helm chart to a new target](/docs/sell?topic=sell-helm-target-new).
+The following steps are for adding a new version. If you want to deploy your existing version to a new target, see [Deploying a Helm chart to a new target](/docs/sell?topic=sell-helm-target-new).
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your product, and select **Software**. 
 1. Click **Import a version**.
 1. Select **Helm chart** as your deployment method. 
@@ -52,7 +52,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of Terraform
 {: #add-version-terraform}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your product, and select **Software**. 
 1. Click **Import a version**.
 1. Select **Terraform** as your deployment method. 
@@ -67,7 +67,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of an Operator from your own repository
 {: #add-version-operator-own}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 2. Select your product, and select **Software**. 
 3. Click **Import a version**.
 4. Select **Operator** as your deployment method. 
@@ -87,7 +87,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of an Operator from a Red Hat registry
 {: #add-version-operator-index}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your product. 
 1. In Software, click **Import a version**.
 1. Select **Operator from Red Hat registry** as your deployment method. 
@@ -103,7 +103,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of an OVA image
 {: #add-version-ova}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your product. 
 1. In Software, click **Import a version**.
 1. Select **OVA image** as your deployment method. 
@@ -117,7 +117,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of a virtual server image with Terraform
 {: #add-version-vsi}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your product. 
 1. In Software, click **Import a version**.
 1. Select **Virtual server image with Terraform** as your deployment method. 

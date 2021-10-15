@@ -28,7 +28,7 @@ subcollection: sell
 After you onboard your third-party software, you can update the version that's used. If a version is updated or added, you must update the deployment values to make sure that any recent changes are included.  
 {: shortdesc}
 
-The process to sell third-party software is available solely for providers that understand the onboarding process is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you’re interested in trying it out, contact us at kala.nenkova@ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 Deployment values must be updated when a version is updated. The following procedure helps you import the changes that you made to your software in your repo: 

@@ -27,10 +27,10 @@ content-type: troubleshoot
 {: #ts-missing-products}
 {: troubleshoot}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
-When you go to the `My Products` page of Partner Center, you see Getting started steps instead of a list of your products.
+When you go to the My Products page of Partner Center, you see Getting started steps instead of a list of your products.
 {: tsSymptoms}
 
 This error typically occurs because no products are associated with the account you are accessing. 

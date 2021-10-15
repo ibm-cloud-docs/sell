@@ -32,7 +32,7 @@ completion-time: 5m
 This tutorial walks you through how to publish an Operator bundle to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your publishing request, get your approval notification, and then publish your product to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -46,7 +46,7 @@ Make sure you complete all onboarding tasks, including [defining your product de
 {: #bundle-publish-request}
 {: step}
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select the Operator bundle that you are onboarding from the list. 
 1. From the Onboarding checklist, click **Request Approval**. 
 1. Select the version that you onboarded as the version that you want to publish, and click **Request Approval**.

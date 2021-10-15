@@ -37,7 +37,7 @@ completion-time: 45m
 This tutorial walks you through how to onboard a virtual server image with Terraform to a private catalog. By completing this tutorial, you learn how to import the virtual server image from a GitHub repository, configure the deployment and other details, and validate that you can deploy the image to a target {{site.data.keyword.vpc_full}} (VPC). 
 {: shortdesc}
 
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you have questions, contact us at cloud.onboarding@us.ibm.com.
+The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
 {: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample virtual server image with Terraform](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/v1.0){: external} to {{site.data.keyword.cloud}}. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -66,7 +66,7 @@ This tutorial includes deploying the virtual server image to a target VPC. As a 
 
 Complete the following steps to import your virtual server image from your GitHub repository to a private catalog, which was created for you when you registered the virtual server image in {{site.data.keyword.cloud_notm}} Partner Center.
 
-1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**. 
 1. Select your product. 
 1. From the Software tab, click **Import a version**.
 1. Select **Virtual server image with Terraform** as your deployment method. 
