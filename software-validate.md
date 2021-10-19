@@ -88,8 +88,8 @@ Complete the following steps to import a version of your software to your privat
     The message `No service instance available` might be displayed if you haven't created a secret or if you don't have the correct access to use secrets, even if you have service instances that are created. 
     {: note}
 
-6. If applicable, set your deployment target and add your software version. 
-7. Click **Add version**. 
+1. If applicable, set your deployment target and add your software version. 
+1. Click **Add version**. 
 
 ## Configuring the product details
 {: #sw-validate-cfg-deploy}

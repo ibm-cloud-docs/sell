@@ -83,8 +83,8 @@ Provide details that are displayed on your catalog entry and product page when y
 1. Enter keywords that users might use when searching the catalog for your product, for example, `virtual machine`, `compute`, and `terraform`.
 1. Provide a list of features that highlights your product's attributes and benefits for users.
 
-    Use a descriptive title and 1-2 sentences for each feature. You want the information to be visually scannable for users.
-    {: tip}
+   Use a descriptive title and 1-2 sentences for each feature. You want the information to be visually scannable for users.
+   {: tip}
 
 1. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't simply repeat it. 
 1. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.

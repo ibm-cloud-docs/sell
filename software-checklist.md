@@ -81,17 +81,17 @@ Provide links to high-quality images or videos, and, finally, provide a link to 
 
 Next, define your pricing model. Currently, you can select a free plan or a bring your own license plan. Note that a bring your own license, or BYOL plan requires a URL to the license. [Click **Pricing** and select the Free pricing model.]
 
-Head over to the Support tab and define your support experience. First, provide details that explain how users can get self-help, open support cases, and engage directly in real time with your support team. [Click **Support**. Then, click **Provide URL** to add your support site URL. Click **Desribe process for responding to support issues** to describe the support process. Then, click **Provide the countries in which support is available** to add support locations.]  
+Head over to the Support tab and define your support experience. First, provide details that explain how users can get self-help, open support cases, and engage directly in real time with your support team. [Click **Support**. Then, click **Provide URL** to add your support site URL. Click **Describe process for responding to support issues** to describe the support process. Then, click **Provide the countries in which support is available** to add support locations.]
  
 Next, explain how {{site.data.keyword.cloud_notm}} Support leaders can contact your support team leaders. [Click **Describe process for {{site.data.keyword.cloud_notm}} response to support issues** and provide a description of the support process. Click **Provide support contact information** to share the support contacts with {{site.data.keyword.IBM_notm}}.]
 
 From the Software tab, import a version of your product to the test environment that you created when you registered your product. [Click **Software**. Then, click **Import a version**.] 
  
-Choose your delivery method and select your source repository type – either public or private – and provide the URL to it. Then, enter the version of your product. After importing your product, you're ready to configure it by adding any required deployment values. [Click **Step 2 - Configure the deployment details** to add deploymnt values.]  
+Choose your delivery method and select your source repository type – either public or private – and provide the URL to it. Then, enter the version of your product. After importing your product, you're ready to configure it by adding any required deployment values. [Click **Step 2 - Configure the deployment details** to add deployment values.]
 
 Add links to the license agreements that your users are required to accept when they install your product. [Click **Add license agreements**.]  
 
-Now, you’re ready to validate that your product can be successfully installed on the deployment target. [Click **Validate product**. CLick **Next > Next > Validate** to validate your product.] 
+Now, you’re ready to validate that your product can be successfully installed on the deployment target. [Click **Validate product**. Click **Next > Next > Validate** to validate your product.] 
 
 Head back to Partner Center and check your progress in the Onboarding checklist. [Once validation is complete, click **Go to Partner Center**.]  
  

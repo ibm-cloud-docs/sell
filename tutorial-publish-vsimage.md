@@ -58,7 +58,7 @@ The details of any third-party software must be reviewed by {{site.data.keyword.
 1. Select the version > **I affirm that my company is authorized to use all materials**. 
 1. Click **Request Approval**.
 
-At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure the required details, such as the product name, catalog entry, product page, pricing model, and support experience are complete and accurate. When your request is approved, you receive an email notifiying you that you can publish your product to the catalog. 
+At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure the required details, such as the product name, catalog entry, product page, pricing model, and support experience are complete and accurate. When your request is approved, you receive an email notifying you that you can publish your product to the catalog. 
 
 If updates are required, you'll receive a separate email with details about the required updates. After you address all review feedback, you can submit another publishing request.
 {: note} 
@@ -67,10 +67,10 @@ If updates are required, you'll receive a separate email with details about the 
 {: #vsimage-publish-submit}
 {: step}
 
-1. Navigate to the Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you received notifiying you that your publishing request was approved.
+1. Navigate to the Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you received notifying you that your publishing request was approved.
 1. Click **Publish to catalog**.
 
 ## Next steps
 {: #vsimage-publish-next}
 
-Verify that the virtual server image is offically live in the catalog for all users. Go to the [catalog](https://cloud.ibm.com/catalog){: external}, select **Type** > **Software**, and search for the name of your virtual server image. 
+Verify that the virtual server image is officially live in the catalog for all users. Go to the [catalog](https://cloud.ibm.com/catalog){: external}, select **Type** > **Software**, and search for the name of your virtual server image. 

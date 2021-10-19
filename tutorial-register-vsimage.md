@@ -84,7 +84,7 @@ You can enlist team members to help with the onboarding process by assigning the
 After you create the `Example Corp Virtual Server Image` access group, you're ready to invite team members to your account and add them to your access group. Team members are granted the following editor permissions by default: 
 
 * Product lifecycle: Complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog.
-* Private catalog: Onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visiblity of products in the {{site.data.keyword.cloud_notm}} catalog.
+* Private catalog: Onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visibility of products in the {{site.data.keyword.cloud_notm}} catalog.
 
 1. Click **Invite** in the Invite team members section. 
 1. Select the user type:
