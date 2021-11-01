@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2021
 
-lastupdated: "2021-07-30"
+lastupdated: "2021-11-01"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -46,7 +46,7 @@ The process to sell third-party products is still under development. With the cu
   
     * Helm charts on Kubernetes and {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} clusters
     * Terraform templates
-    * OVA images deployed on VMware vCenter Server
+    * OVA images deployed on VMware Solutions Dedicated - vCenter Server
     * Virtual server images with Terraform deployed on VPC infrastructure
     * Operators with a CSV file or Operator bundles with a TGZ file from GitHub repositories deployed on Red Hat OpenShift
     * Operator bundles from Red Hat OpenShift registries
@@ -58,8 +58,8 @@ The process to sell third-party products is still under development. With the cu
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
 2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.  
 
-The company name doesn't need to be finalized. You can update it later from the My Company page in Partner Center if necessary.
-{: tip}
+    The company name doesn't need to be finalized. You can update it later from the My company page in Partner Center if necessary.
+    {: tip}
 
 ## Create a test environment
 {: #sw-create-testenv}
@@ -79,13 +79,13 @@ If you want to enlist team members to help with the onboarding process, you need
 1. Click **Assign** in the "Assign access for your team" section on the Get started page.
 2. Enter the name of the access group, and click **Assign**. Members of this group are assigned the following roles by default:
 
-   * Administrator on the catalog management service
-   * Editor on the product lifecycle service
-   * Editor on the user management service
-   * Editor on the IAM access groups service
-   * Viewer on all account management services
+    * Administrator on the catalog management service
+    * Editor on the product lifecycle service
+    * Editor on the user management service
+    * Editor on the IAM access groups service
+    * Viewer on all account management services
   
-For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/sell?topic=account-account-services#account-management-actions-roles).
+    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
   
 ## Invite team members to your account
 {: #sw-invite-member}
@@ -97,8 +97,8 @@ After you create your access group, you can add team members to the group by inv
 2. From the My Team page, click **Invite users**.
 3. Select the user type:
 
-   * Business: A team member who can provide certain details, such as the product logo, description, and customer support experience.
-   * Technical: A team member who can import the product to your test environment, configure the deployment details, and validate it's ready for use.
+    * Business: A team member who can provide certain details, such as the product logo, description, and customer support experience.
+    * Technical: A team member who can import the product to your test environment, configure the deployment details, and validate it's ready for use.
 
 4. Enter the email address of each user. 
 5. Click **Invite**. 
