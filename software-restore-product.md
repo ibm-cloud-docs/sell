@@ -5,7 +5,7 @@ copyright:
   years: 2021
 lastupdated: "2021-10-01"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, product lifecycle, remove, delete, deprecate, restore
+keywords: onboard software, third-party software, sell on IBM Cloud, partner center, catalog, restore
 
 subcollection: sell
 

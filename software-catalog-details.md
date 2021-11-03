@@ -5,7 +5,7 @@ copyright:
   years: 2020, 2021
 lastupdated: "2021-09-01"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, product lifecycle, logo, catalog entry, about, product page, catalog listing
+keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
 subcollection: sell
 
