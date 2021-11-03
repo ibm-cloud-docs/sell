@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-07-19"
+lastupdated: "2021-11-03"
 
 keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service, onboarding workbench
 
@@ -41,7 +41,7 @@ Due to current processing times, service onboarding is currently limited to prov
 1. Providers who leverage one or more services in the {{site.data.keyword.Bluemix_notm}} catalog.
 2. Providers who intend on selling their product in the {{site.data.keyword.Bluemix_notm}} catalog.
 
-Reach out to your {{site.data.keyword.Bluemix_notm}} Business Development Executive or [Cloud Onboarding Team](mailto:cloudonb@us.ibm.com) for more information.
+Reach out to your {{site.data.keyword.Bluemix_notm}} Business Development Executive or submit a [Service Onboarding Request](https://www.ibm.com/it-infrastructure/us-en/resources/campaignmail/mail/us-en/xaas_products_onboarding/){: external} to our Cloud Onboarding Team.
 
 ## Register your service
 {: #step1-register}
