@@ -99,7 +99,7 @@ toc:
               label: Assigning account members access to Partner Center
               topics:
               - /account/account-account-services
-       - topicgroup:
+      - topicgroup:
           label: Selling services
           topics:
           - service-onboard-overview.md
@@ -110,10 +110,10 @@ toc:
           - service-rmc-publish.md
           - service-ga.md
           - topicgroup:
-              label: Submitting usage and metering plans
-              topics:
-              - service-submitusage.md
-              - service-metering.md
+            label: Submitting usage and metering plans
+            topics:
+            - service-submitusage.md
+            - service-metering.md
           - service-parameters.md
 
   - navgroup:
