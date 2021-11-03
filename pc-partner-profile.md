@@ -35,7 +35,8 @@ Use the following steps to enroll:
 1. From the Company information tab, provide the legal name of your company and contact details. 
 1. From the Company details tab, provide information about your business focus, target industry, and how you plan to partner with us. 
 1. In the Terms & conditions section, use the provided links to review the Cloud Services Agreement and Build with {{site.data.keyword.IBM_notm}} Attachment.
-1. Agree to the terms and conditions by selecting **I agree with the following terms & conditions**.
+
+   Then, select **I agree with the following terms & conditions** to indicate that you reviewed and agree to the terms and conditions. 
 1. Click **Submit and continue**. 
 
 ## Next steps
