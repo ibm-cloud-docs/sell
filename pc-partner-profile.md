@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-31"
+lastupdated: "2021-11-03"
 
 keywords: partner center, partner profile, third-party, enroll, credits, workshops, events, fast tracks, get started
 
@@ -41,15 +41,14 @@ Use the following steps to enroll:
 ## Next steps
 {: #pc-enroll-next}
 
-You're all set! Now that you're enrolled, you have a few options as far as what to do next. 
+You're all set! Now that you're enrolled, you have a few options as far as what to do next: 
 
-Click **Build** to access credits and rewards that you now have access to. For example, you can choose between applying $3,000 a month for 6 months or $1,000 a month for 12 months toward the use of products in the {{site.data.keyword.cloud_notm}} catalog. Your credits are valid for 30 days from your enrollment date.
+- Click **Build** to access credits and rewards that you now have access to. For example, you can choose between applying $3,000 a month for 6 months or $1,000 a month for 12 months toward the use of products in the {{site.data.keyword.cloud_notm}} catalog. Your credits are valid for 30 days from your enrollment date.
 
-From the Build section, you can also access products, learning resources, and workshops and events that are recommended just for you. These recommendations are based on your profile and the preferences that you provided during enrollment. 
+   You can also access products, learning resources, and workshops and events that are recommended just for you. These recommendations are based on your profile and the preferences that you provided during enrollment. 
 
-Need to update your profile and preferences? Click **Partner profile** to navigate to the details.
-{: tip}
-
-Ready to onboard and sell your product right away? Click  **Sell** > **Overview** > **Get started**. 
-
-Click **Grow** to access additional resources and tools for growing your business in {{site.data.keyword.cloud_notm}}.
+   Need to update your profile and preferences? Click **Partner profile** to navigate to the details.
+   {: tip}
+   
+- Ready to onboard and sell your product right away? Click **Sell** > **Overview** > **Get started**. 
+- Click **Grow** to access additional resources and tools for growing your business in {{site.data.keyword.cloud_notm}}. 
