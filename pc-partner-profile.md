@@ -25,7 +25,7 @@ subcollection: sell
 # Enrolling in Partner Center
 {: #pc-enroll}
 
-Get started building, selling, and growing your solutions on {{site.data.keyword.cloud}} by enrolling in Partner Center. During the enrollment process, you're asked to provide certain details about your company, your partner goals, and moreThe details that you provide are used to set up your partner profile and to help guide you along your journey in partnering with us, from start to finish.
+Get started building, selling, and growing your solutions on {{site.data.keyword.cloud}} by enrolling in Partner Center. During the enrollment process, you're asked to provide certain details about your company, your partner goals, and more. The details that you provide are used to set up a profile for you and to help guide you along your journey in partnering with us, from start to finish.
 {: shortdesc} 
 
 Use the following steps to enroll:
@@ -43,15 +43,12 @@ Use the following steps to enroll:
 
 You're all set! Now that you're enrolled, you have a few options as far as what to do next. 
 
-   * Click **Build** to access credits and rewards that you now have access to. For example, you can choose between applying $3,000 a month for 6 months or $1,000 a month for 12 months toward the use of products in the {{site.data.keyword.cloud_notm}} catalog. 
+   * Click **Build** to access credits and rewards that you now have access to. For example, you can choose between applying $3,000 a month for 6 months or $1,000 a month for 12 months toward the use of products in the {{site.data.keyword.cloud_notm}} catalog. Your credits are valid for 30 days from your enrollment date.
 
-   Your credits are valid for 30 days from your enrollment date.
-   {: note}
+    You can also access products, learning resources, and workshops and events that are recommended just for you. These recommendations are based on your profile and the preferences that you provided during enrollment. 
 
-   You can also access products, learning resources, and workshops and events that are recommended just for you. These recommendations are based on your profile and the preferences that you provided during enrollment. 
-
-   Need to update your profile and preferences? Click **Partner profile** to navigate to the details.
-   {: tip}
+    Need to update your profile and preferences? Click **Partner profile** to navigate to the details.
+    {: tip}
 
    * Ready to onboard and sell your product right away? Click  **Sell** > **Overview** > **Get started**. 
    * Click **Grow** to access additional resources and tools for growing your business in {{site.data.keyword.cloud_notm}}.
