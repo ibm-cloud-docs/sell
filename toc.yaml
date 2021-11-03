@@ -18,27 +18,20 @@ toc:
       - sell-on-ibm-cloud.md
       - pc-partner-profile.md
       - topicgroup:
+          label: Understanding how to sell software
+          topics:
+          - software-get-start.md
+          - software-checklist.md
+      - topicgroup:
           label: Understanding how to sell services
           topics:
           - service-get-start.md
           - service-checklist.md
           - service-platform.md
-      - topicgroup:
-          label: Understanding how to sell software
-          topics:
-          - software-get-start.md
-          - software-checklist.md
 
   - navgroup:
       id: tutorial
       topics:
-      - topicgroup:
-          label: Onboarding a service
-          topics:
-          - tutorial-register-svc.md
-          - tutorial-define-svc.md
-          - tutorial-onboard-broker.md
-          - tutorial-pricing-svc.md
       - topicgroup:
           label: Onboarding a Node-RED Operator
           topics:
@@ -59,26 +52,17 @@ toc:
           - tutorial-define-vsimage.md
           - tutorial-onboard-vsimage.md
           - tutorial-publish-vsimage.md
+      - topicgroup:
+          label: Onboarding a service
+          topics:
+          - tutorial-register-svc.md
+          - tutorial-define-svc.md
+          - tutorial-onboard-broker.md
+          - tutorial-pricing-svc.md
 
   - navgroup:
       id: howto
       topics:
-      - topicgroup:
-          label: Selling services
-          topics:
-          - service-onboard-overview.md
-          - service-docs-marketing.md
-          - service-rmc-define.md
-          - service-broker.md
-          - service-iam.md
-          - service-rmc-publish.md
-          - service-ga.md
-          - topicgroup:
-              label: Submitting usage and metering plans
-              topics:
-              - service-submitusage.md
-              - service-metering.md
-          - service-parameters.md
       - topicgroup:
           label: Selling software
           topics:
@@ -115,6 +99,22 @@ toc:
               label: Assigning account members access to Partner Center
               topics:
               - /account/account-account-services
+       - topicgroup:
+          label: Selling services
+          topics:
+          - service-onboard-overview.md
+          - service-docs-marketing.md
+          - service-rmc-define.md
+          - service-broker.md
+          - service-iam.md
+          - service-rmc-publish.md
+          - service-ga.md
+          - topicgroup:
+              label: Submitting usage and metering plans
+              topics:
+              - service-submitusage.md
+              - service-metering.md
+          - service-parameters.md
 
   - navgroup:
       id: reference
