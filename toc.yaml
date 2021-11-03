@@ -16,6 +16,7 @@ toc:
       id: learn
       topics:
       - sell-on-ibm-cloud.md
+      - pc-partner-profile.md
       - topicgroup:
           label: Understanding how to sell services
           topics:
@@ -82,35 +83,38 @@ toc:
           label: Selling software
           topics:
           - topicgroup:
-              label: Assigning access to onboard and publish software
+              label: Building software 
+              topics:
+              - build-usage-offers.md
+              - build-fast-track.md
+              - build-workshops.md
+          - topicgroup:
+              label: Onboarding and publishing software
               topics:
               - software-invite-team.md
-              - /account/account-account-services
-          - topicgroup:
-              label: Defining your product details in Partner Center
-              topics:
               - software-catalog-details.md
               - software-pricing-details.md
               - software-support-details.md
-              - software-partner-details.md
-          - topicgroup:
-              label: Onboarding your software
-              topics:
               - source-repo-setup.md
               - software-validate.md
-          - software-publish.md
+              - software-helm-target.md
+              - software-publish.md
+              - software-partner-details.md
           - topicgroup:
-              label: Updating your software
+              label: Updating software
               topics:
               - software-versions.md
               - software-reload-version.md
-              - software-helm-target.md
           - topicgroup:
-              label: Deprecating and restoring your software
+              label: Deprecating and restoring software
               topics:
               - software-deprecate-product.md
               - software-restore-product.md
           - software-suspend.md
+          - topicgroup:
+              label: Assigning account members access to Partner Center
+              topics:
+              - /account/account-account-services
 
   - navgroup:
       id: reference
