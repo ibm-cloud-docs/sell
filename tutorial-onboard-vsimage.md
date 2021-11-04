@@ -3,7 +3,7 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-08-25"
+lastupdated: "2021-11-04"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -57,7 +57,7 @@ This tutorial includes deploying the virtual server image to a target VPC. As a 
    Use the [latest release of the sample Terraform code](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/tag/v1.0 ){: external} as an example of how to set up your repository.
    {: tip}
    
-6. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the catalog management service and product lifecycle service. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
+6. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the Catalog Management and Partner Center - Sell services. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
 7. Complete the previous tutorials in the series: [Registering a virtual server image in the Partner Center](/docs/sell?topic=sell-vsimage-register) and [Defining the product details of a virtual server image](/docs/sell?topic=sell-vsimage-define). 
 
 ## Import the virtual server image to your private catalog
