@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2021
 
-lastupdated: "2021-10-05"
+lastupdated: "2021-11-10"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -35,9 +35,6 @@ subcollection: sell
 
 Onboarding your software includes importing a version to your private catalog, configuring the deployment details, setting any license requirements, and validating that the version can be successfully installed on the target infrastructure that you require. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Before you begin
 {: #sw-validate-prereqs}

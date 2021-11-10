@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-07"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, support, software, partner, sellers, partner center, support, customer support
 
@@ -27,9 +27,6 @@ subcollection: sell
 
 Making sure that your users understand how to get help and support for your product is key. Defining your support experience includes providing details about how users can contact your support team, and describing how {{site.data.keyword.cloud_notm}} Support can collaborate with your support team on customer escalations.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Providing your support URL
 {: #sw-support-url}

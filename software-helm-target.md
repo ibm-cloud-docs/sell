@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-05"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, Helm chart, software, partner, sellers, deploy, partner center, target, deployment target
 
@@ -26,9 +26,6 @@ subcollection: sell
 
 To deploy a version of a Helm chart to another deployment target, you can copy the configuration of the existing version and deploy it to a new target. The deployment target options for Helm charts are {{site.data.keyword.containerlong_notm}} and {{site.data.keyword.openshiftlong_notm}}.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your product. 

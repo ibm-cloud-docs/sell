@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-10-12"
+lastupdated: "2021-11-10"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -29,9 +29,6 @@ subcollection: sell
 
 Use the following checklist to track all the tasks that are required to successfully onboard and sell your third-party software on {{site.data.keyword.cloud}}.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Before you begin
 {: #sw-software-type}

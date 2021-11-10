@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2021
 
-lastupdated: "2021-11-01"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -33,9 +33,6 @@ completion-time: 10m
 
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your software to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Before you begin
 {: #sw-getstart-prereqs}

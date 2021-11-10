@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, publish, review, operator, Red Hat OpenShift cluster, sample Operator bundle, tutorial, sample, bundle
 
@@ -31,9 +31,6 @@ completion-time: 5m
 
 This tutorial walks you through how to publish an Operator bundle to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your publishing request, get your approval notification, and then publish your product to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 

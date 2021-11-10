@@ -3,7 +3,7 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-09-01"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, Red Hat OpenShift cluster, sample Node-RED Operator, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL, DPA, digital provider agreement
 
@@ -33,9 +33,6 @@ completion-time: 10m
 
 This tutorial walks you through the steps for defining the details of a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center. You can onboard an Operator bundle from a TGZ file or an Operator from a CSV file. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry and product page, pricing model, and support experience. 
 {: shortdesc}
-
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample Node-RED Operator](https://github.com/IBM-Cloud/operator-bundle-sample/releases){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 

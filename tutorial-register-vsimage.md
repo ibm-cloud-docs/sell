@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, terraform, register
 
@@ -32,9 +32,6 @@ completion-time: 5m
 
 This tutorial walks you through how to register a virtual server image with Terraform in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide the company details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or offer your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample virtual server image with Terraform](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/v1.0){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 

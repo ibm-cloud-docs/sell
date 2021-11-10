@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, publish, Terraform, tutorial, sample
 
@@ -32,9 +32,6 @@ completion-time: 30m
 
 This tutorial walks you through how to publish a virtual server image with Terraform to {{site.data.keyword.cloud}}. By completing this tutorial, you submit your publishing request, respond to any review feedback, and then publish the virtual server image to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
-
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or offer your third-party software for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample virtual server image with Terraform](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/v1.0){: external}. As you complete the tutorial, adapt each step to fit your product's needs.
 

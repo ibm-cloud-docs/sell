@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, publish, review, operator, Red Hat OpenShift cluster, sample Node-RED Operator, tutorial, sample
 
@@ -32,9 +32,6 @@ completion-time: 45m
 
 This tutorial walks you through how to publish your sample Node-RED Operator to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your publishing request, get your approval notification, and then publish your product to the {{site.data.keyword.cloud}} catalog.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Before you begin
 {: #operator-publish-prereqs}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-09-24"
+lastupdated: "2021-11-10"
 
 keywords: OVA images, metadata, YAML, onboard, GitHub, publish
 
@@ -33,9 +33,6 @@ title: Example YAML file for onboarding OVA images
 
 The process to onboard OVA images is the same as onboarding other third-party software except you need to add a YAML file that contains required onboarding information. Manually create the YAML and add it to your GitHub repo that you reference during the onboarding process.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com..
-{: beta}
 
 After you complete this prerequisite, you're ready to add your OVA image to the private catalog you're using for onboarding, and validate that it's ready for publishing. See [Onboarding your software](/docs/sell?topic=sell-sw-validate).
 

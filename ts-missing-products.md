@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-11-10"
 
 keywords: troubleshoot software, products, onboard, missing
 
@@ -26,9 +26,6 @@ content-type: troubleshoot
 # Why can't I see the products that I need to onboard?
 {: #ts-missing-products}
 {: troubleshoot}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 When you go to the My Products page of Partner Center, you see Getting started steps instead of a list of your products.
 {: tsSymptoms}

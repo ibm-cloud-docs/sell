@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, invite team, IAM, access
 
@@ -27,9 +27,6 @@ subcollection: sell
 
 If you want to enlist team members to help onboard your third-party software to {{site.data.keyword.cloud}}, you can invite them to your account. By inviting team members to your account, they are automatically assigned the required access to complete the onboarding tasks. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 When you invite team members to your account, they are assigned editor access to the following services by default:
 

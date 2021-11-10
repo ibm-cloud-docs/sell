@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-11-01"
+lastupdated: "2021-11-10"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -32,9 +32,6 @@ FAQs about selling third-party software on {{site.data.keyword.cloud}} might inc
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## What types of software can I add to the {{site.data.keyword.cloud_notm}} catalog? 
 {: #supported-sw}

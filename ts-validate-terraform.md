@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-11-10"
 
 keywords: troubleshooting, Terraform, validate, version, unknown token
 
@@ -29,9 +29,6 @@ content-type: troubleshoot
 
 When you try to onboard a Terraform template to the {{site.data.keyword.cloud}} catalog, the validation process fails because the correct version of the Terraform template isn't specified. 
 {: shortdesc}
-
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 The following error is displayed when you try to validate that the Terraform template can be installed on the target infrastructure:
 {: tsSymptoms}
