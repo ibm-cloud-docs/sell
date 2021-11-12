@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-12"
+lastupdated: "2021-11-04"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register
 
@@ -69,10 +69,10 @@ If you want to enlist team members to help with the onboarding process, they nee
 1. Click **Assign** in the Assign access section.
 1. Enter `Example Corp Virtual Server Image` as the name of the access group, and click **Assign**. The following roles are assigned to the access group by default:
   
-    * Administrator on the catalog management service
-    * Editor on the product lifecycle service
-    * Editor on the user management service
-    * Editor on the IAM access groups service
+    * Administrator on the Catalog Management service
+    * Editor on the Partner Center - Sell service
+    * Editor on the User Management service
+    * Editor on the IAM Access Groups service
     * Viewer on all account management services
   
     For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).

@@ -3,6 +3,7 @@
 
 copyright:
   years: 2021
+
 lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, invite team, IAM, access
@@ -30,7 +31,7 @@ If you want to enlist team members to help onboard your third-party software to 
 
 When you invite team members to your account, they are assigned editor access to the following services by default:
 
-* Product lifecycle: Editors can complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog. 
+* Partner Center - Sell: Editors can complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog. 
 * Catalog management: Editors can onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visibility of products in the {{site.data.keyword.cloud_notm}} catalog.
 
 Complete the following steps to invite team members to your account: 

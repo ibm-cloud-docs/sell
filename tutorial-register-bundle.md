@@ -5,6 +5,7 @@ copyright:
 
 lastupdated: "2021-11-10"
 
+
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
 subcollection: sell
@@ -44,7 +45,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 1. Verify that you're using a Pay-As-You-Go or Subscription account by going to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console. 
 1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
    * Administrator on all account management services and all Identity and Access Management (IAM) services
-   * Editor on the catalog management service
+   * Editor on the Catalog Management service
    * Editor on the {{site.data.keyword.registrylong_notm}} service
    * Administrator on the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster
    * Editor on the software instance service
@@ -78,10 +79,10 @@ You can enlist team members to help with the onboarding process by assigning the
 1. Click **Assign** in the Assign access section.
 1. Enter `Example Corp Bundle` as the name of the access group, and click **Create**. The following roles are assigned to the access group by default:
   
-    * Administrator on the catalog management service
-    * Editor on the product lifecycle service
-    * Editor on the user management service
-    * Editor on the IAM access groups service
+    * Administrator on the Catalog Management service
+    * Editor on the Partner Center - Sell service
+    * Editor on the User Management service
+    * Editor on the IAM Access Groups service
     * Viewer on all account management services
   
 For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/sell?topic=account-account-services#account-management-actions-roles).
@@ -92,7 +93,7 @@ For more information about the actions associated with each role, see [Actions a
 
 After you create the `Example Corp Bundle` access group, you're ready to add team members to your account and access group. Team members are granted the following editor permissions by default: 
 
-* Product lifecycle: Complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog.
+* Partner Center - Sell: Complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog.
 * Private catalog: Onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visibility of products in the {{site.data.keyword.cloud_notm}} catalog.
 
 

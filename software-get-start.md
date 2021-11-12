@@ -77,7 +77,7 @@ If you want to enlist team members to help with the onboarding process, you need
 2. Enter the name of the access group, and click **Assign**. Members of this group are assigned the following roles by default:
 
     * Administrator on the catalog management service
-    * Editor on the product lifecycle service
+    * Editor on the Partner Center - Sell service
     * Editor on the user management service
     * Editor on the IAM access groups service
     * Viewer on all account management services

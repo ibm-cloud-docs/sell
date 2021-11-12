@@ -6,6 +6,7 @@ copyright:
 lastupdated: "2021-11-10"
 
 
+
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
 
 subcollection: sell
@@ -47,7 +48,7 @@ This tutorial walks you through how to onboard a sample Node-RED Operator to you
     Use the [latest release of the sample Node-RED Operator](https://github.com/IBM-Cloud/operator-bundle-sample/releases){: external} as an example of how to set up your directory structure.
     {: tip}
 
-1. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the catalog management service and product lifecycle service. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
+1. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the Catalog Management and Partner Center - Sell services. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
 
 For Operator bundles, you also need the following {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) roles. 
 
