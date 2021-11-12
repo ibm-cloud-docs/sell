@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-05"
+lastupdated: "2021-11-10"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, version
 
@@ -28,9 +28,6 @@ subcollection: sell
 
 After onboarding your software, you can add multiple versions of your software to your private catalog.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Adding a version of a Helm chart
 {: #add-version-helm}

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-05"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, catalog, remove, deprecate
 
@@ -27,9 +27,6 @@ subcollection: sell
 
 If you need to permanently delete your product or version from the {{site.data.keyword.cloud}} catalog, deprecate it first. Your product remains available for use during a 90-day deprecation period, and is removed after 90 days. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 Deprecating your product or version results in it being permanently deleted  from the {{site.data.keyword.cloud_notm}} catalog. If you want to temporarily remove your product from the catalog, suspend it instead.  
 {: note}

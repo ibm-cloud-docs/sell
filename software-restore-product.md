@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-01"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, catalog, restore
 
@@ -27,9 +27,6 @@ subcollection: sell
 
 After you deprecate your product or version, your software enters a 90-day deprecation period before it is removed from the {{site.data.keyword.cloud}} catalog. During this deprecation period, you can restore your software to its last published state to keep it in the catalog. Your software cannot be restored after the 90-day deprecation period. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Restoring a deprecated product
 {: #restore-product}

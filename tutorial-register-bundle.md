@@ -3,7 +3,8 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-11-04"
+lastupdated: "2021-11-10"
+
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -34,9 +35,6 @@ completion-time: 15m
 
 This tutorial walks you through how to register an Operator bundle in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Certified Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 

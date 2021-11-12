@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-11-10"
 
 keywords: update software, third-party, product portal, version, partner portal, sellers, partners
 
@@ -27,9 +27,6 @@ subcollection: sell
 
 After you onboard your third-party software, you can update the version that's used. If a version is updated or added, you must update the deployment values to make sure that any recent changes are included.  
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 Deployment values must be updated when a version is updated. The following procedure helps you import the changes that you made to your software in your repo: 
 

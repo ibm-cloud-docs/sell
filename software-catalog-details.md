@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-01"
+lastupdated: "2021-11-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -32,9 +32,6 @@ subcollection: sell
 
 During the onboarding process, you provide certain details about your product that are displayed in the {{site.data.keyword.cloud}} catalog. The details include your product logo and description, a list of product features, supporting media, and a link to your warranted product documentation. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Defining your catalog entry
 {: #catalog-entry}

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-11-10"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -27,9 +27,6 @@ subcollection: sell
 
 As the last step in the onboarding process, you can submit a request to publish your third-party software to the {{site.data.keyword.cloud}} catalog. When you publish to the catalog, your software is publicly available for all users. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Requesting for approval
 {: sw-request-approval}

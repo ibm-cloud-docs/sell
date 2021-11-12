@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-11-10"
 
 keywords: software, third-party software, readme, installation, Git, GitHub, repo, repository
 
@@ -27,9 +27,6 @@ subcollection: sell
 
 Set up your source code repository with the artifacts that are required to onboard your software. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Creating a release
 {: #create-release}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-14"
+lastupdated: "2021-11-10"
 
 keywords: troubleshoot software, tgz, helm charts, cloud pak, terraform
 
@@ -27,9 +27,6 @@ content-type: troubleshoot
 # Why can't I validate or publish my software? 
 {: #tgz-import-error}
 {: troubleshoot}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have any questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 You imported your software package as a `.tgz` file from the Software tab in Partner Center, but you can't validate it. In your Schematics logs, the following message is displayed:   
 {: tsSymptoms}

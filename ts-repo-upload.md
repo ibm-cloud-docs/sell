@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-01"
+lastupdated: "2021-11-10"
 
 keywords: troubleshoot software, HTTPS protocol, repo, github, tgz
 
@@ -27,9 +27,6 @@ content-type: troubleshoot
 # Why can't I upload my source details from my GitHub repository?
 {: #repo-upload-error}
 {: troubleshoot}
-
-The process to sell third-party software is still under development. With the current release, you can bring your own licenses or deliver your third-party software for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 You receive the following error message when you try to upload your source details from a GitHub repository:
 {: tsSymptoms}

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-06"
+lastupdated: "2021-11-10"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, reload 
 
@@ -28,9 +28,6 @@ subcollection: sell
 
 You can reload a version of your software in your private catalog to update the version based on your current repository. When you reload a version, you revert it to its default state when you first imported the software. 
 {: shortdesc}
-
-The process to sell third-party products is still under development. With the current release, you can bring your own licenses or deliver your product for free. If you have questions, contact us at cloud.onboarding@ibm.com.
-{: beta}
 
 ## Reloading an unpublished version
 {: #software-reload-catalog}
