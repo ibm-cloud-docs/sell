@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-09-09"
+lastupdated: "2021-11-23"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker
 
@@ -88,7 +88,7 @@ resource instances (PATCH)
        "services": [{
            "id": "ibmcloud-link",
            "name": "ibmcloud-link",
-           "description": "An IBM provided service that enables aliasing to service instances in the {{site.data.keyword.Bluemix_notm}}.",
+           "description": "An IBM provided service that enables aliasing to service instances in the IBM Cloud.",
            "bindable": true,
            "plan_updateable": false,
            "plans": [
@@ -96,7 +96,7 @@ resource instances (PATCH)
                    "id": "ibmcloud-link-alias",
                    "name": "ibmcloud-alias",
                    "free": true,
-                   "description": "The {{site.data.keyword.Bluemix_notm}} alias plan used for linking."
+                   "description": "The IBM Cloud alias plan used for linking."
                }
                ]
        }]
