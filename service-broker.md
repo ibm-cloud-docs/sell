@@ -83,7 +83,7 @@ resource instances (PATCH)
 
 **Note on catalog (GET)**: This endpoint defines the contract between the broker and the {{site.data.keyword.Bluemix_notm}} platform for the services and plans that the broker supports. This endpoint returns the catalog metadata stored within your broker. These values define the minimal provisioning contract between your service and the {{site.data.keyword.Bluemix_notm}} platform. All additional catalog metadata that isn't required for provisioning is stored within the {{site.data.keyword.Bluemix_notm}} catalog. Any updates to catalog display values that are used to render your dashboard like links, icons, and i18n translated metadata must be updated in the resource management console, and not housed in your broker. None of metadata stored in your broker is displayed in the {{site.data.keyword.Bluemix_notm}} console or the {{site.data.keyword.Bluemix_notm}} CLI. The console and CLI return what was set within resource management console and stored in the {{site.data.keyword.Bluemix_notm}} catalog. The following section shows the minimal required values that catalog (GET) returns:
 
-```
+```text
 {
        "services": [{
            "id": "ibmcloud-link",
@@ -133,7 +133,7 @@ It's the service provider's responsibility to disable access to the service inst
 
 The metadata you exported from the resource management console can be used as a guide for developing your own broker. Not all of the values you added to the resource management console are required to provision a service. The metadata that you exported from the resource management console defines the minimal provisioning contract between your service and the {{site.data.keyword.Bluemix_notm}} platform. The JSON you exported provides the following values:
 
-```
+```text
 {
 services :
             [
@@ -197,7 +197,7 @@ The **user identity header** is provided via an API originating identity header.
 
 Example:
 
-```
+```text
 X-Broker-API-Originating-Identity: ibmcloud eyJpYW1faWQiOiJJQk1pZC01MEdOUjcxN1lFIn0=
 Decoded:
 {"iam_id":"IBMid-50GNR717YE"}
@@ -257,9 +257,10 @@ You must be validating your broker by running curl commands against the differen
 
 ### How to curl your service's broker
 {: #curl-broker}
+
 Use the following example to test your brokers curl response:
 
-```
+```bash
 curl -X PUT  https://<sample-service-broker>/v2/service_instances/<encoded-resource-crn> \
      -u '<your broker user>:<your broker password>' \
      -H 'content-type: application/json' \

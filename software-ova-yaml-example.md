@@ -12,8 +12,6 @@ subcollection: sell
 
 content-type: api-docs
 
-title: Example YAML file for onboarding OVA images
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -62,7 +60,7 @@ The following table lists the metadata to include in your YAML file:
 
 
 ## YAML example
-{: yaml}
+{: #yaml}
 
 The following example shows a YAML file that is formatted with the required metadata.
 

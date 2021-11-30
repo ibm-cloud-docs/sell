@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2021
 
-lastupdated: "2021-03-29" 
+lastupdated: "2021-11-30"
 
 keywords: plans of the resource, usage records, metered plans, submitting usage, revenue
 
@@ -127,7 +127,7 @@ You must use lowercase letters for the aggregations.aggregationGroup field in th
 {: #aggregation-formula}
 
 For the aggregations.formula field in the resource definition, if you want to use arithmetic operations in the formula, you must use the resource unit as one operand and use an infix arithmetic expression in the function of the formula. For example, you can use the following formula to convert Bytes to Megabytes:
-```
+```text
 SUM({BYTE}/1048576)
 ```
 

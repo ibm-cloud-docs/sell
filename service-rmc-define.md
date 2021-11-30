@@ -57,7 +57,7 @@ To get started, log in and register your service.
 3. Click **New Resource** to add your resource.
 4. Add your resource name. This value is your unique {{site.data.keyword.Bluemix_notm}} service name that you derived in the previous section.
 5. Select **No** for the **Is your broker ready for import?** field. We'll guide you through creating a broker in later steps, and you'll return to the resource management console to import your broker after it's developed and hosted.
-7. Complete any additional required values on the Summary page, and click **Save**.
+6. Complete any additional required values on the Summary page, and click **Save**.
 
 You can save your progress in the resource management console and come back later to add more information. The resource management console is designed to help you manage the lifecycle of your service. It's okay if you don't have all the answers for all the fields right away.
 {: tip}

@@ -28,7 +28,7 @@ completion-time: 15m
 # Defining the product details of your Operator bundle 
 {: #bundle-define}
 {: toc-content-type="tutorial"} 
-{: toc-completion-time="10m"} 
+{: toc-completion-time="15m"} 
 
 This tutorial walks you through the steps for defining the details of an Operator bundle in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry and product page, pricing model, and support experience. 
 {: shortdesc}

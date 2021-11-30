@@ -10,7 +10,7 @@ subcollection: sell
 
 content-type: tutorial
 account-plan: paid
-completion-time: 45m 
+completion-time: 5m 
 
 ---
 

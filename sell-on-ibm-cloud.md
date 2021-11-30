@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-19"
+lastupdated: "2021-11-30"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -29,6 +29,8 @@ Are you looking to sell your software or services on {{site.data.keyword.cloud}}
 {: shortdesc} 
 
 ## Software or services? 
+{: #software-or-services}
+
 Do you want to sell your third-party service on {{site.data.keyword.Bluemix_notm}}? Or do you want to onboard your software to our {{site.data.keyword.Bluemix_notm}} platform? You might have a software application that users can manage and install, or a software-based service you can manage for users. 
 
 You can use our expanding catalog of software solutions to take advantage of a simplified installation process. You can also bring your own licenses, or deliver your third-party software for free. For more information, see [Software](https://cloud.ibm.com/catalog#software). 
@@ -36,6 +38,8 @@ You can use our expanding catalog of software solutions to take advantage of a s
 If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.Bluemix_notm}} by defining your service, building pricing plans, enabling security, and managing the deployment of your service in different {{site.data.keyword.Bluemix_notm}} environment. For more information, see [Services](https://cloud.ibm.com/catalog#services). 
 
 ### Software 
+{: #software}
+
 Software includes containerized applications or system images that you can run on your own infrastructure.
 
 Types of third-party software that {{site.data.keyword.Bluemix_notm}} supports include: 
@@ -49,6 +53,8 @@ These third-party software items can be deployed onto specified targets, includi
 The process is as simple as providing company information, creating a suitable test environment, setting up team access, and inviting team members to join.  For more information, see [Getting set up to sell software](/docs/sell?topic=sell-get-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
 
 ### Services
+{: #services}
+
 Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}} resource controller.
 
 Types of third-party services that {{site.data.keyword.Bluemix_notm}} supports include: 

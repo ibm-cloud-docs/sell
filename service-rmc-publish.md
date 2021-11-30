@@ -36,7 +36,7 @@ Ensure that you start step 1 and completed steps 2, 3, and 4:
 1. [Author service docs and marketing announcement](/docs/sell?topic=sell-content-tasks#content-tasks).
 2. [Define your service in the resource management console](/docs/sell?topic=sell-step2-define#step2-define).
 3. [Develop and host your service brokers](/docs/sell?topic=sell-step3-osb#step3-osb).
-3. [Develop an authentication flow](/docs/sell?topic=sell-step4-iam#step4-iam).
+4. [Develop an authentication flow](/docs/sell?topic=sell-step4-iam#step4-iam).
 
 ## Publish your service to {{site.data.keyword.Bluemix_notm}}
 {: #publish}
