@@ -29,7 +29,7 @@ Now that you have your hosted broker or brokers that meet the OSB specification,
 ## Before you begin
 {: #service-pre-reqs}
 
-This step assumes that you're approved to deliver your third-party service. If you didn't complete the initial registration and approval in Provider Workbench, see the [Getting started tutorial](/docs/sell/index.md?topic=sell-get-started#get-started).
+This step assumes that you're approved to deliver your third-party service. If you didn't complete the initial registration and approval in Onboarding Workbench, see the [Getting started tutorial](/docs/sell/index.md?topic=sell-get-started#get-started).
 {: tip}
 
 Ensure that you start step 1 and completed steps 2, 3, and 4:
