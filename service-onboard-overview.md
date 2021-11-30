@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-07-19"
+lastupdated: "2021-11-30"
 
 keywords: billing service, resource management console, IBM Cloud, RMC, selling services, Onboarding Workbench
 
@@ -30,20 +30,17 @@ After you're approved to sell your product in the {{site.data.keyword.Bluemix_no
 
 Next, outside of the resource management console, you perform code development to build and host a new open service broker. Starter broker samples and API docs are provided, and you use IAM to develop an authentication flow. After you complete these steps, you return to the resource management console to add your service to the catalog in a limited visibility mode where you can test and validate deliverable requirements. When you've met all requirements, your service becomes fully visible in the {{site.data.keyword.Bluemix_notm}} catalog!
 
-## Prerequisites
-{: #prereq}
-
 Due to current processing times, service onboarding is currently limited to providers who meet the following prerequistes:
 
 1. Providers who leverage one or more services in the {{site.data.keyword.Bluemix_notm}} catalog.
 2. Providers who intend on selling their product in the {{site.data.keyword.Bluemix_notm}} catalog.
 
-Reach out to your {{site.data.keyword.Bluemix_notm}} Business Development Executive or [Cloud Onboarding Team](mailto:cloudonb@us.ibm.com) for more information. 
+Reach out to your {{site.data.keyword.Bluemix_notm}} Business Development Executive or the [{{site.data.keyword.cloud_notm}} Onboarding Team](mailto:cloudonb@us.ibm.com) for more information. 
 
 ## Registering your service
 {: #process}
 
-After securing a pre-approval code from the [Cloud Onboarding Team](mailto:cloudonb@us.ibm.com), register your service in the [{{site.data.keyword.IBM_notm}} Onboarding Workbench](https://www.ibm.com/marketplace/workbench/qualification){: external}.
+After securing a pre-approval code from the [{{site.data.keyword.cloud_notm}} Onboarding Team](mailto:cloudonb@us.ibm.com), register your service in the [{{site.data.keyword.IBM_notm}} Onboarding Workbench](https://www.ibm.com/marketplace/workbench/qualification){: external}.
 
 1. From the Onboarding Workbench details page, click **Onboard a new offering**, and complete the registration form.
 2. Check your inbox for an email that confirms your registration.
