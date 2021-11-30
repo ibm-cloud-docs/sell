@@ -29,7 +29,7 @@ As the last step in the onboarding process, you can submit a request to publish 
 {: shortdesc}
 
 ## Requesting for approval
-{: sw-request-approval}
+{: #sw-request-approval}
 
 Before you can publish your product to the catalog, your software needs to be submitted for approval.
 

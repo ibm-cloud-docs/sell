@@ -28,7 +28,7 @@ completion-time: 60m
 # Getting set up to sell services
 {: #get-started}
 {: toc-content-type="tutorial"} 
-{: toc-completion-time="45m"} 
+{: toc-completion-time="60m"} 
 
 In this tutorial, we walk you through the process to sell your third-party service on {{site.data.keyword.cloud}}. Your service is offered as an integrated billing service, which means users can create an instance of your service automatically, and they can select from different pricing plans. Users receive a single bill for both their {{site.data.keyword.IBM_notm}} product and your third-party service.
 {: shortdesc}

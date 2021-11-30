@@ -43,7 +43,7 @@ To specify the Terraform version to use during the validation process, complete 
 
 1. Add a variable to your Terraform template as shown in the following example:
 
-    ```
+    ```terraform
     variable "TF_VERSION" {
     description = "terraform version."
     default = 0.13

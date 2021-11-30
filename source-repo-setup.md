@@ -40,6 +40,6 @@ Upload a readme file that focuses on helping users get up and running with your 
 
 1. Use the [readme file template](https://cloud.ibm.com/media/docs/downloads/software/sw-readme-tab-template.md){: external} to document the step-by-step instructions for installing your software. 
 2. Save your updates and name your file `readme.md`. 
-2. Go to your GitHub repository and upload the `readme.md` file. 
+3. Go to your GitHub repository and upload the `readme.md` file. 
 
 

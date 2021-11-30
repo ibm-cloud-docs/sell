@@ -73,8 +73,8 @@ To complete the validation process, see [Configure the product details](/docs/se
 7. Enter your source url. 
 8. Enter your software version in the format of major version, minor version, and revision, for example, 1.0.0.
 
-Enter the version of your software and not the version of your operator. For example, you can use operator version 1.3.0 to install software version 3.1.1. The software version field is asking for version number 3.1.1.
-{: important}
+   Enter the version of your software and not the version of your operator. For example, you can use operator version 1.3.0 to install software version 3.1.1. The software version field is asking for version number 3.1.1.
+   {: important}
 
 9. Review the **Summary**. 
 10. Click **Add version**. 

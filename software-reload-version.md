@@ -62,5 +62,5 @@ To update a published version of your software, you must create a draft, reload 
    Configuration and validation steps vary based on the type of software.
    {: note}
 
-9. Open the **Actions** menu and select **Merge changes**.
-10. Click **Merge** to update your original version.
+1. Open the **Actions** menu and select **Merge changes**.
+1. Click **Merge** to update your original version.

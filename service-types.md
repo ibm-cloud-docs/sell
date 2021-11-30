@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2018, 2020, 2021
+  years: 2018, 2021
 
 lastupdated: "2021-09-09"
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-06-11"
+lastupdated: "2021-11-30"
 
 keywords: access token, client ID, Access Manage page, authentication flow 
 
@@ -41,7 +41,7 @@ The good news is that in the previous development step, you developed an OSB and
 
  The following examples show redirect URIs:
 
-```
+```text
 https://<myapp>.cloud.ibm.com/integrate/auth/callback
 http://localhost:3000/auth/callback <-- for testing locally
 ```
@@ -62,12 +62,12 @@ You now have a client ID that understands your redirect URI and is set to true! 
 
 **Authentication - Step 0:** Find IAM regional endpoint for UI login closer to your deployed application by calling `https://iam.cloud.ibm.com/identity/.well-known/openid-configuration`.
 
-```
+```bash
 curl -X GET \
   https://iam.cloud.ibm.com/identity/.well-known/openid-configuration
 ```
 
-```
+```text
 HTTP/1.1 200 OK
 Content-Type: application/json
 {
@@ -108,7 +108,7 @@ This request can be done once when the application is started and again if the `
 - redirect_uri=*[same URI as redirect_uri from step 1]*
 - code=*[code from callback]*
 
-```
+```bash
 curl -k -X POST \
   -u "<your-client-id>:<your-client-secret>" \
   -H "Content-Type: application/x-www-form-urlencoded" \
@@ -126,7 +126,7 @@ curl -k -X POST \
 ### Response:
 {: #response1}
 
-```
+```text
 {
   "access_token": "eyJraWQiOiI......XmpBTIDdR5w",
   "refresh_token": "SPrXw5tBE3......KBQ+luWQVY=",
@@ -166,7 +166,7 @@ See the example in our [sample brokers](https://github.com/IBM/sample-resource-s
 - response_type=cloud_iam
 - apikey=*[Api key]*
 
-```
+```bash
 curl -k -X POST \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Accept: application/json" \
@@ -182,7 +182,7 @@ curl -k -X POST \
 ### Response:
 {: #response2}
 
-```
+```text
 {
   "access_token": "eyJhbGciOiJIUz......sgrKIi8hdFs",
   "refresh_token": "SPrXw5tBE3......KBQ+luWQVY=",
@@ -202,11 +202,11 @@ This token is valid for 1 hour, and can be reused as many times as needed during
 
 Now that you authenticated the user and have your own access token, you need to validate that the user is able to access the service dashboard. First, you need a few pieces of information that are included in the user's access token that you decode in step 2.1. Then, you use that information to call IAM to check whether the user is authorized to access the dashboard in step 2.2.
 
-**Step 2.1**: Decode the user's access token (returned during `**Authentication - Step 2:** Exchange the code for an access token ` found in the preceding section.)
+**Step 2.1**: Decode the user's access token (returned during `**Authentication - Step 2:** Exchange the code for an access token` found in the preceding section.)
    The access token is a JWT token that can be decoded by using any JWT-compliant library. For example, see the library included in our [sample broker code](https://github.com/IBM/sample-resource-service-brokers){: external}.
    After the token is decoded, the format is as shown in the following section; you extract the `iam_id` and `scope` fields, which are used in the next step:
 
-```
+```text
 {
   "iam_id": "IBMid-XXXXXXX",
   "id": "IBMid-XXXXXXX",
@@ -235,7 +235,7 @@ Now that you authenticated the user and have your own access token, you need to 
 
 **Step 2.2**: Call IAM to check whether the user is authorized to access the dashboard
 
-```
+```bash
 curl -X POST \
   -H "Accept: application/json" \
   -H "Content-Type: application/json" \
@@ -272,7 +272,7 @@ As part of third-party integration, token scoping is being used to ensure that t
 The impact on authorizations (all calls to `https://iam.cloud.ibm.com/v2/authz`) is the need to pass down `scope` information in the subject. This information is contained inside an IAM token (base64 encoded) in the `scope` claim.
 
 The following section is an example of what is added in the authorization call:
-```
+```text
   [
    {  Headers
    `Authorization` -> a jwt token representing a 3rd party service and/or dashboard
