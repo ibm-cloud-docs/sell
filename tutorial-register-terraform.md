@@ -3,7 +3,7 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-11-04"
+lastupdated: "2021-12-02"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Terraform, terraform template
 
@@ -15,16 +15,7 @@ completion-time: 5m
 
 ---
 
-{:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
-{:pre: .pre}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:beta: .beta}
-{:external: target="_blank" .external}
-{:step: data-tutorial-type='step'} 
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Registering your Terraform template

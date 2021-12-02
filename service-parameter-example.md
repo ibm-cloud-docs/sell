@@ -2,21 +2,16 @@
 
 copyright:
 
-  years: 2019, 2020
+  years: 2019, 2021
 
-lastupdated: "2020-08-25"
+lastupdated: "2021-12-02"
 
 keywords: service parameter definition, parameters, parameter example,
 
 subcollection: sell
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Service parameter definitions and examples
 {: #service_parameters_def_examples}
@@ -65,7 +60,7 @@ Always verify that the changes that you requested have been made.
 `parameters`
 :   An array of key-value pairs that are defined by the service when the service instance is created.
 
-    ```javascript
+   ```javascript
     "parameters": [{
       "name": "nodes",
       "displayname": "Number of Data Nodes"

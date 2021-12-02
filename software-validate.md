@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2021
 
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -12,23 +12,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:important: .important}
-{:download: .download}
-{:go: .ph data-hd-programlang='go'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:java: .ph data-hd-programlang='java'}
-{:python: .ph data-hd-programlang='python'}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Onboarding software to your private catalog
 {: #sw-validate}

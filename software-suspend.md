@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, partner center, catalog, remove
 
@@ -11,16 +11,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:important: .important}
-{:download: .download}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Suspending your product from the {{site.data.keyword.cloud_notm}} catalog
 {: #suspend-product}

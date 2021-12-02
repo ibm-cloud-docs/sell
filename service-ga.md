@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-07-19"
+lastupdated: "2021-12-02"
 
 keywords: Service providers, Windows Media Player, limited visibility service, record demo
 
@@ -12,13 +12,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
+{{site.data.keyword.attribute-definition-list}}
 
 # Publicly releasing your service
 {: #public-releasing}

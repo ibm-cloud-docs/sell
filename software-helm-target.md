@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 keywords: onboard software, third-party software, Helm chart, software, partner, sellers, deploy, partner center, target, deployment target
 
@@ -10,15 +10,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
-{:pre: .pre}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:external: target="_blank" .external}
-{:step: data-tutorial-type='step'} 
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Deploying a Helm chart to a new target

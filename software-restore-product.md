@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, catalog, restore
 
@@ -11,16 +11,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:important: .important}
-{:download: .download}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Restoring deprecated products or versions
 {: #restore-deprecated-product}

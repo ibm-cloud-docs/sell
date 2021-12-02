@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-11-30"
+lastupdated: "2021-12-02"
 
 keywords: access token, client ID, Access Manage page, authentication flow 
 
@@ -12,14 +12,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Developing an authentication flow
 {: #step4-iam}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-17"
+lastupdated: "2021-12-02"
 
 keywords: HA, DR, high availability for Partner Center, disaster recovery for Partner Center, failover for Partner Center
 
@@ -10,14 +10,7 @@ subcollection: sell
 
 ---
 
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:note: .note}
-{:tip: .tip}
+{{site.data.keyword.attribute-definition-list}}
 
 # Understanding high availability and disaster recovery for {{site.data.keyword.cloud_notm}} Partner Center
 {: #ha-dr}

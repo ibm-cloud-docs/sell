@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-07-15"
+lastupdated: "2021-12-02"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, faqs 
 
@@ -14,13 +14,7 @@ content-type: faq
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type="faq"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs about selling services
 {: #3p-faqs}

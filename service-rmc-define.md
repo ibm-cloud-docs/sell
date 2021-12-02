@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-09-01"
+lastupdated: "2021-12-02"
 
 keywords: billing service, resource management console, pricing plans
 
@@ -12,15 +12,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:download: .download}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Defining your service in the resource management console
 {: #step2-define}

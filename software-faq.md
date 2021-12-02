@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -15,15 +15,7 @@ content-type: faq
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type="faq"}
-{:support: data-reuse='support'}
-{:note: .note}
-{:beta: .beta}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs about selling software
 {: #thirdparty-sw-faqs}

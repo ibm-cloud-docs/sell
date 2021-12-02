@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-11-30"
+lastupdated: "2021-12-02"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
@@ -12,13 +12,7 @@ subcollection: sell
 
 ---
 
-{:right: .ph data-hd-position='right'}
-{:shortdesc: .shortdesc}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Checklist for selling services on {{site.data.keyword.cloud_notm}}
 {: #checklist}

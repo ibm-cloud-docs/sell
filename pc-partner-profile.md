@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-03"
+lastupdated: "2021-12-02"
 
 keywords: partner center, partner profile, third-party, enroll, credits, workshops, events, fast tracks, get started
 
@@ -11,16 +11,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:important: .important}
-{:download: .download}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Enrolling in Partner Center
 {: #pc-enroll}

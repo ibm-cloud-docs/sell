@@ -4,7 +4,7 @@ copyright:
 
   years: 2021
 
-lastupdated: "2021-10-14"
+lastupdated: "2021-12-02"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -12,16 +12,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type="faq"}
-{:support: data-reuse='support'}
-{:note: .note}
-{:beta: .beta}
-{:important: .important}
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting help and support
 {: #get-pc-support}

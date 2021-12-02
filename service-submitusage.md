@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2021
 
-lastupdated: "2021-11-30"
+lastupdated: "2021-12-02"
 
 keywords: plans of the resource, usage records, metered plans, submitting usage, revenue
 
@@ -12,11 +12,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Submitting usage for metered plans
 {: #submitusage}

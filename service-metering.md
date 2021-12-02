@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2021
 
-lastupdated: "2021-09-02"
+lastupdated: "2021-12-02"
 
 keywords: Q P, offering usage, metering service, configuration, metering model, daily proration 
 
@@ -12,11 +12,7 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:external: target="_blank" .external}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
+{{site.data.keyword.attribute-definition-list}}
 
 # Metering integration
 {: #meteringintera}

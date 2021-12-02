@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 keywords: troubleshoot software, tgz, helm charts, cloud pak, terraform
 
@@ -12,17 +12,7 @@ content-type: troubleshoot
 
 ---
 
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:external: target="_blank" .external}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:beta: .beta}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why can't I validate or publish my software? 
 {: #tgz-import-error}

@@ -3,7 +3,7 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 
 
@@ -18,15 +18,7 @@ completion-time: 45m
 
 ---
 
-{:shortdesc: .shortdesc}
-{:screen: .screen}  
-{:codeblock: .codeblock}  
-{:pre: .pre}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:external: target="_blank" .external}
-{:step: data-tutorial-type='step'} 
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Onboarding a virtual server image with Terraform to a private catalog

@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-11-10"
+lastupdated: "2021-12-02"
 
 keywords: OVA images, metadata, YAML, onboard, GitHub, publish
 
@@ -14,17 +14,7 @@ content-type: api-docs
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:beta: .beta}
-{:important: .important}
-{:download: .download}
-{:external: target="_blank" .external}
-{:yaml: .ph data-hd-programlang='yaml'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Example YAML file for onboarding OVA images
 {: #3p-ova-prereqs}

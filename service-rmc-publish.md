@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2020 
+  years: 2018, 2021 
 
-lastupdated: "2020-11-30"
+lastupdated: "2021-12-02"
 
 keywords: test criteria, IBM Cloud catalog, Add broker Click Manage
 
@@ -12,13 +12,8 @@ subcollection: sell
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
+
 
 # Publishing and testing your service
 {: #step5-pubtest}
