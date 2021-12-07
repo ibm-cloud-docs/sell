@@ -3,9 +3,9 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-02"
+lastupdated: "2021-12-07"
 
-keywords: software, third-party software, readme, installation, Git, GitHub, repo, repository
+keywords: software, readme, installation, Git, GitHub, repo, repository
 
 subcollection: sell
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Setting up your source code repository
 {: #source-repo-setup}
 
-Set up your source code repository with the artifacts that are required to onboard your software. 
+Set up your source code repository with the artifacts that are required to onboard your software. In addition to source code, your repository contains a readme file that's displayed when you publish your product. 
 {: shortdesc}
 
 ## Creating a release
@@ -27,7 +27,7 @@ Create a release in your source code repository to deliver and manage versions o
 ## Uploading your readme file
 {: #upload-readme}
 
-Upload a readme file that focuses on helping users get up and running with your software. The details of your readme file are published on the Readme tab of your product's details page in the {{site.data.keyword.cloud}} catalog.
+Upload a readme file that focuses on helping users to get up and running with your software. When you publish the software, the details of your readme file are available from your product's details page in the {{site.data.keyword.cloud}} catalog.
 
 1. Use the [readme file template](https://cloud.ibm.com/media/docs/downloads/software/sw-readme-tab-template.md){: external} to document the step-by-step instructions for installing your software. 
 2. Save your updates and name your file `readme.md`. 
