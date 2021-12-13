@@ -80,12 +80,12 @@ Complete the following steps to import a version of your software to your privat
 1. Depending on your software type, there may be additional steps, including setting deployment values. 
 1. Click **Next**. 
 
-### Set deployment values
+### Setting deployment values
 {: #sw-set-values}
 
 If applicable to your software type, you can set deployment values that users are required to specify when they install the software. You can add new deployment values or import deployment values from an existing version. 
 
-#### Add new deployment values
+#### Adding new deployment values
 {: #sw-add-values}
 
 1. Click **Configure version** > **Next**. 
@@ -93,17 +93,17 @@ If applicable to your software type, you can set deployment values that users ar
 1. In the table, select **Parameter** > **Add**.
 1. To customize parameters, select a parameter and click **Edit**.
 
-#### Import existing values
+#### Importing existing values
 {: #sw-import-values}
 
-Import existing values if you previously set deployment values for an existing version and want to import the values to your current version. 
+You can import existing values if you previously set deployment values for an existing version and want to import the values to your current version. 
 
 Imported values don't replace any deployment values that you already added to your current version. 
 {: important}
 
 1. Click **Configure version** > **Next**. 
 1. Click **Add deployment values**.
-1. Click **Import values from a previous version**
+1. Click **Import values from a previous version**.
 1. Select the version that contains the values that you want to import.
 1. Click **Import**.
 1. To customize parameters, select a parameter and click **Edit**.
@@ -113,23 +113,23 @@ Imported values don't replace any deployment values that you already added to yo
 
 If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement when they install the software, provide the URL to each agreement or import licenses from an existing version. 
 
-### Add new license agreements
+### Adding new license agreements
 {: #sw-add-new-license}
 
 1. Click **Add license agreements** > **Add license**. 
 2. Enter the name and URL, and click **Add license**.
 3. After entering all additional license agreements, click **Next**.
 
-### Import license agreements 
+### Importing license agreements 
 {: #sw-import-license}
 
-Import existing license agreements if you previously set license agreements for an existing version and want to import the licenses to your current version. 
+You can import existing license agreements if you previously set license agreements for an existing version and want to import the licenses to your current version. 
 
 Imported licenses don't replace any license agreements that you already added to your current version. 
 {: important}
 
 1. Click **Add license agreements** > **Add license**. 
-1. Click **Import licenses from a previous version**
+1. Click **Import licenses from a previous version**.
 1. Select the version that contains the licenses that you want to import.
 1. Click **Import**.
 
