@@ -110,10 +110,10 @@ toc:
           - service-rmc-publish.md
           - service-ga.md
           - topicgroup:
-            label: Submitting usage and metering plans
-            topics:
-            - service-submitusage.md
-            - service-metering.md
+              label: Submitting usage and metering plans
+              topics:
+              - service-submitusage.md
+              - service-metering.md
           - service-parameters.md
 
   - navgroup:
@@ -158,3 +158,4 @@ toc:
           - ts-missing-products.md
           - ts-validate-terraform.md
           - ts-tgz.md
+          - /account/account-ts-swinstance-registry
