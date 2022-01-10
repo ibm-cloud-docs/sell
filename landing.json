@@ -1,0 +1,58 @@
+{
+    "title": "Selling on IBM Cloud docs",
+    "lastupdated": "2022-01-10",
+    "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software and services.",
+    "section_recommended": [
+      {
+        "title": "Getting set up to sell software",
+        "description": "Complete a few initial tasks to start onboarding your software to the IBM Cloud catalog.",
+        "href": "/docs/sell?topic=sell-sw-getting-started"
+      },
+      {
+        "title": "Getting set up to sell services",
+        "description": "Complete a few initial tasks to start onboarding your service to the IBM Cloud catalog.",
+        "href": "/docs/sell?topic=sell-get-started"
+      },
+      {
+        "title": "Onboarding a Certified Operator bundle",
+        "description": "Learn how to onboard and publish a sample Certified Operator bundle from a Red Hat OpenShift registry.",
+        "href": "/docs/sell?topic=sell-bundle-register"
+      },
+      {
+        "title": "Onboarding a virutal server image with Terraform",
+        "description": "Learn how to onboard and publish a sample virtual server image with Terraform.",
+        "href": "/docs/sell?topic=sell-vsimage-register"
+      }
+    ],
+    "section_videos": [
+      {
+        "title": "Selling on IBM Cloud",
+        "href": "/docs/sell?topic=sell-checklist-software", 
+        "thumbnail": "/images/onboarding.svg" 
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/gettingstarted/",
+      "community": "https://community.ibm.com/community/user/publiccloud/communities/communities/community-home?CommunityKey=dd1ee2bc-c83b-4afb-bd1c-9095ff0c3bc1"
+    },
+    "section_updates": {
+      "view_more": "/docs/overview?topic=overview-whatsnew",
+      "tiles": [
+        {
+          "date": "05 October 2021",
+          "title": "Suspending and deprecating third-party software",
+          "description": "As a third-party provider, you can now suspend and deprecate published software from the IBM Cloud catalog to meet the needs of your product's lifecycle. When you suspend a product or version, it is immediately removed from the catalog. When you deprecate a product or version, it remains available for use in the catalog for 90 days. After 90 days, it's permanently removed."
+        },
+        {
+          "date": "07 July 2021",
+          "title": "Support for third-party Operator bundles from Red Hat OpenShift registries",
+          "description": "As a third-party provider, you can now onboard Operator bundles that exist in Red Hat OpenShift registries to IBM Cloud. The Red Hat OpenShift registries include Certified Operators, Marketplace Operators, and community Operators. This capability is supported by the beta release of IBM Cloud Partner Center and our previously general availability release of private catalog capabilities."
+        },
+        {
+          "date": "07 May 2021",
+          "title": "Support for third-party virtual server images with Terraform",
+          "description": "Third-party providers can now offer virtual server images deployed by using Terraform in IBM Cloud. This capability is supported by the beta release of IBM Cloud Partner Center and our previously general availability release of private catalog capabilities."
+        }
+      ]
+    }
+  }
