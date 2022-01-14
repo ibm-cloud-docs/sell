@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020, 2021
+  years: 2020, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-01-14"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -129,3 +129,8 @@ Your session timed out. Make sure to frequently save your updates to maintain yo
 
 You can expect your product to be reviewed and approved for publishing in 1 to 2 business days.
 
+## Can I share my virtual server image with other users as a developer? 
+{: #share-vsimage}
+{: faq}
+
+Yes, you can share your virtual server image with other users. To share with users in your personal or enterprise account, see [Onboarding software to your account](/docs/account?topic=account-create-private-catalog&interface=ui). To share with {{site.data.keyword.cloud_notm}} catalog users, see [Registering a virtual server image in IBM Cloud Partner Center](/docs/sell?topic=sell-vsimage-register).
