@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-01-31"
 
 
 
@@ -112,7 +112,7 @@ When users access your Operator from the catalog, they can view installation ins
 {: step}
 
 1. From the Validate product tab, select the target cluster and project, and click **Next**. 
-1. Configure your Schematics workspace by entering the name of your workspace, selecting a resource group, and optionally adding tags. Then, click **Next**. 
+1. Configure your Schematics workspace by entering the name of your workspace, selecting a resource group, selecting a Schematics region, and optionally adding tags. Then, click **Next**. 
 
     You can accept the default options that are displayed for your workspace name and resource group.
     {: note}

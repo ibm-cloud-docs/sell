@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-01-31"
 
 
 
@@ -130,7 +130,7 @@ The TGZ file that you imported to your private catalog includes a readme file th
 
 Validate that you can deploy the virtual server image to your VPC. 
 
-1. From the Validate product tab, enter the name of your Schematics workspace, select a resource group, and click **Next**.
+1. From the Validate product tab, enter the name of your Schematics workspace, select a resource group, select a Schematics region, and click **Next**.
 
     In the **Tags** field, you can enter a name of a specific tag to attach to your virtual server image. Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
     {: tip}
