@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2022
+lastupdated: "2022-01-31"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -101,7 +101,9 @@ Before publishing the Operator bundle, you need to validate it to make sure that
 1. Click **Next**.
 1. Confirm or edit your workspace name.  
 1. Select a resource group. 
-1. Enter tags for your workspace. Tags provide a way to organize, track usage costs, and manage access to the resources in your account. 
+1. Select a Schematics region. 
+1. Enter tags for your workspace. Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
+
 1. Click **Next** > **Validate**. 
 
 ## Next steps

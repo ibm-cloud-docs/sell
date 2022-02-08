@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-02-07"
 
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
@@ -19,7 +19,7 @@ completion-time: 10m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Onboarding a broker
+# Onboard a broker
 {: #broker-onboard}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"} 
@@ -27,10 +27,7 @@ completion-time: 10m
 This tutorial walks you through how to onboard a broker that you use to connect a pricing plan to your third-party service. When users create instances of your service from the {{site.data.keyword.cloud}} catalog, the broker manages the lifecycle of those instances, and connects the service to the applications that developers are building.
 {: shortdesc}
 
-The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@ibm.com.
-{: beta}
-
-This tutorial is one of four in a series that demonstrates how to onboard and publish a third-party service to {{site.data.keyword.cloud_notm}}. As you complete the tutorial, adapt each step to fit your product's needs.
+This tutorial is one of five in a series that demonstrates how to onboard and publish a third-party service to {{site.data.keyword.cloud_notm}}. As you complete the tutorial, adapt each step to fit your product's needs.
 
 ## Before you begin
 {: #broker-onboard-prereqs}
@@ -43,9 +40,8 @@ Make sure you have the following API keys:
 
 For more information, see [Managing API keys](/docs/account?topic=account-userapikey).
 
-## Configure your broker
+## Add your broker
 {: #broker-onboard-cfg}
-{: step}
 
 1. Click **Menu** > **Partner Center** > **My Products**, and select your service from the table. 
 2. From the Brokers tab, click **Add broker**. 
@@ -54,4 +50,4 @@ For more information, see [Managing API keys](/docs/account?topic=account-userap
 ## Next steps
 {: #broker-onboard-next}
 
-Link your broker to the pricing plan for your service. 
+You can now add your [pricing plan](/docs/sell?topic=sell-svc-pricing). 
