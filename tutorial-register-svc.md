@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2022
+lastupdated: "2022-02-07"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register
 
@@ -17,7 +17,7 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Registering a service in {{site.data.keyword.cloud_notm}} Partner Center
+# Register your service in {{site.data.keyword.cloud_notm}} Partner Center
 {: #svc-register}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="5m"} 
@@ -25,10 +25,7 @@ completion-time: 5m
 This tutorial walks you through how to register a service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide your company details, create a test environment, and grant team members access to help with the onboarding process
 {: shortdesc}
 
-The process to sell third-party products in Partner Center is still under development. With the current release, you can offer your product for free. If you're interested in trying it out, contact us at cloud.onboarding@ibm.com.
-{: beta}
-
-This tutorial is one of four in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your needs.
+This tutorial is one of five in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your needs.
 
 ## Before you begin
 {: #svc-reg-prereqs}
@@ -47,7 +44,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 {: #svc-reg-test}
 {: step}
 
-You, or a member of your team, uses the test environment to onboard your service and validate that it's ready for use.
+A test environment is not needed for onboarding services but is needed for any software that you might onboard in the future. You, or a member of your team, uses the test environment to validate that your software is ready for use.
 
 1. Click **Create** in the Create your test environment section. 
 1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.
@@ -56,10 +53,10 @@ You, or a member of your team, uses the test environment to onboard your service
 {: #svc-reg-ag}
 {: step}
 
-If you want to enlist team members to help with the onboarding process, they need specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline this requirement, you simply create an access group, which is used to grant multiple users in your account access all at once, and we take care of the rest for you. 
+You can enlist team members to help with the onboarding process by assigning them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process of assigning access, complete the following steps to create your access group:
 
 1. Click **Assign** in the Assign access section.
-1. Enter `Example Corp Virtual Server Image` as the name of the access group, and click **Assign**. The following roles are assigned to the access group by default:
+1. Enter `Example Corp Service` as the name of the access group, and click **Create**. The following roles are assigned to the access group by default:
   
     * Administrator on the Catalog Management service
     * Editor on the Partner Center - Sell service

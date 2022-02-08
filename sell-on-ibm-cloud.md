@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2022
+lastupdated: "2022-02-07"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -24,9 +24,9 @@ Are you looking to sell your software or services on {{site.data.keyword.cloud}}
 
 Do you want to sell your third-party service on {{site.data.keyword.Bluemix_notm}}? Or do you want to onboard your software to our {{site.data.keyword.Bluemix_notm}} platform? You might have a software application that users can manage and install, or a software-based service you can manage for users. 
 
-You can use our expanding catalog of software solutions to take advantage of a simplified installation process. You can also bring your own licenses, or deliver your third-party software for free. For more information, see [Software](https://cloud.ibm.com/catalog#software). 
+You can use our expanding catalog of software solutions to take advantage of a simplified installation process. You can also bring your own licenses, or offer your third-party software for free. For more information, see [Software](https://cloud.ibm.com/catalog#software). 
 
-If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.Bluemix_notm}} by defining your service, building pricing plans, enabling security, and managing the deployment of your service in different {{site.data.keyword.Bluemix_notm}} environment. For more information, see [Services](https://cloud.ibm.com/catalog#services). 
+If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.Bluemix_notm}} by defining your service, building pricing plans, and creating brokers. For more information, see [Services](https://cloud.ibm.com/catalog#services). 
 
 ### Software 
 {: #software}
@@ -46,7 +46,10 @@ The process is as simple as providing company information, creating a suitable t
 ### Services
 {: #services}
 
-Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}} resource controller.
+Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}}.
+
+All new services must be onboarded through Partner Center. Existing services that were previously onboarded through resource management console (RMC) can still be manged in RMC. 
+{: important}
 
 Types of third-party services that {{site.data.keyword.Bluemix_notm}} supports include: 
 - Computing services such as SaaS, PaaS, and IaaS
@@ -63,4 +66,4 @@ Types of third-party services that {{site.data.keyword.Bluemix_notm}} supports i
 - Security services for enterprise-grade cloud security 
 - Mobile services for building and starting mobile applications 
 
-The process is as simple as registering your service with {{site.data.keyword.Bluemix_notm}}, listing service types, and defining those service types. For more information, see [Getting set up to sell services](/docs/sell?topic=sell-sw-getting-started). 
+The process includes registering your service with {{site.data.keyword.Bluemix_notm}}, defining your product, and linking a broker. For more information, see [Getting set up to sell services](/docs/sell?topic=sell-get-started). 

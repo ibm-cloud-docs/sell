@@ -6,7 +6,7 @@ toc:
     category: platform_services
     audience: platform
     href: /docs/sell
-    console-page: https://cloud.ibm.com/partner-center
+    console-page: /partner-center
     product-page: https://www.ibm.com/cloud/partners
     path: sell
     label: Selling on IBM Cloud
@@ -59,6 +59,7 @@ toc:
           - tutorial-define-svc.md
           - tutorial-onboard-broker.md
           - tutorial-pricing-svc.md
+          - tutorial-publish-svc.md
 
   - navgroup:
       id: howto
