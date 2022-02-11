@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2021
+  years: 2018, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-02-11"
 
 keywords: billing service, resource management console, IBM Cloud, RMC, selling services, Onboarding Workbench
 
@@ -16,6 +16,9 @@ subcollection: sell
 
 # Onboarding your service
 {: #overview}
+
+The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+{: important}
 
 This topic introduces you to the steps that are required to onboard and sell your third-party service in {{site.data.keyword.Bluemix}}. 
 {: shortdesc}
