@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2021 
+  years: 2018, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-02-11"
 
 keywords: test criteria, IBM Cloud catalog, Add broker Click Manage
 
@@ -17,6 +17,9 @@ subcollection: sell
 
 # Publishing and testing your service
 {: #step5-pubtest}
+
+The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+{: important}
 
 Now that you have your hosted broker or brokers that meet the OSB specification, you can return to the resource management console to publish your service to the {{site.data.keyword.Bluemix_notm}} catalog. 
 {: shortdesc}
