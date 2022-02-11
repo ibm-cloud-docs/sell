@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2019, 2021
+  years: 2019, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-02-11"
 
 keywords: Custom service parameters, parameters, RMC, service 
 
@@ -16,6 +16,9 @@ subcollection: sell
 
 # Using custom service parameters
 {: #service_parameters3p}
+
+The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+{: important}
 
 You can use service parameters to collect and add additional data points to a provisioning call when an {{site.data.keyword.Bluemix}} customer creates a service instance. The data is passed to the service broker and is used in the provisioning action that is executed by the service provider. This action supports additional preferences and configures which specific service a customer should select. 
 
