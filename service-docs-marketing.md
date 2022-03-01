@@ -17,7 +17,7 @@ subcollection: sell
 # Creating your documentation and marketing announcement
 {: #content-tasks}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 You can use the {{site.data.keyword.IBM}} Onboarding Workbench to create your getting started documentation and marketing announcement.

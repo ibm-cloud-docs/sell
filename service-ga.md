@@ -17,7 +17,7 @@ subcollection: sell
 # Publicly releasing your service
 {: #public-releasing}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 After you test your third-party service, you're ready to make it publicly available in the {{site.data.keyword.Bluemix}} catalog. Record a video to demonstrate that your service meets all requirements, and submit the video to {{site.data.keyword.IBM_notm}} through email. Your demo is reviewed by {{site.data.keyword.IBM_notm}} before final publish approval can be granted. Recordings are reviewed every Tuesday with a decision or feedback returned the following Thursday, so be sure to plan enough time to prepare for you go-live date.

@@ -17,7 +17,7 @@ subcollection: sell
 # Metering integration
 {: #meteringintera}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 {{site.data.keyword.Bluemix}} supports multiple models for aggregating offering usage. Offering providers measure various metrics on the provisioned instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that offering providers choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.

@@ -17,7 +17,7 @@ subcollection: sell
 # Developing an authentication flow
 {: #step4-iam}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 When you define your service, the Access Manage page in the resource management console lists your {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) client ID and secret, your service ID, and your API key. Now you're ready to use those values to develop an authentication flow.

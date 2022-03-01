@@ -17,7 +17,7 @@ subcollection: sell
 # Defining your service in the resource management console
 {: #step2-define}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 The resource management console is a tool that helps guide you through delivering your third-party service to the {{site.data.keyword.Bluemix}} catalog. Now that you're approved to deliver your service, you're ready to use the resource management console to register it, start developing it, and define your pricing plans. 

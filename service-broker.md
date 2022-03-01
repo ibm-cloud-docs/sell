@@ -17,7 +17,7 @@ subcollection: sell
 # Developing and hosting your service brokers
 {: #step3-osb}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 By using the metadata you exported from the resource management console, you can build one or more new service brokers in the programming language of your choice.
