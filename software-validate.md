@@ -110,7 +110,6 @@ Imported values don't replace any deployment values that you already added to yo
 
 ### Add security and compliance controls
 {: #sw-controls}
-{: ui}
 
 Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
 
