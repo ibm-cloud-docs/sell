@@ -48,7 +48,7 @@ The process is as simple as providing company information, creating a suitable t
 
 Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}}.
 
-All new services must be onboarded through Partner Center. Existing services that were previously onboarded through resource management console (RMC) can still be manged in RMC. 
+All new services must be onboarded through Partner Center. Existing services that were previously onboarded through resource management console can still be managed in the resource management console. 
 {: important}
 
 Types of third-party services that {{site.data.keyword.Bluemix_notm}} supports include: 

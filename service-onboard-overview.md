@@ -17,7 +17,7 @@ subcollection: sell
 # Onboarding your service
 {: #overview}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 This topic introduces you to the steps that are required to onboard and sell your third-party service in {{site.data.keyword.Bluemix}}. 

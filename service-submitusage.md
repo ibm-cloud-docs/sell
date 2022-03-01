@@ -17,7 +17,7 @@ subcollection: sell
 # Submitting usage for metered plans
 {: #submitusage}
 
-The process to onboard and manage services through the resource management console (RMC) is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 {: important}
 
 You're required to submit usage for all active service instances every hour. Not reporting usage can lead to the loss of revenue collection for IBM, which can cause a loss of revenue share for offering providers.

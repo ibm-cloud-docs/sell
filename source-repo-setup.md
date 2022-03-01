@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-07"
+  years: 2021, 2022
+lastupdated: "2022-02-28"
 
 keywords: software, readme, installation, Git, GitHub, repo, repository
 
@@ -29,7 +29,7 @@ Create a release in your source code repository to deliver and manage versions o
 
 Upload a readme file that focuses on helping users to get up and running with your software. When you publish the software, the details of your readme file are available from your product's details page in the {{site.data.keyword.cloud}} catalog.
 
-1. Use the [readme file template](https://cloud.ibm.com/media/docs/downloads/software/sw-readme-tab-template.md){: external} to document the step-by-step instructions for installing your software. 
+1. Use the [readme file template](https://cloud.ibm.com/media/docs/downloads/software/sw-readme-tab-template.md){: external} to document the step-by-step instructions for installing your software. If your readme file is missing sections in the template, it will not be approved. 
 2. Save your updates and name your file `readme.md`. 
 3. Go to your GitHub repository and upload the `readme.md` file. 
 
