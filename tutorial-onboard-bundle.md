@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-03-01"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -61,11 +61,23 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 1. Review the summary of your Operator bundle. 
 1. Click **Add version**.
 
-## Configure your Operator bundle
+## Review your version details
 {: #bundle-configure}
 {: step}
 
 From the Configure product tab, you can review your version details. There are no actions that you need to take. When you are ready to move on, click **Next**.
+
+## Add security and compliance controls
+{: #bundle-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** 
+1. Click **Next**.
 
 ## Set the license requirements
 {: #bundle-onboard-cfg-license}
@@ -103,7 +115,6 @@ Before publishing the Operator bundle, you need to validate it to make sure that
 1. Select a resource group. 
 1. Select a Schematics region. 
 1. Enter tags for your workspace. Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
-
 1. Click **Next** > **Validate**. 
 
 ## Next steps
