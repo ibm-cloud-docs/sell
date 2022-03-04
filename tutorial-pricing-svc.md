@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2021-03-02"
+lastupdated: "2021-03-03"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -35,15 +35,15 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 1. [Define the product details of your service](/docs/sell?topic=sell-svc-define).
 1. [Onboard a broker](/docs/sell?topic=sell-broker-onboard).
 
-## Add your ECCN
+## Add an ECCN
 {: #svc-eccn}
 {: step}
 
-Provide your ECCN for your service. If you don't have your ECCN, use the [Commerce Control List](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn){: external} to determine your ECCN. 
+You can choose from a list of common ECCNs or search for an ECCN. If you don't know the ECCN that best fits your product, you can use the [Commerce Control List](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn){: external} to determine a suitable ECCN. For the purposes of this tutorial, select a common ECCN. 
 
-1. Click **Pricing** > **Enter your ECCN**.
-2. Enter your ECCN. 
-3. Click **Save**.
+1. Click **Pricing** > **Add**.
+2. Select **Subject to EAR/not elsewhere specified**. 
+3. Click **Add**.
 
 ## Define your pricing plan
 {: #svc-plan-details}

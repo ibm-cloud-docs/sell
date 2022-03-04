@@ -3,7 +3,7 @@
 copyright:
   years: 2021
 
-lastupdated: "2021-12-02"
+lastupdated: "2021-03-03"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, Red Hat OpenShift cluster, sample Node-RED Operator, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL, DPA, digital provider agreement
 
@@ -16,7 +16,6 @@ completion-time: 10m
 ---
 
 {{site.data.keyword.attribute-definition-list}}
-
 
 # Defining the product details of an Operator 
 {: #operator-define}
@@ -44,20 +43,29 @@ Custom digital provider agreements must be reviewed and approved by {{site.data.
 
 For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
 
-1. From the My Products page in the {{site.data.keyword.cloud_notm}} Partner Center, click **Provide details** in the notification that explains that company details are required.
+1. From the My products page in the {{site.data.keyword.cloud_notm}} Partner Center, click **Provide details** in the notification that explains that company details are required.
 1. In the Digital provider agreement section, click **Standard**. 
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement. 
 1. Select **I understand and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**, and click **Save**.
 
-## Provide the name of your Operator
+## Provide your product name and type
 {: #operator-name}
 {: step}
 
-Click **Dashboard**, and enter the name of your Operator, for example, `Example Corp Node-RED Operator 1.0.0`. Make sure the name meets the following requirements:
+When you add a product, you have the option to add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a new product. 
+
+1. From the {{site.data.keyword.cloud_notm}} Partner Center, click **Create**.
+1. Enter the name of your Operator, for example, `Example Corp Node-RED Operator 1.0.0`. Make sure that the name meets the following requirements:
   
-* Use 60 characters or less.
-* Do not include "{{site.data.keyword.cloud_notm}}".
-* Do not include the name of your company, former product names, or details like deployment targets and pricing. You can include this information in your readme file.
+   * Use 60 characters or less.
+   * Do not include "{{site.data.keyword.cloud_notm}}".
+   * Do not include the name of your company, former product names, or details like deployment targets and pricing. You can include this information in your readme file.
+1. Select the product type. For the purposes of this tutorial, select **Deployable software**. 
+
+    The product type that you select is used for tax assessment purposes.
+    {: important}
+
+1. Click **Add**.
 
 ## Define your catalog entry and product page
 {: #operator-catalog}
@@ -72,7 +80,7 @@ Provide details that are displayed on your catalog entry and product page when y
 1. Enter keywords that users might use when searching the catalog for your product, for example, `cluster`, `operator`, `node-red`. 
 1. Provide a list of features that highlights your product's attributes and benefits for users.
 
-   Use a descriptive title and 1-2 sentences for each feature. You want the information to be visually scannable for users.
+   Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users.
    {: tip}
 
 1. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't simply repeat it. 
@@ -103,21 +111,21 @@ For the purposes of this tutorial, complete the following steps to add a BYOL pr
 {: #operator-support}
 {: step}
 
-Provide details that help users understand how to get support if they encounter issues when using the Operator. Also, describe how {{site.data.keyword.cloud_notm}} Support can collaborate with your support team on customer escalations.
+Provide details that help users understand how to get support if they encounter issues when they use the Operator. Also, describe how customers can contact your support team to escalate issues that are not handled by the standard support process.
 
 1. Click **Support**, and enter the URL to your support website, for example, `https://support.examplecorp.com/`.
-2. For your support response process, describe what users can expect when they contact your support team, for example:
+2. For your support contact and response process, describe what users can expect when they contact your support team, for example:
 
    `Contact Example Corp Support online at https://support.examplecorp.com, by chat at https://support.examplecorp.com/chat, or by phone at https://support.examplecorp.com/phone. Support is available 24 hours a day, 7 days a week, 365 days a year and is provided in English and French.`
   
 3. Enter or select all the countries in which support for your product is based.
-4. Describe the process that {{site.data.keyword.cloud_notm}} Support follows when customers escalate issues that are handled by your support team, for example: 
+4. Describe the process that customers follow when they need to escalate issues, for example:
 
-   `For client escalations, {{site.data.keyword.cloud_notm}} support representatives should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
+   `For escalation discussions, IBM Cloud customers should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
   
-5. Describe how {{site.data.keyword.cloud_notm}} Support can contact your support team, for example:
+5. Describe how customers can contact your support team when they escalate an issue, for example:
 
-   `For support process discussions, {{site.data.keyword.cloud_notm}} support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
+   `For escalation discussions, {{site.data.keyword.cloud_notm}} support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
 
 ## Next steps
 {: #operator-define-next}
