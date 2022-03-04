@@ -19,7 +19,7 @@ subcollection: sell
 During the onboarding process, you can add a new product or import an existing product. Importing an existing product is limited to software that was previously added to a private catalog.
 {: shortdesc}
 
-## Add a new product
+## Creating a product
 {: #add-new-product}
 
 1. From the My products page in Partner Center, click **Create**.
