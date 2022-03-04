@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-02-07"
+lastupdated: "2022-03-03"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -50,20 +50,23 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement. 
 1. Select **I understand and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**, and click **Save**.
 
-## Provide your product name
+## Provide your service name and type
 {: #svc-name}
 {: step}
 
-The value that you enter in this step is the name that is displayed in the catalog when your service is publicly available. 
+When you add a product, you can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a new product.  
 
 1. Click **My Products** > **Create**. 
 1. Enter the name of your product, for example, `Example Corp SaaS Product`. Make sure that the name you enter meets the following requirements:
   
-* Use 60 characters or less.
-* Don't include "{{site.data.keyword.cloud_notm}}".
-* Don't include the name of your company, former product names, or pricing details.
+   * Use 60 characters or less.
+   * Don't include "{{site.data.keyword.cloud_notm}}".
+   * Don't include the name of your company, former product names, or pricing details.
 
-1. Select **Service** as the type of product that you're onboarding, and click **Create**.
+1. Select **Software as a Service** as the type of product that you're onboarding, and click **Add**.
+
+    The product type that you select is used for tax assessment purposes. 
+    {: important}
 
 ## Confirm your display name and programmatic name for approval
 {: #svc-progname-review}
@@ -99,42 +102,41 @@ When your service is published in the catalog, it's represented by a catalog ent
 1. Click **Product details**, and enter the URL to your company or product logo, for example `http://svgur.com/i/TTP.svg`.
 1. Provide a short description about your service.
 1. From the **Category** list, select the option that best fits how users might use your product, for example, **Databases**. Categories are used to organize similar products in the catalog based on common solutions, function, or use.
-1. Select **Third party** from the **Provider** list.
+1. Select **Third party** from the Provider list.
 1. Enter keywords that users might use when they search the catalog for your service.
 1. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product.
 1. Provide a list of features that highlights your service's attributes and benefits for users.
 
-   Use a descriptive title and 1-2 sentences for each feature. You want the information to be visually scannable for users.
+   Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users.
    {: tip}
 
-1. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't simply repeat it. 
+1. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't repeat it. 
 1. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.
 
    Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features. 
    {: tip}
 
-1. Provide a link to documentation that helps users understand and learn more about how to fully use your service.
+1. Provide a link to documentation that helps users understand and learn more about how to use your service.
 
 ## Define your support experience
 {: #svc-support}
 {: step}
 
-Provide details that help users understand how to get support if they encounter issues when using your service.
+Provide details that help users understand how to get support if they encounter issues when they use the service. Also, describe how customers can contact your support team to escalate issues that are not handled by the standard support process.
 
 1. Click **Support**, and enter the URL to your support website, for example, `https://support.examplecorp.com/`.
-2. For your support contact and response details, describe how customers can get in touch with your support team, for example:
+2. For your support contact and response process, describe what users can expect when they contact your support team, for example:
 
    `Contact Example Corp Support online at https://support.examplecorp.com, by chat at https://support.examplecorp.com/chat, or by phone at https://support.examplecorp.com/phone. Support is available 24 hours a day, 7 days a week, 365 days a year and is provided in English and French.`
   
-3. For your support locations, enter or select all the countries in which your support teams are located.
-4. In the status site URL field, provide a URL that customers can use to access your support information, including contacting your support team. 
-5. Describe the support process for when customers need to escalate issues, for example: 
+3. Enter or select all the countries in which support for your product is based.
+4. Describe the process that customers follow when they need to escalate issues, for example:
 
-   `For support escalations, follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
+   `For escalation discussions, IBM Cloud customers should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
   
-6. Describe how to contact your support team for escalating issues, for example:
+5. Describe how customers can contact your support team when they escalate an issue, for example:
 
-   `For support escalations, contact the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
+   `For escalation discussions, {{site.data.keyword.cloud_notm}} support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
 
 ## Next steps 
 {: #svc-define-next}

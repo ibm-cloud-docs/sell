@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-02-07"
+lastupdated: "2022-03-03"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -46,13 +46,23 @@ The process is as simple as providing company information, creating a suitable t
 ### Services
 {: #services}
 
-Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}}.
+Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}}.  
 
-All new services must be onboarded through Partner Center. Existing services that were previously onboarded through resource management console can still be managed in the resource management console. 
+All new services must be onboarded through Partner Center. Existing services that were previously onboarded through the resource management console can still be managed in the resource management console. 
 {: important}
 
-Types of third-party services that {{site.data.keyword.Bluemix_notm}} supports include: 
-- Computing services such as SaaS, PaaS, and IaaS
+When you onboard your service, you must select the type of service that you are onboarding. Your service type is used for tax assessment purposes. {{site.data.keyword.Bluemix_notm}} supports three types of services: 
+
+Software as a service
+:   A model of software deployment in which the software that includes business processes, enterprise applications, and collaboration tools, are provided as a service to customers through the cloud.
+
+Infrastructure as a service
+:   The delivery of a computer infrastructure, including server functionality, networking functionality, data center functionality, and storage functionality as an outsourced service.
+
+Platform as a service
+:   The delivery of a computing platform, including applications, optimized middleware, development tools, and Java and Web 2.0 runtime environments, in a cloud-based environment.
+
+Categories of third-party services that fit within the service types include: 
 - Container services that help build containerized applications 
 - Storage services for persistent cloud storage and data encryption
 - AI and Machine learning services (by integrating with IBM Watson) 
