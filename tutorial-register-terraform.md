@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-03-04"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Terraform, terraform template
 
@@ -23,16 +23,23 @@ completion-time: 5m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"} 
 
-This tutorial walks you through how to register a Terraform template in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide the company details, create a test environment, and set up access for your team to help with the onboarding process.
+This tutorial walks you through how to register a Terraform template in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide the company details, create a test environment, and set up the access for your team to help with the onboarding process.
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish a [Terraform template](https://github.com/IBM-Cloud/terraform-sample/releases/tag/v1.0.0){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
+This tutorial is one of four in a series that demonstrates how to onboard and publish a [Terraform template](https://github.com/IBM-Cloud/terraform-sample/releases/tag/v1.0.0){: external}. It uses a fictitious company that is called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 ## Before you begin
 {: #terraform-template-prereqs}
 
 1. Verify that you're using a Pay-As-You-Go or Subscription account by going to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console. 
-1. Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+
+1. Verify that you're assigned the following roles. For more information, see [Assigning access to account management services](https://cloud.ibm.com/docs/account?topic=account-account-services) and [Managing access to resources](https://cloud.ibm.com/docs/account?topic=account-assign-access-resources).
+
+   * Administrator on all account management services and all IAM services
+   * Editor on the catalog management service
+   * Manager service access role for IBM Cloud Schematics
+   * Operator platform role for VPC Infrastructure
+   * Editor on the software instance service
  
 ## Provide the company name
 {: #terraform-template-reg-company}
@@ -89,6 +96,6 @@ After you create the `Example Corp Terraform Template` access group, you're read
 ## Next steps
 {: #terraform-template-reg-next}
 
-You're ready to start the onboarding process. In the Onboard your product section, click **Let's go**, and [define the product details for the virtual server image](/docs/third-party?topic=third-party-vsimage-define).
+You're ready to start the onboarding process. In the Onboard your product section, click **Let's go**, and [define the product details of your Terraform template](/docs/sell?topic=sell-terraform-template-define).
 
 
