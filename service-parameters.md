@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2022
 
-lastupdated: "2022-03-11"
+lastupdated: "2022-03-15"
 
 keywords: Custom service parameters, parameters, RMC, service 
 
@@ -29,7 +29,7 @@ As you start working with custom service parameters, see [Service parameter defi
 
 As a third-party provider, you have the option to add custom service parameters to your offering:
 
-1. Log in to the console. 
+1. Log in to the [console](/login){: external}. 
 2. Go to the [resource management console dashboard](/onboarding/dashboard){: external}, and click the **Offering** tab. 
 3. Enter a valid JSON in the **Custom Service Parameter** input field. 
 
