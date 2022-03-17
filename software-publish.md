@@ -62,7 +62,7 @@ To publish your product to specific accounts, complete the following steps:
 1. Select **Accounts**.
 1. Select the account or the enterprise that you want to publish your product to. 
 
-   - You publish your product to other accounts you are a member of by clicking **Add accounts**.
+   - You can publish your product to other accounts you are a member of by clicking **Add accounts**.
 
 1. Select a version of your product.     
 1. Click **Publish**.
