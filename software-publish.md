@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-17"
+lastupdated: "2022-03-18"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -60,9 +60,6 @@ To publish your product to specific accounts, complete the following steps:
 1. Select the product that you are onboarding.
 1. Click **Publish**.
 1. Select **Accounts**.
-1. Select the account or the enterprise that you want to publish your product to. 
-
-   - You can publish your product to other accounts you are a member of by clicking **Add accounts**.
-
+1. Select the account or the enterprise that you want to publish your product to. You can also publish your product to other accounts you are a member of by clicking **Add accounts**.
 1. Select a version of your product.     
 1. Click **Publish**.
