@@ -89,6 +89,7 @@ toc:
               - software-pricing-details.md
               - software-support-details.md
               - source-repo-setup.md
+              - software-controls-format.md
               - software-validate.md
               - software-helm-target.md
               - software-publish.md
