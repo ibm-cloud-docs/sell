@@ -52,6 +52,13 @@ toc:
           - tutorial-define-vsimage.md
           - tutorial-onboard-vsimage.md
           - tutorial-publish-vsimage.md
+      - topicgroup:
+          label: Onboarding a virtual server image for Power Systems
+          topics:
+          - tutorial-register-vsipower.md
+          - tutorial-define-vsipower.md
+          - tutorial-onboard-vsipower.md
+          - tutorial-publish-vsipower.md
       - topicgroup:  
           label: Onboarding a Terraform template
           topics:
@@ -94,6 +101,7 @@ toc:
               - software-helm-target.md
               - software-publish.md
               - software-partner-details.md
+              - /account/account-translate-product-details
           - topicgroup:
               label: Updating software
               topics:
