@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-03-01"
+lastupdated: "2022-04-01"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -65,7 +65,7 @@ Complete the following steps to import your virtual server image from your GitHu
 1. Click **Add version**.
 1. Click the name of your product. 
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). 
-1. Select **This Terraform template contains at least one virtual server image.**
+1. Confirm that the Delivery method is set to **VPC VSI**.
 1. Click **Save**.
 
 ## Review the version details
