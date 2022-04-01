@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-03-31"
+lastupdated: "2022-04-01"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -149,7 +149,7 @@ Controls are safeguards that are used to meet security and compliance requiremen
 {: #vsipower-onboard-validate}
 {: step}
 
-Validate that you can deploy the virtual server image to your VPC. 
+Validate that you can deploy the virtual server image to your {{site.data.keyword.powerSys_notm}} instance. 
 
 1. From the Validate product tab, enter the name of your Schematics workspace, select a resource group, select a Schematics region, and click **Next**.
 
