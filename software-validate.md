@@ -108,17 +108,6 @@ Imported values don't replace any deployment values that you already added to yo
 1. Click **Import**.
 1. To customize parameters, select a parameter and click **Edit**.
 
-### Add security and compliance controls
-{: #sw-controls}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
 ## Adding license agreements
 {: #sw-validate-add-license}
 
