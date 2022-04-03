@@ -101,18 +101,6 @@ Next, update the configuration type of the **`region`** parameter:
 1. Open the **Value details** menu and select **VPC region**.
 1. Click **Save** > **Next**.
 
-## Add security and compliance controls
-{: #vsimage-onboard-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
 ## Add your license agreements
 {: #vsimage-onboard-eula}
 {: step}
