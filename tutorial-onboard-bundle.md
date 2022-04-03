@@ -67,18 +67,6 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 
 From the Configure product tab, you can review your version details. There are no actions that you need to take. When you are ready to move on, click **Next**.
 
-## Add security and compliance controls
-{: #bundle-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
 ## Set the license requirements
 {: #bundle-onboard-cfg-license}
 {: step}
