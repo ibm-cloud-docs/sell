@@ -82,18 +82,6 @@ After you review the version details, you're ready to configure the deployment v
 1. Select the **Parameter** checkbox to select all options, and click **Add**.
 1. To customize which parameters are required for users to specify during the installation and which ones are hidden from users, select a parameter and click **Edit**. Click the checkboxes to configure the values and click **Save**.
 
-## Add security and compliance controls
-{: #terraform-template-onboard-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
 ## Set the license requirements
 {: #terraform-template-onboard-cfg-license}
 {: step}
