@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-04-01"
+lastupdated: "2021-04-04"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -41,9 +41,9 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 You can choose from a list of common ECCNs or search for an ECCN. If you don't know the ECCN that best fits your product, you can use the [Commerce Control List](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn){: external} to determine a suitable ECCN. For the purposes of this tutorial, select a common ECCN. 
 
-1. Click **Pricing** > **Add**.
-2. Select **Subject to EAR/not elsewhere specified**. 
-3. Click **Add**.
+1. Click **Pricing** > **Add ECCN**.
+1. Select **Subject to EAR/not elsewhere specified**. 
+1. Click **Add**.
 
 ## Define your pricing plan
 {: #svc-plan-details}
@@ -116,3 +116,4 @@ Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital 
 {: #svc-pricing-next}
 
 Submit your [request to publish your service](/docs/sell?topic=sell-svc-publish) to the {{site.data.keyword.cloud_notm}} catalog.
+
