@@ -119,7 +119,7 @@ toc:
               - service-custom-parameters.md
               - service-support.md
           - topicgroup:
-              label: Selling services in the Resource Management Console
+              label: Selling services with the Resource Management Console
               topics:
               - service-onboard-overview.md
               - service-docs-marketing.md
