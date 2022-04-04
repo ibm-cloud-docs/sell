@@ -225,4 +225,4 @@ If you created your service with Partner Center, you can choose from the followi
 | `standard_add` | Virtual Server | 
 | `standard_add` | Virtual Server Hour | 
 | `standard_add` | Virtual Processor Core |
-{: caption="Table 1. Partner Center metering model metrics" caption-side="top"}
+{: caption="Table 8. Partner Center metering model metrics" caption-side="top"}
