@@ -18,7 +18,7 @@ subcollection: sell
 # Adding custom service parameters for your service in Partner Center
 {: #service-add-custom-parameters}
 
-When you onboard your service to {{site.data.keyword.Bluemix}}, the provisioning process of your product might require some additional information from your customers. To get the additional information, you can add custom input fields for your product in {{site.data.keyword.cloud_notm}} Partner Center, and customers can enter their values.
+When you onboard your service to {{site.data.keyword.Bluemix}}, the provisioning process of your product might require some additional information from your customers. To get the additional information, you can add custom input fields for your product in {{site.data.keyword.cloud_notm}} Partner Center, and customers can enter the values.
 {: shortdesc}
 
 ## Adding custom input fields
