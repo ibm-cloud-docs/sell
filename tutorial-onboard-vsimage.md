@@ -82,7 +82,7 @@ After you review the version details, you're ready to configure the deployment v
 
 1. From the Configure the deployment details section, click **Add deployment values**. 
 1. Select **Parameter** to select all options, and click **Add**.
-1. To customize which parameters are required for users to specify during the installation and which ones are hidden  altogether, select a parameter and click **Edit**. For the purposes of this tutorial, configure each parameter as described in the following table.
+1. To customize which parameters are required for users to specify during the installation and which ones are hidden altogether, select a parameter and click **Edit**. For the purposes of this tutorial, configure each parameter as described in the following table.
 
 | Parameter | Description | Required for users to specify? | Hidden from users? |
 | --- | ---------- | --- | --- | 

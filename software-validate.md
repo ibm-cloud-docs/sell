@@ -77,7 +77,7 @@ Complete the following steps to import a version of your software to your privat
 
 1. From the version list, click the row that contains your software. 
 1. Review the version details, and click **Next**.
-1. Depending on your software type, there may be additional steps, including setting deployment values. 
+1. Depending on your software type, there might be additional steps, including setting deployment values. 
 1. Click **Next**. 
 
 ### Setting deployment values

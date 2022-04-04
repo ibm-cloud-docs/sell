@@ -53,7 +53,7 @@ This tutorial includes deploying the virtual server image to a target {{site.dat
 
 Complete the following steps to import your virtual server image from your GitHub repository to a private catalog, which was created for you when you registered the virtual server image in {{site.data.keyword.cloud_notm}} Partner Center. 
 
-You can only onboard stock virtual server images for {{site.data.keyword.powerSys_notm}}. 
+You can onboard only stock virtual server images for {{site.data.keyword.powerSys_notm}}. 
 {: important}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.. 
@@ -69,7 +69,7 @@ You can only onboard stock virtual server images for {{site.data.keyword.powerSy
 1. Click **Add version**.
 1. Click the name of your product. 
 1. In Catalog entry details, verify that the Delivery method is set to **Power VSI**. 
-    If **Power VSI** is not selected as the Delivery method, click **Edit** and select **Power VSI** from the Delivery method drop-down menu, then click **Save**.
+    If **Power VSI** is not selected as the Delivery method, click **Edit** and select **Power VSI** as the Delivery method, then click **Save**.
 
 ## Review the version details
 {: #vsipower-review-version}
@@ -77,7 +77,6 @@ You can only onboard stock virtual server images for {{site.data.keyword.powerSy
 
 From the Configure product tab, you can review your version details. There are no actions that you need to take. When you are ready to move on, click **Next**.
 
-<!--Staging only: Changes to Configure the deployment values section except the **Next** button are not going out in the July milestone.-->
 ## Configure the deployment values
 {: #vsipower-onboard-cfgdeploy}
 {: step}
