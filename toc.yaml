@@ -75,13 +75,13 @@ toc:
           label: Selling software
           topics:
           - topicgroup:
-              label: Building software 
+              label: Building your software 
               topics:
               - build-usage-offers.md
               - build-fast-track.md
               - build-workshops.md
           - topicgroup:
-              label: Onboarding and publishing software
+              label: Onboarding and publishing your software
               topics:
               - software-invite-team.md
               - add-new-product.md
@@ -94,12 +94,12 @@ toc:
               - software-publish.md
               - software-partner-details.md
           - topicgroup:
-              label: Updating software
+              label: Updating your software
               topics:
               - software-versions.md
               - software-reload-version.md
           - topicgroup:
-              label: Deprecating and restoring software
+              label: Deprecating and restoring your software
               topics:
               - software-deprecate-product.md
               - software-restore-product.md
@@ -111,20 +111,27 @@ toc:
       - topicgroup:
           label: Selling services
           topics:
-          - service-onboard-overview.md
-          - service-docs-marketing.md
-          - service-rmc-define.md
-          - service-broker.md
-          - service-iam.md
-          - service-rmc-publish.md
-          - service-ga.md
           - topicgroup:
-              label: Submitting usage and metering plans
+              label: Selling services with Partner Center
               topics:
+              - service-pricing.md
+              - service-add-metrics.md
+              - service-custom-parameters.md
+              - service-support.md
+          - topicgroup:
+              label: Selling services with the Resource Management Console
+              topics:
+              - service-onboard-overview.md
+              - service-docs-marketing.md
+              - service-rmc-define.md
+              - service-broker.md
+              - service-iam.md
+              - service-rmc-publish.md
+              - service-ga.md
               - service-submitusage.md
               - service-metering.md
-          - service-parameters.md
-
+              - service-parameters.md
+              
   - navgroup:
       id: reference
       topics:
