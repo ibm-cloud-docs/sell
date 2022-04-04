@@ -30,18 +30,6 @@ To start defining your pricing model, you must provide the Export Control Classi
 1. Click **Enter your ECCN** and provide the ECCN for your service. 
 1. Click **Save**. 
 
-## United Nations Standard Products and Services Code (UNSPSC)
-{: #service-unspsc}
-
-In addition to ECCN, you must provide the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes-){: external}. Providing your UNSPSC is a required step in the onboarding process.
-
-To provide the UNSPSC code that applies to your product, complete the following steps:
-
-1. Go to **Partner Center** > **Sell** > **My products**.
-1. Open the service that you want to edit and go to the **Pricing** tab. 
-1. Click **Add UNSPSC** and select the UNSPSC code for your service. 
-1. Click **Save**. 
-
 ## Adding a free plan
 {: #add-plan-free}
 
@@ -80,7 +68,7 @@ All information that is entered in the **Add plan** panel is displayed to custom
 
 If you plan to offer usage-based pricing plans, it is required to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format. 
 
-Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it to the platform again.
+Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. 
 {: note}
 
 Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
