@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2021-04-04"
+lastupdated: "2021-04-05"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -23,7 +23,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
 
-This tutorial walks you through the steps for adding pricing plans and features for your third-party service. By completing this tutorial, you add your Export Control Classification Number (ECCN), define your pricing plan, and add a list of features for your product. 
+This tutorial walks you through the steps for adding pricing plans and features for your third-party service. By completing this tutorial, you add your Export Control Classification Number (ECCN), your United Nations Standard Products and Services Code (UNSPSC), define your pricing plan, and add a list of features for your product. 
 {: shortdesc}
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. As you complete the tutorial, adjust each step to fit your needs.
@@ -44,6 +44,16 @@ You can choose from a list of common ECCNs or search for an ECCN. If you don't k
 1. Click **Pricing** > **Add ECCN**.
 1. Select **Subject to EAR/not elsewhere specified**. 
 1. Click **Add**.
+
+## Add a UNSPSC
+{: #svc-unspsc}
+{: step}
+
+You can choose from a list of common UNSPSCs or search for a UNSPSC. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes-){: external} to find the one that applies to your product. For the purposes of this tutorial, select a common UNSPSC. 
+
+1. Click **Pricing** > **Add UNSPSC**.
+2. Select **Cloud-based software as a service**. 
+3. Click **Add**.
 
 ## Define your pricing plan
 {: #svc-plan-details}
