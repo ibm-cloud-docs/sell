@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-03-01"
+lastupdated: "2022-04-01"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -65,7 +65,7 @@ Complete the following steps to import your virtual server image from your GitHu
 1. Click **Add version**.
 1. Click the name of your product. 
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). 
-1. Select **This Terraform template contains at least one virtual server image.**
+1. Confirm that the Delivery method is set to **VPC VSI**.
 1. Click **Save**.
 
 ## Review the version details
@@ -82,7 +82,7 @@ After you review the version details, you're ready to configure the deployment v
 
 1. From the Configure the deployment details section, click **Add deployment values**. 
 1. Select **Parameter** to select all options, and click **Add**.
-1. To customize which parameters are required for users to specify during the installation and which ones are hidden  altogether, select a parameter and click **Edit**. For the purposes of this tutorial, configure each parameter as described in the following table.
+1. To customize which parameters are required for users to specify during the installation and which ones are hidden altogether, select a parameter and click **Edit**. For the purposes of this tutorial, configure each parameter as described in the following table.
 
 | Parameter | Description | Required for users to specify? | Hidden from users? |
 | --- | ---------- | --- | --- | 
@@ -100,18 +100,6 @@ Next, update the configuration type of the **`region`** parameter:
 1. From the Deployment values table, select the **`region`** parameter and click **Edit**.
 1. Open the **Value details** menu and select **VPC region**.
 1. Click **Save** > **Next**.
-
-## Add security and compliance controls
-{: #vsimage-onboard-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
 
 ## Add your license agreements
 {: #vsimage-onboard-eula}
@@ -134,6 +122,18 @@ The TGZ file that you imported to your private catalog includes a readme file th
     `Create and deploy a virtual server with ease by using a custom image.`
 
 1. Click **Save** > **Next**.
+
+## Manage security and compliance controls
+{: #vsimage-onboard-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** 
+1. Click **Next**.
 
 ## Validate the virtual server image 
 {: #vsimage-onboard-validate}

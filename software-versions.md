@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2022
+lastupdated: "2022-04-01"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, version
 
@@ -116,7 +116,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 1. Click **Add version**. 
 1. Click the name of your product. 
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). 
-1. Select **This Terraform template contains at least one virtual server image.**
+1. Confirm that the Delivery method is set to **VPC VSI**.
 1. Click **Save**.
 
 To complete the validation process, see [Configure the product details](/docs/sell?topic=sell-sw-validate#sw-validate-cfg-deploy).
