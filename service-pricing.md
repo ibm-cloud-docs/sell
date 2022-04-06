@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-04-04"
+lastupdated: "2022-04-05"
 
 keywords: billing service, pricing, IBM Cloud, selling services, pricing plan, feature
 
@@ -28,6 +28,18 @@ To start defining your pricing model, you must provide the Export Control Classi
 1. Go to **Partner Center** > **Sell** > **My products**.
 1. Open the service that you want to edit and go to the **Pricing** tab. 
 1. Click **Enter your ECCN** and provide the ECCN for your service. 
+1. Click **Save**. 
+
+## United Nations Standard Products and Services Code (UNSPSC)
+{: #service-unspsc}
+
+In addition to ECCN, you must provide the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes-){: external}. Providing your UNSPSC is a required step in the onboarding process.
+
+To provide the UNSPSC code that applies to your product, complete the following steps:
+
+1. Go to **Partner Center** > **Sell** > **My products**.
+1. Open the service that you want to edit and go to the **Pricing** tab. 
+1. Click **Add UNSPSC** and select the UNSPSC code for your service. 
 1. Click **Save**. 
 
 ## Adding a free plan
