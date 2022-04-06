@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-04-05"
+lastupdated: "2022-04-06"
 
 keywords: billing service, pricing, IBM Cloud, selling services, pricing plan, feature
 
@@ -80,7 +80,7 @@ All information that is entered in the **Add plan** panel is displayed to custom
 
 If you plan to offer usage-based pricing plans, it is required to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format. 
 
-Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. 
+Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
 Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
