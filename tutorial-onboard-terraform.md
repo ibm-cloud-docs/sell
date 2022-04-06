@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-03-04"
+lastupdated: "2022-04-01"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, validate, test, Terraform, terraform template
@@ -82,18 +82,6 @@ After you review the version details, you're ready to configure the deployment v
 1. Select the **Parameter** checkbox to select all options, and click **Add**.
 1. To customize which parameters are required for users to specify during the installation and which ones are hidden from users, select a parameter and click **Edit**. Click the checkboxes to configure the values and click **Save**.
 
-## Add security and compliance controls
-{: #terraform-template-onboard-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
 ## Set the license requirements
 {: #terraform-template-onboard-cfg-license}
 {: step}
@@ -115,6 +103,18 @@ When users access your Terraform template from the catalog, they can view instal
 3. If you need to make changes, edit the GitHub repository where you uploaded the Terraform template and re-create the `.tgz` file. Then, you can import the updated file to your private catalog again.
 4. Click **Save**.
 5. Click **Next**. 
+
+## Manage security and compliance controls
+{: #terraform-template-onboard-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** 
+1. Click **Next**.
 
 ## Validate the Terraform template
 {: #terraform-template-onboard-validate}

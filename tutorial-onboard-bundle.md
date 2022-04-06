@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-03-01"
+lastupdated: "2022-04-01"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -67,18 +67,6 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 
 From the Configure product tab, you can review your version details. There are no actions that you need to take. When you are ready to move on, click **Next**.
 
-## Add security and compliance controls
-{: #bundle-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
 ## Set the license requirements
 {: #bundle-onboard-cfg-license}
 {: step}
@@ -99,6 +87,18 @@ When users access your Operator bundle from the catalog, they can view installat
 2. Preview how the information in the readme file will be displayed to users when they are installing the Operator bundle.
 3. If you need to make changes, edit the information in the source file and import the updated Operator bundle to your private catalog. 
 4. Click **Save** > **Next**.
+
+## Manage security and compliance controls
+{: #bundle-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** 
+1. Click **Next**.
 
 ## Validate the software version
 {: #bundle-onboard-validate}

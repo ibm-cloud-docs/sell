@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2022
 
-lastupdated: "2022-03-01"
+lastupdated: "2022-04-01"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -77,7 +77,7 @@ Complete the following steps to import a version of your software to your privat
 
 1. From the version list, click the row that contains your software. 
 1. Review the version details, and click **Next**.
-1. Depending on your software type, there may be additional steps, including setting deployment values. 
+1. Depending on your software type, there might be additional steps, including setting deployment values. 
 1. Click **Next**. 
 
 ### Setting deployment values
@@ -107,17 +107,6 @@ Imported values don't replace any deployment values that you already added to yo
 1. Select the version that contains the values that you want to import.
 1. Click **Import**.
 1. To customize parameters, select a parameter and click **Edit**.
-
-### Add security and compliance controls
-{: #sw-controls}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
 
 ## Adding license agreements
 {: #sw-validate-add-license}
@@ -155,6 +144,17 @@ When users access your software from the catalog, they can view installation ins
 4. Click **Save**.
 5. Click **Next**.
 
+## Manage security and compliance controls
+{: #sw-controls}
+
+Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** 
+1. Click **Next**.
+
 
 ## Validating the product
 {: #sw-validate-validate-product}
@@ -167,4 +167,3 @@ The steps to validate your product can vary based on the type of software that y
 
 To monitor the progress of the validation process, click **View logs**.
 {: tip}
-
