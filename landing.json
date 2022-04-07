@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2022-02-07",
+    "lastupdated": "2022-04-07",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software and services.",
     "section_recommended": [
       {
@@ -39,19 +39,19 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
+          "date": "05 April 2022",
+          "title": "Onboarding virtual server images for Power Systems Virtual Server",
+          "description": "You can now onboard virtual server images for Power Systems Virtual Server to private catalogs and the IBM Cloud catalog."
+        },
+        {
+          "date": "04 April 2022",
+          "title": "Adding custom service parameters for your service",
+          "description": "If the provisioning process of your product requires additional information from your customers, you can now add custom input fields for your product in IBM Cloud Partner Center."
+        },
+        {
           "date": "07 February 2022",
           "title": "Support for onboarding third-party services in Partner Center",
           "description": "Onboarding new services in the resource management console is no longer supported. You must use Partner Center to onboard new services to the IBM Cloud catalog. You can continue to manage existing services in the resource management console."
-        },
-        {
-          "date": "05 October 2021",
-          "title": "Suspending and deprecating third-party software",
-          "description": "As a third-party provider, you can now suspend and deprecate published software from the IBM Cloud catalog to meet the needs of your product's lifecycle. When you suspend a product or version, it is immediately removed from the catalog. When you deprecate a product or version, it remains available for use in the catalog for 90 days. After 90 days, it's permanently removed."
-        },
-        {
-          "date": "07 July 2021",
-          "title": "Support for third-party Operator bundles from Red Hat OpenShift registries",
-          "description": "As a third-party provider, you can now onboard Operator bundles that exist in Red Hat OpenShift registries to IBM Cloud. The Red Hat OpenShift registries include Certified Operators, Marketplace Operators, and community Operators. This capability is supported by the beta release of IBM Cloud Partner Center and our previously general availability release of private catalog capabilities."
         }
       ]
     }
