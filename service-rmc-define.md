@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2022
 
-lastupdated: "2022-02-11"
+lastupdated: "2022-04-26"
 
 keywords: billing service, resource management console, pricing plans
 
@@ -17,7 +17,7 @@ subcollection: sell
 # Defining your service in the resource management console
 {: #step2-define}
 
-The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+All new services must be [onboarded through Partner Center](/docs/sell?topic=sell-get-started). All existing products will be migrated to the new management tool called Partner Center Sell by 31 May 2022. Refrain from making changes to your records during this time. As part of the migration, all of your data will be retained, and when the migration is complete we will notify you by email about how you can review and validate your record.
 {: important}
 
 The resource management console is a tool that helps guide you through delivering your third-party service to the {{site.data.keyword.Bluemix}} catalog. Now that you're approved to deliver your service, you're ready to use the resource management console to register it, start developing it, and define your pricing plans. 

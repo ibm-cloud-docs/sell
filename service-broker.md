@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2022
 
-lastupdated: "2022-02-11"
+lastupdated: "2022-04-26"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker
 
@@ -17,7 +17,7 @@ subcollection: sell
 # Developing and hosting your service brokers
 {: #step3-osb}
 
-The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+All new services must be [onboarded through Partner Center](/docs/sell?topic=sell-get-started). All existing products will be migrated to the new management tool called Partner Center Sell by 31 May 2022. Refrain from making changes to your records during this time. As part of the migration, all of your data will be retained, and when the migration is complete we will notify you by email about how you can review and validate your record.
 {: important}
 
 By using the metadata you exported from the resource management console, you can build one or more new service brokers in the programming language of your choice.

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-03-03"
+lastupdated: "2022-04-26"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -48,7 +48,7 @@ The process is as simple as providing company information, creating a suitable t
 
 Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}}.  
 
-All new services must be onboarded through Partner Center. Existing services that were previously onboarded through the resource management console can still be managed in the resource management console. 
+All new services must be onboarded through Partner Center. All existing products will be migrated to the new management tool called Partner Center Sell by 31 May 2022. Refrain from making changes to your records during this time. As part of the migration, all of your data will be retained, and when the migration is complete we will notify you by email about how you can review and validate your record.
 {: important}
 
 When you onboard your service, you must select the type of service that you are onboarding. Your service type is used for tax assessment purposes. {{site.data.keyword.Bluemix_notm}} supports three types of services: 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-04-06"
+lastupdated: "2022-04-26"
 
 keywords: billing service, pricing, IBM Cloud, selling services, pricing plan, feature
 
@@ -90,10 +90,31 @@ Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital 
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** to review the agreement. 
 1. Select **I read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement**, and click **Save**.
 
-## Adding features for your service
+## Changing a pricing plan
+{: #change-pricing-plan}
+
+If you already submitted a pricing plan and you need to make changes, you must open a support case. Changing a submitted pricing plan can take at least a full billing cycle.
+
+To open a support case to change your pricing plan, complete the following steps:
+
+1. In the {{site.data.keyword.cloud_notm}} console, click **Support**.
+1. Click **Create a support case**.
+1. Select **All Products**
+1. Select **Partner Center - Sell** as the topic, and click **Next**.
+1. Complete the required fields, and click **Next**.
+
+    To maintain security, do not include any personal information, sensitive data, or device or service credentials. For example, don't include passwords, API keys, secrets, or credit card information.
+    {: important}
+
+1. Review your case summary, and click **Submit case**. 
+
+    You can track the progress of your submitted case from the [Manage cases page](/unifiedsupport/cases). 
+    {: tip}
+
+## Listing pricing plan features
 {: #service-add-feature}
 
-If you completed the steps to define your pricing plan, you can add a list of features for your service. These features uniquely identify your product's attributes and differentiate your pricing plan from others. By providing a list of features for your product, you can help customers choose the most suitable pricing plan for their use case. 
+If you completed the steps to define your pricing plan, you can add a list of features for this plan of your service. These features uniquely identify your product's attributes and differentiate your pricing plan from others. By providing a list of features for your product, you can help customers choose the most suitable pricing plan for their use case. 
 
 You can add up to five features for your product, but you must add at least one. The first feature that you add appears more prominently. Include the most important and differentiating details as the first feature. 
 {: note}
@@ -102,8 +123,9 @@ To add features for your service, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select the product that you're onboarding, and click **Pricing**.
-1. Select a pricing plan from the table that you previously added. After you select a plan, you are redirected to the **Pricing plan details** page.
-1. Click **Add features**.
-1. Enter a description for each feature. 
-   - You can remove any feature that you add by clicking **Remove feature**.
+1. Click **Add metrics**.
+1. Click the **Add feature**
+1. Click **Add feature**.
+1. Enter a feature description that uniquely describes your product and differentiates the pricing plan from others. This first feature will be highlighted by using bold text when the user is evaluating your product and its plans, so choose to highlight the best feature first.
+1. Optional: Click **Add feature** to add up to five feature descriptions.
 1. Click **Save**.

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2022
 
-lastupdated: "2022-02-11"
+lastupdated: "2022-04-26"
 
 keywords: access token, client ID, Access Manage page, authentication flow 
 
@@ -17,7 +17,7 @@ subcollection: sell
 # Developing an authentication flow
 {: #step4-iam}
 
-The process to onboard and manage services through the resource management console is limited to existing services. New services must be onboarded through Partner Center. To onboard a new service, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+All new services must be [onboarded through Partner Center](/docs/sell?topic=sell-get-started). All existing products will be migrated to the new management tool called Partner Center Sell by 31 May 2022. Refrain from making changes to your records during this time. As part of the migration, all of your data will be retained, and when the migration is complete we will notify you by email about how you can review and validate your record.
 {: important}
 
 When you define your service, the Access Manage page in the resource management console lists your {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) client ID and secret, your service ID, and your API key. Now you're ready to use those values to develop an authentication flow.
