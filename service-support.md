@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-04-04"
+lastupdated: "2022-04-27"
 
 keywords: partner center support
 
@@ -33,6 +33,9 @@ Provide the URL that directs users to your support site.
 {: #saas-support-response}
 
 Describe your support response process so users can understand what to expect when they contact your support team.
+
+Do not use personal emails or other personal identifying information for methods of contact.
+{: important}
 
 1. In the **Support contact and response details** field, describe what users can expect when they contact your support team, for example: 
 
@@ -65,7 +68,3 @@ Describe how customers can contact your support team to escalate issues that are
     `For escalation discussions, IBM Cloud customers can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
 
 1. Click **Save**.
-
-
-
-

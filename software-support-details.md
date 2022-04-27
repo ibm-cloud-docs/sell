@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-12-02"
+  years: 2020, 2022
+lastupdated: "2022-04-27"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, support, software, partner, sellers, partner center, support, customer support
 
@@ -33,6 +33,9 @@ Provide the URL that directs users to your support site.
 {: #sw-support-response}
 
 Describe your support response process so users can understand what to expect when they contact your support team.
+
+Do not use personal emails or other personal identifying information for methods of contact.
+{: important}
 
 1. In the **Support response process** field, enter a description, for example: 
 
@@ -68,8 +71,3 @@ Describe the process that {{site.data.keyword.cloud_notm}} Support follows when 
 
 Your support contacts must be reachable 24 hours a day, 7 days a week, and 365 days of the year.
 {: note}
-
-
-
-
-
