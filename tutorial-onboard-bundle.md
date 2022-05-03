@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-04-01"
+lastupdated: "2022-05-02"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -23,10 +23,10 @@ completion-time: 45m
 {: toc-services="Registry"}
 {: toc-completion-time="45m"} 
 
-This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.redhat_full}} {{site.data.keyword.openshiftshort}} Operator bundle, configure the deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
+This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.redhat_full}} {{site.data.keyword.openshiftshort}} Operator bundle, configure a deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
+This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 
 ## Before you begin
@@ -36,7 +36,6 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 1. [Create your {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started). 
 1. [Upload your Operator bundle and application images to {{site.data.keyword.registrylong_notm}}](/docs/Registry?topic=Registry-getting-started).
 1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
-
    * Administrator on all account management services and all IAM services
    * Editor on the catalog management service
    * Editor on the {{site.data.keyword.registrylong_notm}} service
@@ -50,13 +49,13 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 {: #bundle-onboard-import}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Select **Operator from {{site.data.keyword.redhat_notm}} registry** as your deployment method. 
 1. Select **Certified** as your {{site.data.keyword.redhat_notm}} repository. 
 1. Select your Operator bundle. For example, for the purposes of this tutorial, you can select **Akka Cluster Operator** as your Operator.
-1. Select the Operator bundle version that you would like to import.  
+1. Select the Operator bundle version that you want to import.  
 1. Enter the software version that the Operator bundle installs in the format of major version, minor version, and revision. For example, you can use Operator version `1.1.0` to install software version `3.1.1`. 
 1. Review the summary of your Operator bundle. 
 1. Click **Add version**.
@@ -65,7 +64,7 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 {: #bundle-configure}
 {: step}
 
-From the Configure product tab, you can review your version details. There are no actions that you need to take. When you are ready to move on, click **Next**.
+From the Configure version tab, you can review your version details. After you review your version details, click **Next**.
 
 ## Set the license requirements
 {: #bundle-onboard-cfg-license}
@@ -75,39 +74,28 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 
 1. From the Add license agreements tab, click **Add license**. 
 2. Enter the name and URL, and click **Add license**.
-3. Click **Next**.
+3. Enter all additional license agreements, and  click **Next**.
 
 ## Review your readme file 
 {: #bundle-onboard-review-readme}
 {: step}
 
-When users access your Operator bundle from the catalog, they can view installation instructions from the Readme tab of your product's catalog details page. The readme information is automatically generated. 
+When users install the software, they can view installation instructions by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your GitHub repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
-2. Preview how the information in the readme file will be displayed to users when they are installing the Operator bundle.
-3. If you need to make changes, edit the information in the source file and import the updated Operator bundle to your private catalog. 
-4. Click **Save** > **Next**.
-
-## Manage security and compliance controls
-{: #bundle-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
+2. Preview how the information in the readme file is displayed to users when they install the Operator bundle.
+3. To make changes, edit the information in the source file and import the updated Operator bundle to your private catalog. 
+4. Click **Save**.
+5. Click **Next**.
 
 ## Validate the software version
 {: #bundle-onboard-validate}
 {: step}
 
-Before publishing the Operator bundle, you need to validate it to make sure that the version can be deployed to the intended target. 
+Before you can publish the Operator bundle, you need to validate it to make sure that the version can be deployed to the intended target. 
 
 1. From the **Validate product** tab, select the Update channel that you would like to receive updates from. 
-1. Select whether you would like updates to be applied automatically or manually. 
+1. Select whether you want to apply updates automatically or manually. 
 1. Select a {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster. 
 1. Select a project. 
 1. Click **Next**.
@@ -117,9 +105,52 @@ Before publishing the Operator bundle, you need to validate it to make sure that
 1. Enter tags for your workspace. Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
 1. Click **Next** > **Validate**. 
 
+## Manage compliance
+{: #bundle-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
+
+You must validate your version before you can run a Code Risk Analyzer scan or add a Security and Compliance Center scan. 
+{: important}
+
+### Manage compliance controls
+{: #bundle-add-controls}
+
+You can review the controls that were added from your readme file and add additional controls.
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** > **Next**.
+
+### Run Code Risk Analyzer scan
+{: #bundle-cra-scan}
+
+Scan your source code with Code Risk Analyzer to identify any security vulnerabilities that you need to assess.
+
+1. Click **Run scan**. 
+2. Wait for the scan to finish. 
+3. Click **Next**.
+
+### Add Security and Compliance Center scan
+{: #bundle-scc-scan}
+
+Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](/docs/security-compliance?topic=security-compliance-schedule-scan).
+
+1. Select the profile that you scanned. 
+1. Select the Security and Compliance Center scan. 
+1. Click **Apply scan**.
+1. Click **Next**.
+
+## Review requirements
+{: #bundle-review-reqs}
+
+You must complete validation and any other requirements to publish your bundle. 
+
 ## Next steps
 {: #bundle-onboard-next}
 
-Return to the Partner Center and submit your request to [publish your Operator bundle](/docs/sell?topic=sell-bundle-publish) to the {{site.data.keyword.cloud_notm}} catalog.
+Go to Partner Center and submit your request to [publish your Operator bundle](/docs/sell?topic=sell-bundle-publish) to the {{site.data.keyword.cloud_notm}} catalog.
 
 
