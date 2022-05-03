@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-04-26"
+lastupdated: "2022-04-01"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -75,7 +75,7 @@ You can onboard only stock virtual server images for {{site.data.keyword.powerSy
 {: #vsipower-review-version}
 {: step}
 
-From the Configure product tab, you can review your version details. When you are ready to move on, click **Next**.
+From the Configure product tab, you can review your version details. There are no actions that you need to take. When you are ready to move on, click **Next**.
 
 ## Configure the deployment values
 {: #vsipower-onboard-cfgdeploy}
@@ -117,7 +117,7 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 
 1. From the Add license agreements tab, click **Add license**. 
 2. Enter the name and URL, and click **Add license**.
-3. Enter all additional license agreements, and click **Next**.
+3. After entering all additional license agreements, click **Next**.
 
 ## Review your readme file 
 {: #vsipower-onboard-readme}
@@ -132,11 +132,23 @@ The TGZ file that you imported to your private catalog includes a readme file th
 1. Click **Save**.
 1. Click **Next**. 
 
+## Manage security and compliance controls
+{: #vsipower-onboard-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** 
+1. Click **Next**.
+
 ## Validate the virtual server image 
 {: #vsipower-onboard-validate}
 {: step}
 
-Validate that you can deploy the virtual server image to your {{site.data.keyword.powerSys_notm}} instance.
+Validate that you can deploy the virtual server image to your {{site.data.keyword.powerSys_notm}} instance. 
 
 1. From the Validate product tab, enter the name of your Schematics workspace, select a resource group, select a Schematics region, and click **Next**.
 
@@ -150,48 +162,8 @@ Validate that you can deploy the virtual server image to your {{site.data.keywor
     You can monitor the progress of the validation process by clicking **View logs**.
     {: tip}
 
-## Manage compliance
-{: #vsipower-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
-
-### Manage compliance controls
-{: #vsipower-add-controls}
-
-You can review the controls that were added from your readme file and add additional controls.
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** > **Next**.
-
-### Run Code Risk Analyzer scan
-{: #vsipower-cra-scan}
-
-Scan your source code with Code Risk Analyzer to identify any security vulnerabilities that you need to assess.
-
-1. Click **Run scan**. 
-2. Wait for the scan to finish. 
-3. Click **Next**.
-
-### Add Security and Compliance Center scan
-{: #vsipower-scc-scan}
-
-Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center determine adherence to regulatory controls. For more information, see [Scheduling a scan](/docs/security-compliance?topic=security-compliance-schedule-scan).
-
-1. Select the profile that you scanned. 
-1. Select the Security and Compliance Center scan. 
-1. Click **Apply scan**.
-1. Click **Next**.
-
-## Review requirements
-{: #vsipower-review-reqs}
-
-You must complete validation and any other requirements to publish your virtual server image. 
-
 ## Next steps
 {: #vsipower-onboard-next}
 
-Go to the Partner Center and publish it to the catalog. For more information, see [Publishing a virtual server image to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-vsipower-publish).
+Return to the Partner Center and publish it to the catalog. For more information, see [Publishing a virtual server image to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-vsipower-publish).
 
