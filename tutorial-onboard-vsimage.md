@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-04-01"
+lastupdated: "2022-05-04"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -55,7 +55,7 @@ This tutorial includes deploying the virtual server image to a target VPC. As a 
 
 Complete the following steps to import your virtual server image from your GitHub repository to a private catalog, which was created for you when you registered the virtual server image in {{site.data.keyword.cloud_notm}} Partner Center.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**. 
 1. Select your product. 
 1. From the Software tab, click **Import a version**.
 1. Select **Virtual server image with Terraform** as your deployment method. 
@@ -72,7 +72,7 @@ Complete the following steps to import your virtual server image from your GitHu
 {: #vsi-review-version}
 {: step}
 
-From the Configure product tab, you can review your version details. There are no actions that you need to take. When you are ready to move on, click **Next**.
+From the Configure version tab, you can review your version details. There are no actions that you need to take. After you review your version details, click **Next**.
 
 ## Configure the deployment values
 {: #vsimage-onboard-cfgdeploy}
@@ -107,9 +107,9 @@ Next, update the configuration type of the **`region`** parameter:
 
 Provide the URLs to the license agreements that users are required to accept when they install the product. The license agreements are in addition to the {{site.data.keyword.cloud_notm}} Services Agreement.
 
-1. Click **Add license agreements** > **Add license**. 
-2. Enter the name and URL, and click **Update**.
-3. After you enter all additional license agreements, click **Next**.
+1. From the Add license agreements page, click **Add license**. 
+2. Enter the name and URL, and click **Add license**.
+3. Enter all additional license agreements, and click **Next**.
 
 ## Review your readme file 
 {: #vsimage-onboard-readme}
@@ -123,25 +123,13 @@ The TGZ file that you imported to your private catalog includes a readme file th
 
 1. Click **Save** > **Next**.
 
-## Manage security and compliance controls
-{: #vsimage-onboard-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
 ## Validate the virtual server image 
 {: #vsimage-onboard-validate}
 {: step}
 
 Validate that you can deploy the virtual server image to your VPC. 
 
-1. From the Validate product tab, enter the name of your Schematics workspace, select a resource group, select a Schematics region, and click **Next**.
+1. From the Validate version page, enter the name of your Schematics workspace, select a resource group, select a Schematics region, and click **Next**.
 
     In the **Tags** field, you can enter a name of a specific tag to attach to your virtual server image. Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
     {: tip}
@@ -152,6 +140,46 @@ Validate that you can deploy the virtual server image to your VPC.
 
     You can monitor the progress of the validation process by clicking **View logs**.
     {: tip}
+
+## Manage compliance
+{: #vsimage-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
+
+### Manage compliance controls
+{: #vsimage-add-controls}
+
+You can review the controls that were added from your readme file and add additional controls.
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** > **Next**.
+
+### Run Code Risk Analyzer scan
+{: #vsimage-cra-scan}
+
+Scan your source code with Code Risk Analyzer to identify any security vulnerabilities that you need to assess.
+
+1. Click **Run scan**. 
+2. Wait for the scan to finish. 
+3. Click **Next**.
+
+### Add Security and Compliance Center scan
+{: #vsimage-scc-scan}
+
+Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center determine adherence to regulatory controls. For more information, see [Scheduling a scan](/docs/security-compliance?topic=security-compliance-schedule-scan).
+
+1. Select the profile that you scanned. 
+1. Select the Security and Compliance Center scan. 
+1. Click **Apply scan**.
+1. Click **Next**.
+
+## Review requirements
+{: #vsimage-review-reqs}
+
+You must complete validation and any other requirements to publish your virtual server image. 
 
 ## Next steps
 {: #vsimage-onboard-next}

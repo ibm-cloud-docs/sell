@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2022
 
-lastupdated: "2022-04-01"
+lastupdated: "2022-05-04"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -72,7 +72,7 @@ Complete the following steps to import a version of your software to your privat
 1. If applicable, set your deployment target and add your software version. 
 1. Click **Add version**. 
 
-## Configuring the product details
+## Configuring the version details
 {: #sw-validate-cfg-deploy}
 
 1. From the version list, click the row that contains your software. 
@@ -144,18 +144,6 @@ When users access your software from the catalog, they can view installation ins
 4. Click **Save**.
 5. Click **Next**.
 
-## Manage security and compliance controls
-{: #sw-controls}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
-
-
 ## Validating the product
 {: #sw-validate-validate-product}
 
@@ -167,3 +155,26 @@ The steps to validate your product can vary based on the type of software that y
 
 To monitor the progress of the validation process, click **View logs**.
 {: tip}
+
+## Manage security and compliance controls
+{: #sell-controls}
+
+Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-catalog-format-controls).
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** > **Next**.
+1. Click **Run scan**. 
+1. Wait for the scan to finish. 
+1. Click **Next**.
+1. Select the profile that you scanned. 
+1. Select the Security and Compliance Center scan. 
+1. Click **Apply scan**.
+1. Click **Next**.
+
+## Review requirements
+{: #sell-review-reqs}
+
+You must complete validation and any other requirements to publish your product. 
+
