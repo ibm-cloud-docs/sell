@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-04-01"
+lastupdated: "2022-05-04"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
@@ -54,7 +54,7 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 {: #operator-onboard-import}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**. 
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Choose **Operator from GitHub repository** as your deployment method. 
@@ -72,7 +72,7 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 {: #operator-review-version}
 {: step}
 
-From the Configure product tab, you can review your version details. There no actions that you need to take. When you are ready to move on, click **Next**.
+From the Configure version tab, you can review your version details. After you review your version details, click **Next**.
 
 ## Set an image pull secret
 {: #operator-image-pull-secret}
@@ -104,22 +104,10 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 When users access your Operator from the catalog, they can view installation instructions from the Readme tab of your product's catalog details page. The readme information is automatically generated from the details in your CSV file. 
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
-2. Preview how the information in the readme file is displayed to users when they are installing the Operator.
+2. Preview how the information in the readme file is displayed to users when they install the Operator.
 3. If you need to make changes, edit the information in the CSV file and import the updated CSV file to your private catalog. 
 4. Click **Save**.
 5. Click **Next**. 
-
-## Manage security and compliance controls
-{: #operator-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Any applicable controls that are included in your readme file are listed in the Security and compliance controls table. You can add controls that are not included in your readme file. 
-
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
-1. Click **Add** 
-1. Click **Next**.
 
 ## Validate the software version
 {: #operator-onboard-validate}
@@ -133,8 +121,48 @@ Controls are safeguards that are used to meet security and compliance requiremen
 
 1. Click **Validate**.
 
+## Manage compliance
+{: #operator-controls}
+{: step}
+
+Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
+
+### Manage compliance controls
+{: #operator-add-controls}
+
+You can review the controls that were added from your readme file and add additional controls.
+
+1. Click **Add controls**. 
+1. Choose a profile. 
+1. Select the controls that you want to add to your version. 
+1. Click **Add** > **Next**.
+
+### Run Code Risk Analyzer scan
+{: #operator-cra-scan}
+
+Scan your source code with Code Risk Analyzer to identify any security vulnerabilities that you need to assess.
+
+1. Click **Run scan**. 
+2. Wait for the scan to finish. 
+3. Click **Next**.
+
+### Add Security and Compliance Center scan
+{: #operator-scc-scan}
+
+Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center determine adherence to regulatory controls. For more information, see [Scheduling a scan](/docs/security-compliance?topic=security-compliance-schedule-scan).
+
+1. Select the profile that you scanned. 
+1. Select the Security and Compliance Center scan. 
+1. Click **Apply scan**.
+1. Click **Next**.
+
+## Review requirements
+{: #bundle-review-reqs}
+
+You must complete validation and any other requirements to publish your operator. 
+
 ## Next steps
 {: #operator-onboard-next}
 
-Return to the Partner Center and submit your request to publish your Operator to the {{site.data.keyword.cloud_notm}} catalog.
+Go to Partner Center and submit your request to publish your Operator to the {{site.data.keyword.cloud_notm}} catalog.
 
