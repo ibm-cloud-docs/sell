@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-04-04"
+lastupdated: "2022-05-02"
 
 keywords: IBM Cloud, selling services, metrics, metering model, metering service, usage
 
@@ -34,11 +34,13 @@ For general information about pricing, see [How to calculate your costs](/docs/b
 ## Before you begin
 {: #metrics-prereq}
 
-Before you can add metrics to your pricing plan, you must complete the following tasks: 
+Before you can add metrics to your pricing plan, you must complete the following tasks:
+
+* [Submit tax and Electronic Funds Transfer documentation](/docs/sell?topic=sell-service-pricing-info#submit-tax-eft)
 * [Export the Control Classification Number (ECCN)](/docs/sell?topic=sell-service-pricing-info#service-eccn)
 * [Enter the United Nations Standard Products and Services Code (UNSPSC)](/docs/sell?topic=sell-service-pricing-info#service-unspsc)
 * [Add a paid pricing plan](/docs/sell?topic=sell-service-pricing-info#add-plan-paid)
-* [Confirm the digital platform reseller agreement](/docs/sell?topic=sell-service-pricing-info#service-confirm-dra)
+* [Confirm the digital platform reseller agreement](/docs/sell?topic=sell-service-pricing-info#dra)
 
 
 ## Adding metrics to your pricing plan
@@ -54,7 +56,7 @@ To add metrics to your pricing plan, complete the following steps:
 1. In the Usage metrics section, click **Add metrics**.
 1. Complete the required fields.
 1. Click **Done**.
-1. To submit your pricing plan and metering for review, click **Request update**.
+1. To submit your pricing plan and metering for review, click **Request metering approval**.
 
 ## Configuration properties
 {: #service-configure-properties}
