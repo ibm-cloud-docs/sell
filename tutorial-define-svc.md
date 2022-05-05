@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-03-31"
+lastupdated: "2022-05-04"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -37,16 +37,16 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 {: #svc-dpa}
 {: step}
 
-As a third-party provider, you're required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which you can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
+As a third-party provider who offers a free plan, you're required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which you can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
 Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
 For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
 
-1. From the My products page in {{site.data.keyword.cloud_notm}} Partner Center, click **Provide details** in the notification that prompts you to complete the DPA requirement.
+1. From the My products page in {{site.data.keyword.cloud_notm}} Partner Center, click **Provide details** in the notification that prompts you to complete the Digital Provider Agreement requirement.
 1. Click **Edit**. 
-1. Click **Standard** as the DPA type.
+1. Click **I plan to offer free pricing plans**.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement. 
 1. Select **I understand and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**, and click **Save**.
 
@@ -86,9 +86,7 @@ Your programmatic name can't be updated after you submit it for review.
 {: #svc-service-id}
 {: step}
 
-After your programmatic name is reviewed, you can create your service ID. A service ID is used to identify your service when communicating with other {{site.data.keyword.cloud_notm}} services, for example, when submitting metering usage data for your service. For more information, see [Creating and working with service IDs](/docs/account?topic=account-serviceids&interface=ui).
-
-To create your service ID, click **Create**. 
+After your programmatic name is review, you can create your service ID. A service ID is used to identify your service when you communicate with other {{site.data.keyword.cloud_notm}} services, for example, when you submit metering usage data for your service. For more information, see [Creating and working with service IDs](/docs/account?topic=account-serviceids&interface=ui).
 
 You're also required to create an API key for your service ID. To create your API key, see [Creating an API key for a service ID](/docs/account?topic=account-serviceidapikeys&interface=ui#create_service_key).
 
@@ -97,9 +95,10 @@ You're also required to create an API key for your service ID. To create your AP
 {: #svc-catalog}
 {: step}
 
-When your service is published in the catalog, it's represented by a catalog entry and a product page. The contents of your catalog entry include your company or product logo and a short description. The contents of your product page include a list of features, a detailed description, a link to your product's warranted documentation, and a description of your customer support experience. 
+When your service is published in the catalog, it's represented by a catalog entry and a product page. The contents of your catalog entry include your company or product logo, and a short description. The contents of your product page include a list of features, a detailed description, a link to your product's warranted documentation, and a description of your customer support experience. 
 
 1. Click **Product details**, and enter the URL to your company or product logo, for example `http://svgur.com/i/TTP.svg`.
+1. Add a company logo.
 1. Provide a short description about your service.
 1. From the **Category** list, select the option that best fits how users might use your product, for example, **Databases**. Categories are used to organize similar products in the catalog based on common solutions, function, or use.
 1. Select **Third party** from the Provider list.
@@ -139,6 +138,6 @@ Provide details that help users understand how to get support if they encounter 
    `For escalation discussions, {{site.data.keyword.cloud_notm}} support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
 
 ## Next steps 
-{: #svc-define-next}
+{: #svc-pricing-next}
 
 You can now [add your broker](/docs/sell?topic=sell-broker-onboard). 
