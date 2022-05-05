@@ -6,7 +6,7 @@ copyright:
 
 lastupdated: "2022-05-04"
 
-keywords: billing service, resource management console, Open Service Broker, end-to-end 
+keywords: billing service, resource management console, Open Service Broker 
 
 subcollection: sell
 
