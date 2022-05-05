@@ -85,10 +85,13 @@ To provide the UNSPSC code that applies to your product, complete the following 
 1. Click **Add UNSPSC** and select the UNSPSC code for your service. 
 1. Click **Save**. 
 
-### Confirming agreements
+### Accepting agreement terms and conditions
 {: #service-confirm-dra}
 
-Depending on the type of plans you are adding for your product, you must sign an agreement that outlines the terms and conditions of providing a product in the {{site.data.keyword.cloud_notm}}.
+Depending on the type of plans you are adding for your product, you must sign an agreement that outlines the terms and conditions of providing a product in the {{site.data.keyword.cloud_notm}}.  Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format. 
+
+Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
+{: note}
 
 #### Digital provider agreement
 {: #dpa}
@@ -107,10 +110,7 @@ Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital 
 #### Digital platform reseller agreement
 {: #dra}
 
-If you plan to offer paid, usage-based pricing plans, it is required to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format. 
-
-Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
-{: note}
+If you plan to offer paid, usage-based pricing plans, it is required to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}.
 
 Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
@@ -174,6 +174,9 @@ Before you can submit your pricing plan for approval, you must complete the foll
 * [Add metrics to your plan](/docs/sell?topic=sell-service-add-metrics) to determine how customers are charged, and request metering approval.
 * [Add plan features](#service-add-feature) to describe why a customer might want to choose a specific plan.
 * When you metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
+
+<!-- need this process on metrics, approvals, testing fleshed out so we can link to it -->
+
 
 ### Listing pricing plan features
 {: #service-add-feature}
