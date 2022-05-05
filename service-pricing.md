@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-05-04"
+lastupdated: "2022-05-05"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features, 
 
@@ -175,8 +175,6 @@ Before you can submit your pricing plan for approval, you must complete the foll
 * [Add plan features](#service-add-feature) to describe why a customer might want to choose a specific plan.
 * When you metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
 
-<!-- need this process on metrics, approvals, testing fleshed out so we can link to it -->
-
 
 ### Listing pricing plan features
 {: #service-add-feature}
@@ -205,7 +203,7 @@ To open a support case to change your pricing plan, complete the following steps
 
 1. In the {{site.data.keyword.cloud_notm}} console, click **Support**.
 1. Click **Create a support case**.
-1. Select **All products**
+1. Select **All products**.
 1. Select **Partner Center - Sell** as the topic, and click **Next**.
 1. Complete the required fields, and click **Next**.
 
