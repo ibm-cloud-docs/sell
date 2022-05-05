@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2022
 
-lastupdated: "2022-02-07"
+lastupdated: "2022-05-05"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
@@ -29,7 +29,7 @@ Use the following checklists to track all the tasks required to define, develop,
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create a test environment | The test environment is not needed for services, but is necessary for software. If you onboard software in the future, you use the test environment to validate that it's ready for use. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Assign team access | With the correct {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access, members of your team can help onboard your service. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Invite team members to your account | Members of your account are assigned the IAM access that you set up in the previous task. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM}} | Review and accept the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM}}. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM}} | Review and accept the {{site.data.keyword.IBM_notm}} Digital Provider Agreement if you plan to offer free plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM}}. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 1. Getting started tasks for selling services" caption-side="top"} 
 
 For more information, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
@@ -53,9 +53,11 @@ For more information, see [Getting set up to sell services](/docs/sell?topic=sel
 
 | Task | Description | Environment |
 |------|-------------|-------------|
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your ECCN| Add your Export Control Classification Number (ECCN) to receive a product number. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Submit the Electronic Transfer Funds and tax form | To receive payments for usage-based pricing plans, email the required documents. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your UNSPSC | Add the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your ECCN | Add the Export Control Classification Number (ECCN) to receive a product number. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your pricing plans | {{site.data.keyword.cloud_notm}} supports two pricing models: free or usage-based. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Accept {{site.data.keyword.cloud_notm}}'s Digital Reseller Agreement | Reviewed the terms & conditions of [{{site.data.keyword.cloud_notm}} Digital Reseller Agreement](https://mp.s81c.com/pwb-production/000002-partner-docs/PartnerAgreement/Reseller/1.0.0/IBM.Hybrid.Digital.Reseller.Provider.Agreement.Terms.08092021.clean.pdf){: external}., accept the terms digitally before product listing. | {{site.data.keyword.cloud_notm}} console  |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Accept the {{site.data.keyword.cloud_notm}}'s Digital Platform Reseller Agreement | Review and accept the Digital Platform Reseller Agreement if you plan to offer paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM}}. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 3. Tasks for add pricing plans for services" caption-side="top"} 
 
 

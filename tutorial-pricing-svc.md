@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2021-04-06"
+lastupdated: "2022-05-04"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -23,7 +23,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
 
-This tutorial walks you through the steps for adding pricing plans and features for your third-party service. By completing this tutorial, you add your Export Control Classification Number (ECCN), your United Nations Standard Products and Services Code (UNSPSC), define your pricing plan, and add a list of features for your product. 
+This tutorial walks you through the steps for adding pricing plans and features for your third-party service. By completing this tutorial, you submit required documentation, add your Export Control Classification Number (ECCN) and United Nations Standard Products and Services Code (UNSPSC), define your pricing plan, and add a list of features for your product. 
 {: shortdesc}
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. As you complete the tutorial, adjust each step to fit your needs.
@@ -34,6 +34,25 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 1. [Register your service in {{site.data.keyword.cloud_notm}} Partner Center](/docs/sell?topic=sell-svc-register).
 1. [Define the product details of your service](/docs/sell?topic=sell-svc-define).
 1. [Onboard a broker](/docs/sell?topic=sell-broker-onboard).
+
+## Submit required documentation
+{: #required-docs-paid}
+{: step}
+
+As part of this tutorial, you add a usage-based pricing plan. To receive payments for usage-based pricing plans, you must submit the Electronic Funds Transfer (EFT) form and required tax document.
+
+To provide tax and EFT information, complete the following steps:
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My payments**.
+1. Download the relevant EFT form, and complete it.
+
+    A scanned copy of a voided check is required when you submit this form.
+    {: important}
+
+1. Download the relevant tax documentation, and complete it.
+1. Submit the completed documentation by email to `apremit@us.ibm.com`. You must include `cloud.onboarding@ibm.com` on the email.
+1. Select **I confirm that I completed and emailed all of the required documents.**
+1. Click **Request approval**.
 
 ## Add an ECCN
 {: #svc-eccn}
@@ -87,7 +106,6 @@ You can choose from a list of common UNSPSCs or search for a UNSPSC. If you need
 1. Click **Done**.
 1. When you are ready to submit your pricing plan and metering for review, click **Request update**. 
 
-    
 ## Add features for your service
 {: #svc-add-feature}
 {: step}
@@ -112,7 +130,7 @@ To add features for your service, complete the following steps:
 
 If you plan to offer usage-based pricing plans, it is required to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format. 
 
-Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again. 
+Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
 Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
