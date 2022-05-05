@@ -37,6 +37,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 ## Submit required documentation
 {: #required-docs-paid}
+{: step}
 
 As part of this tutorial, you add a usage-based pricing plan. To receive payments for usage-based pricing plans, you must submit the Electronic Funds Transfer (EFT) form and required tax document.
 
@@ -51,7 +52,7 @@ To provide tax and EFT information, complete the following steps:
 1. Download the relevant tax documentation, and complete it.
 1. Submit the completed documentation by email to `apremit@us.ibm.com`. You must include `cloud.onboarding@ibm.com` on the email.
 1. Select **I confirm that I completed and emailed all of the required documents.**
-1. Click **Request approval**. 
+1. Click **Request approval**.
 
 ## Add an ECCN
 {: #svc-eccn}
@@ -135,9 +136,9 @@ Custom digital provider agreements must be reviewed and approved by {{site.data.
 Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
 1. From the My products page in the {{site.data.keyword.cloud_notm}} Partner Center, click **Go to My company** in the notification that explains that company details are required.
-2. Choose **I plan to offer usage-based pricing plans** from the Agreements section. 
-3. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** to review the agreement. 
-4. Select **I read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement**, and click **Save**.
+1. Choose **I plan to offer usage-based pricing plans** from the Agreements section. 
+1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** to review the agreement. 
+1. Select **I read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement**, and click **Save**.
 
 ## Next steps
 {: #svc-pricing-next}
