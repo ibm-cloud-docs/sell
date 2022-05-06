@@ -170,7 +170,7 @@ To add a paid pricing plan for your service, complete the following steps:
 
 Before you can submit your pricing plan for approval, you must complete the following tasks:
 
-* If you had to skip the step to link your broker to the plan because you didn't have one yet, start to [develop your broker](/docs/sell?topic=sell-broker-dev-host), and come back to link it to your plan when you're done.
+* If you had to skip the step to link your broker to the plan because you didn't have one yet, start to develop your broker, and come back to link it to your plan when you're done.
 * [Add metrics to your plan](/docs/sell?topic=sell-service-add-metrics) to determine how customers are charged, and request metering approval.
 * [Add plan features](#service-add-feature) to describe why a customer might want to choose a specific plan.
 * When you metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
