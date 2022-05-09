@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-05-05"
+lastupdated: "2022-05-09"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features, 
 
@@ -139,7 +139,7 @@ By adding a free plan, you are indicating that your product does not require any
 1. Select **Free** from the Type section.
 1. Enter a name for your new plan. 
 1. Describe the details of your plan.
-1. Choose the locations where your plan is available. All plans for a product use the same location.
+1. Choose the locations where your plan is available. All plans for a product use either Global or Per location. By selecting Per location, you can specify different regions or data centers for each plan that you add.
 1. Link a broker to the plan.
 
    If you haven't finished adding a broker to your account, you will not see this option, and you can continue and save your pricing plan. However, you can't complete your pricing plan until the broker is added and linked to your plan.
@@ -160,7 +160,7 @@ To add a paid pricing plan for your service, complete the following steps:
 1. Select **Usage-based**.
 1. Enter a name for your plan. 
 1. Describe the details of your plan.
-1. Choose the locations where your plan is available. All plans for a product use the same location.
+1. Choose the locations where your plan is available. All plans for a product use either Global or Per location. By selecting Per location, you can specify different regions or data centers for each plan that you add.
 1. Select a broker to link to the plan.
 
    If you haven't finished adding the broker to your account, you will not see this option, and you can continue and save your pricing plan. However, you can't submit your pricing plan for approval until the broker is linked.
