@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2021
+  years: 2021, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-05-13"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -17,44 +17,58 @@ subcollection: sell
 # Getting help and support
 {: #get-pc-support}
 
-Get direct access to {{site.data.keyword.Bluemix_notm}} Support from Partner Center to help you with any issue from getting started to billing and technical questions. There are several methods that you can choose from to get help. 
+You can get help and support by using the {{site.data.keyword.Bluemix_notm}} Support Center if you are experiencing issues with Partner Center or by contacting Partner Center expert with questions specific to onboarding your product. 
 {: shortdesc}
 
-Make sure you're assigned at least the editor role on the Partner Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
+Make sure you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access).
 {: note}
 
-From the Partner support page, you can connect with {{site.data.keyword.Bluemix_notm}} Support to ask questions, view FAQs, or create a support case. Click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Partner support**.
 
-## Getting help with general issues
-{: #pc-support-general}
+## Getting help with Partner Center
+{: #pc-help}
 
-For help related to account setup and getting started, click **Connect with us** in the General inquiries section.
+If you have questions about onboarding your product to Partner Center, you can contact an expert through the My products page. Leave them a message and they will contact you after they look at your issue. 
 
-1. Select your inquiry type.
-1. Describe your issue in detail.
-1. You can optionally let us know what date you joined the program by choosing it from the calendar.
-1. You can also share when you started using your {{site.data.keyword.Bluemix_notm}} credits.
-1. Click **Submit inquiry**.
+Contact an onboarding specialist if you have questions about the following topics:
 
-## Getting help with billing or technical issues
-{: #pc-support-billingtech}
+* general questions about the onboarding process
+* pricing models, for example, tiering model, monthly or yearly subscription, cancellation of subscription, or refund
+* metering and billing issues
+* broker functionality
+* tax and EFT (Electronic Funds Transfer) forms
 
-For help related to billing or technical issues, click **Create a support case** in the General inquiries section.
+To contact a Partner Center expert, use the following steps:
 
-1. Select the category that best fits your issue. 
-1. Select a related subtopic, and click **Next**.
-1. Describe your issue in detail.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. From the My products page, click the **Help** icon ![Help icon](../icons/help.svg "Help").
+1. Select **Contact Us** from the We're here to help tile. 
+1. Describe your issue or question in the message field and click **Send**. 
 
-    To maintain security, do not include any personal information, sensitive data, or device or service credentials. For example, don't include passwords, API keys, secrets, or credit card information.
-    {: important}
 
-1. If applicable, enter an invoice number that you want to reference. 
-1. Add any attachments that can provide more details about the issue you're experiencing.
-1. If you want to share your support case with users in your account, select them from the **Contact watchlist** list. 
-1. To receive notifications about your support case, select **Email me updates about this case**. 
-1. Click **Next**.
-1. Review your case summary, and click **Submit case**. 
+## Creating a Partner Center support case
+{: #pc-support-case}
 
-    You can track the progress of your submitted case from the [Manage cases page](/unifiedsupport/cases). 
-    {: tip}
+If you're experiencing issues with Partner Center or problems related to , you can create a support case by using the {{site.data.keyword.Bluemix_notm}} Support Center.  
 
+To create a support case, you need to have a Pay-As-You-Go or Subscription account.
+{: note}
+
+To create a support case for Partner Center related issues, use the following steps:
+
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar.
+1. From the Contact support section, click **Create a case**.
+1. Select **All products**.
+1. Select **Partner Center - Sell** as the topic and click **Next**. 
+1. Complete the required fields.
+
+   To maintain security, do not include any personal information, sensitive data, or device or service credentials in case responses. For example, don't include passwords, API keys, secrets, or credit card information.
+   {: important}
+
+1. Optional: 
+   * Attach files and resources to provide more details about the issue you're experiencing.
+   * If you'd like a user in you account to be updated about the case, add them by using the Contact watchlist. For more information about assigning users access to your account, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).
+   * Select **Email me updates about this case** to receive support case notifications. 
+1. Click **Next**, review your case summary, and click **Submit case**. After you receive email verification for the case, follow the instructions for further communication on the issue. 
+
+After your support case is created, you can follow its progress on the [Manage cases page](/unifiedsupport/cases). For more information, see [Managing your support cases](/docs/get-support?topic=get-support-managing-support-cases).
+{: tip}
