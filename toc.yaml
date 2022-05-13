@@ -175,6 +175,7 @@ toc:
           topics:
           - software-faq.md
           - service-faq.md
+          - faqs-migrated.md
       - topicgroup:
           label: Troubleshooting
           topics:
