@@ -48,7 +48,7 @@ To contact a Partner Center expert, use the following steps:
 ## Creating a Partner Center support case
 {: #pc-support-case}
 
-If you're experiencing issues with Partner Center, you can create a support case by using the {{site.data.keyword.Bluemix_notm}} Support Center.  
+If you're experiencing issues with Partner Center, you can create a support case by using the [{{site.data.keyword.Bluemix_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.  
 
 To create a support case, you need to have a Pay-As-You-Go or Subscription account.
 {: note}
