@@ -29,7 +29,7 @@ Make sure you're assigned at least the editor role on the Support Center account
 
 If you have questions about onboarding your product to Partner Center, you can contact an expert through the My products page. Leave them a message and they will contact you after they look at your issue. 
 
-Contact an onboarding specialist if you have questions about the following topics:
+Contact a Partner Center expert if you have questions about the following topics:
 
 * general questions about the onboarding process
 * pricing models, for example, tiering model, monthly or yearly subscription, cancellation of subscription, or refund
