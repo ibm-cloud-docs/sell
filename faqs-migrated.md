@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-05-13"
+lastupdated: "2022-05-18"
 
 keywords: migrated from RMC, migrated products, migrated from resource management console, migration changes
 
@@ -25,14 +25,14 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 ## Why can't I add new block tier usage-based plans?
 {: #usage-based-plans}
 
-Block tier pricing plans are not currently supported in Partner Center. If you set up a block tier pricing plan in the Resource Management Console and the plan was approved and published, no changes have been made and it was migrated as-is with your product. However, you can't edit the plan or set up a new block tier pricing plan. If you have any questions, [open a support case](https://test.cloud.ibm.com/docs/sell?topic=sell-get-pc-support#pc-support-case).
+Block tier pricing plans are not currently supported in Partner Center. If you set up a block tier pricing plan in the Resource Management Console and the plan was approved and published, no changes have been made and it was migrated as-is with your product. However, you can't edit the plan or set up a new block tier pricing plan. If you have any questions, open a support case. For information about opening a support case, see [Creating a Partner Center support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
 
 ## What changed with Lite plan support?
 {: #lite-plans-support}
 
 Lite plans are not supported in Partner Center. You can create a new free plan, and all users with Pay-As-You-Go and Subscription accounts can try out your product for free.
 
-If you set up a Lite plan in the resource management console, and it was approved and published, no changes have been made and it was migrated as-is with your product. If you need to change a published pricing plan, [open a support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
+If you set up a Lite plan in the resource management console, and it was approved and published, no changes have been made and it was migrated as-is with your product. If you need to change a published pricing plan, open a support case. For information about opening a support case, see [Creating a Partner Center support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
 
 ## Can I add a broker per location?
 {: #broker-plans}
@@ -48,7 +48,7 @@ Yes. But, all plans for a single product must be set as either global or per loc
 ## Why can't I edit my support information?
 {: #migrated-support}
 
-The support details that you previously provided to {{site.data.keyword.IBM_notm}} aren't currently displayed on the Support tab in Partner Center, but they have been saved and are still available for all of your published products. We are improving the support details experience in Partner Center, so if you need to make any changes, we ask that you [contact support](/docs/sell?topic=sell-get-pc-support#pc-support-case). No information was lost or changed during the migration, and all of your published products include your support details.
+The support details that you previously provided to {{site.data.keyword.IBM_notm}} aren't currently displayed on the Support tab in Partner Center, but they have been saved and are still available for all of your published products. We are improving the support details experience in Partner Center, so if you need to make any changes, we ask that you contact support. No information was lost or changed during the migration, and all of your published products include your support details. For information about opening a support case, see [Creating a Partner Center support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
 
 ## Where is my custom agreement?
 {: #custom-agreement}
