@@ -123,7 +123,7 @@ Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital 
 ## Adding pricing plans
 {: #add-plans}
 
-You can choose to add free and paid pricing plans. Ensure that you review and finalize all details of the pricing plan before you submit it. Changing a submitted pricing plan can take at least a full billing cycle to change, and you must open a support case to change a published pricing plan. For more information on how to change a submitted pricing plan, see [Changing a pricing plan in Partner Center](/docs/sell?topic=sell-change-plan).
+You can choose to add free and paid pricing plans. Ensure that you review and finalize all details of the pricing plan before you submit it. Changing a submitted pricing plan can take at least a full billing cycle to change, and you must open a support case to change a published pricing plan. For more information on how to change a submitted pricing plan, see [Changing a pricing plan](/docs/sell?topic=sell-change-plan).
 
 You must complete all of the prerequisites from the Before you begin section to finalize a pricing plan.
 {: important}
