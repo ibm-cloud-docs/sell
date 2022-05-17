@@ -13,7 +13,7 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Changing a pricing plan in Partner Center 
+# Changing a pricing plan
 {: #change-plan}
 
 If you already submitted a pricing plan and you need to make changes, you must open a support case. Changing a submitted pricing plan can take at least a full billing cycle.
