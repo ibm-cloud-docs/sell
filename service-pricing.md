@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-05-09"
+lastupdated: "2022-05-17"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features, 
 
@@ -123,7 +123,7 @@ Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital 
 ## Adding pricing plans
 {: #add-plans}
 
-You can choose to add free and paid pricing plans. Ensure that you review and finalize all details of the pricing plan before you submit it. Changing a submitted pricing plan can take at least a full billing cycle to change, and you must open a support case to change a published pricing plan.
+You can choose to add free and paid pricing plans. Ensure that you review and finalize all details of the pricing plan before you submit it. Changing a submitted pricing plan can take at least a full billing cycle to change, and you must open a support case to change a published pricing plan. For more information on how to change a submitted pricing plan, see [Changing a pricing plan](/docs/sell?topic=sell-change-plan).
 
 You must complete all of the prerequisites from the Before you begin section to finalize a pricing plan.
 {: important}
@@ -194,23 +194,4 @@ To add features for your service, complete the following steps:
 1. Optional: Click **Add feature** to add up to five additional feature descriptions.
 1. Click **Save**.
 
-## Changing a pricing plan
-{: #change-pricing-plan}
 
-If you already submitted a pricing plan and you need to make changes, you must open a support case. Changing a submitted pricing plan can take at least a full billing cycle.
-
-To open a support case to change your pricing plan, complete the following steps:
-
-1. In the {{site.data.keyword.cloud_notm}} console, click **Support**.
-1. Click **Create a support case**.
-1. Select **All products**.
-1. Select **Partner Center - Sell** as the topic, and click **Next**.
-1. Complete the required fields, and click **Next**.
-
-    To maintain security, do not include any personal information, sensitive data, or device or service credentials. For example, don't include passwords, API keys, secrets, or credit card information.
-    {: important}
-
-1. Review your case summary, and click **Submit case**. 
-
-    You can track the progress of your submitted case from the [Manage cases page](/unifiedsupport/cases). 
-    {: tip}
