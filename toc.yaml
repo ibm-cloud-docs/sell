@@ -127,6 +127,7 @@ toc:
               - service-add-metrics.md
               - service-custom-parameters.md
               - service-support.md
+              - service-pricing-change.md
           - topicgroup:
               label: Selling services with the Resource Management Console
               topics:
