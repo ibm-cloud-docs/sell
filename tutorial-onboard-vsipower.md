@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-05-04"
+lastupdated: "2022-05-19"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -37,9 +37,11 @@ This tutorial includes deploying the virtual server image to a target {{site.dat
 ## Before you begin
 {: #vsipower-onboard-prereqs}
 
-1. Create a [{{site.data.keyword.powerSys_notm}} instance](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server).
-1. Create your [Terraform template](/docs/schematics?topic=schematics-create-tf-config). 
-1. [Upload your Terraform template and readme file to your GitHub repository](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/main#upload-your-terraform-template-to-a-github-release){: external}. 
+1. Create your [{{site.data.keyword.powerSys_notm}} instance](/docs/power-iaas?topic=power-iaas-creating-power-virtual-server).
+1. Create an instance of [{{site.data.keyword.cloud_notm}} Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and upload your image to a bucket.
+1. Create your [HMAC credentials](/docs/cloud-object-storage?topic=cloud-object-storage-uhc-hmac-credentials-main).
+1. [Open a support case](/docs/power-iaas?topic=power-iaas-getting-help-and-support) so the {{site.data.keyword.powerSys_notm}} product management team can convert your image into a stock image. Include your HMAC credentials and bucket details in the support case. 
+1. After your image is converted into a stock image, create your [Terraform template](/docs/schematics?topic=schematics-create-tf-config). 
 
    Use the [latest release of the sample code](https://github.com/IBM-Cloud/isv-power-vsi-product-deploy-sample ){: external} as an example of how to set up your repository.
    {: tip}
