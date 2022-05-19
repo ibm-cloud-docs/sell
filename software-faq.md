@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2022
 
-lastupdated: "2022-01-14"
+lastupdated: "2022-05-19"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
