@@ -34,7 +34,7 @@ See the following list for the types of third-party software that you can curren
 * Helm charts on Kubernetes and {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} clusters
 * Terraform templates
 * OVA images deployed on VMware Solutions Dedicated - vCenter Server
-* Virtual server images with Terraform deployed on VPC infrastructure
+* Virtual server images with Terraform deployed on VPC infrastructure or {{site.data.keyword.powerSys_notm}}
 * Operators with a CSV file or Operator bundles with a TGZ file from GitHub repositories deployed on Red Hat OpenShift
 * Operator bundles from Red Hat OpenShift registries
 
