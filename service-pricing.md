@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-05-17"
+lastupdated: "2022-05-20"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features, 
 
@@ -173,7 +173,7 @@ Before you can submit your pricing plan for approval, you must complete the foll
 * If you had to skip the step to link your broker to the plan because you didn't have one yet, start to develop your broker, and come back to link it to your plan when you're done.
 * [Add metrics to your plan](/docs/sell?topic=sell-service-add-metrics) to determine how customers are charged, and request metering approval.
 * [Add plan features](#service-add-feature) to describe why a customer might want to choose a specific plan.
-* When you metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
+* When your metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
 
 
 ### Listing pricing plan features
