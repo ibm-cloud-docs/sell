@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2022-04-07",
+    "lastupdated": "2022-05-24",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software and services.",
     "section_recommended": [
       {
@@ -27,7 +27,7 @@
     "section_videos": [
       {
         "title": "Selling on IBM Cloud",
-        "href": "/docs/sell?topic=sell-checklist-software", 
+        "href": "/docs/sell?topic=sell-sw-getting-started", 
         "thumbnail": "/images/onboarding.svg" 
       }
     ],

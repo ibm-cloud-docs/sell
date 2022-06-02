@@ -4,7 +4,8 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-05-19"
+lastupdated: "2022-06-02"
+
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds
 

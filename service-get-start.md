@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-02-07"
+lastupdated: "2022-05-31"
 
 keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service, onboarding workbench
 
@@ -25,6 +25,9 @@ completion-time: 60m
 
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
+
+It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
+{: tip}
 
 ## Before you begin
 {: #prereq}

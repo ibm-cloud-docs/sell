@@ -4,9 +4,9 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-05-16"
+lastupdated: "2022-06-02"
 
-keywords: IBM Cloud, selling services, metrics, metering model, metering service, usage
+keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
 subcollection: sell
 
@@ -14,39 +14,29 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Adding metrics to your service in Partner Center
+# Adding metrics to your service
 {: #service-add-metrics}
  
-With {{site.data.keyword.cloud}} Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the provisioned instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
+With {{site.data.keyword.cloud}} Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the provisioned instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan. For more information, see [Metering integration](/docs/sell?topic=sell-service-metering-integration).
+
+To onboard your service to {{site.data.keyword.cloud_notm}}, you are required to add metrics to your usage-based pricing plan to determine how customers are charged. When you add metrics to your pricing plan in Partner Center, you must request an initial approval. After your metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
 {: shortdesc}
-
-The following list describes the expectations for tracking and submitting usage:
-
-*	Third-party offering providers don't need to submit usage for free plans or monthly subscription plans.
-*	For metered plans, all offering providers must submit usage hourly, and Lite plans must submit usage every 15 minutes to 1 hour.
-*	The offering provider is responsible for automating the usage submission, including automation that retries failure responses. {{site.data.keyword.Bluemix_notm}} doesn't provide a retry function for failed submissions. For more information, see the status codes and actions table in [Submitting usage records](/docs/sell?topic=sell-submitusage#usage-records).
-*	Usage records for the current month must be submitted by the 2nd of the following month.
-*	{{site.data.keyword.Bluemix_notm}} is configured for a monthly billing cycle and time is represented in Coordinated Universal Time (UTC).
-* Offering providers must test usage submission and validate their results to describe how the monthly billing cycle is calculated.
-
-For general information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost). 
 
 ## Before you begin
 {: #metrics-prereq}
 
 Before you can add metrics to your pricing plan, you must complete the following tasks:
 
-* [Submit tax and Electronic Funds Transfer documentation](/docs/sell?topic=sell-service-pricing-info#submit-tax-eft)
-* [Export the Control Classification Number (ECCN)](/docs/sell?topic=sell-service-pricing-info#service-eccn)
-* [Enter the United Nations Standard Products and Services Code (UNSPSC)](/docs/sell?topic=sell-service-pricing-info#service-unspsc)
-* [Add a paid pricing plan](/docs/sell?topic=sell-service-pricing-info#add-plan-paid)
-* [Confirm the digital platform reseller agreement](/docs/sell?topic=sell-service-pricing-info#dra)
-
+1. [Submit tax and Electronic Funds Transfer documentation](/docs/sell?topic=sell-service-pricing-info#submit-tax-eft)
+2. [Export the Control Classification Number (ECCN)](/docs/sell?topic=sell-service-pricing-info#service-eccn)
+3. [Enter the United Nations Standard Products and Services Code (UNSPSC)](/docs/sell?topic=sell-service-pricing-info#service-unspsc)
+4. [Add a paid pricing plan](/docs/sell?topic=sell-service-pricing-info#add-plan-paid)
+5. [Confirm the digital platform reseller agreement](/docs/sell?topic=sell-service-pricing-info#dra)
 
 ## Adding metrics to your pricing plan
 {: #add-metrics-plan}
 
-If you offer a paid integrated product and add a paid pricing plan that requires customers to pay for their usage, you must add metrics to your pricing plan to aggregate your product's usage.
+If you offer a paid integrated product and add a paid pricing plan that requires customers to pay for their usage, you must add metrics to your pricing plan to aggregate your product's usage. After you add metrics to your plan, you must request an initial metering approval, so you can submit your resource usage and start reviewing your metrics. 
 
 To add metrics to your pricing plan, complete the following steps:
 
@@ -56,178 +46,314 @@ To add metrics to your pricing plan, complete the following steps:
 1. In the Usage metrics section, click **Add metrics**.
 1. Complete the required fields.
 1. Click **Done**.
-1. To submit your pricing plan and metering for review, click **Request metering approval**.
+1. To submit your pricing plan and metering for review, click **Request approval** in the Metering approval section.
 
-## Configuration properties
-{: #service-configure-properties}
+## Submitting resource usage to the {{site.data.keyword.cloud_notm}} Usage Metering API
+{: #submit-usage}
 
-The following properties define how {{site.data.keyword.Bluemix_notm}} meters and rates usage submissions for offering plans:
+To review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured, you must submit your resource usage. Submitting your resource usage includes creating your metering JSON, calling the Usage Metering API, and providing the evidence of your testing. 
 
-Unit
-:   Metrics to be metered, for example, ApiCall, Bytes, Hours, Instances, and Nodes.
+### Creating your metering JSON
+{: #create-metering-json}
 
-Aggregation
-:   How the metered unit data is compiled, for example INSTANCES_BY_MONTH, or ACTIVE_HOURS_BY_MONTH.
+To submit your resource usage, you must develop a JSON file with your metering information. After you develop your metering JSON, you can submit your resource usage by calling the Usage Metering API. There are specific fields that you must include in the request body of your JSON file to make sure it contains all your metering information. For more information on the required fields and submitting usage records, see the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}.
 
-Metering model
-:   How the usage submission data is processed, as shown in the metering and model types table.
+To create the JSON that contains all your metering information, you must include the following fields in the request body:
 
-Resource name
-:   The name of the resource that is being measured, for example, storage, instance, virtual server, or bytes transmitted.
+```text
+resource_instance_id
+plan_id
+start
+end
+measured_usage
+```
+{: codeblock}
 
-Unit name
-:   The descriptive name of the unit if the default name isn't relevant for the offering.
+See the following JSON example that includes the required fields:
 
-## Metering model types
-{: #service-metermodel-type}
+```json
+[
+  {
+    "start": 1485907200001,
+    "end": 1485910800000,
+    "region": "us-south",
+    "resource_instance_id": "crn:v1:bluemix:staging:database-service:us-south:a/1c8ae972c35e470d994b6faff9494ce1:793ff3d3-9fe3-4329-9ea0-404703a3c371::",
+    "plan_id": "database-lite",
+    "measured_usage": [
+      {
+        "measure": "QUERIES",
+        "quantity": 100
+      },
+      {
+        "measure": "STORAGE",
+        "quantity": 123.456
+      }
+    ]
+  },
+  {
+    "start": 1485910800000,
+    "end": 1485910800000,
+    "resource_instance_id": "ed20abbe-8870-44e6-90f7-56d764c21127",
+    "plan_id": "database-lite",
+    "measured_usage": [
+      {
+        "measure": "instances",
+        "quantity": {
+          "previous": 0,
+          "current": 1
+        }
+      }
+    ]
+  }
+]
+```
+{: codeblock}
 
-The following table shows the available metering models and a brief description of each type:
+To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your metering approval request must be approved by {{site.data.keyword.cloud_notm}}. 
 
-|  *Type* | *Description*  |
-|-----|-----|
-| `standard_add` | Add quantity from all submitted usage records for a month. | 
-| `standard_max`  | Maximum quantity from all submitted usage records for a month. | 
-| `standard_avg` | Average quantity from all submitted usage records for a month. |
-| `dailyproration_max` | Calculated daily maximum. The sum up all the days for the month. | 
-| `dailyproration_avg` | Calculated daily average. The sum up all the days for the month. |
-| `monthlyproration` | Calculated similar to the daily proration, but the price that is used is the plan price that is divided by the total number of days for the month (daily price). |
-{: caption="Table 1. Metering model" caption-side="top"}
+```bash
+curl -X POST -H "Authorization: {iam_token}"   -H "Accept: application/json"   -H "Content-Type: application/json"   -d "{REQUEST_BODY}"   "{base_url}/v4/metering/resources/{resource_id}/usage"
 
-### Examples
-{: #example}
+```
+{: codeblock}
+{: curl}
 
-The quantity in dashboard value in each of the following examples is before the next usage is submitted, but after the current usage is processed.
+```java
+// Report usage for a mythical resource.
+// Use zero for quantities since this is only an example.
+MeasureAndQuantity lookupMeasure = new MeasureAndQuantity.Builder()
+    .measure("LOOKUP")
+    .quantity(Long.valueOf(0))
+    .build();
+MeasureAndQuantity writeMeasure = new MeasureAndQuantity.Builder()
+    .measure("WRITE")
+    .quantity(Long.valueOf(0))
+    .build();
+MeasureAndQuantity queryMeasure = new MeasureAndQuantity.Builder()
+    .measure("QUERY")
+    .quantity(Long.valueOf(0))
+    .build();
+MeasureAndQuantity gbMeasure = new MeasureAndQuantity.Builder()
+    .measure("GIGABYTE")
+    .quantity(Long.valueOf(0))
+    .build();
+List<MeasureAndQuantity> measures = new ArrayList<>();
+measures.add(lookupMeasure);
+measures.add(writeMeasure);
+measures.add(queryMeasure);
+measures.add(gbMeasure);
 
-#### Standard Add
-{: #standard-add-usage}
+ResourceInstanceUsage resourceInstanceUsageModel = new ResourceInstanceUsage.Builder()
+    .resourceInstanceId(resourceInstanceId)
+    .planId(planId)
+    .region(region)
+    .start(startTime)
+    .end(endTime)
+    .measuredUsage(measures)
+    .build();
 
-The following table provides information about how to calculate the monthly usage.
+ReportResourceUsageOptions reportResourceUsageOptions = new ReportResourceUsageOptions.Builder()
+    .resourceId(resourceId)
+    .resourceUsage(new java.util.ArrayList<ResourceInstanceUsage>(
+        java.util.Arrays.asList(resourceInstanceUsageModel)))
+    .build();
 
-Formula: ADD(usages)
+Response<ResponseAccepted> response = service.reportResourceUsage(reportResourceUsageOptions).execute();
+ResponseAccepted responseAccepted = response.getResult();
 
-| Time            | Usage  | Calculation | Quantity in dashboard |
-|-----------------|:-------------:| ----------- |:---------------------:|
-| Day 1 (morning) | 5             | 5           | 5                     |
-| Day 1 (night)   | 5             | 5 + 5       | 10                    |
-| Day 2 (morning) | 5             | 10 + 5      | 15                    |
-| Day 3 (morning) | 5             | 15 + 5      | 20                    |
-| Day 4 (night)   | 5             | 20 + 5      | 25                    |
-{: caption="Table 2. Monthly usage calculations" caption-side="top"}
+System.out.println(responseAccepted);
+```
+{: codeblock}
+{: java}
 
-#### Standard Average
-{: #standard-average-usage}
+```javascript
+// Report usage for a mythical resource.
+// Use zero for quantities since this is only an example.
+const measures = [{
+  measure: 'LOOKUP',
+  quantity: 0,
+},
+{
+  measure: 'WRITE',
+  quantity: 0,
+},
+{
+  measure: 'QUERY',
+  quantity: 0,
+},
+{
+  measure: 'GIGABYTE',
+  quantity: 0,
+}];
 
-The following table provides information about how to calculate the average monthly usage. Submitting 0 usage counts toward the average.
+const resourceInstanceUsageModel = {
+  resource_instance_id: resourceInstanceId,
+  plan_id: planId,
+  region: region,
+  start: startTime,
+  end: endTime,
+  measured_usage: measures,
+};
 
-Formula: AVG(usages)
+const params = {
+  resourceId: resourceId,
+  resourceUsage: [resourceInstanceUsageModel],
+};
 
-| Time            | Usage | Calculation             | Quantity in dashboard |
-|-----------------|:-------------:| ----------------------- |:---------------------:|
-| Day 1 (morning) | 4             | 4 / 1                   | 4                     |
-| Day 1 (night)   | 0             | (4 + 0) / 2             | 2                     |
-| Day 2 (morning) | 5             | (4 + 0 + 5) / 3         | 3                     |
-| Day 3 (morning) | 3             | (4 + 0 + 5 + 3) / 4     | 3                     |
-| Day 4 (night)   | 3             | (4 + 0 + 5 + 3 + 3) / 5 | 3                     |
-{: caption="Table 3. Average monthly usage calculations" caption-side="top"}
+usageMeteringService.reportResourceUsage(params)
+  .then(res => {
+    console.log(JSON.stringify(res.result, null, 2));
+  })
+  .catch(err => {
+    console.warn(err)
+  });
+```
+{: codeblock}
+{: javascript}
 
-#### Standard Max
-{: #standard-max-usage}
 
-The following table provides information about how to calculate the maximum monthly usage.
+```python
+//  Report usage for a mythical resource.
+//  Use zero for quantities since this is only an example.
+measures = [
+  {
+    'measure': 'LOOKUP',
+    'quantity': 0,
+  },
+  {
+    'measure': 'WRITE',
+    'quantity': 0,
+  },
+  {
+    'measure': 'QUERY',
+    'quantity': 0,
+  },
+  {
+    'measure': 'GIGABYTE',
+    'quantity': 0,
+  },
+]
 
-Formula: MAX(usages)
+resource_instance_usage_model = {
+  'resource_instance_id': resource_instance_id,
+  'plan_id': plan_id,
+  'region': region,
+  'start': start_time,
+  'end': end_time,
+  'measured_usage': measures,
+}
 
-| Time            | Usage  | Calculation  | Quantity in dashboard |
-|-----------------|:--------------:| ------------ |:---------------------:|
-| Day 1 (morning) | 5              | MAX(5)       | 5                     |
-| Day 1 (night)   | 10             | MAX(5, 10)   | 10                    |
-| Day 2 (morning) | 0              | MAX(10, 0)   | 10                    |
-| Day 3 (morning) | 15             | MAX(10, 15)  | 15                    |
-| Day 4 (night)   | 1              | MAX(15, 1)   | 15                    |
-{: caption="Table 4. Maximum monthly usage calculations" caption-side="top"}
+response_accepted = usage_metering_service.report_resource_usage(
+  resource_id=resource_id,
+  resource_usage=[resource_instance_usage_model]).get_result()
 
-#### Daily proration Average
-{: #daily-proration-average}
+print(json.dumps(response_accepted, indent=2))
+```
+{: codeblock}
+{: python}
 
-Calculate the average usage for each day and average it for the month. The average of each day is added up and divided by the number of days currently passed (in Coordinated Universal Time).
 
-Formula: Summation(daily average) / Number of days passed in the billing period
+```go
+// Report usage for a mythical resource.
+// Use zero for quantities since this is only an example.
+resourceInstanceUsageModel := usagemeteringv4.ResourceInstanceUsage{
+  ResourceInstanceID: &resourceInstanceID,
+  PlanID:             &planID,
+  Region:             &region,
+  Start:              &startTime,
+  End:                &endTime,
+  MeasuredUsage: []usagemeteringv4.MeasureAndQuantity{
+    usagemeteringv4.MeasureAndQuantity{
+      Measure:  core.StringPtr("LOOKUP"),
+      Quantity: core.Int64Ptr(0),
+    },
+    usagemeteringv4.MeasureAndQuantity{
+      Measure:  core.StringPtr("WRITE"),
+      Quantity: core.Int64Ptr(0),
+    },
+    usagemeteringv4.MeasureAndQuantity{
+      Measure:  core.StringPtr("QUERY"),
+      Quantity: core.Int64Ptr(0),
+    },
+    usagemeteringv4.MeasureAndQuantity{
+      Measure:  core.StringPtr("GIGABYTE"),
+      Quantity: core.Int64Ptr(0),
+    },
+  },
+}
+reportResourceUsageOptions := usageMeteringService.NewReportResourceUsageOptions(
+  resourceID,
+  []usagemeteringv4.ResourceInstanceUsage{resourceInstanceUsageModel},
+)
 
-The quantity might change throughout the month, but what is rated is the average usage per day.
-{: note}
+responseAccepted, response, err := usageMeteringService.ReportResourceUsage(reportResourceUsageOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(responseAccepted, "", "  ")
+fmt.Println(string(b))
+```
+{: codeblock}
+{: go}
 
-Given a 30-day month, use the following table to calculate the daily proration average:
+### Response 
+{: #metering-api-response}
 
-| Time               | Usage    | Daily average | Calculation                            | Quantity in dashboard*                           |
-| ------------------ | :--------------: | ------------- | ------------------                     | :----------------------------------------------: |
-| Day 1 (morning)    | 8                | 8 / 1         | 8 / 1                                  | 8                                                |
-| Day 1 (night)      | 3                | (8 + 3) / 2   | 5.5 / 1                                | 5.5 (On Day 1 EOD)                               |
-| Day 2 (morning)    | 2                | 2 / 1         | (5.5 + 2) / 2                          | 3.75                                             |
-| Day 2 (night)      | 5                | (2 + 5) / 2   | (5.5 + 3.5) / 2                        | 4.5 (On Day 2 EOD)                               |
-| Day 3 to Day 15    | 1                | 1 / 1         | (5.5 + 3.5 + (1 + 13)  / 15            | 1.4666  (On Day 15 EOD)                          |
-| Day 15 to Day 30   | 0                | 0 / 1         | (5.5 + 3.5 + (1 \* 12) + (0  \* 15) / 30 | 0.7333  (On Day 30 EOD)                          |
-{: caption="Table 5. Average usage per day and monthly average calculations" caption-side="top"}
+The response body includes the acceptance status of every usage record. A successful submission returns a response code of `201`. If any other response code is returned, update and resend the data until you receive the `201` code. See the following example of a successful response:
 
-\* As seen on the same day as when the usage was submitted.
+```bash
+{
+    "resources": [
+        {
+            "code": "successful_submission",
+            "status": 201,
+            "message": "Payload was successfully submitted",
+            "details": [
+                {
+                    "field": "data.resource_instance_id",
+                    "message": "is required",
+                    "value": {
+                        "start": 1501282845663,
+                        "end": 1501282845664,
+                        "region": "us-south",
+                        "plan_id": "04082014.ibm.node.default",
+                        "measured_usage": [
+                            {
+                                "measure": "current_running_instances",
+                                "quantity": 1
+                            },
+                            {
+                                "measure": "current_instance_memory",
+                                "quantity": 1
+                            }
+                        ]
+                    },
+                    "type": "object"
+                }
+            ]
+   }
+   ```
+{: codeblock}
 
-#### Daily proration Max
-{: #daily-proration-max}
+For more information on status codes, see [Response status codes](/apidocs/usage-metering#report-resource-usage-response). 
 
-Calculate the maximum usage per day and average it for the month. The maximum of each day is added up and divided by the number of days currently passed (in Coordinated Universal Time).
+## Review your metrics and provide evidence of your testing
+{: #submit-evidence}
 
-Formula: Summation(daily max) / number of days passed in billing period
+After you create the metering JSON, submit the usage records by calling the Usage Metering API, and receive an approval from IBM, you can start reviewing and testing how customers understand and experience your pricing plan. 
 
-The quantity might change throughout the month, but what is rated is the maximum usage per day.
-{: note}
+To test and submit evidence for your pricing plan, complete the following steps:
 
-Given a 30-day month, see the following table to calculate the maximum usage per day and monthly average:
+1. Click **Test estimation and metering**.
+1. Preview your product in the catalog and generate an estimate by clicking **Add to estimate**.
+1. Enter your expected usage, then click **Calculate cost**.
+1. Upload evidence of your usage.
+     1. Upload a screen capture of the usage data that's generated by the estimator by clicking **Add file**. 
+     1. Upload a screen capture of your rated usage by clicking **Add file**. To find your rated usage, in the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**  > **Usage**.
+     1. Upload a screen capture of the resource usage data JSON that you previously submitted to the {{site.data.keyword.cloud_notm}} Usage Metering API by clicking **Add file**. 
 
-| Time             | Usage   | Daily Max | Calculation                    | Quantity in dashboard* |
-|------------------|:--------------:| --------- | ------------------------------ |:----------------------:|
-| Day 1 (morning)  | 0              | MAX(0)    | 0 / 1                          | 0                      |
-| Day 1 (night)    | 1              | MAX(0, 1) | 1 / 1                          | 1                      |
-| Day 2 to Day 15  | 1              | MAX(1)    | (1 + 1 + ...) / day            | 1                      |
-| Day 15 to Day 30 | 0              | MAX(0)    | (1 + (1 * 14) + 0 + ...) / day | < 1                    |
-{: caption="Table 6. Maximum usage per day and monthly average calculations" caption-side="top"}
+    You can upload files in `.jpeg`, `.pdf`, or `.png` file format only.
+   {: note}
 
-\* As seen on the same day as when the usage was submitted.
+1. Click **Done**.
 
-## Pricing models
-{: #pricing-model}
-
-The following table provides detailed information about the pricing models that are available. For many of the available metrics, you select an associated pricing model.
-
-| Model          | Description | Calculation | Example (5000 quantity) |
-|:-----------------|:-------------|:----------- |:---------------------|
-| Linear         | Multiply the unit price per resource (P) by the usage quantity (Q) to get the total amount (T)  | P * Q    | P=$1 T=1 * 5000 =$5000        |
-| Proration      | Multiply the daily unit price per resource (P) by the daily usage quantity (Q) to get the total daily amount. The total charge involves cumulating the charges for all days within the month.         | T= (pd * Q1) + ...+(Pd * Qn)     |   \n  \nP= $30  \n  \nPd (daily price) =$30/30=$1 (assuming 30 days in a month)  \n  \nT1= $1 * 1 =$1  \n  \nT2 = $1 * 0 =$0  \n  \nTn = 1 * 1 =$1  \n  \nT = $1 + $0 +...+$1 = $5000  \n  \n     |
-| Simple tier (granular tier)  | A P * Q model in which the unit price for all consumption is determined by the tier the quantity falls into.           |   \n  \nIf Q is <=Q1, T=P1 * Q  \n  \nIf Q1 < Q <=Q2, T=P2 * Q  \n  \nIf Q2 < Q <=Q3, T=P3 * Q  \n  \n | \n  \nQ1=1000, P1=$1  \n  \nQ2=2500, P2=$0.9  \n  \nQ3=10000, P3=$0.75  \n  \nT=$0.75 * 5000=$3750  \n  \n              |
-| Graduated tier (step tier)   | The price per unit varies as the quantity-consumed moves into different predefined tiers. The total charge involves cumulating the charges from the previous tiers           |   \n  \nT1=P1 * Q (0 < Q  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n     |   \n  \nQ1=1000, P1=$1, T1=1 * 1000  \n  \nQ2=1500, P2=$0.9, T2=0.9 * 1500  \n  \nQ3=10000, P3=$0.75, T3=0.75 * 2500  \n  \nT=1000 +1350+1875=$4225  \n  \n         |
-| Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     |   \n  \nIf Q is <=Q1, T=T1  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n    |   \n  \nQ1=1000, T1=$0  \n  \nQ2=2500, T2=2500  \n  \nQ3=10000, T3=$4500  \n  \nT=$4500  \n  \n            |
-{: caption="Table 7. Pricing models" caption-side="top"}
-
-Block tier pricing is not currently supported. If your product migrated from the Resource Management Console, and you used block tier pricing, it is still honored. However, you can't add any new block tier pricing plans at this time.
-{: note}
-
-## Managing your metering models after migration
-{: #migration-metering-models}
-
-If you are a third-party provider that migrated from the resource management console (RMC) to Partner Center, you can manage your metering models with Partner Center. Any information that is added or edited for your pricing plans and metering models by using the resource management console can be updated in Partner Center. If you add new pricing plans and metering models in Partner Center, you are only able to manage these, not any other metering model from the resource management console that you added previously. 
-
-If you created your service with Partner Center, you can choose from the following metrics and default metering models:
-
-| Type | Metric |
-|-----|-----|
-| `dailyproration_max` | Active User |
-| `standard-add` | API call | 
-| `dailyproration_max` | Authorized User |
-| `standard_add` | Gigabyte hour | 
-| `standard_add` | Gigabyte month | 
-| `monthlyproration` | Instance |
-| `standard_add` | Terabyte hour | 
-| `standard_add` | Terabyte month | 
-| `dailyproration_max` | User |
-| `standard_add` | Virtual Server | 
-| `standard_add` | Virtual Server Hour | 
-| `standard_add` | Virtual Processor Core |
-{: caption="Table 8. Partner Center metering model metrics" caption-side="top"}
