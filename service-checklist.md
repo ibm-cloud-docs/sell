@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2022
 
-lastupdated: "2022-05-05"
+lastupdated: "2022-06-02"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
@@ -57,6 +57,8 @@ For more information, see [Getting set up to sell services](/docs/sell?topic=sel
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your UNSPSC | Add the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your ECCN | Add the Export Control Classification Number (ECCN) to receive a product number. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your pricing plans | {{site.data.keyword.cloud_notm}} supports two pricing models: free or usage-based. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add metrics to your pricing plan | Add metrics to your usage-based pricing plan to determine how customers are charged. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test and submit resource usage | Review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured by enabling and submitting a usage test. This usage test includes creating your metering JSON, calling the Usage Metering API and submitting metering evidence. For more information, see [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}. | Development environment and documentation, {{site.data.keyword.cloud_notm}} console  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Accept the {{site.data.keyword.cloud_notm}}'s Digital Platform Reseller Agreement | Review and accept the Digital Platform Reseller Agreement if you plan to offer paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM}}. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 3. Tasks for add pricing plans for services" caption-side="top"} 
 
