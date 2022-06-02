@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-05-04"
+lastupdated: "2022-05-31"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -125,7 +125,7 @@ You can review the controls that were added from your readme file and add additi
 1. Click **Add controls**. 
 1. Choose a profile. 
 1. Select the controls that you want to add to your version. 
-1. Click **Add** > **Next**.
+1. Click **Add**.
 
 ### Run Code Risk Analyzer scan
 {: #bundle-cra-scan}
@@ -134,7 +134,6 @@ Scan your source code with Code Risk Analyzer to identify any security vulnerabi
 
 1. Click **Run scan**. 
 2. Wait for the scan to finish. 
-3. Click **Next**.
 
 ### Add Security and Compliance Center scan
 {: #bundle-scc-scan}
@@ -143,7 +142,7 @@ Add the scans that you previously ran in the Security and Compliance Center. Sec
 
 1. Select the profile that you scanned. 
 1. Select the Security and Compliance Center scan. 
-1. Click **Apply scan**.
+1. Click **Add scan**.
 1. Click **Next**.
 
 ## Review requirements
