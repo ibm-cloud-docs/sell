@@ -124,9 +124,11 @@ toc:
               label: Selling services with Partner Center
               topics:
               - service-pricing.md
+              - service-metering-integration.md
               - service-add-metrics.md
               - service-custom-parameters.md
               - service-support.md
+              - service-develop-auth.md
               - service-pricing-change.md
           - topicgroup:
               label: Selling services with the Resource Management Console
