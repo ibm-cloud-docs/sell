@@ -123,6 +123,7 @@ toc:
           - topicgroup:
               label: Selling services with Partner Center
               topics:
+              - service-pc-broker.md
               - service-pricing.md
               - service-metering-integration.md
               - service-add-metrics.md
