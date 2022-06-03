@@ -130,6 +130,7 @@ toc:
               - service-support.md
               - service-develop-auth.md
               - service-pricing-change.md
+              - service-publish.md
           - topicgroup:
               label: Selling services with the Resource Management Console
               topics:
