@@ -18,7 +18,7 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Registering an Operator in {{site.data.keyword.cloud_notm}} Partner Center
+# Registering an Operator
 {: #operator-register}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="5m"} 

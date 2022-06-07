@@ -19,7 +19,7 @@ subcollection: sell
  
 With {{site.data.keyword.cloud}} Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the provisioned instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan. For more information, see [Metering integration](/docs/sell?topic=sell-service-metering-integration).
 
-To onboard your service to {{site.data.keyword.cloud_notm}}, you are required to add metrics to your usage-based pricing plan to determine how customers are charged. When you add metrics to your pricing plan in Partner Center, you must request an initial approval. After your metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
+To onboard your service to {{site.data.keyword.cloud_notm}}, you are required to add metrics to your usage-based pricing plan to determine how customers are charged. When you add metrics to your pricing plan, you must request an initial approval. After your metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
 {: shortdesc}
 
 ## Before you begin

@@ -120,32 +120,16 @@ toc:
       - topicgroup:
           label: Selling services
           topics:
-          - topicgroup:
-              label: Selling services with Partner Center
-              topics:
-              - service-pc-broker.md
-              - service-pricing.md
-              - service-metering-integration.md
-              - service-add-metrics.md
-              - service-custom-parameters.md
-              - service-support.md
-              - service-develop-auth.md
-              - service-pricing-change.md
-              - service-publish.md
-          - topicgroup:
-              label: Selling services with the Resource Management Console
-              topics:
-              - service-onboard-overview.md
-              - service-docs-marketing.md
-              - service-rmc-define.md
-              - service-broker.md
-              - service-iam.md
-              - service-rmc-publish.md
-              - service-ga.md
-              - service-submitusage.md
-              - service-metering.md
-              - service-parameters.md
-              
+            - service-pc-broker.md
+            - service-pricing.md
+            - service-metering-integration.md
+            - service-add-metrics.md
+            - service-custom-parameters.md
+            - service-support.md
+            - service-develop-auth.md
+            - service-pricing-change.md
+            - service-publish.md
+
   - navgroup:
       id: reference
       topics:

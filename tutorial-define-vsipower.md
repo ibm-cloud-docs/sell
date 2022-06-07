@@ -31,7 +31,7 @@ This tutorial demonstrates how to onboard and publish a [sample virtual server i
 ## Before you begin
 {: #vsipower-define-prereqs}
 
-[Register your virtual server image in Partner Center](/docs/sell?topic=sell-vsipower-register).
+[Register your virtual server image](/docs/sell?topic=sell-vsipower-register).
 
 ## Confirm the digital provider agreement
 {: #vsipower-dpa}

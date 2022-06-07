@@ -30,7 +30,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #operator-define-prereqs}
 
-[Register your Operator in Partner Center](/docs/sell?topic=sell-operator-register).
+[Register your Operator](/docs/sell?topic=sell-operator-register).
 
 ## Confirm the digital provider agreement
 {: #operator-dpa}

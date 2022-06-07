@@ -30,7 +30,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #vsipower-publish-prereqs}
 
-1. [Register a virtual server image in Partner Center](/docs/sell?topic=sell-vsipower-register).
+1. [Register a virtual server image](/docs/sell?topic=sell-vsipower-register).
 1. [Define your product details](/docs/sell?topic=sell-vsipower-define).
 1. [Onboard the virtual server image](/docs/sell?topic=sell-vsipower-onboard).
 1. [Update the visibility of the virtual server image](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample#update-the-visibility-of-your-image-patch-api){: external}.

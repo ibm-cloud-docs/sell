@@ -17,7 +17,7 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Register your service in {{site.data.keyword.cloud_notm}} Partner Center
+# Register your service
 {: #svc-register}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="5m"} 
