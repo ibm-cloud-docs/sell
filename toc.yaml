@@ -35,6 +35,7 @@ toc:
       - topicgroup:
           label: Onboarding a Node-RED Operator
           topics:
+          - tutorial-register-operator.md
           - tutorial-define-operator.md
           - tutorial-onboard-operator.md
           - tutorial-publish-operator.md
