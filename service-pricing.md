@@ -47,7 +47,7 @@ For services that you offer on {{site.data.keyword.cloud_notm}} with a paid, usa
 
 To provide tax and EFT information, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to you**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to me**.
 1. Download the relevant EFT form, and complete it.
 
     A scanned copy of a voided check is required when you submit this form.
