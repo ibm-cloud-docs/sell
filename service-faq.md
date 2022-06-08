@@ -40,7 +40,7 @@ For more information on metering, see [Metering integration](/docs/sell?topic=se
 {: #get-disbursements}
 {: faq}
 
-Third-party services that offer paid usage-based pricing plans receive disbursements through an Electronic Funds Transfer (EFT). To set up this method to receive disbursements in {{site.data.keyword.cloud_notm}} Partner Center Sell, you must submit the EFT form when you set up your first usage-based pricing plan. You can download the form from the Payments to you page.
+Third-party services that offer paid usage-based pricing plans receive disbursements through an Electronic Funds Transfer (EFT). To set up this method to receive disbursements in {{site.data.keyword.cloud_notm}} Partner Center Sell, you must submit the EFT form when you set up your first usage-based pricing plan. You can download the form from the Payments to me page.
 
 ## When are disbursements sent to me?
 {: #disbursements-sent}
