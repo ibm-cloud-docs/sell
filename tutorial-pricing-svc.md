@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-05-04"
+lastupdated: "2022-05-23"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -39,11 +39,11 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 {: #required-docs-paid}
 {: step}
 
-As part of this tutorial, you add a usage-based pricing plan. To receive payments for usage-based pricing plans, you must submit the Electronic Funds Transfer (EFT) form and required tax document.
+As part of this tutorial, you add a usage-based pricing plan. To receive disbursements for usage-based pricing plans, you must submit the Electronic Funds Transfer (EFT) form and required tax document.
 
 To provide tax and EFT information, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My payments**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to me**.
 1. Download the relevant EFT form, and complete it.
 
     A scanned copy of a voided check is required when you submit this form.

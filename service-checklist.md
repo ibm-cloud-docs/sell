@@ -53,7 +53,7 @@ For more information, see [Getting set up to sell services](/docs/sell?topic=sel
 
 | Task | Description | Environment |
 |------|-------------|-------------|
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Submit the Electronic Transfer Funds and tax form | To receive payments for usage-based pricing plans, email the required documents. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Submit the Electronic Transfer Funds and tax form | To receive disbursements for usage-based pricing plans, email the required documents. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your UNSPSC | Add the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your ECCN | Add the Export Control Classification Number (ECCN) to receive a product number. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your pricing plans | {{site.data.keyword.cloud_notm}} supports two pricing models: free or usage-based. | {{site.data.keyword.cloud_notm}} console |

@@ -35,7 +35,7 @@ For paid, usage-based plans:
 
 * Provide the ECCN that applies to your product.
 * Provide the UNSPSC that applies to your product.
-* Submit your tax and Electronic Funds Transfer (EFT) information for paid plans to set up and receive payments for usage. 
+* Submit your tax and Electronic Funds Transfer (EFT) information for paid plans to set up and receive payment disbursements for usage. 
 * Confirm the digital platform reseller agreement.
 
 Depending on the type of plan you're adding, complete each prerequisite by using the following instructions.
@@ -43,11 +43,11 @@ Depending on the type of plan you're adding, complete each prerequisite by using
 ### Submitting tax and EFT forms
 {: #submit-tax-eft}
 
-For services that you offer on {{site.data.keyword.cloud_notm}} with a paid, usage-based pricing plan, you receive payments based on the usage in accordance with your pricing structure. To receive payments, you must complete and submit the EFT form and tax documentation. 
+For services that you offer on {{site.data.keyword.cloud_notm}} with a paid, usage-based pricing plan, you receive disbursements based on the usage in accordance with your pricing structure. To receive disbursements, you must complete and submit the EFT form and tax documentation. 
 
 To provide tax and EFT information, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My payments**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to me**.
 1. Download the relevant EFT form, and complete it.
 
     A scanned copy of a voided check is required when you submit this form.
@@ -139,7 +139,7 @@ By adding a free plan, you are indicating that your product does not require any
 1. Select **Free** from the Type section.
 1. Enter a name for your new plan. 
 1. Describe the details of your plan.
-1. Choose the locations where your plan is available. All plans for a product use either Global or Per location. By selecting Per location, you can specify different regions or data centers for each plan that you add.
+1. Choose the locations where your plan is available. All plans for a product use either global or per location. By selecting per location, you can specify different regions or data centers for each plan that you add.
 1. Link a broker to the plan.
 
    If you haven't finished adding a broker to your account, you will not see this option, and you can continue and save your pricing plan. However, you can't complete your pricing plan until the broker is added and linked to your plan.
@@ -160,7 +160,7 @@ To add a paid pricing plan for your service, complete the following steps:
 1. Select **Usage-based**.
 1. Enter a name for your plan. 
 1. Describe the details of your plan.
-1. Choose the locations where your plan is available. All plans for a product use either Global or Per location. By selecting Per location, you can specify different regions or data centers for each plan that you add.
+1. Choose the locations where your plan is available. All plans for a product use either global or per location. By selecting per location, you can specify different regions or data centers for each plan that you add.
 1. Select a broker to link to the plan.
 
    If you haven't finished adding the broker to your account, you will not see this option, and you can continue and save your pricing plan. However, you can't submit your pricing plan for approval until the broker is linked.
@@ -193,5 +193,4 @@ To add features for your service, complete the following steps:
 1. Enter a feature description that uniquely describes your product and differentiates the pricing plan from others.
 1. Optional: Click **Add feature** to add up to five additional feature descriptions.
 1. Click **Save**.
-
 
