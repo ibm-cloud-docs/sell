@@ -121,21 +121,11 @@ When your service is published in the catalog, it's represented by a catalog ent
 {: #svc-support}
 {: step}
 
-Provide details that help users understand how to get support if they encounter issues when they use the service. Also, describe how customers can contact your support team to escalate issues that are not handled by the standard support process.
+Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details). 
 
-1. Click **Support**, and enter the URL to your support website, for example, `https://support.examplecorp.com/`.
-2. For your support contact and response process, describe what users can expect when they contact your support team, for example:
+To define your product's support experience, use the following steps:
 
-   `Contact Example Corp Support online at https://support.examplecorp.com, by chat at https://support.examplecorp.com/chat, or by phone at https://support.examplecorp.com/phone. Support is available 24 hours a day, 7 days a week, 365 days a year and is provided in English and French.`
-  
-3. Enter or select all the countries in which support for your product is based.
-4. Describe the process that customers follow when they need to escalate issues, for example:
-
-   `For escalation discussions, IBM Cloud customers should follow the escalation process described at https://support.examplecorp.com/ibmcloudescalations.`
-  
-5. Describe how customers can contact your support team when they escalate an issue, for example:
-
-   `For escalation discussions, {{site.data.keyword.cloud_notm}} support leaders can reach out to the following Example Corp support leaders: Jane Doe (janedoe@examplecorp.com) and John Doe (johndoe@examplecorp.com).`
+{{site.data.content.steps-support-experience}}
 
 ## Next steps 
 {: #svc-pricing-next}

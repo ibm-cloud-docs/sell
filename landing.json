@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2022-05-24",
+    "lastupdated": "2022-06-13",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software and services.",
     "section_recommended": [
       {
@@ -39,6 +39,11 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
+          "date": "13 June 2022",
+          "title": "Updated process for onboarding services in Partner Center",
+          "description": "Partner Center has made it easier to provide required support information. The process has improved the approval process for publishing your product, and it has added consistency to all third-party product information which helps customers find the help that they need."
+        },
+        {
           "date": "05 April 2022",
           "title": "Onboarding virtual server images for Power Systems Virtual Server",
           "description": "You can now onboard virtual server images for Power Systems Virtual Server to private catalogs and the IBM Cloud catalog."
@@ -47,11 +52,6 @@
           "date": "04 April 2022",
           "title": "Adding custom service parameters for your service",
           "description": "If the provisioning process of your product requires additional information from your customers, you can now add custom input fields for your product in IBM Cloud Partner Center."
-        },
-        {
-          "date": "07 February 2022",
-          "title": "Support for onboarding third-party services in Partner Center",
-          "description": "Onboarding new services in the resource management console is no longer supported. You must use Partner Center to onboard new services to the IBM Cloud catalog. You can continue to manage existing services in the resource management console."
         }
       ]
     }
