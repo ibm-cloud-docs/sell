@@ -31,7 +31,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #terraform-template-define-prereqs}
 
-[Register your Terraform template in Partner Center](/docs/sell?topic=sell-terraform-template-register).
+[Register your Terraform template](/docs/sell?topic=sell-terraform-template-register).
 
 ## Confirm the digital provider agreement
 {: #terraform-template-dpa}

@@ -31,7 +31,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #vsimage-define-prereqs}
 
-[Register your virtual server image in Partner Center](/docs/sell?topic=sell-vsimage-register).
+[Register your virtual server image](/docs/sell?topic=sell-vsimage-register).
 
 ## Confirm the digital provider agreement
 {: #vsimage-dpa}

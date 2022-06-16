@@ -23,7 +23,7 @@ When you onboard your product to {{site.data.keyword.cloud}} Partner Center, you
 ## Configuring your client ID and secret
 {: #configure-client-id}
 
-To develop an authentication flow, you need a client ID and a secret, and a redirect URL. The client ID is generated to identify your service, along with the secret, which is the password for your service. Your client ID is not confidential since it is publicly identified. However, the secret is confidential and is only known to the application and the authorization server. You can create and manage you client ID in Partner Center. A redirect URL is the host URL for your service that users are redirected to after a successful authentication. 
+To develop an authentication flow, you need a client ID and a secret, and a redirect URL. The client ID is generated to identify your service, along with the secret, which is the password for your service. Your client ID is not confidential since it is publicly identified. However, the secret is confidential and is only known to the application and the authorization server. You can create and manage you client ID. A redirect URL is the host URL for your service that users are redirected to after a successful authentication. 
 
 The following example shows redirect URLs:
 

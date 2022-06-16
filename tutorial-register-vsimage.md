@@ -19,7 +19,7 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Registering a virtual server image in {{site.data.keyword.cloud_notm}} Partner Center
+# Registering a virtual server image
 {: #vsimage-register}
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="5m"} 

@@ -30,7 +30,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #bundle-define-prereqs}
 
-[Register your Operator bundle in Partner Center](/docs/sell?topic=sell-bundle-register).
+[Register your Operator bundle](/docs/sell?topic=sell-bundle-register).
 
 ## Confirm the digital provider agreement
 {: #bundle-dpa}

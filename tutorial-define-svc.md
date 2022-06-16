@@ -31,7 +31,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #svc-define-prereqs}
 
-[Register your service in Partner Center](/docs/sell?topic=sell-svc-register).
+[Register your service](/docs/sell?topic=sell-svc-register).
 
 ## Confirm the digital provider agreement
 {: #svc-dpa}
