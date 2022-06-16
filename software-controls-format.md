@@ -37,14 +37,14 @@ You can include more columns in the readme file's control table but this informa
 
 For examples of how you can format your controls in your readme file, see the following tables:  
 
-```
+```markdown
 | Profile | ID |
 |---------|----|
 | NIST | SC-7(3) |
 ```
 {: codeblock}
 
-```
+```markdown
 | Profile | Category | ID      | Description |
 |---------|----------|---------|-------------|
 | NIST | [SC-7](https://csrc.nist.gov/Projects/risk-management/sp800-53-controls/release-search#/control?version=4.0&number=SC-7) | SC-7(3) | Limit the number of external network connections to the system. |
