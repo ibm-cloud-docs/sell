@@ -118,7 +118,7 @@ To obtain an identity token, you must include the following headers and paramete
 - Accept: application/json
 
 #### Parameters:
-{: #parameter}
+{: #parameters}
 
 - client_id=*[client ID]*
 - client_secret=*[client secret]*

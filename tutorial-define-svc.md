@@ -128,6 +128,6 @@ To define your product's support experience, use the following steps:
 {{site.data.content.steps-support-experience}}
 
 ## Next steps 
-{: #svc-pricing-next}
+{: #pricing-next}
 
 You can now [add your broker](/docs/sell?topic=sell-broker-onboard). 
