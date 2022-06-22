@@ -156,7 +156,7 @@ Add the scans that you previously ran in Security and Compliance Center. Securit
 1. Click **Next**.
 
 ## Review requirements
-{: #bundle-review-reqs}
+{: #operator-review-reqs}
 
 You must complete validation and any other requirements to publish your operator. 
 
