@@ -2,10 +2,10 @@
 
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-06-13"
+  years: 2022
+lastupdated: "2022-07-06"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, support, software, partner, sellers, partner center, support, customer support
+keywords: partner center support
 
 subcollection: sell
 
@@ -21,3 +21,5 @@ subcollection: sell
 {{site.data.content.select-support-provider}}
 
 {{site.data.content.provide-support-details}}
+
+{{site.data.content.update-support-details}}

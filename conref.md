@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-06-13"
+lastupdated: "2022-07-06"
 
 keywords: 
 
@@ -35,7 +35,10 @@ The following H2s are going to be reused in several different onboarding topics 
 * H2 - **Selecting your product's support provider** is used in the following files:
    * service-support.md
    * software-support-details.md
-* H2 - **Providing your products support information** is used in the following files:
+* H2 - **Providing your product's support information** is used in the following files:
+   * service-support.md
+   * software-support-details.md
+* H2 - **Updating your product's support information** is used in the following files:
    * service-support.md
    * software-support-details.md
 
@@ -99,8 +102,31 @@ Use the following steps to add support details for your product:
    | Phone number   | The company phone number where users can get direct contact with a support representative. |
    | Other          | Any additional information, email, URL, or phone number that you want to provide. |
    {: caption="Table 1. Support details" caption-side="bottom"}
-   
+
 1. After you add all of your product's support details, provide the required URLs for your product. 
 1. Add all locations where you provide support for your product. 
 1. Add your escalation information. Do not use a personal phone number or email. 
 1. Provide your support contact information. This information is for internal use only and is not displayed on the product details page. 
+
+## Updating your product's support information
+{: #update-support-details}
+
+If your product is already published to the {{site.data.keyword.cloud_notm}} catalog, but you need to update your support details, you can easily do that by editing your published information and requesting an approval for them. 
+
+To update your support information, complete the following steps:
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. Select your product and click **Support**. 
+1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") for the field you want to update. 
+1. Click **Save**. 
+
+    You can revert to the published state of your support information by clicking **Revert changes**.
+    {: note}
+
+1. Click **Request approval** when you're ready with your updates. The approval can take at least five business days. 
+1. After your request is reviewed and approved by the {{site.data.keyword.cloud_notm}} team, publish your changes by clicking **Publish approved changes**.
+
+    Any changes that you don't publish are deleted after 60 days.
+    {: important}
+
+You can toggle between the updated and the published state of your support information. Toggle the switch on to review your updates, and toggle the switch off for the published state. 
