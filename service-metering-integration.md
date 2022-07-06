@@ -101,7 +101,7 @@ Formula: MAX(usages)
 | Day 2 (morning) | 0              | MAX(10, 0)   | 10                    |
 | Day 3 (morning) | 15             | MAX(10, 15)  | 15                    |
 | Day 4 (night)   | 1              | MAX(15, 1)   | 15                    |
-{: caption="Table 4. Maximum monthly usage calculations" caption-side="top"}
+{: caption="Table 3. Maximum monthly usage calculations" caption-side="top"}
 
 #### Daily proration Average
 {: #daily-proration-average}
@@ -123,7 +123,7 @@ Given a 30-day month, use the following table to calculate the daily proration a
 | Day 2 (night)      | 5                | (2 + 5) / 2   | (5.5 + 3.5) / 2                        | 4.5 (On Day 2 EOD)                               |
 | Day 3 to Day 15    | 1                | 1 / 1         | (5.5 + 3.5 + (1 + 13)  / 15            | 1.4666  (On Day 15 EOD)                          |
 | Day 15 to Day 30   | 0                | 0 / 1         | (5.5 + 3.5 + (1 \* 12) + (0  \* 15) / 30 | 0.7333  (On Day 30 EOD)                          |
-{: caption="Table 5. Average usage per day and monthly average calculations" caption-side="top"}
+{: caption="Table 4. Average usage per day and monthly average calculations" caption-side="top"}
 
 \* As seen on the same day as when the usage was submitted.
 
@@ -145,7 +145,7 @@ Given a 30-day month, see the following table to calculate the maximum usage per
 | Day 1 (night)    | 1              | MAX(0, 1) | 1 / 1                          | 1                      |
 | Day 2 to Day 15  | 1              | MAX(1)    | (1 + 1 + ...) / day            | 1                      |
 | Day 15 to Day 30 | 0              | MAX(0)    | (1 + (1 * 14) + 0 + ...) / day | < 1                    |
-{: caption="Table 6. Maximum usage per day and monthly average calculations" caption-side="top"}
+{: caption="Table 5. Maximum usage per day and monthly average calculations" caption-side="top"}
 
 \* As seen on the same day as when the usage was submitted.
 
@@ -161,7 +161,7 @@ The following table provides detailed information about the pricing models that 
 | Simple tier (granular tier)  | A P * Q model in which the unit price for all consumption is determined by the tier the quantity falls into.           |   \n  \nIf Q is <=Q1, T=P1 * Q  \n  \nIf Q1 < Q <=Q2, T=P2 * Q  \n  \nIf Q2 < Q <=Q3, T=P3 * Q  \n  \n | \n  \nQ1=1000, P1=$1  \n  \nQ2=2500, P2=$0.9  \n  \nQ3=10000, P3=$0.75  \n  \nT=$0.75 * 5000=$3750  \n  \n              |
 | Graduated tier (step tier)   | The price per unit varies as the quantity-consumed moves into different predefined tiers. The total charge involves cumulating the charges from the previous tiers           |   \n  \nT1=P1 * Q (0 < Q  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n     |   \n  \nQ1=1000, P1=$1, T1=1 * 1000  \n  \nQ2=1500, P2=$0.9, T2=0.9 * 1500  \n  \nQ3=10000, P3=$0.75, T3=0.75 * 2500  \n  \nT=1000 +1350+1875=$4225  \n  \n         |
 | Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     |   \n  \nIf Q is <=Q1, T=T1  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n    |   \n  \nQ1=1000, T1=$0  \n  \nQ2=2500, T2=2500  \n  \nQ3=10000, T3=$4500  \n  \nT=$4500  \n  \n            |
-{: caption="Table 7. Pricing models" caption-side="top"}
+{: caption="Table 6. Pricing models" caption-side="top"}
 
 Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, you can't add any new block tier pricing plans at this time.
 {: note}
@@ -185,7 +185,7 @@ If you created your service with Partner Center, you can choose from the followi
 | `standard_add` | Virtual Server | 
 | `standard_add` | Virtual Server Hour | 
 | `standard_add` | Virtual Processor Core |
-{: caption="Table 8. Partner Center metering model metrics" caption-side="top"}
+{: caption="Table 7. Partner Center metering model metrics" caption-side="top"}
 
 
 Third-party providers that migrated from the resource management console to Partner Center can manage their metering models with Partner Center. Any information that is added or edited for pricing plans and metering models by using the resource management console can be updated in Partner Center. 
