@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2022
+lastupdated: "2022-07-08"
 
 keywords: software, pricing, paid, free, third-party, license, BYOL, bring your own license
 
@@ -13,14 +13,15 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Defining your pricing model
+# Defining your pricing model for software
 {: #sw-pricing}
 
 When onboarding your product, you will need to define the pricing model for your software. Currently, the {{site.data.keyword.cloud}} catalog supports free plans and bring your own license (BYOL).
 {: shortdesc}
 
-## Adding a free plan
+## Adding a free plan by using the console
 {: #pricing-free}
+{: ui}
 
 By adding a free plan, you are indicating that your product does not require any payment or license to use. 
 
@@ -28,8 +29,9 @@ By adding a free plan, you are indicating that your product does not require any
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Select **Free**. 
 
-## Adding a BYOL plan
+## Adding a BYOL plan by using the console
 {: #pricing-byol}
+{: ui}
 
 By adding a bring your own license plan, you are indicating that customers need to purchase a license to use your product. You are required to provide the name of the license and a URL where customers can purchase the license. 
 
@@ -46,5 +48,50 @@ If you have not imported a version of your software, you can still create a BYOL
 1. Enter the **Description** of your license. Explain why customers need to purchase the license and what access they will receive. 
 1. Click **Add**.
 
-All information that you enter is displayed to customers in the {{site.data.keyword.cloud_notm}} catalog to help them purchase the required license.
+All information entered in the **Add pricing plan** panel is displayed to customers in the {{site.data.keyword.cloud_notm}} catalog to help them purchase the required license.
 {: note}
+
+## Creating a free plan by using the API
+{: #create-free-plan}
+{: api}
+
+You can programmatically create a free plan by calling the Partner Center Sell API as shown in the following sample request. For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
+
+```bash
+curl --request PATCH \
+  --url  https://product-
+lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
+a7ba-b6f0435c9673/catalog \
+  --header 'Authorization: Bearer TOKEN' \  
+  --header 'Content-Type: application/json' \   
+  --data '{
+  "pricingModel": "free",
+}'
+```
+{: pre}
+{: curl}
+
+## Creating a BYOL plan by using the API
+{: #create-byol-plan}
+{: api}
+
+You can programmatically create a bring your own license plan by calling the Partner Center Sell API as shown in the following sample request. The example creates a byol plan that is named `standard`:
+
+```bash
+curl --request POST \
+  --url https://product-
+lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
+a7ba-b6f0435c9673/plans \
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
+  --data '{
+	      "description": "My plan description",
+	      "label": "standard",
+	      "type": "byol",
+	      "url": "https://my.plan"
+}'
+```
+{: pre}
+{: curl}
+
+For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#create-plan){: external}.
