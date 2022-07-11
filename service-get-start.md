@@ -6,7 +6,7 @@ copyright:
 
 lastupdated: "2022-06-14"
 
-keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service, onboarding workbench
+keywords: third-party service, sell on IBM Cloud, resource management console, integrated billing service
 
 subcollection: sell
 

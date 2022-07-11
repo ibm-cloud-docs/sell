@@ -166,7 +166,7 @@ The following table provides detailed information about the pricing models that 
 Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, you can't add any new block tier pricing plans at this time.
 {: note}
 
-## Metering model types
+## Metrics for metering models
 {: #metering-model-types}
 
 If you created your service with Partner Center, you can choose from the following metrics and default metering models:

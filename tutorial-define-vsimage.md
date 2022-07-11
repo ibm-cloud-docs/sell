@@ -78,7 +78,6 @@ Provide details that are displayed on your catalog entry and product page when y
 1. Click **Product details**, and enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`.
 1. Provide a short description of your product, which is displayed on your catalog entry. 
 1. From the **Category** list, select an option that best fits how users might use your product, for example, **Compute/Virutal Machines**. Categories are used to organize products in the catalog based on common solutions, function, or use.
-1. Select **Third party** from the **Provider** list.
 1. Enter keywords that users might use when they search the catalog for your product, for example, `virtual machine`, `compute`, and `terraform`.
 1. Provide a list of features that highlights your product's attributes and benefits for users.
 

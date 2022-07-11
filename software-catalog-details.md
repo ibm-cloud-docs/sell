@@ -78,15 +78,6 @@ The following table describes each type of category that you can select.
 | Storage | Products that support data to be created, read, updated, and deleted.|
 {: caption="Table 1. Category descriptions" caption-side="top"} 
 
-### Selecting your provider type
-{: #catalog-provider}
-{: ui}
-
-1. From the **Provider** list, select **Third party** or **Community**, and click **Save**.
-
-* Third-party products are provided by individual software entities, {{site.data.keyword.IBM_notm}} Business Partners, or independent software vendors (ISV). Support for third-party products is provided by the third-party provider. If the root cause analysis determines that the issue is a defect in a third-party product, {{site.data.keyword.cloud_notm}} isn't required to provide a fix. However, {{site.data.keyword.cloud_notm}} shares analysis with the third-party provider, if needed, and can work with the third-party provider to help solve the issue.
-* Community products are provided by open source communities. If a root cause analysis determines that a support issue is a defect in an open source or community product, {{site.data.keyword.cloud_notm}} isn't required to provide a fix. {{site.data.keyword.cloud_notm}} closes the case and refers users to the community or forum for assistance. Users can get community assistance for technical issues through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}.
-
 ### Adding search keywords
 {: #catalog-keywords}
 {: ui}
