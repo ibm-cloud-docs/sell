@@ -85,10 +85,10 @@ a7ba-b6f0435c9673/plans \
   --header 'Authorization: Bearer TOKEN' \
   --header 'Content-Type: application/json' \
   --data '{
-	     "description": "Purchasing a license is required to use the product.",
-	     "label": "Standard",
-	     "type": "byol",
-	     "url": "https://standard.plan.com/license"
+        "description": "Purchasing a license is required to use the product.",
+	"label": "Standard",
+	"type": "byol",
+	"url": "https://standard.plan.com/license"
 }'
 ```
 {: pre}
