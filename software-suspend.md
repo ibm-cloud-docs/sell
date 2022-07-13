@@ -50,7 +50,7 @@ lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/suspend \
   --header 'Authorization: Bearer TOKEN' \  
   --data '{
-	      "reason": "There is a bug in the operation of the product that must be fixed. To fix the error, I want to suspend my product."
+       "reason": "There is a bug in the operation of the product that must be fixed. To fix the error, I want to suspend my product."
 }'
 ```
 {: pre}
