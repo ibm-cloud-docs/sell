@@ -48,7 +48,7 @@ lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/deprecate \
   --header 'Authorization: Bearer TOKEN' \  
   --data '{
-	      "reason": "I need to permanently delete my product from the IBM Cloud catalog."
+       "reason": "I need to permanently delete my product from the IBM Cloud catalog."
 }'
 ```
 {: pre}
