@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-07-08"
+lastupdated: "2022-07-13"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, remove, delete, deprecate
 
@@ -39,7 +39,7 @@ You can deprecate a specific version of your software by clicking the **Actions*
 {: #sw-deprecate-api}
 {: api}
 
-You can programmatically deprecate your product by calling the Partner Center Sell API as shown in the following sample request. As the `reason`, provide details about why you want to deprecate your published product.
+You can programmatically deprecate your product by calling the Partner Center Sell API as shown in the following sample request. Specify `reason` to provide details about why you want to deprecate your published product:
 
 ```bash
 curl --request POST \
@@ -48,7 +48,7 @@ lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/deprecate \
   --header 'Authorization: Bearer TOKEN' \  
   --data '{
-	      "reason": "My justification"
+	      "reason": "I need to permanently delete my product from the IBM Cloud catalog."
 }'
 ```
 {: pre}

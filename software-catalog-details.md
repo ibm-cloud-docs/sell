@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-11"
+lastupdated: "2022-07-13"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -158,7 +158,7 @@ For more information, see [Partner Center Sell API](/apidocs/partner-center-sell
 {: #catalog-short-desc-api}
 {: api}
 
-You can programmatically provide a short description of your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `This is my product` description to the product:
+You can programmatically provide a short description of your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `Create and deploy a virtual server with ease by using a custom image.` description to the product:
 
 ```bash
 curl --request PATCH \
@@ -168,7 +168,7 @@ a7ba-b6f0435c9673/catalog \
   --header 'Authorization: Bearer TOKEN' \ 
   --header 'Content-Type: application/json' \ 
   --data '{
-  "description": "This is my product"
+  "description": "Create and deploy a virtual server with ease by using a custom image."
 }'
 ```
 {: pre}
@@ -180,7 +180,7 @@ For more information, see [Partner Center Sell API](/apidocs/partner-center-sell
 {: #catalog-category-api}
 {: api}
 
-You can programmatically add the category to your product that best describes it by calling the Partner Center Sell API as shown in the following sample request. The example adds the `storage` category type to the product:
+You can programmatically add the category to your product that best describes it by calling the Partner Center Sell API as shown in the following sample request. The example adds the `virtual machine` category type to the product:
 
 ```bash
 curl --request PATCH \
@@ -190,7 +190,7 @@ a7ba-b6f0435c9673/catalog \
   --header 'Authorization: Bearer TOKEN' \ 
   --header 'Content-Type: application/json' \ 
   --data '{
-  "category": "storage"
+  "category": "virtual machine"
 }'
 ```
 {: pre}
@@ -202,7 +202,7 @@ For more information, see [Partner Center Sell API](/apidocs/partner-center-sell
 {: #catalog-keywords-api}
 {: api}
 
-You can programmatically add relevant keywords to your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `[ "virtual machine" ]` keyword to the product:
+You can programmatically add relevant keywords to your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `["vm" "vsi" "virtual machine"]` keywords to the product:
 
 ```bash
 curl --request PATCH \
@@ -212,7 +212,7 @@ a7ba-b6f0435c9673/catalog \
   --header 'Authorization: Bearer TOKEN' \ 
   --header 'Content-Type: application/json' \ 
   --data '{
-  "keywords": "[ "virtual machine" ]"
+  "keywords": "["vm" "vsi" "virtual machine"]"
 }'
 ```
 {: pre}
@@ -230,7 +230,7 @@ You can programmatically define your product page by calling the Partner Center 
 {: #catalog-features-api}
 {: api}
 
-You can programmatically provide a list of features that highlights your product's attributes and benefits for users by calling the Partner Center Sell API as shown in the following sample request. The example adds a feature to the product that is named `Best feature` with the `This is the best feature of my product` description:
+You can programmatically provide a list of features that highlights your product's attributes and benefits for users by calling the Partner Center Sell API as shown in the following sample request. The example adds a feature to the product that is named `Best feature` with the `This is the main feature of my product.` description:
 
 ```bash
 curl --request PATCH \
@@ -241,7 +241,7 @@ a7ba-b6f0435c9673/catalog \
   --header 'Content-Type: application/json' \ 
   --data '{
   "highlights": [{
-  "description": "This is the best feature of my product",
+  "description": "This is the main feature of my product.",
   "title": "Best feature"
 }],
 }'
@@ -255,7 +255,7 @@ For more information, see [Partner Center Sell API](/apidocs/partner-center-sell
 {: #catalog-long-desc-api}
 {: api}
 
-You can programmatically add a detailed description to your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `This is a unique description about my product` description to the product:
+You can programmatically add a detailed description to your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `Simplify cloud resource deployment with automation that scales so you can focus on the business and not the process.` description to the product:
 
 ```bash
 curl --request PATCH \
@@ -265,7 +265,7 @@ a7ba-b6f0435c9673/catalog \
   --header 'Authorization: Bearer TOKEN' \ 
   --header 'Content-Type: application/json' \ 
   --data '{
-  "longDescription": "This is a unique description about my product"
+  "longDescription": "Simplify cloud resource deployment with automation that scales so you can focus on the business and not the process."
 }'
 ```
 {: pre}
@@ -306,7 +306,7 @@ For more information, see [Partner Center Sell API](/apidocs/partner-center-sell
 {: #catalog-docs-api}
 {: api}
 
-You can provide a link to your product's warranted documentation by calling the Partner Center Sell API as shown in the following sample request. The example adds the `https://myproduct/docs/documentation-of-my-product` documentation link to your product page:
+You can provide a link to your product's warranted documentation by calling the Partner Center Sell API as shown in the following sample request. The example adds the `https://myproduct.com/docs/documentation-of-my-product` documentation link to your product page:
 
 ```bash
 curl --request PATCH \
@@ -316,7 +316,7 @@ a7ba-b6f0435c9673/catalog \
   --header 'Authorization: Bearer TOKEN' \ 
   --header 'Content-Type: application/json' \ 
   --data '{
-  "documentationUrl": "https://myproduct/docs/documentation-of-my-product"
+  "documentationUrl": "https://myproduct.com/docs/documentation-of-my-product"
 }'
 ```
 {: pre}

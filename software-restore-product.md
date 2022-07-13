@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-07-08"
+lastupdated: "2022-07-13"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, restore
 
@@ -38,7 +38,7 @@ Complete the following steps to restore your version:
 {: #sw-restore-deprecate-api}
 {: api}
 
-You can programmatically restore your product by calling the Partner Center Sell API as shown in the following sample request. As the `reason`, provide details about why you want to restore your deprecated product.
+You can programmatically restore your product by calling the Partner Center Sell API as shown in the following sample request. Specify `reason` to provide details about why you want to restore your deprecated product.
 
 ```bash
 curl --request POST \
@@ -47,7 +47,7 @@ lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/restore \
   --header 'Authorization: Bearer TOKEN' \  
   --data '{
-	      "reason": "My justification"
+	      "reason": "I want to restore my deprecated product to keep it in the catalog."
 }'
 ```
 {: pre}

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-07-08"
+lastupdated: "2022-07-13"
 
 keywords: software, pricing, paid, free, third-party, license, BYOL, bring your own license
 
@@ -75,7 +75,7 @@ a7ba-b6f0435c9673/catalog \
 {: #create-byol-plan}
 {: api}
 
-You can programmatically create a bring your own license plan by calling the Partner Center Sell API as shown in the following sample request. The example creates a byol plan that is named `standard`:
+You can programmatically create a bring your own license plan by calling the Partner Center Sell API as shown in the following sample request. The example creates a byol plan that is named `Standard`:
 
 ```bash
 curl --request POST \
@@ -85,10 +85,10 @@ a7ba-b6f0435c9673/plans \
   --header 'Authorization: Bearer TOKEN' \
   --header 'Content-Type: application/json' \
   --data '{
-	      "description": "My plan description",
-	      "label": "standard",
-	      "type": "byol",
-	      "url": "https://my.plan"
+	     "description": "Purchasing a license is required to use the product.",
+	     "label": "Standard",
+	     "type": "byol",
+	     "url": "https://standard.plan.com/license"
 }'
 ```
 {: pre}

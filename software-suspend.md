@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-07-08"
+lastupdated: "2022-07-13"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, partner center, catalog 
 
@@ -41,7 +41,7 @@ After you suspend your product, you must request approval to publish it again wi
 {: #sw-suspend-product-api}
 {: api}
 
-You can programmatically suspend your product by calling the Partner Center Sell API as shown in the following sample request. As the `reason`, provide details about why you want to suspend your published product.
+You can programmatically suspend your product by calling the Partner Center Sell API as shown in the following sample request. Specify `reason` to provide details about why you want to suspend your published product.
 
 ```bash
 curl --request POST \
@@ -50,7 +50,7 @@ lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/suspend \
   --header 'Authorization: Bearer TOKEN' \  
   --data '{
-	      "reason": "My justification"
+	      "reason": "There is a bug in the operation of the product that must be fixed. To fix the error, I want to suspend my product."
 }'
 ```
 {: pre}
