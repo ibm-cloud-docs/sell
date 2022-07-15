@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-07-08"
+lastupdated: "2022-07-15"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, add product, software, partner, sellers, partner center, name, type, create product
 
@@ -19,7 +19,7 @@ subcollection: sell
 During the onboarding process, you can add a new product or import an existing product. Importing an existing product is limited to software that was previously added to a private catalog.
 {: shortdesc}
 
-## Add a new product by using the console
+## Adding a new product by using the console
 {: #add-new-product}
 {: ui}
 
@@ -35,7 +35,7 @@ During the onboarding process, you can add a new product or import an existing p
     - Deployable software
 1. Click **Add**.
 
-## Import an existing product by using the console
+## Importing an existing product by using the console
 {: #import-product}
 {: ui}
 
@@ -46,11 +46,11 @@ If you previously onboarded software to your account, you can import the softwar
 1. Select the private catalog that contains your product and click **Select catalog**. 
 1. Select the product that you would like to import and click **Import**.
 
-## Create a new product by using the API
+## Creating a product by using the API
 {: #create-new-product}
 {: api}
 
-You can programmatically create a new product by calling the Partner Center Sell API as shown in the following sample request. The example creates a product that is named `my-product`:
+You can programmatically create a product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#create-product){: external} as shown in the following sample request. The example creates a product that is named `My new product`:
 
 ```bash
 curl --request POST \
@@ -59,17 +59,22 @@ lifecycle.api.cloud.ibm.com/openapi/v1/products \
   --header 'Authorization: Bearer TOKEN' \
   --header 'Content-Type: application/json' \
   --data '{
-  "productName": "my-product",
+  "productName": "My new product",
   "taxAssessment": "SOFTWARE"
 }'
 ```
 {: pre}
 {: curl}
 
-The name of the product (`productName`)is displayed to users when you publish your product in the catalog.
+The name of the product (`productName`) is displayed to users when you publish your product in the catalog.
 {: note}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#create-product){: external}.
+## Importing an existing product by using the API
+{: #import-product-api}
+{: api}
+
+You can import an existing product only through the UI. To see the steps, switch to the UI instructions.
+
 
 
 

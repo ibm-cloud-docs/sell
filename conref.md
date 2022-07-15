@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-07-11"
+lastupdated: "2022-07-15"
 
 keywords: 
 
@@ -141,7 +141,7 @@ You can toggle between the updated and the published state of your support infor
 {: #update-support-details-api}
 {: api}
 
-You can programmatically update the support information of your product by calling the Partner Center Sell API as shown in the following sample request. You can update your support site URL, support contacts, or the support escalation process. The example updates the support site URL to `https://my-company.com/support`:
+You can programmatically update the support information of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. You can update your support site URL, support contacts, or the support escalation process. The example updates the support site URL to `https://my-company.com/support`:
 
 ```bash
 curl --request PATCH \
@@ -163,5 +163,3 @@ application/json' \
 
 The details that you provide are displayed on your product details page in the catalog.
 {: note}
-
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external}.

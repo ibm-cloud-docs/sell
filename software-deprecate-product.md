@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-07-13"
+lastupdated: "2022-07-15"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, remove, delete, deprecate
 
@@ -22,7 +22,7 @@ If you need to permanently delete your product or version from the {{site.data.k
 Deprecating your product or version will permanently delete it from the {{site.data.keyword.cloud_notm}} catalog. If you want to temporarily remove your product from the catalog, suspend it instead.  
 {: note}
 
-## Deprecate software from the {{site.data.keyword.cloud_notm}} catalog by using the console
+## Deprecating software from the {{site.data.keyword.cloud_notm}} catalog by using the console
 {: #sw-deprecate-ui}
 {: ui}
 
@@ -35,11 +35,11 @@ Complete the following steps to deprecate your product or version:
 
 You can deprecate a specific version of your software by clicking the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the version you want to deprecate on the Software tab. If your software has only one published version, and you deprecate that version, the entire product is deprecated. 
 
-## Deprecate software from the {{site.data.keyword.cloud_notm}} catalog by using the API
+## Deprecating software from the {{site.data.keyword.cloud_notm}} catalog by using the API
 {: #sw-deprecate-api}
 {: api}
 
-You can programmatically deprecate your product by calling the Partner Center Sell API as shown in the following sample request. Specify `reason` to provide details about why you want to deprecate your published product:
+You can programmatically deprecate your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#deprecate-product){: external} as shown in the following sample request. Specify `reason` to provide details about why you want to deprecate your published product:
 
 ```bash
 curl --request POST \
@@ -53,6 +53,4 @@ a7ba-b6f0435c9673/deprecate \
 ```
 {: pre}
 {: curl}
-
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#deprecate-product){: external}.
 

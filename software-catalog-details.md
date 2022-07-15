@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-13"
+lastupdated: "2022-07-15"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -19,7 +19,7 @@ subcollection: sell
 During the onboarding process, you provide certain details about your product that are displayed in the {{site.data.keyword.cloud}} catalog. The details include your product logo and description, a list of product features, supporting media, and a link to your warranted product documentation. 
 {: shortdesc}
 
-## Define your catalog entry by using the console
+## Defining your catalog entry by using the console
 {: #catalog-entry}
 {: ui}
 
@@ -34,7 +34,7 @@ The contents of a catalog entry include the company or product logo, a short des
 1. Click **Add logo**. 
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`, and **Save**.
 
-   Make sure that your logo image is an SVG or PNG file that's a square image roughly sized at 32 x 32 pixels and does not appear blurry or pixelated.
+   Make sure that your logo image is an SVG or PNG file that's a square image that is roughly sized at 32 x 32 pixels and does not appear blurry or pixelated.
    {: note}
 
 ### Providing a short description of your product
@@ -87,7 +87,7 @@ Add relevant keywords that enable your product to appear in search results when 
 1. Click **Enter words, phrases, and other key search terms associated with the product**. 
 1. Enter one or more keywords for your product, and click **Save**.
 
-## Define your product page by using the console
+## Defining your product page by using the console
 {: #catalog-about}
 {: ui}
 
@@ -106,7 +106,7 @@ Use a descriptive title and 1-2 sentences for each feature. You want the informa
 {: #catalog-long-desc}
 {: ui}
 
-Your detailed description explains the value of your product and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't simply repeat it.
+Your detailed description explains the value of your product and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't just repeat it.
 
 ### Providing media
 {: #catalog-media}
@@ -123,7 +123,7 @@ Some examples of effective media include an introductory walkthrough of your pro
 
 Your documentation link is used to direct users to your product's warranted documentation. 
 
-## Define your catalog entry by using the API
+## Defining your catalog entry by using the API
 {: #catalog-entry-api}
 {: api}
 
@@ -133,7 +133,7 @@ You can programmatically provide certain details about your product that are dis
 {: #catalog-logo-api}
 {: api}
 
-You can programmatically provide your company or product logo by calling the Partner Center Sell API as shown in the following sample request. In the example the URL of the company or product logo is `https://www.ibm.com/contact/us/en/images/bee.svg`:
+You can programmatically provide your company or product logo by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. In the example the URL of the company or product logo is `https://www.ibm.com/contact/us/en/images/bee.svg`:
 
 ```bash
 curl --request PATCH \
@@ -149,16 +149,14 @@ a7ba-b6f0435c9673/catalog \
 {: pre}
 {: curl}
 
-Make sure that your logo image is an SVG or PNG file that's a square image roughly sized at 32 x 32 pixels and does not appear blurry or pixelated.
+Make sure that your logo image is an SVG or PNG file that's a square image that is roughly sized at 32 x 32 pixels and does not appear blurry or pixelated.
 {: note}
-
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
 
 ### Providing a short description of your product
 {: #catalog-short-desc-api}
 {: api}
 
-You can programmatically provide a short description of your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `Create and deploy a virtual server with ease by using a custom image.` description to the product:
+You can programmatically provide a short description of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds the `Create and deploy a virtual server with ease by using a custom image.` description to the product:
 
 ```bash
 curl --request PATCH \
@@ -174,13 +172,11 @@ a7ba-b6f0435c9673/catalog \
 {: pre}
 {: curl}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
-
 ### Selecting your catalog category
 {: #catalog-category-api}
 {: api}
 
-You can programmatically add the category to your product that best describes it by calling the Partner Center Sell API as shown in the following sample request. The example adds the `virtual machine` category type to the product:
+You can programmatically add the category to your product that best describes it by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds the `virtual machine` category type to the product:
 
 ```bash
 curl --request PATCH \
@@ -196,13 +192,11 @@ a7ba-b6f0435c9673/catalog \
 {: pre}
 {: curl}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
-
 ### Adding search keywords
 {: #catalog-keywords-api}
 {: api}
 
-You can programmatically add relevant keywords to your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `["vm" "vsi" "virtual machine"]` keywords to the product:
+You can programmatically add relevant keywords to your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds the `["vm","vsi","virtual machine"]` keywords to the product:
 
 ```bash
 curl --request PATCH \
@@ -212,15 +206,13 @@ a7ba-b6f0435c9673/catalog \
   --header 'Authorization: Bearer TOKEN' \ 
   --header 'Content-Type: application/json' \ 
   --data '{
-  "keywords": "["vm" "vsi" "virtual machine"]"
+  "keywords": "["vm","vsi","virtual machine"]"
 }'
 ```
 {: pre}
 {: curl}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
-
-## Define your product page by using the API
+## Defining your product page by using the API
 {: #catalog-about-api}
 {: api}
 
@@ -230,7 +222,7 @@ You can programmatically define your product page by calling the Partner Center 
 {: #catalog-features-api}
 {: api}
 
-You can programmatically provide a list of features that highlights your product's attributes and benefits for users by calling the Partner Center Sell API as shown in the following sample request. The example adds a feature to the product that is named `Best feature` with the `This is the main feature of my product.` description:
+You can programmatically provide a list of features that highlights your product's attributes and benefits for users by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds a feature to the product that is named `Best feature` with the `This is the main feature of my product.` description:
 
 ```bash
 curl --request PATCH \
@@ -249,13 +241,11 @@ a7ba-b6f0435c9673/catalog \
 {: pre}
 {: curl}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
-
 ### Providing a detailed description about your product
 {: #catalog-long-desc-api}
 {: api}
 
-You can programmatically add a detailed description to your product by calling the Partner Center Sell API as shown in the following sample request. The example adds the `Simplify cloud resource deployment with automation that scales so you can focus on the business and not the process.` description to the product:
+You can programmatically add a detailed description to your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds the `Simplify cloud resource deployment with automation that scales so you can focus on the business and not the process.` description to the product:
 
 ```bash
 curl --request PATCH \
@@ -274,13 +264,11 @@ a7ba-b6f0435c9673/catalog \
 The detailed description is displayed at the beginning of your product page in the catalog.
 {: note}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
-
 ### Providing media
 {: #catalog-media-api}
 {: api}
 
-You can programmatically add links to high-quality images or videos that help illustrate what your product is by calling the Partner Center Sell API as shown in the following sample request. The example adds the `image` media type to your product page, which can be found at the `http://myproduct.com/images/product_image.png` URL:
+You can programmatically add links to high-quality images or videos that help illustrate what your product is by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds the `image` media type to your product page, which can be found at the `http://myproduct.com/images/product_image.png` URL:
 
 ```bash
 curl --request PATCH \
@@ -300,13 +288,11 @@ a7ba-b6f0435c9673/catalog \
 {: pre}
 {: curl}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
-
 ### Providing your documentation link
 {: #catalog-docs-api}
 {: api}
 
-You can provide a link to your product's warranted documentation by calling the Partner Center Sell API as shown in the following sample request. The example adds the `https://myproduct.com/docs/documentation-of-my-product` documentation link to your product page:
+You can provide a link to your product's warranted documentation by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds the `https://myproduct.com/docs/documentation-of-my-product` documentation link to your product page:
 
 ```bash
 curl --request PATCH \
@@ -321,6 +307,4 @@ a7ba-b6f0435c9673/catalog \
 ```
 {: pre}
 {: curl}
-
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external}.
 

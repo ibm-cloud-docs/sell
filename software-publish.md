@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-08"
+lastupdated: "2022-07-15"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -19,7 +19,7 @@ subcollection: sell
 As the last step in the onboarding process, you can submit a request to publish your third-party software to the {{site.data.keyword.cloud}} catalog. When you publish software to the catalog, you can choose to publish your software to all {{site.data.keyword.cloud_notm}} users in the catalog or to only specific accounts. If you choose to publish to specific accounts, your product is available only for users in those accounts.
 {: shortdesc}
 
-## Request for approval by using the console
+## Requesting for approval by using the console
 {: #sw-request-approval}
 {: ui}
 
@@ -35,7 +35,7 @@ After your publishing request is reviewed by the {{site.data.keyword.cloud_notm}
 If your software is not approved for publishing, the email includes feedback on the items you must update. If you have questions about the feedback, from the My products page click the **Help** icon ![Help icon](../icons/help.svg "Help"), and then click **Contact us**. 
 {: tip}
 
-## Publish to the {{site.data.keyword.cloud_notm}} catalog by using the console
+## Publishing to the {{site.data.keyword.cloud_notm}} catalog by using the console
 {: #sw-publish-catalog}
 {: ui}
 
@@ -51,7 +51,7 @@ To publish your software to the {{site.data.keyword.cloud_notm}} catalog after y
 As a third-party provider, you're responsible for maintaining all assets of the published software in the {{site.data.keyword.cloud_notm}} catalog and deprecating outdated versions. For more information, see [Deprecating software from the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-deprecate-product). 
 {: note}
 
-## Publish to specific accounts or enterprises by using the console
+## Publishing to specific accounts or enterprises by using the console
 {: #sw-publish-account}
 {: ui}
 
@@ -66,12 +66,11 @@ To publish your product to specific accounts, complete the following steps:
 1. Select a version of your product.     
 1. Click **Publish version**.
 
-## Request for approval by using the API
+## Requesting for approval by using the API
 {: #sw-request-approval-api}
 {: api}
 
-Before you can publish your product to the {{site.data.keyword.cloud_notm}} catalog, you must request an approval for your product. You can programmatically submit your software for approval by calling the Partner Center Sell API as shown in the following sample request:
-
+Before you can publish your product to the {{site.data.keyword.cloud_notm}} catalog, you must request an approval for your product. You can programmatically submit your software for approval by calling the [Partner Center Sell API](/apidocs/partner-center-sell#request-product-approval){: external} as shown in the following sample request:
 
 ```bash
 curl --request POST \
@@ -79,18 +78,15 @@ curl --request POST \
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/approvals \
   --header 'Authorization: Bearer TOKEN'
-}'
 ```
 {: pre}
 {: curl}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#request-product-approval){: external}.
-
-## Publish to the {{site.data.keyword.cloud_notm}} catalog by using the API
+## Publishing to the {{site.data.keyword.cloud_notm}} catalog by using the API
 {: #sw-publish-catalog-api}
 {: api}
 
-You can programmatically publish your product to the {{site.data.keyword.cloud_notm}} catalog by calling the Partner Center Sell API as shown in the following sample request:
+You can programmatically publish your product to the {{site.data.keyword.cloud_notm}} catalog by calling the [Partner Center Sell API](/apidocs/partner-center-sell#publish-product){: external} as shown in the following sample request:
 
 ```bash
 curl --request POST \
@@ -102,5 +98,9 @@ a7ba-b6f0435c9673/publish \
 {: pre}
 {: curl}
 
-For more information, see [Partner Center Sell API](/apidocs/partner-center-sell#publish-product){: external}.
+## Publishing to specific accounts or enterprises by using the API
+{: #sw-publish-account-api}
+{: api}
+
+You can publish your product to specific accounts or enterprises only through the UI. To see the steps, switch to the UI instructions.
 
