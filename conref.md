@@ -141,7 +141,7 @@ Use the following steps to add support details for your product:
 1. Provide your support contact information. This information is for internal use only and is not displayed on the product details page. 
 
 ## Providing your product's support information by using the API
-{: #update-support-details-api}
+{: #provide-support-details-api}
 {: api}
 
 You can programmatically provide the support information of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. You can provide your support site URL, support contacts, or the support escalation process. The example adds the `https://my-company.com/support` support site URL to your product:
