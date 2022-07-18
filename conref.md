@@ -41,9 +41,9 @@ The following H2s are going to be reused in several different onboarding topics 
 * H2 - **Updating your product's support information** is used in the following files:
    * service-support.md
    * software-support-details.md
-* H2 - **Providing your product's support information by using the API** is used in the following file:
-   * software-support-details.md
 * H2 - **Selecting your product's support provider by using the API** is used in the following file:   
+   * software-support-details.md
+* H2 - **Providing your product's support information by using the API** is used in the following file:
    * software-support-details.md
 * H2 - **Updating your product's support information by using the API** is used in the following file:
    * software-support-details.md
