@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-07-15"
+lastupdated: "2022-07-18"
 
 keywords: 
 
@@ -40,6 +40,10 @@ The following H2s are going to be reused in several different onboarding topics 
    * software-support-details.md
 * H2 - **Updating your product's support information** is used in the following files:
    * service-support.md
+   * software-support-details.md
+* H2 - **Providing your product's support information by using the API** is used in the following file:
+   * software-support-details.md
+* H2 - **Selecting your product's support provider by using the API** is used in the following file:   
    * software-support-details.md
 * H2 - **Updating your product's support information by using the API** is used in the following file:
    * software-support-details.md
@@ -86,6 +90,29 @@ Use the following steps to select your product's support provider.
    1. If you select **Community** for your support provider, provide the URL for the support community and your product's support leader contact information. The support leader contact information is for internal use only and is not displayed on the product details page.
    1. If you select **Third-party** for your support provider, use the following steps to complete the necessary fields.
 
+## Selecting your product's support provider by using the API
+{: #select-support-provider-api}
+{: api}
+
+You can programmatically select the support provider of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. The example add the `third-party` support provider type to your product:
+
+```bash
+curl --request PATCH \
+  --url  https://product-
+lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
+a7ba-b6f0435c9673/support \
+  --header 'Authorization: Bearer TOKEN'  --header 'Content-Type: 
+application/json' \
+  --data '{
+  "support_type": "third-party"
+}'
+```
+{: pre}
+{: curl}
+
+The details that you provide are displayed on your product details page in the catalog.
+{: note}
+
 ## Providing your product's support information
 {: #provide-support-details}
 {: ui}
@@ -112,6 +139,33 @@ Use the following steps to add support details for your product:
 1. Add all locations where you provide support for your product. 
 1. Add your escalation information. Do not use a personal phone number or email. 
 1. Provide your support contact information. This information is for internal use only and is not displayed on the product details page. 
+
+## Providing your product's support information by using the API
+{: #update-support-details-api}
+{: api}
+
+You can programmatically provide the support information of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. You can provide your support site URL, support contacts, or the support escalation process. The example adds the `https://my-company.com/support` support site URL to your product:
+
+```bash
+curl --request PATCH \
+  --url  https://product-
+lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
+a7ba-b6f0435c9673/support \
+  --header 'Authorization: Bearer TOKEN'  --header 'Content-Type: 
+application/json' \
+  --data '{
+  "url": "https://my-company.com/support",
+  "case": "case",
+  "contacts": "JohnSupport@my-company.com",
+  "country": "us",
+  "escalationProcess": "Customers can escalate support cases via email.",
+}'
+```
+{: pre}
+{: curl}
+
+The details that you provide are displayed on your product details page in the catalog.
+{: note}
 
 ## Updating your product's support information
 {: #update-support-details}
@@ -141,7 +195,7 @@ You can toggle between the updated and the published state of your support infor
 {: #update-support-details-api}
 {: api}
 
-You can programmatically update the support information of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. You can update your support site URL, support contacts, or the support escalation process. The example updates the support site URL to `https://my-company.com/support`:
+You can programmatically update the support information of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. The example updates the support site URL to `https://my-updated-company.com/support`:
 
 ```bash
 curl --request PATCH \
@@ -151,7 +205,7 @@ a7ba-b6f0435c9673/support \
   --header 'Authorization: Bearer TOKEN'  --header 'Content-Type: 
 application/json' \
   --data '{
-  "url": "https://my-company.com/support",
+  "url": "https://my-updated-company.com/support",
   "case": "case",
   "contacts": "JohnSupport@my-company.com",
   "country": "us",
