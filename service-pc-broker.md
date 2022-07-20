@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-06-03"
+lastupdated: "2022-07-14"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker, partner center
 
@@ -21,6 +21,30 @@ The {{site.data.keyword.Bluemix_notm}} platform interacts with service brokers t
 {: shortdesc}
 
 When you onboard your service to {{site.data.keyword.cloud}}, you must build one or more service brokers to manage the lifecycle of your service and metering integration. For more information, see [Metering Integration](/docs/sell?topic=sell-service-metering-integration).
+
+## What is a service broker?
+{: #broker-what-is}
+
+Service brokers manage the lifecycle of services. Platforms interact with service brokers to create, get access to, and manage the services they offer. The Open Service Broker API defines these interactions to allow software providers to offer their services to anyone regardless of the technology or infrastructure those software providers choose.
+
+The broker architecture provides significant benefits for both development and operations teams:
+
+* Developers can connect their applications and containers to the backing services they need. The operation is the same, regardless of the backing service.
+* Operators no longer have to manually create and delegate access to services. Instead, they configure a marketplace of services and service plans. From there, developers can self-serve, reducing the administrative costs many enterprises face today.
+
+Each service broker that's built to the Open Service Broker API specification has the same intuitive set of lifecycle commands. These commands provide useful benefits for the service broker:
+
+Fetching the catalog of backing services that a service broker offers
+:   The catalog describes all of the services that can be created through a service broker, and each service is made up of plans. Plans typically represent the costs and benefits for a given variant of the service. Many services use plans related to the size the product, for example small, medium, and large.
+
+Provisioning new service instances
+:   A service instance is a created instance of a service and plan as described in the service broker’s catalog.
+
+Connecting and disconnecting applications and containers from those service instances
+:   When a service instance is created, you want your application or container to start communicating with that instance. From a service broker’s perspective, this is called a service binding.
+
+Deprovisioning service instances
+:   This action deletes all the resources that are created upon the initial creation of the service instance.  
 
 
 ## Before you begin
@@ -45,7 +69,7 @@ Explore [broker samples](https://github.com/IBM/sample-resource-service-brokers)
 ### Including required endpoints
 {: #pc-endpoints}
 
-All service brokers must set certain required endpoints. Additional endpoint logic is required for bindable services and disabling and re-enabling service instances.
+All service brokers must set certain required endpoints. Additional endpoint logic is required for bindable services and disabling and reenabling service instances.
 
 #### Required endpoint logic for all service brokers
 {: #pc-endpoint-sb}
