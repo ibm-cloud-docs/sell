@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-07-02"
+lastupdated: "2022-07-20"
 
 keywords: IBM Cloud, metering model, metering service, usage
 
@@ -61,6 +61,7 @@ The following table shows the available metering models and a brief description 
 |-----|-----|
 | `standard_add` | Add quantity from all submitted usage records for a month. | 
 | `standard_max`  | Maximum quantity from all submitted usage records for a month. | 
+| `standard_avg` | Average quantity from all submitted usage records for a month. |
 | `dailyproration_max` | Calculated daily maximum. The sum up all the days for the month. | 
 | `dailyproration_avg` | Calculated daily average. The sum up all the days for the month. |
 | `monthlyproration` | Calculated similar to the daily proration, but the price that is used is the plan price that is divided by the total number of days for the month (daily price). |
@@ -86,6 +87,22 @@ Formula: ADD(usages)
 | Day 3 (morning) | 5             | 15 + 5      | 20                    |
 | Day 4 (night)   | 5             | 20 + 5      | 25                    |
 {: caption="Table 2. Monthly usage calculations" caption-side="top"}
+
+#### Standard Average
+{: #standard-average-usage}
+
+The following table provides information about how to calculate the average monthly usage. Submitting 0 usage counts toward the average.
+
+Formula: AVG(usages)
+
+| Time            | Usage | Calculation             | Quantity in dashboard |
+|-----------------|:-------------:| ----------------------- |:---------------------:|
+| Day 1 (morning) | 4             | 4 / 1                   | 4                     |
+| Day 1 (night)   | 0             | (4 + 0) / 2             | 2                     |
+| Day 2 (morning) | 5             | (4 + 0 + 5) / 3         | 3                     |
+| Day 3 (morning) | 3             | (4 + 0 + 5 + 3) / 4     | 3                     |
+| Day 4 (night)   | 3             | (4 + 0 + 5 + 3 + 3) / 5 | 3                     |
+{: caption="Table 3. Average monthly usage calculations" caption-side="top"}
 
 #### Standard Max
 {: #standard-max-usage}
