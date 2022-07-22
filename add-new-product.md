@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-07-15"
+lastupdated: "2022-07-22"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, add product, software, partner, sellers, partner center, name, type, create product
 
@@ -73,7 +73,7 @@ The name of the product (`productName`) is displayed to users when you publish y
 {: #import-product-api}
 {: api}
 
-You can import an existing product only through the UI. To see the steps, switch to the UI instructions.
+You can import an existing product only through the UI. To view the steps, go to importing an existing product by using the console.
 
 
 
