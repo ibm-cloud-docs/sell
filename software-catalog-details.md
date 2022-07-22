@@ -222,7 +222,7 @@ You can programmatically define your product page by calling the Partner Center 
 {: #catalog-features-api}
 {: api}
 
-You can programmatically provide a list of features that highlights your product's attributes and benefits for users by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds a feature to the product that is named `Best feature` with the `This is the main feature of my product.` description:
+You can programmatically provide a list of features that highlight your product's attributes and benefits for users by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request. The example adds a feature to the product that is named `Best feature` with the `This is the main feature of my product.` description:
 
 ```bash
 curl --request PATCH \
