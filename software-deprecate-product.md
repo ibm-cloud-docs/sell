@@ -28,7 +28,7 @@ Deprecating your product or version will permanently delete it from the {{site.d
 
 Complete the following steps to deprecate your product or version: 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the product that you want to deprecate, and select **Deprecate**.  
 1. Optionally, you can include more details, like a link to a deprecation announcement.  
 1. Click **Deprecate**.
