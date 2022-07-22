@@ -28,7 +28,7 @@ Suspending your product will not permanently delete it from the {{site.data.keyw
 
 Complete the following steps to suspend your product: 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the product that you want to suspend, and select **Suspend**.  
 1. Explain why you want to suspend your product.  
 1. Click **Suspend**.
