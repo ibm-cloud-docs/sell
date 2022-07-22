@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-15"
+lastupdated: "2022-07-22"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -102,5 +102,5 @@ a7ba-b6f0435c9673/publish \
 {: #sw-publish-account-api}
 {: api}
 
-You can publish your product to specific accounts or enterprises only through the UI. To see the steps, switch to the UI instructions.
+You can publish your product to specific accounts or enterprises only through the UI. To view the steps, go to publishing to specific accounts or enterprises by using the console. 
 
