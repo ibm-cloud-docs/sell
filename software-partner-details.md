@@ -35,13 +35,13 @@ As an account administrator, you can update your company and product details in 
 {: #sw-details-company-api}
 {: api}
 
-You can update your partner information only through the UI. To see the steps, switch to the UI instructions.
+You can update your partner information only through the UI. To view the steps, go to updating your partner information by using the console. 
 
 ## Updating your company information by using the console
 {: #sw-details-company-name-dpa}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product.
 1. Click **Edit company** in the **Company** section.
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
@@ -71,7 +71,7 @@ a7ba-b6f0435c9673/catalog \
 {: #sw-details-product}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product.
 1. Click **Dashboard**.
 1. To update the name of the product, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). Make sure that your product name meets the following requirements:
