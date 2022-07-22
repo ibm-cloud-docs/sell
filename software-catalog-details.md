@@ -106,7 +106,7 @@ Use a descriptive title and 1-2 sentences for each feature. You want the informa
 {: #catalog-long-desc}
 {: ui}
 
-Your detailed description explains the value of your product and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't just repeat it.
+Your detailed description explains the value of your product and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description for your catalog entry, but don't repeat the information you already provided.
 
 ### Providing media
 {: #catalog-media}
@@ -149,7 +149,7 @@ a7ba-b6f0435c9673/catalog \
 {: pre}
 {: curl}
 
-Make sure that your logo image is an SVG or PNG file that's a square image that is roughly sized at 32 x 32 pixels and does not appear blurry or pixelated.
+Make sure that your logo image is an SVG or PNG file that's a square image roughly sized at 32 x 32 pixels and doesn't appear blurry or pixelated.
 {: note}
 
 ### Providing a short description of your product
