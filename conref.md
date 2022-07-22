@@ -94,7 +94,7 @@ Use the following steps to select your product's support provider.
 {: #select-support-provider-api}
 {: api}
 
-You can programmatically select the support provider of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. The example add the `third-party` support provider type to your product:
+You can programmatically select the support provider of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. The example adds the `third-party` support provider type to your product:
 
 ```bash
 curl --request PATCH \
