@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-15"
+lastupdated: "2022-07-22"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -34,7 +34,7 @@ The contents of a catalog entry include the company or product logo, a short des
 1. Click **Add logo**. 
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`, and **Save**.
 
-   Make sure that your logo image is an SVG or PNG file that's a square image that is roughly sized at 32 x 32 pixels and does not appear blurry or pixelated.
+   Make sure that your logo image is an SVG or PNG file that's a square image roughly sized at 32 x 32 pixels and doesn't appear blurry or pixelated.
    {: note}
 
 ### Providing a short description of your product
