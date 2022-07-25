@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-04-05"
+lastupdated: "2022-07-25"
 
 keywords: IBM Cloud, selling services, custom, parameters
 
@@ -15,7 +15,7 @@ subcollection: sell
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Adding custom service parameters for your service in Partner Center
+# Adding custom service parameters for your service
 {: #service-add-custom-parameters}
 
 When you onboard your service to {{site.data.keyword.Bluemix}}, the provisioning process of your product might require some additional information from your customers. To get the additional information, you can add custom input fields for your product in {{site.data.keyword.cloud_notm}} Partner Center, and the values can be entered by your customers.
