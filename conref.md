@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-07-18"
+lastupdated: "2022-07-27"
 
 keywords: 
 
@@ -217,3 +217,40 @@ application/json' \
 
 The details that you provide are displayed on your product details page in the catalog.
 {: note}
+
+## Define IAM access
+{: #define-IAM-access}
+{: step}
+
+After you configure your deployment values, you can add the service access and platform access roles that are required to install your product from the {{site.data.keyword.IBM_notm}} catalog.
+
+Use the following steps to define your product's access:
+{: #steps-define-desc-iam-access}
+
+1. Click **Configure version** > **Next** > **Next**.
+2. Click **Add**.
+3. Select the service and the required service and platform access.
+   * The service access role allows access for using the service and performing service API calls.
+   * The platform access role enables actions to be performed on platform resources, such as creating an instance, connecting instances to apps, and assigning user access.
+4. Click **Save**.
+{: #steps-define-IAM-access}
+
+
+## Edit output value descriptions
+{: #output-values}
+{: step}
+
+You can improve the descriptions for your Terraform template's output values to help users better understand the purpose of the parameters. The description of any output value that you include in your template can be updated.  
+{: #description-output-values}
+
+To add output values, you need to include them in a new imported version of your Terraform template. 
+{: note} 
+{: #note-output-values}
+
+Complete the following steps to edit the product's output value descriptions:
+{: #steps-desc-output-values}
+
+1. Click **Configure version** > **Next**.
+1. From the Output value descriptions section, provide a new description for the parameter that you want to update.
+1. Click **Next**.
+{: #steps-output-value}

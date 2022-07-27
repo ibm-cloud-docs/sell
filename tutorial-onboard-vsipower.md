@@ -3,7 +3,7 @@
 copyright:
   years: 2022
 
-lastupdated: "2022-06-09"
+lastupdated: "2022-07-25"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -107,6 +107,10 @@ Next, update the configuration type of the **`crn`** and **`processors`** parame
 1. From the Deployment values table, select the **`processors`** parameter and click **Edit**.
 1. Open the **Value details** menu and select **float**.
 1. Click **Next**. 
+
+{{site.data.content.output-values}} 
+
+{{site.data.content.define-IAM-access}} 
 
 ## Add your license agreements
 {: #vsipower-onboard-eula}

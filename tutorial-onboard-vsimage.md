@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-05-31"
+lastupdated: "2022-07-25"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -80,6 +80,7 @@ From the Configure version tab, you can review your version details. There are n
 
 After you review the version details, you're ready to configure the deployment values.
 
+1. If you need to specify the Terraform runtime version that you want Schematics to use, click the **Override the default Terraform runtime version** checkbox and enter a version.
 1. From the Configure the deployment details section, click **Add deployment values**. 
 1. Select **Parameter** to select all options, and click **Add**.
 1. To customize which parameters are required for users to specify during the installation and which ones are hidden altogether, select a parameter and click **Edit**. For the purposes of this tutorial, configure each parameter as described in the following table.
@@ -100,6 +101,10 @@ Next, update the configuration type of the **`region`** parameter:
 1. From the Deployment values table, select the **`region`** parameter and click **Edit**.
 1. Open the **Value details** menu and select **VPC region**.
 1. Click **Save** > **Next**.
+
+{{site.data.content.output-values}} 
+
+{{site.data.content.define-IAM-access}} 
 
 ## Add your license agreements
 {: #vsimage-onboard-eula}
