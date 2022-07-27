@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2022
 
-lastupdated: "2022-05-31"
+lastupdated: "2022-07-25"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -96,7 +96,7 @@ If applicable to your software type, you can set deployment values that users ar
 #### Importing existing values
 {: #sw-import-values}
 
-You can import existing values if you previously set deployment values for an existing version and want to import the values to your current version. 
+Complete these steps if you previously set deployment values for an existing version and want to import the values to your current version. 
 
 Imported values don't replace any deployment values that you already added to your current version. 
 {: important}
@@ -107,6 +107,43 @@ Imported values don't replace any deployment values that you already added to yo
 1. Select the version that contains the values that you want to import.
 1. Click **Import**.
 1. To customize parameters, select a parameter and click **Edit**.
+
+### Editing output value descriptions
+{: #sw-output-values}
+
+{{site.data.content.description-output-values}}
+
+{{site.data.content.note-output-values}}
+
+{{site.data.content.steps-desc-output-values}}
+
+{{site.data.content.steps-output-value}}
+
+### Defining IAM access
+{: #sw-define-IAM-access}
+
+If applicable to your software type, you can add the service access and platform access roles that are required to install your product from the {{site.data.keyword.cloud_notm}} catalog. You can define new IAM access or import IAM access that you set in an earlier version.
+
+#### Defining new IAM access
+{: #sw-new-access}
+
+{{site.data.content.steps-define-desc-iam-access}}
+
+{{site.data.content.steps-define-IAM-access}}
+
+#### Importing existing IAM access
+{: #sw-import-access}
+
+Complete the following steps if you previously defined IAM access for an existing version and want to import the values to your current version.
+
+Imported IAM access doesn't replace any IAM access that you already added to your current version. 
+{: note}
+
+1. Click **Configure version** > **Next** > **Next**. 
+2. Click **Add**.
+3. Click **Import IAM access from a previous version**. 
+4. Select the version that contains the IAM access that you want to import.
+5. Click **Add**.
 
 ## Adding license agreements
 {: #sw-validate-add-license}
@@ -123,7 +160,7 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 ### Importing license agreements 
 {: #sw-import-license}
 
-You can import existing license agreements if you previously set license agreements for an existing version and want to import the licenses to your current version. 
+Complete these steps if you previously added license agreements for an existing version and want to import the licenses to your current version. 
 
 Imported licenses don't replace any license agreements that you already added to your current version. 
 {: important}
@@ -156,7 +193,7 @@ The steps to validate your product can vary based on the type of software that y
 To monitor the progress of the validation process, click **View logs**.
 {: tip}
 
-## Manage security and compliance controls
+## Managing security and compliance controls
 {: #sell-controls}
 
 Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
@@ -176,4 +213,3 @@ Controls are safeguards that are used to meet security and compliance requiremen
 {: #sell-review-reqs}
 
 You must complete validation and any other requirements to publish your product. 
-

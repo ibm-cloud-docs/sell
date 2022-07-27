@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-05-31"
+lastupdated: "2022-07-25"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, validate, test, Terraform, terraform template
@@ -82,6 +82,20 @@ After you review the version details, you're ready to configure the deployment v
 1. Select the **Parameter** checkbox to select all options, and click **Add**.
 1. To customize which parameters are required for users to specify during the installation and which ones are hidden from users, select a parameter and click **Edit**. Click the checkboxes to configure the values and click **Save**.
 
+## Edit output value descriptions
+{: #output-values}
+{: step}
+
+{{site.data.content.description-output-values}}
+
+{{site.data.content.note-output-values}}
+
+{{site.data.content.steps-desc-output-values}}
+
+{{site.data.content.steps-output-value}}
+
+{{site.data.content.define-IAM-access}} 
+
 ## Set the license requirements
 {: #terraform-template-onboard-cfg-license}
 {: step}
@@ -114,7 +128,7 @@ When users access your Terraform template from the catalog, they can view instal
    {: tip}
 
 1. From the Deployment values section, review your parameter values, and click **Next**.
-1. In the Validation product section, select **I have read and agree to the following license agreements**.
+1. In the Validate version section, select **I have read and agree to the following license agreements**.
 1. Click **Validate**.
 
    To monitor the progress of the validation process, click **View logs**. 
