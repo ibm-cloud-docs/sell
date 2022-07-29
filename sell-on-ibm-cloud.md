@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-04-26"
+lastupdated: "2022-07-29"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Selling on {{site.data.keyword.cloud_notm}}
 {: #selling-clouds}
 
-Are you looking to sell your software or services on {{site.data.keyword.cloud}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service provisioning, metering, and billing.
+Are you looking to sell your software or services on {{site.data.keyword.cloud}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service creation, metering, and billing.
 {: shortdesc} 
 
 ## Software or services? 
