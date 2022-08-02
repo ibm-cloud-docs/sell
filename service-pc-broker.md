@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-07-14"
+lastupdated: "2022-07-29"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker, partner center
 
@@ -88,7 +88,7 @@ resource instances (DELETE)
 resource instances (PATCH)
 :   Updates your service instance.
 
-**Note on catalog (GET)**: This endpoint defines the contract between the broker and the {{site.data.keyword.Bluemix_notm}} platform for the services and plans that the broker supports. This endpoint returns the catalog metadata that is stored within your broker. These values define the minimal provisioning contract between your service and the {{site.data.keyword.Bluemix_notm}} platform. All additional catalog metadata that isn't required for provisioning is stored within the {{site.data.keyword.Bluemix_notm}} catalog. Any updates to catalog display values like links and icons must be updated in the {{site.data.keyword.Bluemix_notm}} console, and not housed in your broker. None of metadata that is stored in your broker is displayed in the {{site.data.keyword.Bluemix_notm}} console or the {{site.data.keyword.Bluemix_notm}} CLI. The console and CLI return what was set within Partner Center Sell and stored in the {{site.data.keyword.Bluemix_notm}} catalog. The following section shows the minimal-required values that catalog (GET) returns:
+**Note on catalog (GET)**: This endpoint defines the contract between the broker and the {{site.data.keyword.Bluemix_notm}} platform for the services and plans that the broker supports. This endpoint returns the catalog metadata that is stored within your broker. These values define the minimal contract between your service and the {{site.data.keyword.Bluemix_notm}} platform. All additional catalog metadata that isn't required is stored within the {{site.data.keyword.Bluemix_notm}} catalog. Any updates to catalog display values like links and icons must be updated in the {{site.data.keyword.Bluemix_notm}} console, and not housed in your broker. None of metadata that is stored in your broker is displayed in the {{site.data.keyword.Bluemix_notm}} console or the {{site.data.keyword.Bluemix_notm}} CLI. The console and CLI return what was set within Partner Center Sell and stored in the {{site.data.keyword.Bluemix_notm}} catalog. The following section shows the minimal-required values that catalog (GET) returns:
 
 ```text
 {

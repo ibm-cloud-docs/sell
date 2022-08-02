@@ -4,8 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-06-02"
-
+lastupdated: "2022-07-29"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds
 
@@ -29,7 +28,7 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 {: #metering}
 {: faq}
 
-{{site.data.keyword.Bluemix}} supports multiple models for aggregating service usage. Service providers measure various metrics on the provisioned instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that service providers choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
+{{site.data.keyword.Bluemix}} supports multiple models for aggregating service usage. Service providers measure various metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that service providers choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
 
 You're required to automate hourly usage submission by using the metering service API if you offer a metered plan.
 {: note}
@@ -81,7 +80,7 @@ If your application to the program is approved, awarded credits are referred to 
 {: #partnerworld-ibm}
 {: faq}
 
-[{{site.data.keyword.IBM_notm}} PartnerWorld Program](https://www.ibm.com/partnerworld/resources){: external} is an {{site.data.keyword.IBM_notm}} corporate program that provides access to the {{site.data.keyword.IBM_notm}} offering portfolio including the {{site.data.keyword.cloud_notm}} Platform. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the {{site.data.keyword.IBM_notm}} PartnerWorld Team and not {{site.data.keyword.cloud_notm}} Support. 
+[{{site.data.keyword.IBM_notm}} PartnerWorld Program](https://www.ibm.com/partnerworld/resources){: external} is an {{site.data.keyword.IBM_notm}} corporate program that provides access to the {{site.data.keyword.IBM_notm}} product portfolio including the {{site.data.keyword.cloud_notm}} Platform. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the {{site.data.keyword.IBM_notm}} PartnerWorld Team and not {{site.data.keyword.cloud_notm}} Support. 
 
 For more information about the program, contact the [{{site.data.keyword.IBM_notm}} PartnerWorld Team](https://www.ibm.com/partnerworld/resources/support){: external}.
 

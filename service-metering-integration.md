@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-07-20"
+lastupdated: "2022-07-29"
 
 keywords: IBM Cloud, metering model, metering service, usage
 
@@ -17,17 +17,17 @@ subcollection: sell
 # Metering integration
 {: #service-metering-integration}
  
-{{site.data.keyword.cloud}} supports multiple models for aggregating offering usage, and with Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the provisioned instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
+{{site.data.keyword.cloud}} supports multiple models for aggregating product usage, and with Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
 {: shortdesc}
 
 The following list describes the expectations for tracking and submitting usage:
 
-*	Third-party offering providers don't need to submit usage for free plans or monthly subscription plans.
-*	For metered plans, all offering providers must submit usage hourly, and Lite plans must submit usage every 15 minutes to 1 hour.
-*	The offering provider is responsible for automating the usage submission, including automation that retries failure responses. {{site.data.keyword.Bluemix_notm}} doesn't provide a retry function for failed submissions. For more information, see the status codes and actions table in [Submitting usage records](/docs/sell?topic=sell-submitusage#usage-records).
+*	Third-party providers don't need to submit usage for free plans or monthly subscription plans.
+*	For metered plans, all providers must submit usage hourly, and Lite plans must submit usage every 15 minutes to 1 hour.
+*	The provider is responsible for automating the usage submission, including automation that retries failure responses. {{site.data.keyword.Bluemix_notm}} doesn't provide a retry function for failed submissions. For more information, see the status codes and actions table in [Submitting usage records](/docs/sell?topic=sell-submitusage#usage-records).
 *	Usage records for the current month must be submitted by the 2nd of the following month.
 *	{{site.data.keyword.Bluemix_notm}} is configured for a monthly billing cycle and time is represented in Coordinated Universal Time (UTC).
-* Offering providers must test usage submission and validate their results to describe how the monthly billing cycle is calculated.
+* Providers must test usage submission and validate their results to describe how the monthly billing cycle is calculated.
 
 For general information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost). 
 
@@ -35,7 +35,7 @@ For general information about pricing, see [How to calculate your costs](/docs/b
 ## Configuration properties
 {: #service-configure-properties}
 
-The following properties define how {{site.data.keyword.Bluemix_notm}} meters and rates usage submissions for offering plans:
+The following properties define how {{site.data.keyword.Bluemix_notm}} meters and rates usage submissions for product plans:
 
 Unit
 :   Metrics to be metered, for example, ApiCall, Bytes, Hours, Instances, and Nodes.
@@ -50,7 +50,7 @@ Resource name
 :   The name of the resource that is being measured, for example, storage, instance, virtual server, or bytes transmitted.
 
 Unit name
-:   The descriptive name of the unit if the default name isn't relevant for the offering.
+:   The descriptive name of the unit if the default name isn't relevant for the product.
 
 ## Metering model types
 {: #service-metermodel-type}
