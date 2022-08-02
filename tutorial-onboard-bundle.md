@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-05-31"
+lastupdated: "2022-08-02"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -81,7 +81,7 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #bundle-onboard-review-readme}
 {: step}
 
-When users install the software, they can view installation instructions by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your GitHub repository.
+When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your GitHub repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file will be displayed to users when they are installing the Operator bundle.
