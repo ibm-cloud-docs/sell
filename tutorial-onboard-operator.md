@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-05-31"
+lastupdated: "2022-08-02"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
@@ -101,7 +101,7 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #operator-onboard-review-readme}
 {: step}
 
-When users access your Operator from the catalog, they can view installation instructions from the Readme tab of your product's catalog details page. The readme information is automatically generated from the details in your CSV file. 
+When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your GitHub repository. 
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file is displayed to users when they install the Operator.
