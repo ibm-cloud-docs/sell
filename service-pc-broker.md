@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-07-29"
+lastupdated: "2022-08-15"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker, partner center
 
@@ -26,6 +26,8 @@ When you onboard your service to {{site.data.keyword.cloud}}, you must build one
 {: #broker-what-is}
 
 Service brokers manage the lifecycle of services. Platforms interact with service brokers to create, get access to, and manage the services they offer. The Open Service Broker API defines these interactions to allow software providers to offer their services to anyone regardless of the technology or infrastructure those software providers choose.
+
+A broker is useful if you are developing and offering software as a service across multiple vendors. It can increase business value by introducing the service broker to automate the provisioning and binding for customers. Additionally, customer management and usage tracking can be easier with a middleware component that handles these cross cutting concerns.
 
 The broker architecture provides significant benefits for both development and operations teams:
 
