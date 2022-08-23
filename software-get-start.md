@@ -94,7 +94,7 @@ After your product is approved, you're ready to return to Partner Center and pub
 * Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources). 
 * Review the list of supported software:
   
-    * Helm charts on Kubernetes and {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} clusters
+    * Helm charts on Kubernetes and {{site.data.keyword.openshiftshort}} clusters
     * Terraform templates
     * OVA images deployed on VMware Solutions Dedicated - vCenter Server
     * Virtual server images with Terraform deployed on VPC infrastructure

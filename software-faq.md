@@ -31,7 +31,7 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 
 See the following list for the types of third-party software that you can currently add to the catalog:
 
-* Helm charts on Kubernetes and {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} clusters
+* Helm charts on Kubernetes and {{site.data.keyword.openshiftshort}} clusters
 * Terraform templates
 * OVA images deployed on VMware Solutions Dedicated - vCenter Server
 * Virtual server images with Terraform deployed on VPC infrastructure or {{site.data.keyword.powerSys_notm}}

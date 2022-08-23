@@ -27,7 +27,7 @@ completion-time: 15m
 This tutorial walks you through how to register an Operator bundle in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Certified Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
+This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Certified Operator bundle from the {{site.data.keyword.openshiftshort}} registry. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 ## Before you begin
 {: #bundle-reg-prereqs}
@@ -38,10 +38,10 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
    * Administrator on all account management services and all Identity and Access Management (IAM) services
    * Editor on the Catalog Management service
    * Editor on the {{site.data.keyword.registrylong_notm}} service
-   * Administrator on the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster
+   * Administrator on the {{site.data.keyword.openshiftshort}} cluster
    * Editor on the software instance service
 
-Make sure that you use the same account to access the {{site.data.keyword.registrylong_notm}} and to create the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster.
+Make sure that you use the same account to access the {{site.data.keyword.registrylong_notm}} and to create the {{site.data.keyword.openshiftshort}} cluster.
 {: important}
 
 
@@ -56,7 +56,7 @@ Make sure that you use the same account to access the {{site.data.keyword.regist
 {: #bundle-reg-test}
 {: step}
 
-You, or a member of your team, uses the test environment to onboard the Operator bundle and validate that it can be deployed to a {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster. Your test environment includes a private catalog in which you import the Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry. 
+You, or a member of your team, uses the test environment to onboard the Operator bundle and validate that it can be deployed to a {{site.data.keyword.openshiftshort}} cluster. Your test environment includes a private catalog in which you import the Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry. 
 
 1. Click **Create** in the Create your test environment section. 
 1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.

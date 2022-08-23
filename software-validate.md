@@ -56,7 +56,7 @@ Complete the following steps to import a version of your software to your privat
 
     * Helm chart: `https://charts.bitnami.com/ibm/apache-8.3.2.tgz`
     * Node-RED Operator: `https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz`
-    * Operator bundle from a {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} registry: For an example, select the `Akka Cluster Operator` from the list of available Operators in the Certified repository.
+    * Operator bundle from a {{site.data.keyword.openshiftshort}} registry: For an example, select the `Akka Cluster Operator` from the list of available Operators in the Certified repository.
     * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
     * Terraform template: `https://github.com/IBM-Cloud/terraform-sample/releases/tag/v1.0.0`
     * Virtual server image with Terraform: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`

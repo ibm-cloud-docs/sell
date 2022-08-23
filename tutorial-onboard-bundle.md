@@ -23,27 +23,27 @@ completion-time: 45m
 {: toc-services="Registry"}
 {: toc-completion-time="45m"} 
 
-This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.redhat_full}} {{site.data.keyword.openshiftshort}} Operator bundle, configure the deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
+This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.openshiftshort}} Operator bundle, configure the deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
+This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 
 ## Before you begin
 {: #bundle-onboard-prereqs}
 
 1. Go to {{site.data.keyword.redhat_notm}} OperatorHub to confirm that your Operator bundle exists in the {{site.data.keyword.redhat_notm}} Certified registry.
-1. [Create your {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started). 
+1. [Create your {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started). 
 1. [Upload your Operator bundle and application images to {{site.data.keyword.registrylong_notm}}](/docs/Registry?topic=Registry-getting-started).
 1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 
    * Administrator on all account management services and all IAM services
    * Editor on the catalog management service
    * Editor on the {{site.data.keyword.registrylong_notm}} service
-   * Administrator on the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster
+   * Administrator on the {{site.data.keyword.openshiftshort}} cluster
    * Editor on the software instance service
 
-Make sure that you use the same account to access {{site.data.keyword.registrylong_notm}} and to create the {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster.
+Make sure that you use the same account to access {{site.data.keyword.registrylong_notm}} and to create the {{site.data.keyword.openshiftshort}} cluster.
 {: important}
 
 ## Import your Operator bundle
@@ -96,7 +96,7 @@ Before you can publish the Operator bundle, you need to validate it to make sure
 
 1. From the **Validate product** tab, select the Update channel that you would like to receive updates from. 
 1. Select whether you want to apply updates automatically or manually. 
-1. Select a {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} cluster. 
+1. Select a {{site.data.keyword.openshiftshort}} cluster. 
 1. Select a project. 
 1. Click **Next**.
 1. Confirm or edit your workspace name.  
