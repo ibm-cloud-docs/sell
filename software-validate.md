@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2022
 
-lastupdated: "2022-08-02"
+lastupdated: "2022-08-25"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -35,9 +35,9 @@ Onboarding your software includes importing a version to your private catalog, c
    * For deployments to {{site.data.keyword.cloud_notm}} Kubernetes Service, [set up your Helm chart](/docs/containers?topic=containers-helm).
    * For deployments to Red Hat OpenShift, set up your [Helm chart](/docs/openshift?topic=openshift-helm) or [Operator](/docs/openshift?topic=openshift-operators).
 
-* For virtual machine images:
+* For virtual server images:
    * Review the list of [supported images](/docs/vpc?topic=vpc-about-images).
-   * Create your [Terraform template](/docs/schematics?topic=schematics-getting-started).
+   * If required, create your [Terraform template](/docs/schematics?topic=schematics-getting-started). Virtual server images for VPC do not require a Terraform template.
    * Create an instance of [{{site.data.keyword.cloud_notm}} Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage) and add your image to a bucket.
 
 ## Importing a version to your private catalog
@@ -60,6 +60,10 @@ Complete the following steps to import a version of your software to your privat
     * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
     * Terraform template: `https://github.com/IBM-Cloud/terraform-sample/releases/tag/v1.0.0`
     * Virtual server image with Terraform: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`
+    * Virtual server image for VPC: Select an image from the list of available images that were imported into your VPC, or import a new image to your account.
+
+    A virtual server image for VPC can only be added to one product within one private catalog at a time. If the virtual server image you want to import is already imported into another product, you must remove the image from that product, delete the product, or delete the private catalog that contains the other product before you add the virtual server image to a new product. 
+    {: note}
   
     If you're adding your product from a private repository, you can choose to provide a personal access token or you can use a secret. Instead of giving users a personal access token, you can give them access to a secret, add the token to a secret, and centrally manage all tokens and access the secret allows.
 
@@ -180,6 +184,10 @@ When users install the software, they can view product information by clicking t
 3. To make updates, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
 4. Click **Save**.
 5. Click **Next**.
+
+If you are importing a virtual server image for VPC, the readme file is not automatically generated. Copy and paste the contents of the [readme file template](/media/docs/downloads/software/sw-readme-tab-template.md){: external} and make updates as needed. 
+{: note}
+
 
 ## Validating the product
 {: #sw-validate-validate-product}
