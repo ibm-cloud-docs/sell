@@ -53,8 +53,8 @@ The following H2s are going to be reused in several different onboarding topics 
 {: ui}
 
 1. Click **Support**.
-1. Select your product's support provider. 
-   1. If you select **Community** for your support provider, provide the URL for the support community and provide your product's contact information. The support leader contact information is for internal use only and is not displayed on the product details page.
+1. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.
+   1. If you select **Community** for your support provider, provide the URL for the support community.
    1. If you select **Third-party** for your support provider, use the following steps to complete the necessary fields.
 1. Click **Add support details** and complete the necessary fields, then click **Save** to add each detail.  You must add at least 1 support detail for your product.
 1. After you add all of your product's support details, provide the required URLs for your product. 
@@ -87,7 +87,7 @@ Use the following steps to select your product's support provider.
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select the product that you're onboarding, and click **Support**. 
 1. Select your product's support provider. 
-   1. If you select **Community** for your support provider, provide the URL for the support community and your product's support leader contact information. The support leader contact information is for internal use only and is not displayed on the product details page.
+   1. If you select **Community** for your support provider, provide the support statement and the URL for the support community.
    1. If you select **Third-party** for your support provider, use the following steps to complete the necessary fields.
 
 ## Selecting your product's support provider by using the API
@@ -124,7 +124,12 @@ Don't add details that have personal information, for example, personal emails.
 
 Use the following steps to add support details for your product:
 
-1. From the Partner Center Support tab, click **Add support details**, provide your support availability, then click **Save** to add each detail. You must add at least 1 support detail for your product.
+1. From the Partner Center Support tab, provide your product's support statement. 
+
+   For the support statement, describe the provided support for your product and Add any additional support information that isn't provided in the other fields.
+   {: note}
+
+1. Click **Add support details**, provide your support availability, then click **Save** to add each detail. You must add at least 1 support detail for your product.
 
    | Support detail | Description |
    |----------------|-------------|
