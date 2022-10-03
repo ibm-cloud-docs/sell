@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2022
 
-lastupdated: "2021-07-29"
+lastupdated: "2022-10-03"
 
 keywords: service parameter definition, parameters, parameter example,
 
@@ -60,133 +60,131 @@ Always verify that the changes that you requested have been made.
 `parameters`
 :   An array of key-value pairs that are defined by the service when the service instance is created.
 
-   ```javascript
-    "parameters": [{
-      "name": "nodes",
-      "displayname": "Number of Data Nodes"
-    }]
-    ```
+```javascript
+ "parameters": [{
+   "name": "nodes",
+   "displayname": "Number of Data Nodes"
+ }]
+```
 
-    `parameters.name`
-    :   The key of the parameter.
+`parameters.name`
+:   The key of the parameter.
 
-    `parameters.displayname`
-    :   The name of the parameter that is displayed.
+`parameters.displayname`
+:   The name of the parameter that is displayed.
 
-    `parameters.type`
-    :   The type of input field that is displayed by the {{site.data.keyword.Bluemix_notm}} user interface. The value can be text, password, dropdown, check box, or radio.
+`parameters.type`
+:   The type of input field that is displayed by the {{site.data.keyword.Bluemix_notm}} user interface. The value can be text, password, dropdown, check box, or radio.
 
-    This value is required.
-    {: note}
+This value is required.
+{: note}
 
-    ```javascript
-    {
-      "name": "pwd",
-      "displayname": "Password",
-      "type": "password"
-    },
-    ```
+```javascript
+{
+  "name": "pwd",
+  "displayname": "Password",
+  "type": "password"
+},
+```
 
-    `parameters.options`
-    :   A JSON structure to specify available values for dropdown, check box, and radio input type.
+`parameters.options`
+:   A JSON structure to specify available values for dropdown, check box, and radio input type.
 
-        `parameters.options.displayname`
+`parameters.options.displayname`
+:   The name of the dropdown, check box, or radio button that you want to display in the UI.
 
-        :   The name of the dropdown, check box, or radio button that you want to display in the UI.
+`parameters.options.value`
+:   The value of the parameter to be sent to the service broker when creating the service.
 
-        `parameters.options.value`
+```javascript
+"options": [
+  {
+    "displayname": "HDFS",
+    "value": "hdfs"
+  },
+  {
+    "displayname": "YARN",
+    "value": "yarn"
+  },
+]
+```
 
-        :   The value of the parameter to be sent to the service broker when creating the service.
+`parameters.value`
+:   The default value of the parameter. For check box input type, it can be an array of values.
+```javascript
+["hfs","yarn"]
+```
 
-        ```javascript
-        "options": [
-          {
-            "displayname": "HDFS",
-            "value": "hdfs"
-          },
-          {
-            "displayname": "YARN",
-            "value": "yarn"
-          },
-        ]
-        ```
+`parameters.layout`
+:   Specifies the layout of check box or radio input types. When unspecified, the default layout is horizontal.
 
-    `parameters.value`
-    :   The default value of the parameter. For check box input type, it can be an array of values.
-        ```javascript
-        ["hfs","yarn"]
-        ```
+`parameters.associations`
+:   A JSON structure to describe the interactions with price plans and/or other custom parameters.
 
-    `parameters.layout`
-    :   Specifies the layout of check box or radio input types. When unspecified, the default layout is horizontal.
+This value is optional, and all subsequent values that are appended to `parameters.associations.<value>` are optional.
+{: note}
 
-    `parameters.associations`
-    :   A JSON structure to describe the interactions with price plans and/or other custom parameters.
+```javascript
+"type": "text",
+"associations": {
+  "plan": {
+    "showFor": ["apsMyserviceParametersDemo-entry","apsMyserviceParametersDemo-enterprise"]
+  }
+}
+```
 
-        This value is optional, and all subsequent values that are appended to `parameters.associations.<value>` are optional.
-        {: note}
+`parameters.associations.plan`
+:   A JSON structure to describe the interaction with price plans.
 
-        ```javascript
-        "type": "text",
-        "associations": {
-          "plan": {
-            "showFor": ["apsMyserviceParametersDemo-entry","apsMyserviceParametersDemo-enterprise"]
-          }
-        }
-        ```
+`parameters.associations.plan.showFor`
+:   An array of price plan IDs. If specified, the parameter is shown in the UI when the corresponding price plan is selected.
 
-        `parameters.associations.plan`
-        :   A JSON structure to describe the interaction with price plans.
+`parameters.associations.plan.optionsRefresh`
+:   When specified, the `optionsUrl` is called when the associated price plan is selected.
 
-            `parameters.associations.plan.showFor`
-            :   An array of price plan IDs. If specified, the parameter is shown in the UI when the corresponding price plan is selected.
+`parameters.associations.parameters`
+:   An array of JSON describing the interaction with other custom parameters.
 
-            `parameters.associations.plan.optionsRefresh`
-            :   When specified, the `optionsUrl` is called when the associated price plan is selected.
+`parameters.associations.parameters.name`
+:   The name of the other custom parameter that you want to interact with.
 
-        `parameters.associations.parameters`
-        :   An array of JSON describing the interaction with other custom parameters.
+Required when `parameters.associations.parameters` is in use.
+{: note}
 
-            `parameters.associations.parameters.name`
-            :   The name of the other custom parameter that you want to interact with.
+`parameters.associations.parameters.showFor`
+:   An array of selected values that are associated with the custom parameter that you want to interact with. This parameter shows in the UI when one of those values is selected.
 
-                Required when `parameters.associations.parameters` is in use.
-                {: note}
+`parameters.associations.parameters.optionsRefresh`
+:   When this parameter is set to true, the `optionsUrl` is called when the associated parameter value is changed and this parameter is visible in the UI.
 
-            `parameters.associations.parameters.showFor`
-            :   An array of selected values that are associated with the custom parameter that you want to interact with. This parameter shows in the UI when one of those values is selected.
+`parameters.optionsUrl`
+:   The API that is called by the console to get a list of options for dropdown, check box, or radio input type. The response is a JSON structure that contains two fields:
 
-            `parameters.associations.parameters.optionsRefresh`
-            :   When this parameter is set to true, the `optionsUrl` is called when the associated parameter value is changed and this parameter is visible in the UI.
+`options`
+:   An array of JSON that will return `parameters.options`; for more details see the entry for `parameters.options`.
 
-    `parameters.optionsUrl`
-    :   The API that is called by the console to get a list of options for dropdown, check box, or radio input type. The response is a JSON structure that contains two fields:
+`value`
+:   The new default value of the parameter. For more details, see the entry for `parameters.value`.
 
-        `options`
-        :   An array of JSON that will return `parameters.options`; for more details see the entry for `parameters.options`.
+The console passes the `ace_config` query parameter, which contains the current org GUID, space GUID, the current value of all custom parameters, and the current price plan ID. The bearer token is propagated in the header.
 
-        `value`
-        :   The new default value of the parameter. For more details, see the entry for `parameters.value`.
+`parameters.invalidmessage`
+:   The message that appears when the content of the text box is invalid.
 
-        The console passes the `ace_config` query parameter, which contains the current org GUID, space GUID, the current value of all custom parameters, and the current price plan ID. The bearer token is propagated in the header.
+`parameters.description`
+:   The description of the parameter that is displayed to help users with the value of the parameter.
 
-    `parameters.invalidmessage`
-    :   The message that appears when the content of the text box is invalid.
+`parameters.required`
+:   A Boolean value that indicates whether the parameter must be entered in the {{site.data.keyword.Bluemix_notm}} user interface.
 
-    `parameters.description`
-    :   The description of the parameter that is displayed to help users with the value of the parameter.
+`parameters.pattern`
+:   A regular expression that the value is checked against.
 
-    `parameters.required`
-    :   A Boolean value that indicates whether the parameter must be entered in the {{site.data.keyword.Bluemix_notm}} user interface.
+`parameters.placeholder`
+:   A short hint that describes the expected value.
 
-    `parameters.pattern`
-    :   A regular expression that the value is checked against.
+`parameters.readonly`
+:   A Boolean value that indicates whether the value of the parameter is displayed only and cannot be changed by users. The default value is false.
 
-    `parameters.placeholder`
-    :   A short hint that describes the expected value.
-
-    `parameters.readonly`
-    :   A Boolean value that indicates whether the value of the parameter is displayed only and cannot be changed by users. The default value is false.
-
-    `parameters.hidden`
-    :   A Boolean value that indicates whether the key-value pair is hidden from users. The default value is false.
+`parameters.hidden`
+:   A Boolean value that indicates whether the key-value pair is hidden from users. The default value is false.
