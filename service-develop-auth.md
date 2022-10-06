@@ -4,7 +4,7 @@ copyright:
 
   years: 2022
 
-lastupdated: "2022-06-02"
+lastupdated: "2022-10-06"
 
 keywords: client ID, authentication flow, OAuth, authentication
 
@@ -113,19 +113,19 @@ To obtain an identity token, you must include the following headers and paramete
 #### Headers:
 {: #header}
 
-- Authorization: Basic *[client id]:[client secret]*
-- Content-Type: application/x-www-form-urlencoded
-- Accept: application/json
+- `Authorization: Basic [client id]:[client secret]`
+- `Content-Type: application/x-www-form-urlencoded`
+- `Accept: application/json`
 
 #### Parameters:
 {: #parameters}
 
-- client_id=*[client ID]*
-- client_secret=*[client secret]*
-- grant_type=authorization_code
-- response_type=cloud_iam
-- redirect_uri=*[this parameter refers to the same URL from Step 1]*
-- code=*[code from callback]*
+- `client_id=[client ID]`
+- `client_secret=[client secret]`
+- `grant_type=authorization_code`
+- `response_type=cloud_iam`
+- `redirect_uri=[this parameter refers to the same URL from Step 1]`
+- `code=[code from callback]`
 
 See the required headers and parameters included in the following POST request example:
 
