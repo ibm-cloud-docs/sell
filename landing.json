@@ -27,8 +27,8 @@
     "section_videos": [
       {
         "title": "Selling on IBM Cloud",
-        "href": "/docs/sell?topic=sell-sw-getting-started", 
-        "thumbnail": "/images/onboarding.svg" 
+        "href": "/docs/sell?topic=sell-sw-getting-started",
+        "thumbnail": "/images/onboarding.svg"
       }
     ],
     "section_learn": {
@@ -38,6 +38,11 @@
     "section_updates": {
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
+        {
+          "date": "04 October 2022",
+          "title": "Catalog integration with Virtual Private Cloud custom images",
+          "description": "ISV Partners and IBM Cloud customers can now import custom VPC images directly to their account or enterprise, or sell on the IBM Cloud catalog without depending on Terraform."
+        },
         {
           "date": "08 July 2022",
           "title": "Streamlined process for updating support information in Partner Center",
