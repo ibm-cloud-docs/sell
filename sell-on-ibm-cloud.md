@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-09-09"
+lastupdated: "2022-10-12"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -18,6 +18,54 @@ subcollection: sell
 
 Are you looking to sell your software or services on {{site.data.keyword.cloud}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service creation, metering, and billing.
 {: shortdesc}
+
+## Before you begin
+{: #selling-product-requirements}
+
+If you plan to offer products on the {{site.data.keyword.cloud_notm}} platform, you must complete the following requirements:
+
+* Verify that you're using a Pay-As-You-Go or Subscription account. To check your account type, go to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console.
+
+   It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
+   {: tip}
+
+* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+
+* To sell services, verify that your company is an approved {{site.data.keyword.cloud_notm}} build partner with a [Direct Embedded Solutions Agreement](https://www-2000.ibm.com/partnerworld/pdfs/IBM_ESA_Technology_Partner_Direct_Application_Guide.pdf){: external}. For more information about being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Build Partner](https://www.ibm.com/partnerworld/public/build){: external} page.
+
+* Verify that your product is ready to be publicly listed and sold through the {{site.data.keyword.cloud_notm}} catalog.
+
+* Verify that your product does not include Consulting and Professional Services.
+
+* Be prepared to create and maintain the products that you list in the {{site.data.keyword.cloud_notm}} catalog, which includes being responsive to addressing updates and providing timely support to your customers.
+
+### Requirements for offering services
+{: #service-requirements}
+
+Verify that you're hosting your service primarily on {{site.data.keyword.cloud_notm}} or following one of the use cases:
+
+* You must use {{site.data.keyword.IBM_notm}} software, {{site.data.keyword.cloud_notm}} services wherever applicable and host all applications and databases components (for example storage, backup, replication or data recovery, monitoring, logging, vulnerability management, and patching tools) on {{site.data.keyword.cloud_notm}}.
+
+* You must host all of your product's application and database components on {{site.data.keyword.cloud_notm}}, including supporting components like backup, replication, or data recovery. Other services like monitoring, logging, vulnerability management and patching tools can run on-premises or on another cloud, but must send data to the {{site.data.keyword.cloud_notm}} environment for storage and further analysis.
+
+* The migration tooling of your product has {{site.data.keyword.cloud_notm}} as its only destination for migration, but can run on-premises or on another cloud as a migration source.
+
+### Requirements for offering software
+{: #software-requirements}
+
+Verify that the following software deployment scripts and package dependencies apply to your product:
+
+* Custom QCOW2 or VHD images with Terraform deployed on VPC infrastructure
+
+* OVA images deployed on VMware Solutions Dedicated - vCenter Server
+
+* OVA images (consisting of OVF and disk image) for {{site.data.keyword.powerSys_notm}}
+
+* Helm charts on Kubernetes and {{site.data.keyword.openshiftshort}} clusters
+
+* Operators with a CSV file or Operator bundles with a TGZ file from GitHub repositories deployed on {{site.data.keyword.redhat_openshift_notm}}
+
+* Operator bundles from {{site.data.keyword.redhat_openshift_notm}} registries
 
 ## Software or services?
 {: #software-or-services}
