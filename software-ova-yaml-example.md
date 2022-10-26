@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020, 2021
+  years: 2020, 2022
 
-lastupdated: "2021-12-02"
+lastupdated: "2022-10-26"
 
 keywords: OVA images, metadata, YAML, onboard, GitHub, publish
 
@@ -69,7 +69,7 @@ categories:
 - network
 logo: https://productIcon.net/images.png
 description: "Description for OVA image offering."
-readme: The full text for the required readme about the ova image.
+readme: The full text for the required readme file about the ova image.
 links:
 - id: docs_index
     title: Getting started
