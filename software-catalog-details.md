@@ -16,7 +16,7 @@ subcollection: sell
 # Defining your catalog entry and product page
 {: #sw-catalog-details}
 
-During the onboarding process, you provide certain details about your product that are displayed in the {{site.data.keyword.cloud}} catalog. The details include your product logo and description, a list of product features, supporting media, and a link to your warranted product documentation. 
+During the onboarding process, you provide certain details about your product that are displayed in the {{site.data.keyword.cloud}} catalog. The details include your product logo and description, a list of product features, supporting media, and a link to your warranted product documentation.
 {: shortdesc}
 
 ## Defining your catalog entry by using the console
@@ -29,9 +29,9 @@ The contents of a catalog entry include the company or product logo, a short des
 {: #catalog-logo}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select the product that you're onboarding, and click **Product details**.
-1. Click **Add logo**. 
+1. Click **Add logo**.
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`, and **Save**.
 
    Make sure that your logo image is an SVG or PNG file that's a square image roughly sized at 32 x 32 pixels and doesn't appear blurry or pixelated.
@@ -41,17 +41,17 @@ The contents of a catalog entry include the company or product logo, a short des
 {: #catalog-short-desc}
 {: ui}
 
-1. Click **Enter description**. 
-1. Enter a short description of what your product is, its value, and any other details that you want to be displayed in your catalog entry. 
-1. Click **Save**. 
+1. Click **Enter description**.
+1. Enter a short description of what your product is, its value, and any other details that you want to be displayed in your catalog entry.
+1. Click **Save**.
 
 ### Selecting your catalog category
 {: #catalog-category}
 {: ui}
 
-Users can filter the catalog to display similar products based on common solutions, function, or use.  
+Users can filter the catalog to display similar products based on common solutions, function, or use.
 
-1. Click **Select category**. 
+1. Click **Select category**.
 1. From the list, select the category that best describes your product. For a description of each category, see the following table.
 
 #### Category types
@@ -76,15 +76,15 @@ The following table describes each type of category that you can select.
 | Networking | Products that support or augment the linking of computers so they can operate interactively. |
 | Security | Products that provide the protection of stored data from theft, leakage, and deletion. |
 | Storage | Products that support data to be created, read, updated, and deleted.|
-{: caption="Table 1. Category descriptions" caption-side="top"} 
+{: caption="Table 1. Category descriptions" caption-side="top"}
 
 ### Adding search keywords
 {: #catalog-keywords}
 {: ui}
 
-Add relevant keywords that enable your product to appear in search results when users search the catalog. 
+Add relevant keywords that enable your product to appear in search results when users search the catalog.
 
-1. Click **Enter words, phrases, and other key search terms associated with the product**. 
+1. Click **Enter words, phrases, and other key search terms associated with the product**.
 1. Enter one or more keywords for your product, and click **Save**.
 
 ## Defining your product page by using the console
@@ -121,7 +121,7 @@ Some examples of effective media include an introductory walkthrough of your pro
 {: #catalog-docs}
 {: ui}
 
-Your documentation link is used to direct users to your product's warranted documentation. 
+Your documentation link is used to direct users to your product's warranted documentation.
 
 ## Defining your catalog entry by using the API
 {: #catalog-entry-api}
@@ -140,8 +140,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "iconUrl": "https://www.ibm.com/contact/us/en/images/bee.svg"
 }'
@@ -163,8 +163,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "description": "Create and deploy a virtual server with ease by using a custom image."
 }'
@@ -183,8 +183,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "category": "virtual machine"
 }'
@@ -203,8 +203,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "keywords": "["vm","vsi","virtual machine"]"
 }'
@@ -216,7 +216,7 @@ a7ba-b6f0435c9673/catalog \
 {: #catalog-about-api}
 {: api}
 
-You can programmatically define your product page by calling the Partner Center Sell API. When users select your product from the catalog, they are directed to additional details, including a list of features and supporting media. These details are displayed on the About tab within your product page. 
+You can programmatically define your product page by calling the Partner Center Sell API. When users select your product from the catalog, they are directed to additional details, including a list of features and supporting media. These details are displayed on the About tab within your product page.
 
 ### Providing a list of product features
 {: #catalog-features-api}
@@ -229,8 +229,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "highlights": [{
   "description": "This is the main feature of my product.",
@@ -252,8 +252,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "longDescription": "Simplify cloud resource deployment with automation that scales so you can focus on the business and not the process."
 }'
@@ -275,8 +275,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "media": [{
   "caption": "This caption indicates what the media illustrates",
@@ -299,12 +299,11 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \ 
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "documentationUrl": "https://myproduct.com/docs/documentation-of-my-product"
 }'
 ```
 {: pre}
 {: curl}
-

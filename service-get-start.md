@@ -20,8 +20,8 @@ completion-time: 60m
 
 # Getting set up to sell services
 {: #get-started}
-{: toc-content-type="tutorial"} 
-{: toc-completion-time="60m"} 
+{: toc-content-type="tutorial"}
+{: toc-completion-time="60m"}
 
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
@@ -43,8 +43,8 @@ Besides being an {{site.data.keyword.Bluemix_notm}} build partner, service onboa
 {: #step1-register}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
-2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.  
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
+2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
     The company name doesn't need to be finalized. You can update it later from the My company page in Partner Center if necessary.
     {: tip}
@@ -62,7 +62,7 @@ A test environment is not needed for onboarding services but is needed for any s
 {: #step3-team-access}
 {: step}
 
-If you want to enlist team members to help with the onboarding process, you need to assign them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process, you can organize your team members into a single entity by adding them to an access group. 
+If you want to enlist team members to help with the onboarding process, you need to assign them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process, you can organize your team members into a single entity by adding them to an access group.
 
 1. Click **Assign** in the "Assign access" section on the Get started page.
 2. Enter the name of the access group, and click **Assign**. Members of this group are assigned the following roles by default:
@@ -72,20 +72,15 @@ If you want to enlist team members to help with the onboarding process, you need
     * Editor on the user management service
     * Editor on the IAM access groups service
     * Viewer on all account management services
-  
+
     For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
 
-3. Click **Let's go**. 
+3. Click **Let's go**.
 
 ## Next steps
 {: #gs-next-steps}
 
-Now that you completed the getting started tasks, you're ready to [define the product details of your service](/docs/sell?topic=sell-svc-define). 
+Now that you completed the getting started tasks, you're ready to [define the product details of your service](/docs/sell?topic=sell-svc-define).
 
-To get an overview of all the tasks involved in the process, see [Checklist for selling service on {{site.data.keyword.cloud_notm}}](/docs/sell?topic=sell-checklist). 
+To get an overview of all the tasks involved in the process, see [Checklist for selling service on {{site.data.keyword.cloud_notm}}](/docs/sell?topic=sell-checklist).
 {: tip}
-
-
-
-
-
