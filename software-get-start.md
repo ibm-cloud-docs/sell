@@ -106,7 +106,7 @@ After your product is approved, you're ready to return to Partner Center and pub
 {: #sw-company-product}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
 2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
     The company name doesn't need to be finalized. You can update it later from the My company page in Partner Center if necessary.

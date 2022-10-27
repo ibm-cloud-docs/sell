@@ -16,7 +16,7 @@ subcollection: sell
 
 # Adding metrics to your service
 {: #service-add-metrics}
- 
+
 With {{site.data.keyword.cloud}} Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan. For more information, see [Metering integration](/docs/sell?topic=sell-service-metering-integration).
 
 To onboard your service to {{site.data.keyword.cloud_notm}}, you are required to add metrics to your usage-based pricing plan to determine how customers are charged. When you add metrics to your pricing plan in Partner Center, you must request an initial approval. After your metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
@@ -36,11 +36,11 @@ Before you can add metrics to your pricing plan, you must complete the following
 ## Adding metrics to your pricing plan
 {: #add-metrics-plan}
 
-If you offer a paid integrated product and add a paid pricing plan that requires customers to pay for their usage, you must add metrics to your pricing plan to aggregate your product's usage. After you add metrics to your plan, you must request an initial metering approval, so you can submit your resource usage and start reviewing your metrics. 
+If you offer a paid integrated product and add a paid pricing plan that requires customers to pay for their usage, you must add metrics to your pricing plan to aggregate your product's usage. After you add metrics to your plan, you must request an initial metering approval, so you can submit your resource usage and start reviewing your metrics.
 
 To add metrics to your pricing plan, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Select a usage-based plan from the table and click **Add metrics**.
 1. In the Usage metrics section, click **Add metrics**.
@@ -51,7 +51,7 @@ To add metrics to your pricing plan, complete the following steps:
 ## Submitting resource usage to the {{site.data.keyword.cloud_notm}} Usage Metering API
 {: #submit-usage}
 
-To review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured, you must submit your resource usage. Submitting your resource usage includes creating your metering JSON, calling the Usage Metering API, and providing the evidence of your testing. 
+To review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured, you must submit your resource usage. Submitting your resource usage includes creating your metering JSON, calling the Usage Metering API, and providing the evidence of your testing.
 
 ### Creating your metering JSON
 {: #create-metering-json}
@@ -109,7 +109,7 @@ See the following JSON example that includes the required fields:
 ```
 {: codeblock}
 
-To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your metering approval request must be approved by {{site.data.keyword.cloud_notm}}. 
+To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your metering approval request must be approved by {{site.data.keyword.cloud_notm}}.
 
 ```bash
 curl -X POST -H "Authorization: {iam_token}"   -H "Accept: application/json"   -H "Content-Type: application/json"   -d "{REQUEST_BODY}"   "{base_url}/v4/metering/resources/{resource_id}/usage"
@@ -296,7 +296,7 @@ fmt.Println(string(b))
 {: codeblock}
 {: go}
 
-### Response 
+### Response
 {: #metering-api-response}
 
 The response body includes the acceptance status of every usage record. A successful submission returns a response code of `201`. If any other response code is returned, update and resend the data until you receive the `201` code. See the following example of a successful response:
@@ -335,12 +335,12 @@ The response body includes the acceptance status of every usage record. A succes
    ```
 {: codeblock}
 
-For more information on status codes, see [Response status codes](/apidocs/usage-metering#report-resource-usage-response). 
+For more information on status codes, see [Response status codes](/apidocs/usage-metering#report-resource-usage-response).
 
 ## Review your metrics and provide evidence of your testing
 {: #submit-evidence}
 
-After you create the metering JSON, submit the usage records by calling the Usage Metering API, and receive approval from {{site.data.keyword.IBM_notm}}, you can start reviewing and testing how customers understand and experience your pricing plan. 
+After you create the metering JSON, submit the usage records by calling the Usage Metering API, and receive approval from {{site.data.keyword.IBM_notm}}, you can start reviewing and testing how customers understand and experience your pricing plan.
 
 To test and submit evidence for your pricing plan, complete the following steps:
 
@@ -348,9 +348,9 @@ To test and submit evidence for your pricing plan, complete the following steps:
 1. Preview your product in the catalog and generate an estimate by clicking **Add to estimate**.
 1. Enter your expected usage, then click **Calculate cost**.
 1. Upload evidence of your usage.
-     1. Upload a screen capture of the usage data that's generated by the estimator by clicking **Add file**. 
+     1. Upload a screen capture of the usage data that's generated by the estimator by clicking **Add file**.
      1. Upload a screen capture of your rated usage by clicking **Add file**. To find your rated usage, in the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**  > **Usage**.
-     1. Upload a screen capture of the resource usage data JSON that you previously submitted to the {{site.data.keyword.cloud_notm}} Usage Metering API by clicking **Add file**. 
+     1. Upload a screen capture of the resource usage data JSON that you previously submitted to the {{site.data.keyword.cloud_notm}} Usage Metering API by clicking **Add file**.
 
     You can upload files in `.jpeg`, `.pdf`, or `.png` file format only.
    {: note}

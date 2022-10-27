@@ -17,13 +17,13 @@ subcollection: sell
 # Onboarding software to your private catalog
 {: #sw-validate}
 
-Onboarding your software includes importing a version to your private catalog, configuring the deployment details, setting any license requirements, and validating that the version can be successfully installed on the target infrastructure that you require. 
+Onboarding your software includes importing a version to your private catalog, configuring the deployment details, setting any license requirements, and validating that the version can be successfully installed on the target infrastructure that you require.
 {: shortdesc}
 
 ## Before you begin
 {: #sw-validate-prereqs}
 
-1. Upload your source code to a release in your GitHub repository. See [Setting up your source code repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository). 
+1. Upload your source code to a release in your GitHub repository. See [Setting up your source code repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository).
 2. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
 3. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
 4. Set up the test environment that was previously created for you:
@@ -43,14 +43,14 @@ Onboarding your software includes importing a version to your private catalog, c
 ## Importing a version to your private catalog
 {: #sw-validate-add}
 
-Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started). 
+Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started).
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
-1. Select your deployment method. 
-1. Select whether you are adding your product from a private or public repository. For Operators, select your source repository and then choose private or public repository. 
-1. Enter your source URL. 
+1. Select your deployment method.
+1. Select whether you are adding your product from a private or public repository. For Operators, select your source repository and then choose private or public repository.
+1. Enter your source URL.
 
     If you're importing a version from a public repository, you can review the following list of supported formats per software type:
 
@@ -62,37 +62,37 @@ Complete the following steps to import a version of your software to your privat
     * Virtual server image with Terraform: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`
     * Virtual server image for VPC: Select an image from the list of available images that were imported into your VPC, or import a new image to your account.
 
-    A virtual server image for VPC can only be added to one product within one private catalog at a time. If the virtual server image you want to import is already imported into another product, you must remove the image from that product or delete the product before you add the virtual server image to a new product. 
+    A virtual server image for VPC can only be added to one product within one private catalog at a time. If the virtual server image you want to import is already imported into another product, you must remove the image from that product or delete the product before you add the virtual server image to a new product.
     {: note}
-  
+
     If you're adding your product from a private repository, you can choose to provide a personal access token or you can use a secret. Instead of giving users a personal access token, you can give them access to a secret, add the token to a secret, and centrally manage all tokens and access the secret allows.
 
     * If you're using a personal access token, select **No** to indicate that you aren't using a secret and provide your personal access token.
     * If you're using a secret, select **Yes** and click **Select from Secrets Manager**. Select your service instance, secret group, and secret. If you don't see your secret, make sure you're using the correct secret group and service instance.
-    
-    The message `No service instance available` might be displayed if you haven't created a secret or if you don't have the correct access to use secrets, even if you have service instances that are created. 
+
+    The message `No service instance available` might be displayed if you haven't created a secret or if you don't have the correct access to use secrets, even if you have service instances that are created.
     {: note}
 
-1. If applicable, set your deployment target and add your software version. 
-1. Click **Add version**. 
+1. If applicable, set your deployment target and add your software version.
+1. Click **Add version**.
 
 ## Configuring the version details
 {: #sw-validate-cfg-deploy}
 
-1. From the version list, click the row that contains your software. 
+1. From the version list, click the row that contains your software.
 1. Review the version details, and click **Next**.
-1. Depending on your software type, there might be additional steps, including setting deployment values. 
-1. Click **Next**. 
+1. Depending on your software type, there might be additional steps, including setting deployment values.
+1. Click **Next**.
 
 ### Setting deployment values
 {: #sw-set-values}
 
-If applicable to your software type, you can set deployment values that users are required to specify when they install the software. You can add new deployment values or import deployment values from an existing version. 
+If applicable to your software type, you can set deployment values that users are required to specify when they install the software. You can add new deployment values or import deployment values from an existing version.
 
 #### Adding new deployment values
 {: #sw-add-values}
 
-1. Click **Configure version** > **Next**. 
+1. Click **Configure version** > **Next**.
 1. Click **Add deployment values**.
 1. In the table, select **Parameter** > **Add**.
 1. To customize parameters, select a parameter and click **Edit**.
@@ -100,12 +100,12 @@ If applicable to your software type, you can set deployment values that users ar
 #### Importing existing values
 {: #sw-import-values}
 
-Complete these steps if you previously set deployment values for an existing version and want to import the values to your current version. 
+Complete these steps if you previously set deployment values for an existing version and want to import the values to your current version.
 
-Imported values don't replace any deployment values that you already added to your current version. 
+Imported values don't replace any deployment values that you already added to your current version.
 {: important}
 
-1. Click **Configure version** > **Next**. 
+1. Click **Configure version** > **Next**.
 1. Click **Add deployment values**.
 1. Click **Import values from a previous version**.
 1. Select the version that contains the values that you want to import.
@@ -140,36 +140,36 @@ If applicable to your software type, you can add the service access and platform
 
 Complete the following steps if you previously defined IAM access for an existing version and want to import the values to your current version.
 
-Imported IAM access doesn't replace any IAM access that you already added to your current version. 
+Imported IAM access doesn't replace any IAM access that you already added to your current version.
 {: note}
 
-1. Click **Configure version** > **Next** > **Next**. 
+1. Click **Configure version** > **Next** > **Next**.
 2. Click **Add**.
-3. Click **Import IAM access from a previous version**. 
+3. Click **Import IAM access from a previous version**.
 4. Select the version that contains the IAM access that you want to import.
 5. Click **Add**.
 
 ## Adding license agreements
 {: #sw-validate-add-license}
 
-If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement when they install the software, provide the URL to each agreement or import licenses from an existing version. 
+If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement when they install the software, provide the URL to each agreement or import licenses from an existing version.
 
 ### Adding new license agreements
 {: #sw-add-new-license}
 
-1. Click **Add license agreements** > **Add license**. 
+1. Click **Add license agreements** > **Add license**.
 2. Enter the name and URL, and click **Add license**.
 3. After entering all additional license agreements, click **Next**.
 
-### Importing license agreements 
+### Importing license agreements
 {: #sw-import-license}
 
-Complete these steps if you previously added license agreements for an existing version and want to import the licenses to your current version. 
+Complete these steps if you previously added license agreements for an existing version and want to import the licenses to your current version.
 
-Imported licenses don't replace any license agreements that you already added to your current version. 
+Imported licenses don't replace any license agreements that you already added to your current version.
 {: important}
 
-1. Click **Add license agreements** > **Add license**. 
+1. Click **Add license agreements** > **Add license**.
 1. Click **Import licenses from a previous version**.
 1. Select the version that contains the licenses that you want to import.
 1. Click **Import**.
@@ -185,18 +185,18 @@ When users install the software, they can view product information by clicking t
 4. Click **Save**.
 5. Click **Next**.
 
-If you are importing a virtual server image for VPC, the readme file is not automatically generated. Copy and paste the contents of the [readme file template](/media/docs/downloads/software/sw-readme-tab-template.md){: external} and make updates as needed. 
+If you are importing a virtual server image for VPC, the readme file is not automatically generated. Copy and paste the contents of the [readme file template](/media/docs/downloads/software/sw-readme-tab-template.md){: external} and make updates as needed.
 {: note}
 
 
 ## Validating the product
 {: #sw-validate-validate-product}
 
-The steps to validate your product can vary based on the type of software that you're onboarding. 
+The steps to validate your product can vary based on the type of software that you're onboarding.
 
-1. From the Validate product tab, configure your validation target, and click **Next**. This step applies only to Helm charts and Operators. 
-1. Configure your workspace, and click **Next**. This step applies only to Helm charts, Operators, Terraform templates, and virtual server images with Terraform. 
-1. Click **Validate**.  
+1. From the Validate product tab, configure your validation target, and click **Next**. This step applies only to Helm charts and Operators.
+1. Configure your workspace, and click **Next**. This step applies only to Helm charts, Operators, Terraform templates, and virtual server images with Terraform.
+1. Click **Validate**.
 
 To monitor the progress of the validation process, click **View logs**.
 {: tip}
@@ -206,18 +206,18 @@ To monitor the progress of the validation process, click **View logs**.
 
 Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
 
-1. Click **Add controls**. 
-1. Choose a profile. 
-1. Select the controls that you want to add to your version. 
+1. Click **Add controls**.
+1. Choose a profile.
+1. Select the controls that you want to add to your version.
 1. Click **Add**.
-1. In the Code Risk Analyzer scan section, click **Run scan**. 
-1. Wait for the scan to finish. 
-1. In the Security and Compliance Center scan section, select the profile that you scanned. 
-1. Select the Security and Compliance Center scan. 
+1. In the Code Risk Analyzer scan section, click **Run scan**.
+1. Wait for the scan to finish.
+1. In the Security and Compliance Center scan section, select the profile that you scanned.
+1. Select the Security and Compliance Center scan.
 1. Click **Add scan**.
 1. Click **Next**.
 
 ## Review requirements
 {: #sell-review-reqs}
 
-You must complete validation and any other requirements to publish your product. 
+You must complete validation and any other requirements to publish your product.

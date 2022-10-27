@@ -23,7 +23,7 @@ As an account administrator, you can update your company and product details in 
 {: #sw-details-company}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select your product.
 1. Click **Dashboard**.
 1. To update the company name or primary contact, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to each field.
@@ -35,13 +35,13 @@ As an account administrator, you can update your company and product details in 
 {: #sw-details-company-api}
 {: api}
 
-You can update your partner information only through the UI. To view the steps, go to updating your partner information by using the console. 
+You can update your partner information only through the UI. To view the steps, go to updating your partner information by using the console.
 
 ## Updating your company information by using the console
 {: #sw-details-company-name-dpa}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product.
 1. Click **Edit company** in the **Company** section.
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
@@ -58,8 +58,8 @@ curl --request PATCH \
   --url  https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \  
-  --header 'Content-Type: application/json' \  
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "provider": "My updated company"
 }'
@@ -71,11 +71,11 @@ a7ba-b6f0435c9673/catalog \
 {: #sw-details-product}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product.
 1. Click **Dashboard**.
 1. To update the name of the product, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). Make sure that your product name meets the following requirements:
-  
+
    * Use 60 characters or less.
    * Do not include the name of the company, any former product names, or details such as deployment target, method, or pricing. You can include this information in your readme file.
    * Do not include "{{site.data.keyword.cloud_notm}}".
@@ -91,8 +91,8 @@ curl --request PATCH \
   --url https://product-
 lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
 a7ba-b6f0435c9673 \
-  --header 'Authorization: Bearer TOKEN' \  
-  --header 'Content-Type: application/json' \ 
+  --header 'Authorization: Bearer TOKEN' \
+  --header 'Content-Type: application/json' \
   --data '{
   "productName": "My updated product",
   "materialAgreement": true,
@@ -104,10 +104,3 @@ a7ba-b6f0435c9673 \
 
 The name of the product (`productName`) is displayed to users when you publish your product in the catalog.
 {: note}
-
-
-
-
-
-
-
