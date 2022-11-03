@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2022
 
-lastupdated: "2022-01-31"
+lastupdated: "2022-11-03"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -31,7 +31,7 @@ The following tasks are typically completed by a team member who is familiar wit
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create a test environment | The test environment is used to onboard your software and validate it's ready for use. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Assign team access | With the correct {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access, members of your team can help onboard your software. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Invite team members to your account | Members of your account are assigned the IAM access that you set up in the previous task.  | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM}} | Review and accept the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM}}. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM_notm}} | Review and accept the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 1. Getting started tasks for selling software" caption-side="top"} 
 
 For more information, see [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started). 
@@ -43,10 +43,12 @@ The following tasks are typically completed by a team member familiar with the b
 
 | Task | Description | Environment |
 |------|-------------|-------------|
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify your partner details | Review the product name that you provided as part of the getting started tasks to make sure that everything is correct. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your product details | Add details, such as your product logo, keywords, description, features, and documentation URL, for your product's entry and details page in the {{site.data.keyword.cloud}} catalog. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your customer support experience | Provide details about how users can get help with using your software.  | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your pricing information | Choose your pricing plan: free or BYOL. If BYOL, provide details about your license.  | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Review display name | Review the display name of the product that was generated for you and make any updates to it if needed. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create and submit programmatic name | Create a programmatic name for your product and submit it for review. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify your partner details | Review the Company and Team information and make sure that everything is correct.	| {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your product details | Add details, such as your product logo, keywords, description, features, and documentation URL, for your product's entry and details page in the {{site.data.keyword.cloud_notm}} catalog. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your support details | Provide your support site URL, contacts, escalation process, and the locations where your support teams are based. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your pricing information | Choose your pricing plan: free or BYOL. If you choose BYOL, provide details about your license.  | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 2. Tasks for defining software details" caption-side="top"} 
 
 For more information, see the following links:
@@ -86,5 +88,5 @@ The following tasks are completed by any member of your team.
 
 For more information, see [Publishing your software to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-sw-publish).
 
-As a third-party provider, you're responsible for maintaining all assets of published software in the {{site.data.keyword.cloud}} catalog and deprecating outdated versions.  
+As a third-party provider, you're responsible for maintaining all assets of published software in the {{site.data.keyword.cloud_notm}} catalog and deprecating outdated versions.  
 {: note}
