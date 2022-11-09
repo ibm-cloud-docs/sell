@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2022
 
-lastupdated: "2022-08-25"
+lastupdated: "2022-11-09"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -54,7 +54,7 @@ Complete the following steps to import a version of your software to your privat
 
     If you're importing a version from a public repository, you can review the following list of supported formats per software type:
 
-    * Helm chart: `https://charts.bitnami.com/ibm/apache-8.3.2.tgz`
+    * Helm chart: `https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm`
     * Node-RED Operator: `https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz`
     * Operator bundle from a {{site.data.keyword.openshiftshort}} registry: For an example, select the `Akka Cluster Operator` from the list of available Operators in the Certified repository.
     * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
