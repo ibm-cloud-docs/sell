@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2022
 
-lastupdated: "2022-05-19"
+lastupdated: "2022-11-17"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -134,3 +134,11 @@ You can expect your product to be reviewed and approved for publishing in 1 to 2
 {: faq}
 
 Yes, you can share your virtual server image with other users. To share with users in your personal or enterprise account, see [Onboarding software to your account](/docs/account?topic=account-create-private-catalog&interface=ui). To share with {{site.data.keyword.cloud_notm}} catalog users, see [Registering a virtual server image in IBM Cloud Partner Center](/docs/sell?topic=sell-vsimage-register).
+
+## How do I claim a certification or designation for my product?
+{: #claim-certs-how}
+{: faq}
+
+If you are a third-party provider, you can learn about certifications and designations in Partner Center. Go to [Partner Center](https://cloud.ibm.com/partner-center/sell){: external}, open your product, and click **Certifications**. Currently, SAP certification and financial services validated are represented in Partner Center.
+
+Third-party products that complete SAP certification are added to [SAP's directory of certified and supported SAP HANA Hardware](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=v:deCertified;iaas;ve:28). Third-party products that are financial services validated are added to the [IBM Cloud for Financial Services Partner Showcase](https://www.ibm.com/partners/showcase/financial-services).
