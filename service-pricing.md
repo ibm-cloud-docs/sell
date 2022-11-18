@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-11-16"
+lastupdated: "2022-11-18"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 

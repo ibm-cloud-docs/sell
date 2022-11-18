@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2022
 
-lastupdated: "2022-11-16"
+lastupdated: "2022-11-18"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
