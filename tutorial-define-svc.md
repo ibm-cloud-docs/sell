@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-05-04"
+lastupdated: "2022-11-18"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -33,16 +33,16 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 [Register your service](/docs/sell?topic=sell-svc-register).
 
-## Confirm the digital provider agreement
+## Review and submit the digital provider agreement
 {: #svc-dpa}
 {: step}
 
-As a third-party provider who offers a free plan, you're required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which you can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
+As a third-party provider who offers a free plan, you're required to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which you can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
-Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
+Digital provider agreements and custom agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. If you upload a custom digital provider agreement, the uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
-For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
+For the purposes of this tutorial, complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
 
 1. From the My products page in {{site.data.keyword.cloud_notm}} Partner Center, click **Provide details** in the notification that prompts you to complete the Digital Provider Agreement requirement.
 1. Click **Edit**. 

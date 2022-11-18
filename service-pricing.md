@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2022
 
-lastupdated: "2022-05-20"
+lastupdated: "2022-11-18"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -96,9 +96,9 @@ Custom digital provider agreements must be reviewed and approved by {{site.data.
 #### Digital provider agreement
 {: #dpa}
 
-If you plan to offer free plans, it is required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. This legal agreement sets the terms and conditions under which providers can onboard and provide free products in {{site.data.keyword.cloud_notm}}.
+If you plan to offer free plans, it is required to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. This legal agreement sets the terms and conditions under which providers can onboard and provide free products in {{site.data.keyword.cloud_notm}}.
 
-Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement:
+Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement:
 
 1. Go to **Partner Center** > **Sell** > **My company**.
 1. Click **Edit**.
@@ -110,9 +110,9 @@ Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital 
 #### Digital platform reseller agreement
 {: #dra}
 
-If you plan to offer paid, usage-based pricing plans, it is required to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}.
+If you plan to offer paid, usage-based pricing plans, it is required to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}.
 
-Complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
+Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
 1. Go to **Partner Center** > **Sell** > **My company**.
 1. Click **Edit**.
