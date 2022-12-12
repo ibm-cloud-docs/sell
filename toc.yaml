@@ -60,7 +60,7 @@ toc:
           - tutorial-define-vsipower.md
           - tutorial-onboard-vsipower.md
           - tutorial-publish-vsipower.md
-      - topicgroup:  
+      - topicgroup:
           label: Onboarding a Terraform template
           topics:
           - tutorial-register-terraform.md
@@ -83,7 +83,7 @@ toc:
           label: Selling software
           topics:
           - topicgroup:
-              label: Building your software 
+              label: Building your software
               topics:
               - build-usage-offers.md
               - build-fast-track.md
@@ -102,7 +102,7 @@ toc:
               - software-helm-target.md
               - software-publish.md
               - software-partner-details.md
-              - /account/account-translate-product-details
+              - include:../account/catalog-translate-details.md
           - topicgroup:
               label: Updating your software
               topics:
@@ -117,7 +117,7 @@ toc:
           - topicgroup:
               label: Assigning account members access to Partner Center
               topics:
-              - /account/account-account-services
+              - include: ../account/iam-account_management.md
       - topicgroup:
           label: Selling services
           topics:
@@ -174,4 +174,4 @@ toc:
           - ts-missing-products.md
           - ts-validate-terraform.md
           - ts-tgz.md
-          - /account/account-ts-swinstance-registry
+          - include: ../account/ts-unsupported-registry.md
