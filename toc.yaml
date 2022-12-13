@@ -152,6 +152,9 @@ toc:
               - link:
                   label: Catalog Management API
                   href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
+              - link:
+                  label: Partner Center Sell API
+                  href: https://cloud.ibm.com/apidocs/partner-center-sell
       - service-parameter-example.md
       - software-ova-yaml-example.md
       - ha-dr.md
