@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022
+  years: 2022, 2023
 
-lastupdated: "2022-07-29"
+lastupdated: "2023-01-02"
 
 keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
@@ -78,7 +78,7 @@ See the following JSON example that includes the required fields:
     "end": 1485910800000,
     "region": "us-south",
     "resource_instance_id": "crn:v1:bluemix:staging:database-service:us-south:a/1c8ae972c35e470d994b6faff9494ce1:793ff3d3-9fe3-4329-9ea0-404703a3c371::",
-    "plan_id": "database-lite",
+    "plan_id": "da40662d-2f72-4a19-8c79-8c77cf285e17",
     "measured_usage": [
       {
         "measure": "QUERIES",
@@ -94,7 +94,7 @@ See the following JSON example that includes the required fields:
     "start": 1485910800000,
     "end": 1485910800000,
     "resource_instance_id": "ed20abbe-8870-44e6-90f7-56d764c21127",
-    "plan_id": "database-lite",
+    "plan_id": "da40662d-2f72-4a19-8c79-8c77cf285e17",
     "measured_usage": [
       {
         "measure": "instances",

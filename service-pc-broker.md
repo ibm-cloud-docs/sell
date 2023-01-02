@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022
+  years: 2022, 2023
 
-lastupdated: "2022-08-15"
+lastupdated: "2023-01-02"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker, partner center
 
@@ -92,17 +92,17 @@ resource instances (PATCH)
 
 **Note on catalog (GET)**: This endpoint defines the contract between the broker and the {{site.data.keyword.Bluemix_notm}} platform for the services and plans that the broker supports. This endpoint returns the catalog metadata that is stored within your broker. These values define the minimal contract between your service and the {{site.data.keyword.Bluemix_notm}} platform. All additional catalog metadata that isn't required is stored within the {{site.data.keyword.Bluemix_notm}} catalog. Any updates to catalog display values like links and icons must be updated in the {{site.data.keyword.Bluemix_notm}} console, and not housed in your broker. None of metadata that is stored in your broker is displayed in the {{site.data.keyword.Bluemix_notm}} console or the {{site.data.keyword.Bluemix_notm}} CLI. The console and CLI return what was set within Partner Center Sell and stored in the {{site.data.keyword.Bluemix_notm}} catalog. The following section shows the minimal-required values that catalog (GET) returns:
 
-```text
+```json
 {
        "services": [{
-           "id": "ibmcloud-link",
+           "id": "0bc9d744-6f8c-4821-9648-2278bf6925bb",
            "name": "ibmcloud-link",
            "description": "An IBM provided service that enables aliasing to service instances in the IBM Cloud.",
            "bindable": true,
            "plan_updateable": false,
            "plans": [
                {
-                   "id": "ibmcloud-link-alias",
+                   "id": "da40662d-2f72-4a19-8c79-8c77cf285e1",
                    "name": "ibmcloud-alias",
                    "free": true,
                    "description": "The IBM Cloud alias plan used for linking."
