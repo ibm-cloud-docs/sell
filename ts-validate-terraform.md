@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2022
+lastupdated: "2022-12-27"
 
 keywords: troubleshooting, Terraform, validate, version, unknown token
 
@@ -18,16 +18,16 @@ content-type: troubleshoot
 {: #ts-validate-terraform}
 {: #troubleshoot}
 
-When you try to onboard a Terraform template to the {{site.data.keyword.cloud}} catalog, the validation process fails because the correct version of the Terraform template isn't specified. 
+When you try to onboard a Terraform template to the {{site.data.keyword.cloud}} catalog, the validation process fails because the correct version of the Terraform template isn't specified.
 {: shortdesc}
 
 The following error is displayed when you try to validate that the Terraform template can be installed on the target infrastructure:
 {: tsSymptoms}
 
-`Error: Error parsing /file-path/main.tf: At 9:14: Unknown token : 9:14 IDENT var.resource_group`
+> Error: Error parsing /file-path/main.tf: At 9:14: Unknown token : 9:14 IDENT var.resource_group
 
-The Terraform version that you specify during the validation process is incorrect. You might be specifying a version of Terraform that's used when you run stand-alone {{site.data.keyword.bplong_notm}}. 
-{: tsCauses}  
+The Terraform version that you specify during the validation process is incorrect. You might be specifying a version of Terraform that's used when you run stand-alone {{site.data.keyword.bplong_notm}}.
+{: tsCauses}
 
 To specify the Terraform version to use during the validation process, complete the following steps:
 {: tsResolve}
@@ -42,4 +42,4 @@ To specify the Terraform version to use during the validation process, complete 
     ```
     {: codeblock}
 
-2. After you import your Terraform template to your private catalog, add the template version as a deployment value that's hidden from users when they install the software. 
+2. After you import your Terraform template to your private catalog, add the template version as a deployment value that's hidden from users when they install the software.
