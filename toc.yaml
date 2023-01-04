@@ -102,7 +102,7 @@ toc:
               - software-helm-target.md
               - software-publish.md
               - software-partner-details.md
-              - include:../account/catalog-translate-details.md
+              - include: ../account/catalog-translate-details.md
           - topicgroup:
               label: Updating your software
               topics:
