@@ -2,11 +2,11 @@
 
 copyright:
 
-  years: 2015, 2022
+  years: 2015, 2023
 
-lastupdated: "2022-07-29"
+lastupdated: "2023-01-05"
 
-keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds
+keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
 subcollection: sell
 
@@ -19,7 +19,7 @@ content-type: faq
 # FAQs about selling services
 {: #3p-faqs}
 
-FAQs about selling products on {{site.data.keyword.cloud}} might include questions about how and when to receive disbursements or available metering models. Additional information about selling products on {{site.data.keyword.cloud_notm}} can be found in the Digital Platform Reseller Agreement in {{site.data.keyword.cloud_notm}} Partner Center that must be accepted to offer paid products.
+FAQs about selling products on {{site.data.keyword.cloud}} might include questions about how and when to receive disbursements, how to view and test a service as a customer, and available metering models. Additional information about selling products on {{site.data.keyword.cloud_notm}} can be found in the Digital Platform Reseller Agreement in {{site.data.keyword.cloud_notm}} Partner Center that must be accepted to offer paid products.
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
@@ -67,6 +67,11 @@ We are adding features to support reports in the near future. Disbursements are 
 {: faq}
 
 You're given your API Key when you enable IAM. It is critical that you save the API Key. The value is not shown again. If you lose your API Key, you can delete the key and create a new one. For more information, see [Managing service ID API keys](/docs/account?topic=account-serviceidapikeys). 
+
+## How can I view and test my service as a customer?
+{: #test-service-user}
+
+Before you publish your service to the catalog, you can test how your customers will see and use it from the {{site.data.keyword.cloud_notm}} catalog. In Partner Center, go to your **Product details**, and click **View catalog entry**. This view enables you to preview your service in the catalog and check that the broker and pricing is working as expected by creating an instance in your account.
 
 ## What is the Startup with {{site.data.keyword.IBM_notm}} Program?
 {: #startup-ibm}
