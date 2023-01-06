@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-12-27"
+  years: 2022, 2023
+lastupdated: "2023-01-06"
 
 keywords: troubleshoot software, tgz, helm charts, cloud pak, terraform
 
@@ -17,6 +17,9 @@ content-type: troubleshoot
 # Why can't I validate or publish my software?
 {: #tgz-import-error}
 {: troubleshoot}
+
+If the files in your source repository were changed after you imported your software, you might not be able to validate your product or access it in your private catalog.
+{: shortdesc}
 
 You imported your software package as a `.tgz` file from the Software tab in Partner Center, but you can't validate it. In your Schematics logs, the following message is displayed:
 {: tsSymptoms}

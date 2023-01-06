@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2023
+lastupdated: "2023-01-06"
 
 keywords: troubleshoot software, products, onboard, missing
 
@@ -18,11 +18,14 @@ content-type: troubleshoot
 {: #ts-missing-products}
 {: troubleshoot}
 
-When you go to the My Products page of Partner Center, you see Getting started steps instead of a list of your products.
+If you expect to see a list of your products on the `My products` page in Partner Center, but instead see Getting started steps, you might be in the wrong account.
+{: shortdesc}
+
+When you go to the `My products` page of Partner Center, you see Getting started steps instead of a list of your products.
 {: tsSymptoms}
 
-This error typically occurs because no products are associated with the account you are accessing. 
+This error typically occurs because no products are associated with the account you are accessing.
 {: tsCauses}
 
-Make sure you are accessing the correct account by opening the account menu in the navigation bar and selecting the account where the product is located. 
+Make sure you are in the correct account by opening the account menu in the navigation bar and selecting the account where the product is located.
 {: tsResolve}
