@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022
+  years: 2022, 2023
 
-lastupdated: "2022-07-29"
+lastupdated: "2023-01-12"
 
 keywords: IBM Cloud, metering model, metering service, usage
 
@@ -16,7 +16,7 @@ subcollection: sell
 
 # Metering integration
 {: #service-metering-integration}
- 
+
 {{site.data.keyword.cloud}} supports multiple models for aggregating product usage, and with Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
 {: shortdesc}
 
@@ -29,7 +29,7 @@ The following list describes the expectations for tracking and submitting usage:
 *	{{site.data.keyword.Bluemix_notm}} is configured for a monthly billing cycle and time is represented in Coordinated Universal Time (UTC).
 * Providers must test usage submission and validate their results to describe how the monthly billing cycle is calculated.
 
-For general information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost). 
+For general information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost).
 
 
 ## Configuration properties
@@ -59,10 +59,10 @@ The following table shows the available metering models and a brief description 
 
 |  *Type* | *Description*  |
 |-----|-----|
-| `standard_add` | Add quantity from all submitted usage records for a month. | 
-| `standard_max`  | Maximum quantity from all submitted usage records for a month. | 
+| `standard_add` | Add quantity from all submitted usage records for a month. |
+| `standard_max`  | Maximum quantity from all submitted usage records for a month. |
 | `standard_avg` | Average quantity from all submitted usage records for a month. |
-| `dailyproration_max` | Calculated daily maximum. The sum up all the days for the month. | 
+| `dailyproration_max` | Calculated daily maximum. The sum up all the days for the month. |
 | `dailyproration_avg` | Calculated daily average. The sum up all the days for the month. |
 | `monthlyproration` | Calculated similar to the daily proration, but the price that is used is the plan price that is divided by the total number of days for the month (daily price). |
 {: caption="Table 1. Metering model" caption-side="top"}
@@ -118,7 +118,7 @@ Formula: MAX(usages)
 | Day 2 (morning) | 0              | MAX(10, 0)   | 10                    |
 | Day 3 (morning) | 15             | MAX(10, 15)  | 15                    |
 | Day 4 (night)   | 1              | MAX(15, 1)   | 15                    |
-{: caption="Table 3. Maximum monthly usage calculations" caption-side="top"}
+{: caption="Table 4. Maximum monthly usage calculations" caption-side="top"}
 
 #### Daily proration Average
 {: #daily-proration-average}
@@ -140,7 +140,7 @@ Given a 30-day month, use the following table to calculate the daily proration a
 | Day 2 (night)      | 5                | (2 + 5) / 2   | (5.5 + 3.5) / 2                        | 4.5 (On Day 2 EOD)                               |
 | Day 3 to Day 15    | 1                | 1 / 1         | (5.5 + 3.5 + (1 + 13)  / 15            | 1.4666  (On Day 15 EOD)                          |
 | Day 15 to Day 30   | 0                | 0 / 1         | (5.5 + 3.5 + (1 \* 12) + (0  \* 15) / 30 | 0.7333  (On Day 30 EOD)                          |
-{: caption="Table 4. Average usage per day and monthly average calculations" caption-side="top"}
+{: caption="Table 5. Average usage per day and monthly average calculations" caption-side="top"}
 
 \* As seen on the same day as when the usage was submitted.
 
@@ -162,9 +162,26 @@ Given a 30-day month, see the following table to calculate the maximum usage per
 | Day 1 (night)    | 1              | MAX(0, 1) | 1 / 1                          | 1                      |
 | Day 2 to Day 15  | 1              | MAX(1)    | (1 + 1 + ...) / day            | 1                      |
 | Day 15 to Day 30 | 0              | MAX(0)    | (1 + (1 * 14) + 0 + ...) / day | < 1                    |
-{: caption="Table 5. Maximum usage per day and monthly average calculations" caption-side="top"}
+{: caption="Table 6. Maximum usage per day and monthly average calculations" caption-side="top"}
 
 \* As seen on the same day as when the usage was submitted.
+
+#### Monthly proration
+{: #meter-integration-type-monthlyproration}
+
+Divides the usage cost at the time of service provisioning by the remaining number of days in the month (in Coordinated Universal Time, including the current day). Each subsequent month is not prorated. The full monthly charge is applied, regardless of how much the instance is used.
+
+Formula:
+- If provisioned date is from the current month: (Unit Price) * (Number of days that are remaining in the month / Number of days in the month)
+- If provisioned date is from the previous month: (Unit Price)
+
+Given a 30-day month, see the following table to calculate the monthly prorated cost:
+
+| Time             | Usage          | Calculation                    | Quantity in dashboard  |
+|------------------|----------------|--------------------------------|------------------------|
+| Month 1, Day 1   | 1              | 1 * (30/30)                    | 1                      |
+| Month 1, Day 16  | 1              | 1 * (16/30)                    | 0.5                    |
+{: caption="Table 7. Monthly prorated cost calculations" caption-side="top"}
 
 ## Pricing models
 {: #pricing-model}
@@ -178,7 +195,7 @@ The following table provides detailed information about the pricing models that 
 | Simple tier (granular tier)  | A P * Q model in which the unit price for all consumption is determined by the tier the quantity falls into.           |   \n  \nIf Q is <=Q1, T=P1 * Q  \n  \nIf Q1 < Q <=Q2, T=P2 * Q  \n  \nIf Q2 < Q <=Q3, T=P3 * Q  \n  \n | \n  \nQ1=1000, P1=$1  \n  \nQ2=2500, P2=$0.9  \n  \nQ3=10000, P3=$0.75  \n  \nT=$0.75 * 5000=$3750  \n  \n              |
 | Graduated tier (step tier)   | The price per unit varies as the quantity-consumed moves into different predefined tiers. The total charge involves cumulating the charges from the previous tiers           |   \n  \nT1=P1 * Q (0 < Q  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n     |   \n  \nQ1=1000, P1=$1, T1=1 * 1000  \n  \nQ2=1500, P2=$0.9, T2=0.9 * 1500  \n  \nQ3=10000, P3=$0.75, T3=0.75 * 2500  \n  \nT=1000 +1350+1875=$4225  \n  \n         |
 | Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     |   \n  \nIf Q is <=Q1, T=T1  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n    |   \n  \nQ1=1000, T1=$0  \n  \nQ2=2500, T2=2500  \n  \nQ3=10000, T3=$4500  \n  \nT=$4500  \n  \n            |
-{: caption="Table 6. Pricing models" caption-side="top"}
+{: caption="Table 8. Pricing models" caption-side="top"}
 
 Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, you can't add any new block tier pricing plans at this time.
 {: note}
@@ -191,19 +208,19 @@ If you created your service with Partner Center, you can choose from the followi
 | Type | Metric |
 |-----|-----|
 | `dailyproration_max` | Active User |
-| `standard-add` | API call | 
+| `standard-add` | API call |
 | `dailyproration_max` | Authorized User |
-| `standard_add` | Gigabyte hour | 
-| `standard_add` | Gigabyte month | 
+| `standard_add` | Gigabyte hour |
+| `standard_add` | Gigabyte month |
 | `monthlyproration` | Instance |
-| `standard_add` | Terabyte hour | 
-| `standard_add` | Terabyte month | 
+| `standard_add` | Terabyte hour |
+| `standard_add` | Terabyte month |
 | `dailyproration_max` | User |
-| `standard_add` | Virtual Server | 
-| `standard_add` | Virtual Server Hour | 
+| `standard_add` | Virtual Server |
+| `standard_add` | Virtual Server Hour |
 | `standard_add` | Virtual Processor Core |
-{: caption="Table 7. Partner Center metering model metrics" caption-side="top"}
+{: caption="Table 9. Partner Center metering model metrics" caption-side="top"}
 
 
-Third-party providers that migrated from the resource management console to Partner Center can manage their metering models with Partner Center. Any information that is added or edited for pricing plans and metering models by using the resource management console can be updated in Partner Center. 
+Third-party providers that migrated from the resource management console to Partner Center can manage their metering models with Partner Center. Any information that is added or edited for pricing plans and metering models by using the resource management console can be updated in Partner Center.
 {: note}
