@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2022
+  years: 2018, 2023
 
-lastupdated: "2022-10-27"
+lastupdated: "2023-02-01"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -73,7 +73,7 @@ Documentation URL
 :   A link to your {{site.data.keyword.cloud_notm}} documentation. 
 
 End User License Agreement (EULA) URL
-:   A link to your service's terms and conditions for usage. For GDPR purposes, don’t link to your existing third-party service's terms and conditions. Instead, you must provide a unique page for an integrated billing service.
+:   A link to the end user license agreement that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement.
 
 Category
 :   Selection of available {{site.data.keyword.cloud_notm}} categories that best describe your product. Only one category can be selected.

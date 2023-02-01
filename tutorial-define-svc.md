@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2022
+  years: 2021, 2023
 
-lastupdated: "2022-11-18"
+lastupdated: "2023-02-01"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -102,7 +102,7 @@ When your service is published in the catalog, it's represented by a catalog ent
 1. Provide a short description about your service.
 1. From the **Category** list, select the option that best fits how users might use your product, for example, **Databases**. Categories are used to organize similar products in the catalog based on common solutions, function, or use.
 1. Enter keywords that users might use when they search the catalog for your service.
-1. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product.
+1. Provide the URL to the end user license agreement (EULA) that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement.
 1. Provide a list of features that highlights your service's attributes and benefits for users.
 
    Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users.
