@@ -44,5 +44,5 @@ You will receive an email notification that your case was successfully submitted
 
 If you submit your request 5 days or more before the end of the month, your pricing change will be implemented during the first week of the following month. Once this update is successful you will receive an email notifying you that your support case has been closed.
 
-    You can track the progress of your submitted case from the [Manage cases page](/unifiedsupport/cases).
-    {: tip}
+You can track the progress of your submitted case from the [Manage cases page](/unifiedsupport/cases).
+{: tip}
