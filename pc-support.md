@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2021, 2022
+  years: 2021, 2023
 
-lastupdated: "2022-09-21"
+lastupdated: "2023-02-21"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -14,14 +14,18 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting help and support
+# Getting help and support with Partner Center
 {: #get-pc-support}
 
-If you are experiencing issues with Partner Center or have specific questions about onboarding a product, you can get help by contacting {{site.data.keyword.Bluemix_notm}} Support or Partner Center onboarding specialist.
+If you are experiencing issues with Partner Center or have specific questions about onboarding a product, you can get help by contacting {{site.data.keyword.cloud}} support or a Partner Center onboarding specialist, depending on the type of issue you're experiencing. 
 {: shortdesc}
 
-Make sure you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access).
-{: note}
+You can also use the following resources before you contact {{site.data.keyword.cloud_notm}} to get answers to your questions:
+
+* Review the [FAQs](/docs/sell?topic=sell-thirdparty-sw-faqs) in the product documentation.
+* Review the [troubleshooting documentation](/docs/sell?topic=sell-ts-view-usage) to troubleshoot and resolve common issues.
+* Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
+* Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `partner-center`, so that it's seen by the {{site.data.keyword.Bluemix_notm}} development teams.
 
 
 ## Getting help with onboarding
@@ -29,7 +33,7 @@ Make sure you're assigned at least the editor role on the Support Center account
 
 If you have questions about onboarding your product to Partner Center, you can contact an onboarding specialist through the My products page. You can send a detailed message, and they will contact you after they review your issue.
 
-Contact a Partner Center onboarding specialist if you have questions about the following topics:
+Contact a Partner Center onboarding specialist, if you have questions about the following topics:
 
 * General questions about the onboarding process
 * Pricing models, for example, tiering model, monthly or yearly subscription, cancellation of subscription, or refund
@@ -50,8 +54,9 @@ To contact an onboarding specialist, complete the following steps:
 
 If you're experiencing issues with Partner Center, you can create a support case by using the [{{site.data.keyword.Bluemix_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
-To create a support case, you must have a Pay-As-You-Go or Subscription account.
+To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access).
 {: note}
+
 
 To create a support case for Partner Center related issues, complete the following steps:
 
