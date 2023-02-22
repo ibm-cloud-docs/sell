@@ -162,7 +162,6 @@ toc:
   - navgroup:
       id: help
       topics:
-      - pc-support.md
       - topicgroup:
           label: FAQs
           topics:
@@ -178,3 +177,5 @@ toc:
           - ts-validate-terraform.md
           - ts-tgz.md
           - include: ../account/ts-unsupported-registry.md
+      - topic: pc-support.md
+        navtitle: Getting help and support
