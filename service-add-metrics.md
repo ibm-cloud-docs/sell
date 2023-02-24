@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2023
 
-lastupdated: "2023-01-02"
+lastupdated: "2023-02-24"
 
 keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
@@ -110,6 +110,9 @@ See the following JSON example that includes the required fields:
 {: codeblock}
 
 To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your metering approval request must be approved by {{site.data.keyword.cloud_notm}}.
+
+You can find the `resource_id` value, which is the Global catalog ID listed on the Brokers page in Partner Center.
+{: tip}
 
 ```bash
 curl -X POST -H "Authorization: {iam_token}"   -H "Accept: application/json"   -H "Content-Type: application/json"   -d "{REQUEST_BODY}"   "{base_url}/v4/metering/resources/{resource_id}/usage"
