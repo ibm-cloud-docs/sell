@@ -50,7 +50,7 @@ To provide tax and EFT information, complete the following steps:
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to me**.
 1. Download the relevant EFT form, and complete it.
 
-    One of three types of bank documents is required to be submitted with the form. You can submit a scanned copy of a voided check or a bank letter that is signed and stamped by the bank. If you are outside of the United States, you can alternatively provide an online bank statement that includes the bank name, account number, bank key, ABA, or routing number, and the account holder's name. 
+    One of three types of bank documents is required to be submitted with the form. You can submit a scanned copy of a voided check or a bank letter that is signed and stamped by the bank. If you are outside of the United States, you can alternatively provide an online bank statement. The document that you provide must include the bank name, account number, routing number (or bank key or ABA), and the account holder's name.
     {: important}
 
 1. Download the relevant tax documentation, and complete it.
