@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2021, 2022
+  years: 2021, 2023
 
-lastupdated: "2022-11-18"
+lastupdated: "2023-03-07"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -50,7 +50,7 @@ To provide tax and EFT information, complete the following steps:
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to me**.
 1. Download the relevant EFT form, and complete it.
 
-    A scanned copy of a voided check is required when you submit this form.
+    One of three types of bank documents is required to be submitted with the form. You can submit a scanned copy of a voided check or a bank letter that is signed and stamped by the bank. If you are outside of the United States, you can alternatively provide an online bank statement that includes the bank name, account number, bank key, ABA, or routing number, and the account holder's name. 
     {: important}
 
 1. Download the relevant tax documentation, and complete it.
