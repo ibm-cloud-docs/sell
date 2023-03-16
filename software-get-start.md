@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2020, 2022
+  years: 2020, 2023
 
-lastupdated: "2022-09-12"
+lastupdated: "2023-03-016"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -90,7 +90,6 @@ After your product is approved, you're ready to return to Partner Center and pub
    It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
    {: tip}
 
-
 * Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 * Review the list of supported software:
 
@@ -99,7 +98,7 @@ After your product is approved, you're ready to return to Partner Center and pub
     * OVA images deployed on VMware Solutions Dedicated - vCenter Server
     * Virtual server images with Terraform deployed on VPC infrastructure
     * Custom virtual server images deployed on VPC infrastructure
-    * Operators with a CSV file or Operator bundles with a TGZ file from GitHub repositories deployed on Red Hat OpenShift
+    * Operators with a TGZ file from GitHub or GitLab repositories
     * Operator bundles from Red Hat OpenShift registries
 
 ## Provide your company name

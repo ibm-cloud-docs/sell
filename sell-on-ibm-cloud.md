@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-02-21"
+lastupdated: "2023-03-15"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -63,7 +63,7 @@ Verify that the following software deployment scripts and package dependencies a
 
 * Helm charts on Kubernetes and {{site.data.keyword.openshiftshort}} clusters
 
-* Operators with a CSV file or Operator bundles with a TGZ file from GitHub repositories deployed on {{site.data.keyword.redhat_openshift_notm}}
+* Operators or Operator bundles with a TGZ file from GitHub or GitLab repositories
 
 * Operator bundles from {{site.data.keyword.redhat_openshift_notm}} registries
 
@@ -81,7 +81,8 @@ If you have a service that you want to provide, you can offer it as an integrate
 
 Software includes containerized applications or system images that your customers can run on their own infrastructure.
 
-Types of third-party software that {{site.data.keyword.Bluemix_notm}} supports include:
+Types of third-party software that {{site.data.keyword.cloud_notm}} supports include:
+
 - Operators for adding services
 - Cloud Pak for installing services
 - Images through Terraform templates (such as virtual server image or OVA)
@@ -91,7 +92,7 @@ Types of third-party software that {{site.data.keyword.Bluemix_notm}} supports i
 
 Your software can be deployed onto specified targets, including {{site.data.keyword.containerlong}}, {{site.data.keyword.openshiftlong}}, {{site.data.keyword.powerSys_notm}}, {{site.data.keyword.bpshort}}, Virtual Private Cloud and vCenter Server.
 
-The process is as simple as selecting the Deployable Software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join.  For more information, see [Getting set up to sell software](/docs/sell?topic=sell-get-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
+The process is as simple as selecting the Deployable Software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join. For more information, see [Getting set up to sell software](/docs/sell?topic=sell-get-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
 
 ### Services
 {: #services}

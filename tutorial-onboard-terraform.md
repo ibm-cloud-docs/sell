@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2022
+  years: 2021, 2023
 
-lastupdated: "2022-08-02"
+lastupdated: "2023-03-16"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, validate, test, Terraform, terraform template
@@ -110,11 +110,11 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #terraform-template-onboard-review-readme}
 {: step}
 
-When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your GitHub repository.
+When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file is displayed to users when they install the Terraform template.
-3. If you need to make changes, edit the GitHub repository where you uploaded the Terraform template and re-create the `.tgz` file. Then, you can import the updated file to your private catalog again.
+3. If you need to make changes, edit the repository where you uploaded the Terraform template and re-create the `.tgz` file. Then, you can import the updated file to your private catalog again.
 4. Click **Save**.
 5. Click **Next**.
 
