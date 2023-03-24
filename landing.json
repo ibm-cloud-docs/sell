@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2022-07-11",
+    "lastupdated": "2023-03-24",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software and services.",
     "section_recommended": [
       {
@@ -12,11 +12,6 @@
         "title": "Getting set up to sell services",
         "description": "Complete a few initial tasks to start onboarding your service to the IBM Cloud catalog.",
         "href": "/docs/sell?topic=sell-get-started"
-      },
-      {
-        "title": "Onboarding a Certified Operator bundle",
-        "description": "Learn how to onboard and publish a sample Certified Operator bundle from a Red Hat OpenShift registry.",
-        "href": "/docs/sell?topic=sell-bundle-register"
       },
       {
         "title": "Onboarding a virtual server image with Terraform",
@@ -52,11 +47,6 @@
           "date": "23 June 2022",
           "title": "Onboarding software to sell on IBM Cloud by using the API",
           "description": "To sell your product on IBM Cloud, you can now onboard it by using the Partner Center Sell API, in addition to using the Partner Center experience in the console."
-        },
-        {
-          "date": "13 June 2022",
-          "title": "Updated process for onboarding services in Partner Center",
-          "description": "Partner Center has made it easier to provide required support information. The process has improved the approval process for publishing your product, and it has added consistency to all third-party product information, which helps customers find the help that they need."
         }
       ]
     }
