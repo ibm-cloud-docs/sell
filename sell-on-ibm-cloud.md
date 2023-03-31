@@ -81,7 +81,7 @@ If you have a service that you want to provide, you can offer it as an integrate
 
 Software includes containerized applications or system images that your customers can run on their own infrastructure.
 
-Types of third-party software that {{site.data.keyword.cloud_notm}} supports include:
+{{site.data.keyword.cloud_notm}} supports the following types of third-party software:
 
 - Operators for adding services
 - Cloud Pak for installing services
