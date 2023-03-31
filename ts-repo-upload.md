@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-01-06"
+lastupdated: "2023-03-31"
 
 keywords: troubleshoot software, HTTPS protocol, repo, github, tgz
 
@@ -14,14 +14,14 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why can't I upload my product's source details from my GitHub repository?
+# Why can't I upload my product's source details from my source repository?
 {: #repo-upload-error}
 {: troubleshoot}
 
 If you encounter an error when you are importing your software into a private catalog, a file might be missing or formatted incorrectly within your source repository. Or, if your repository is private, authentication failed.
 {: shortdesc}
 
-You receive the following error message when you try to upload your product's source details from a GitHub repository to your private catalog:
+You receive the following error message when you try to upload your product's source details from a GitHub or GitLab repository to your private catalog:
 {: tsSymptoms}
 
 > There was an error while contacting this URL.
@@ -36,4 +36,6 @@ Do one of the following, depending on your product's delivery method:
 - If your source details are in a private repository, make sure that you have a personal access token or secret to authenticate. For more information, see [Importing a version to your private catalog](/docs/sell?topic=sell-sw-validate&interface=ui#sw-validate-add).
 - Make sure that your repository supports HTTPS protocol.
 
-For more information, see [Managing releases in a repository](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository){: external}.
+For more information about GitHub repositories, see [Managing releases in a repository](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository){: external}.
+
+For more information about GitLab repositories, see [Releases](https://docs.gitlab.com/ee/user/project/releases/#:~:text=In%20GitLab%2C%20a%20release%20enables,point%20in%20the%20source%20code.){: external}.

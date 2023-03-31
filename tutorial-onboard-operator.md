@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2022
+  years: 2021, 2023
 
-lastupdated: "2022-08-02"
+lastupdated: "2023-03-31"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
@@ -25,7 +25,7 @@ completion-time: 45m
 {: toc-services="Registry"}
 {: toc-completion-time="45m"}
 
-This tutorial walks you through how to onboard a sample Node-RED Operator to your private catalog in {{site.data.keyword.cloud}}. You can onboard an Operator bundle by using a TGZ file or an Operator by using a CSV file. By completing this tutorial, you learn how to import the Operator, configure the deployment, license, and other details, and validate that the Operator can be installed on a Red Hat OpenShift cluster.
+This tutorial walks you through how to onboard a sample Node-RED Operator to your private catalog in {{site.data.keyword.cloud}}. You can onboard an Operator or Operator bundle by using a TGZ file. By completing this tutorial, you learn how to import the Operator, configure the deployment, license, and other details, and validate that the Operator can be installed on a Red Hat OpenShift cluster.
 {: shortdesc}
 
 ## Before you begin
@@ -33,7 +33,7 @@ This tutorial walks you through how to onboard a sample Node-RED Operator to you
 
 1. [Upload your Operator and application images to {{site.data.keyword.registrylong}}](/docs/Registry?topic=Registry-getting-started).
 1. [Create your Red Hat OpenShift cluster](/docs/openshift?topic=openshift-getting-started).
-1. Upload your source code to your GitHub repository.
+1. Upload your source code to your repository.
 
     Use the [latest release of the sample Node-RED Operator](https://github.com/IBM-Cloud/operator-bundle-sample/releases){: external} as an example of how to set up your directory structure.
     {: tip}
@@ -101,11 +101,11 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #operator-onboard-review-readme}
 {: step}
 
-When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your GitHub repository.
+When users install the software, they can view product information by clicking the Readme file link. This information is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file is displayed to users when they install the Operator.
-3. If you need to make changes, edit the information in the CSV file and import the updated CSV file to your private catalog.
+3. If you need to make changes, edit the information in the source code and import the updated code file to your private catalog.
 4. Click **Save**.
 5. Click **Next**.
 

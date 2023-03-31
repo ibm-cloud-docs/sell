@@ -2,9 +2,9 @@
 
 
 copyright:
-  years: 2020, 2022
+  years: 2020, 2023
 
-lastupdated: "2022-11-14"
+lastupdated: "2023-03-31"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -23,7 +23,7 @@ Onboarding your software includes importing a version to your private catalog, c
 ## Before you begin
 {: #sw-validate-prereqs}
 
-1. Upload your source code to a release in your GitHub repository. See [Setting up your source code repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository).
+1. Upload your source code to a release in your GitHub or GitLab repository. See [Setting up your source code repository](/docs/sell?topic=sell-source-repo-setup).
 2. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
 3. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
 4. Set up the test environment that was previously created for you:
@@ -52,7 +52,7 @@ Complete the following steps to import a version of your software to your privat
 1. Select whether you are adding your product from a private or public repository. For Operators, select your source repository and then choose private or public repository.
 1. Enter your source URL.
 
-    If you're importing a version from a public repository, you can review the following list of supported formats per software type:
+    You can review the following list of supported formats per software type:
 
     * Helm chart: `https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm`
     * Node-RED Operator: `https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz`
@@ -177,7 +177,7 @@ Imported licenses don't replace any license agreements that you already added to
 ## Reviewing your readme file
 {: #sw-validate-readme-review}
 
-When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your GitHub repository.
+When users install the software, they can view product information by clicking the Readme file link. This information is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file will be displayed to users when they are installing the software.
