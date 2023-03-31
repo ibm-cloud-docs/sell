@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-03-016"
+lastupdated: "2023-03-31"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 

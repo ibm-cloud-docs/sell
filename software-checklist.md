@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2023
 
-lastupdated: "2023-03-15"
+lastupdated: "2023-03-31"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -64,8 +64,8 @@ The following tasks are typically completed by a technical member of your team.
 
 | Task | Description | Environment |
 |------|-------------|-------------|
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Set up your source code repository | Create a release in your source code repository to deliver and manage versions of your software. | Your GitHub or public GitLab repository |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Upload a readme file | Provide a readme file that describes how users can install your software and get customer support. | Your GitHub or public GitLab repository |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Set up your source code repository | Create a release in your source code repository to deliver and manage versions of your software. | Your GitHub or GitLab repository |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Upload a readme file | Provide a readme file that describes how users can install your software and get customer support. | Your GitHub or GitLab repository |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Onboard your software| Import a version, configure the deployment details, set any license requirements, and validate that the version can be successfully installed on the infrastructure that you require. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 3. Tasks for onboarding software" caption-side="top"}
 
