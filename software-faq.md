@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2023
 
-lastupdated: "2023-03-15"
+lastupdated: "2023-03-31"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -48,7 +48,11 @@ Use your {{site.data.keyword.cloud_notm}} account to onboard software to the cat
 {: #onboard-operator-GitHub-vs-RedHat}
 {: faq}
 
-One major difference is the packaging format. For example formats of each option, see [Importing a version from your private catalog](/docs/sell?topic=sell-sw-validate#sw-validate-add).
+One major difference is the packaging format. You can review the following example formats: 
+
+- Node-RED Operator: https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz
+- Operator bundle from a {{site.data.keyword.openshiftshort}} registry: For an example, select the Akka Cluster Operator from the list of available Operators in the Certified repository.
+
 
 ## Can I update an Operator that was onboarded from the Red Hat registry?
 {: #update-operator-redhat}
