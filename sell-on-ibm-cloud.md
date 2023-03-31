@@ -92,7 +92,7 @@ Software includes containerized applications or system images that your customer
 
 Your software can be deployed onto specified targets, including {{site.data.keyword.containerlong}}, {{site.data.keyword.openshiftlong}}, {{site.data.keyword.powerSys_notm}}, {{site.data.keyword.bpshort}}, Virtual Private Cloud and vCenter Server.
 
-The process is as simple as selecting the Deployable Software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join. For more information, see [Getting set up to sell software](/docs/sell?topic=sell-get-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
+The process is as simple as selecting the Deployable software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join. For more information, see [Getting set up to sell software](/docs/sell?topic=sell-get-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
 
 ### Services
 {: #services}
