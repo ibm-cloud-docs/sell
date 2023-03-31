@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-03-16"
+lastupdated: "2023-03-31"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -177,7 +177,7 @@ Imported licenses don't replace any license agreements that you already added to
 ## Reviewing your readme file
 {: #sw-validate-readme-review}
 
-When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
+When users install the software, they can view product information by clicking the Readme file link. This information is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file will be displayed to users when they are installing the software.
