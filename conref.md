@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2022
+  years: 2022, 2023
 
-lastupdated: "2022-07-27"
+lastupdated: "2023-04-12"
 
 keywords:
 
@@ -87,8 +87,8 @@ Use the following steps to select your product's support provider.
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
 1. Select the product that you're onboarding, and click **Support**.
 1. Select your product's support provider.
-   1. If you select **Community** for your support provider, provide the support statement and the URL for the support community.
-   1. If you select **Third-party** for your support provider, use the following steps to complete the necessary fields.
+   1. If you select **Community**, provide the support statement and the URL for the support community, and select the languages in which support is provided.
+   1. If you select **Third-party**, use the following steps to complete the necessary fields.
 
 ## Selecting your product's support provider by using the API
 {: #select-support-provider-api}
