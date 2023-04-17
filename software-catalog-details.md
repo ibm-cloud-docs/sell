@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-07-22"
+  years: 2020, 2023
+lastupdated: "2023-04-17"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -67,8 +67,10 @@ The following table describes each type of category that you can select.
 | Blockchain | Products that facilitate the process of recording transactions and tracking assets in a business network. |
 | Compute | Infrastructure resources that serve as the basis for building apps in the cloud. |
 | Containers | A standard unit of software that packages up code, and all its dependencies, so the app runs quickly and reliably from one computing environment to another. |
+| Converged infrastructure | A way of structuring an information technology (IT) system by grouping multiple components into a single optimized computing package, components of which may include servers; data storage devices; networking equipment; and software for IT infrastructure management, automation, and orchestration. |
 | Databases | Products that provide some form of access to a database without requiring setting up physical hardware, installing software, or configuring for performance. |
 | Developer tools | Products that support developing, testing, and debugging software. |
+| Enterprise applications | Bundle of compatible products that deliver enterprise-grade app solutions for information sharing, automation, and agility. |
 | Integration | Products that facilitate the connection of data, apps, APIs, and devices across an organization to be more efficient, productive, and agile. |
 | Internet of Things | Products that support receiving and transferring data over wireless networks without human intervention. |
 | Logging and monitoring | Products that support storing, searching, analyzing, and monitoring log data and events. And, products that support reviewing and managing the operational workflow and processes being logged. |
