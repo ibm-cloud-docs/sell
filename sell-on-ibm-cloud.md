@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-20"
 
 keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -92,7 +92,7 @@ Software includes containerized applications or system images that your customer
 
 Your software can be deployed onto specified targets, including {{site.data.keyword.containerlong}}, {{site.data.keyword.openshiftlong}}, {{site.data.keyword.powerSys_notm}}, {{site.data.keyword.bpshort}}, Virtual Private Cloud and vCenter Server.
 
-The process is as simple as selecting the Deployable software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join. For more information, see [Getting set up to sell software](/docs/sell?topic=sell-get-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
+The process is as simple as selecting the Deployable software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join. For more information, see [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
 
 ### Services
 {: #services}
