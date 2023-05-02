@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-03-31"
+lastupdated: "2023-05-02"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -58,7 +58,7 @@ Complete the following steps to import a version of your software to your privat
     * Node-RED Operator: `https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz`
     * Operator bundle from a {{site.data.keyword.openshiftshort}} registry: For an example, select the `Akka Cluster Operator` from the list of available Operators in the Certified repository.
     * OVA image: `https://github.com/gcatalog/OVA-sample/blob/main/ova-sample.yaml`
-    * Terraform template: `https://github.com/IBM-Cloud/terraform-sample/releases/download/v1.0.0/v1.0.0.tar.gz`
+    * Terraform template: `https://github.com/IBM-Cloud/terraform-sample/archive/refs/tags/v1.1.0.tar.gz`
     * Virtual server image with Terraform: `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz`
     * Virtual server image for VPC: Select an image from the list of available images that were imported into your VPC, or import a new image to your account.
 
