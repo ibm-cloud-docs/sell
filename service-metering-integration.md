@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2023
 
-lastupdated: "2023-01-12"
+lastupdated: "2023-05-11"
 
 keywords: IBM Cloud, metering model, metering service, usage
 
@@ -193,7 +193,6 @@ The following table provides detailed information about the pricing models that 
 | Linear         | Multiply the unit price per resource (P) by the usage quantity (Q) to get the total amount (T)  | P * Q    | P=$1 T=1 * 5000 =$5000        |
 | Proration      | Multiply the daily unit price per resource (P) by the daily usage quantity (Q) to get the total daily amount. The total charge involves cumulating the charges for all days within the month.         | T= (pd * Q1) + ...+(Pd * Qn)     |   \n  \nP= $30  \n  \nPd (daily price) =$30/30=$1 (assuming 30 days in a month)  \n  \nT1= $1 * 1 =$1  \n  \nT2 = $1 * 0 =$0  \n  \nTn = 1 * 1 =$1  \n  \nT = $1 + $0 +...+$1 = $5000  \n  \n     |
 | Simple tier (granular tier)  | A P * Q model in which the unit price for all consumption is determined by the tier the quantity falls into.           |   \n  \nIf Q is <=Q1, T=P1 * Q  \n  \nIf Q1 < Q <=Q2, T=P2 * Q  \n  \nIf Q2 < Q <=Q3, T=P3 * Q  \n  \n | \n  \nQ1=1000, P1=$1  \n  \nQ2=2500, P2=$0.9  \n  \nQ3=10000, P3=$0.75  \n  \nT=$0.75 * 5000=$3750  \n  \n              |
-| Graduated tier (step tier)   | The price per unit varies as the quantity-consumed moves into different predefined tiers. The total charge involves cumulating the charges from the previous tiers           |   \n  \nT1=P1 * Q (0 < Q  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n     |   \n  \nQ1=1000, P1=$1, T1=1 * 1000  \n  \nQ2=1500, P2=$0.9, T2=0.9 * 1500  \n  \nQ3=10000, P3=$0.75, T3=0.75 * 2500  \n  \nT=1000 +1350+1875=$4225  \n  \n         |
 | Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     |   \n  \nIf Q is <=Q1, T=T1  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n    |   \n  \nQ1=1000, T1=$0  \n  \nQ2=2500, T2=2500  \n  \nQ3=10000, T3=$4500  \n  \nT=$4500  \n  \n            |
 {: caption="Table 8. Pricing models" caption-side="top"}
 
