@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-02-16"
+lastupdated: "2023-05-11"
 
 keywords: service, pricing, paid, third-party, change plan, Partner Center
 
@@ -42,7 +42,12 @@ To open a support case to change your pricing plan, complete the following steps
 
 You will receive an email notification that your case was successfully submitted.
 
+According to [the {{site.data.keyword.cloud_notm}} Services Agreement](https://www.ibm.com/support/customer/csol/terms/?id=Z126-6304&cc=us&lc=en#detail-document){: external}, we are required to provide our customers with a 30-day notice of any price changes. After you submit your support case, you must email the onboarding specailists at cloud.onboarding@ibm.com to help draft this notification. Client notificaitons will be sent out on the first of the following month. After your notification has been sent, your updated pricing will go into effect on the first of the following month.
+
 If you submit your request 5 days or more before the end of the month, your pricing change will be implemented during the first week of the following month. Once this update is successful you will receive an email notifying you that your support case has been closed.
 
 You can track the progress of your submitted case from the [Manage cases page](/unifiedsupport/cases).
+{: tip}
+
+For the best support experience on {{site.data.keyword.cloud_notm}}, we recommend that you have an [advanced or premium support plan](/docs/get-support?topic=get-support-support-plans).
 {: tip}
