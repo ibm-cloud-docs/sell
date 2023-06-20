@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2022
+  years: 2021, 2023
 
-lastupdated: "2022-11-18"
+lastupdated: "2023-06-20"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -79,6 +79,9 @@ You can choose from a list of common UNSPSCs or search for a UNSPSC. If you need
 {: step}
 
 {{site.data.keyword.cloud_notm}} supports two pricing models: free or usage-based. For the purposes of this tutorial, complete the following steps to add a usage-based plan.
+
+By adding a usage-based pricing plan, you provide your suggested retail pricing information. However, {{site.data.keyword.IBM_notm}} reserves the right to set the final pricing for any product that is offered to customers in the {{site.data.keyword.cloud_notm}} catalog. 
+{: important}
 
 1. Click **Add plan**.
 1. Select **Usage-based** as the type of plan.

@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2023
 
-lastupdated: "2023-03-07"
+lastupdated: "2023-06-20"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -151,6 +151,9 @@ By adding a free plan, you are indicating that your product does not require any
 {: #add-plan-paid}
 
 By adding a usage-based pricing plan, you are indicating that you offer your product as a paid integrated product, and customers need to pay to use it. All information that is entered on the **Add plan** panel is displayed to customers in the {{site.data.keyword.cloud_notm}} catalog to help them purchase your service.
+
+When you add a usage-based pricing plan, you provide your suggested retail pricing information. However, {{site.data.keyword.IBM_notm}} reserves the right to set the final pricing for any product that is offered to customers in the {{site.data.keyword.cloud_notm}} catalog. 
+{: important}
 
 To add a paid pricing plan for your service, complete the following steps:
 
