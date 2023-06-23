@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2023
 
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-23"
 
 keywords: IBM Cloud, metering model, metering service, usage
 
@@ -17,25 +17,27 @@ subcollection: sell
 # Metering integration
 {: #service-metering-integration}
 
-{{site.data.keyword.cloud}} supports multiple models for aggregating product usage, and with Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
+{{site.data.keyword.cloud}} supports multiple models for aggregating product usage, and with Partner Center, you can measure various metrics for services with usage-based pricing plans. You can measure metrics on the created instances, and submit those measures to the metering service. The submitted usage is aggregated into different buckets (instance, resource group, and account) based on the model that you choose. The aggregation and rating models for all metrics in a plan are contained in the metering and rating definition documents for the plan.
 {: shortdesc}
 
 The following list describes the expectations for tracking and submitting usage:
 
 *	Third-party providers don't need to submit usage for free plans or monthly subscription plans.
-*	For metered plans, all providers must submit usage hourly, and Lite plans must submit usage every 15 minutes to 1 hour.
-*	The provider is responsible for automating the usage submission, including automation that retries failure responses. {{site.data.keyword.Bluemix_notm}} doesn't provide a retry function for failed submissions. For more information, see the status codes and actions table in [Submitting usage records](/docs/sell?topic=sell-submitusage#usage-records).
-*	Usage records for the current month must be submitted by the 2nd of the following month.
-*	{{site.data.keyword.Bluemix_notm}} is configured for a monthly billing cycle and time is represented in Coordinated Universal Time (UTC).
-* Providers must test usage submission and validate their results to describe how the monthly billing cycle is calculated.
+*	For metered plans, all providers must submit usage hourly, and usage for Lite plans must submitted every 15 minutes to 1 hour.
+*	You're responsible for automating the usage submission, including automation that retries failure responses. To automate the usage submission, you can create cron jobs, or other similar job schedulers. {{site.data.keyword.cloud_notm}} doesn't provide a retry function for failed submissions. For more information, see the status codes and actions table in [Submitting usage records](/docs/sell?topic=sell-submitusage#usage-records).
 
-For general information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost).
+![A diagram that shows third-party providers how the {{site.data.keyword.cloud_notm}} Usage Metering service works when they create a cron job, or other similar job scheduler to automate usage submission.](images/Usage_metering_role.svg "Understanding the function of the {{site.data.keyword.cloud_notm}} Usage Metering service for automating the submission of usage data."){: caption="Figure 1. Understanding the function of the {{site.data.keyword.cloud_notm}} Usage Metering service for automating the submission of usage data."}
 
+*	You must submit usage records for the current month by the second day of the following month.
+*	{{site.data.keyword.cloud_notm}} is configured for a monthly billing cycle and time is represented in Coordinated Universal Time (UTC).
+* You must test usage submission and validate your results to describe how the monthly billing cycle is calculated.
+
+For more information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost).
 
 ## Configuration properties
 {: #service-configure-properties}
 
-The following properties define how {{site.data.keyword.Bluemix_notm}} meters and rates usage submissions for product plans:
+The following properties define how {{site.data.keyword.cloud_notm}} meters and rates usage submissions for product plans:
 
 Unit
 :   Metrics to be metered, for example, ApiCall, Bytes, Hours, Instances, and Nodes.
@@ -55,9 +57,9 @@ Unit name
 ## Metering model types
 {: #service-metermodel-type}
 
-The following table shows the available metering models and a brief description of each type:
+See the following table for information about the available metering models and a brief description of each type:
 
-|  *Type* | *Description*  |
+|  Type | Description  |
 |-----|-----|
 | `standard_add` | Add quantity from all submitted usage records for a month. |
 | `standard_max`  | Maximum quantity from all submitted usage records for a month. |
@@ -75,7 +77,7 @@ The quantity in dashboard value in each of the following examples is before the 
 #### Standard Add
 {: #standard-add-usage}
 
-The following table provides information about how to calculate the monthly usage.
+See the following table for information about how to calculate the monthly usage.
 
 Formula: ADD(usages)
 
@@ -91,7 +93,7 @@ Formula: ADD(usages)
 #### Standard Average
 {: #standard-average-usage}
 
-The following table provides information about how to calculate the average monthly usage. Submitting 0 usage counts toward the average.
+See the following table for information about how to calculate the average monthly usage. Submitting 0 usage counts toward the average.
 
 Formula: AVG(usages)
 
@@ -107,7 +109,7 @@ Formula: AVG(usages)
 #### Standard Max
 {: #standard-max-usage}
 
-The following table provides information about how to calculate the maximum monthly usage.
+See the following table for information about how to calculate the maximum monthly usage.
 
 Formula: MAX(usages)
 
@@ -123,7 +125,7 @@ Formula: MAX(usages)
 #### Daily proration Average
 {: #daily-proration-average}
 
-Calculate the average usage for each day and average it for the month. The average of each day is added up and divided by the number of days currently passed (in Coordinated Universal Time).
+Calculate the average usage for each day and average it for the month. The average of each day is added and divided by the number of days currently passed (in UTC).
 
 Formula: Summation(daily average) / Number of days passed in the billing period
 
@@ -169,7 +171,7 @@ Given a 30-day month, see the following table to calculate the maximum usage per
 #### Monthly proration
 {: #meter-integration-type-monthlyproration}
 
-Divides the usage cost at the time of service provisioning by the remaining number of days in the month (in Coordinated Universal Time, including the current day). Each subsequent month is not prorated. The full monthly charge is applied, regardless of how much the instance is used.
+Divides the usage cost at the time of service creation by the remaining number of days in the month (in UTC, including the current day). Each subsequent month is not prorated. The full monthly charge is applied, regardless of how much the instance is used.
 
 Formula:
 - If provisioned date is from the current month: (Unit Price) * (Number of days that are remaining in the month / Number of days in the month)
@@ -220,6 +222,5 @@ If you created your service with Partner Center, you can choose from the followi
 | `standard_add` | Virtual Processor Core |
 {: caption="Table 9. Partner Center metering model metrics" caption-side="top"}
 
-
-Third-party providers that migrated from the resource management console to Partner Center can manage their metering models with Partner Center. Any information that is added or edited for pricing plans and metering models by using the resource management console can be updated in Partner Center.
+Third-party providers that migrated from the resource management console to Partner Center can manage their metering models with Partner Center. Any information that you added or edited for pricing plans and metering models by using the resource management console can be updated in Partner Center.
 {: note}
