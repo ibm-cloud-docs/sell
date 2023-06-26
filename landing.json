@@ -35,8 +35,8 @@
       "tiles": [
         {
           "date": "12 April 2023",
-          "title": "Selecting languages for community support",
-          "description": "If you offer a community type of support for your product provided by open source communities, Partner Center now gives you the option to select the languages in which support is provided. By providing support in multiple languages, your customers can communicate their issues in their preferred language and get support more efficiently."
+          "title": "Specify language support for community-supported products",
+          "description": "If you offer a third-party product that is supported by open source communities, you can select the languages in which support is provided when you're onboarding or managing your product in Partner Center. By providing support in multiple languages, your customers can communicate their issues in their preferred language and get support more efficiently."
         },
         {
           "date": "04 October 2022",
