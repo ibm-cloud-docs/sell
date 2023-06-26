@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2023-03-24",
+    "lastupdated": "2023-06-26",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software and services.",
     "section_recommended": [
       {
@@ -34,6 +34,11 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
+          "date": "12 April 2023",
+          "title": "Selecting languages for community support",
+          "description": "If you offer a community type of support for your product provided by open source communities, Partner Center now gives you the option to select the languages in which support is provided. By providing support in multiple languages, your customers can communicate their issues in their preferred language and get support more efficiently."
+        },
+        {
           "date": "04 October 2022",
           "title": "Catalog integration with Virtual Private Cloud custom images",
           "description": "ISV Partners and IBM Cloud customers can now import custom VPC images directly to their account or enterprise, or sell on the IBM Cloud catalog without depending on Terraform."
@@ -42,11 +47,6 @@
           "date": "08 July 2022",
           "title": "Streamlined process for updating support information in Partner Center",
           "description": "Update support information by editing your published information and requesting an approval. After your changes are approved, you can publish the updates."
-        },
-        {
-          "date": "23 June 2022",
-          "title": "Onboarding software to sell on IBM Cloud by using the API",
-          "description": "To sell your product on IBM Cloud, you can now onboard it by using the Partner Center Sell API, in addition to using the Partner Center experience in the console."
         }
       ]
     }
