@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2023
 
-lastupdated: "2023-04-12"
+lastupdated: "2023-08-04"
 
 keywords:
 
@@ -84,7 +84,7 @@ Community products
 
 Use the following steps to select your product's support provider.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select the product that you're onboarding, and click **Support**.
 1. Select your product's support provider.
    1. If you select **Community**, provide the support statement and the URL for the support community, and select the languages in which support is provided.
@@ -180,7 +180,7 @@ If your product is already published to the {{site.data.keyword.cloud_notm}} cat
 
 To update your support information, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product and click **Support**.
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") for the field you want to update.
 1. Click **Save**.

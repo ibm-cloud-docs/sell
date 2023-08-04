@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-05-02"
+lastupdated: "2023-08-04"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -45,7 +45,7 @@ Onboarding your software includes importing a version to your private catalog, c
 
 Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started).
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Select your deployment method.

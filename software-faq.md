@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2023
 
-lastupdated: "2023-03-31"
+lastupdated: "2023-08-04"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -125,7 +125,7 @@ Your session timed out. Make sure to frequently save your updates to maintain yo
 {: faq}
 
 * If you can't find your product, make sure that you are in the correct account.
-* If you are in the correct account and your product is not listed on the **My Products**, your product might have been deleted. You will need to start the onboarding process again.
+* If you are in the correct account and your product is not listed on the **My products**, your product might have been deleted. You will need to start the onboarding process again.
 
 ## How soon is my product approved for publishing?
 {: #approval-time}

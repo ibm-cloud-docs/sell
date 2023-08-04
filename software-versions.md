@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-04-01"
+  years: 2021, 2023
+lastupdated: "2023-08-04"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, version
 
@@ -25,7 +25,7 @@ After onboarding your software, you can add multiple versions of your software t
 
 The following steps are for adding a new version. If you want to deploy your existing version to a new target, see [Deploying a Helm chart to a new target](/docs/sell?topic=sell-helm-target-new).
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product, and select **Software**.
 1. Click **Import a version**.
 1. Select **Helm chart** as your deployment method.
@@ -40,7 +40,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of Terraform
 {: #add-version-terraform}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product, and select **Software**.
 1. Click **Import a version**.
 1. Select **Terraform** as your deployment method.
@@ -55,7 +55,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of an Operator from your own repository
 {: #add-version-operator-own}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 2. Select your product, and select **Software**.
 3. Click **Import a version**.
 4. Select **Operator** as your deployment method.
@@ -75,7 +75,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of an Operator from a Red Hat registry
 {: #add-version-operator-index}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product.
 1. In Software, click **Import a version**.
 1. Select **Operator from Red Hat registry** as your deployment method.
@@ -91,7 +91,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of an OVA image
 {: #add-version-ova}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product.
 1. In Software, click **Import a version**.
 1. Select **OVA image** as your deployment method.
@@ -105,7 +105,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 ## Adding a version of a virtual server image with Terraform
 {: #add-version-vsi}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product.
 1. In Software, click **Import a version**.
 1. Select **Virtual server image with Terraform** as your deployment method.

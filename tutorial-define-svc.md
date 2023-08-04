@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-02-01"
+lastupdated: "2023-08-04"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -56,7 +56,7 @@ For the purposes of this tutorial, complete the following steps to review and su
 
 When you add a product, you can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a new product.  
 
-1. Click **My Products** > **Create**. 
+1. Click **My products** > **Create**. 
 1. Enter the name of your product, for example, `Example Corp SaaS Product`. Make sure that the name you enter meets the following requirements:
   
    * Use 60 characters or less.
