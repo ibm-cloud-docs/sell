@@ -201,7 +201,7 @@ The following table provides detailed information about the pricing models that 
 | Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     |   \n  \nIf Q is <=Q1, T=T1  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n    |   \n  \nQ1=1000, T1=$0  \n  \nQ2=2500, T2=2500  \n  \nQ3=10000, T3=$4500  \n  \nT=$4500  \n  \n            |
 {: caption="Table 8. Pricing models" caption-side="top"}
 
-Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, you can't add any new block tier pricing plans currently.
+Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, currently, you can't add any new block tier pricing plans.
 {: note}
 
 ## Metrics for metering models
