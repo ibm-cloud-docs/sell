@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-03-31"
+lastupdated: "2023-08-17"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -85,7 +85,7 @@ After your product is approved, you're ready to return to Partner Center and pub
 ## Before you begin
 {: #sw-getstart-prereqs}
 
-* Verify that you're using a Pay-As-You-Go or Subscription account. To check which type of account you're using, go to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console.
+* Verify that you're using a Pay-As-You-Go or Subscription account. To check which type of account you're using, go to **Manage > Account > Account settings** in the {{site.data.keyword.cloud_notm}} console.
 
    It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
    {: tip}
@@ -105,8 +105,8 @@ After your product is approved, you're ready to return to Partner Center and pub
 {: #sw-company-product}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
-2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > Overview > Get started**.
+1. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
     The company name doesn't need to be finalized. You can update it later from the My company page in Partner Center if necessary.
     {: tip}
@@ -117,8 +117,8 @@ After your product is approved, you're ready to return to Partner Center and pub
 
 You, or a member of your team, uses the test environment to onboard your product, and validate that it's ready to be published in the {{site.data.keyword.cloud_notm}} catalog. Your test environment includes a private catalog in which you import your product from an external repository.
 
-1. Click **Create** in the "Create your test environment" section on the Before you begin page.
-2. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users you choose.
+1. Click **Create** in the Create your test environment section on the Get started page.
+1. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users you choose.
 
 ## Set up team access
 {: #sw-team-access}
@@ -126,8 +126,8 @@ You, or a member of your team, uses the test environment to onboard your product
 
 If you want to enlist team members to help with the onboarding process, you need to assign them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process, you can organize your team members into a single entity by adding them to an access group.
 
-1. Click **Assign** in the "Assign access for your team" section on the Get started page.
-2. Enter the name of the access group, and click **Assign**. Members of this group are assigned the following roles by default:
+1. Click **Assign** in the Assign access section on the Get started page.
+1. Enter the name of the access group, and click **Create**. Members of this group are assigned the following roles by default:
 
     * Administrator on the catalog management service
     * Editor on the Partner Center - Sell service
@@ -137,21 +137,19 @@ If you want to enlist team members to help with the onboarding process, you need
 
     For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
 
+1. Click **Let's go**.
+
 ## Invite team members to your account
 {: #sw-invite-member}
 {: step}
 
 After you create your access group, you can add team members to the group by inviting them to your account.
 
-1. Click **Invite** in the "Invite users" section on the Get started page.
-2. From the My Team page, click **Invite users**.
-3. Select the user type:
-
-    * Business: A team member who can provide certain details, such as the product logo, description, and customer support experience.
-    * Technical: A team member who can import the product to your test environment, configure the deployment details, and validate it's ready for use.
-
-4. Enter the email address of each user.
-5. Click **Invite**.
+1. Go to **Partner Center > Sell > My team**.
+1. Click **Invite users**.
+1. Enter the email address of the user that you want to invite.
+1. Click the checkbox if the user that you invite is a technical team member who will be doing technical tasks.
+1. Click **Invite**.
 
 ## Next steps
 {: #sw-getstart-next}

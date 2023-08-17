@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2023
 
-lastupdated: "2023-02-09"
+lastupdated: "2023-08-17"
 
 keywords: third-party service, sell on IBM Cloud, resource management console, integrated billing service
 
@@ -95,8 +95,8 @@ Besides being an {{site.data.keyword.Bluemix_notm}} build partner, service onboa
 {: #step1-register}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
-2. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > Overview > Get started**.
+1. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
     The company name doesn't need to be finalized. You can update it later from the My company page in Partner Center if necessary.
     {: tip}
@@ -107,8 +107,8 @@ Besides being an {{site.data.keyword.Bluemix_notm}} build partner, service onboa
 
 A test environment is not needed for onboarding services but is needed for any software that you might onboard in the future. You, or a member of your team, uses the test environment to validate that your software is ready for use.
 
-1. Click **Create** in the "Create your test environment" section on the Get started page.
-2. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users you choose.
+1. Click **Create** in the Create your test environment section on the Get started page.
+1. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users that you choose.
 
 ## Set up team access
 {: #step3-team-access}
@@ -116,8 +116,8 @@ A test environment is not needed for onboarding services but is needed for any s
 
 If you want to enlist team members to help with the onboarding process, you need to assign them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process, you can organize your team members into a single entity by adding them to an access group.
 
-1. Click **Assign** in the "Assign access" section on the Get started page.
-2. Enter the name of the access group, and click **Assign**. Members of this group are assigned the following roles by default:
+1. Click **Assign** in the Assign access section on the Get started page.
+1. Enter the name of the access group, and click **Create**. Members of this group are assigned the following roles by default:
 
     * Administrator on the catalog management service
     * Editor on the Partner Center - Sell service
@@ -127,7 +127,19 @@ If you want to enlist team members to help with the onboarding process, you need
 
     For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
 
-3. Click **Let's go**.
+1. Click **Let's go**.
+
+## Invite team members to your account
+{: #sc-step4-invite-member}
+{: step}
+
+After you create your access group, you can add team members to the group by inviting them to your account.
+
+1. Go to **Partner Center > Sell > My team**.
+1. Click **Invite users**.
+1. Enter the email address of the user that you want to invite.
+1. Click the checkbox if the user that you invite is a technical team member who will be doing technical tasks.
+1. Click **Invite**.
 
 ## Next steps
 {: #gs-next-steps}
