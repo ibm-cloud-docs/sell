@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2023
 
-lastupdated: "2023-06-23"
+lastupdated: "2023-08-17"
 
 keywords: IBM Cloud, metering model, metering service, usage
 
@@ -23,7 +23,7 @@ subcollection: sell
 The following list describes the expectations for tracking and submitting usage:
 
 *	Third-party providers don't need to submit usage for free plans or monthly subscription plans.
-*	For metered plans, all providers must submit usage hourly, and usage for Lite plans must submitted every 15 minutes to 1 hour.
+*	For metered plans, all providers must submit usage hourly, and usage for Lite plans must be submitted every 15 minutes to 1 hour.
 *	You're responsible for automating the usage submission, including automation that retries failure responses. To automate the usage submission, you can create cron jobs, or other similar job schedulers. {{site.data.keyword.cloud_notm}} doesn't provide a retry function for failed submissions. For more information, see the status codes and actions table in [Submitting usage records](/docs/sell?topic=sell-submitusage#usage-records).
 
 ![A diagram that shows third-party providers how the {{site.data.keyword.cloud_notm}} Usage Metering service works when they create a cron job, or other similar job scheduler to automate usage submission.](images/Usage_metering_role.svg "Understanding the function of the {{site.data.keyword.cloud_notm}} Usage Metering service for automating the submission of usage data."){: caption="Figure 1. Understanding the function of the {{site.data.keyword.cloud_notm}} Usage Metering service for automating the submission of usage data."}
@@ -140,8 +140,8 @@ Given a 30-day month, use the following table to calculate the daily proration a
 | Day 1 (night)      | 3                | (8 + 3) / 2   | 5.5 / 1                                | 5.5 (On Day 1 EOD)                               |
 | Day 2 (morning)    | 2                | 2 / 1         | (5.5 + 2) / 2                          | 3.75                                             |
 | Day 2 (night)      | 5                | (2 + 5) / 2   | (5.5 + 3.5) / 2                        | 4.5 (On Day 2 EOD)                               |
-| Day 3 to Day 15    | 1                | 1 / 1         | (5.5 + 3.5 + (1 + 13)  / 15            | 1.4666  (On Day 15 EOD)                          |
-| Day 15 to Day 30   | 0                | 0 / 1         | (5.5 + 3.5 + (1 \* 12) + (0  \* 15) / 30 | 0.7333  (On Day 30 EOD)                          |
+| Day 3 to Day 15    | 1                | 1 / 1         | (5.5 + 3.5 + (1 + 13)  / 15            | 1.4666 (On Day 15 EOD)                          |
+| Day 15 to Day 30   | 0                | 0 / 1         | (5.5 + 3.5 + (1 \* 12) + (0  \* 15) / 30 | 0.7333 (On Day 30 EOD)                          |
 {: caption="Table 5. Average usage per day and monthly average calculations" caption-side="top"}
 
 \* As seen on the same day as when the usage was submitted.
@@ -185,6 +185,9 @@ Given a 30-day month, see the following table to calculate the monthly prorated 
 | Month 1, Day 16  | 1              | 1 * (16/30)                    | 0.5                    |
 {: caption="Table 7. Monthly prorated cost calculations" caption-side="top"}
 
+When you submit your resource usage, the `end` time value is the first day when your customers are billed and all following days in the month are also subject to billing. The `end` and `start` time values must be the same for usage submissions. For more information about submitting your resource usage, see [Submitting resource usage to the {{site.data.keyword.cloud_notm}} Usage Metering API](/docs/sell?topic=sell-service-add-metrics#submit-usage).
+{: note}
+
 ## Pricing models
 {: #pricing-model}
 
@@ -198,7 +201,7 @@ The following table provides detailed information about the pricing models that 
 | Block tier (up to)           | The total amount that is charged is established by an up to quantity that doesn't vary within the block     |   \n  \nIf Q is <=Q1, T=T1  \n  \nIf Q1 < Q <=Q2, T=T2  \n  \nIf Q2 < Q <=Q3, T=T3  \n  \n    |   \n  \nQ1=1000, T1=$0  \n  \nQ2=2500, T2=2500  \n  \nQ3=10000, T3=$4500  \n  \nT=$4500  \n  \n            |
 {: caption="Table 8. Pricing models" caption-side="top"}
 
-Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, you can't add any new block tier pricing plans at this time.
+Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, you can't add any new block tier pricing plans currently.
 {: note}
 
 ## Metrics for metering models
