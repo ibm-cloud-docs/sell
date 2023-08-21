@@ -28,7 +28,7 @@ Select a category tab to explore the fast tracks in that category. Click **See a
 ## Services recommended for you
 {: #services-recommended}
 
-Click the link on a tile to purchase a service, try a service for free, or learn more about it. Click the "Services recommended for you" title to restrict the list of tiles.
+Click the link on a tile to purchase a service, try a service for free, or learn more about it. Click the **Services recommended for you** title to restrict the list of tiles.
 
 
 ## Content recommended for you
