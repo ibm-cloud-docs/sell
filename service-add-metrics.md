@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2023
 
-lastupdated: "2023-02-24"
+lastupdated: "2023-08-31"
 
 keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
@@ -28,10 +28,10 @@ To onboard your service to {{site.data.keyword.cloud_notm}}, you are required to
 Before you can add metrics to your pricing plan, you must complete the following tasks:
 
 1. [Submit tax and Electronic Funds Transfer documentation](/docs/sell?topic=sell-service-pricing-info#submit-tax-eft)
-2. [Export the Control Classification Number (ECCN)](/docs/sell?topic=sell-service-pricing-info#service-eccn)
-3. [Enter the United Nations Standard Products and Services Code (UNSPSC)](/docs/sell?topic=sell-service-pricing-info#service-unspsc)
-4. [Add a paid pricing plan](/docs/sell?topic=sell-service-pricing-info#add-plan-paid)
-5. [Confirm the digital platform reseller agreement](/docs/sell?topic=sell-service-pricing-info#dra)
+1. [Export the Control Classification Number (ECCN)](/docs/sell?topic=sell-service-pricing-info#service-eccn)
+1. [Enter the United Nations Standard Products and Services Code (UNSPSC)](/docs/sell?topic=sell-service-pricing-info#service-unspsc)
+1. [Add a paid pricing plan](/docs/sell?topic=sell-service-pricing-info#add-plan-paid)
+1. [Confirm the digital platform reseller agreement](/docs/sell?topic=sell-service-pricing-info#dra)
 
 ## Adding metrics to your pricing plan
 {: #add-metrics-plan}
@@ -56,7 +56,7 @@ To review how customers understand and experience your pricing plan, and validat
 ### Creating your metering JSON
 {: #create-metering-json}
 
-To submit your resource usage, you must develop a JSON file with your metering information. After you develop your metering JSON, you can submit your resource usage by calling the Usage Metering API. There are specific fields that you must include in the request body of your JSON file to make sure it contains all your metering information. For more information on the required fields and submitting usage records, see the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}.
+To submit your resource usage, you must develop a JSON file with your metering information. After you develop your metering JSON, you can submit your resource usage by calling the Usage Metering API. There are specific fields that you must include in the request body of your JSON file to make sure that it contains all your metering information. For more information on the required fields and submitting usage records, see the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}.
 
 To create the JSON that contains all your metering information, you must include the following fields in the request body:
 
@@ -109,14 +109,30 @@ See the following JSON example that includes the required fields:
 ```
 {: codeblock}
 
-To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your metering approval request must be approved by {{site.data.keyword.cloud_notm}}.
+### Calling the {{site.data.keyword.cloud_notm}} Usage Metering API
+{: #call-metering-api}
 
-You can find the `resource_id` value, which is the Global catalog ID listed on the Brokers page in Partner Center.
-{: tip}
+After you create your metering JSON, you can submit your resource usage by calling the Usage Metering API. To successfully call that API, you must have an {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) token that you can include in your API request. To create an IAM access token, call the [IAM Identity Services API](/apidocs/iam-identity-token-api#gettoken-apikey){: external} as shown in the following sample request:
 
 ```bash
-curl -X POST -H "Authorization: {iam_token}"   -H "Accept: application/json"   -H "Content-Type: application/json"   -d "{REQUEST_BODY}"   "{base_url}/v4/metering/resources/{resource_id}/usage"
+curl -X POST \
+'https://iam.cloud.ibm.com/identity/token' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'grant_type=urn:ibm:params:oauth:grant-type:apikey&apikey=MY_APIKEY'
+```
+{: codeblock}
+{: curl}
 
+For more information, see the [IAM Identity Services API](/apidocs/iam-identity-token-api#introduction){: external}.
+
+To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your metering approval request must be approved by {{site.data.keyword.cloud_notm}}.
+
+```bash
+curl -X POST -H "Authorization: {iam_token}" \
+  -H "Accept: application/json" \  
+  -H "Content-Type: application/json" \  
+  -d "{REQUEST_BODY}" \  
+  "{base_url}/v4/metering/resources/{global_catalog_id}/usage"
 ```
 {: codeblock}
 {: curl}
@@ -247,7 +263,7 @@ resource_instance_usage_model = {
 }
 
 response_accepted = usage_metering_service.report_resource_usage(
-  resource_id=resource_id,
+  global_catalog_id=global_catalog_id,
   resource_usage=[resource_instance_usage_model]).get_result()
 
 print(json.dumps(response_accepted, indent=2))
@@ -352,7 +368,7 @@ To test and submit evidence for your pricing plan, complete the following steps:
 1. Enter your expected usage, then click **Calculate cost**.
 1. Upload evidence of your usage.
      1. Upload a screen capture of the usage data that's generated by the estimator by clicking **Add file**.
-     1. Upload a screen capture of your rated usage by clicking **Add file**. To find your rated usage, in the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**  > **Usage**.
+     1. Upload a screen capture of your rated usage by clicking **Add file**. To find your rated usage, in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Billing and usage > Usage**.
      1. Upload a screen capture of the resource usage data JSON that you previously submitted to the {{site.data.keyword.cloud_notm}} Usage Metering API by clicking **Add file**.
 
     You can upload files in `.jpeg`, `.pdf`, or `.png` file format only.
