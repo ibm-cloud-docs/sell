@@ -54,6 +54,13 @@ toc:
           - tutorial-onboard-vsimage.md
           - tutorial-publish-vsimage.md
       - topicgroup:
+          label: Onboarding a virtual server image for VPC
+          topics:
+          - tutorial-register-vsivpc.md
+          - tutorial-define-vsivpc.md
+          - tutorial-onboard-vsivpc.md
+          - tutorial-publish-vsivpc.md    
+      - topicgroup:
           label: Onboarding a virtual server image for Power Systems
           topics:
           - tutorial-register-vsipower.md
