@@ -77,13 +77,12 @@ After you create the `Example Corp Virtual Server Image` access group, you're re
 * Partner Center - Sell: Complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog.
 * Private catalog: Onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visibility of products in the {{site.data.keyword.cloud_notm}} catalog.
 
-1. Click **Invite** in the Invite team members section.
-1. Select the user type:
+To invite team members to your account, complete the following steps:
 
-    * Business: A team member who can provide certain details, such as the product logo, description, and customer support experience.
-    * Technical: A team member who can import the product to your test environment, configure the deployment details, and validate it's ready for use.
-
-1. Enter the email address of each team member.
+1. Go to **Partner Center > Sell > My team**.
+1. Click **Invite users**.
+1. Enter the email address of the user that you want to invite.
+1. Click the checkbox if the user that you invite is a technical team member who will be doing technical tasks.
 1. Click **Invite**.
 
 ## Next steps
