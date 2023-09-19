@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-08-17"
+lastupdated: "2023-09-19"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -98,6 +98,10 @@ After your product is approved, you're ready to return to Partner Center and pub
     * OVA images deployed on VMware Solutions Dedicated - vCenter Server
     * Virtual server images with Terraform deployed on VPC infrastructure
     * Custom virtual server images deployed on VPC infrastructure
+
+       Onboarding Virtual Server Images for VPC with {{site.data.keyword.IBMz}} deployment support is available in private catalogs. The onboarding experience for {{site.data.keyword.IBMz_notm}}-supported Virtual Server Images is the same as how you onboard other Virtual Server Images in your private catalog.
+       {: note}
+
     * Operators with a TGZ file from GitHub or GitLab repositories
     * Operator bundles from Red Hat OpenShift registries
 
