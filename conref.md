@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2023
 
-lastupdated: "2023-08-04"
+lastupdated: "2023-09-19"
 
 keywords:
 
@@ -32,15 +32,19 @@ The following H2s are going to be reused in several different onboarding topics 
 * H2 - **Define your support experience** - list reuse is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Selecting your product's support provider** is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Providing your product's support information** is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Updating your product's support information** is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Selecting your product's support provider by using the API** is used in the following file:
    * software-support-details.md
 * H2 - **Providing your product's support information by using the API** is used in the following file:
