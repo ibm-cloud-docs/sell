@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2023-06-26",
+    "lastupdated": "2023-09-19",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software and services.",
     "section_recommended": [
       {
@@ -14,9 +14,9 @@
         "href": "/docs/sell?topic=sell-get-started"
       },
       {
-        "title": "Onboarding a virtual server image with Terraform",
-        "description": "Learn how to onboard and publish a sample virtual server image with Terraform.",
-        "href": "/docs/sell?topic=sell-vsimage-register"
+        "title": "Getting set up to sell deployable architectures",
+        "description": "Complete a few initial tasks to start onboarding your deployable architecture to the IBM Cloud catalog.",
+        "href": "/docs/sell?topic=sell-da-getting-started"
       }
     ],
     "section_videos": [
@@ -34,6 +34,11 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
+          "date": "20 September 2023",
+          "title": "Onboard deployable architectures in Partner Center",
+          "description": "You can now onboard deployable architectures in Partner Center and publish them to the IBM Cloud catalog. A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources that are designed for easy deployment, scalability, and modularity that solves a customer-defined problem."
+        },
+        {
           "date": "12 April 2023",
           "title": "Specify language support for community-supported products",
           "description": "If you offer a third-party product that is supported by open source communities, you can select the languages in which support is provided when you're onboarding or managing your product in Partner Center. By providing support in multiple languages, your customers can communicate their issues in their preferred language and get support more efficiently."
@@ -42,11 +47,6 @@
           "date": "04 October 2022",
           "title": "Catalog integration with Virtual Private Cloud custom images",
           "description": "ISV Partners and IBM Cloud customers can now import custom VPC images directly to their account or enterprise, or sell on the IBM Cloud catalog without depending on Terraform."
-        },
-        {
-          "date": "08 July 2022",
-          "title": "Streamlined process for updating support information in Partner Center",
-          "description": "Update support information by editing your published information and requesting an approval. After your changes are approved, you can publish the updates."
         }
       ]
     }
