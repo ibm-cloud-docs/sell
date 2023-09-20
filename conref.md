@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2023
 
-lastupdated: "2023-08-04"
+lastupdated: "2023-09-20"
 
 keywords:
 
@@ -32,15 +32,19 @@ The following H2s are going to be reused in several different onboarding topics 
 * H2 - **Define your support experience** - list reuse is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Selecting your product's support provider** is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Providing your product's support information** is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Updating your product's support information** is used in the following files:
    * service-support.md
    * software-support-details.md
+   * da-support.md
 * H2 - **Selecting your product's support provider by using the API** is used in the following file:
    * software-support-details.md
 * H2 - **Providing your product's support information by using the API** is used in the following file:
@@ -56,7 +60,7 @@ The following H2s are going to be reused in several different onboarding topics 
 1. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.
    1. If you select **Community** for your support provider, provide the URL for the support community.
    1. If you select **Third-party** for your support provider, use the following steps to complete the necessary fields.
-1. Click **Add support details** and complete the necessary fields, then click **Save** to add each detail.  You must add at least 1 support detail for your product.
+1. Click **Add support details** and complete the necessary fields, then click **Save** to add each detail. You must add at least 1 support detail for your product.
 1. After you add all of your product's support details, provide the required URLs for your product.
 1. Add all locations where you provide support for your product.
 1. Add your escalation information. Do not use a personal phone number or email.
@@ -182,7 +186,7 @@ To update your support information, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
 1. Select your product and click **Support**.
-1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") for the field you want to update.
+1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") for the field that you want to update.
 1. Click **Save**.
 
     You can revert to the published state of your support information by clicking **Revert changes**.

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-08-28"
+lastupdated: "2023-09-20"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, deprecate, partner center, sellers, catalog, remove, delete, deprecate
 
@@ -16,10 +16,10 @@ subcollection: sell
 # Deprecating your deployable architecture from the {{site.data.keyword.cloud_notm}} catalog
 {: #da-deprecate}
 
-You can permanently delete your product or version from the {{site.data.keyword.cloud}} catalog by deprecating them first. Your product remains available for use during a 90-day deprecation period, and is removed after 90 days.
+You can permanently delete your deployable architecture or its version from the {{site.data.keyword.cloud}} catalog by deprecating them first. Your product remains available for use during a 90-day deprecation period, and is removed after 90 days.
 {: shortdesc}
 
-## Deprecating deployable architecture from the {{site.data.keyword.cloud_notm}} catalog
+## Deprecating deployable architectures from the {{site.data.keyword.cloud_notm}} catalog
 {: #deprecate-da-catalog}
 
 To deprecate your entire product, complete the following steps:

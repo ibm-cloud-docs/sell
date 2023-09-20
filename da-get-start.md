@@ -3,7 +3,7 @@
 copyright:
   years: 2023
 
-lastupdated: "2023-09-07"
+lastupdated: "2023-09-20"
 
 keywords: onboard deployable architecture, third-party deployable architecture, getting started, deployable architecture, partner, sellers, partner portal, partner center, partner center sell
 
@@ -23,9 +23,6 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-This topic is in progress.
-{: note}
-
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your deployable architecture to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, set up access for your team to help with the onboarding process, and confirm your legal agreement with {{site.data.keyword.IBM_notm}}.
 {: shortdesc}
 
@@ -39,7 +36,7 @@ Welcome to {{site.data.keyword.cloud}}! To start onboarding your deployable arch
 
 * Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 
-* The only supported deployable architecture type is Terraform.
+* The only deployable architecture type that {{site.data.keyword.cloud_notm}} supports currently is Terraform.
 
 ## Provide your company name
 {: #da-company-product}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2023
 
-lastupdated: "2023-09-07"
+lastupdated: "2023-09-20"
 
 keywords: end-to-end, deployable architecture, checklist, third party, requirements, sellers, partner portal, partners, third-party deployable architecture, partner center sell
 
@@ -16,9 +16,6 @@ subcollection: sell
 
 # Checklist for selling deployable architectures on {{site.data.keyword.cloud_notm}}
 {: #checklist-da}
-
-This topic is in progress.
-{: note}
 
 Use the following checklist to track all the tasks that are required to successfully onboard and sell your third-party deployable architecture on {{site.data.keyword.cloud}}.
 {: shortdesc}

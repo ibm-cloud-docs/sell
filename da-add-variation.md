@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-05"
+lastupdated: "2023-09-20"
 
 keywords: deployable architecture, third party, product center sell, variation, add variation, add version, deployable architecture version, partner center, partners, deployable architecture variation
 
@@ -16,10 +16,7 @@ subcollection: sell
 # Adding deployable architecture variations
 {: #da-variation}
 
-This topic is in progress.
-{: note}
-
-You can add up to three variations to your deployable architecture based on your business needs. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for your customers to try out that might be considered small, medium, or large variations. A variation addresses a common business problem that your deployable architecture solves, but the implementation differs. Also, each deployable architecture variation can have more than one version. Provide a unique display name for the different variations during onboarding, and at least one architecture diagram for each variation. You must specify the same version number during onboarding to connect multiple variations together in a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} console.
+You can add up to three variations to your deployable architecture based on your business needs. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for your customers to try out that might be considered small, medium, or large variations. A variation addresses a common business problem that your deployable architecture solves, but the implementation differs. Also, each deployable architecture variation can have more than one version. Provide a unique display name for the different variations during onboarding, and at least one architecture diagram for each variation. You must specify the same version number during onboarding to connect multiple variations together in a single deployable architecture tile.
 {: shortdesc}
 
 ## Adding variations to your deployable architecture
@@ -34,7 +31,7 @@ To add a variation to your deployable architecture, complete the following steps
 1. Select the type of repository. If the source for your deployable architecture is located in a private repository, you need to authenticate with a personal access token.
 1. Enter the source URL. This URL must end in `tar.gz`.
 1. Enter the variation display name.
-1. Enter the version in the format of major version, minor version, and revision, for example, `1.0.0`.
+1. Enter the version in the format of major version, minor version, and revision, for example `1.0.0`.
 1. Click **Add version**.
 
 ## Configuring your version

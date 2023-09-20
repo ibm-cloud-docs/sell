@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-08-28"
+lastupdated: "2023-09-20"
 
 keywords: deployable architecture, third party, product center sell, publish deployable architecture, partner center, partners, sellers
 
@@ -15,9 +15,6 @@ subcollection: sell
 
 # Publishing your deployable architecture
 {: #da-publish}
-
-This topic is in progress.
-{: note}
 
 As the last step in the onboarding process, you can submit a request to publish your third-party deployable architecture to the {{site.data.keyword.cloud}} catalog. When you publish your deployable architecture to the catalog, you can choose to publish it to all {{site.data.keyword.cloud_notm}} users in the catalog or to only specific accounts. If you choose to publish to specific accounts, your product is available only for users in those accounts.
 {: shortdesc}
@@ -35,7 +32,7 @@ Before you can publish your product to the catalog, you must submit your deploya
 1. Select **I confirm that my company is authorized to use all materials**.
 1. Click **Request approval**.
 
-Your publishing request is reviewed by {{site.data.keyword.IBM_notm}} to ensure the required details, such as the product name, catalog entry, product page, and support experience are complete and accurate. When your request is approved, you receive an email that notifies you that you can publish your product to the catalog.
+Your publishing request is reviewed by {{site.data.keyword.IBM_notm}} to make sure that the required details, such as the product name, catalog entry, product page, and support experience are complete and accurate. When your request is approved, you receive an email that notifies you that you can publish your product to the catalog.
 
 If updates are required, you receive a separate email with details about the required updates. If you have questions about the feedback, from the My products page click the **Help** icon ![Help icon](../icons/help.svg "Help"), and then click **Contact us**. After you address all review feedback, you can submit another publishing request.
 {: note}
