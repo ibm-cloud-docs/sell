@@ -22,7 +22,7 @@ Deployable architectures have no costs, although the resources that they create 
 ## Before you begin
 {: #before-da-pricing}
 
-Before you can review the pricing details of your deployable architecture, you must add at least one variation to your product as that has an estimated starting cost.
+Before you can review the pricing details of your deployable architecture, you must add at least one variation to your product as that has an estimated starting cost. For more information, see [Adding deployable architecture variations](/docs/sell?topic=sell-da-variation&interface=ui).
 
 ## Reviewing the estimated starting cost of your product
 {: #review-da-cost}
