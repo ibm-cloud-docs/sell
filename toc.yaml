@@ -23,6 +23,11 @@ toc:
           - software-get-start.md
           - software-checklist.md
       - topicgroup:
+           label: Understanding how to sell deployable architectures
+           topics:
+           - da-get-start.md
+           - da-checklist.md    
+      - topicgroup:
           label: Understanding how to sell services
           topics:
           - service-get-start.md
@@ -125,6 +130,16 @@ toc:
               label: Assigning account members access to Partner Center
               topics:
               - include: ../account/iam-account_management.md
+      - topicgroup:
+          label: Selling deployable architectures
+          topics:
+            - da-create.md
+            - da-catalog-details.md
+            - da-support.md
+            - da-add-variation.md
+            - da-pricing.md
+            - da-publish.md
+            - da-deprecate.md        
       - topicgroup:
           label: Selling services
           topics:

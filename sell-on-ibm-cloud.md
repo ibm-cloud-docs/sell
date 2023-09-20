@@ -3,9 +3,9 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-04-20"
+lastupdated: "2023-09-20"
 
-keywords: onboard software, onboard service, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
+keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, third-party deployable architecture, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
 subcollection: sell
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Selling on {{site.data.keyword.cloud_notm}}
 {: #selling-clouds}
 
-Are you looking to sell your software or services on {{site.data.keyword.cloud}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service creation, metering, and billing. Join our strategic growing network of 70 ISV partners with over 600,000 active monthly users.
+Are you looking to sell your software, services, or deployable architectures on {{site.data.keyword.cloud}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service creation, metering, and billing. Join our strategic growing network of 70 ISV partners with over 600,000 active monthly users.
 {: shortdesc}
 
 ## Before you begin
@@ -67,21 +67,19 @@ Verify that the following software deployment scripts and package dependencies a
 
 * Operator bundles from {{site.data.keyword.redhat_openshift_notm}} registries
 
-## Software or services?
-{: #software-or-services}
+## What kind of product do you want to sell?
+{: #selling-software-services}
 
-Do you want to sell your third-party service on {{site.data.keyword.Bluemix_notm}}? Or do you want to onboard your software to our {{site.data.keyword.Bluemix_notm}} platform? You might have a software application that users can manage and install, or a software-based service you can manage for users.
+By using Partner Center Sell to onboard your product, you can create a tile to offer your product in the {{site.data.keyword.cloud_notm}} catalog. You might have a software application that users can manage and install, a software-based service, or a deployable architecture that combines a set of products that you can offer for customers to solve a business problem or need.
 
-You can use our expanding catalog of software solutions to take advantage of a simplified installation process. You can also bring your own licenses, or offer your third-party software for free. For more information, see [Software](https://cloud.ibm.com/catalog#software).
-
-If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.Bluemix_notm}} by defining your service, building pricing plans, and creating brokers. For more information, see [Services](https://cloud.ibm.com/catalog#services).
+Take advantage of a simplified installation and deployment process for your customers through the {{site.data.keyword.cloud_notm}} catalog. Review the following sections to understand how your product can be offered through {{site.data.keyword.cloud_notm}}.
 
 ### Software
-{: #software}
+{: #selling-sotware}
 
 Software includes containerized applications or system images that your customers can run on their own infrastructure.
 
-{{site.data.keyword.cloud_notm}} supports the following types of third-party software:
+Types of third-party software that {{site.data.keyword.cloud_notm}} supports include:
 
 - Operators for adding services
 - Cloud Pak for installing services
@@ -89,13 +87,14 @@ Software includes containerized applications or system images that your customer
 - Images for Power Systems (virtual server image)
 - Terraform templates for configuration
 - Helm charts for working with applications
+- Virtual server image for VPC
 
-Your software can be deployed onto specified targets, including {{site.data.keyword.containerlong}}, {{site.data.keyword.openshiftlong}}, {{site.data.keyword.powerSys_notm}}, {{site.data.keyword.bpshort}}, Virtual Private Cloud and vCenter Server.
+Your software can be deployed onto specified targets, including {{site.data.keyword.containerlong}}, {{site.data.keyword.openshiftlong}}, {{site.data.keyword.powerSys_notm}}, {{site.data.keyword.bpshort}}, Virtual Private Cloud, and vCenter Server.
 
-The process is as simple as selecting the Deployable software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join. For more information, see [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
+The process is as simple as selecting the Deployable Software option, providing company information, creating a suitable test environment, setting up team access, and inviting team members to join. For more information, see [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started) and [Onboarding your software](/docs/sell?topic=sell-sw-validate).
 
 ### Services
-{: #services}
+{: #selling-service}
 
 Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}}. If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.cloud_notm}} by defining your service, building pricing plans, and creating brokers.
 
@@ -125,3 +124,14 @@ Categories of third-party services that fit within the service types include:
 - Mobile services for building and starting mobile applications
 
 The process includes registering your service with {{site.data.keyword.cloud_notm}}, defining your product and its pricing plans, and linking a broker. For more information, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
+
+### Deployable architectures
+{: #selling-da}
+
+A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources that are designed for easy deployment, scalability, and modularity that solves a customer-defined problem. A deployable architecture can have one or more architecture variations and multiple configurations for those architectures, based on the customer business needs. Deployable architectures can be onboarded to the {{site.data.keyword.cloud_notm}} catalog and are displayed as tiles in the catalog after you go through the publishing process and get approval in Partner Center.
+
+Deployable architectures are different from software in that they require an architecture diagram, and offer the ability to list dependencies. A deployable architecture can have up to three architecture variations. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for a user to try out that might be considered small, medium, or large variations. Or, the different architectures might be based on capability or complexity for running a proof of concept or production workload that uses names like quick start, standard, or advanced.
+
+The only deployable architecture type that {{site.data.keyword.cloud_notm}} supports currently is Terraform.
+
+For more information about the deployable architecture onboarding process, see [Getting set up to sell deployable architectures](/docs/sell?topic=sell-da-getting-started&interface=ui).
