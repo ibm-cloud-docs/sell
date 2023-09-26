@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-20"
+lastupdated: "2023-09-26"
 
 keywords: deployable architecture, third party, product center sell, deployable architecture, estimated cost, pricing, resource cost, starting cost
 
@@ -22,7 +22,7 @@ Deployable architectures have no costs, although the resources that they create 
 ## Before you begin
 {: #before-da-pricing}
 
-Before you can review the pricing details of your deployable architecture, you must add at least one variation to your product as that has an estimated starting cost. For more information, see [Adding deployable architecture variations](/docs/sell?topic=sell-da-variation&interface=ui).
+Before you can review the pricing details of your deployable architecture, you must add at least one variation to your product as that has an estimated starting cost. For more information, see [Adding deployable architecture variations](/docs/sell?topic=sell-da-variation).
 
 ## Reviewing the estimated starting cost of your product
 {: #review-da-cost}
@@ -38,3 +38,7 @@ You can review the estimated resource costs of your product by completing the fo
 The estimated resource cost table lists the resources that your product uses and their estimated costs. Starting cost is an estimate based on available data. It does not include all resources, usage, license, fees, discounts, or taxes.
 {: note}
 
+## Next steps
+{: #da-next-pricing}
+
+[Submit your request to publish your deployable architecture to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-da-publish).

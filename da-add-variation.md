@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-20"
+lastupdated: "2023-09-26"
 
 keywords: deployable architecture, third party, product center sell, variation, add variation, add version, deployable architecture version, partner center, partners, deployable architecture variation
 
@@ -49,4 +49,9 @@ After you add a version, you can configure it by completing the following steps:
 1. Review the estimated starting cost of your product, and click **Next**.
 1. On the Manage compliance page, manage the security and compliance information for your version. Click **Next**.
 1. Finalize your version and review whether all requirements are completed. Then click **Go to Partner Center**.
+
+## Next steps
+{: #da-next-variation}
+
+[Review the pricing details of your deployable architecture](/docs/sell?topic=sell-da-pricing&interface=ui).
 

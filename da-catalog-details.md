@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-20"
+lastupdated: "2023-09-26"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, partner, sellers, partner center, catalog details, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -87,7 +87,7 @@ Relevant keywords enable your product to appear in search results when users sea
 ## Defining your product page
 {: #da-catalog-about}
 
-When users select your product from the catalog, they are directed to additional details, including a list of features and supporting media. These details are displayed on the About tab within your product page.
+When users select your product from the catalog, they are directed to additional details, including a detailed description of your product and a list of features. These details are displayed on the About tab within your product page.
 
 ### Providing a detailed description of your product
 {: #da-catalog-long-desc}
@@ -108,18 +108,6 @@ A list of features can highlight your product's attributes and benefits for user
 1. Click **Add new** and provide a title and a description for the feature.
 1. Click **Save**.
 
-### Providing media
-{: #da-catalog-media}
-
-Providing links to high-quality images or videos helps illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo. To provide media for your product, complete the following steps:
-
-1. From the Product details tab, click **Add media**.
-1. Click **Add media** and select the media type, provide the media URL and a descriptive caption that indicates what the media illustrates.
-1. Click **Save**.
-
-Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features.
-{: tip}
-
 ### Providing your documentation URL
 {: #da-catalog-url}
 
@@ -127,4 +115,9 @@ Your documentation link is used to direct users to your product's warranted docu
 
 1. From the Product details tab, click **Add your documentation URL**.
 1. Provide a link to your warranted product documentation, and click **Save**.
+
+## Next steps
+{: #da-next-catalog}
+
+[Define the support experience for your deployable architecture](/docs/sell?topic=sell-da-support-details&interface=ui).
 

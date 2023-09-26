@@ -3,7 +3,7 @@
 copyright:
   years: 2023
 
-lastupdated: "2023-09-20"
+lastupdated: "2023-09-26"
 
 keywords: onboard deployable architecture, third-party deployable architecture, getting started, deployable architecture, partner, sellers, partner portal, partner center, partner center sell
 
@@ -110,7 +110,6 @@ Complete the following steps to review and submit the {{site.data.keyword.IBM_no
 
 Now that you completed the getting started tasks, you're ready to [continue with the onboarding process](/docs/sell?topic=sell-create-da-product&interface=ui).
 
-To get an overview of all the tasks involved in the process, see [Checklist for selling deployable architectures on {{site.data.keyword.cloud_notm}}](/docs/sell?topic=sell-checklist-da&interface=ui).
+To get an overview of all the tasks involved in the process, see the [checklist for selling deployable architectures on {{site.data.keyword.cloud_notm}}](/docs/sell?topic=sell-checklist-da&interface=ui).
 {: tip}
-
 
