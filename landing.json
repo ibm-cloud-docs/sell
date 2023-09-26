@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2023-09-20",
+    "lastupdated": "2023-09-26",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software, deployable architectures and services.",
     "section_recommended": [
       {
@@ -35,7 +35,7 @@
       "tiles": [
         {
           "date": "20 September 2023",
-          "title": "Onboard deployable architectures in Partner Center",
+          "title": "Support for onboarding third-party deployable architectures in Partner Center",
           "description": "You can now onboard deployable architectures in Partner Center and publish them to the IBM Cloud catalog. A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources that are designed for easy deployment, scalability, and modularity that solves a customer-defined problem."
         },
         {
