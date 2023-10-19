@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-26"
+lastupdated: "2023-10-19"
 
 keywords: deployable architecture, third party, product center sell, deployable architecture, estimated cost, pricing, resource cost, starting cost
 
@@ -29,7 +29,7 @@ Before you can review the pricing details of your deployable architecture, you m
 
 You can review the estimated resource costs of your product by completing the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select your product and go to the Variation tab.
 1. Select a variation from the table by clicking it. Then, go to the Pricing tab.
 1. Select a product version in the Estimated resource costs section.

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-04"
+lastupdated: "2023-10-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -29,7 +29,7 @@ The contents of a catalog entry include the company or product logo, a short des
 {: #catalog-logo}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding, and click **Product details**.
 1. Click **Add logo**.
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`, and **Save**.

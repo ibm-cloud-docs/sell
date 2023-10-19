@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2023
 
-lastupdated: "2023-08-31"
+lastupdated: "2023-10-19"
 
 keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
@@ -40,7 +40,7 @@ If you offer a paid integrated product and add a paid pricing plan that requires
 
 To add metrics to your pricing plan, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Select a usage-based plan from the table and click **Add metrics**.
 1. In the Usage metrics section, click **Add metrics**.

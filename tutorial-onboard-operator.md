@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-03-31"
+lastupdated: "2023-10-19"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
@@ -54,7 +54,7 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 {: #operator-onboard-import}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Choose **Operator from GitHub repository** as your deployment method.

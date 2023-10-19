@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-08-04"
+lastupdated: "2023-10-19"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, publish, tutorial, sample
 
@@ -42,7 +42,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 The details of any third-party service must be reviewed by {{site.data.keyword.cloud_notm}} before it can be published to the catalog. Complete the following steps to submit a request to publish your service:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. From the Onboarding checklist, click **Request Approval**.
 1. Click **Request Approval**.

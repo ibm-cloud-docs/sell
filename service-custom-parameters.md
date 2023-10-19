@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022
+  years: 2022, 2023
 
-lastupdated: "2022-07-29"
+lastupdated: "2023-10-19"
 
 keywords: IBM Cloud, selling services, custom, parameters
 
@@ -31,7 +31,7 @@ Partner center offers two input options for the required customer information. Y
 
 To add custom fields for simple use cases, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. Click **Product details**.
 1. To add custom setup options, click **Add custom fields**.
@@ -49,7 +49,7 @@ To add custom fields for simple use cases, complete the following steps:
 
 To add custom fields for complex use cases, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. Click **Product details**.
 1. To add custom setup options, click **Add custom option**.

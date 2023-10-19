@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-09-19"
+lastupdated: "2023-10-19"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -109,7 +109,7 @@ After your product is approved, you're ready to return to Partner Center and pub
 {: #sw-company-product}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > Overview > Get started**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Overview > Get started**.
 1. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
     The company name doesn't need to be finalized. You can update it later from the My company page in Partner Center if necessary.
@@ -149,7 +149,7 @@ If you want to enlist team members to help with the onboarding process, you need
 
 After you create your access group, you can add team members to the group by inviting them to your account.
 
-1. Go to **Partner Center > Sell > My team**.
+1. Go to **Partner Center > My team**.
 1. Click **Invite users**.
 1. Enter the email address of the user that you want to invite.
 1. Click the checkbox if the user that you invite is a technical team member who will be doing technical tasks.

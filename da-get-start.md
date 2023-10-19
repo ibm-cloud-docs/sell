@@ -3,7 +3,7 @@
 copyright:
   years: 2023
 
-lastupdated: "2023-09-26"
+lastupdated: "2023-10-19"
 
 keywords: onboard deployable architecture, third-party deployable architecture, getting started, deployable architecture, partner, sellers, partner portal, partner center, partner center sell
 
@@ -42,7 +42,7 @@ Welcome to {{site.data.keyword.cloud}}! To start onboarding your deployable arch
 {: #da-company-product}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > Overview > Get started**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Overview > Get started**.
 1. Enter the name of your company as you want it to be displayed in the {{site.data.keyword.cloud_notm}} catalog.
 
     The company name doesn't need to be finalized. You can update it later from the My company page in Partner Center if necessary.
@@ -82,7 +82,7 @@ If you want to enlist team members to help with the onboarding process, you need
 
 After you create your access group, you can add team members to the group by inviting them to your account.
 
-1. Go to **Partner Center > Sell > My team**.
+1. Go to **Partner Center > My team**.
 1. Click **Invite users**.
 1. Enter the email address of the user that you want to invite.
 1. Click the checkbox if the user that you invite is a technical team member who will be doing technical tasks.
@@ -99,7 +99,7 @@ Custom digital provider agreements must be reviewed and approved by {{site.data.
 
 Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
-1. Go to **Partner Center > Sell > My company**.
+1. Go to **Partner Center > My company**.
 1. Click **Edit**.
 1. Choose **I plan to offer usage-based pricing plans** from the Agreements section.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** link to review the agreement.

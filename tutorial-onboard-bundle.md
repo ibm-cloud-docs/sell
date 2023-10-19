@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-10-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -49,7 +49,7 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 {: #bundle-onboard-import}
 {: step}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding.
 1. From the Software tab, click **Import a version**.
 1. Select **Operator from {{site.data.keyword.redhat_notm}} registry** as your deployment method.

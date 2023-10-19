@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2023
 
-lastupdated: "2023-06-20"
+lastupdated: "2023-10-19"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -47,7 +47,7 @@ For services that you offer on {{site.data.keyword.cloud_notm}} with a paid, usa
 
 To provide tax and EFT information, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to me**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Payments to me**.
 1. Download the relevant EFT form, and complete it.
 
     One of three types of bank documents is required to be submitted with the form. You can submit a scanned copy of a voided check or a bank letter that is signed and stamped by the bank. If you are outside of the United States, you can alternatively provide an online bank statement. The document that you provide must include the bank name, account number, routing number (or bank key or ABA), and the account holder's name.
@@ -65,7 +65,7 @@ To start defining your pricing model, you must provide the ECCN that applies to 
 You must submit your tax and EFT documents and receive approval before you can provide the ECCN if you're using a usage-based pricing plan.
 {: note}
 
-1. Go to **Partner Center** > **Sell** > **My products**.
+1. Go to **Partner Center** > **My products**.
 1. Open the service that you want to edit and go to the **Pricing** tab.
 1. Click **Enter your ECCN** and provide the ECCN for your service.
 1. Click **Save**.
@@ -80,7 +80,7 @@ In addition to ECCN, you must provide the UNSPSC that applies to your product. T
 
 To provide the UNSPSC code that applies to your product, complete the following steps:
 
-1. Go to **Partner Center** > **Sell** > **My products**.
+1. Go to **Partner Center** > **My products**.
 1. Open the service that you want to edit and go to the **Pricing** tab.
 1. Click **Add UNSPSC** and select the UNSPSC code for your service.
 1. Click **Save**.
@@ -100,7 +100,7 @@ If you plan to offer free plans, it is required to review and submit the {{site.
 
 Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement:
 
-1. Go to **Partner Center** > **Sell** > **My company**.
+1. Go to **Partner Center** > **My company**.
 1. Click **Edit**.
 1. Choose **I plan to offer free pricing plans** from the Agreements section.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement.
@@ -114,7 +114,7 @@ If you plan to offer paid, usage-based pricing plans, it is required to review a
 
 Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
-1. Go to **Partner Center** > **Sell** > **My company**.
+1. Go to **Partner Center** > **My company**.
 1. Click **Edit**.
 1. Choose **I plan to offer usage-based pricing plans** from the Agreements section.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** link to review the agreement.
@@ -133,7 +133,7 @@ You must complete all of the prerequisites from the Before you begin section to 
 
 By adding a free plan, you are indicating that your product does not require any payment or license to use. To add a free plan for your service, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Click **Add plan**.
 1. Select **Free** from the Type section.
@@ -157,7 +157,7 @@ When you add a usage-based pricing plan, you provide your suggested retail prici
 
 To add a paid pricing plan for your service, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Click **Add plan**.
 1. Select **Usage-based**.
@@ -189,7 +189,7 @@ You can add up to five features for your product, but you must add at least one.
 
 To add features for your service, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Click **Add metrics**.
 1. Click **Add feature**.

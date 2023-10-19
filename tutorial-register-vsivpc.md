@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-10-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, vpc, vsi, register, virtual private cloud
 
@@ -39,7 +39,7 @@ Before you register a virtual server image for VPC, make sure that you do the fo
 {: #vsivpc-reg-company}
 {: step}
 
-1.  In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Overview**, then click **Get started**.
+1.  In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Overview**, then click **Get started**.
 2. Enter the name of your company as you want it to be displayed in the catalog, and click **Save**. For this tutorial, enter `Example Corp` as the company name.
 
 ## Create your test environment
@@ -79,7 +79,7 @@ After you create the `Example Corp Virtual Server Image` access group, you're re
 
 To invite team members to your account, complete the following steps:
 
-1. Go to **Partner Center > Sell > My team**.
+1. Go to **Partner Center > My team**.
 1. Click **Invite users**.
 1. Enter the email address of the user that you want to invite.
 1. Click the checkbox if the user that you invite is a technical team member who will be doing technical tasks.

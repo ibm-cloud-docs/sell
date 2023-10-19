@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2022
+  years: 2022, 2023
 
-lastupdated: "2022-08-02"
+lastupdated: "2023-10-19"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -55,7 +55,7 @@ Complete the following steps to import your virtual server image from your GitHu
 You can onboard only stock virtual server images for {{site.data.keyword.powerSys_notm}}.
 {: important}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**..
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. From the Software tab, click **Import a version**.
 1. Select **Virtual server image for Power Systems** as your deployment method.

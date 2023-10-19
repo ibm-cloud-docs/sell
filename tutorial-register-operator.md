@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2023
 
-lastupdated: "2021-12-02"
+lastupdated: "2023-10-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, register, Red Hat OpenShift, cluster, Node-RED Operator, Kubernetes cluster, operator
 
@@ -38,7 +38,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 {: #operator-reg-company}
 {: step}
 
-1.  In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Get started**.
+1.  In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Overview** > **Get started**.
 1. Enter the name of your company as you want it to be displayed in the catalog, and click **Save**. For the purpose of this tutorial, enter `Example Corp` as the company name.
 
 ## Create your test environment

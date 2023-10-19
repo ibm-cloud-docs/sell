@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2022
-lastupdated: "2022-06-03"
+  years: 2022, 2023
+lastupdated: "2023-10-19"
 
 keywords: service, third party, publish service, partners
 
@@ -25,7 +25,7 @@ As the last step in the onboarding process, you can submit a request to publish 
 
 Before you can publish your product to the catalog, your service must be submitted for approval.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you are onboarding.
 1. Review the details on each tab to ensure that everything is accurate.
 1. Click **Request approval**.
@@ -43,7 +43,7 @@ After your publishing request is approved, you can publish your service to the {
 
 To publish your service to the catalog, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. Click **Publish**.
 1. Select a version of your product that you want to publish, and click **Publish**.
