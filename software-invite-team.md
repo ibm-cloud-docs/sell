@@ -2,9 +2,9 @@
 
 
 copyright:
-  years: 2021
+  years: 2021, 2023
 
-lastupdated: "2021-12-02"
+lastupdated: "2023-10-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, invite team, IAM, access
 
@@ -27,7 +27,7 @@ When you invite team members to your account, they are assigned editor access to
 
 Complete the following steps to invite team members to your account:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My Team**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My team**.
 1. Click **Invite users**.
 1. Enter the email address of each user.
 1. Click **Invite**.

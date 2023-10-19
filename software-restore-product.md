@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-07-15"
+  years: 2021, 2023
+lastupdated: "2023-10-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, restore
 
@@ -25,7 +25,7 @@ After you deprecate your product or version, your software enters a 90-day depre
 
 Complete the following steps to restore your product:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the product that you want to restore, and select **Restore**.
 
 Complete the following steps to restore your version:

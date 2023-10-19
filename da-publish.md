@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-20"
+lastupdated: "2023-10-19"
 
 keywords: deployable architecture, third party, product center sell, publish deployable architecture, partner center, partners, sellers
 
@@ -24,7 +24,7 @@ As the last step in the onboarding process, you can submit a request to publish 
 
 Before you can publish your product to the catalog, you must submit your deployable architecture for approval. To submit a request to publish your product, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select your product.
 1. Review the details on each tab to ensure that everything is accurate.
 1. From the Onboarding checklist, click **Request approval**, and select the product version that you want to submit for publishing approval.
@@ -42,7 +42,7 @@ If updates are required, you receive a separate email with details about the req
 
 To publish your deployable architecture to the {{site.data.keyword.cloud_notm}} catalog after you receive approval, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select the product that you want to publish.
 1. Click **Publish**.
 1. Select **{{site.data.keyword.cloud_notm}} catalog**.
@@ -58,7 +58,7 @@ As a third-party provider, you're responsible for maintaining all assets of the 
 
 If you don't want your product to be publicly available to all users in the {{site.data.keyword.cloud_notm}} catalog, you can choose to publish it to only the accounts that you specify. To publish your product to specific accounts, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select the product that you want to publish.
 1. Click **Publish**.
 1. Select **Accounts**, and choose the current account or enterprise that you're logged in to. Click **Add accounts** to specify other accounts, enterprises, and account groups that you want to publish your product to.
@@ -71,7 +71,7 @@ After you publish your product to only the accounts that you specified, your pro
 
 If you published your product to only specific accounts and you want to add other accounts to publish your product to, or make it available to all users in the {{site.data.keyword.cloud_notm}} catalog, you can change the visibility of your product. To manage the publish visibility of your product, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select your product.
 1. Click **Manage publish visibility**.
 1. Choose from the **{{site.data.keyword.cloud_notm}} catalog** or **Accounts** options based on where you want to publish your product to.

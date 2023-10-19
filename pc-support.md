@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2023
 
-lastupdated: "2023-02-21"
+lastupdated: "2023-10-19"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -43,7 +43,7 @@ Contact a Partner Center onboarding specialist, if you have questions about the 
 
 To contact an onboarding specialist, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. From the My products page, click the **Help** icon ![Help icon](../icons/help.svg "Help").
 1. From the We're here to help tile, select **Contact Us**.
 1. Describe your issue or question in the message field and click **Send**.

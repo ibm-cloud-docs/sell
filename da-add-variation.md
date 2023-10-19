@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-26"
+lastupdated: "2023-10-19"
 
 keywords: deployable architecture, third party, product center sell, variation, add variation, add version, deployable architecture version, partner center, partners, deployable architecture variation
 
@@ -24,7 +24,7 @@ You can add up to three variations to your deployable architecture based on your
 
 To add a variation to your deployable architecture, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select your product and go to the Variation tab.
 1. Click **Add**. This step directs you to Catalog management.
 1. Select your delivery method.
@@ -39,7 +39,7 @@ To add a variation to your deployable architecture, complete the following steps
 
 After you add a version, you can configure it by completing the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > Sell > My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select your product and go to the Variation tab. Click the **Table expand** icon ![Table expand icon](../icons/table-expand.svg "Table expand") on a variation and click **View details**.
 1. On the Configure version page, confirm your version details and add deployment values for your version, then click **Next**.
 1. On the Add deployable architecture details page, add architecture diagrams and highlights for your deployable architecture, then click **Next**.

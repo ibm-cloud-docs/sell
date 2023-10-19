@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-06-20"
+lastupdated: "2023-10-19"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -43,7 +43,7 @@ As part of this tutorial, you add a usage-based pricing plan. To receive disburs
 
 To provide tax and EFT information, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **Payments to me**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Payments to me**.
 1. Download the relevant EFT form, and complete it.
 
     A scanned copy of a voided check is required when you submit this form.

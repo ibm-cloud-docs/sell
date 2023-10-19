@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-08-04"
+lastupdated: "2023-10-19"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software, company details
 
@@ -23,7 +23,7 @@ As an account administrator, you can update your company and product details in 
 {: #sw-details-company}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. Click **Dashboard**.
 1. To update the company name or primary contact, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to each field.
@@ -41,7 +41,7 @@ You can update your partner information only through the UI. To view the steps, 
 {: #sw-details-company-name-dpa}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. Click **Edit company** in the **Company** section.
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
@@ -71,7 +71,7 @@ a7ba-b6f0435c9673/catalog \
 {: #sw-details-product}
 {: ui}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Sell** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
 1. Click **Dashboard**.
 1. To update the name of the product, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). Make sure that your product name meets the following requirements:

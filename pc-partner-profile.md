@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-02"
+  years: 2021, 2023
+lastupdated: "2023-10-19"
 
 keywords: partner center, partner profile, third-party, enroll, credits, workshops, events, fast tracks, get started
 
@@ -42,5 +42,5 @@ You're all set! Now that you're enrolled, you have a few options as far as what 
    Need to update your profile and preferences? Click **Partner profile** to navigate to the details.
    {: tip}
 
-- Ready to onboard and sell your product right away? Click **Sell** > **Overview** > **Get started**.
+- Ready to onboard and sell your product right away? In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Overview** > **Get started**.
 - Click **Grow** to access additional resources and tools for growing your business in {{site.data.keyword.cloud_notm}}.
