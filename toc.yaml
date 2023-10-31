@@ -16,7 +16,6 @@ toc:
       id: learn
       topics:
       - sell-on-ibm-cloud.md
-      - pc-partner-profile.md
       - topicgroup:
           label: Understanding how to sell software
           topics:
@@ -94,12 +93,6 @@ toc:
       - topicgroup:
           label: Selling software
           topics:
-          - topicgroup:
-              label: Building your software
-              topics:
-              - build-usage-offers.md
-              - build-fast-track.md
-              - build-workshops.md
           - topicgroup:
               label: Onboarding and publishing your software
               topics:
@@ -193,7 +186,6 @@ toc:
       - topicgroup:
           label: Troubleshooting
           topics:
-          - ts-view-usage.md
           - ts-repo-upload.md
           - ts-missing-products.md
           - ts-validate-terraform.md
