@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-19"
+lastupdated: "2023-11-08"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, partner, sellers, partner center, catalog details, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -49,32 +49,13 @@ To provide a short description of your product, complete the following steps:
 Users can filter the catalog to display similar products based on common solutions, function, or use. To select your catalog category, complete the following steps:
 
 1. From the Product details tab, click **Select category**.
-1. From the list, select the category that best describes your product. For a description of each category, see the following table.
+1. From the list, select the category that best describes your product. For more information about the deployable architecture categories, see the following descriptions:
 
-#### Category types
-{: #category-types-da}
+Converged infrastructure
+:   A way of structuring an information technology (IT) system by grouping multiple components into a single optimized computing package, components of which may include servers; data storage devices; networking equipment; and software for IT infrastructure management, automation, and orchestration.
 
-The following table describes each type of category that you can select.
-
-| Category | Description |
-|----------|------------|
-| AI / Machine Learning | Products that enable systems to learn from data rather than through explicit programming. |
-| Analytics | Products that facilitate the analysis of data, typically large sets of business data, by the use of mathematics, statistics, and other means. |
-| Blockchain | Products that facilitate the process of recording transactions and tracking assets in a business network. |
-| Compute | Infrastructure resources that serve as the basis for building apps in the cloud. |
-| Containers | A standard unit of software that packages up code, and all its dependencies, so the app runs quickly and reliably from one computing environment to another. |
-| Converged infrastructure | A way of structuring an information technology (IT) system by grouping multiple components into a single optimized computing package, components of which may include servers; data storage devices; networking equipment; and software for IT infrastructure management, automation, and orchestration. |
-| Databases | Products that provide some form of access to a database without requiring setting up physical hardware, installing software, or configuring for performance. |
-| Developer tools | Products that support developing, testing, and debugging software. |
-| Enterprise applications | Bundle of compatible products that deliver enterprise-grade app solutions for information sharing, automation, and agility. |
-| Integration | Products that facilitate the connection of data, apps, APIs, and devices across an organization to be more efficient, productive, and agile. |
-| Internet of Things | Products that support receiving and transferring data over wireless networks without human intervention. |
-| Logging and monitoring | Products that support storing, searching, analyzing, and monitoring log data and events. And, products that support reviewing and managing the operational workflow and processes being logged. |
-| Mobile| Products with specific or special utility for users creatings things to be used on mobile devices. |
-| Networking | Products that support or augment the linking of computers so they can operate interactively. |
-| Security | Products that provide the protection of stored data from theft, leakage, and deletion. |
-| Storage | Products that support data to be created, read, updated, and deleted.|
-{: caption="Table 1. Category descriptions" caption-side="top"}
+Enterprise applications
+:   Bundle of compatible products that deliver enterprise-grade app solutions for information sharing, automation, and agility.
 
 ### Adding search keywords
 {: #da-catalog-keywords}
@@ -120,4 +101,3 @@ Your documentation link is used to direct users to your product's warranted docu
 {: #da-next-catalog}
 
 [Define the support experience for your deployable architecture](/docs/sell?topic=sell-da-support-details&interface=ui).
-
