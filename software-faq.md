@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2023
 
-lastupdated: "2023-08-04"
+lastupdated: "2023-11-08"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -50,7 +50,7 @@ Use your {{site.data.keyword.cloud_notm}} account to onboard software to the cat
 
 One major difference is the packaging format. You can review the following example formats: 
 
-- Node-RED Operator: https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz
+- Node-RED Operator: [https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz](https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz){: external}
 - Operator bundle from a {{site.data.keyword.openshiftshort}} registry: For an example, select the Akka Cluster Operator from the list of available Operators in the Certified repository.
 
 
@@ -145,4 +145,4 @@ Yes, you can share your virtual server image with other users. To share with use
 
 If you are a third-party provider, you can learn about certifications and designations in Partner Center. Go to [Partner Center](https://cloud.ibm.com/partner-center/sell){: external}, open your product, and click **Certifications**. Currently, SAP certification and financial services validated are represented in Partner Center.
 
-Third-party products that complete SAP certification are added to [SAP's directory of certified and supported SAP HANA Hardware](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=v:deCertified;iaas;ve:28). Third-party products that are financial services validated are added to the [IBM Cloud for Financial Services Partner Showcase](https://www.ibm.com/partners/showcase/financial-services).
+Third-party products that complete SAP certification are added to [SAP's directory of certified and supported SAP HANA Hardware](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=v:deCertified;iaas;ve:28){: external}. Third-party products that are financial services validated are added to the [IBM Cloud for Financial Services Partner Showcase](https://www.ibm.com/partners/showcase/financial-services){: external}.
