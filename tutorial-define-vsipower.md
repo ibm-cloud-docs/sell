@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2022
+  years: 2022, 2023
 
-lastupdated: "2022-03-31"
+lastupdated: "2023-11-14"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, BYOL, terraform, catalog, power, power vsi, power systems virtual server
 
@@ -37,7 +37,7 @@ This tutorial demonstrates how to onboard and publish a [sample virtual server i
 {: #vsipower-dpa}
 {: step}
 
-Third-party providers are required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, third-party providers can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
+As a third-party provider, you are required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement if you plan to offer bring your own license plans for your product. The {{site.data.keyword.IBM_notm}} Digital Provider Agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
 Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. 
 {: note}
@@ -45,9 +45,9 @@ Custom digital provider agreements must be reviewed and approved by {{site.data.
 For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
 
 1. From the My products page in the {{site.data.keyword.cloud_notm}} Partner Center, click **Provide details** in the notification that explains that company details are required.
-1. In the Digital provider agreement section, click **Standard**. 
-1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement. 
-1. Select **I understand and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**, and click **Save**.
+1. Choose **I plan to offer bring your own license pricing plans** from the Agreements section.
+1. Click the **{{site.data.keyword.IBM}} Digital Provider Agreement** link to review the agreement.
+1. Select **I have read and agree to the {{site.data.keyword.IBM}} Digital Provider Agreement.**, and click **Save**.
 
 ## Provide your product name and type
 {: #vsipower-name}

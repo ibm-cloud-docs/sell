@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2023
 
-lastupdated: "2023-10-19"
+lastupdated: "2023-11-14"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -29,7 +29,7 @@ For free plans:
 
 * Provide the ECCN that applies to your product.
 * Provide the UNSPSC that applies to your product.
-* Confirm the digital platform agreement.
+* Confirm the digital platform reseller agreement.
 
 For paid, usage-based plans:
 
@@ -88,35 +88,21 @@ To provide the UNSPSC code that applies to your product, complete the following 
 ### Accepting agreement terms and conditions
 {: #service-confirm-dra}
 
-Depending on the type of plans you are adding for your product, you must sign an agreement that outlines the terms and conditions of providing a product in the {{site.data.keyword.cloud_notm}}.  Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
+Depending on the type of plans you are adding for your product, you must sign the agreement that outlines the terms and conditions of providing a product in the {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
 Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
-#### Digital provider agreement
-{: #dpa}
-
-If you plan to offer free plans, it is required to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. This legal agreement sets the terms and conditions under which providers can onboard and provide free products in {{site.data.keyword.cloud_notm}}.
-
-Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement:
-
-1. Go to **Partner Center** > **My company**.
-1. Click **Edit**.
-1. Choose **I plan to offer free pricing plans** from the Agreements section.
-1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement.
-1. Select **I read and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**, and click **Save**.
-
-
 #### Digital platform reseller agreement
 {: #dra}
 
-If you plan to offer paid, usage-based pricing plans, it is required to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}.
+If you plan to offer free or paid, usage-based pricing plans, it is required to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}.
 
 Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
 1. Go to **Partner Center** > **My company**.
 1. Click **Edit**.
-1. Choose **I plan to offer usage-based pricing plans** from the Agreements section.
+1. Choose **I plan to offer free and usage-based pricing plans** from the Agreements section.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** link to review the agreement.
 1. Select **I read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement**, and click **Save**.
 

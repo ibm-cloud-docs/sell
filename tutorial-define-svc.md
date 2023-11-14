@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-08-04"
+lastupdated: "2023-11-14"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -23,7 +23,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"} 
 {: toc-completion-time="10m"} 
 
-This tutorial walks you through the steps for defining specific details about your service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, customize your catalog entry and product page, and define support experience.  
+This tutorial walks you through the steps for defining specific details about your service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement, customize your catalog entry and product page, and define support experience.  
 {: shortdesc}
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your needs.
@@ -33,22 +33,22 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 [Register your service](/docs/sell?topic=sell-svc-register).
 
-## Review and submit the digital provider agreement
-{: #svc-dpa}
+## Review and submit the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement
+{: #svc-dra}
 {: step}
 
-As a third-party provider who offers a free plan, you're required to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, which sets the terms and conditions under which you can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
+If you plan to offer free or paid, usage-based pricing plans, it is required to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
 Digital provider agreements and custom agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. If you upload a custom digital provider agreement, the uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
-For the purposes of this tutorial, complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
+Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
-1. From the My products page in {{site.data.keyword.cloud_notm}} Partner Center, click **Provide details** in the notification that prompts you to complete the Digital Provider Agreement requirement.
-1. Click **Edit**. 
-1. Click **I plan to offer free pricing plans**.
-1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement. 
-1. Select **I understand and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement**, and click **Save**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My company**. 
+1. Click **Edit**.
+1. Choose **I plan to offer free and usage-based pricing plans** from the Agreements section.
+1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** link to review the agreement.
+1. Select **I have read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement.**, and click **Save**.
 
 ## Provide your service name and type
 {: #svc-name}

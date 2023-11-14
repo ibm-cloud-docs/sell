@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2023
 
-lastupdated: "2023-03-31"
+lastupdated: "2023-11-14"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -31,7 +31,7 @@ The following tasks are typically completed by a team member who is familiar wit
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create a test environment | The test environment is used to onboard your software and validate it's ready for use. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Assign team access | With the correct {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access, members of your team can help onboard your software. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Invite team members to your account | Members of your account are assigned the IAM access that you set up in the previous task.  | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM_notm}} | Review and accept the {{site.data.keyword.IBM_notm}} Digital Provider Agreement, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM_notm}} | Review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement if you plan to offer bring your own license plans, review and submit the {{site.data.keyword.IBM_notm}} Digital Reseller Agreement if you plan to offer free plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 1. Getting started tasks for selling software" caption-side="top"}
 
 For more information, see [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started).
