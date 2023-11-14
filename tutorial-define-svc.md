@@ -33,7 +33,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 [Register your service](/docs/sell?topic=sell-svc-register).
 
-## Review and submit the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement
+## Review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement
 {: #svc-dra}
 {: step}
 

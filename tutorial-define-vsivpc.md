@@ -46,8 +46,8 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 
 1. From the My products page in the [{{site.data.keyword.cloud_notm}} Partner Center](/partner-center/sell/my-products), click **Provide details** in the notification that explains that company details are required.
 1. Choose **I plan to offer bring your own license pricing plans** from the Agreements section.
-1. Click the **{{site.data.keyword.IBM}} Digital Provider Agreement** link to review the agreement.
-1. Select **I have read and agree to the {{site.data.keyword.IBM}} Digital Provider Agreement.**, and click **Save**.
+1. Click the **{{site.data.keyword.IBM_notm}} Digital Provider Agreement** link to review the agreement.
+1. Select **I have read and agree to the {{site.data.keyword.IBM_notm}} Digital Provider Agreement.**, and click **Save**.
 
 ## Provide your product name and type
 {: #vsivpc-name}
