@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-19"
+lastupdated: "2023-11-16"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -19,9 +19,8 @@ subcollection: sell
 As the last step in the onboarding process, you can submit a request to publish your third-party software to the {{site.data.keyword.cloud}} catalog. When you publish your software to the catalog, you can choose to publish it to all {{site.data.keyword.cloud_notm}} users in the catalog or to only specific accounts. If you choose to publish to specific accounts, your product is available only for users in those accounts.
 {: shortdesc}
 
-## Requesting for approval by using the console
+## Requesting for approval
 {: #sw-request-approval}
-{: ui}
 
 Before you can publish your product to the catalog, you must submit your software for approval. To submit a request to publish your product, complete the following steps:
 
@@ -38,9 +37,8 @@ Your publishing request is reviewed by {{site.data.keyword.IBM_notm}} to ensure 
 If updates are required, you receive a separate email with details about the required updates. If you have questions about the feedback, from the My products page click the **Help** icon ![Help icon](../icons/help.svg "Help"), and then click **Contact us**. After you address all review feedback, you can submit another publishing request.
 {: note}
 
-## Publishing to the {{site.data.keyword.cloud_notm}} catalog by using the console
+## Publishing to the {{site.data.keyword.cloud_notm}} catalog
 {: #sw-publish-catalog}
-{: ui}
 
 To publish your software to the {{site.data.keyword.cloud_notm}} catalog after you receive approval, complete the following steps:
 
@@ -55,9 +53,8 @@ After you publish your product to the {{site.data.keyword.cloud_notm}} catalog, 
 As a third-party provider, you're responsible for maintaining all assets of the published software in the {{site.data.keyword.cloud_notm}} catalog and deprecating outdated versions. For more information, see [Deprecating software from the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-deprecate-product).
 {: note}
 
-## Publishing to specific accounts or enterprises by using the console
+## Publishing to specific accounts or enterprises
 {: #sw-publish-account}
-{: ui}
 
 If you don't want your product to be publicly available to all users in the {{site.data.keyword.cloud_notm}} catalog, you can choose to publish it to only the accounts that you specify. To publish your product to specific accounts, complete the following steps:
 
@@ -80,40 +77,3 @@ If you published your product to only specific accounts and you want to add othe
 1. Choose from the **{{site.data.keyword.cloud_notm}} catalog** or **Accounts** options based on where you want to publish your product to.
 1. Click **Publish version**.
 
-## Requesting for approval by using the API
-{: #sw-request-approval-api}
-{: api}
-
-Before you can publish your product to the {{site.data.keyword.cloud_notm}} catalog, you must request an approval for your product. You can programmatically submit your software for approval by calling the [Partner Center Sell API](/apidocs/partner-center-sell#request-product-approval){: external} as shown in the following sample request:
-
-```bash
-curl --request POST \
-  --url  https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/approvals \
-  --header 'Authorization: Bearer TOKEN'
-```
-{: pre}
-{: curl}
-
-## Publishing to the {{site.data.keyword.cloud_notm}} catalog by using the API
-{: #sw-publish-catalog-api}
-{: api}
-
-You can programmatically publish your product to the {{site.data.keyword.cloud_notm}} catalog by calling the [Partner Center Sell API](/apidocs/partner-center-sell#publish-product){: external} as shown in the following sample request:
-
-```bash
-curl --request POST \
-  --url  https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/publish \
-  --header 'Authorization: Bearer TOKEN'
-```
-{: pre}
-{: curl}
-
-## Publishing to specific accounts or enterprises by using the API
-{: #sw-publish-account-api}
-{: api}
-
-You can publish your product to specific accounts or enterprises only through the UI. To view the steps, go to publishing to specific accounts or enterprises by using the console.

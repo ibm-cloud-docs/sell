@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-04-12"
+lastupdated: "2023-11-16"
 
 keywords: partner center support
 
@@ -23,10 +23,4 @@ subcollection: sell
 {{site.data.content.provide-support-details}}
 
 {{site.data.content.update-support-details}}
-
-{{site.data.content.select-support-provider-api}}
-
-{{site.data.content.provide-support-details-api}}
-
-{{site.data.content.update-support-details-api}}
 
