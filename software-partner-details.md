@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-11-16"
+lastupdated: "2023-11-28"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software, company details
 

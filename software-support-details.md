@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-11-16"
+lastupdated: "2023-11-28"
 
 keywords: partner center support
 

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-11-16"
+lastupdated: "2023-11-28"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
