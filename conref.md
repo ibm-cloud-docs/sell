@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2023
 
-lastupdated: "2023-10-19"
+lastupdated: "2023-11-28"
 
 keywords:
 
@@ -45,16 +45,22 @@ The following H2s are going to be reused in several different onboarding topics 
    * service-support.md
    * software-support-details.md
    * da-support.md
-* H2 - **Selecting your product's support provider by using the API** is used in the following file:
-   * software-support-details.md
-* H2 - **Providing your product's support information by using the API** is used in the following file:
-   * software-support-details.md
-* H2 - **Updating your product's support information by using the API** is used in the following file:
-   * software-support-details.md
+* H2 - **Define IAM access** is used in the following files:
+   * tutorial-onboard-terraform.md
+   * tutorial-onboard-vsimage.md
+   * tutorial-onboard-vsipower.md
+   * software-validate.md
+* H2 - **Edit output value descriptions** is used in the following files:
+   * tutorial-onboard-terraform.md
+   * tutorial-onboard-vsimage.md
+   * tutorial-onboard-vsipower.md
+   * software-validate.md
+
+* H2 - **## Manage compliance** is used in the following files:
+   * tutorial-onboard-operator.md
 
 ## Define your support experience
 {: #define-support-experience}
-{: ui}
 
 1. Click **Support**.
 1. Select your product's support provider and complete the support statement field. For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.
@@ -76,7 +82,6 @@ Making sure that your users understand how to get help and support for your prod
 
 ## Selecting your product's support provider
 {: #select-support-provider}
-{: ui}
 
 Select your product's support provider to add the necessary details that are associated with the third-party or community provider types.
 
@@ -94,32 +99,8 @@ Use the following steps to select your product's support provider.
    1. If you select **Community**, provide the support statement and the URL for the support community, and select the languages in which support is provided.
    1. If you select **Third-party**, use the following steps to complete the necessary fields.
 
-## Selecting your product's support provider by using the API
-{: #select-support-provider-api}
-{: api}
-
-You can programmatically select the support provider of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. The example adds the `third-party` support provider type to your product:
-
-```bash
-curl --request PATCH \
-  --url  https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/support \
-  --header 'Authorization: Bearer TOKEN'  --header 'Content-Type:
-application/json' \
-  --data '{
-  "support_type": "third-party"
-}'
-```
-{: pre}
-{: curl}
-
-The details that you provide are displayed on your product details page in the catalog.
-{: note}
-
 ## Providing your product's support information
 {: #provide-support-details}
-{: ui}
 
 If your product has third-party or {{site.data.keyword.cloud_notm}} provided support, you need to add at least one support detail. The details that you provide are displayed on your product details page in the catalog. At minimum, support must be available 8 hours a day, Monday through Friday. The recommended support coverage is 24 hours a day, 7 days a week, and 365 days a year.
 
@@ -149,36 +130,8 @@ Use the following steps to add support details for your product:
 1. Add your escalation information. Do not use a personal phone number or email.
 1. Provide your support contact information. This information is for internal use only and is not displayed on the product details page.
 
-## Providing your product's support information by using the API
-{: #provide-support-details-api}
-{: api}
-
-You can programmatically provide the support information of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. You can provide your support site URL, support contacts, or the support escalation process. The example adds the `https://my-company.com/support` support site URL to your product:
-
-```bash
-curl --request PATCH \
-  --url  https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/support \
-  --header 'Authorization: Bearer TOKEN'  --header 'Content-Type:
-application/json' \
-  --data '{
-  "url": "https://my-company.com/support",
-  "case": "case",
-  "contacts": "JohnSupport@my-company.com",
-  "country": "us",
-  "escalationProcess": "Customers can escalate support cases via email.",
-}'
-```
-{: pre}
-{: curl}
-
-The details that you provide are displayed on your product details page in the catalog.
-{: note}
-
 ## Updating your product's support information
 {: #update-support-details}
-{: ui}
 
 If your product is already published to the {{site.data.keyword.cloud_notm}} catalog, but you need to update your support details, you can easily do that by editing your published information and requesting an approval for them.
 
@@ -199,33 +152,6 @@ To update your support information, complete the following steps:
     {: important}
 
 You can toggle between the updated and the published state of your support information. Toggle the switch on to review your updates, and toggle the switch off for the published state.
-
-## Updating your product's support information by using the API
-{: #update-support-details-api}
-{: api}
-
-You can programmatically update the support information of your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-support){: external} as shown in the following sample request. The example updates the support site URL to `https://my-updated-company.com/support`:
-
-```bash
-curl --request PATCH \
-  --url  https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/support \
-  --header 'Authorization: Bearer TOKEN'  --header 'Content-Type:
-application/json' \
-  --data '{
-  "url": "https://my-updated-company.com/support",
-  "case": "case",
-  "contacts": "JohnSupport@my-company.com",
-  "country": "us",
-  "escalationProcess": "Customers can escalate support cases via email.",
-}'
-```
-{: pre}
-{: curl}
-
-The details that you provide are displayed on your product details page in the catalog.
-{: note}
 
 ## Define IAM access
 {: #define-IAM-access}

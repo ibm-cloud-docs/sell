@@ -5,6 +5,7 @@ copyright:
   years: 2021, 2023
 
 lastupdated: "2023-12-07"
+
 keywords: software, pricing, paid, free, third-party, license, BYOL, bring your own license
 
 subcollection: sell
@@ -29,7 +30,6 @@ Custom digital provider agreements must be reviewed and approved by {{site.data.
 
 ### Confirming the digital provider agreement
 {: #confirm-dpa-software}
-{: ui}
 
 Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement:
 
@@ -41,7 +41,6 @@ Complete the following steps to review and submit the {{site.data.keyword.IBM_no
 
 ### Confirming the digital platform reseller agreement
 {: #confirm-dra-software}
-{: ui}
 
 Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
@@ -51,9 +50,8 @@ Complete the following steps to review and submit the {{site.data.keyword.IBM_no
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** link to review the agreement.
 1. Select **I have read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement.**, and click **Save**.
 
-## Adding a free plan by using the console
+## Adding a free plan
 {: #pricing-free}
-{: ui}
 
 By adding a free plan, you are indicating that your product does not require any payment or license to use.
 
@@ -61,9 +59,8 @@ By adding a free plan, you are indicating that your product does not require any
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Select **Free**.
 
-## Adding a BYOL plan by using the console
+## Adding a BYOL plan
 {: #pricing-byol}
-{: ui}
 
 By adding a bring your own license plan, you are indicating that customers need to purchase a license to use your product. You are required to provide the name of the license and a URL where customers can purchase the license.
 
@@ -82,46 +79,3 @@ If you have not imported a version of your software, you can still create a BYOL
 
 All information that is entered in the **Add pricing plan** panel is displayed to customers in the {{site.data.keyword.cloud_notm}} catalog to help them purchase the required license.
 {: note}
-
-## Creating a free plan by using the API
-{: #create-free-plan}
-{: api}
-
-You can programmatically create a free plan by calling the [Partner Center Sell API](/apidocs/partner-center-sell#update-catalog){: external} as shown in the following sample request.
-
-```bash
-curl --request PATCH \
-  --url  https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/catalog \
-  --header 'Authorization: Bearer TOKEN' \
-  --header 'Content-Type: application/json' \
-  --data '{
-  "pricingModel": "free",
-}'
-```
-{: pre}
-{: curl}
-
-## Creating a BYOL plan by using the API
-{: #create-byol-plan}
-{: api}
-
-You can programmatically create a BYOL plan by calling the [Partner Center Sell API](/apidocs/partner-center-sell#create-plan){: external} as shown in the following sample request. The example creates a BYOL plan that is named `Standard`:
-
-```bash
-curl --request POST \
-  --url https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/plans \
-  --header 'Authorization: Bearer TOKEN' \
-  --header 'Content-Type: application/json' \
-  --data '{
-        "description": "Purchasing a license is required to use the product.",
-	"label": "Standard",
-	"type": "byol",
-	"url": "https://standard.plan.com/license"
-}'
-```
-{: pre}
-{: curl}

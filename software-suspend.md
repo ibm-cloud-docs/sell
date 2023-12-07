@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-10-19"
+lastupdated: "2023-11-28"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, partner center, catalog
 
@@ -22,9 +22,8 @@ If you need to remove a product from the {{site.data.keyword.cloud}} catalog wit
 Suspending your product will not permanently delete it from the {{site.data.keyword.cloud_notm}} catalog. If you need to permanently delete your product, deprecate it instead.
 {: note}
 
-## Suspending your product from the {{site.data.keyword.cloud_notm}} catalog by using the console
+## Suspending your product from the {{site.data.keyword.cloud_notm}} catalog
 {: #sw-suspend-product-ui}
-{: ui}
 
 Complete the following steps to suspend your product:
 
@@ -37,21 +36,3 @@ After you suspend your product, you must request approval to publish it again wi
 
 {{site.data.keyword.cloud_notm}} can suspend your product if there's an issue that you need to address. Any updates that you need to make are shared by email.
 
-## Suspending your product from the {{site.data.keyword.cloud_notm}} catalog by using the API
-{: #sw-suspend-product-api}
-{: api}
-
-You can programmatically suspend your product by calling the [Partner Center Sell API](/apidocs/partner-center-sell#suspend-product){: external} as shown in the following sample request. Specify `reason` to provide details about why you want to suspend your published product.
-
-```bash
-curl --request POST \
-  --url  https://product-
-lifecycle.api.cloud.ibm.com/openapi/v1/products/9fab83da-98cb-4f18-
-a7ba-b6f0435c9673/suspend \
-  --header 'Authorization: Bearer TOKEN' \
-  --data '{
-       "reason": "There is a bug in the operation of the product that must be fixed. To fix the error, I want to suspend my product."
-}'
-```
-{: pre}
-{: curl}
