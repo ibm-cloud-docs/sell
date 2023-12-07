@@ -104,7 +104,7 @@ Complete the following steps to review and submit the {{site.data.keyword.IBM_no
 1. Click **Edit**.
 1. Choose **I plan to offer free and usage-based pricing plans** from the Agreements section.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** link to review the agreement.
-1. Select **I read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement**, and click **Save**.
+1. Select **I have read and agree to the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement.**, and click **Save**.
 
 ## Adding pricing plans
 {: #add-plans}
