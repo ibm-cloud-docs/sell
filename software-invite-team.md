@@ -3,10 +3,9 @@
 
 copyright:
   years: 2021, 2023
+lastupdated: "2023-12-11"
 
-lastupdated: "2023-10-19"
-
-keywords: onboard software, third-party software, sell on IBM Cloud, partner center, invite team, IAM, access
+keywords: onboard software, onboard service, third-party product, sell on IBM Cloud, catalog details, support, software, service, partner center, sellers, catalog, invite team, IAM, access
 
 subcollection: sell
 
@@ -14,22 +13,15 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Inviting team members to help onboard software
+# Inviting team members to help onboard your product
 {: #sw-invite-team}
 
-If you want to enlist team members to help onboard your third-party software to {{site.data.keyword.cloud}}, you can invite them to your account. By inviting team members to your account, they are automatically assigned the required access to complete the onboarding tasks.
+If you want to enlist team members to help onboard your product to {{site.data.keyword.cloud}}, you can invite them to your account. Certain onboarding tasks, for example, creating or onboarding a service broker require a technical member of your team, who can help you completing these technical tasks. By inviting team members to your account, they are automatically assigned the required access to complete the onboarding tasks. For more information about the roles that are assigned to team members, see [Managing access for Partner Center - Sell](/docs/sell?topic=sell-iam-access-pc-sell&interface=ui).
 {: shortdesc}
 
-When you invite team members to your account, they are assigned editor access to the following services by default:
+To invite team members to your account, complete the following steps:
 
-* Partner Center - Sell: Editors can complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog.
-* Catalog management: Editors can onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visibility of products in the {{site.data.keyword.cloud_notm}} catalog.
-
-Complete the following steps to invite team members to your account:
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My team**.
-1. Click **Invite users**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My team**.
+1. Click **Invite users**.
 1. Enter the email address of each user.
-1. Click **Invite**.
-
-For more information about the roles and actions for each service, see [Assigning access to account management services](/docs/sell?topic=account-account-services#account-management-actions-roles).
+1. Click **Invite**.

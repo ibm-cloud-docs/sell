@@ -96,7 +96,6 @@ toc:
           - topicgroup:
               label: Onboarding and publishing your software
               topics:
-              - software-invite-team.md
               - add-new-product.md
               - software-catalog-details.md
               - software-pricing-details.md
@@ -145,6 +144,7 @@ toc:
             - service-develop-auth.md
             - service-pricing-change.md
             - service-publish.md
+      - software-invite-team.md      
       - assign-access-pc.md
 
   - navgroup:
