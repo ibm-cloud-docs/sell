@@ -145,6 +145,7 @@ toc:
             - service-develop-auth.md
             - service-pricing-change.md
             - service-publish.md
+      - assign-access-pc.md
 
   - navgroup:
       id: reference
