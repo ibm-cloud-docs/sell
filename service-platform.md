@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2023
+  years: 2018, 2024
 
-lastupdated: "2023-02-01"
+lastupdated: "2024-01-02"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -44,7 +44,7 @@ The provisioning layer provides APIs to help you manage the following elements o
 
 Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.Bluemix_notm}}. The {{site.data.keyword.Bluemix_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party product providers use IAM to create an authentication flow (OAuth). See [What is IAM?](/docs/account?topic=account-iamoverview) for more information.
 
-If your product uses OpenID Connect (OIDC) libraries, IAM supports OIDC integration. OIDC is an authentication layer on top of OAuth 2.0, an authorization framework and can help simplify the onboarding process. For more information on OIDC, see [Open ID Connect](http://openid.net/connect/){: external}.
+If your product uses OpenID Connect (OIDC) libraries, IAM supports OIDC integration. OIDC is an authentication layer on top of OAuth 2.0, an authorization framework and can help simplify the onboarding process. For more information on OIDC, see [Open ID Connect](https://openid.net/developers/how-connect-works/){: external}.
 
 ## {{site.data.keyword.cloud_notm}} catalog
 {: #catalog}
@@ -52,7 +52,7 @@ If your product uses OpenID Connect (OIDC) libraries, IAM supports OIDC integrat
 The {{site.data.keyword.cloud_notm}} catalog stores and displays the product definitions (descriptions, features, images, URLs, keywords, and other product definitions) of the product that you onboard. {{site.data.keyword.cloud_notm}} Partner Center provides a way to define all aspects of your service's required metadata. You can find detailed information about the required and optional metadata fields on the Dashboard, Product details, and Pricing tabs in Partner Center. This metadata is published and displayed in the catalog. Take a look at the following key items to jumpstart your understanding:
 
 Programmatic name
-:   The programmatic name is your product's unique ID and is used within all IBM services and tools. This name is not the display name of your product that customers see in the {{site.data.keyword.cloud_notm}} catalog. The programmatic name is automatically generated from your company name and the display name of your product. 
+:   The programmatic name is your product's unique ID and is used within all IBM services and tools. This name is not the display name of your product that customers see in the {{site.data.keyword.cloud_notm}} catalog. The programmatic name is automatically generated from your company name and the display name of your product.
 
 Display name
 :   A name for your service. This name is publicly displayed in the {{site.data.keyword.cloud_notm}} catalog. For example, `Compose Redis`
@@ -70,7 +70,7 @@ Detailed description
 :   This description is displayed at the beginning of your product page in the catalog. Include relevant keywords and consider at least two sentences for a detailed description.
 
 Documentation URL
-:   A link to your {{site.data.keyword.cloud_notm}} documentation. 
+:   A link to your {{site.data.keyword.cloud_notm}} documentation.
 
 End User License Agreement (EULA) URL
 :   A link to the end user license agreement that users must agree with to use your product. Do not include billing, payment, or tax terms in this agreement.
@@ -82,10 +82,10 @@ Keywords
 :   Words, phrases, and other key search terms associated with your product.
 
 Features
-:   Short descriptive unique identifiers about your product's attributes. 
+:   Short descriptive unique identifiers about your product's attributes.
 
 Media
-:   Screen captures and videos that show off your product.  
+:   Screen captures and videos that show off your product.
 
 Plan name
 :   A name for your pricing plan that doesn't include your company or product name. This information is displayed to customers in the {{site.data.keyword.cloud_notm}} catalog. For example, `Gold`
@@ -94,7 +94,7 @@ Plan description
 :   The description of the pricing plan. This information is displayed to customers in the {{site.data.keyword.cloud_notm}} catalog.
 
 Programmatic name of the plan
-:   The technical name of the pricing plan that is automatically generated. You can't make edits to this name. 
+:   The technical name of the pricing plan that is automatically generated. You can't make edits to this name.
 
 ## Open Service Broker
 {: #open-service}
