@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-12-07"
+lastupdated: "2024-01-02"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -76,7 +76,7 @@ You must submit your tax and EFT documents and receive approval before you can p
 You must provide your ECCN before the UNSPSC.
 {: note}
 
-In addition to ECCN, you must provide the UNSPSC that applies to your product. The UNSPSC is required for both free and usage-based pricing plans. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes-){: external}. Providing your UNSPSC is a required step in the onboarding process.
+In addition to ECCN, you must provide the UNSPSC that applies to your product. The UNSPSC is required for both free and usage-based pricing plans. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes){: external}. Providing your UNSPSC is a required step in the onboarding process.
 
 To provide the UNSPSC code that applies to your product, complete the following steps:
 
@@ -138,7 +138,7 @@ By adding a free plan, you are indicating that your product does not require any
 
 By adding a usage-based pricing plan, you are indicating that you offer your product as a paid integrated product, and customers need to pay to use it. All information that is entered on the **Add plan** panel is displayed to customers in the {{site.data.keyword.cloud_notm}} catalog to help them purchase your service.
 
-When you add a usage-based pricing plan, you provide your suggested retail pricing information. However, {{site.data.keyword.IBM_notm}} reserves the right to set the final pricing for any product that is offered to customers in the {{site.data.keyword.cloud_notm}} catalog. 
+When you add a usage-based pricing plan, you provide your suggested retail pricing information. However, {{site.data.keyword.IBM_notm}} reserves the right to set the final pricing for any product that is offered to customers in the {{site.data.keyword.cloud_notm}} catalog.
 {: important}
 
 To add a paid pricing plan for your service, complete the following steps:

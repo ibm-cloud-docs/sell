@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-01-02"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -68,7 +68,7 @@ You can choose from a list of common ECCNs or search for an ECCN. If you don't k
 {: #svc-unspsc}
 {: step}
 
-You can choose from a list of common UNSPSCs or search for a UNSPSC. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes-){: external} to find the one that applies to your product. For the purposes of this tutorial, select a common UNSPSC.
+You can choose from a list of common UNSPSCs or search for a UNSPSC. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes){: external} to find the one that applies to your product. For the purposes of this tutorial, select a common UNSPSC.
 
 1. Click **Pricing** > **Add UNSPSC**.
 2. Select **Cloud-based software as a service**.
@@ -80,7 +80,7 @@ You can choose from a list of common UNSPSCs or search for a UNSPSC. If you need
 
 {{site.data.keyword.cloud_notm}} supports two pricing models: free or usage-based. For the purposes of this tutorial, complete the following steps to add a usage-based plan.
 
-By adding a usage-based pricing plan, you provide your suggested retail pricing information. However, {{site.data.keyword.IBM_notm}} reserves the right to set the final pricing for any product that is offered to customers in the {{site.data.keyword.cloud_notm}} catalog. 
+By adding a usage-based pricing plan, you provide your suggested retail pricing information. However, {{site.data.keyword.IBM_notm}} reserves the right to set the final pricing for any product that is offered to customers in the {{site.data.keyword.cloud_notm}} catalog.
 {: important}
 
 1. Click **Add plan**.
