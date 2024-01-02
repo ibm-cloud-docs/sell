@@ -19,7 +19,7 @@ subcollection: sell
 Enroll in workshops and events to learn how to build products to sell on {{site.data.keyword.cloud}}.
 {: shortdesc}
 
-To view workshops and events, you need the viewer role on the Partner Center account management service. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services#account-management-actions-roles). 
+To view workshops and events, you need the viewer role on the Partner Center account management service. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
 
 ## Recommendations
 {: #recommend-list}
@@ -32,4 +32,3 @@ The list is generated based on your profile and preferences. You can filter the 
 {: #upcoming-list}
 
 Enroll in workshops and events to learn how to build products for {{site.data.keyword.cloud}}. You can filter the list by content type.
-

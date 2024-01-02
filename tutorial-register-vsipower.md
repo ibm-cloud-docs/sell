@@ -64,7 +64,7 @@ You can enlist team members to help with the onboarding process by assigning the
     * Editor on the IAM Access Groups service
     * Viewer on all account management services
 
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
+    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
 
 ## Invite team members to your account
 {: #vsipower-reg-invite}

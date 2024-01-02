@@ -139,7 +139,7 @@ If you want to enlist team members to help with the onboarding process, you need
     * Editor on the IAM access groups service
     * Viewer on all account management services
 
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
+    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
 
 1. Click **Let's go**.
 

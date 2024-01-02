@@ -17,7 +17,7 @@ subcollection: sell
 # Getting help and support with Partner Center
 {: #get-pc-support}
 
-If you are experiencing issues with Partner Center or have specific questions about onboarding a product, you can get help by contacting {{site.data.keyword.cloud}} support or a Partner Center onboarding specialist, depending on the type of issue you're experiencing. 
+If you are experiencing issues with Partner Center or have specific questions about onboarding a product, you can get help by contacting {{site.data.keyword.cloud}} support or a Partner Center onboarding specialist, depending on the type of issue you're experiencing.
 {: shortdesc}
 
 You can also use the following resources before you contact {{site.data.keyword.cloud_notm}} to get answers to your questions:
@@ -54,7 +54,7 @@ To contact an onboarding specialist, complete the following steps:
 
 If you're experiencing issues with Partner Center, you can create a support case by using the [{{site.data.keyword.Bluemix_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
-To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access).
+To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access).
 {: note}
 
 

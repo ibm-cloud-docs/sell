@@ -72,9 +72,9 @@ If you want to enlist team members to help with the onboarding process, you need
     * Editor on the IAM access groups service
     * Viewer on all account management services
 
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
+    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
 
-1. Click **Let's go**.   
+1. Click **Let's go**.
 
 ## Invite team members to your account
 {: #da-invite-member}
@@ -112,4 +112,3 @@ Now that you completed the getting started tasks, you're ready to [continue with
 
 To get an overview of all the tasks involved in the process, see the [checklist for selling deployable architectures on {{site.data.keyword.cloud_notm}}](/docs/sell?topic=sell-checklist-da&interface=ui).
 {: tip}
-

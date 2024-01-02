@@ -20,7 +20,7 @@ subcollection: sell
 Follow a fast track to learn about a service and deploy it.
 {: shortdesc}
 
-To view or edit the fast tracks, make sure you're assigned at least the editor role on the Partner Center account management service. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services#account-management-actions-roles).
+To view or edit the fast tracks, make sure you're assigned at least the editor role on the Partner Center account management service. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
 
 Select a category tab to explore the fast tracks in that category. Click **See all** to see all the fast track categories.
 

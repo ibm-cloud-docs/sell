@@ -16,7 +16,7 @@ subcollection: sell
 # Managing access for Partner Center - Sell
 {: #iam-access-pc-sell}
 
-When you onboard your product to {{site.data.keyword.cloud}} in Partner Center, you can invite your team members to help you with the onboarding process. Setting up your team from Partner Center creates an access group for your team members, which gives them the required access to complete the onboarding tasks. Managing the access of your team members can be easily done in Partner Center, since the tool automatically assigns all the roles to the members of your access group that are needed for product onboarding. 
+When you onboard your product to {{site.data.keyword.cloud}} in Partner Center, you can invite your team members to help you with the onboarding process. Setting up your team from Partner Center creates an access group for your team members, which gives them the required access to complete the onboarding tasks. Managing the access of your team members can be easily done in Partner Center, since the tool automatically assigns all the roles to the members of your access group that are needed for product onboarding.
 {: shortdesc}
 
 ## Before you begin
@@ -42,13 +42,13 @@ To create an access group for your team, complete the following steps:
     * Administrator on the Catalog Management service for your private catalog that you created in Partner Center, or imported to Partner Center.
     * Administrator on the Global Resource Catalog service to change the object metadata or visibility for private services, and restrict visibility of a public service.
     * Editor on the User Management service to view, invite, remove, and update users from your account. With this role, you are also able to view and update user profile settings.
-    * Editor on the IAM Identity Service to create new service IDs. 
+    * Editor on the IAM Identity Service to create new service IDs.
     * Editor on the Partner Center - Sell service to view and update products in Partner Center.
     * Editor on the IAM Access Groups Service for your access group to view, edit, and delete the access group. Or, to add and remove users from the access group.
     * Editor on All Identity and Access enabled services in your default resource group to be able to edit and manage broker registration entries.
     * Viewer on All Account Management services to complete all actions for the account management services.
 
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services#account-management-actions-roles).   
+    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
 
 1. Click **Let's go**.
 
@@ -79,7 +79,7 @@ Optionally, you can set a primary contact for your team, who is set as the main 
 
 The easiest way to manage access for your team is through Partner Center by following the steps in the [Giving team members access in Partner Center](#give-access-pc) section, but you can also add, or remove users in {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM). In IAM, you can review the list of users in your access group and the list of roles that Partner Center assigned your access group automatically. Additionally, you can find the list of service IDs, trusted profiles, and dynamic rules that the access group has.
 
-To manage and review your access group in IAM, complete the following steps: 
+To manage and review your access group in IAM, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My team**.
 1. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for any user in your team, and select **Manage access group**. This step takes you to IAM, where you can manage access and review extended information about your access group.
@@ -88,4 +88,3 @@ To manage and review your access group in IAM, complete the following steps:
 
 Don't delete the access group or modify the roles and policies in it. Partner Center uses the access group, and all policies are needed for your team members to be able to manage a successful product onboarding.
 {: important}
-
