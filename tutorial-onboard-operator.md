@@ -148,7 +148,7 @@ Scan your source code with Code Risk Analyzer to identify any security vulnerabi
 ### Add Security and Compliance Center scan
 {: #operator-scc-scan}
 
-Add the scans that you previously ran in Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](/docs/security-compliance?topic=security-compliance-schedule-scan).
+Add the scans that you previously ran in Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-scan-resources&interface=ui#scan-schedule-ui).
 
 1. Select the profile that you scanned.
 1. Select the Security and Compliance Center scan.

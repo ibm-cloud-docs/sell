@@ -136,7 +136,7 @@ You can review the controls that were added from your readme file and add additi
 ### Add Security and Compliance Center scan
 {: #vsivpc-scc-scan}
 
-Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](/docs/security-compliance?topic=security-compliance-schedule-scan).
+Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-scan-resources&interface=ui#scan-schedule-ui).
 
 1. Click **Add scan**.
 1. Select the profile that you scanned.
