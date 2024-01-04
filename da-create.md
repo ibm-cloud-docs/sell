@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-19"
+  years: 2023, 2024
+lastupdated: "2024-01-04"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, add product, create deployable architecture, partner, sellers, partner center
 
@@ -13,7 +13,7 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Creating a product
+# Adding a deployable architecture to Partner Center
 {: #create-da-product}
 
 As the first step in the onboarding process, you can either add a new product to Partner Center, or you can import an existing product from a private catalog.
