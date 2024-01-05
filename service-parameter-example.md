@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2019, 2022
+  years: 2019, 2024
 
-lastupdated: "2022-10-03"
+lastupdated: "2024-01-05"
 
 keywords: service parameter definition, parameters, parameter example,
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Service parameter definitions and examples
 {: #service_parameters_def_examples}
 
-Service parameters are used to collect and add additional data points to a call when an IBM Cloud customer creates a service instance. The following sections provide examples and definitions of how service parameters can be used. To start adding custom service parameters for your product, see [Adding custom service parameters for your service](/docs/sell?topic=sell-service-add-custom-parameters#service_parameters3p).
+Service parameters are used to collect and add additional data points to a call when an IBM Cloud customer creates a service instance. The following sections provide examples and definitions of how service parameters can be used. To start adding custom service parameters for your product, see [Adding custom service parameters for your service](/docs/sell?topic=sell-service-add-custom-parameters).
 
 ## Service parameter examples
 {: #service_parameters_examples}

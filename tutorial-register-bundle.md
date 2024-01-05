@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-01-05"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
@@ -76,7 +76,7 @@ You can enlist team members to help with the onboarding process by assigning the
     * Editor on the IAM Access Groups service
     * Viewer on all account management services
 
-For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/sell?topic=account-account-services#account-management-actions-roles).
+For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/sell?topic=sell-account-services&interface=ui#account-management-actions-roles).
 
 ## Add team members to your account
 {: #bundle-reg-invite}

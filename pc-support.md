@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-01-05"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -23,7 +23,7 @@ If you are experiencing issues with Partner Center or have specific questions ab
 You can also use the following resources before you contact {{site.data.keyword.cloud_notm}} to get answers to your questions:
 
 * Review the [FAQs](/docs/sell?topic=sell-thirdparty-sw-faqs) in the product documentation.
-* Review the [troubleshooting documentation](/docs/sell?topic=sell-ts-view-usage) to troubleshoot and resolve common issues.
+* Review the [troubleshooting documentation](/docs/sell?topic=sell-repo-upload-error) to troubleshoot and resolve common issues.
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 * Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `partner-center`, so that it's seen by the {{site.data.keyword.Bluemix_notm}} development teams.
 

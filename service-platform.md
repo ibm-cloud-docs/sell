@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2024
 
-lastupdated: "2024-01-02"
+lastupdated: "2024-01-05"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -114,7 +114,7 @@ All integrated billing services that offer a metered plan must use the {{site.da
 
 You’re required to automate hourly usage submission by using metering service API if you offer a metered plan.
 
-For more information on metering, see [Metering integration](/docs/sell?topic=sell-meteringintera#meteringintera). For more information on submitting metered usage, see [Submitting usage for metered plans](/docs/sell?topic=sell-submitusage#submitusage).
+For more information on metering, see [Metering integration](/docs/sell?topic=sell-service-metering-integration). For more information about submitting metered usage, see [Submitting usage for metered plans](/docs/sell?topic=sell-service-add-metrics#submit-usage).
 
 ## Provisioning scenario: Pulling it all together
 {: #provision2}

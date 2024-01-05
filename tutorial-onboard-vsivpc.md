@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2023
+  years: 2023, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-01-05"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, vpc, virtual private cloud
@@ -120,7 +120,7 @@ Validating your virtual server image involves running a test deployment of your 
 {: #vsivpc-controls}
 {: step}
 
-The Security and Compliance Center scans determine adherence to regulatory controls as defined in a profile. Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Adding compliance details](/docs/account?topic=account-catalog-format-controls). After you publish your product, users can view your controls on the About page for your product, which proves that your product meets specific industry regulations. For more information, see [What is a profile?](/docs/security-compliance?topic=security-compliance-profiles)
+The Security and Compliance Center scans determine adherence to regulatory controls as defined in a profile. Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Adding compliance details](/docs/account?topic=account-catalog-format-controls). After you publish your product, users can view your controls on the About page for your product, which proves that your product meets specific industry regulations. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles&interface=ui).
 
 ### Manage compliance controls
 {: #vsivpc-add-controls}

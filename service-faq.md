@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2024
 
-lastupdated: "2024-01-02"
+lastupdated: "2024-01-05"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
@@ -33,7 +33,7 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 You're required to automate hourly usage submission by using the metering service API if you offer a metered plan.
 {: note}
 
-For more information on metering, see [Metering integration](/docs/sell?topic=sell-meteringintera#meteringintera). For more information about submitting metered usage, see [Submitting usage for metered plans](/docs/sell?topic=sell-submitusage#submitusage).
+For more information on metering, see [Metering integration](/docs/sell?topic=sell-service-metering-integration). For more information about submitting metered usage, see [Submitting usage for metered plans](/docs/sell?topic=sell-service-add-metrics#submit-usage).
 
 ## How do I receive payments for my services?
 {: #get-disbursements}

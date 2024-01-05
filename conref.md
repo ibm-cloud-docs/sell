@@ -1,13 +1,13 @@
 ---
 
 copyright:
-  years: 2022, 2023
+  years: 2022, 2024
 
-lastupdated: "2023-11-28"
+lastupdated: "2024-01-05"
 
 keywords:
 
-subcollection: overview
+subcollection: sell
 
 content-type: conref
 
