@@ -79,12 +79,12 @@ Before you publish your service to the catalog, you can test how your customers 
 
 The [Startup with {{site.data.keyword.IBM_notm}} Program](https://www.ibm.com/partnerplus/isv){: external}, formerly the {{site.data.keyword.IBM_notm}} Global Entrepreneur Program (GEP), is an {{site.data.keyword.IBM_notm}} corporate program helps you startup or scale up your business with or without funding. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the Startup with {{site.data.keyword.IBM_notm}} Team and not {{site.data.keyword.cloud_notm}} Support.
 
-If your application to the program is approved, awarded credits are referred to as the `Technology Incubator Program` on an {{site.data.keyword.cloud_notm}} Invoice. For more information about the program and its credits, see [Startup with {{site.data.keyword.IBM_notm}} FAQs](https://www.ibm.com/partnerplus/isvfaq){: external}.
+If your application to the program is approved, awarded credits are referred to as the `Technology Incubator Program` on an {{site.data.keyword.cloud_notm}} Invoice. For more information about the program and its credits, see [Startup with {{site.data.keyword.IBM_notm}} FAQs](https://www.ibm.com/partnerplus){: external}.
 
 ## What is {{site.data.keyword.IBM_notm}} PartnerWorld?
 {: #partnerworld-ibm}
 {: faq}
 
-[{{site.data.keyword.IBM_notm}} PartnerWorld Program](https://www.ibm.com/partnerworld/resources){: external} is an {{site.data.keyword.IBM_notm}} corporate program that provides access to the {{site.data.keyword.IBM_notm}} product portfolio including the {{site.data.keyword.cloud_notm}} Platform. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the {{site.data.keyword.IBM_notm}} PartnerWorld Team and not {{site.data.keyword.cloud_notm}} Support.
+[{{site.data.keyword.IBM_notm}} PartnerWorld Program](https://www.ibm.com/partnerplus){: external} is an {{site.data.keyword.IBM_notm}} corporate program that provides access to the {{site.data.keyword.IBM_notm}} product portfolio including the {{site.data.keyword.cloud_notm}} Platform. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the {{site.data.keyword.IBM_notm}} PartnerWorld Team and not {{site.data.keyword.cloud_notm}} Support.
 
-For more information about the program, contact the [{{site.data.keyword.IBM_notm}} PartnerWorld Team](https://www.ibm.com/partnerworld/resources/support){: external}.
+For more information about the program, contact the [{{site.data.keyword.IBM_notm}} PartnerWorld Team](https://www.ibm.com/partnerplus/support){: external}.

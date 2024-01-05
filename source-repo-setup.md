@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-03-31"
+  years: 2022, 2024
+lastupdated: "2024-01-05"
 
 keywords: software, readme, installation, Git, GitHub, repo, repository
 
@@ -22,7 +22,7 @@ Set up your source code repository with the artifacts that are required to onboa
 ## Creating a release
 {: #create-release}
 
-Create a release in your source code repository to deliver and manage versions of your software. For GitHub repositories, see [Managing releases in a repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository){: external}. For GitLab repositories, see [Releases](https://docs.gitlab.com/ee/user/project/releases/#:~:text=In%20GitLab%2C%20a%20release%20enables,point%20in%20the%20source%20code.){: external}.
+Create a release in your source code repository to deliver and manage versions of your software. For GitHub repositories, see [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository){: external}. For GitLab repositories, see [Releases](https://docs.gitlab.com/ee/user/project/releases/#:~:text=In%20GitLab%2C%20a%20release%20enables,point%20in%20the%20source%20code.){: external}.
 
 ## Uploading your readme file
 {: #upload-readme}

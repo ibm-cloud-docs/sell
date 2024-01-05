@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020, 2023
+  years: 2020, 2024
 
-lastupdated: "2023-11-08"
+lastupdated: "2024-01-05"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -67,7 +67,7 @@ Yes, see the following links for more information:
 {: #gh-upload-sw}
 {: faq}
 
-See [Managing releases in a repository](https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository){: external}.
+See [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository){: external}.
 
 ## How do I view my account ID and type?
 {: #accounttype-sw}

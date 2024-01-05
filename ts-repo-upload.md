@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-03-31"
+  years: 2022, 2024
+lastupdated: "2024-01-05"
 
 keywords: troubleshoot software, HTTPS protocol, repo, github, tgz
 
@@ -36,6 +36,6 @@ Do one of the following, depending on your product's delivery method:
 - If your source details are in a private repository, make sure that you have a personal access token or secret to authenticate. For more information, see [Importing a version to your private catalog](/docs/sell?topic=sell-sw-validate&interface=ui#sw-validate-add).
 - Make sure that your repository supports HTTPS protocol.
 
-For more information about GitHub repositories, see [Managing releases in a repository](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository){: external}.
+For more information about GitHub repositories, see [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository){: external}.
 
 For more information about GitLab repositories, see [Releases](https://docs.gitlab.com/ee/user/project/releases/#:~:text=In%20GitLab%2C%20a%20release%20enables,point%20in%20the%20source%20code.){: external}.

@@ -1,6 +1,6 @@
 {
     "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2023-09-26",
+    "lastupdated": "2024-01-05",
     "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software, deployable architectures and services.",
     "section_recommended": [
       {
@@ -27,7 +27,7 @@
       }
     ],
     "section_learn": {
-      "developer": "https://developer.ibm.com/depmodels/cloud/gettingstarted/",
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
       "community": "https://community.ibm.com/community/user/cloud/home"
     },
     "section_updates": {

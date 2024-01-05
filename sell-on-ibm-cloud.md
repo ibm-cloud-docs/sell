@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-09-26"
+  years: 2021, 2024
+lastupdated: "2024-01-05"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, third-party deployable architecture, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -31,7 +31,7 @@ If you plan to offer products on the {{site.data.keyword.cloud_notm}} platform, 
 
 * Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 
-* To sell services, verify that your company is an approved {{site.data.keyword.cloud_notm}} build partner with a [Direct Embedded Solutions Agreement](https://www-2000.ibm.com/partnerworld/pdfs/IBM_ESA_Technology_Partner_Direct_Application_Guide.pdf){: external}. For more information about being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Build Partner](https://www.ibm.com/partnerworld/public/build){: external} page.
+* To sell services, verify that your company is an approved {{site.data.keyword.cloud_notm}} build partner with a [Direct Embedded Solutions Agreement](https://www-2000.ibm.com/partnerworld/pdfs/IBM_ESA_Technology_Partner_Direct_Application_Guide.pdf){: external}. For more information about being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
 
 * Verify that your product is ready to be publicly listed and sold through the {{site.data.keyword.cloud_notm}} catalog.
 

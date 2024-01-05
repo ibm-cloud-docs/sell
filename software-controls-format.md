@@ -47,7 +47,7 @@ For examples of how you can format your controls in your readme file, see the fo
 ```markdown
 | Profile | Category | ID      | Description |
 |---------|----------|---------|-------------|
-| NIST | [SC-7](https://csrc.nist.gov/Projects/risk-management/sp800-53-controls/release-search#/control?version=4.0&number=SC-7) | SC-7(3) | Limit the number of external network connections to the system. |
+| NIST | [SC-7](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home?element=SC-07) | SC-7(3) | Limit the number of external network connections to the system. |
 ```
 {: codeblock}
 

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2023
+  years: 2022, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-01-05"
 
 keywords: third-party service, sell on IBM Cloud, resource management console, integrated billing service
 
@@ -84,7 +84,7 @@ After your product is approved, return to Partner Center and publish it to the {
 ## Before you begin
 {: #prereq}
 
-To onboard your services to the {{site.data.keyword.Bluemix_notm}} platform, you must be an approved {{site.data.keyword.Bluemix_notm}} build partner. You can expand your network by receiving access to {{site.data.keyword.IBM_notm}}’s global ecosystem, receive insights to better engage customers, grow your business, and increase revenue. For more information on being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Build Partner](https://www.ibm.com/partnerworld/public/build){: external} page.
+To onboard your services to the {{site.data.keyword.Bluemix_notm}} platform, you must be an approved {{site.data.keyword.Bluemix_notm}} build partner. You can expand your network by receiving access to {{site.data.keyword.IBM_notm}}’s global ecosystem, receive insights to better engage customers, grow your business, and increase revenue. For more information on being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
 
 Besides being an {{site.data.keyword.Bluemix_notm}} build partner, service onboarding is limited to providers who meet the following prerequisites due to current processing times:
 

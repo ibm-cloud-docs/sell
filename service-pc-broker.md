@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2023
+  years: 2022, 2024
 
-lastupdated: "2023-06-02"
+lastupdated: "2024-01-05"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, hosting service broker, OSB, open service broker, partner center
 
@@ -189,7 +189,7 @@ If your third-party API-based service is implemented in another cloud and expose
 
 When you onboard to {{site.data.keyword.Bluemix_notm}}, you must implement at least one OSB broker. You can have more than one broker depending on your deployment strategy and the locations you want to support for your service. Within Partner Center Sell, you establish the mapping between your pricing plan and the broker. The typical choices are to define a single broker to service all locations for your service or to define a broker per location; this choice is up to the service provider.
 
-For a list of available locations, review the [{{site.data.keyword.IBM_notm}} global catalog locations](https://globalcatalog.cloud.ibm.com//search?q=kind:geography){: external}. If your service requires more locations to be defined, consult the {{site.data.keyword.Bluemix_notm}} onboarding team.
+For a list of available locations, review the [{{site.data.keyword.IBM_notm}} global catalog locations](https://globalcatalog.cloud.ibm.com/search?q=kind:geography&noLocations=true){: external}. If your service requires more locations to be defined, consult the {{site.data.keyword.Bluemix_notm}} onboarding team.
 
 ## Hosting your brokers
 {: #pc-host}
