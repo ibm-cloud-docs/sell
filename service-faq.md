@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2024
 
-lastupdated: "2024-01-05"
+lastupdated: "2024-01-11"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
@@ -19,7 +19,7 @@ content-type: faq
 # FAQs about selling services
 {: #3p-faqs}
 
-FAQs about selling products on {{site.data.keyword.cloud}} might include questions about how and when to receive disbursements, how to view and test a service as a customer, and available metering models. Additional information about selling products on {{site.data.keyword.cloud_notm}} can be found in the Digital Platform Reseller Agreement in {{site.data.keyword.cloud_notm}} Partner Center that must be accepted to offer paid products.
+FAQs about selling products on {{site.data.keyword.cloud}} might include questions about how and when to receive disbursements, how to view and test a service as a customer, and available metering models. Additional information about selling products on {{site.data.keyword.cloud_notm}} can be found in the Digital Platform Reseller Agreement in {{site.data.keyword.cloud_notm}} Partner Center that must be accepted to offer free and paid products.
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
@@ -60,7 +60,7 @@ Disbursements are paid against revenue recognized by {{site.data.keyword.IBM}} i
 {: #third-party-activity-reports}
 {: faq}
 
-We are adding features to support reports in the near future. Disbursements are based on the quantities that you submit to the usage metering service and the price that is defined when you set up your pricing plan in Partner Center. Third-party disbursements are calculated as a percentage of the net revenue for each product sold by {{site.data.keyword.IBM_notm}} for a given calendar month. Net revenue is defined as the revenue recognized by {{site.data.keyword.IBM_notm}} or an {{site.data.keyword.IBM_notm}} affiliate calculated using applicable discounts, refunds, returns, offsets, and other adjustments determined in accordance with the current revenue recognition policies of {{site.data.keyword.IBM_notm}} and its affiliates and the controlling accounting principles. For full detail regarding payouts, refer to the Digital Platform Reseller Agreement that must be signed in Partner Center to offer usage-based pricing.
+We are adding features to support reports soon. Disbursements are based on the quantities that you submit to the usage metering service and the price that is defined when you set up your pricing plan in Partner Center. Third-party disbursements are calculated as a percentage of the net revenue for each product that is sold by {{site.data.keyword.IBM_notm}} for a given calendar month. Net revenue is defined as the revenue recognized by {{site.data.keyword.IBM_notm}} or an {{site.data.keyword.IBM_notm}} affiliate calculated using applicable discounts, refunds, returns, offsets, and other adjustments determined in accordance with the current revenue recognition policies of {{site.data.keyword.IBM_notm}} and its affiliates and the controlling accounting principles. For full detail regarding payouts, refer to the Digital Platform Reseller Agreement that must be signed in Partner Center to offer usage-based pricing.
 
 ## How can I generate a new {{site.data.keyword.Bluemix_notm}} Identity and Access Management API Key?
 {: #iam-creds}
@@ -73,18 +73,15 @@ You're given your API Key when you enable IAM. It is critical that you save the 
 
 Before you publish your service to the catalog, you can test how your customers will see and use it from the {{site.data.keyword.cloud_notm}} catalog. In Partner Center, go to your **Product details**, and click **View catalog entry**. This view enables you to preview your service in the catalog and check that the broker and pricing is working as expected by creating an instance in your account.
 
-## What is the Startup with {{site.data.keyword.IBM_notm}} Program?
-{: #startup-ibm}
+## How can {{site.data.keyword.IBM_notm}} partners demonstrate my product from the {{site.data.keyword.cloud_notm}} catalog?
+{: #ibmer-demo-service}
 {: faq}
 
-The [Startup with {{site.data.keyword.IBM_notm}} Program](https://www.ibm.com/partnerplus/isv){: external}, formerly the {{site.data.keyword.IBM_notm}} Global Entrepreneur Program (GEP), is an {{site.data.keyword.IBM_notm}} corporate program helps you startup or scale up your business with or without funding. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the Startup with {{site.data.keyword.IBM_notm}} Team and not {{site.data.keyword.cloud_notm}} Support.
+If you want {{site.data.keyword.IBM_notm}} partners to demonstrate your product, you must have or set up a free plan for your product that gets made available for their internal use. Since the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement that you submit for your service does not allow {{site.data.keyword.IBM_notm}} to pay for any internal consumption of your product by default, you must add {{site.data.keyword.IBM_notm}} partners to the allowlist of your product. To make your plan available to either all {{site.data.keyword.IBM_notm}} employees or to specific {{site.data.keyword.IBM_notm}} accounts, open a support case and follow the instructions in the [Making your pricing plan available to {{site.data.keyword.IBM_notm}} partners for demonstrating purposes](/docs/sell?topic=sell-change-plan#change-plan-demo) section.
 
-If your application to the program is approved, awarded credits are referred to as the `Technology Incubator Program` on an {{site.data.keyword.cloud_notm}} Invoice. For more information about the program and its credits, see [Startup with {{site.data.keyword.IBM_notm}} FAQs](https://www.ibm.com/partnerplus){: external}.
-
-## What is {{site.data.keyword.IBM_notm}} PartnerWorld?
-{: #partnerworld-ibm}
+## What is {{site.data.keyword.IBM_notm}} Partner Plus?
+{: #partnerplus-ibm}
 {: faq}
 
-[{{site.data.keyword.IBM_notm}} PartnerWorld Program](https://www.ibm.com/partnerplus){: external} is an {{site.data.keyword.IBM_notm}} corporate program that provides access to the {{site.data.keyword.IBM_notm}} product portfolio including the {{site.data.keyword.cloud_notm}} Platform. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the {{site.data.keyword.IBM_notm}} PartnerWorld Team and not {{site.data.keyword.cloud_notm}} Support.
-
-For more information about the program, contact the [{{site.data.keyword.IBM_notm}} PartnerWorld Team](https://www.ibm.com/partnerplus/support){: external}.
+The {{site.data.keyword.IBM_notm}} Partner Plus program offers you a partnership that is built on mutual success and provides you access to competitive incentives, insider programs, and enhanced support.
+For more information, see the [{{site.data.keyword.IBM_notm}} Partner Plus](https://www.ibm.com/partnerplus){: external} website.
