@@ -141,6 +141,7 @@ toc:
             - service-add-metrics.md
             - service-custom-parameters.md
             - service-support.md
+            - service-docs.md
             - service-develop-auth.md
             - service-pricing-change.md
             - service-publish.md

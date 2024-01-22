@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2023
+  years: 2018, 2024
 
-lastupdated: "2023-12-07"
+lastupdated: "2024-01-22"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
@@ -26,7 +26,7 @@ Use the following checklists to track all the tasks required to define, develop,
 | Task | Description | Environment |
 |------|-------------|-------------|
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Provide your company name | Specify the legal name of your company.  | {{site.data.keyword.cloud_notm}} console | 
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create a test environment | The test environment is not needed for services, but is necessary for software. If you onboard software in the future, you use the test environment to validate that it's ready for use. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create a test environment | The test environment is not needed for services, but is necessary for software. If you onboard software in the future, you will use the test environment to validate that it's ready for use. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Assign team access | With the correct {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access, members of your team can help onboard your service. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Invite team members to your account | Members of your account are assigned the IAM access that you set up in the previous task. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM_notm}} | Review and submit the {{site.data.keyword.IBM_notm}} Digital Reseller Agreement if you plan to offer free or paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
@@ -40,7 +40,7 @@ For more information, see [Getting set up to sell services](/docs/sell?topic=sel
 | Task | Description | Environment |
 |------|-------------|-------------|
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your display and programmatic names | Review the programmatic name that was generated for you and make any needed updates. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify your partner details | Review the Company and Team information and make sure that everything is correct. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify your partner details | Review the company and team information and make sure that everything is correct. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create your service ID | Create your service ID that is used to identify your service when communicating with other {{site.data.keyword.cloud_notm}} services.  | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create your API key | Create an API key that is used to authenticate your service ID. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your product details | Add details, such as your product logo, keywords, description, features, and documentation URL for your product's entry and details page in the {{site.data.keyword.cloud_notm}} catalog. | {{site.data.keyword.cloud_notm}} console |
@@ -108,5 +108,19 @@ For more information, see the following links:
 * [Publishing your service](/docs/sell?topic=sell-service-publish)
 * [Publish your service to the IBM Cloud catalog](/docs/sell?topic=sell-svc-publish)
 
-As a third-party provider, you're responsible for maintaining all assets of published services in the {{site.data.keyword.cloud_notm}} catalog and deprecating outdated versions.  
+As a third-party provider, you're responsible for maintaining all assets of published services in the {{site.data.keyword.cloud_notm}} catalog and deprecating outdated versions.
 {: note}
+
+## Publishing your service documentation
+{: #pubdocs}
+
+| Task | Description | Environment |
+|------|-------------|-------------|
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Populate the **Docs** link | Provide a link to documentation from the {{site.data.keyword.cloud_notm}} catalog page that helps users understand and learn more about how to use your service. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Publish usage documentation for your service | Provide information about how to use your product. | Documentation |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Publish getting started information for your service | Include any customer onboarding timelines or steps as part of your Getting Started topic. | Documentation |
+{: caption="Table 6. Tasks for documenting services" caption-side="top"}
+
+For more information, see the following links:
+
+* [Documenting your service](/docs/sell?topic=sell-service-docs)
