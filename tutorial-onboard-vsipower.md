@@ -163,6 +163,4 @@ You must complete validation and any other requirements to publish your virtual 
 ## Next steps
 {: #vsipower-onboard-next}
 
-<!--Staging only: The virtual server image isn't yet publicly available to other accounts. Use a REST API to make the image public so that users can use it to create virtual server instances. For more information, see [Update the visibility of your image](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample#update-the-visibility-of-your-image-patch-api){: external}.-->
-
 Go to the Partner Center and publish it to the catalog. For more information, see [Publishing a virtual server image to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-vsipower-publish).
