@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2022, 2023
+  years: 2022, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-02-01"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -153,39 +153,7 @@ Validate that you can deploy the virtual server image to your {{site.data.keywor
     You can monitor the progress of the validation process by clicking **View logs**.
     {: tip}
 
-## Manage compliance
-{: #vsipower-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
-
-### Manage compliance controls
-{: #vsipower-add-controls}
-
-You can review the controls that were added from your readme file and add additional controls.
-
-1. Click **Add controls**.
-1. Choose a profile.
-1. Select the controls that you want to add to your version.
-1. Click **Add**.
-
-### Run Code Risk Analyzer scan
-{: #vsipower-cra-scan}
-
-Scan your source code with Code Risk Analyzer to identify any security vulnerabilities that you need to assess.
-
-1. Click **Run scan**.
-2. Wait for the scan to finish.
-
-### Add Security and Compliance Center scan
-{: #vsipower-scc-scan}
-
-Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-scan-resources&interface=ui#scan-schedule-ui).
-
-1. Select the profile that you scanned.
-1. Select the Security and Compliance Center scan.
-1. Click **Add scan**.
-1. Click **Next**.
+{{site.data.content.manage-compliance}}
 
 ## Review requirements
 {: #vsipower-review-reqs}
@@ -194,5 +162,7 @@ You must complete validation and any other requirements to publish your virtual 
 
 ## Next steps
 {: #vsipower-onboard-next}
+
+<!--Staging only: The virtual server image isn't yet publicly available to other accounts. Use a REST API to make the image public so that users can use it to create virtual server instances. For more information, see [Update the visibility of your image](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample#update-the-visibility-of-your-image-patch-api){: external}.-->
 
 Go to the Partner Center and publish it to the catalog. For more information, see [Publishing a virtual server image to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-vsipower-publish).

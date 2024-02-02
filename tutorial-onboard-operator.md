@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-02-01"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
@@ -121,39 +121,7 @@ When users install the software, they can view product information by clicking t
 
 1. Click **Validate**.
 
-## Manage compliance
-{: #operator-controls}
-{: step}
-
-Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
-
-### Manage compliance controls
-{: #operator-add-controls}
-
-You can review the controls that were added from your readme file and add additional controls.
-
-1. Click **Add controls**.
-1. Choose a profile.
-1. Select the controls that you want to add to your version.
-1. Click **Add**.
-
-### Run Code Risk Analyzer scan
-{: #operator-cra-scan}
-
-Scan your source code with Code Risk Analyzer to identify any security vulnerabilities that you need to assess.
-
-1. Click **Run scan**.
-2. Wait for the scan to finish.
-
-### Add Security and Compliance Center scan
-{: #operator-scc-scan}
-
-Add the scans that you previously ran in Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-scan-resources&interface=ui#scan-schedule-ui).
-
-1. Select the profile that you scanned.
-1. Select the Security and Compliance Center scan.
-1. Click **Add scan**.
-1. Click **Next**.
+{{site.data.content.manage-compliance}}
 
 ## Review requirements
 {: #operator-review-reqs}

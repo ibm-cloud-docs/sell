@@ -3,7 +3,7 @@
 copyright:
   years: 2023, 2024
 
-lastupdated: "2024-01-05"
+lastupdated: "2024-02-01"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, vpc, virtual private cloud
@@ -116,33 +116,7 @@ Validating your virtual server image involves running a test deployment of your 
 1. Click **Validate**.
 1. Click **Next**.
 
-## Manage compliance
-{: #vsivpc-controls}
-{: step}
-
-The Security and Compliance Center scans determine adherence to regulatory controls as defined in a profile. Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Adding compliance details](/docs/account?topic=account-catalog-format-controls). After you publish your product, users can view your controls on the About page for your product, which proves that your product meets specific industry regulations. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles&interface=ui).
-
-### Manage compliance controls
-{: #vsivpc-add-controls}
-
-You can review the controls that were added from your readme file and add additional controls.
-
-1. Click **Add claims**.
-1. Choose a profile.
-1. Select the claim type.
-1. Select the controls that you want to add to your version.
-1. Click **Add**.
-
-### Add Security and Compliance Center scan
-{: #vsivpc-scc-scan}
-
-Add the scans that you previously ran in the Security and Compliance Center. Security and Compliance Center scans determine adherence to regulatory controls. For more information, see [Scheduling a scan](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-scan-resources&interface=ui#scan-schedule-ui).
-
-1. Click **Add scan**.
-1. Select the profile that you scanned.
-1. Select the Security and Compliance Center scan.
-1. Click **Apply scan**.
-1. Click **Next**.
+{{site.data.content.manage-compliance}}
 
 ## Review requirements
 {: #vsivpc-review-reqs}
