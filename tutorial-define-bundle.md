@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-12-07"
+lastupdated: "2024-02-20"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -52,16 +52,18 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 {: #bundle-name}
 {: step}
 
-When you add a product, you can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a new product. 
+You can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a product.
 
-1. From the {{site.data.keyword.cloud_notm}} Partner Center, click **Create**.
-1. Provide the name of your Operator bundle as it appears in the {{site.data.keyword.redhat_notm}} registry in the product name field.  For the purposes of this tutorial, you can enter `Akka Cluster Operator`.
-1. Select the product type. For the purposes of this tutorial, select **Deployable software**. 
+1. From the **My products** page in {{site.data.keyword.cloud_notm}} Partner Center, click **Create**.
+1. Click **Create a product**, and click **Next**.
+1. Select **Deployable software** as the type of product that you're onboarding, and click **Next**.
 
-    The product type that you select is used for tax assessment purposes.
+    The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).
     {: important}
 
-1. Click **Add**.
+1. Enter the display name of your Operator bundle as it appears in the {{site.data.keyword.redhat_notm}} registry in the product name field. For the purposes of this tutorial, you can enter `Akka Cluster Operator`. 
+1. Optionally, enter the programmatic name of your product, and click **Next**.
+1. Review your product details and click **Create**.
 
 ## Define your catalog entry and product page
 {: #bundle-catalog}

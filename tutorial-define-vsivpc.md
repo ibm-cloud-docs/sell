@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2023
+  years: 2023, 2024
 
-lastupdated: "2023-12-07"
+lastupdated: "2024-02-20"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, BYOL, terraform, catalog, vpc, virtual private cloud
 
@@ -53,21 +53,23 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 {: #vsivpc-name}
 {: step}
 
-When you add a product, you can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a new product.
+You can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a product.
 
-1. From the My products page in the [{{site.data.keyword.cloud_notm}} Partner Center](/partner-center/sell/my-products), click **Create**.
-1. In the Product name field, enter the name of your virtual server image, for example, `Example Corp Virtual Server Image 1.0.0`. Make sure that the name meets the following requirements:
+1. From the **My products** page in {{site.data.keyword.cloud_notm}} Partner Center, click **Create**.
+1. Click **Create a product**, and click **Next**.
+1. Select **Deployable software** as the type of product that you're onboarding, and click **Next**.
 
-   * Use 60 characters or less.
-   * Do not include "{{site.data.keyword.cloud_notm}}".
-   * Do not include the name of your company, former product names, or details like deployment targets and pricing. You can include this information in your readme file.
-
-1. Select the product type. For the purposes of this tutorial, select **Deployable software**.
-
-    The product type that you select is used for tax assessment purposes.
+    The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).
     {: important}
 
-1. Click **Add**.
+1. Enter the display name of your virtual server image, for example, `Example Virtual Server Image 1.0.0`. Make sure that the name you enter meets the following requirements:
+
+   * Use 60 characters or less.
+   * Don't include "{{site.data.keyword.cloud_notm}}".
+   * Don't include the name of your company, former product names, or pricing details.
+
+1. Optionally, enter the programmatic name of your product, and click **Next**.
+1. Review your product details and click **Create**.   
 
 ## Define your catalog entry and product page
 {: #vsivpc-catalog}
@@ -106,9 +108,9 @@ For the purposes of this tutorial, complete the following steps to add a BYOL pr
 1. Click **Add plan** > **BYOL**.
 1. Enter the name, URL, and description of the license, for example:
 
-* Name: `BYOL for Example Corp Virtual Server Image 1.0.0`
-* URL: `byol.vsimage.examplecorp.html`
-* Description: `This BYOL license is required for the installation and use of the Example Corp Virtual Server Image.`
+* Name: `BYOL for Example Virtual Server Image 1.0.0`
+* URL: `byol.vsimage.example.html`
+* Description: `This BYOL license is required for the installation and use of the Example Virtual Server Image.`
 
 ## Define your support experience
 {: #vsivpc-support}
