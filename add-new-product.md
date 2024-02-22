@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-02-20"
+lastupdated: "2024-02-22"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, add product, software, partner, sellers, partner center, name, type, create product
 
@@ -24,7 +24,7 @@ During the onboarding process, you can add a new product or import an existing p
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. From the **My products** page, click **Create**.
-1. Click **Create a product**, and click **Next**.
+1. Click **Create a product**, and click **Next > Start now**.
 1. Select your product type, and click **Next**.
 
     The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).

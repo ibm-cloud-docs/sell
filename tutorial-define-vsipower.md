@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2024
 
-lastupdated: "2024-02-20"
+lastupdated: "2024-02-22"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, BYOL, terraform, catalog, power, power vsi, power systems virtual server
 
@@ -56,7 +56,7 @@ For the purposes of this tutorial, complete the following steps to sign the {{si
 You can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a product.
 
 1. From the **My products** page in {{site.data.keyword.cloud_notm}} Partner Center, click **Create**.
-1. Click **Create a product**, and click **Next**.
+1. Click **Create a product**, and click **Next > Start now**.
 1. Select **Deployable software** as the type of product that you're onboarding, and click **Next**. 
 
     The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).

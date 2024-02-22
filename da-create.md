@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-02-20"
+lastupdated: "2024-02-22"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, add product, create deployable architecture, partner, sellers, partner center
 
@@ -25,7 +25,7 @@ To add a new deployable architecture in Partner Center, complete the following s
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. From the **My products** page, click **Create**.
-1. Click **Create a product**, and click **Next**.
+1. Click **Create a product**, and click **Next > Start now**.
 1. Select **Deployable architecture** as your product type, and click **Next**.
 1. Enter the display name of your product.
 1. Optionally, enter the programmatic name of your product, and click **Next**.
