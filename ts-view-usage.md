@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-01-06"
+  years: 2022, 2024
+lastupdated: "2024-02-23"
 
 keywords: troubleshooting, usage, offers, rewards, partner center, viewer, billing service, IAM, offers, account management
 
@@ -26,7 +26,7 @@ When you're working in an {{site.data.keyword.cloud}} account that you've been a
 
 > Oops! Your incentives details are currently unavailable.
 
-By default, only account owners can view usage and rewards details. For users of an account to view this information, specific IAM access is required: [viewer role on the Billing service](/docs/sell?topic=account-account-services#pc-buildgrow-account-management).
+By default, only account owners can view usage and rewards details. For users of an account to view this information, specific IAM access is required: [viewer role on the Billing service](/docs/account?topic=account-account-services&interface=ui#pc-buildgrow-account-management).
 {: tsCauses}
 
 Contact your account owner and request viewer access to usage and rewards details.
