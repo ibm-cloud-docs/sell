@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2020, 2023
+  years: 2020, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-02-26"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -31,7 +31,7 @@ Welcome to {{site.data.keyword.cloud}}! To start onboarding your software to our
 
 Onboarding software to {{site.data.keyword.cloud_notm}} involves four major steps: registering in Partner Center, customizing your product details for the {{site.data.keyword.cloud_notm}} catalog, testing and validating your product, and, finally, publishing your product. Check out the following video for a walk-through of the complete process.
 
-![Selling on IBM Cloud](https://video.ibm.com/embed/channel/23952684/video/sell-on-ibm-cloud){: video output="iframe" data-script="#onboard-software-script" id="watsonmediaplayer" width="560" height="315" scrolling="no" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="border: 0 none transparent;"}
+![Selling on IBM Cloud](https://video.ibm.com/embed/recorded/131014940){: video output="iframe" data-script="#onboard-software-script" id="watsonmediaplayer" width="560" height="315" scrolling="no" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="border: 0 none transparent;"}
 
 ### Video transcript
 {: #onboard-software-script}
