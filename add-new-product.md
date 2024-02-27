@@ -3,7 +3,7 @@
 
 copyright:
   years: 2022, 2024
-lastupdated: "2024-02-22"
+lastupdated: "2024-02-27"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, add product, software, partner, sellers, partner center, name, type, create product
 
@@ -42,5 +42,5 @@ If you previously onboarded software to your account, you can import the softwar
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. From the **My products** page, click **Create**.
 1. Select **Import existing product**, and click **Next**.
-1. Select the private catalog that contains your product and click **Next**.
+1. Select the private catalog that contains your product and click **Select catalog**.
 1. Select the product that you want to import and click **Import**.

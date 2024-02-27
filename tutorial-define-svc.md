@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-02-22"
+lastupdated: "2024-02-27"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -58,7 +58,7 @@ You can add a new product or import an existing product from a private catalog. 
 
 1. From the **My products** page, click **Create**.
 1. Click **Create a product**, and click **Next > Start now**.
-1. Select **Software as a service** as the type of product that you're onboarding, and click **Next**.
+1. Select **Service > Software as a service** as the type of product that you're onboarding, and click **Next**.
 
     The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).
     {: important}
