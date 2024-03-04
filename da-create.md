@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-02-27"
+lastupdated: "2024-03-04"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, add product, create deployable architecture, partner, sellers, partner center
 

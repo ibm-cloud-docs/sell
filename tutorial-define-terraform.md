@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-02-22"
+lastupdated: "2024-03-04"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, product details, catalog listing, support, pricing, BYOL, DPA,  digital provider agreement, Terraform, terraform template
 
