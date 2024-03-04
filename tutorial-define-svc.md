@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-12-07"
+lastupdated: "2024-03-04"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -21,7 +21,7 @@ completion-time: 10m
 # Define the product details of your service
 {: #svc-define}
 {: toc-content-type="tutorial"} 
-{: toc-completion-time="10m"} 
+{: toc-completion-time="10m"}
 
 This tutorial walks you through the steps for defining specific details about your service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement, customize your catalog entry and product page, and define support experience.  
 {: shortdesc}
@@ -54,25 +54,29 @@ Complete the following steps to review and submit the {{site.data.keyword.IBM_no
 {: #svc-name}
 {: step}
 
-When you add a product, you can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a new product.  
+You can add a new product or import an existing product from a private catalog. For the purposes of this tutorial, add a product.
 
-1. Click **My products** > **Create**. 
-1. Enter the name of your product, for example, `Example Corp SaaS Product`. Make sure that the name you enter meets the following requirements:
-  
+1. From the **My products** page, click **Create**.
+1. Click **Create a product**, and click **Next > Start now**.
+1. Select **Service > Software as a service** as the type of product that you're onboarding, and click **Next**.
+
+    The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).
+    {: important}
+
+1. Enter the display name of your product, for example `Example SaaS Product`. Make sure that the name you enter meets the following requirements:
+
    * Use 60 characters or less.
    * Don't include "{{site.data.keyword.cloud_notm}}".
    * Don't include the name of your company, former product names, or pricing details.
 
-1. Select **Software as a Service** as the type of product that you're onboarding, and click **Add**.
-
-    The product type that you select is used for tax assessment purposes. 
-    {: important}
+1. Optionally, enter the programmatic name of your product, and click **Next**.
+1. Review your product details and click **Create**.
 
 ## Confirm your display name and programmatic name for approval
 {: #svc-progname-review}
 {: step}
 
-Your programmatic name is different than the name that you provided in the previous step. It's automatically generated for you and includes your company name. If your company offers multiple products in {{site.data.keyword.cloud_notm}}, the value of each service name includes both the company name and product name.
+Your programmatic name is different than the display name that you provided in the previous step. It's either automatically generated for you and includes your company name, or it is provided by you in a customized manner during the previous step. If your company offers multiple products in {{site.data.keyword.cloud_notm}}, the value of each service name includes both the company name and product name.
 
 Your programmatic name must be approved to create your pricing plans or registering your service broker. You can review and make updates to your programmatic name before you submit it for approval. 
 
