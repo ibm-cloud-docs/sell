@@ -1,10 +1,9 @@
 ---
 
 copyright:
-
   years: 2022, 2024
 
-lastupdated: "2024-01-05"
+lastupdated: "2024-04-01"
 
 keywords: third-party service, sell on IBM Cloud, resource management console, integrated billing service
 
@@ -23,7 +22,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
+Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to the {{site.data.keyword.Bluemix_notm}} platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
 It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
@@ -34,7 +33,7 @@ It's recommended that you use an account that was created with a [functional ID]
 
 Onboarding your product to {{site.data.keyword.cloud_notm}} involves four major steps: registering in Partner Center, customizing your product details, building a service broker and validating your pricing plan, and, finally, publishing your product. Check out the following video for a walk-through of the complete process.
 
-![Selling services on IBM Cloud](https://video.ibm.com/embed/recorded/132523416){: video output="iframe" data-script="#sell-services-script" id="watsonmediaplayer" width="560" height="315" scrolling="no" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="border: 0 none transparent;"}
+![Selling services on IBM Cloud](https://www.kaltura.com/p/1773841/sp/177384100/embedIframeJs/uiconf_id/27941801/partner_id/1773841?iframeembed=true&entry_id=1_qjjedthi){: video output="iframe" data-script="#sell-services-script" id="mediacenter-player" width="560" height="315" scrolling="no" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="border: 0 none transparent;"}
 
 ### Video transcript
 {: #sell-services-script}
