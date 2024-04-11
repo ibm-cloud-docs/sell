@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-04-11"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, third-party deployable architecture, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
@@ -134,4 +134,4 @@ Deployable architectures are different from software in that they require an arc
 
 The only deployable architecture type that {{site.data.keyword.cloud_notm}} supports currently is Terraform.
 
-For more information, see [What are deployable architectures?](/docs/secure-enterprise?topic=secure-enterprise-what-are-deployable-architectures) and [Getting set up to sell deployable architectures](/docs/sell?topic=sell-da-getting-started&interface=ui).
+For more information, see [What is a deployable architecture?](/docs/secure-enterprise?topic=secure-enterprise-understand-module-da#what-is-da) and [Getting set up to sell deployable architectures](/docs/sell?topic=sell-da-getting-started&interface=ui).
