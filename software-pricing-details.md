@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 
 lastupdated: "2024-04-24"
 
@@ -23,83 +23,7 @@ When onboarding your product, you need to define the pricing model for your soft
 ## Before you begin
 {: #prereqs-sw-plans}
 
-Before you submit a pricing plan for approval, you must sign the required agreements, documentation, and provide the Export Control Classification Number (ECCN) and United Nations Standard Products and Services Code (UNSPSC) that applies to your product. The prerequisites might differ depending on the pricing plan type.
-
-For free plans:
-
-* Provide the ECCN that applies to your product.
-* Provide the UNSPSC that applies to your product.
-* Confirm the digital platform reseller agreement.
-
-For usage-based plans:
-
-* Provide the ECCN that applies to your product.
-* Provide the UNSPSC that applies to your product.
-* Submit your tax and Electronic Funds Transfer (EFT) information for paid plans to set up and receive payment disbursements for usage.
-* Confirm the digital platform reseller agreement.
-
-For BYOL plans:
-
-* Provide the ECCN that applies to your product.
-* Provide the UNSPSC that applies to your product.
-* Confirm the digital provider agreement.
-
-Depending on the type of plan you're adding, complete each prerequisite by using the following instructions.
-
-### Submitting tax and EFT forms
-{: #submit-tax-eft-sw}
-
-For products that you offer on {{site.data.keyword.cloud_notm}} with a paid, usage-based pricing plan, you receive disbursements based on the usage in accordance with your pricing structure. To receive disbursements, you must complete and submit the EFT form and tax documentation.
-
-To provide tax and EFT information, complete the following steps:
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Payments to me**.
-1. Download the relevant EFT form, and complete it.
-
-    One of three types of bank documents is required to be submitted with the form. You can submit a scanned copy of a voided check or a bank letter that is signed and stamped by the bank. If you are outside of the United States, you can alternatively provide an online bank statement. The document that you provide must include the bank name, account number, routing number (or bank key or ABA), and the account holder's name.
-    {: important}
-
-1. Download the relevant tax documentation, and complete it.
-1. Submit the completed documentation and bank document by email to `apremit@us.ibm.com`. Include `cloud.onboarding@ibm.com` on the email.
-1. Select **I confirm that I completed and emailed all of the required documents.**.
-
-### Providing the ECCN
-{: #sw-eccn}
-
-To start defining your pricing model, you must provide the Export Control Classification Number (ECCN) that applies to your product. The ECCN is required for free, usage-based, and BYOL pricing plans. If you don't have your ECCN, you can find it on the [Commerce Control List](https://www.bis.gov/regulations/classify-your-item#what-is-an-eccn){: external}.
-
-You must submit your tax and EFT documents and receive approval before you can provide the ECCN if you're using a usage-based pricing plan.
-{: note}
-
-1. Go to **Partner Center** > **My products**.
-1. Select your product and go to **Pricing**.
-1. Click **Add ECCN** and provide the ECCN for your product.
-1. Click **Add**.
-
-If you need to update your ECCN after you add it, you must contact {{site.data.keyword.cloud_notm}} Support. To contact support, you can use the following methods:
-
-* If you have a valid Pay-As-You-Go or Subscription account, you can click **Chat with IBM** to connect with a support engineer.
-* Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
-
-### Providing the UNSPSC
-{: #sw-unspsc}
-
-You must provide your ECCN before the UNSPSC.
-{: note}
-
-In addition to ECCN, you must provide the UNSPSC that applies to your product. The UNSPSC is required for free, usage-based, and BYOL pricing plans. If you need help with selecting the UNSPSC for your service, see [How to select UNSPSC codes?](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes){: external}.
-
-To provide the UNSPSC code that applies to your product, complete the following steps:
-
-1. Go to **Partner Center** > **My products**.
-1. Select your product and go to **Pricing**.
-1. Click **Add UNSPSC** and select the UNSPSC code for your product.
-1. Click **Add**.
-
-### Accepting agreement terms and conditions
-{: #sw-confirm-dra}
-
-Depending on the type of plans you are adding for your product, you must sign the agreement that outlines the terms and conditions of providing a product in the {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
+Before you can submit a pricing plan for approval, you must sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement or the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement, which set the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
 Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
