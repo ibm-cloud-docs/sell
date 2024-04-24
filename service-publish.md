@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-10-19"
+  years: 2022, 2024
+lastupdated: "2024-04-24"
 
 keywords: service, third party, publish service, partners
 
@@ -27,7 +27,7 @@ Before you can publish your product to the catalog, your service must be submitt
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you are onboarding.
-1. Review the details on each tab to ensure that everything is accurate.
+1. Review the details on each page to ensure that everything is accurate.
 1. Click **Request approval**.
 1. Select a version of your product that you want to submit for publishing approval, and click **Request approval**.
 

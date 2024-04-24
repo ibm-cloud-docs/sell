@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-02-02"
+lastupdated: "2024-04-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -51,7 +51,7 @@ Make sure that you use the same account to access {{site.data.keyword.registrylo
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding.
-1. From the Software tab, click **Import a version**.
+1. From the Software page, click **Import a version**.
 1. Select **Operator from {{site.data.keyword.redhat_notm}} registry** as your deployment method.
 1. Select **Certified** as your {{site.data.keyword.redhat_notm}} repository.
 1. Select your Operator bundle. For example, for the purposes of this tutorial, you can select **Akka Cluster Operator** as your Operator.

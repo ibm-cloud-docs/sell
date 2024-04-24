@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-03-04"
+lastupdated: "2024-04-22"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -11,7 +11,7 @@ subcollection: sell
 
 content-type: tutorial
 account-plan: paid
-completion-time: 10m 
+completion-time: 10m
 
 ---
 
@@ -101,7 +101,7 @@ You're also required to create an API key for your service ID. To create your AP
 
 When your service is published in the catalog, it's represented by a catalog entry and a product page. The contents of your catalog entry include your company or product logo, and a short description. The contents of your product page include a list of features, a detailed description, a link to your product's warranted documentation, and a description of your customer support experience. 
 
-1. Click **Product details**, and enter the URL to your company or product logo, for example `http://svgur.com/i/TTP.svg`.
+1. Click **Catalog entry**, and enter the URL to your company or product logo, for example `http://svgur.com/i/TTP.svg`.
 1. Add a company logo.
 1. Provide a short description about your service.
 1. From the **Category** list, select the option that best fits how users might use your product, for example, **Databases**. Categories are used to organize similar products in the catalog based on common solutions, function, or use.

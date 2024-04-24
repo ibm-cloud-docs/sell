@@ -3,7 +3,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-04-22"
 
 keywords:
 
@@ -36,6 +36,6 @@ When a user clicks your service tile in the {{site.data.keyword.cloud_notm}} cat
 To add the URL where you're hosting your service documentation, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products** and select your product.
-1. Click **Product details**.
+1. Click **Catalog entry**.
 1. Click **Add your documentation URL**.
 1. Enter the URL and click **Save**.

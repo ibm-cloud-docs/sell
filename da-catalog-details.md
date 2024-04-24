@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2023
-lastupdated: "2023-11-08"
+  years: 2023, 2024
+lastupdated: "2024-04-22"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, partner, sellers, partner center, catalog details, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -30,7 +30,7 @@ The contents of your catalog entry include the company or product logo, a short 
 To provide your company or product logo, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
-1. Select the product that you're onboarding, and click **Product details**.
+1. Select the product that you're onboarding, and click **Catalog entry**.
 1. Click **Add logo**.
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`, and click **Save**.
 
@@ -39,7 +39,7 @@ To provide your company or product logo, complete the following steps:
 
 To provide a short description of your product, complete the following steps:
 
-1. From the Product details tab, click **Summarize what the product is and its value**.
+1. From the Catalog entry page, click **Summarize what the product is and its value**.
 1. Enter a short description of what your product is, its value, and any other details that you want to be displayed in your catalog entry.
 1. Click **Save**.
 
@@ -48,7 +48,7 @@ To provide a short description of your product, complete the following steps:
 
 Users can filter the catalog to display similar products based on common solutions, function, or use. To select your catalog category, complete the following steps:
 
-1. From the Product details tab, click **Select category**.
+1. From the Catalog entry page, click **Select category**.
 1. From the list, select the category that best describes your product. For more information about the deployable architecture categories, see the following descriptions:
 
 Converged infrastructure
@@ -62,7 +62,7 @@ Enterprise applications
 
 Relevant keywords enable your product to appear in search results when users search the catalog. To add keywords associated with your product, complete the following steps:
 
-1. From the Product details tab, click **Enter words, phrases, and other key search terms associated with the product**.
+1. From the Catalog entry page, click **Enter words, phrases, and other key search terms associated with the product**.
 1. Enter one or more keywords for your product, and click **Save**.
 
 ## Defining your product page
@@ -77,7 +77,7 @@ Your detailed description explains the value of your product and what users gain
 
 To provide a detailed description for your product, complete the following steps:
 
-1. From the Product details tab, click **Enter text that explains the product's value and benefits to users**.
+1. From the Catalog entry page, click **Enter text that explains the product's value and benefits to users**.
 1. Provide the description of your product, and click **Save**.
 
 ### Providing a list of product features
@@ -85,7 +85,7 @@ To provide a detailed description for your product, complete the following steps
 
 A list of features can highlight your product's attributes and benefits for users. To add a list of features, complete the following steps:
 
-1. From the Product details tab, click **Add a list of product features**.
+1. From the Catalog entry page, click **Add a list of product features**.
 1. Click **Add new** and provide a title and a description for the feature.
 1. Click **Save**.
 
@@ -94,7 +94,7 @@ A list of features can highlight your product's attributes and benefits for user
 
 Your documentation link is used to direct users to your product's warranted documentation. To provide a documentation for your product, complete the following steps:
 
-1. From the Product details tab, click **Add your documentation URL**.
+1. From the Catalog entry page, click **Add your documentation URL**.
 1. Provide a link to your warranted product documentation, and click **Save**.
 
 ## Next steps

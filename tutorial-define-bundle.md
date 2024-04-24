@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-03-04"
+lastupdated: "2024-04-22"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -71,7 +71,7 @@ You can add a new product or import an existing product from a private catalog. 
 
 Provide details that are displayed on your catalog entry and product page when your Operator bundle is published in the {{site.data.keyword.cloud_notm}} catalog.
 
-1. Click **Product details** > **Add logo**, and enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`.
+1. Click **Catalog entry** > **Add logo**, and enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`.
 1. Provide a short description of your product, which is displayed on your catalog entry. For the purposes of this tutorial, you can enter `This Operator is a developer tool.`
 1. From the **Category** list, select an option that best fits how users might use your product, for example, **Developer tools**. Categories are used to organize products in the catalog based on common solutions, function, or use. 
 1. Enter keywords that users might use when they search the catalog for your product, for example, `dev tools` and `operator`.

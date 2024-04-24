@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2023
+  years: 2022, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-04-24"
 
 keywords: IBM Cloud, selling services, custom, parameters
 
@@ -33,7 +33,7 @@ To add custom fields for simple use cases, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
-1. Click **Product details**.
+1. Click **Catalog entry**.
 1. To add custom setup options, click **Add custom fields**.
 1. Select **Simple**.
 1. Select *Short text entry*, *Paragraph entry*, or *Option selection* based on how you want to receive the input from customers.
@@ -51,10 +51,10 @@ To add custom fields for complex use cases, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
-1. Click **Product details**.
+1. Click **Catalog entry**.
 1. To add custom setup options, click **Add custom option**.
 1. Select **Advanced**.
 1. Create custom input fields by using the JSON editor.
-1. Click **Done**. You can edit your JSON entry from the **Product details** page by clicking **Edit JSON**.
+1. Click **Done**. You can edit your JSON entry from the **Catalog entry** page by clicking **Edit JSON**.
 
 For more information about service parameters, see [Service parameter definitions and examples](/docs/sell?topic=sell-service_parameters_def_examples).

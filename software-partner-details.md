@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-11-28"
+  years: 2021, 2024
+lastupdated: "2024-04-24"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software, company details
 
@@ -24,7 +24,7 @@ As an account administrator, you can update your company and product details in 
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
-1. Click **Dashboard**.
+1. Click **Product details**.
 1. To update the company name or primary contact, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to each field.
 
    To update the primary contact, the user must already be a member of your account. For more information, see [Inviting team members to help onboard software](/docs/sell?topic=sell-sw-invite-team).
@@ -35,6 +35,7 @@ As an account administrator, you can update your company and product details in 
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
+1. Click **Product details**.
 1. Click **Edit company** in the **Company** section.
 1. Click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 1. Enter the legal name of your company, and click **Save**.
@@ -44,7 +45,7 @@ As an account administrator, you can update your company and product details in 
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
-1. Click **Dashboard**.
+1. Click **Product details**.
 1. To update the name of the product, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit"). Make sure that your product name meets the following requirements:
 
    * Use 60 characters or less.
