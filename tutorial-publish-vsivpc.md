@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-19"
+  years: 2023, 2024
+lastupdated: "2024-04-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, publish, tutorial, sample, vpc, virtual public cloud
 
@@ -42,7 +42,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your virtual server image.
-1. Review the details on each tab to ensure that everything is accurate.
+1. Review the details on each page to ensure that everything is accurate.
 1. From the Onboarding checklist, click **Request approval**, and select the version that you want to submit for publishing approval.
 1. To make a specific version ready for publishing approval, click **Make ready**.
 1. Select **I confirm that my company is authorized to use all materials**.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-19"
+  years: 2020, 2024
+lastupdated: "2024-04-24"
 
 keywords: onboard software, third-party software, Helm chart, software, partner, sellers, deploy, partner center, target, deployment target
 
@@ -21,7 +21,7 @@ To deploy a version of a Helm chart to another deployment target, you can copy t
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
-1. From the Software tab, click **Import a version**.
+1. From the Software page, click **Import a version**.
 1. Select **Helm chart** as your deployment method.
 1. Select **Copy the configuration of an existing version and deploy it to a new target.**
 1. Select the deployment target.

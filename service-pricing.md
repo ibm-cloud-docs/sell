@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2024
 
-lastupdated: "2024-01-23"
+lastupdated: "2024-04-24"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -66,7 +66,7 @@ You must submit your tax and EFT documents and receive approval before you can p
 {: note}
 
 1. Go to **Partner Center** > **My products**.
-1. Select the service that you're onboarding and go to the **Pricing** tab.
+1. Select the service that you're onboarding and go to the **Pricing** page.
 1. Click **Add ECCN** and provide the ECCN for your service.
 1. Click **Add**.
 
@@ -81,7 +81,7 @@ In addition to ECCN, you must provide the UNSPSC that applies to your product. T
 To provide the UNSPSC code that applies to your product, complete the following steps:
 
 1. Go to **Partner Center** > **My products**.
-1. Select the service that you're onboarding and go to the **Pricing** tab.
+1. Select the service that you're onboarding and go to the **Pricing** page.
 1. Click **Add UNSPSC** and select the UNSPSC code for your service.
 1. Click **Add**.
 

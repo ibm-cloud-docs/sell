@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2023
+  years: 2022, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-04-24"
 
 keywords: client ID, authentication flow, OAuth, authentication, authorization, access token
 
@@ -39,8 +39,8 @@ http://localhost:3000/auth/callback <-- for testing locally
 
 To generate your client ID, complete the following steps:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
-1. Select the product that you're onboarding, and go to the **Brokers** tab.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
+1. Select the product that you're onboarding, and go to the **Brokers** page.
 1. Click **Set up IBM Cloud SSO**.
 1. Add owners who can manage the client ID.
 

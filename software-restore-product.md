@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-11-28"
+  years: 2021, 2024
+lastupdated: "2024-04-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, restore
 
@@ -31,5 +31,5 @@ Complete the following steps to restore your version:
 
 1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
 1. Select your product.
-1. From the Software tab, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the version you want to restore, and select **Restore version**.
+1. From the Software page, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the version you want to restore, and select **Restore version**.
 

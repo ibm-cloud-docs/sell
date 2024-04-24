@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-19"
+  years: 2023, 2024
+lastupdated: "2024-04-24"
 
 keywords: deployable architecture, third party, product center sell, publish deployable architecture, partner center, partners, sellers
 
@@ -26,7 +26,7 @@ Before you can publish your product to the catalog, you must submit your deploya
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select your product.
-1. Review the details on each tab to ensure that everything is accurate.
+1. Review the details on each page to ensure that everything is accurate.
 1. From the Onboarding checklist, click **Request approval**, and select the product version that you want to submit for publishing approval.
 1. To make a specific product version ready for publishing approval, click **Make ready**.
 1. Select **I confirm that my company is authorized to use all materials**.

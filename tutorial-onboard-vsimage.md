@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-02-02"
+lastupdated: "2024-04-24"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -60,7 +60,7 @@ Complete the following steps to import your virtual server image from your GitHu
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
-1. From the Software tab, click **Import a version**.
+1. From the Software page, click **Import a version**.
 1. Select **Virtual server image with Terraform** as your deployment method.
 1. Confirm that **Public repository** is selected as the repository type.
 1. Click **Virtual server image with Terraform** to populate the **Source URL** field.
