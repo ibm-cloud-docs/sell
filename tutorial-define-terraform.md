@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-22"
+lastupdated: "2024-05-02"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, product details, catalog listing, support, pricing, BYOL, DPA,  digital provider agreement, Terraform, terraform template
 
@@ -57,7 +57,7 @@ You can add a new product or import an existing product from a private catalog. 
 
 1. From the **My products** page in {{site.data.keyword.cloud_notm}} Partner Center, click **Create**.
 1. Click **Create a product**, and click **Next > Start now**.
-1. Select **Deployable software** as the type of product that you're onboarding, and click **Next**.
+1. Select **Software** as the type of product that you're onboarding, and click **Next**.
 
     The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).
     {: important}
