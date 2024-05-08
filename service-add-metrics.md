@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2023
+  years: 2022, 2024
 
-lastupdated: "2023-10-19"
+lastupdated: "2024-05-08"
 
 keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
@@ -36,7 +36,7 @@ Before you can add metrics to your pricing plan, you must complete the following
 ## Adding metrics to your pricing plan
 {: #add-metrics-plan}
 
-If you offer a paid integrated product and add a paid pricing plan that requires customers to pay for their usage, you must add metrics to your pricing plan to aggregate your product's usage. After you add metrics to your plan, you must request an initial metering approval, so you can submit your resource usage and start reviewing your metrics.
+If you offer a paid integrated product and add a paid pricing plan that requires customers to pay for their usage, you must add metrics to your pricing plan to aggregate your product's usage. After you add metrics to your plan, you must request an initial pricing approval, so you can submit your resource usage and start reviewing your metrics.
 
 To add metrics to your pricing plan, complete the following steps:
 
@@ -46,7 +46,7 @@ To add metrics to your pricing plan, complete the following steps:
 1. In the Usage metrics section, click **Add metrics**.
 1. Complete the required fields.
 1. Click **Done**.
-1. To submit your pricing plan and metering for review, click **Request approval** in the Metering approval section.
+1. To submit your pricing plan and metering for review, click **Request approval** in the Pricing approval section.
 
 ## Submitting resource usage to the {{site.data.keyword.cloud_notm}} Usage Metering API
 {: #submit-usage}
@@ -125,7 +125,7 @@ curl -X POST \
 
 For more information, see the [IAM Identity Services API](/apidocs/iam-identity-token-api#introduction){: external}.
 
-To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your metering approval request must be approved by {{site.data.keyword.cloud_notm}}.
+To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your pricing approval request must be approved by {{site.data.keyword.cloud_notm}}.
 
 ```bash
 curl -X POST -H "Authorization: {iam_token}" \

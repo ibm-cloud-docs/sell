@@ -4,7 +4,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-24"
+lastupdated: "2024-05-08"
 
 keywords: software, pricing, paid, free, third-party, license, BYOL, bring your own license
 
