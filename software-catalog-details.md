@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-24"
+lastupdated: "2024-05-16"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -62,7 +62,6 @@ The following table describes each type of category that you can select.
 | Blockchain | Products that facilitate the process of recording transactions and tracking assets in a business network. |
 | Compute | Infrastructure resources that serve as the basis for building apps in the cloud. |
 | Containers | A standard unit of software that packages up code, and all its dependencies, so the app runs quickly and reliably from one computing environment to another. |
-| Converged infrastructure | A way of structuring an information technology (IT) system by grouping multiple components into a single optimized computing package, components of which may include servers; data storage devices; networking equipment; and software for IT infrastructure management, automation, and orchestration. |
 | Databases | Products that provide some form of access to a database without requiring setting up physical hardware, installing software, or configuring for performance. |
 | Developer tools | Products that support developing, testing, and debugging software. |
 | Enterprise applications | Bundle of compatible products that deliver enterprise-grade app solutions for information sharing, automation, and agility. |

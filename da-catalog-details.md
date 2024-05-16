@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-04-22"
+lastupdated: "2024-05-16"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, partner, sellers, partner center, catalog details, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -49,13 +49,7 @@ To provide a short description of your product, complete the following steps:
 Users can filter the catalog to display similar products based on common solutions, function, or use. To select your catalog category, complete the following steps:
 
 1. From the Catalog entry page, click **Select category**.
-1. From the list, select the category that best describes your product. For more information about the deployable architecture categories, see the following descriptions:
-
-Converged infrastructure
-:   A way of structuring an information technology (IT) system by grouping multiple components into a single optimized computing package, components of which may include servers; data storage devices; networking equipment; and software for IT infrastructure management, automation, and orchestration.
-
-Enterprise applications
-:   Bundle of compatible products that deliver enterprise-grade app solutions for information sharing, automation, and agility.
+1. From the list, select the category that best describes your product.
 
 ### Adding search keywords
 {: #da-catalog-keywords}
