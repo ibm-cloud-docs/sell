@@ -108,6 +108,10 @@ toc:
               - software-partner-details.md
               - include: ../account/catalog-translate-details.md
           - topicgroup:
+              label: Managing metrics
+              topics:
+              - software-add-metrics.md    
+          - topicgroup:
               label: Updating your software
               topics:
               - software-versions.md
