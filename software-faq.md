@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2024
 
-lastupdated: "2024-01-11"
+lastupdated: "2024-06-03"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -30,7 +30,6 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 {: faq}
 
 See the following list for the types of third-party software that you can currently add to the catalog:
-
 * Helm charts on Kubernetes and {{site.data.keyword.openshiftshort}} clusters
 * Terraform templates
 * OVA images deployed on VMware Solutions Dedicated - vCenter Server
@@ -43,25 +42,6 @@ See the following list for the types of third-party software that you can curren
 {: faq}
 
 Use your {{site.data.keyword.cloud_notm}} account to onboard software to the catalog. In some cases an {{site.data.keyword.IBM_notm}} representative, with their own account, might be helping you with the onboarding process. If you want the representative to access your software in your test environment, you can add them to your account. For more details, see [Inviting users to an account](/docs/account?topic=account-iamuserinv).
-
-## What's the difference between onboarding an Operator from my repository and onboarding an Operator from Red Hat?
-{: #onboard-operator-GitHub-vs-RedHat}
-{: faq}
-
-One major difference is the packaging format. You can review the following example formats: 
-
-- Node-RED Operator: [https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz](https://github.com/IBM-Cloud/operator-bundle-sample/archive/refs/tags/v0.0.3.tar.gz){: external}
-- Operator bundle from a {{site.data.keyword.openshiftshort}} registry: For an example, select the Akka Cluster Operator from the list of available Operators in the Certified repository.
-
-
-## Can I update an Operator that was onboarded from the Red Hat registry?
-{: #update-operator-redhat}
-{: faq}
-
-Yes, see the following links for more information:
-
-* [Adding a new version of software](/docs/sell?topic=sell-add-version-software).
-* [Reloading a software version](/docs/sell?topic=sell-software-reload).
 
 ## How do I upload a version from my GitHub repository?
 {: #gh-upload-sw}
@@ -81,17 +61,37 @@ Go to **Manage** > **Account** > **Account settings** in the console. Your accou
 
 Currently, software products in the {{site.data.keyword.cloud_notm}} catalog don't include pricing plans. You can bring your own licenses or deliver your third-party software for free.
 
-## What account do I use to onboard my product?
-{: #choose-account-sw}
+## How do I update my software?
+{: #update-versions}
 {: faq}
 
-Use your own account to onboard your software. If an {{site.data.keyword.IBM_notm}} representative is helping you with the onboarding process, you can add them to your account if you feel comfortable doing so. See [Inviting team members](/docs/sell?topic=sell-sw-invite-team) for more information.
+To update your software, you can add a new version of it or update and republish an existing version. For more details, see [Updating your software](/docs/account?topic=account-update-private).
+
+Make sure the version of the software that you're updating in your private catalog is the same as the version that was onboarded in the Partner Center UI.
+{: note}
+
+## Can I restore a deprecated version of software?
+{: #restore-versions}
+{: faq}
+
+Yes. To restore a deprecated version, validate and publish it again. For more details, see [Restoring a deprecated product or version](/docs/sell?topic=sell-restore-deprecated-product).
+
+Make sure the version of the software that you're restoring in your private catalog is the same as the version that was onboarded in the Partner Center UI.
+{: note}
+
+## Can I invite a team member to help onboard software?
+{: #invite-team}
+{: faq}
+
+Yes, you can add team members to help onboard software. You need to assign them specific levels of access. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv) and [Set up access for your team](/docs/sell?topic=sell-sw-getting-started#sw-team-access).
 
 ## Can I remove a team member's access to my account?
 {: #remove-team}
 {: faq}
 
-If you're the account owner, or if you have the required access, you can remove users. For more information, see [Removing users from an account](/docs/account?topic=account-remove).
+Yes, go to **Manage > Access (IAM)** in the console, select **Users**, find the user that you want to remove, select **Remove user** from the **Actions** menu.
+
+Only account owners and users with specific access can remove a user. For more information, see [Removing users from an account](/docs/account?topic=account-remove).
 
 ## Can I view my assigned roles and permissions?
 {: #access-onboard}
@@ -102,36 +102,41 @@ Yes, go to **Manage > Access (IAM)** in the console, and select your name on the
 * To determine what access you have through the access groups you are assigned, select **Access groups**.
 * To see IAM access policies that are assigned to you, select the **Access policies**.
 
+## Can I delete my product from the catalog?
+{: #delete-product}
+{: faq}
+
+No, but you can deprecate a software version. When you deprecate a version, users cannot view the product in the catalog nor can they install it. For more information, see [Deprecating software from the {{site.data.keyword.IBM_notm}} catalog](/docs/sell?topic=sell-deprecate-product).
+
 ## How long does it take to onboard a product?
 {: #time-onboard}
 {: faq}
 
 The complete onboarding process for software takes approximately 7 days.
 
-## What if my product isn't approved for publishing in the catalog?
+## What do I do if my product is not approved?
 {: #approval-denied}
 {: faq}
 
-If your product is not approved, we'll send you an email with details about what items require updates. After you address the feedback, you can submit another publishing request.
+If your product is not approved, you receive feedback in the console. The feedback includes why your product was not approved and what items need to be updated to receive approval. After you update the product, you can resubmit your product for approval.
 
 ## Why does Partner Center keep logging me out?
 {: #session-time-out}
 {: faq}
 
-Your session timed out. Make sure to frequently save your updates to maintain your current progress.
+Your session timed out. Make sure to save your progress where possible to avoid lost progress.
 
-## Why can't I find the product that I'm onboarding?
+## Why can't I see the product I'm onboarding?
 {: #missing-products}
 {: faq}
 
-* If you can't find your product, make sure that you are in the correct account.
-* If you are in the correct account and your product is not listed on the **My products**, your product might have been deleted. You will need to start the onboarding process again.
+If you can't see the product that you are onboarding, first make sure that you are in the correct account. If you are in the correct account and your product is not listed on the **My products** page, your product was possibly deleted. Unfortunately, if your in-progress product was deleted, you must restart the onboarding process.
 
-## How soon is my product approved for publishing?
+## How long does it take for my product to get approved?
 {: #approval-time}
 {: faq}
 
-You can expect your product to be reviewed and approved for publishing in 1 to 2 business days.
+It takes approximately one to two business days for your product to be reviewed.
 
 ## Can I share my virtual server image with other users as a developer?
 {: #share-vsimage}
