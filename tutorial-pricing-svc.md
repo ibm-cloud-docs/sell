@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-01-02"
+lastupdated: "2024-06-03"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -58,7 +58,7 @@ To provide tax and EFT information, complete the following steps:
 {: #svc-eccn}
 {: step}
 
-You can choose from a list of common ECCNs or search for an ECCN. If you don't know the ECCN that best fits your product, you can use the [Commerce Control List](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn){: external} to determine a suitable ECCN. For the purposes of this tutorial, select a common ECCN.
+You can choose from a list of common ECCNs or search for an ECCN. If you don't know the ECCN that best fits your product, you can use the [Commerce Control List](https://www.bis.gov/regulations/classify-your-item#what-is-an-eccn){: external} to determine a suitable ECCN. For the purposes of this tutorial, select a common ECCN.
 
 1. Click **Pricing** > **Add ECCN**.
 1. Select **Subject to EAR/not elsewhere specified**.
