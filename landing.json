@@ -1,53 +1,53 @@
 {
-    "title": "Selling on IBM Cloud docs",
-    "lastupdated": "2024-01-05",
-    "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software, deployable architectures and services.",
-    "section_recommended": [
-      {
-        "title": "Getting set up to sell software",
-        "description": "Complete a few initial tasks to start onboarding your software to the IBM Cloud catalog.",
-        "href": "/docs/sell?topic=sell-sw-getting-started"
-      },
-      {
-        "title": "Getting set up to sell services",
-        "description": "Complete a few initial tasks to start onboarding your service to the IBM Cloud catalog.",
-        "href": "/docs/sell?topic=sell-get-started"
-      },
-      {
-        "title": "Getting set up to sell deployable architectures",
-        "description": "Complete a few initial tasks to start onboarding your deployable architecture to the IBM Cloud catalog.",
-        "href": "/docs/sell?topic=sell-da-getting-started"
-      }
-    ],
-    "section_videos": [
-      {
-        "title": "Selling on IBM Cloud",
-        "href": "/docs/sell?topic=sell-sw-getting-started",
-        "thumbnail": "/images/onboarding.svg"
-      }
-    ],
-    "section_learn": {
-      "developer": "https://developer.ibm.com/depmodels/cloud/",
-      "community": "https://community.ibm.com/community/user/cloud/home"
+  "title": "Selling on IBM Cloud docs",
+  "lastupdated": "2024-06-04",
+  "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software, deployable architectures and services.",
+  "section_recommended": [
+    {
+      "title": "Getting set up to sell software",
+      "description": "Complete a few initial tasks to start onboarding your software to the IBM Cloud catalog.",
+      "href": "/docs/sell?topic=sell-sw-getting-started"
     },
-    "section_updates": {
-      "view_more": "/docs/overview?topic=overview-whatsnew",
-      "tiles": [
-        {
-          "date": "20 September 2023",
-          "title": "Support for onboarding third-party deployable architectures in Partner Center",
-          "description": "You can now onboard deployable architectures in Partner Center and publish them to the IBM Cloud catalog. A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources that are designed for easy deployment, scalability, and modularity that solves a customer-defined problem."
-        },
-        {
-          "date": "12 April 2023",
-          "title": "Specify language support for community-supported products",
-          "description": "If you offer a third-party product that is supported by open source communities, you can select the languages in which support is provided when you're onboarding or managing your product in Partner Center. By providing support in multiple languages, your customers can communicate their issues in their preferred language and get support more efficiently."
-        },
-        {
-          "date": "04 October 2022",
-          "title": "Catalog integration with Virtual Private Cloud custom images",
-          "description": "ISV Partners and IBM Cloud customers can now import custom VPC images directly to their account or enterprise, or sell on the IBM Cloud catalog without depending on Terraform."
-        }
-      ]
+    {
+      "title": "Getting set up to sell services",
+      "description": "Complete a few initial tasks to start onboarding your service to the IBM Cloud catalog.",
+      "href": "/docs/sell?topic=sell-get-started"
+    },
+    {
+      "title": "Getting set up to sell deployable architectures",
+      "description": "Complete a few initial tasks to start onboarding your deployable architecture to the IBM Cloud catalog.",
+      "href": "/docs/sell?topic=sell-da-getting-started"
     }
+  ],
+  "section_videos": [
+    {
+      "title": "Selling on IBM Cloud",
+      "href": "/docs/sell?topic=sell-sw-getting-started",
+      "thumbnail": "/images/onboarding.svg"
+    }
+  ],
+  "section_learn": {
+    "developer": "https://developer.ibm.com/depmodels/cloud/",
+    "community": "https://community.ibm.com/community/user/cloud/home"
+  },
+  "section_updates": {
+    "view_more": "/docs/overview?topic=overview-whatsnew",
+    "tiles": [
+      {
+        "date": "31 May 2024",
+        "title": "Onboarding software with usage-based pricing plans",
+        "description": "In addition to free and bring your own license plans, you can now add usage-based pricing plans to software onboarded with the virtual server image delivery method, offering it as a paid integrated product in the IBM Cloud catalog. After adding a plan to your software in Partner Center, you can also manage it in your private catalog. This includes adding features, changing the plan’s state, deprecating it, or updating plan details."
+      },
+      {
+        "date": "20 September 2023",
+        "title": "Support for onboarding third-party deployable architectures in Partner Center",
+        "description": "You can now onboard deployable architectures in Partner Center and publish them to the IBM Cloud catalog. A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources that are designed for easy deployment, scalability, and modularity that solves a customer-defined problem."
+      },
+      {
+        "date": "12 April 2023",
+        "title": "Specify language support for community-supported products",
+        "description": "If you offer a third-party product that is supported by open source communities, you can select the languages in which support is provided when you're onboarding or managing your product in Partner Center. By providing support in multiple languages, your customers can communicate their issues in their preferred language and get support more efficiently."
+      }
+    ]
   }
+}
