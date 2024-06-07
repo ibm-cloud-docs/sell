@@ -5,7 +5,7 @@ copyright:
   years: 2021, 2024
 lastupdated: "2024-04-11"
 
-keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, third-party deployable architecture, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
+keywords: onboard software, onboard service, onboard solution, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
 subcollection: sell
 
@@ -70,9 +70,9 @@ Verify that the following software deployment scripts and package dependencies a
 ## What kind of product do you want to sell?
 {: #selling-software-services}
 
-By using Partner Center Sell to onboard your product, you can create a tile to offer your product in the {{site.data.keyword.cloud_notm}} catalog. You might have a software application that users can manage and install, a software-based service, or a deployable architecture that combines a set of products that you can offer for customers to solve a business problem or need.
+By using Partner Center Sell to onboard your product, you can create a tile to offer your product in the {{site.data.keyword.cloud_notm}} catalog. You might have a software application that users can manage and install, a software-based service, or a software-based solution (deployable architecture) that combines a set of products that you can offer for customers to solve a business problem or need.
 
-Take advantage of a simplified installation and deployment process for your customers through the {{site.data.keyword.cloud_notm}} catalog. Review the following sections to understand how your product can be offered through {{site.data.keyword.cloud_notm}}.
+Take advantage of a simplified installation and deployment process for your customers through the {{site.data.keyword.cloud_notm}} catalog. Review the following section to understand how your product can be offered through {{site.data.keyword.cloud_notm}}.
 
 ### Software
 {: #selling-sotware}
@@ -130,8 +130,12 @@ The process includes registering your service with {{site.data.keyword.cloud_not
 
 A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources that are designed for easy deployment, scalability, and modularity that solves a customer-defined problem. A deployable architecture can have one or more architecture variations and multiple configurations for those architectures, based on the customer business needs. Deployable architectures can be onboarded to the {{site.data.keyword.cloud_notm}} catalog and are displayed as tiles in the catalog after you go through the publishing process and get approval in Partner Center.
 
+Categories of third-party deployable architectures that you can select in Partner Center:
+* Converged infrastructure
+* Enterprise applications
+
 Deployable architectures are different from software in that they require an architecture diagram, and offer the ability to list dependencies. A deployable architecture can have up to three architecture variations. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for a user to try out that might be considered small, medium, or large variations. Or, the different architectures might be based on capability or complexity for running a proof of concept or production workload that uses names like quick start, standard, or advanced.
 
-The only deployable architecture type that {{site.data.keyword.cloud_notm}} supports currently is Terraform.
+The only deployable architecture type that {{site.data.keyword.cloud_notm}} supports is Terraform.
 
 For more information, see [What is a deployable architecture?](/docs/secure-enterprise?topic=secure-enterprise-understand-module-da#what-is-da) and [Getting set up to sell deployable architectures](/docs/sell?topic=sell-da-getting-started&interface=ui).

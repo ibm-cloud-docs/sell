@@ -4,7 +4,7 @@ copyright:
 
   years: 2024
 
-lastupdated: "2024-05-31"
+lastupdated: "2024-05-30"
 
 keywords: IBM Cloud, selling software, metrics, submit evidence, testing metrics, metering
 

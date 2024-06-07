@@ -32,7 +32,7 @@ The contents of a catalog entry include the company or product logo, a short des
 1. Click **Add logo**.
 1. Enter the URL for your company or product logo, for example, `http://example.com/ex/ex.svg`, and **Save**.
 
-   Make sure that your logo image is an SVG or PNG file that's a square image roughly sized at 32 x 32 pixels and doesn't appear blurry or pixelated.
+    Make sure that your logo image is an SVG or PNG file that's a square image roughly sized at 32 x 32 pixels and doesn't appear blurry or pixelated.
    {: note}
 
 ### Providing a short description of your product

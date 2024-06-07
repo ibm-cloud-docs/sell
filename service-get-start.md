@@ -5,7 +5,7 @@ copyright:
 
 lastupdated: "2024-04-01"
 
-keywords: third-party service, sell on IBM Cloud, resource management console, integrated billing service
+keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service, onboarding workbench
 
 subcollection: sell
 
@@ -25,8 +25,8 @@ completion-time: 60m
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to the {{site.data.keyword.Bluemix_notm}} platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
-It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
-{: tip}
+   It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
+   {: tip}
 
 ## Watch and learn
 {: #selling-services}

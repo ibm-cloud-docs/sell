@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-24"
+lastupdated: "2024-04-22"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -64,6 +64,9 @@ Complete the following steps to import your virtual server image from your GitHu
 1. Select **Virtual server image with Terraform** as your deployment method.
 1. Confirm that **Public repository** is selected as the repository type.
 1. Click **Virtual server image with Terraform** to populate the **Source URL** field.
+
+    Alternatively, you can copy and paste `https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/download/v1.0/isv-vsi-product-deploy-sample.tar.gz` in the field.
+
 1. Enter `1.0.0` as the software version.
 1. Click **Add version**.
 1. Click the name of your product.
@@ -85,8 +88,8 @@ After you review the version details, you're ready to configure the deployment v
 
 1. If you need to specify the Terraform runtime version that you want Schematics to use, click the **Override the default Terraform runtime version** checkbox and enter a version.
 1. From the Configure the deployment details section, click **Add deployment values**.
-1. Select **Parameter** to select all options, and click **Add**.
-1. To customize which parameters are required for users to specify during the installation and which ones are hidden altogether, select a parameter and click **Edit**. For the purposes of this tutorial, configure each parameter as described in the following table.
+1. Select the **Parameter** checkbox to select all options, and click **Add**.
+1. To customize which parameters are required for users to specify during the installation and which ones are hidden from users altogether, select a parameter and click **Edit**. Mark the checkboxes to configure the values and click **Save**. For the purposes of this tutorial, configure each parameter as described in the following table.
 
 | Parameter | Description | Required for users to specify? | Hidden from users? |
 | --- | ---------- | --- | --- |
@@ -103,7 +106,8 @@ Next, update the configuration type of the **`region`** parameter:
 
 1. From the Deployment values table, select the **`region`** parameter and click **Edit**.
 1. Open the **Value details** menu and select **VPC region**.
-1. Click **Save** > **Next**.
+1. Click **Save**.
+1. Click **Next**.
 
 {{site.data.content.output-values}}
 
@@ -113,7 +117,7 @@ Next, update the configuration type of the **`region`** parameter:
 {: #vsimage-onboard-eula}
 {: step}
 
-Provide the URLs to the license agreements that users are required to accept when they install the product. The license agreements are in addition to the {{site.data.keyword.cloud_notm}} Services Agreement.
+If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement, provide the URL to each agreement.
 
 1. From the Add license agreements page, click **Add license**.
 2. Enter the name and URL, and click **Add license**.
@@ -129,7 +133,8 @@ The TGZ file that you imported to your private catalog includes a readme file th
 
     `Create and deploy a virtual server with ease by using a custom image.`
 
-1. Click **Save** > **Next**.
+1. Click **Save**.
+1. Click **Next**.
 
 ## Validate the virtual server image
 {: #vsimage-onboard-validate}
@@ -149,10 +154,17 @@ Validate that you can deploy the virtual server image to your VPC.
     You can monitor the progress of the validation process by clicking **View logs**.
     {: tip}
 
+After the validation completes successfully, you can go back to the Manage compliance page to view the results of the Code Risk Analyzer scan that ran against your controls during validation. Next, you can optionally add on results for an {{site.data.keyword.compliance_long}} scan based on a profile that you have already configured in your account for additional evidence of compliance.
+
+1. On the Validate version page, go to the **Submit scan** tab.
+1. Select an available scan, and click **Submit scan**. If you don't have any profile options to choose from, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles&interface=ui).
+
+You can view the results of applying this scan on the Manage compliance page.
+
 {{site.data.content.manage-compliance}}
 
 ## Review requirements
-{: #vsimage-review-reqs}
+{: #vsi-review-reqs}
 
 You must complete validation and any other requirements to publish your virtual server image.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-10-19"
+lastupdated: "2023-10-18"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register
 
@@ -44,7 +44,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 {: #svc-reg-test}
 {: step}
 
-A test environment is not needed for onboarding services but is needed for any software that you might onboard in the future. You, or a member of your team, uses the test environment to validate that your software is ready for use.
+A test environment is not needed for onboarding services but is needed for any software that you might onboard in the future. You, or a member of your team, uses the test enviroment to validate that your software is ready for use.
 
 1. Click **Create** in the Create your test environment section.
 1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.

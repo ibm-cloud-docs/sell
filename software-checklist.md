@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2024
 
-lastupdated: "2024-05-31"
+lastupdated: "2024-03-11"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 

@@ -116,7 +116,7 @@ You’re required to automate hourly usage submission by using metering service 
 
 For more information on metering, see [Metering integration](/docs/sell?topic=sell-service-metering-integration). For more information about submitting metered usage, see [Submitting usage for metered plans](/docs/sell?topic=sell-service-add-metrics#submit-usage).
 
-## Provisioning scenario: Pulling it all together
+## Creation scenario: Pulling it all together
 {: #provision2}
 
 Now let's pull all of the concepts together and look at an example of how service instance creation works by using the {{site.data.keyword.Bluemix_notm}} platform.
@@ -165,7 +165,7 @@ Example request for creating an instance:
 
 When a user wants to create a service instance, they can use `ibmcloud cli [ ibmcloud resource service-instance-create NAME SERVICE_NAME SERVICE_PLAN_NAME LOCATION ]`.
 
-The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
+The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's creation endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
 * The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
 * The `X-Broker-API-Originating-Identity` has the IBM IAM ID of the user that started the request
 * The parameters section includes the requested location (and more parameters that are required by your service).
@@ -201,7 +201,7 @@ Example request for creating an instance:
 
 This action can be done only through the UI or CLI. To see the steps, switch to the UI or CLI instructions.
 
-The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
+The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's creation endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
 * The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
 * The `X-Broker-API-Originating-Identity` has the IBM IAM ID of the user that started the request
 * The parameters section includes the requested location (and more parameters that are required by your service).

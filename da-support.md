@@ -28,4 +28,4 @@ subcollection: sell
 ## Next steps
 {: #da-next-support}
 
-[Add variations to your deployable architecture](/docs/sell?topic=sell-da-variation).
+[Add variations to your deployable architecture](/docs/sell?topic=sell-da-variation&interface=ui).

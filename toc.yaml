@@ -10,7 +10,6 @@ toc:
     product-page: https://www.ibm.com/cloud/partners
     path: sell
     label: Selling on IBM Cloud
-
   entries:
   - navgroup:
       id: learn
@@ -32,7 +31,6 @@ toc:
           - service-get-start.md
           - service-checklist.md
           - service-platform.md
-
   - navgroup:
       id: tutorial
       topics:
@@ -56,7 +54,7 @@ toc:
           - tutorial-register-vsimage.md
           - tutorial-define-vsimage.md
           - tutorial-onboard-vsimage.md
-          - tutorial-publish-vsimage.md
+          - tutorial-publish-vsimage.md    
       - topicgroup:
           label: Onboarding a virtual server image for VPC
           topics:
@@ -86,7 +84,6 @@ toc:
           - tutorial-onboard-broker.md
           - tutorial-pricing-svc.md
           - tutorial-publish-svc.md
-
   - navgroup:
       id: howto
       topics:
@@ -106,6 +103,7 @@ toc:
               - software-helm-target.md
               - software-publish.md
               - software-partner-details.md
+              - software-filters.md
               - include: ../account/catalog-translate-details.md
           - topicgroup:
               label: Managing metrics
@@ -122,36 +120,40 @@ toc:
               - software-deprecate-product.md
               - software-restore-product.md
           - software-suspend.md
-          - topicgroup:
-              label: Assigning account members access to Partner Center
-              topics:
-              - include: ../account/iam-account_management.md
       - topicgroup:
           label: Selling deployable architectures
           topics:
-            - da-create.md
-            - da-catalog-details.md
-            - da-support.md
-            - da-add-variation.md
-            - da-pricing.md
-            - da-publish.md
-            - da-deprecate.md        
+          - da-requirements.md
+          - da-create.md
+          - da-catalog-details.md
+          - da-support.md
+          - da-add-variation.md
+          - da-pricing.md
+          - da-publish.md
+          - da-deprecate.md
       - topicgroup:
           label: Selling services
           topics:
-            - service-pc-broker.md
-            - service-pricing.md
-            - service-metering-integration.md
-            - service-add-metrics.md
-            - service-custom-parameters.md
-            - service-support.md
-            - service-docs.md
-            - service-develop-auth.md
-            - service-pricing-change.md
-            - service-publish.md
-      - software-invite-team.md      
+          - topicgroup:
+              label: Developing your service brokers
+              topics:
+              - service-pc-broker.md
+              - service-test-broker.md
+          - service-pricing.md
+          - topicgroup:
+              label: Managing metrics
+              topics:
+              - service-metering-integration.md
+              - service-add-metrics.md
+          - service-custom-parameters.md
+          - service-support.md
+          - service-docs.md
+          - service-develop-auth.md
+          - service-pricing-change.md
+          - service-publish.md
+          - service-deprecate-product.md
+      - software-invite-team.md    
       - assign-access-pc.md
-
   - navgroup:
       id: reference
       topics:
@@ -176,7 +178,6 @@ toc:
       - service-parameter-example.md
       - software-ova-yaml-example.md
       - ha-dr.md
-
   - navgroup:
       id: help
       topics:
@@ -185,12 +186,15 @@ toc:
           topics:
           - software-faq.md
           - service-faq.md
+          - catalog-faq.md
           - faqs-migrated.md
       - topicgroup:
           label: Troubleshooting
           topics:
           - ts-repo-upload.md
+          - ts-error-page.md
           - ts-missing-products.md
+          - ts-cluster-reqs.md
           - ts-validate-terraform.md
           - ts-tgz.md
           - include: ../account/ts-unsupported-registry.md

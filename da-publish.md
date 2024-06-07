@@ -32,7 +32,7 @@ Before you can publish your product to the catalog, you must submit your deploya
 1. Select **I confirm that my company is authorized to use all materials**.
 1. Click **Request approval**.
 
-Your publishing request is reviewed by {{site.data.keyword.IBM_notm}} to make sure that the required details, such as the product name, catalog entry, product page, and support experience are complete and accurate. When your request is approved, you receive an email that notifies you that you can publish your product to the catalog.
+Your publishing request is reviewed by {{site.data.keyword.IBM_notm}} to ensure the required details, such as the product name, catalog entry, product page, and support experience are complete and accurate. When your request is approved, you receive an email that notifies you that you can publish your product to the catalog.
 
 If updates are required, you receive a separate email with details about the required updates. If you have questions about the feedback, from the My products page click the **Help** icon ![Help icon](../icons/help.svg "Help"), and then click **Contact us**. After you address all review feedback, you can submit another publishing request.
 {: note}

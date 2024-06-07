@@ -23,13 +23,15 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-This tutorial walks you through how to onboard a broker that you use to connect a pricing plan to your third-party service. When users create instances of your service from the {{site.data.keyword.cloud}} catalog, the broker manages the lifecycle of those instances, and connects the service to the applications that developers are building.
+This tutorial walks you through how to onboard a broker that you can use to connect a pricing plan to your third-party service. When users create instances of your service from the {{site.data.keyword.cloud}} catalog, the broker manages the lifecycle of those instances, and connects the service to the applications that developers are building.
 {: shortdesc}
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a third-party service to {{site.data.keyword.cloud_notm}}. As you complete the tutorial, adjust each step to fit your product's needs.
 
 ## Before you begin
 {: #broker-onboard-prereqs}
+
+
 
 1. For an example of how to build your broker, see [IBM Cloud reference broker](https://github.com/IBM-Cloud/onboarding-osb){: external}.
 
@@ -42,7 +44,7 @@ For more information, see [Managing API keys](/docs/account?topic=account-userap
 ## Add your broker
 {: #broker-onboard-cfg}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select the service that you're onboarding.
 1. From the Brokers page, click **Add broker**.
 1. Enter the name, URL, username, and password for your broker, and click **Done**.
@@ -52,7 +54,7 @@ For more information, see [Managing API keys](/docs/account?topic=account-userap
 
 You can enable {{site.data.keyword.cloud_notm}} single sign-on for your service and add any redirect URLs that can handle authentication and authorization.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select the service that you're onboarding.
 1. From the Brokers page, click **Set up {{site.data.keyword.cloud_notm}} SSO**.
 1. Add team members as owners of the Client ID. Owners can view and edit the Client ID.

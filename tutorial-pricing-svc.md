@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-06-03"
+lastupdated: "2024-04-17"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -31,7 +31,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #svc-pricing-prereqs}
 
-1. [Register your service in {{site.data.keyword.cloud_notm}} Partner Center](/docs/sell?topic=sell-svc-register).
+1. [Register your service](/docs/sell?topic=sell-svc-register).
 1. [Define the product details of your service](/docs/sell?topic=sell-svc-define).
 1. [Onboard a broker](/docs/sell?topic=sell-broker-onboard).
 

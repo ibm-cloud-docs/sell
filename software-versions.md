@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-10-19"
+lastupdated: "2023-10-18"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, version
 
@@ -14,16 +14,16 @@ subcollection: sell
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Adding a new version of software
+# Adding a version of your software
 {: #add-version-software}
 
 After onboarding your software, you can add multiple versions of your software to your private catalog.
 {: shortdesc}
 
-## Adding a version of a Helm chart
+## Add a version of Helm chart
 {: #add-version-helm}
 
-The following steps are for adding a new version. If you want to deploy your existing version to a new target, see [Deploying a Helm chart to a new target](/docs/sell?topic=sell-helm-target-new).
+This process is for adding a new version. If you would like to deploy your existing version to a new target, see [Deploying a Helm chart to a new target](/docs/sell?topic=sell-helm-target-new).
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product, and select **Software**.
@@ -37,7 +37,7 @@ The following steps are for adding a new version. If you want to deploy your exi
 
 To complete the validation process, see [Configure the product details](/docs/sell?topic=sell-sw-validate#sw-validate-cfg-deploy).
 
-## Adding a version of Terraform
+## Add a version of Terraform
 {: #add-version-terraform}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
@@ -52,10 +52,10 @@ To complete the validation process, see [Configure the product details](/docs/se
 
 To complete the validation process, see [Configure the product details](/docs/sell?topic=sell-sw-validate#sw-validate-cfg-deploy).
 
-## Adding a version of an Operator from your own repository
+## Add a version of an Operator from your own repository
 {: #add-version-operator-own}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
+1. Go to the [Partner Center](https://cloud.ibm.com/partner-center/sell){: external} in the {{site.data.keyword.cloud_notm}} console, and click **My products**.
 2. Select your product, and select **Software**.
 3. Click **Import a version**.
 4. Select **Operator** as your deployment method.
@@ -72,7 +72,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 
 To complete the validation process, see [Configure the product details](/docs/sell?topic=sell-sw-validate#sw-validate-cfg-deploy).
 
-## Adding a version of an Operator from a Red Hat registry
+## Add a version of an Operator from a Red Hat registry
 {: #add-version-operator-index}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
@@ -88,7 +88,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 
 To complete the validation process, see [Configure the product details](/docs/sell?topic=sell-sw-validate#sw-validate-cfg-deploy).
 
-## Adding a version of an OVA image
+## Add a version of an OVA image
 {: #add-version-ova}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
@@ -102,7 +102,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 
 To complete the validation process, see [Configure the product details](/docs/sell?topic=sell-sw-validate#sw-validate-cfg-deploy).
 
-## Adding a version of a virtual server image with Terraform
+## Add a version of a virtual server image with Terraform
 {: #add-version-vsi}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.

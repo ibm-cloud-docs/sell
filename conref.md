@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2024
 
-lastupdated: "2024-02-02"
+lastupdated: "2024-02-01"
 
 keywords:
 
@@ -15,7 +15,7 @@ content-type: conref
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Content references for sell subcollection.
+# Content references for sell subcollection
 {: #conref-example}
 
 The following H2s are going to be reused in several different onboarding topics that need identical support information for Partner Center.

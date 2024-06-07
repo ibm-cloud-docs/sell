@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-24"
+lastupdated: "2024-04-22"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, validate, test, Terraform, terraform template
@@ -69,7 +69,11 @@ This tutorial walks you through how to onboard a Terraform template to your priv
 {: #terraform-template-review-version}
 {: step}
 
-From the Configure version tab, you can review your version details. After you review your version details, click **Next**.
+After you import your version, you can review the version details.
+
+1. Click **Configure version**.
+1. Review your version details.
+1. Click **Next**.
 
 ## Configure the deployment values
 {: #terraform-template-onboard-cfgdeploy}
@@ -77,6 +81,7 @@ From the Configure version tab, you can review your version details. After you r
 
 After you review the version details, you're ready to configure the deployment values.
 
+1. Click **Configure version** > **Next**.
 1. If you need to specify the Terraform runtime version that you want Schematics to use, click the **Override the default Terraform runtime version** checkbox and enter a version.
 1. From the Configure the deployment details section, click **Add deployment values**.
 1. Select the **Parameter** checkbox to select all options, and click **Add**.
@@ -102,7 +107,7 @@ After you review the version details, you're ready to configure the deployment v
 
 If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement, provide the URL to each agreement.
 
-1. From the Add license agreements tab, click **Add license**.
+1. Click **Add license agreements** > **Add license**.
 2. Enter the name and URL, and click **Add license**.
 3. Enter all additional license agreements, and click **Next**.
 
@@ -110,9 +115,9 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #terraform-template-onboard-review-readme}
 {: step}
 
-When users install the software, they can view product information by clicking the Readme file link. This information is generated from the readme file that you uploaded to your source repository.
+When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
 
-1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
+1. Click **Edit readme** > **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file is displayed to users when they install the Terraform template.
 3. If you need to make changes, edit the repository where you uploaded the Terraform template and re-create the `.tgz` file. Then, you can import the updated file to your private catalog again.
 4. Click **Save**.
@@ -122,13 +127,14 @@ When users install the software, they can view product information by clicking t
 {: #terraform-template-onboard-validate}
 {: step}
 
-1. From the Validate product tab, enter the name of your workspace, select a resource group, select a Schematics region, and click **Next**.
+1. Click **Validate version**.
+1. Enter the name of your workspace, select a resource group, select a Schematics region, and click **Next**.
 
    In the **Tags** field, you can enter a name of a specific tag to attach to your template. This tag is put on the {{site.data.keyword.bplong_notm}} workspace. Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
    {: tip}
 
 1. From the Deployment values section, review your parameter values, and click **Next**.
-1. In the Validate version section, select **I have read and agree to the following license agreements**.
+1. In the Validation version section, select **I have read and agree to the following license agreements**.
 1. Click **Validate**.
 
    To monitor the progress of the validation process, click **View logs**.
@@ -137,7 +143,7 @@ When users install the software, they can view product information by clicking t
 {{site.data.content.manage-compliance}}
 
 ## Review requirements
-{: #terraform-template-review-reqs}
+{: #tf-review-reqs}
 
 You must complete validation and any other requirements to publish your Terraform template.
 

@@ -21,7 +21,7 @@ completion-time: 10m
 # Define the product details of your service
 {: #svc-define}
 {: toc-content-type="tutorial"} 
-{: toc-completion-time="10m"}
+{: toc-completion-time="10m"} 
 
 This tutorial walks you through the steps for defining specific details about your service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement, customize your catalog entry and product page, and define support experience.  
 {: shortdesc}
@@ -39,12 +39,12 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 If you plan to offer free or paid, usage-based pricing plans, it is required to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement. This legal agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
-Digital provider agreements and custom agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. If you upload a custom digital provider agreement, the uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
+Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
 Complete the following steps to review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My company**. 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My company**.
 1. Click **Edit**.
 1. Choose **I plan to offer free and usage-based pricing plans** from the Agreements section.
 1. Click the **{{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement** link to review the agreement.
@@ -64,7 +64,7 @@ You can add a new product or import an existing product from a private catalog. 
     {: important}
 
 1. Enter the display name of your product, for example `Example SaaS Product`. Make sure that the name you enter meets the following requirements:
-
+  
    * Use 60 characters or less.
    * Don't include "{{site.data.keyword.cloud_notm}}".
    * Don't include the name of your company, former product names, or pricing details.
@@ -84,13 +84,13 @@ Your programmatic name can't be updated after you submit it for review.
 {: important}
 
 1. From the Dashboard tab, click **Edit**, enter your updates, and click **Save**.
-1. Click **Confirm**.  
+1. Click **Confirm**.
 
 ## Create your service ID
 {: #svc-service-id}
 {: step}
 
-After your programmatic name is review, you can create your service ID. A service ID is used to identify your service when you communicate with other {{site.data.keyword.cloud_notm}} services, for example, when you submit metering usage data for your service. For more information, see [Creating and working with service IDs](/docs/account?topic=account-serviceids&interface=ui).
+After your programmatic name is reviewed, you can create your service ID. A service ID is used to identify your service when communicating with other {{site.data.keyword.cloud_notm}} services, for example, when submitting metering usage data for your service. For more information, see [Creating and working with service IDs](/docs/account?topic=account-serviceids&interface=ui).
 
 You're also required to create an API key for your service ID. To create your API key, see [Creating an API key for a service ID](/docs/account?topic=account-serviceidapikeys&interface=ui#create_service_key).
 
@@ -124,7 +124,7 @@ When your service is published in the catalog, it's represented by a catalog ent
 {: #svc-support}
 {: step}
 
-Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details). 
+Provide details that help users understand how to get support if they encounter issues when they use the service. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details). 
 
 To define your product's support experience, use the following steps:
 

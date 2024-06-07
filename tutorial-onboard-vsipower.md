@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2024
 
-lastupdated: "2024-04-24"
+lastupdated: "2024-04-22"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -39,11 +39,12 @@ This tutorial includes deploying the virtual server image to a target {{site.dat
 
 1. Create your {{site.data.keyword.powerSys_notm}} instance [and convert it into a public image](/docs/power-iaas?topic=power-iaas-virtual-appliances#onboard-vsi).
 1. After your image is converted into a public image, create your [Terraform template](/docs/schematics?topic=schematics-create-tf-config).
+1. Upload your Terraform template and readme file to your [GitHub repository](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/main#upload-your-terraform-template-to-a-github-release){: external}.
 
-   Use the [latest release of the sample code](https://github.com/IBM-Cloud/isv-power-vsi-product-deploy-sample ){: external} as an example of how to set up your repository.
+   Use the latest release of the [sample code](https://github.com/IBM-Cloud/isv-power-vsi-product-deploy-sample ){: external} as an example of how to set up your repository.
    {: tip}
 
-1. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the Catalog Management and Partner Center - Sell services. See [Assigning access to account management services](/docs/account?topic=account-account-services) for more information.
+1. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the Catalog Management and Partner Center - Sell services. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
 1. Complete the previous tutorials in the series: [Registering a virtual server image for Power Systems in the Partner Center](/docs/sell?topic=sell-vsipower-register) and [Defining the product details of a virtual server image for Power Systems](/docs/sell?topic=sell-vsipower-define).
 
 ## Import the virtual server image to your private catalog
@@ -74,7 +75,8 @@ You can onboard only stock virtual server images for {{site.data.keyword.powerSy
 {: #vsipower-review-version}
 {: step}
 
-From the Configure version tab, you can review your version details. When you are ready to move on, click **Next**.
+From the Configure product tab, you can review your version details. When you are ready to move on, click **Next**.
+
 
 ## Configure the deployment values
 {: #vsipower-onboard-cfgdeploy}
@@ -162,5 +164,7 @@ You must complete validation and any other requirements to publish your virtual 
 
 ## Next steps
 {: #vsipower-onboard-next}
+
+
 
 Go to the Partner Center and publish it to the catalog. For more information, see [Publishing a virtual server image to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-vsipower-publish).

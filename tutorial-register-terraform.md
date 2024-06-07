@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-10-19"
+lastupdated: "2023-10-18"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Terraform, terraform template
 

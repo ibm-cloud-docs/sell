@@ -70,8 +70,15 @@ You're given your API Key when you enable IAM. It is critical that you save the 
 
 ## How can I view and test my service as a customer?
 {: #test-service-user}
+{: faq}
 
 Before you publish your service to the catalog, you can test how your customers will see and use it from the {{site.data.keyword.cloud_notm}} catalog. In Partner Center, go to your **Product details**, and click **View catalog entry**. This view enables you to preview your service in the catalog and check that the broker and pricing is working as expected by creating an instance in your account.
+
+## How can {{site.data.keyword.IBM_notm}} partners demonstrate my product from the {{site.data.keyword.cloud_notm}} catalog?
+{: #ibmer-demo-service}
+{: faq}
+
+If you want {{site.data.keyword.IBM_notm}} partners to demonstrate your product, you must have or set up a free plan for your product that gets made available for their internal use. Since the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement that you submit for your service does not allow {{site.data.keyword.IBM_notm}} to pay for any internal consumption of your product by default, you must add {{site.data.keyword.IBM_notm}} partners to the allowlist of your product. To make your plan available to either all {{site.data.keyword.IBM_notm}} employees or to specific {{site.data.keyword.IBM_notm}} accounts, open a support case and follow the instructions in the [Making your pricing plan available to {{site.data.keyword.IBM_notm}} partners for demonstrating purposes](/docs/sell?topic=sell-change-plan#change-plan-demo) section.
 
 ## What is {{site.data.keyword.IBM_notm}} Partner Plus?
 {: #partnerplus-ibm}
