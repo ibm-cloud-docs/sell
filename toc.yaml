@@ -103,7 +103,6 @@ toc:
               - software-helm-target.md
               - software-publish.md
               - software-partner-details.md
-              - software-filters.md
               - include: ../account/catalog-translate-details.md
           - topicgroup:
               label: Managing metrics
@@ -123,7 +122,6 @@ toc:
       - topicgroup:
           label: Selling deployable architectures
           topics:
-          - da-requirements.md
           - da-create.md
           - da-catalog-details.md
           - da-support.md
