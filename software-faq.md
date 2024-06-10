@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2024
 
-lastupdated: "2024-06-03"
+lastupdated: "2024-06-10"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -39,8 +39,6 @@ Yes, see the FAQ item in this topic, [How do I update my software?](/docs/sell?t
 * To reload a software version, see [Reloading a software version](/docs/sell?topic=sell-software-reload).
 * To add another version of your software, see [Adding a version of your software](/docs/sell?topic=sell-add-version-software).
 
-
-
 ## What types of software can I add to the {{site.data.keyword.cloud_notm}} catalog?
 {: #supported-sw}
 {: faq}
@@ -57,7 +55,7 @@ See the following list for the types of third-party software that you can curren
 {: #accountuse-sw}
 {: faq}
 
-Use your {{site.data.keyword.cloud_notm}} account to onboard software to the catalog. In some cases an {{site.data.keyword.IBM_notm}} representative, with their own account, might be helping you with the onboarding process. If you want the representative to access your software in your test environment, you can add them to your account. For more details, see [Inviting users to an account](/docs/account?topic=account-iamuserinv)
+Use your {{site.data.keyword.cloud_notm}} account to onboard software to the catalog. In some cases an {{site.data.keyword.IBM_notm}} representative, with their own account, might be helping you with the onboarding process. If you want the representative to access your software in your test environment, you can add them to your account. For more details, see [Inviting users to an account](/docs/account?topic=account-iamuserinv).
 
 ## How do I upload a version from my GitHub repository?
 {: #gh-upload-sw}
@@ -107,8 +105,6 @@ Make sure the version of the software that you're restoring in your private cata
 
 Yes, you can add team members to help onboard software. You need to assign them specific levels of access. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv) and [Set up access for your team](/docs/sell?topic=sell-sw-getting-started#sw-team-access).
 
-_Question to ask team: Is there a limit to how many members you can invite?_
-
 ## Can I remove a team member's access to my account?
 {: #remove-team}
 {: faq}
@@ -125,18 +121,6 @@ Yes, go to **Manage > Access (IAM)** in the console, and select your name on the
 
 * To determine what access you have through the access groups you are assigned, select **Access groups**.
 * To see IAM access policies that are assigned to you, select the **Access policies**.
-
-## Can I update my product details after it's live in the catalog?
-{: #update-product-details}
-{: faq}
-
-Placeholder...partner and product information, catalog entry details, support experience details...
-
-## How many products can I onboard?
-{: #amount-product}
-{: faq}
-
-Placeholder...
 
 ## Can I delete my product from the catalog?
 {: #delete-product}
@@ -166,7 +150,7 @@ Your session timed out. Make sure to save your progress where possible to avoid 
 {: #missing-products}
 {: faq}
 
-If you can't see the product that you are onboarding, first make sure that you are in the correct account. If you are in the correct account and your product is not listed on the **My products**, your product was possibly deleted. Unfortunately, if your in-progress product was deleted, you must restart the onboarding process.
+If you can't see the product that you are onboarding, first make sure that you are in the correct account. If you are in the correct account and your product is not listed on the **My products** page, your product was possibly deleted. Unfortunately, if your in-progress product was deleted, you must restart the onboarding process.
 
 ## How long does it take for my product to get approved?
 {: #approval-time}

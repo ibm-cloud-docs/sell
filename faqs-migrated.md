@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022
+  years: 2022, 2024
 
-lastupdated: "2022-05-18"
+lastupdated: "2024-06-10"
 
 keywords: migrated from RMC, migrated products, migrated from resource management console, migration changes
 
@@ -17,7 +17,7 @@ subcollection: sell
 # FAQs for migrated products
 {: #migrated-products}
 
-FAQs about products that are migrated from the Resource Management Console might include questions about Lite plans, changing pricing plans, and brokers connected to approved pricing plans.
+FAQs about products that are migrated from the resource management console might include questions about Lite plans, changing pricing plans, and brokers connected to approved pricing plans.
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
@@ -25,7 +25,7 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 ## Why can't I add new block tier usage-based plans?
 {: #usage-based-plans}
 
-Block tier pricing plans are not currently supported in Partner Center. If you set up a block tier pricing plan in the Resource Management Console and the plan was approved and published, no changes have been made it was migrated as-is with your product. However, you can't edit the plan or set up a new block tier pricing plan. If you have any questions, open a support case. For information about opening a support case, see [Creating a Partner Center support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
+Block tier pricing plans are not currently supported in Partner Center. If you set up a block tier pricing plan in the resource management console and the plan was approved and published, no changes have been made and it was migrated as-is with your product. However, you can't edit the plan or set up a new block tier pricing plan. If you have any questions, open a support case. For information about opening a support case, see [Creating a Partner Center support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
 
 ## What changed with Lite plan support?
 {: #lite-plans-support}

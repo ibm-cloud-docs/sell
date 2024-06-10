@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-22"
+lastupdated: "2024-06-10"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, validate, test, Terraform, terraform template
@@ -107,7 +107,7 @@ After you review the version details, you're ready to configure the deployment v
 
 If users are required to accept any license agreements beyond the {{site.data.keyword.cloud_notm}} Services Agreement, provide the URL to each agreement.
 
-1. Click **Add license agreements** > **Add license**.
+1. From the Add license agreements tab, click **Add license**.
 2. Enter the name and URL, and click **Add license**.
 3. Enter all additional license agreements, and click **Next**.
 
@@ -115,9 +115,9 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #terraform-template-onboard-review-readme}
 {: step}
 
-When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
+When users install the software, they can view product information by clicking the Readme file link. This information is generated from the readme file that you uploaded to your source repository.
 
-1. Click **Edit readme** > **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
+1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file is displayed to users when they install the Terraform template.
 3. If you need to make changes, edit the repository where you uploaded the Terraform template and re-create the `.tgz` file. Then, you can import the updated file to your private catalog again.
 4. Click **Save**.
@@ -134,7 +134,7 @@ When users install the software, they can view product information by clicking t
    {: tip}
 
 1. From the Deployment values section, review your parameter values, and click **Next**.
-1. In the Validation version section, select **I have read and agree to the following license agreements**.
+1. In the Validate version section, select **I have read and agree to the following license agreements**.
 1. Click **Validate**.
 
    To monitor the progress of the validation process, click **View logs**.

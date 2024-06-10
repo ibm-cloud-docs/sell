@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2024
 
-lastupdated: "2024-01-05"
+lastupdated: "2024-06-10"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -24,9 +24,9 @@ The process to onboard your software includes importing a version to your privat
 {: #sw-validate-prereqs}
 
 1. Upload your source code to a release in your GitHub or GitLab repository. See [Setting up your source code repository](/docs/sell?topic=sell-source-repo-setup).
-2. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
-3. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
-4. Set up the test environment that was previously created for you:
+1. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
+1. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
+1. Set up the test environment that was previously created for you:
 
     * Install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.cloud_notm}} Schematics plug-in. See [Setting up the CLI](/docs/schematics?topic=schematics-setup-cli).
 
@@ -47,12 +47,11 @@ The process to onboard your software includes importing a version to your privat
 Complete the following steps to import a version of your software to your private catalog. Your private catalog was created for you as part of [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started).
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
-2. Select the product that you're onboarding.
-3. From the Software tab, click **Import a version**.
-4. Select your deployment method.
-5. Select whether you are adding your product from a private or public repository. For Operators, select your source repository and then choose private or public repository.
-
-6. Enter your source URL.
+1. Select the product that you're onboarding.
+1. From the Software tab, click **Import a version**.
+1. Select your deployment method.
+1. Select whether you are adding your product from a private or public repository. For Operators, select your source repository and then choose private or public repository.
+1. Enter your source URL.
 
     You can review the following list of supported formats per software type:
 
@@ -75,8 +74,8 @@ Complete the following steps to import a version of your software to your privat
     The message `No service instance available` might be displayed if you haven't created a secret or if you don't have the correct access to use secrets, even if you have service instances that are created.
     {: note}
 
-7. If applicable, set your deployment target and add your software version.
-8. Click **Add version**.
+1. If applicable, set your deployment target and add your software version.
+1. Click **Add version**.
 
 ## Configuring the version details
 {: #sw-validate-cfg-deploy}
@@ -150,10 +149,10 @@ Imported IAM access doesn't replace any IAM access that you already added to you
 {: note}
 
 1. Click **Configure version** > **Next** > **Next**.
-2. Click **Add**.
-3. Click **Import IAM access from a previous version**.
-4. Select the version that contains the IAM access that you want to import.
-5. Click **Add**.
+1. Click **Add**.
+1. Click **Import IAM access from a previous version**.
+1. Select the version that contains the IAM access that you want to import.
+1. Click **Add**.
 
 ## Adding license agreements
 {: #sw-validate-add-license}
@@ -166,8 +165,8 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: ui}
 
 1. Click **Add license agreements** > **Add license**.
-2. Enter the name and URL, and click **Add license**.
-3. After entering all additional license agreements, click **Next**.
+1. Enter the name and URL, and click **Add license**.
+1. After entering all additional license agreements, click **Next**.
 
 ### Import license agreements
 {: #sw-import-license}
@@ -179,7 +178,7 @@ Imported licenses don't replace any license agreements that you already added to
 {: important}
 
 1. Click **Add license agreements** > **Add license**.
-1. Click **Import licenses from a previous version**
+1. Click **Import licenses from a previous version**.
 1. Select the version that contains the licenses that you want to import.
 1. Click **Import**.
 
@@ -190,10 +189,10 @@ Imported licenses don't replace any license agreements that you already added to
 When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
-2. Preview how the information in the readme file will be displayed to users when they are installing the software.
-3. To make updates, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
-4. Click **Save**.
-5. Click **Next**.
+1. Preview how the information in the readme file will be displayed to users when they are installing the software.
+1. To make updates, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
+1. Click **Save**.
+1. Click **Next**.
 
 If you are importing a virtual server image for VPC, the readme file is not automatically generated. Copy and paste the contents of the [readme file template](/media/docs/downloads/software/sw-readme-tab-template.md){: external} and make updates as needed.
 {: note}

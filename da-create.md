@@ -18,12 +18,7 @@ subcollection: sell
 
 As the first step in the onboarding process, you can either add a new product to Partner Center, or you can import an existing product from a private catalog.
 
-## Before you begin
-{: #before-begin-da}
 
-Before you can add a deployable architecture in Partner Center, you must complete the following task:
-
-* Review the steps in [Preparing to onboard deployable architectures](/docs/sell?topic=sell-da-requirements) and complete the onboarding requirements.
 
 ## Adding a product
 {: #add-new-da}
