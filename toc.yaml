@@ -186,14 +186,11 @@ toc:
           topics:
           - software-faq.md
           - service-faq.md
-          - catalog-faq.md
           - faqs-migrated.md
       - topicgroup:
           label: Troubleshooting
           topics:
           - ts-repo-upload.md
-          - ts-error-page.md
-          - ts-cluster-reqs.md
           - ts-missing-products.md
           - ts-validate-terraform.md
           - ts-tgz.md
