@@ -193,8 +193,8 @@ toc:
           topics:
           - ts-repo-upload.md
           - ts-error-page.md
-          - ts-missing-products.md
           - ts-cluster-reqs.md
+          - ts-missing-products.md
           - ts-validate-terraform.md
           - ts-tgz.md
           - include: ../account/ts-unsupported-registry.md

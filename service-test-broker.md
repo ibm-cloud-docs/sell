@@ -4,7 +4,7 @@ copyright:
 
   years: 2023, 2024
 
-lastupdated: "2024-04-24"
+lastupdated: "2024-06-10"
 
 keywords: service brokers, test service broker, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, modify service broker, common errors, scalability
 
@@ -16,9 +16,6 @@ subcollection: sell
 
 # Modifying and testing your service brokers
 {: #broker-modify-test}
-
-Topic is in progress.
-{: note}
 
 After you build a skeleton application for your service broker, you must modify the code to make it specific for the service that you want to connect your broker to. Also, you must test your service broker by running curl commands against the different endpoints that you enable, or by creating a service instance in the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}

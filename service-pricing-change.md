@@ -50,27 +50,5 @@ You can track the progress of your submitted case from the [Manage cases page](/
 For the best support experience on {{site.data.keyword.cloud_notm}}, it is recommended to have an [advanced or premium support plan](/docs/get-support?topic=get-support-support-plans).
 {: tip}
 
-## Making your pricing plan available to {{site.data.keyword.IBM_notm}} partners for demonstrating purposes
-{: #change-plan-demo}
 
-If you want {{site.data.keyword.IBM_notm}} partners to demonstrate your product, you must make your free plan available for internal use by adding {{site.data.keyword.IBM_notm}} partners to the allowlist for your plan, since the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement that you submit for your service does not allow {{site.data.keyword.IBM_notm}} to pay for any internal consumption of your product. You can make your plan available to either all {{site.data.keyword.IBM_notm}} employees or to only specific {{site.data.keyword.IBM_notm}} accounts. If you choose to add specific {{site.data.keyword.IBM_notm}} accounts to the allowlist to make your plan available to them, you must provide the account ID of these accounts.
 
-To make your pricing plan available to {{site.data.keyword.IBM_notm}} partners, you must open a support case by completing the following steps:
-
-1. Click the **Help** icon ![Help icon](../icons/help.svg "Help") > **Support center** from the console menu bar.
-1. Click **Create a case**.
-1. Select **Account** > **Partner Center - Sell**. Then, select **Partner Center - General** as the subtopic.
-1. Click **Next**.
-1. Enter a case subject line that follows this format: `Your product name` {{site.data.keyword.IBM_notm}}er Demo Pricing Plan Request.
-1. Provide the following details in the case description:
-   * Global catalog ID
-   * Plan ID
-   * Intended delivery date
-   * Link to Partner Center entry
-   * Specific {{site.data.keyword.IBM_notm}} accounts or all {{site.data.keyword.IBM_notm}}ers
-1. Click **Next**.
-
-    To maintain security, do not include any personal information, sensitive data, or device or service credentials. For example, don't include passwords, API keys, secrets, or credit card information.
-    {: important}
-
-1. Review your case summary, and click **Submit case**.
