@@ -3,9 +3,9 @@
 copyright:
   years: 2022, 2024
 
-lastupdated: "2024-04-01"
+lastupdated: "2024-06-11"
 
-keywords: IBM Provider workbench, third-party service, sell on IBM Cloud, resource management console, RMC, provider workbench, integrated billing service, onboarding workbench
+keywords: third-party service, sell on IBM Cloud, partner center, integrated billing service
 
 subcollection: sell
 

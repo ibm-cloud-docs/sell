@@ -3,9 +3,9 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-04-11"
+lastupdated: "2024-06-11"
 
-keywords: onboard software, onboard service, onboard solution, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
+keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
 
 subcollection: sell
 
@@ -72,7 +72,7 @@ Verify that the following software deployment scripts and package dependencies a
 
 By using Partner Center Sell to onboard your product, you can create a tile to offer your product in the {{site.data.keyword.cloud_notm}} catalog. You might have a software application that users can manage and install, a software-based service, or a software-based solution (deployable architecture) that combines a set of products that you can offer for customers to solve a business problem or need.
 
-Take advantage of a simplified installation and deployment process for your customers through the {{site.data.keyword.cloud_notm}} catalog. Review the following section to understand how your product can be offered through {{site.data.keyword.cloud_notm}}.
+Take advantage of a simplified installation and deployment process for your customers through the {{site.data.keyword.cloud_notm}} catalog. Review the following sections to understand how your product can be offered through {{site.data.keyword.cloud_notm}}.
 
 ### Software
 {: #selling-sotware}
