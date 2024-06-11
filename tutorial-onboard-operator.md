@@ -101,7 +101,7 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #operator-onboard-review-readme}
 {: step}
 
-When users install the software, they can view product information by clicking the Readme file link. This information is generated from the readme file that you uploaded to your source repository.
+When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
 2. Preview how the information in the readme file is displayed to users when they install the Operator.

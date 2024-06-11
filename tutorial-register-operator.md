@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-10-19"
+lastupdated: "2023-10-18"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, register, Red Hat OpenShift, cluster, Node-RED Operator, Kubernetes cluster, operator
 
@@ -23,7 +23,7 @@ completion-time: 5m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
 
-This tutorial walks you through how to register a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center. You can onboard an Operator bundle using a TGZ file or an Operator using a CSV file. By completing this tutorial, you learn how to provide your company details, create a test environment, and set up access for your team to help with the onboarding process.
+This tutorial walks you through how to register a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center. You can onboard an Operator or Operator bundle using a TGZ file. By completing this tutorial, you learn how to provide your company details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample Node-RED Operator](https://github.com/IBM-Cloud/operator-bundle-sample/releases){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.

@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2024
 
-lastupdated: "2024-06-03"
+lastupdated: "2024-06-10"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -24,6 +24,20 @@ FAQs about selling third-party software on {{site.data.keyword.cloud}} might inc
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
+
+## What's the difference between onboarding an Operator from my repository and onboarding an Operator from Red Hat?
+{: #onboard-operator-GitHub-vs-RedHat}
+{: faq}
+
+One major difference is the packaging format: an Operator from a repository and an Operator bundle for an Operator from a Red Hat registry. For more information about the difference in packaging formats, see [Importing a version from your private catalog](/docs/sell?topic=sell-sw-validate#sw-validate-add).
+
+## Can I update an operator that was onboarded from the Red Hat registry?
+{: #update-operator-redhat}
+{: faq}
+
+Yes, see the FAQ item in this topic, [How do I update my software?](/docs/sell?topic=sell-thirdparty-sw-faqs#update-versions)
+* To reload a software version, see [Reloading a software version](/docs/sell?topic=sell-software-reload).
+* To add another version of your software, see [Adding a version of your software](/docs/sell?topic=sell-add-version-software).
 
 ## What types of software can I add to the {{site.data.keyword.cloud_notm}} catalog?
 {: #supported-sw}
@@ -69,6 +83,12 @@ To update your software, you can add a new version of it or update and republish
 
 Make sure the version of the software that you're updating in your private catalog is the same as the version that was onboarded in the Partner Center UI.
 {: note}
+
+## A sponsored {{site.data.keyword.IBM_notm}} team is helping me onboard. Should I use their {{site.data.keyword.cloud_notm}} account or my {{site.data.keyword.cloud_notm}} account to go through the onboarding process?
+{: #choose-account-sw}
+{: faq}
+
+Use your own account to onboard your software. If the {{site.data.keyword.IBM_notm}} employee uses their account, the software won’t pass the approval process and the onboarding process must be restarted. If an {{site.data.keyword.IBM_notm}} employee is helping you, you can add them to your account if you feel comfortable doing so.
 
 ## Can I restore a deprecated version of software?
 {: #restore-versions}

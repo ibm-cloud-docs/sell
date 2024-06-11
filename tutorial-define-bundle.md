@@ -11,16 +11,17 @@ subcollection: sell
 
 content-type: tutorial
 account-plan: paid
-completion-time: 15m 
+completion-time: 15m
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Defining the product details of your Operator bundle 
+
+# Defining the product details of your Operator bundle
 {: #bundle-define}
-{: toc-content-type="tutorial"} 
-{: toc-completion-time="15m"} 
+{: toc-content-type="tutorial"}
+{: toc-completion-time="15m"}
 
 This tutorial walks you through the steps for defining the details of an Operator bundle in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement, and define your catalog entry and product page, pricing model, and support experience.
 {: shortdesc}
@@ -73,34 +74,37 @@ Provide details that are displayed on your catalog entry and product page when y
 
 1. Click **Catalog entry** > **Add logo**, and enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`.
 1. Provide a short description of your product, which is displayed on your catalog entry. For the purposes of this tutorial, you can enter `This Operator is a developer tool.`
-1. From the **Category** list, select an option that best fits how users might use your product, for example, **Developer tools**. Categories are used to organize products in the catalog based on common solutions, function, or use. 
+1. From the **Category** list, select an option that best fits how users might use your product, for example, **Developer tools**. Categories are used to organize products in the catalog based on common solutions, function, or use.
+   You can add additional filters to your product after you have onboarded a version of your software. For more information, see [Adding additional filters to your software](/docs/sell?topic=sell-software-filters).
+   {: note}
+
 1. Enter keywords that users might use when they search the catalog for your product, for example, `dev tools` and `operator`.
 1. Provide a list of features that highlights your product's attributes and benefits for users.
 
    Use a descriptive title and 1 - 2 sentences for each feature. You want the information to be visually scannable for users.
    {: tip}
 
-1. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't simply repeat it. 
-1. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo. 
+1. Provide a detailed description of your product that explains its value and what users gain by using it. The detailed description is displayed at the beginning of your product page in the catalog. You can expand on the short description that you provide for your catalog entry, but don't simply repeat it.
+1. Provide links to high-quality images or videos to help illustrate what your product is, its value, and user benefits. The supported media types are images, videos in MP4 or WebM file format, and videos hosted on YouTube or Vimeo.
 
    Some examples of effective media include an introductory walkthrough of your product, an explanation of what your product is and why users might want to use it, or a comparison of certain features.
    {: tip}
 
-1. Provide a link to your product's warranted documentation. 
+1. Provide a link to your product's warranted documentation.
 
 ## Defining your pricing model
 {: #bundle-pricing}
 {: step}
 
-{{site.data.keyword.cloud_notm}} supports two pricing models: free or bring your own license (BYOL). With the free pricing model, users can deploy as many instances with no additional charges incurred. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the product, and third-party providers are responsible for licensing entitlement and enforcement. 
+{{site.data.keyword.cloud_notm}} supports two pricing models: free or bring your own license (BYOL). With the free pricing model, users can deploy as many instances with no additional charges incurred. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the product, and third-party providers are responsible for licensing entitlement and enforcement.
 
-For the purposes of this tutorial, offer your Operator bundle for free by clicking **Pricing**, and selecting **Free**. 
+For the purposes of this tutorial, offer your Operator bundle for free by clicking **Pricing**, and selecting **Free**.
 
 ## Define your support experience
 {: #bundle-support}
 {: step}
 
-Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details). 
+Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details).
 
 To define your product's support experience, use the following steps:
 
@@ -109,4 +113,4 @@ To define your product's support experience, use the following steps:
 ## Next steps
 {: #bundle-define-next}
 
-[Onboard and validate your Operator bundle](/docs/sell?topic=sell-bundle-onboard) 
+[Onboard and validate your Operator bundle](/docs/sell?topic=sell-bundle-onboard)

@@ -39,7 +39,7 @@ This tutorial demonstrates how to onboard and publish a [sample virtual server i
 
 As a third-party provider, you are required to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement if you plan to offer bring your own license plans for your product. The {{site.data.keyword.IBM_notm}} Digital Provider Agreement sets the terms and conditions under which providers can onboard and sell products in {{site.data.keyword.cloud_notm}}. Or, you can upload a custom digital provider agreement in `.pdf`, `.doc`, or `.docx` file format.
 
-Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. 
+Custom digital provider agreements must be reviewed and approved by {{site.data.keyword.IBM_notm}}, which increases the time it takes for you to complete the onboarding process. The uploaded files are scanned for viruses, which might take a few minutes to complete. If a virus is detected, it is recommended to run another virus scan on your file, and then try uploading it again.
 {: note}
 
 For the purposes of this tutorial, complete the following steps to sign the {{site.data.keyword.IBM_notm}} Digital Provider Agreement. 
@@ -61,7 +61,7 @@ You can add a new product or import an existing product from a private catalog. 
 
     The product type is used for tax assessment purposes. For more information, see [Selling on IBM Cloud](/docs/sell?topic=sell-selling-clouds).
     {: important}
-    
+
 1. Enter the display name of your virtual server image, for example, `Example Virtual Server Image 1.0.0`. Make sure that the name you enter meets the following requirements:
 
    * Use 60 characters or less.
@@ -114,7 +114,7 @@ For the purposes of this tutorial, complete the following steps to add a BYOL pr
 {: #vsipower-support}
 {: step}
 
-Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details). 
+Provide details that help users understand how to get support if they encounter issues when they use the virtual server image. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details). 
 
 To define your product's support experience, use the following steps:
 

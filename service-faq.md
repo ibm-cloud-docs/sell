@@ -70,8 +70,12 @@ You're given your API Key when you enable IAM. It is critical that you save the 
 
 ## How can I view and test my service as a customer?
 {: #test-service-user}
+{: faq}
 
 Before you publish your service to the catalog, you can test how your customers will see and use it from the {{site.data.keyword.cloud_notm}} catalog. In Partner Center, go to your **Product details**, and click **View catalog entry**. This view enables you to preview your service in the catalog and check that the broker and pricing is working as expected by creating an instance in your account.
+
+
+
 
 ## What is {{site.data.keyword.IBM_notm}} Partner Plus?
 {: #partnerplus-ibm}

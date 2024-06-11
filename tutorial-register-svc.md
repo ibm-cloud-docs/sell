@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-10-19"
+  years: 2021, 2024
+lastupdated: "2024-06-10"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register
 

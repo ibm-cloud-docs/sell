@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-24"
+lastupdated: "2024-04-22"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -18,6 +18,8 @@ subcollection: sell
 
 As the last step in the onboarding process, you can submit a request to publish your third-party software to the {{site.data.keyword.cloud}} catalog. When you publish your software to the catalog, you can choose to publish it to all {{site.data.keyword.cloud_notm}} users in the catalog or to only specific accounts. If you choose to publish to specific accounts, your product is available only for users in those accounts.
 {: shortdesc}
+
+
 
 ## Requesting for approval
 {: #sw-request-approval}

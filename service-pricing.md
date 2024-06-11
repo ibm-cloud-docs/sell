@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2024
 
-lastupdated: "2024-06-03"
+lastupdated: "2024-05-08"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -54,13 +54,13 @@ To provide tax and EFT information, complete the following steps:
     {: important}
 
 1. Download the relevant tax documentation, and complete it.
-1. Submit the completed documentation by email to `apremit@us.ibm.com`. You must include `cloud.onboarding@ibm.com` on the email.
+1. Submit the completed documentation and bank document by email to `apremit@us.ibm.com`. You must include `cloud.onboarding@ibm.com` on the email.
 1. Select **I confirm that I completed and emailed all of the required documents.**.
 
 ### Providing the ECCN
 {: #service-eccn}
 
-To start defining your pricing model, you must provide the ECCN that applies to your product. The ECCN is required for both free and usage-based pricing plans. If you don't have your ECCN, you can find it on the [Commerce Control List](https://www.bis.gov/regulations/classify-your-item#what-is-an-eccn){: external}. If you need to update your ECCN after you add it, you must contact {{site.data.keyword.cloud_notm}} Support.
+To start defining your pricing model, you must provide the Export Control Classification Number (ECCN) that applies to your product. If you don't have your ECCN, you can find it on the [Commerce Control List](https://www.bis.gov/regulations/classify-your-item#what-is-an-eccn){: external}.
 
 You must submit your tax and EFT documents and receive approval before you can provide the ECCN if you're using a usage-based pricing plan.
 {: note}
@@ -69,6 +69,11 @@ You must submit your tax and EFT documents and receive approval before you can p
 1. Select the service that you're onboarding and go to the **Pricing** page.
 1. Click **Add ECCN** and provide the ECCN for your service.
 1. Click **Add**.
+
+If you need to update your ECCN after you add it, you must contact {{site.data.keyword.cloud_notm}} Support. To contact support, you can use the following methods:
+
+* If you have a valid Pay-As-You-Go or Subscription account, you can click **Chat with IBM** to connect with a support engineer.
+* Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
 
 ### Providing the UNSPSC
 {: #service-unspsc}
@@ -159,10 +164,13 @@ To add a paid pricing plan for your service, complete the following steps:
 
 Before you can submit your pricing plan for approval, you must complete the following tasks:
 
+
+
 * If you had to skip the step to link your broker to the plan because you didn't have one yet, start to develop your broker, and come back to link it to your plan when you're done.
 * [Add metrics to your plan](/docs/sell?topic=sell-service-add-metrics) to determine how customers are charged, and request pricing approval.
 * [Add plan features](#service-add-feature) to describe why a customer might want to choose a specific plan.
-* When your metrics are approved, you can test the pricing and usage from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
+* [Test the pricing and usage](/docs/sell?topic=sell-service-add-metrics#submit-evidence) from a customer's perspective and provide evidence from your testing to get the final approval for your pricing plan.
+
 
 
 ### Listing pricing plan features

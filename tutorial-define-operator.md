@@ -22,7 +22,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-This tutorial walks you through the steps for defining the details of a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center. You can onboard an Operator bundle from a TGZ file or an Operator from a CSV file. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry and product page, pricing model, and support experience.
+This tutorial walks you through the steps for defining the details of a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center. You can onboard an Operator or Operator bundle from a TGZ file. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry and product page, pricing model, and support experience.
 {: shortdesc}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample Node-RED Operator](https://github.com/IBM-Cloud/operator-bundle-sample/releases){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -113,7 +113,7 @@ For the purposes of this tutorial, complete the following steps to add a BYOL pr
 {: #operator-support}
 {: step}
 
-Provide details that help users understand how to get support if they encounter issues when they use the Operator bundle. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details).
+Provide details that help users understand how to get support if they encounter issues when they use the Operator. For more information about providing support information, see [Defining your support experience](/docs/sell?topic=sell-sw-support-details).
 
 To define your product's support experience, use the following steps:
 

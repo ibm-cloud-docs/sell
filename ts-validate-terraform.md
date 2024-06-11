@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-12-27"
+lastupdated: "2022-12-19"
 
 keywords: troubleshooting, Terraform, validate, version, unknown token
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #ts-validate-terraform}
 {: #troubleshoot}
 
-When you try to onboard a Terraform template to the {{site.data.keyword.cloud}} catalog, the validation process fails because the correct version of the Terraform template isn't specified.
+When you try to add a Terraform template to your private catalog, the validation process fails because the correct version of the Terraform template isn't specified.
 {: shortdesc}
 
 The following error is displayed when you try to validate that the Terraform template can be installed on the target infrastructure:

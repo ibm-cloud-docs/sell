@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-04-24"
+lastupdated: "2024-04-22"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -23,7 +23,7 @@ completion-time: 45m
 {: toc-services="Registry"}
 {: toc-completion-time="45m"}
 
-This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.openshiftshort}} Operator bundle, configure the deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
+This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.openshiftshort}} Operator bundle, configure a deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
 {: shortdesc}
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -80,12 +80,13 @@ If users are required to accept any license agreements beyond the {{site.data.ke
 {: #bundle-onboard-review-readme}
 {: step}
 
-When users install the software, they can view product information by clicking the Readme file link. This information is generated from the readme file that you uploaded to your source repository.
+When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
-2. Preview how the information in the readme file will be displayed to users when they are installing the Operator bundle.
-3. If you need to make changes, edit the information in the source file and import the updated Operator bundle to your private catalog.
-4. Click **Save** > **Next**.
+2. Preview how the information in the readme file is displayed to users when they install the Operator bundle.
+3. To make changes, edit the information in the source file and import the updated Operator bundle to your private catalog.
+4. Click **Save**.
+5. Click **Next**.
 
 ## Validate the software version
 {: #bundle-onboard-validate}
@@ -105,7 +106,8 @@ Before you can publish the Operator bundle, you need to validate it to make sure
     Tags provide a way to organize, track usage costs, and manage access to the resources in your account.
     {: tip}
 
-1. Click **Next** > **Validate**.
+1. Click **Next**
+1. Click **Validate**.
 
 {{site.data.content.manage-compliance}}
 

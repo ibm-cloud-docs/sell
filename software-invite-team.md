@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-12-11"
+lastupdated: "2023-10-18"
 
 keywords: onboard software, onboard service, third-party product, sell on IBM Cloud, catalog details, support, software, service, partner center, sellers, catalog, invite team, IAM, access
 

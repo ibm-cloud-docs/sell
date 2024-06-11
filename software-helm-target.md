@@ -16,6 +16,7 @@ subcollection: sell
 # Deploying a Helm chart to a new target
 {: #helm-target-new}
 
+
 To deploy a version of a Helm chart to another deployment target, you can copy the configuration of the existing version and deploy it to a new target. The deployment target options for Helm charts are {{site.data.keyword.containerlong_notm}} and {{site.data.keyword.openshiftlong_notm}}.
 {: shortdesc}
 

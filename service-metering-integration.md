@@ -6,7 +6,7 @@ copyright:
 
 lastupdated: "2024-01-05"
 
-keywords: IBM Cloud, metering model, metering service, usage
+keywords: IBM Cloud, metering model, metering service, usage, pricing
 
 subcollection: sell
 
@@ -34,6 +34,7 @@ The following list describes the expectations for tracking and submitting usage:
 
 For more information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost).
 
+
 ## Configuration properties
 {: #service-configure-properties}
 
@@ -58,6 +59,8 @@ Unit name
 {: #service-metermodel-type}
 
 See the following table for information about the available metering models and a brief description of each type:
+
+
 
 |  Type | Description  |
 |-----|-----|
@@ -89,6 +92,8 @@ Formula: ADD(usages)
 | Day 3 (morning) | 5             | 15 + 5      | 20                    |
 | Day 4 (night)   | 5             | 20 + 5      | 25                    |
 {: caption="Table 2. Monthly usage calculations" caption-side="top"}
+
+
 
 #### Standard Average
 {: #standard-average-usage}
@@ -134,7 +139,7 @@ The quantity might change throughout the month, but what is rated is the average
 
 Given a 30-day month, use the following table to calculate the daily proration average:
 
-| Time               | Usage    | Daily average | Calculation                            | Quantity in dashboard*                           |
+| Time               | Usage    | Daily average | Calculation                            | Quantity in dashboard *                          |
 | ------------------ | :--------------: | ------------- | ------------------                     | :----------------------------------------------: |
 | Day 1 (morning)    | 8                | 8 / 1         | 8 / 1                                  | 8                                                |
 | Day 1 (night)      | 3                | (8 + 3) / 2   | 5.5 / 1                                | 5.5 (On Day 1 EOD)                               |
@@ -144,7 +149,7 @@ Given a 30-day month, use the following table to calculate the daily proration a
 | Day 15 to Day 30   | 0                | 0 / 1         | (5.5 + 3.5 + (1 \* 12) + (0  \* 15) / 30 | 0.7333 (On Day 30 EOD)                          |
 {: caption="Table 5. Average usage per day and monthly average calculations" caption-side="top"}
 
-\* As seen on the same day as when the usage was submitted.
+\*: As seen on the same day as when the usage was submitted.
 
 #### Daily proration Max
 {: #daily-proration-max}
@@ -153,12 +158,12 @@ Calculate the maximum usage per day and average it for the month. The maximum of
 
 Formula: Summation(daily max) / number of days passed in billing period
 
-The quantity might change throughout the month, but what is rated is the maximum usage per day.
+The quantity might change throughout the month, but the maximum usage per day is rated.
 {: note}
 
 Given a 30-day month, see the following table to calculate the maximum usage per day and monthly average:
 
-| Time             | Usage   | Daily Max | Calculation                    | Quantity in dashboard* |
+| Time             | Usage   | Daily Max | Calculation                    | Quantity in dashboard * |
 |------------------|:--------------:| --------- | ------------------------------ |:----------------------:|
 | Day 1 (morning)  | 0              | MAX(0)    | 0 / 1                          | 0                      |
 | Day 1 (night)    | 1              | MAX(0, 1) | 1 / 1                          | 1                      |
@@ -166,7 +171,7 @@ Given a 30-day month, see the following table to calculate the maximum usage per
 | Day 15 to Day 30 | 0              | MAX(0)    | (1 + (1 * 14) + 0 + ...) / day | < 1                    |
 {: caption="Table 6. Maximum usage per day and monthly average calculations" caption-side="top"}
 
-\* As seen on the same day as when the usage was submitted.
+\*: As seen on the same day as when the usage was submitted.
 
 #### Monthly proration
 {: #meter-integration-type-monthlyproration}
@@ -203,6 +208,8 @@ The following table provides detailed information about the pricing models that 
 
 Block tier pricing is not currently supported. If your product migrated from the resource management console, and you used block tier pricing, it is still honored. However, currently, you can't add any new block tier pricing plans.
 {: note}
+
+
 
 ## Metrics for metering models
 {: #metering-model-types}

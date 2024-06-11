@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-10-19"
+  years: 2021, 2023
+lastupdated: "2023-10-18"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, publish, tutorial, sample
 
@@ -30,7 +30,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #svc-publish-prereqs}
 
-1. [Register your service in {{site.data.keyword.cloud_notm}} Partner Center](/docs/sell?topic=sell-svc-register).
+1. [Register your service](/docs/sell?topic=sell-svc-register).
 1. [Define the product details of your service](/docs/sell?topic=sell-svc-define).
 1. [Onboard a broker](/docs/sell?topic=sell-broker-onboard).
 1. [Add a pricing plan for your service](/docs/sell?topic=sell-svc-pricing).

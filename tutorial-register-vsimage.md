@@ -1,10 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-
-lastupdated: "2023-11-09"
-
+  years: 2021, 2024
+lastupdated: "2024-06-10"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, terraform, register
 

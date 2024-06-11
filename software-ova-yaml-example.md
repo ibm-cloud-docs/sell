@@ -10,8 +10,6 @@ keywords: OVA images, metadata, YAML, onboard, GitHub, publish
 
 subcollection: sell
 
-content-type: api-docs
-
 ---
 
 {{site.data.keyword.attribute-definition-list}}

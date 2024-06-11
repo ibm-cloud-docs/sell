@@ -69,7 +69,7 @@ You can add a new product or import an existing product from a private catalog. 
    * Don't include the name of your company, former product names, or pricing details.
 
 1. Optionally, enter the programmatic name of your product, and click **Next**.
-1. Review your product details and click **Create**.   
+1. Review your product details and click **Create**.
 
 ## Define your catalog entry and product page
 {: #vsivpc-catalog}

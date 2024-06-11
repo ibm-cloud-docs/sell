@@ -31,7 +31,7 @@ To add a variation to your deployable architecture, complete the following steps
 1. Select the type of repository. If the source for your deployable architecture is located in a private repository, you need to authenticate with a personal access token.
 1. Enter the source URL. This URL must end in `tar.gz`.
 1. Enter the variation display name.
-1. Enter the version in the format of major version, minor version, and revision, for example `1.0.0`.
+1. Enter the version in the format of major version, minor version, and revision, for example, `1.0.0`.
 1. Click **Add version**.
 
 ## Configuring your version

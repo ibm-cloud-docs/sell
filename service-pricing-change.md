@@ -49,3 +49,6 @@ You can track the progress of your submitted case from the [Manage cases page](/
 
 For the best support experience on {{site.data.keyword.cloud_notm}}, it is recommended to have an [advanced or premium support plan](/docs/get-support?topic=get-support-support-plans).
 {: tip}
+
+
+
