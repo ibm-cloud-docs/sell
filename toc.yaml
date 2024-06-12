@@ -132,11 +132,7 @@ toc:
       - topicgroup:
           label: Selling services
           topics:
-          - topicgroup:
-              label: Developing your service brokers
-              topics:
-              - service-pc-broker.md
-              - service-test-broker.md
+          - service-pc-broker.md
           - service-pricing.md
           - topicgroup:
               label: Managing metrics
