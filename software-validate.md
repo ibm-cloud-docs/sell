@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2024
 
-lastupdated: "2024-06-10"
+lastupdated: "2024-06-26"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -23,7 +23,7 @@ The process to onboard your software includes importing a version to your privat
 ## Before you begin
 {: #sw-validate-prereqs}
 
-1. Upload your source code to a release in your GitHub or GitLab repository. See [Setting up your source code repository](/docs/sell?topic=sell-source-repo-setup).
+1. Upload your source code to a release in your GitHub, GitLab, or Azure repository. For more information, see [Setting up your source code repository](/docs/sell?topic=sell-source-repo-setup).
 1. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
 1. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
 1. Set up the test environment that was previously created for you:

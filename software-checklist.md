@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2024
 
-lastupdated: "2024-03-11"
+lastupdated: "2024-06-26"
 
 keywords: end-to-end, software onboarding, checklist, third party, requirements, sellers, partner portal, partners, third-party software, partner center
 
@@ -55,7 +55,7 @@ For more information, see the following links:
 * [Defining your catalog entry and product page](/docs/sell?topic=sell-sw-catalog-details)
 * [Defining your support experience](/docs/sell?topic=sell-sw-support-details)
 
-## Define your pricing plan 
+## Define your pricing plan
 {: #software-pricing-define}
 
 | Task | Description | Environment |
@@ -84,8 +84,8 @@ The following tasks are typically completed by a technical member of your team.
 
 | Task | Description | Environment |
 |------|-------------|-------------|
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Set up your source code repository | Create a release in your source code repository to deliver and manage versions of your software. | Your GitHub or GitLab repository |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Upload a readme file | Provide a readme file that describes how users can install your software and get customer support. | Your GitHub or GitLab repository |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Set up your source code repository | Create a release or tag in your source code repository to deliver and manage versions of your software. | Your GitHub, GitLab, or Azure repository |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Upload a readme file | Provide a readme file that describes how users can install your software and get customer support. | Your GitHub, GitLab, or Azure repository |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Onboard your software| Import a version, configure the deployment details, set any license requirements, and validate that the version can be successfully installed on the infrastructure that you require. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Table 4. Tasks for onboarding software" caption-side="top"}
 
