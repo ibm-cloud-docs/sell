@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2024
 
-lastupdated: "2024-01-11"
+lastupdated: "2024-07-19"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
@@ -55,6 +55,7 @@ Disbursements are paid against revenue recognized by {{site.data.keyword.IBM}} i
 
 * As-a-service products: 87% of net revenue
 * Software products: 80% of net revenue
+* Professional services: 80% of net revenue
 
 ## Can a third-party provider run activity reports and payout reconciliations?
 {: #third-party-activity-reports}
