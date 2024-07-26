@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-05-02"
+lastupdated: "2024-07-26"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -75,9 +75,6 @@ Provide details that are displayed on your catalog entry and product page when y
 1. Click **Catalog entry** > **Add logo**, and enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`.
 1. Provide a short description of your product, which is displayed on your catalog entry. For the purposes of this tutorial, you can enter `This Operator is a developer tool.`
 1. From the **Category** list, select an option that best fits how users might use your product, for example, **Developer tools**. Categories are used to organize products in the catalog based on common solutions, function, or use.
-   You can add additional filters to your product after you have onboarded a version of your software. For more information, see [Adding additional filters to your software](/docs/sell?topic=sell-software-filters).
-   {: note}
-
 1. Enter keywords that users might use when they search the catalog for your product, for example, `dev tools` and `operator`.
 1. Provide a list of features that highlights your product's attributes and benefits for users.
 
