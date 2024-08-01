@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020, 2022
+  years: 2020, 2024
 
-lastupdated: "2022-10-26"
+lastupdated: "2024-08-01"
 
 keywords: OVA images, metadata, YAML, onboard, GitHub, publish
 
@@ -32,12 +32,12 @@ The following table lists the metadata to include in your YAML file:
 | `app_id`      | The programmatic name of the product. Not exposed to the user. |
 | `title`       | The name of the product that's externally displayed in the public catalog. |
 | `version`     | The version ID of the OVA image. You must update each time that you update the OVA image. This value must be in semantic versioning, for example, `1.0.0`, `1.0.1`, `1.0.2`. |
-| `revision`    | The version of the OVA Metadata. You must update each time that you update your metadata. |
+| `revision`    | The version of the OVA metadata. You must update each time that you update your metadata. |
 | `kind`        | The value is always `ova`. |
 | `image`       | The object that contains `url` or `sha256` values. |
 | `url`         | A child value of `image`. The URL for the `image` path. |
 | `sha256`      | A child value of `image`. The signature of the file referenced in `image`. |
-| `eula_url`    | The link to publicly accessible license document. Optional. |
+| `eula_url`    | The link to a publicly accessible license document. Optional. |
 | `eula_label`  | The label for the license link. Optional. |
 | `categories`  | The array of {{site.data.keyword.Bluemix_notm}} catalog categories that are used to filter items in the catalog. Optional. |
 | `logo`        | The URL path to the product logo that's externally displayed in the public catalog along with the `title` value. |

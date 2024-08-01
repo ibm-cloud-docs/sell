@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-01-05"
+  years: 2021, 2024
+lastupdated: "2024-08-01"
 
 keywords: troubleshoot software, products, onboard, missing
 
@@ -21,7 +21,7 @@ content-type: troubleshoot
 If you expect to see a list of your products on the `My products` page in Partner Center, but instead see Getting started steps, you might be in the wrong account.
 {: shortdesc}
 
-When you go to the `My products` page of Partner Center, you see Getting started steps instead of a list of your products.
+When you go to the `My products` page in Partner Center, you see Getting started steps instead of a list of your products.
 {: tsSymptoms}
 
 This error typically occurs because no products are associated with the account you are accessing.

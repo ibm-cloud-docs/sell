@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-12-19"
+  years: 2021, 2024
+lastupdated: "2024-08-01"
 
 keywords: troubleshooting, Terraform, validate, version, unknown token
 
@@ -42,4 +42,4 @@ To specify the Terraform version to use during the validation process, complete 
     ```
     {: codeblock}
 
-2. After you import your Terraform template to your private catalog, add the template version as a deployment value that's hidden from users when they install the software.
+1. After you import your Terraform template to your private catalog, add the template version as a deployment value that's hidden from users when they install the software.
