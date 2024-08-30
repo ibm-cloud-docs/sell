@@ -225,7 +225,7 @@ The `scope` field value refers to the service programmatic name.
 #### Calling IAM to check user authorization
 {: #call-iam-user-authz}
 
-After you decode the user's access token, call IAM to check whether the user is authorized to access the service dashboard by using the `iam_id` and `scope` fields and values from the previous step.
+After you decode the user's access token, call IAM to check whether the user is authorized to access the service dashboard by passing the body of the user's acccess token.
 
 Review the following example of an IAM call:
 
@@ -238,11 +238,7 @@ curl -X POST \
     { \
       "subject" : \
       { \
-        "attributes": \
-        { \
-          "id": "<iam_id field value from user's token>", \
-          "scope": "<scope field value from user's token>" \
-        } \
+        "accessTokenBody": "<part between the dot's in the user's token. This contains all the token claims data, but no headers nor signature"
       }, \
       "resource" : \
       { \
