@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2024
 
-lastupdated: "2024-09-04"
+lastupdated: "2024-09-05"
 
 keywords: client ID, authentication flow, OAuth, authentication, authorization, access token
 
