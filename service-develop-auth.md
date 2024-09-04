@@ -229,7 +229,7 @@ After decoding the user's access token, call IAM to check whether the user is au
 
 Review the following example of an IAM call:
 
-```yaml
+```bash
 curl -X POST \
   -H "Accept: application/json" \
   -H "Content-Type: application/json" \
