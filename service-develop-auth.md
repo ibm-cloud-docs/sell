@@ -229,7 +229,7 @@ After decoding the user's access token, call IAM to check whether the user is au
 
 Review the following example of an IAM call:
 
-```
+```yaml
 curl -X POST \
   -H "Accept: application/json" \
   -H "Content-Type: application/json" \
@@ -238,7 +238,7 @@ curl -X POST \
     { \
       "subject" : \
       { \
-      "accessTokenBody": "<The part of the user's token between the dots. This contains all the token claims data, but excludes the headers and signature."
+      "accessTokenBody": "<The part of the user's token between the dots. This contains all the token claims data, but excludes the headers and signature.>"
       }, \
       "resource" : \
       { \
