@@ -238,7 +238,7 @@ curl -X POST \
     { \
       "subject" : \
       { \
-      "accessTokenBody": "<The part of the user's token between the dots. This contains all the token claims data, but excludes the headers and signature."
+      "accessTokenBody": "<The part of the user's token between the dots. This contains all the token claims data, but excludes the headers and signature.>"
       }, \
       "resource" : \
       { \
