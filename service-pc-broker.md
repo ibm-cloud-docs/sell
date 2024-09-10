@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2024
 
-lastupdated: "2024-06-12"
+lastupdated: "2024-09-10"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, host service broker
 
@@ -61,12 +61,15 @@ Deprovisioning service instances
 ## Building your broker
 {: #pc-broker-guides}
 
-Configure and deploy a broker that has your required specifications by using the following steps: 
+Configure and deploy a broker that has your required specifications by using the following documentation and sample applications:
 
-Explore [broker samples](https://github.com/IBM/sample-resource-service-brokers){: external} to see how you can structure your broker to meet requirements. Not all languages are represented by a sample.
+* Use the [{{site.data.keyword.Bluemix_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api){: external} to set required specifications, including required endpoints.
 
-1. Go to [Open Service Broker Reference App](https://github.com/IBM-Cloud/onboarding-osb){: external} as a guide to create your broker. The reference app provides step-by-step instructions to configure, deploy on {{site.data.keyword.codeenginefull_notm}}, and test your broker. 
-1. Go to [{{site.data.keyword.Bluemix_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api){: external} to set required specifications, including required endpoints. 
+Review the following sample applications:
+
+* Use the Java based sample [Open Service Broker Reference App](https://github.com/IBM-Cloud/onboarding-osb){: external} as a guide to create your broker. The reference app provides step-by-step instructions to configure, deploy on {{site.data.keyword.codeenginefull_notm}}, and test your broker.
+
+* Use the NodeJS based sample [Open Service Broker Reference App](https://github.com/IBM/onboarding-osb-node){: external} as a guide to create your broker.
 
 ### Including required endpoints
 {: #pc-endpoints}
