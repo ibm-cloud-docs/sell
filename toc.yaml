@@ -170,7 +170,6 @@ toc:
                   href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
       - service-parameter-example.md
       - software-ova-yaml-example.md
-      - ha-dr.md
   - navgroup:
       id: help
       topics:
