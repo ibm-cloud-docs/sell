@@ -1,0 +1,56 @@
+{
+    "version": 2,
+    "title": "Selling on IBM Cloud docs",
+    "introduction": "Grow your business and reach more clients globally by selling your product on IBM Cloud. Leverage the docs to onboard and deliver software, deployable architectures and services.",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Getting set up to sell software",
+          "href": "/docs/sell?topic=sell-sw-getting-started"
+        },
+        {
+          "title": "How third-party services use the IBM Cloud platform",
+          "href": "/docs/sell?topic=sell-how-it-works&interface=ui"
+        },
+        {
+          "title": "FAQs about selling services",
+          "href": "/docs/sell?topic=sell-3p-faqs"
+        }
+      ]
+    },
+    "section_highlights": [
+      {
+        "title": "Sell on IBM Cloud: Introducing Partner Center",
+        "description": "This blog provides information on how to start onboarding your software to the IBM Cloud catalog.",
+        "href": "https://www.ibm.com/blog/announcement/sell-on-ibm-cloud-introducing-partner-center/",
+        "type": "blog"
+      },
+      {
+        "title": "Selling services on IBM Cloud",
+        "description": "This video provides information on how to start onboarding your service to the IBM Cloud catalog.",
+        "href": "https://mediacenter.ibm.com/media/Selling%20services%20on%20IBM%20Cloud/1_qjjedthi",
+        "type": "video",
+        "recommended": true
+      }
+    ],
+    "section_updates": {
+      "view_more": "/docs/overview?topic=overview-whatsnew",
+      "tiles": [
+      {
+        "date": "31 May 2024",
+        "title": "Onboarding software with usage-based pricing plans",
+        "description": "In addition to free and bring your own license plans, you can now add usage-based pricing plans to software onboarded with the virtual server image delivery method, offering it as a paid integrated product in the IBM Cloud catalog. After adding a plan to your software in Partner Center, you can also manage it in your private catalog. This includes adding features, changing the plan’s state, deprecating it, or updating plan details."
+      },
+      {
+        "date": "20 September 2023",
+        "title": "Support for onboarding third-party deployable architectures in Partner Center",
+        "description": "You can now onboard deployable architectures in Partner Center and publish them to the IBM Cloud catalog. A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources that are designed for easy deployment, scalability, and modularity that solves a customer-defined problem."
+      },
+      {
+        "date": "12 April 2023",
+        "title": "Specify language support for community-supported products",
+        "description": "If you offer a third-party product that is supported by open source communities, you can select the languages in which support is provided when you're onboarding or managing your product in Partner Center. By providing support in multiple languages, your customers can communicate their issues in their preferred language and get support more efficiently."
+      }
+      ]
+    }
+  }
