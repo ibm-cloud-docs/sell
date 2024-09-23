@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-24"
+lastupdated: "2024-09-23"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -47,7 +47,6 @@ For more information, see [Managing API keys](/docs/account?topic=account-userap
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select the service that you're onboarding.
 1. From the Brokers page, click **Add broker**.
-1. Enter the name, URL, username, and password for your broker, and click **Done**.
 
 ## Set up {{site.data.keyword.cloud_notm}} SSO
 {: #broker-sso}
