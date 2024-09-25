@@ -24,7 +24,7 @@ toc:
            label: Understanding how to sell deployable architectures
            topics:
            - da-get-start.md
-           - da-checklist.md    
+           - da-checklist.md
       - topicgroup:
           label: Understanding how to sell services
           topics:
@@ -54,14 +54,14 @@ toc:
           - tutorial-register-vsimage.md
           - tutorial-define-vsimage.md
           - tutorial-onboard-vsimage.md
-          - tutorial-publish-vsimage.md    
+          - tutorial-publish-vsimage.md
       - topicgroup:
           label: Onboarding a virtual server image for VPC
           topics:
           - tutorial-register-vsivpc.md
           - tutorial-define-vsivpc.md
           - tutorial-onboard-vsivpc.md
-          - tutorial-publish-vsivpc.md    
+          - tutorial-publish-vsivpc.md
       - topicgroup:
           label: Onboarding a virtual server image for Power Systems
           topics:
@@ -107,7 +107,7 @@ toc:
           - topicgroup:
               label: Managing metrics
               topics:
-              - software-add-metrics.md    
+              - software-add-metrics.md
           - topicgroup:
               label: Updating your software
               topics:
@@ -145,7 +145,7 @@ toc:
           - service-develop-auth.md
           - service-pricing-change.md
           - service-publish.md
-      - software-invite-team.md    
+      - software-invite-team.md
       - assign-access-pc.md
   - navgroup:
       id: reference
