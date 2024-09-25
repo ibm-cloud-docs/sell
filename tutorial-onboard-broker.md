@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-09-23"
+lastupdated: "2024-09-25"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -35,7 +35,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 1. For an example of how to build your broker, see [IBM Cloud reference broker](https://github.com/IBM-Cloud/onboarding-osb){: external}.
 
-1. Make sure you have the following API keys:
+1. Make sure that you have the following API keys:
    * An onboarding API key for access to the Global Catalog API.
    * An {{site.data.keyword.cloud_notm}} API key for access to your deployment target.
 
