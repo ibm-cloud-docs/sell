@@ -47,6 +47,34 @@ For more information, see [Managing API keys](/docs/account?topic=account-userap
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. Select the service that you're onboarding.
 1. From the Brokers page, click **Add broker**.
+1. Enter the programmatic name for your broker and the URL at which your broker is reachable.
+1. Select the authentication scheme to use when verifying the identity of the client that interacts with the broker. You can select from basic, bearer, and bearer cloud resource name (CRN) schemes.
+
+    Basic credentials-based authentication is deprecated and will no longer be supported in the future due to security reasons. Use bearer authentication for continued access instead.
+    {: deprecated}
+
+1. Select the broker type.
+1. Enter the username for broker authentication. If you selected bearer authentication in the previous step, `apikey` is automatically entered for you as a username.
+1. Enter the password for broker authentication. If you selected bearer authentication, enter the API key.
+
+    For the bearer CRN authentication scheme, username and password information are not needed.
+    {: note}
+
+1. Click **Save**.
+
+### Authentication schemes for brokers
+{: #authentication-scheme-broker}
+
+When you add a broker in Partner Center, you can select from the following three authentication schemes to verify the identity of the client that interacts with the broker:
+
+Basic
+:    Basic authentication involves providing a username and a password, which are sent with each request to verify the client's identity. This method is less secure and not recommended as the credentials are sent repeatedly with every request.
+
+Bearer
+:    This is a token-based authentication method, in which you provide `apikey` as the username, and the API key value as the password. After providing this information, the broker authenticates and exchanges the API key to a JWT token. Then, the token gets passed to the broker where the broker validates the user identity and whether the token is valid.
+
+Bearer CRN
+:    In this method, the resource controller generates an IAM token with the identity of the broker CRN it is connecting to. Services authorize the call in their broker application by verifying that the identity of the caller matches the CRN of their respective broker. No API key and API key rotation are required in this method.
 
 ## Set up {{site.data.keyword.cloud_notm}} SSO
 {: #broker-sso}
