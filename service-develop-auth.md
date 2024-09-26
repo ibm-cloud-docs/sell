@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2024
 
-lastupdated: "2024-09-04"
+lastupdated: "2024-09-26"
 
 keywords: client ID, authentication flow, OAuth, authentication, authorization, access token
 
@@ -116,12 +116,15 @@ To obtain an access token, you must include the following headers and parameters
 #### Parameters
 {: #auth-parameters}
 
-- `client_id=[client ID]`
-- `client_secret=[client secret]`
+Mandatory
 - `grant_type=authorization_code`
 - `response_type=cloud_iam`
 - `redirect_uri=[this parameter refers to the same URL from Step 1]`
 - `code=[code from callback]`
+
+Optional
+- `account=<account ID for the token>` It is highly recommended to obtain an account-scoped token.
+- `ip_address=<IP address of the user>` Pass the IP address of the user if it differs from the client IP.
 
 See the required headers and parameters included in the following POST request example:
 
@@ -130,10 +133,10 @@ curl -k -X POST \
   -u "<your-client-id>:<your-client-secret>" \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Accept: application/json" \
-  --data-urlencode "client_id=<your-client-id>" \
-  --data-urlencode "client_secret=<your-client-secret>" \
   --data-urlencode "grant_type=authorization_code" \
   --data-urlencode "response_type=cloud_iam" \
+  --data-urlencode "account=<account ID for the token>" \
+  --data-urlencode "ip_address=<IP address of the user>" \
   --data-urlencode "code=<code-from-the-callback>" \
   --data-urlencode "redirect_uri=<redirect_uri>" \
   "https://iam-region2.cloud.ibm.com/identity/token"
