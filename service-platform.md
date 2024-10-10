@@ -121,7 +121,7 @@ For more information on metering, see [Metering integration](/docs/sell?topic=se
 
 Now let's pull all of the concepts together and look at an example of how service instance creation works by using the {{site.data.keyword.Bluemix_notm}} platform.
 
-![Provisioning scenario](images/flow-am.svg "How the platform handles service instance creation"){: caption="Figure 1. How the platform handles service instance creation" caption-side="bottom"}
+![Provisioning scenario](images/flow-am.svg "How the platform handles service instance creation"){: caption="How the platform handles service instance creation" caption-side="bottom"}
 
 ### Creating a service instance by using the console
 {: #service-instance-ui}
