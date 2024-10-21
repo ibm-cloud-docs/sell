@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2024
 
-lastupdated: "2024-02-01"
+lastupdated: "2024-10-21"
 
 keywords:
 
@@ -227,7 +227,7 @@ Add the profiles and controls that you want to claim.
 {: #add-scc-scans}
 {: ui}
 
-Add the scans that you previously ran in the {{site.data.keyword.compliance_short}}. {{site.data.keyword.compliance_short}} scans determine adherence to regulatory controls. For more information, see [Scanning your resources](/docs/security-compliance?topic=security-compliance-scan-resources).
+Add the scans that you previously ran in the {{site.data.keyword.compliance_short}}. {{site.data.keyword.compliance_short}} scans determine adherence to regulatory controls. For more information, see [Running a scan on demand](/docs/security-compliance?topic=security-compliance-attachments#scan-ondemand).
 
 1. Click **Add scan**.
 1. Select the profile that you used for the evaluation.
