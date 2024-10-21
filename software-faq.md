@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2024
 
-lastupdated: "2024-06-10"
+lastupdated: "2024-10-21"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -111,7 +111,7 @@ Yes, you can add team members to help onboard software. You need to assign them 
 
 Yes, go to **Manage > Access (IAM)** in the console, select **Users**, find the user that you want to remove, select **Remove user** from the **Actions** menu.
 
-Only account owners and users with specific access can remove a user. For more information, see [Removing users from an account](/docs/account?topic=account-remove).
+Only account owners and users with specific access can remove a user. For more information, see [Removing users from an account](/docs/account?topic=account-iamuserinv&interface=ui#remove-user-acount-ui).
 
 ## Can I view my assigned roles and permissions?
 {: #access-onboard}
