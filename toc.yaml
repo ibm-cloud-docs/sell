@@ -189,3 +189,14 @@ toc:
           - include: ../account/ts-unsupported-registry.md
       - topic: pc-support.md
         navtitle: Getting help and support
+      - topicgroup:
+          label: Getting support
+          topics:
+          - include: ../account/using-support-center.md
+          - include: ../account/support-plans.md
+          - include: ../account/create-case.md
+          - include: ../account/assign-user-access-cases.md
+          - include: ../account/manage-case.md
+          - include: ../account/monitor-notif-status1.md
+          - include: ../account/report-security.md
+          - include: ../account/case-severity-response-times.md
