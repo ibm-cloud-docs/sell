@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-09-25"
+lastupdated: "2024-10-22"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -71,7 +71,7 @@ Basic
 :    Basic authentication involves providing a username and a password, which are sent with each request to verify the client's identity. This method is less secure and not recommended as the credentials are sent repeatedly with every request.
 
 Bearer
-:    This is a token-based authentication method, in which you provide `apikey` as the username, and the API key value as the password. After providing this information, the broker authenticates and exchanges the API key to a JWT token. Then, the token gets passed to the broker where the broker validates the user identity and whether the token is valid.
+:    This is a token-based authentication method, in which you provide `apikey` as the username, and the API key value as the password. After providing this information, the resource controller exchanges the API key to a JWT token. Then, the token gets passed to the broker where the broker validates the user identity and whether the token is valid.
 
 Bearer CRN
 :    In this method, the resource controller generates an IAM token with the identity of the broker CRN it is connecting to. Services authorize the call in their broker application by verifying that the identity of the caller matches the CRN of their respective broker. No API key and API key rotation are required in this method.
