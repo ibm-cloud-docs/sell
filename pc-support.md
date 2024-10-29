@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2024
 
-lastupdated: "2024-01-05"
+lastupdated: "2024-10-29"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -54,7 +54,7 @@ To contact an onboarding specialist, complete the following steps:
 
 If you're experiencing issues with Partner Center, you can create a support case by using the [{{site.data.keyword.Bluemix_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
-To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access).
+To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/account?topic=account-access-cases).
 {: note}
 
 
@@ -71,9 +71,9 @@ To create a support case for Partner Center related issues, complete the followi
 
 1. The following steps are optional:
    * Attach files and resources to provide more details about the issue you're experiencing.
-   * If you'd like a user in you account to be updated about the case, add them by using the Contact watchlist. For more information about assigning users access to your account, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).
+   * If you'd like a user in you account to be updated about the case, add them by using the Contact watchlist. For more information about assigning users access to your account, see [Adding users to your case management access group](/docs/account?topic=account-access-cases#add-user-access-group).
    * Select **Email me updates about this case** to receive support case notifications.
 1. Click **Next**, review your case summary, and click **Submit case**. After you receive email verification for the case, follow the instructions for further communication on the issue.
 
-After your support case is created, you can follow its progress on the [Manage cases page](/unifiedsupport/cases). For more information, see [Managing your support cases](/docs/get-support?topic=get-support-managing-support-cases).
+After your support case is created, you can follow its progress on the [Manage cases page](/unifiedsupport/cases). For more information, see [Managing your support cases](/docs/account?topic=account-managing-support-cases).
 {: tip}

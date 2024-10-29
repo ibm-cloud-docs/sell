@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-07-28"
+  years: 2022, 2024
+lastupdated: "2024-10-29"
 
 keywords: service, pricing, paid, third-party, change plan, Partner Center
 
@@ -47,8 +47,5 @@ According to the [{{site.data.keyword.cloud_notm}} Services Agreement](https://w
 You can track the progress of your submitted case from the [Manage cases page](/unifiedsupport/cases).
 {: tip}
 
-For the best support experience on {{site.data.keyword.cloud_notm}}, it is recommended to have an [advanced or premium support plan](/docs/get-support?topic=get-support-support-plans).
+For the best support experience on {{site.data.keyword.cloud_notm}}, it is recommended to have an [advanced or premium support plan](/docs/account?topic=account-support-plans).
 {: tip}
-
-
-
