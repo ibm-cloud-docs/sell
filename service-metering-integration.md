@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2024
 
-lastupdated: "2024-01-05"
+lastupdated: "2024-11-06"
 
 keywords: IBM Cloud, metering model, metering service, usage, pricing
 
@@ -32,7 +32,7 @@ The following list describes the expectations for tracking and submitting usage:
 *	{{site.data.keyword.cloud_notm}} is configured for a monthly billing cycle and time is represented in Coordinated Universal Time (UTC).
 * You must test usage submission and validate your results to describe how the monthly billing cycle is calculated.
 
-For more information about pricing, see [How to calculate your costs](/docs/billing-usage?topic=billing-usage-cost#cost).
+For more information about pricing, see [Estimating your costs](/docs/account?topic=account-cost).
 
 
 ## Configuration properties
