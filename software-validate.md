@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2024
 
-lastupdated: "2024-11-15"
+lastupdated: "2024-11-19"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
