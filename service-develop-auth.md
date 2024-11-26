@@ -4,9 +4,9 @@ copyright:
 
   years: 2022, 2024
 
-lastupdated: "2024-09-26"
+lastupdated: "2024-11-26"
 
-keywords: client ID, authentication flow, OAuth, authentication, authorization, access token
+keywords: client ID, authentication flow, OAuth, authentication, access token
 
 subcollection: sell
 
@@ -14,10 +14,10 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Developing an authentication and authorization flow for your service
-{: #develop-auth-authz}
+# Developing an authentication flow for your service
+{: #develop-auth}
 
-When you onboard your product to {{site.data.keyword.cloud}} Partner Center, you can develop an authentication flow to identify users when they use your services, and an authorization flow to validate that they have permission to access a specific service instance.
+When you onboard your product to {{site.data.keyword.cloud}} Partner Center, you can develop an authentication flow to securely identify and verify users as they access your services. Developing an authentication flow allows you to protect your product and ensures that your service integrates securely within {{site.data.keyword.cloud_notm}}.
 {: shortdesc}
 
 ## Before you begin
@@ -89,7 +89,7 @@ When users navigate to your `dashboard_url`, redirect the browser to the followi
 
 `<authorization_endpoint>?client_id=<your-client-id>&redirect_uri=<your-redirect-uri>&response-type=code&state=<your-resource-instance-id>`
 
-The `redirect_uri` value refers to the redirect URL that you set up in the [Configuring your client ID and secret](/docs/sell?topic=sell-develop-auth-authz&interface=ui#develop-oauth-prereq) step.
+The `redirect_uri` value refers to the redirect URL that you set up in the [Configuring your client ID and secret](#configure-client-id) step.
 {: note}
 
 * If a user is logged in, they are immediately redirected. The browser does a callback to redirect the URI with a `code` response parameter and `state` value.
@@ -160,102 +160,6 @@ See the following example of a successful access token response:
 }
 ```
 {: codeblock}
-
-Make sure to store the user's `access_token` value that's returned in the access token response as it is used during user authorization.
-{: note}
-
-## Validating user authorization
-{: #validate-user-authz}
-
-As a way to validate that your users have permission to access a specific service instance, you can develop an authorization flow. Before you begin, complete the following prerequisites:
-
-* You must have IAM set up for your service. Contact your onboarding specialist, who can assist you with the set up.
-* Use an API key that is associated with your service ID. You can find the service ID that is generated for your service on the **Dashboard** tab in Partner Center. You can also use an API key that you already generated for specific tasks for your service.
-
-### Step 1: Generating an IAM access token by using an API key
-{: #authz-step1}
-
-To begin the authorization flow, you must get an IAM access token by using an API key. For more information on how to obtain an IAM access token for a service ID by using an API key, see the [IAM Identity Services](/apidocs/iam-identity-token-api#gettoken-apikey) API docs.
-
-The access token that you receive is valid only for thirty minutes and can be reused as many times as needed during that time. It's recommended to cache the access token.
-{: note}
-
-### Step 2: Validating user permissions
-{: #user-athz-service-step2}
-
-Now that you have the access token, and you authenticated your user, you need to validate that they have the permission to access the dashboard of a service instance. Accessing the dashboard of a service instance is the only action that can be used to validate user authorization.
-
-You must decode the information that is included in the user's access token. After the token is decoded, you can use that information to call IAM to check whether the user is authorized to access the service dashboard.
-
-#### Decoding the user's access token
-{: #decode-access-token}
-
-Decode the user's access token, which was returned during step 3. The access token is a JSON Web Token (JWT) that can be decoded by using any JWT-compliant library.
-
-After the token is decoded, you can view the following information:
-
-```bash
-{
-  "iam_id": "IBMid-XXXXXXX",
-  "id": "IBMid-XXXXXXX",
-  "realmid": "IBMid",
-  "identifier": "XXXXXXX",
-  "given_name": "Don",
-  "family_name": "Quixote",
-  "name": "Don Quixote",
-  "email": "quixote@email.com",
-  "sub": "quixote@email.com",
-  "account": {
-    "bss": "123123123123123"
-  },
-  "iat": 1522114004,
-  "exp": 1522117604,
-  "iss": "https://iam.cloud.ibm.com/identity",
-  "grant_type": "urn:ibm:params:oauth:grant-type:apikey",
-  "scope": "openid <your serviceName>",
-  "client_id": "bx",
-  "acr": 1,
-  "amr": [
-    "pwd"
-  ]
-}
-```
-{: codeblock}
-
-The `scope` field value refers to the service programmatic name.
-{: note}
-
-#### Calling IAM to check user authorization
-{: #call-iam-user-authz}
-
-After decoding the user's access token, call IAM to check whether the user is authorized to access the service dashboard by passing the body of the user's access token.
-
-Review the following example of an IAM call:
-
-```bash
-curl -X POST \
-  -H "Accept: application/json" \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer <access token from step 1>" \
-  -d '[ \
-    { \
-      "subject" : \
-      { \
-      "accessTokenBody": "<The part of the user's token between the dots. This contains all the token claims data, but excludes the headers and signature.>"
-      }, \
-      "resource" : \
-      { \
-        "crn" : "<resource instance CRN>" \
-      }, \
-      action : <your service name> + ".dashboard.view" \
-    } \
-  ]' \
-  https://iam.cloud.ibm.com/v2/authz
-```
-{: codeblock}
-
-The `crn` field value refers to the service instance ID.
-{: note}
 
 ## IAM token scoping for third-party service providers
 {: #iam-token-scope}
