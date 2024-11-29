@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-05-21"
+lastupdated: "2024-11-29"
 
 keywords:
 
@@ -16,14 +16,17 @@ subcollection: sell
 # Adding a deployable architecture to Partner Center
 {: #create-da-product}
 
-As the first step in the onboarding process, you can either add a new product to Partner Center, or you can import an existing product from a private catalog.
+As the first step in the onboarding process, you can either add the deployable architecture to Partner Center, or you can import an existing one from a private catalog.
+{: shortdesc}
+
+A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources. It is designed to provide simplified deployment by users, scalability, and modularity. A deployable architecture incorporates one or more modules. Deployable architectures are coded in Terraform, which you configure with input variables to achieve the behavior that you want. For more information, see [What is a deployable architecture?](/docs/secure-enterprise?topic=secure-enterprise-understand-module-da&interface=ui#what-is-da).
 
 
 
-## Adding a product
+## Adding your deployable architecture to Partner Center
 {: #add-new-da}
 
-To add a new deployable architecture in Partner Center, complete the following steps:
+To add your deployable architecture in Partner Center and start onboarding it, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center > My products**.
 1. From the **My products** page, click **Create**.
