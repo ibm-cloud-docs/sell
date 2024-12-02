@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-17"
+lastupdated: "2024-12-02"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -86,15 +86,16 @@ By adding a usage-based pricing plan, you provide your suggested retail pricing 
 1. Click **Add plan**.
 1. Select **Usage-based** as the type of plan.
 1. Enter a name for your plan. For the purposes of this tutorial, enter **Usage-based**.
+
    Plan names must be in English and can contain only alphanumeric characters, hyphens, spaces, and periods.
    {: note}
 
-1. Enter a description for your plan. Include any limitations that users must know. For example,
-   `The usage-based plan is for our upgraded services. This plan does not include our advanced features.`
+1. Enter a description for your plan. Include any limitations that users must know. For example, `The usage-based plan is for our upgraded services. This plan does not include our advanced features.`
 1. Select **Per-location** for the deployment location.
 1. Select **Specific locations** to restrict deployment.
 1. Choose `Dallas - Region`, `London - Region`, and `Osaka - Region`.
 1. Select the broker that you want to link to this plan.
+
     If you haven't added a broker to your account, you can't link a broker to your plan. After you add a broker, you can link it by editing the pricing plan.
     {: note}
 
