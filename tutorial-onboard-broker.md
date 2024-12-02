@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-10-22"
+lastupdated: "2024-12-02"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -85,6 +85,7 @@ You can enable {{site.data.keyword.cloud_notm}} single sign-on for your service 
 1. Select the service that you're onboarding.
 1. From the Brokers page, click **Set up {{site.data.keyword.cloud_notm}} SSO**.
 1. Add team members as owners of the Client ID. Owners can view and edit the Client ID.
+
    You can't remove yourself from the list of owners.
    {: note}
 
@@ -92,13 +93,14 @@ You can enable {{site.data.keyword.cloud_notm}} single sign-on for your service 
 1. Enter the redirect URL that can handle the authentication and authorization of your service.
 1. Click **Save**.
 1. Copy your Client ID and secret.
+
     After you close the {{site.data.keyword.cloud_notm}} SSO panel, you can't view your secret. If the secret is lost, you must create a new Client ID.
     {: important}
 
 1. Click **Done**.
+
     You must copy or show the secret to complete this action.
     {: note}
-
 
 ## Next steps
 {: #broker-onboard-next}
