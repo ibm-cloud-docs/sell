@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-12-02"
+lastupdated: "2025-01-15"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -31,15 +31,26 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 ## Before you begin
 {: #broker-onboard-prereqs}
 
+Before you can start onboarding your broker, complete the following step:
 
+* For an example of how to build your broker, see the [{{site.data.keyword.cloud_notm}} reference broker](https://github.com/IBM-Cloud/onboarding-osb){: external} and the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api).
 
-1. For an example of how to build your broker, see [IBM Cloud reference broker](https://github.com/IBM-Cloud/onboarding-osb){: external}.
+## Authentication schemes for brokers
+{: #authentication-scheme-broker}
 
-1. Make sure that you have the following API keys:
-   * An onboarding API key for access to the Global Catalog API.
-   * An {{site.data.keyword.cloud_notm}} API key for access to your deployment target.
+When you add a broker in Partner Center, you can select from the following three authentication schemes to verify the identity of the client that interacts with the broker:
 
-For more information, see [Managing API keys](/docs/account?topic=account-userapikey).
+Bearer CRN
+:    In this method, the resource controller generates an IAM token with the identity of the broker CRN it is connecting to. Services authorize the call in their broker application by verifying that the identity of the caller matches the CRN of their respective broker. No API key and API key rotation are required in this method.
+
+    Basic and bearer authentication schemas are deprecated and will no longer be supported in the future due to security reasons. Use bearer CRN authentication for continued access instead.
+    {: deprecated}
+
+Basic
+:    Basic authentication involves providing a username and a password, which are passed to the broker where the broker validates the caller's identity and whether the credential is valid. This method is less secure and not recommended as the credentials are sent repeatedly with every request.
+
+Bearer
+:    This is a token-based authentication method, in which you provide `apikey` as the username, and the API key value as the password. After providing this information, the resource controller exchanges the API key to a JWT token. Then, the token gets passed to the broker where the broker validates the caller's identity and whether the token is valid.
 
 ## Add your broker
 {: #broker-onboard-cfg}
@@ -50,31 +61,17 @@ For more information, see [Managing API keys](/docs/account?topic=account-userap
 1. Enter the programmatic name for your broker and the URL at which your broker is reachable.
 1. Select the authentication scheme to use when verifying the identity of the client that interacts with the broker. You can select from basic, bearer, and bearer cloud resource name (CRN) schemes.
 
-    Basic credentials-based authentication is deprecated and will no longer be supported in the future due to security reasons. Use bearer authentication for continued access instead.
+    Basic and bearer authentication schemas are deprecated and will no longer be supported in the future due to security reasons. Use bearer CRN authentication for continued access instead.
     {: deprecated}
 
 1. Select the broker type.
 1. Enter the username for broker authentication. If you selected bearer authentication in the previous step, `apikey` is automatically entered for you as a username.
-1. Enter the password for broker authentication. If you selected bearer authentication, enter the API key.
 
     For the bearer CRN authentication scheme, username and password information are not needed.
     {: note}
 
+1. Enter the password for broker authentication. If you selected bearer authentication, enter the API key.
 1. Click **Save**.
-
-### Authentication schemes for brokers
-{: #authentication-scheme-broker}
-
-When you add a broker in Partner Center, you can select from the following three authentication schemes to verify the identity of the client that interacts with the broker:
-
-Basic
-:    Basic authentication involves providing a username and a password, which are sent with each request to verify the client's identity. This method is less secure and not recommended as the credentials are sent repeatedly with every request.
-
-Bearer
-:    This is a token-based authentication method, in which you provide `apikey` as the username, and the API key value as the password. After providing this information, the resource controller exchanges the API key to a JWT token. Then, the token gets passed to the broker where the broker validates the user identity and whether the token is valid.
-
-Bearer CRN
-:    In this method, the resource controller generates an IAM token with the identity of the broker CRN it is connecting to. Services authorize the call in their broker application by verifying that the identity of the caller matches the CRN of their respective broker. No API key and API key rotation are required in this method.
 
 ## Set up {{site.data.keyword.cloud_notm}} SSO
 {: #broker-sso}
