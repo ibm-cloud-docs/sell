@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2024
+  years: 2015, 2025
 
-lastupdated: "2024-07-19"
+lastupdated: "2025-02-17"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
@@ -16,10 +16,10 @@ content-type: faq
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs about selling services
+# FAQ about selling services
 {: #3p-faqs}
 
-FAQs about selling products on {{site.data.keyword.cloud}} might include questions about how and when to receive disbursements, how to view and test a service as a customer, and available metering models. Additional information about selling products on {{site.data.keyword.cloud_notm}} can be found in the Digital Platform Reseller Agreement in {{site.data.keyword.cloud_notm}} Partner Center that must be accepted to offer free and paid products.
+FAQ about selling products on {{site.data.keyword.cloud}} might include questions about how and when to receive disbursements, how to view and test a service as a customer, and available metering models. Additional information about selling products on {{site.data.keyword.cloud_notm}} can be found in the Digital Platform Reseller Agreement in {{site.data.keyword.cloud_notm}} Partner Center that must be accepted to offer free and paid products.
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
