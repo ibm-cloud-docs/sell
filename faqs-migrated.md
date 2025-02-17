@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2024
+  years: 2022, 2025
 
-lastupdated: "2024-06-10"
+lastupdated: "2025-02-17"
 
 keywords: migrated from RMC, migrated products, migrated from resource management console, migration changes
 
@@ -14,10 +14,10 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs for migrated products
+# FAQ for migrated products
 {: #migrated-products}
 
-FAQs about products that are migrated from the resource management console might include questions about Lite plans, changing pricing plans, and brokers connected to approved pricing plans.
+FAQ about products that are migrated from the resource management console might include questions about Lite plans, changing pricing plans, and brokers connected to approved pricing plans.
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
