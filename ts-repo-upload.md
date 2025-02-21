@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2024
-lastupdated: "2024-01-05"
+  years: 2022, 2025
+lastupdated: "2025-02-21"
 
 keywords: troubleshoot software, HTTPS protocol, repo, github, tgz
 
@@ -38,4 +38,4 @@ Do one of the following, depending on your product's delivery method:
 
 For more information about GitHub repositories, see [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository){: external}.
 
-For more information about GitLab repositories, see [Releases](https://docs.gitlab.com/ee/user/project/releases/#:~:text=In%20GitLab%2C%20a%20release%20enables,point%20in%20the%20source%20code.){: external}.
+For more information about GitLab repositories, see [Releases](https://docs.gitlab.com/user/project/releases/#:~:text=In%20GitLab,%20a%20release%20enables,point%20in%20the%20source%20code.){: external}.

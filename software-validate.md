@@ -2,9 +2,9 @@
 
 
 copyright:
-  years: 2020, 2024
+  years: 2020, 2025
 
-lastupdated: "2024-11-19"
+lastupdated: "2025-02-21"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -68,7 +68,7 @@ Complete the following steps to import a version of your software to your privat
 
     If you're adding your product from a private repository, you can choose to provide a personal access token or you can use a secret. Instead of giving users a personal access token, you can give them access to a secret, add the token to a secret, and centrally manage all tokens and access the secret allows.
 
-    If your software is located in GitLab, you must use a personal access token as GitLab doesn't support downloading releases using project access tokens. You can create a personal access token with the required `read_api` permission by following the instructions [here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html){: external}.
+    If your software is located in GitLab, you must use a personal access token as GitLab doesn't support downloading releases using project access tokens. You can create a personal access token with the required `read_api` permission by following the instructions [here](https://docs.gitlab.com/user/profile/personal_access_tokens/){: external}.
     {: note}
 
     * If you're using a personal access token, select **No** to indicate that you aren't using a secret and provide your personal access token.
