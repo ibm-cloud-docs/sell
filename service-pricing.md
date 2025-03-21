@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2021, 2024
+  years: 2021, 2025
 
-lastupdated: "2024-05-08"
+lastupdated: "2025-03-21"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -60,7 +60,7 @@ To provide tax and EFT information, complete the following steps:
 ### Providing the ECCN
 {: #service-eccn}
 
-To start defining your pricing model, you must provide the Export Control Classification Number (ECCN) that applies to your product. If you don't have your ECCN, you can find it on the [Commerce Control List](https://www.bis.gov/regulations/classify-your-item#what-is-an-eccn){: external}.
+To start defining your pricing model, you must provide the Export Control Classification Number (ECCN) that applies to your product. If you don't have your ECCN, you can find it on the [Commerce Control List](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn){: external}.
 
 You must submit your tax and EFT documents and receive approval before you can provide the ECCN if you're using a usage-based pricing plan.
 {: note}
