@@ -4,7 +4,7 @@
 copyright:
   years: 2021, 2025
 
-lastupdated: "2025-03-21"
+lastupdated: "2025-03-27"
 
 keywords: software, pricing, paid, usage-based, free, third-party, license, BYOL, bring your own license
 
@@ -71,7 +71,7 @@ To provide tax and EFT information, complete the following steps:
 ### Providing the ECCN
 {: #sw-eccn}
 
-To start defining your pricing model, you must provide the Export Control Classification Number (ECCN) that applies to your product. The ECCN is required for free, usage-based, and BYOL pricing plans. If you don't have your ECCN, you can find it on the [Commerce Control List](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn){: external}.
+To start defining your pricing model, you must provide the Export Control Classification Number (ECCN) that applies to your product. The ECCN is required for free, usage-based, and BYOL pricing plans. If you don't have your ECCN, you can find it on the [Commerce Control List](https://www.bis.gov/licensing/classify-your-item#WhatisanECCN?){: external}.
 
 You must submit your tax and EFT documents and receive approval before you can provide the ECCN if you're using a usage-based pricing plan.
 {: note}
