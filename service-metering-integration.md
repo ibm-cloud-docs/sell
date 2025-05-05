@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2024
+  years: 2022, 2025
 
-lastupdated: "2024-11-06"
+lastupdated: "2025-05-05"
 
 keywords: IBM Cloud, metering model, metering service, usage, pricing
 
@@ -22,8 +22,8 @@ subcollection: sell
 
 The following list describes the expectations for tracking and submitting usage:
 
-*	Third-party providers don't need to submit usage for free plans or monthly subscription plans.
-*	For metered plans, all providers must submit usage hourly, and usage for Lite plans must be submitted every 15 minutes to 1 hour.
+*	Third-party providers don't need to submit usage for free plans.
+*	For metered plans, all providers must submit usage hourly, and usage for Lite plans must be submitted every 15 minutes to 1 hour. For fixed monthly fee plans, providers must submit usage data once per month.
 *	You're responsible for automating the usage submission, including automation that retries failure responses. To automate the usage submission, you can create cron jobs, or other similar job schedulers. {{site.data.keyword.cloud_notm}} doesn't provide a retry function for failed submissions. For more information, see the status codes and actions table in [Submitting usage records](/docs/sell?topic=sell-service-add-metrics#submit-usage).
 
 ![A diagram that shows third-party providers how the {{site.data.keyword.cloud_notm}} Usage Metering service works when they create a cron job, or other similar job scheduler to automate usage submission.](images/Usage_metering_role.svg "Understanding the function of the {{site.data.keyword.cloud_notm}} Usage Metering service for automating the submission of usage data."){: caption="Understanding the function of the {{site.data.keyword.cloud_notm}} Usage Metering service for automating the submission of usage data."}
