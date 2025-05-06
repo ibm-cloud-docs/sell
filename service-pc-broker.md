@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2024
+  years: 2022, 2025
 
-lastupdated: "2024-09-10"
+lastupdated: "2025-05-06"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, host service broker
 
@@ -17,7 +17,7 @@ subcollection: sell
 # Developing, hosting, and testing your service brokers
 {: #broker-dev-host}
 
-The {{site.data.keyword.cloud}} platform interacts with service brokers to create and manage service instances and service bindings. You can build your broker by using a combination of our public {{site.data.keyword.cloud_notm}} service broker samples, Open Service Broker Reference App, and the Open Service Broker API documentation.
+The {{site.data.keyword.cloud}} platform interacts with service brokers to create and manage service instances and service bindings. You can build your broker by using a combination of our public {{site.data.keyword.cloud_notm}} service broker samples, Open Service Broker reference application, and the Open Service Broker API documentation.
 {: shortdesc}
 
 When you onboard your service to {{site.data.keyword.cloud_notm}}, you must build one or more service brokers to manage the lifecycle of your service and its metering integration. For more information, see [Metering integration](/docs/sell?topic=sell-service-metering-integration).
@@ -65,11 +65,9 @@ Configure and deploy a broker that has your required specifications by using the
 
 * Use the [{{site.data.keyword.Bluemix_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api){: external} to set required specifications, including required endpoints.
 
-Review the following sample applications:
+Review the following sample application:
 
-* Use the Java based sample [Open Service Broker Reference App](https://github.com/IBM-Cloud/onboarding-osb){: external} as a guide to create your broker. The reference app provides step-by-step instructions to configure, deploy on {{site.data.keyword.codeenginefull_notm}}, and test your broker.
-
-* Use the NodeJS based sample [Open Service Broker Reference App](https://github.com/IBM/onboarding-osb-node){: external} as a guide to create your broker.
+* Use the NodeJS based sample [Open Service Broker reference application](https://github.com/IBM/onboarding-osb-node){: external} as a guide to create your broker.
 
 ### Including required endpoints
 {: #pc-endpoints}
@@ -203,10 +201,11 @@ To host your broker outside of {{site.data.keyword.IBM_notm}}, you must ensure t
 ## Testing your service's broker
 {: #pc-broker-test}
 
-You must validate your broker by running curl commands against the different endpoints that you enable. You need the hosted location of your service broker and the URL and credentials that are associated with your application. To test your broker, use the following methods:
+You must validate your broker by running curl commands against the different endpoints that you enable. You need the hosted location of your service broker and the URL and credentials that are associated with your application. To test your broker, you can use the following method:
 
 * The sample readme file guidance for curling your OSB endpoints: [https://github.com/IBM/sample-resource-service-brokers/blob/master/README.md](https://github.com/IBM/sample-resource-service-brokers/blob/master/README.md){: external}.
-* The Open Service Broker Reference App guidance for testing your broker: [Testing the broker](https://github.com/IBM-Cloud/onboarding-osb#testing-the-broker){: external}
+
+During testing your service broker, the resource controller uses the configured authentication scheme to make requests to your broker. Make sure your broker implements one of the supported authentication methods to help ensure proper validation and authorization. For more information, see [Authentication schemes for brokers](/docs/sell?topic=sell-broker-onboard#authentication-scheme-broker).
 
 ### Example curl request
 {: #pc-curl-broker}
