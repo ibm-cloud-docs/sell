@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2024
+  years: 2021, 2025
 
-lastupdated: "2025-01-15"
+lastupdated: "2025-05-06"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -33,7 +33,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 Before you can start onboarding your broker, complete the following step:
 
-* For an example of how to build your broker, see the [{{site.data.keyword.cloud_notm}} reference broker](https://github.com/IBM-Cloud/onboarding-osb){: external} and the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api).
+* For an example of how to build your broker, see the [Open Service Broker reference application](https://github.com/IBM/onboarding-osb-node){: external} and the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api).
 
 ## Authentication schemes for brokers
 {: #authentication-scheme-broker}
@@ -41,16 +41,82 @@ Before you can start onboarding your broker, complete the following step:
 When you add a broker in Partner Center, you can select from the following three authentication schemes to verify the identity of the client that interacts with the broker:
 
 Bearer CRN
-:    In this method, the resource controller generates an IAM token with the identity of the broker CRN it is connecting to. Services authorize the call in their broker application by verifying that the identity of the caller matches the CRN of their respective broker. No API key and API key rotation are required in this method.
+:    In this method, the resource controller generates an IAM token using the cloud resource name (CRN) of the broker it is connecting to. This token includes the broker’s CRN as the identity in the JWT. When the token is used to call a service, the service’s broker application authorizes the request by verifying that the caller’s identity matches the expected broker CRN. This method does not require an API key or API key rotation. The IAM token must be verified by the broker before authorizing the request. The keyset used for verification is available at [https://iam.cloud.ibm.com/identity/keys](https://iam.cloud.ibm.com/identity/keys){: external}. See the following example for a CRN token:
 
-    Basic and bearer authentication schemas are deprecated and will no longer be supported in the future due to security reasons. Use bearer CRN authentication for continued access instead.
-    {: deprecated}
+```json
+{
+  "iam_id": "crn-crn:v1:bluemix:public:resource-controller::a/f71446b6474d45bf81196da45de13940::resource-broker:1f4a9711-e359-4e00-8ad3-c8bfd38446b3",
+  "id": "crn-crn:v1:bluemix:public:resource-controller::a/f71446b6474d45bf81196da45de13940::resource-broker:1f4a9711-e359-4e00-8ad3-c8bfd38446b3",
+  "realmid": "crn",
+  "jti": "86912b78-4b25-482e-9876-665f6cf97978",
+  "identifier": "crn:v1:bluemix:public:resource-controller::a/f71446b6474d45bf81196da45de13940::resource-broker:1f4a9711-e359-4e00-8ad3-c8bfd38446b3",
+  "sub": "crn:v1:bluemix:public:resource-controller::a/f71446b6474d45bf81196da45de13940::resource-broker:1f4a9711-e359-4e00-8ad3-c8bfd38446b3",
+  "sub_type": "CRN",
+  "authn": {
+    "sub": "crn:v1:bluemix:public:resource-controller::a/f71446b6474d45bf81196da45de13940::resource-broker:1f4a9711-e359-4e00-8ad3-c8bfd38446b3",
+    "iam_id": "crn-crn:v1:bluemix:public:resource-controller::a/f71446b6474d45bf81196da45de13940::resource-broker:1f4a9711-e359-4e00-8ad3-c8bfd38446b3",
+    "sub_type": "CRN"
+  },
+  "account": {
+    "valid": true,
+    "bss": "f71446b6474d45bf81196da45de13940",
+    "frozen": true
+  },
+  "iat": 1746518443,
+  "exp": 1746520239,
+  "iss": "https://iam.cloud.ibm.com/identity",
+  "grant_type": "urn:ibm:params:oauth:grant-type:iam-authz",
+  "scope": "ibm openid resource-controller",
+  "client_id": "resource-controller",
+  "acr": 0,
+  "amr": []
+}
+```
+{: codeblock}
 
 Basic
 :    Basic authentication involves providing a username and a password, which are passed to the broker where the broker validates the caller's identity and whether the credential is valid. This method is less secure and not recommended as the credentials are sent repeatedly with every request.
 
+    Basic and bearer authentication schemas are deprecated and will no longer be supported in the future due to security reasons. Use bearer CRN authentication for continued access instead.
+    {: deprecated}
+
 Bearer
-:    This is a token-based authentication method, in which you provide `apikey` as the username, and the API key value as the password. After providing this information, the resource controller exchanges the API key to a JWT token. Then, the token gets passed to the broker where the broker validates the caller's identity and whether the token is valid.
+:    In this method, the resource controller generates an IAM token using the provided API key. This is a token-based authentication method where `apikey` is used as the username, and the actual API key value is used as the password. The resource controller exchanges this API key for a JWT token, which is then sent to the broker. The broker validates the token’s authenticity and checks the caller’s identity before authorizing the request. The IAM token must be verified by the broker before authorizing the request. The keyset used for verification is available at [https://iam.cloud.ibm.com/identity/keys](https://iam.cloud.ibm.com/identity/keys){: external}. See the following example for a service ID token:
+
+```json
+{
+  "iam_id": "iam-ServiceId-c1e45eff-8df9-49b7-af73-d9c6e6f99a69",
+  "id": "iam-ServiceId-c1e45eff-8df9-49b7-af73-d9c6e6f99a69",
+  "realmid": "iam",
+  "jti": "c4810836-2467-49e6-9612-ad3595de4eb1",
+  "identifier": "ServiceId-c1e45eff-8df9-49b7-af73-d9c6e6f99a69",
+  "name": "My Service ID",
+  "sub": "ServiceId-c1e45eff-8df9-49b7-af73-d9c6e6f99a69",
+  "sub_type": "ServiceId",
+  "authn": {
+    "sub": "ServiceId-c1e45eff-8df9-49b7-af73-d9c6e6f99a69",
+    "iam_id": "iam-ServiceId-c1e45eff-8df9-49b7-af73-d9c6e6f99a69",
+    "sub_type": "ServiceId",
+    "name": "My Service ID"
+  },
+  "account": {
+    "valid": true,
+    "bss": "f71446b6474d45bf81196da45de13940",
+    "frozen": true
+  },
+  "iat": 1746519454,
+  "exp": 1746523054,
+  "iss": "https://iam.cloud.ibm.com/identity",
+  "grant_type": "urn:ibm:params:oauth:grant-type:apikey",
+  "scope": "ibm openid",
+  "client_id": "default",
+  "acr": 1,
+  "amr": [
+    "pwd"
+  ]
+}
+```
+{: codeblock}
 
 ## Add your broker
 {: #broker-onboard-cfg}
@@ -59,7 +125,7 @@ Bearer
 1. Select the service that you're onboarding.
 1. From the Brokers page, click **Add broker**.
 1. Enter the programmatic name for your broker and the URL at which your broker is reachable.
-1. Select the authentication scheme to use when verifying the identity of the client that interacts with the broker. You can select from basic, bearer, and bearer cloud resource name (CRN) schemes.
+1. Select the authentication scheme to use when verifying the identity of the client that interacts with the broker. You can select from basic, bearer, and bearer CRN schemes.
 
     Basic and bearer authentication schemas are deprecated and will no longer be supported in the future due to security reasons. Use bearer CRN authentication for continued access instead.
     {: deprecated}
