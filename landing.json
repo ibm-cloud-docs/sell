@@ -14,6 +14,14 @@
           "href": "/docs/sell?topic=sell-how-it-works&interface=ui"
         },
         {
+          "title": "Developing, hosting, and testing your service brokers",
+          "href": "/docs/sell?topic=sell-broker-dev-host"
+        },
+        {
+          "title": "Defining your pricing model for software",
+          "href": "/docs/sell?topic=sell-sw-pricing"
+        },
+        {
           "title": "FAQs about selling services",
           "href": "/docs/sell?topic=sell-3p-faqs"
         }
@@ -21,10 +29,11 @@
     },
     "section_highlights": [
       {
-        "title": "Sell on IBM Cloud: Introducing Partner Center",
-        "description": "This blog provides information on how to start onboarding your software to the IBM Cloud catalog.",
-        "href": "https://www.ibm.com/blog/announcement/sell-on-ibm-cloud-introducing-partner-center/",
-        "type": "blog"
+        "title": "Selling on IBM Cloud",
+        "description": "This video provides information on how to start onboarding your software to the IBM Cloud catalog.",
+        "href": "https://mediacenter.ibm.com/media/Selling+on+IBM+Cloud/1_btxcbc0x",
+        "type": "video",
+        "recommended": true
       },
       {
         "title": "Selling services on IBM Cloud",
