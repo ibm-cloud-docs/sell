@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2024
+  years: 2022, 2025
 
-lastupdated: "2024-05-08"
+lastupdated: "2025-05-22"
 
 keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
@@ -132,7 +132,7 @@ curl -X POST -H "Authorization: {iam_token}" \
   -H "Accept: application/json" \
   -H "Content-Type: application/json" \  
   -d "{REQUEST_BODY}" \
-  "{base_url}/v4/metering/resources/{global_catalog_id}/usage"
+  "{base_url}/v4/metering/resources/{resource_id}/usage"
 ```
 {: codeblock}
 {: curl}
