@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2024
+  years: 2018, 2025
 
-lastupdated: "2024-01-22"
+lastupdated: "2025-06-16"
 
 keywords: billing service, resource management console, Open Service Broker, end-to-end 
 
@@ -77,7 +77,7 @@ For more information, see the following links:
 
 | Task | Description | Environment |
 |------| ----------| ------------ |
-|![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Learn about the Open Service Broker specification version 2.12 | Service brokers manage the lifecycle of services. The {{site.data.keyword.Bluemix_notm}} platform interacts with Open Service Brokers to create and manage service instances and service bindings. For more information, see [Open Broker API spec](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md){: external}.| Documentation |
+|![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Learn about the Open Service Broker specification version 2.12 | Service brokers manage the lifecycle of services. The {{site.data.keyword.Bluemix_notm}} platform interacts with Open Service Brokers to create and manage service instances and service bindings. For more information, see [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}.| Documentation |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.Bluemix_notm}} broker samples |  Clone the repo, browse the broker samples, and use these samples to start development. For more information, see [Sample Resource Service Brokers](https://github.com/IBM/sample-resource-service-brokers){: external}. | Code examples |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.Bluemix_notm}} Open Service Broker API documentation | Review the criteria that the broker must meet. The {{site.data.keyword.Bluemix_notm}} Open Service Broker extends the Open Service Broker 2.12 specification. For more information, see [Open Service Broker API](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api).| Documentation  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Develop your service broker |  Use your development environment and {{site.data.keyword.cloud_notm}} resources to develop your broker. | Development environment and documentation |

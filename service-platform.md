@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2024
+  years: 2018, 2025
 
-lastupdated: "2024-01-05"
+lastupdated: "2025-06-16"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -101,7 +101,7 @@ Programmatic name of the plan
 
 Service brokers manage the lifecycle of services. The {{site.data.keyword.Bluemix_notm}} platform interacts with service brokers to create and manage service instances and service bindings. Service bindings are the representation of an association between an application and a service instance, which often include the credentials that the application uses to communicate with the service instance. Providing valid metadata values creates a successful REST API response when a request is performed.
 
-{{site.data.keyword.Bluemix_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification. Read through and familiarize yourself with the [Open Broker API spec](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more.
+{{site.data.keyword.Bluemix_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification. Read through and familiarize yourself with the [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more.
 
 When the resource controller receives a request to create a resource, it calls your OSB to validate the service type, product, plans, and regions availability. The resource controller also validates the visibility of the plan that is associated with the customer account. {{site.data.keyword.Bluemix_notm}} provides broker samples and API docs that extend the OSB spec. You can find more details about developing and hosting your broker as you walk through the detailed integrated billing onboarding development steps.
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2025
 
-lastupdated: "2025-05-06"
+lastupdated: "2025-06-16"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, host service broker
 
@@ -56,7 +56,7 @@ Deprovisioning service instances
 * [Register your service in {{site.data.keyword.Bluemix_notm}} Partner Center](/docs/sell?topic=sell-svc-register).
 * [Define the product details of your service](/docs/sell?topic=sell-svc-define).
 * Review the [Provisioning scenario](/docs/sell?topic=sell-how-it-works#provision2) to gain an understanding of how resource creation works.
-* Read and familiarize yourself with the [Open Broker API spec](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more. {{site.data.keyword.Bluemix_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification.
+* Read and familiarize yourself with the [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more. {{site.data.keyword.Bluemix_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification.
 
 ## Building your broker
 {: #pc-broker-guides}
@@ -161,7 +161,7 @@ Decoded:
 #### API header version
 {: #pc-api-header}
 
-The **API version header** is [2.12](https://github.com/openservicebrokerapi/servicebroker/blob/v2.12/spec.md){: external}. For example: `X-Broker-Api-Version: 2.12`.
+The **API version header** is [2.12](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}. For example: `X-Broker-Api-Version: 2.12`.
 
 #### resource instance (PUT) body.context and resource instance (PATCH) body.context
 {: #put}
