@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2025
 
-lastupdated: "2025-06-16"
+lastupdated: "2025-06-17"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -29,14 +29,14 @@ The provisioning layer manages the lifecycle of {{site.data.keyword.Bluemix_notm
 ### Resource lifecycle management
 {: #lifecycle}
 
-The provisioning layer provides common APIs to control the lifecycle of resources from creation (creating an instance) to binding (creating access credentials) to unbinding (removing access) to deletion (deleting an instance). Additionally, the {{site.data.keyword.Bluemix_notm}} platform provides CLIs and a UI that can manage the lifecycle of these resources that don’t require you to create your own facilities.
+The provisioning layer provides common APIs to control the lifecycle of resources from creation (creating an instance) to service credentials (creating and removing access credentials) to deletion (deleting an instance). Additionally, the {{site.data.keyword.Bluemix_notm}} platform provides CLIs and a UI that can manage the lifecycle of these resources that don’t require you to create your own facilities.
 
 The provisioning layer provides APIs to help you manage the following elements of your resource lifecycle:
 * Creating a resource instance
 * Updating a resource instance
-* Binding
+* Creating service credentials
+* Removing service credentials
 * Resource keys
-* Unbinding
 * Deleting a resource instance
 
 ## {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM)
