@@ -4,9 +4,9 @@ copyright:
 
   years: 2018, 2025
 
-lastupdated: "2025-06-16"
+lastupdated: "2025-07-01"
 
-keywords: billing service, resource management console, Open Service Broker, end-to-end 
+keywords: billing service, partner center, Open Service Broker, end-to-end
 
 subcollection: sell
 

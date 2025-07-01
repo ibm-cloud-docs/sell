@@ -2,10 +2,10 @@
 
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-06-11"
+  years: 2021, 2025
+lastupdated: "2025-07-01"
 
-keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, resource management console, RMC, product onboarding, deploy, Onboarding Workbench
+keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy, Onboarding Workbench
 
 subcollection: sell
 
