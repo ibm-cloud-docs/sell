@@ -61,7 +61,7 @@ For more information, see the following links:
 | Task | Description | Environment |
 |------|-------------|-------------|
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Submit the Electronic Funds Transfer (EFT) form | To receive payment disbursements for usage-based pricing plans, email the required documents. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your ECCN | Add the Export Control Classification Number (ECCN) that applies to your product. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your ECCN | Add the Export Control Classification Number (ECCN) that applies to your product and is used to classify it for export control compliance. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your UNSPSC | Add the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your pricing information | Add pricing plans to your product: free, usage-based, and bring your own license (BYOL). If you choose BYOL, provide details about your license.  | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add metrics to your pricing plan | Add metrics to your usage-based pricing plan to determine how customers are charged. | {{site.data.keyword.cloud_notm}} console |
