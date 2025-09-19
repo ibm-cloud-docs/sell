@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2022, 2023
-lastupdated: "2023-12-11"
+  years: 2022, 2025
+lastupdated: "2025-09-19"
 
 keywords: IAM, access, service, third-party, Partner Center Sell, access group, roles
 
@@ -44,7 +44,7 @@ To create an access group for your team, complete the following steps:
     * Editor on the User Management service to view, invite, remove, and update users from your account. With this role, you are also able to view and update user profile settings.
     * Editor on the IAM Identity Service to create new service IDs.
     * Editor on the Partner Center - Sell service to view and update products in Partner Center.
-    * Editor on the IAM Access Groups Service for your access group to view, edit, and delete the access group. Or, to add and remove users from the access group.
+    * Editor on the created IAM access group to add and remove users from the access group.
     * Editor on All Identity and Access enabled services in your default resource group to be able to edit and manage broker registration entries.
     * Viewer on All Account Management services to complete all actions for the account management services.
 

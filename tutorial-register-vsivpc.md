@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-18"
+  years: 2023, 2025
+lastupdated: "2025-09-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, vpc, vsi, register, virtual private cloud
 
@@ -46,7 +46,7 @@ Before you register a virtual server image for VPC, make sure that you do the fo
 {: #vsivpc-reg-test}
 {: step}
 
-You, or a member of your team, uses the test environment to onboard the virtual server image and validate that it can be deployed to your VPC. Your test environment includes a private catalog in which you import the virtual server image from an external repository.
+You, or a member of your team, uses the test environment to onboard the virtual server image and validate that it can be deployed to your VPC. Your test environment is a private catalog in which you import the virtual server image from an external repository.
 
 1. Click **Create** in the Create your test environment section.
 1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.
@@ -58,15 +58,9 @@ You, or a member of your team, uses the test environment to onboard the virtual 
 You can enlist team members to help with the onboarding process by assigning them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process of assigning access, complete the following steps to create your access group:
 
 1. Click **Assign** in the Assign access section.
-1. Enter `Example Corp Virtual Server Image` as the name of the access group, and click **Create**. The following roles are assigned to the access group by default:
+1. Enter `Example Corp Virtual Server Image` as the name of the access group, and click **Create**.
 
-    * Administrator on the Catalog Management service
-    * Editor on the Partner Center - Sell service
-    * Editor on the User Management service
-    * Editor on the IAM Access Groups service
-    * Viewer on all account management services
-
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
+To review the list of permissions granted to this access group, see the [Giving team members access in Partner Center](/docs/sell?topic=sell-iam-access-pc-sell#give-access-pc) documentation section.
 
 ## Invite team members to your account
 {: #vsivpc-reg-invite}
