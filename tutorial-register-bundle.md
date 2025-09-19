@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2024
+  years: 2021, 2025
 
-lastupdated: "2024-06-10"
+lastupdated: "2025-09-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -56,7 +56,7 @@ Make sure that you use the same account to access the {{site.data.keyword.regist
 {: #bundle-reg-test}
 {: step}
 
-You, or a member of your team, uses the test environment to onboard the Operator bundle and validate that it can be deployed to a {{site.data.keyword.openshiftshort}} cluster. Your test environment includes a private catalog in which you import the Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry.
+You, or a member of your team, uses the test environment to onboard the Operator bundle and validate that it can be deployed to a {{site.data.keyword.openshiftshort}} cluster. Your test environment is a private catalog in which you import the Operator bundle from the {{site.data.keyword.redhat_notm}} Certified registry.
 
 1. Click **Create** in the Create your test environment section.
 1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.
@@ -68,13 +68,9 @@ You, or a member of your team, uses the test environment to onboard the Operator
 You can enlist team members to help with the onboarding process by assigning them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. Create an access group to streamline the process of assigning access.
 
 1. Click **Assign** in the Assign access section.
-1. Enter `Example Corp Bundle` as the name of the access group, and click **Create**. The following roles are assigned to the access group by default:
+1. Enter `Example Corp Bundle` as the name of the access group, and click **Create**.
 
-    * Administrator on the Catalog Management service
-    * Editor on the Partner Center - Sell service
-    * Editor on the User Management service
-    * Editor on the IAM Access Groups service
-    * Viewer on all account management services
+To review the list of permissions granted to this access group, see the [Giving team members access in Partner Center](/docs/sell?topic=sell-iam-access-pc-sell#give-access-pc) documentation section.
 
 ## Add team members to your account
 {: #bundle-reg-invite}
@@ -84,7 +80,6 @@ After you create the `Example Corp Bundle` access group, you're ready to add tea
 
 * Partner Center - Sell: Complete onboarding tasks, update the visibility of products at the account level, and request approval to publish products to the {{site.data.keyword.cloud_notm}} catalog.
 * Private catalog: Onboard products to private catalogs, update the visibility of products at the account and private catalog levels, and restrict the visibility of products in the {{site.data.keyword.cloud_notm}} catalog.
-
 
 1. Click **Invite** in the Invite team members section.
 1. Select the user type:

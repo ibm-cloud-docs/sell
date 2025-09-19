@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2022, 2024
+  years: 2022, 2025
 
-lastupdated: "2024-06-11"
+lastupdated: "2025-09-19"
 
 keywords: third-party service, sell on IBM Cloud, partner center, integrated billing service
 
@@ -104,29 +104,22 @@ Besides being an {{site.data.keyword.Bluemix_notm}} build partner, service onboa
 {: #step2-testenv}
 {: step}
 
-A test environment is not needed for onboarding services but is needed for any software that you might onboard in the future. You, or a member of your team, uses the test environment to validate that your software is ready for use.
+This step is optional for onboarding a service. A test environment is not needed for onboarding services but is needed for any software that you might onboard in the future. You, or a member of your team, uses the test environment to validate that your software is ready for use.
 
 1. Click **Create** in the Create your test environment section on the Get started page.
 1. Enter the name of your private catalog, and click **Create**. The private catalog and its contents are visible only to the users that you choose.
 
-## Set up team access
+## Set up access for your team
 {: #step3-team-access}
 {: step}
 
 If you want to enlist team members to help with the onboarding process, you need to assign them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process, you can organize your team members into a single entity by adding them to an access group.
 
 1. Click **Assign** in the Assign access section on the Get started page.
-1. Enter the name of the access group, and click **Create**. Members of this group are assigned the following roles by default:
-
-    * Administrator on the catalog management service
-    * Editor on the Partner Center - Sell service
-    * Editor on the user management service
-    * Editor on the IAM access groups service
-    * Viewer on all account management services
-
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
-
+1. Enter the name of the access group, and click **Create**.
 1. Click **Let's go**.
+
+To review the list of permissions granted to this access group, see the [Giving team members access in Partner Center](/docs/sell?topic=sell-iam-access-pc-sell#give-access-pc) documentation section.
 
 ## Invite team members to your account
 {: #sc-step4-invite-member}

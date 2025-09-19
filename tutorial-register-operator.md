@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2025
 
-lastupdated: "2023-10-18"
+lastupdated: "2025-09-19"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, register, Red Hat OpenShift, cluster, Node-RED Operator, Kubernetes cluster, operator
 
@@ -45,7 +45,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 {: #operator-reg-test}
 {: step}
 
-You, or a member of your team, uses the test environment to onboard the Operator and validate that it can be deployed to a Red Hat OpenShift cluster. Your test environment includes a private catalog in which you import the Operator from an external repository.
+You, or a member of your team, uses the test environment to onboard the Operator and validate that it can be deployed to a Red Hat OpenShift cluster. Your test environment is a private catalog in which you import the Operator from an external repository.
 
 1. Click **Create** in the Create your test environment section.
 1. Enter `Example Corp Catalog` as the name of the private catalog, and click **Create**.
@@ -57,15 +57,9 @@ You, or a member of your team, uses the test environment to onboard the Operator
 You can enlist team members to help with the onboarding process by assigning them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. Create an access group to streamline the process of assigning access.
 
 1. Click **Assign** in the Assign access section.
-1. Enter `Example Corp Operator` as the name of the access group, and click **Assign**. The following roles are assigned to the access group by default:
+1. Enter `Example Corp Operator` as the name of the access group, and click **Assign**.
 
-    * Administrator on the Catalog Management service
-    * Editor on the Partner Center - Sell service
-    * Editor on the User Management service
-    * Editor on the IAM Access Groups service
-    * Viewer on all account management services
-
-For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
+To review the list of permissions granted to this access group, see the [Giving team members access in Partner Center](/docs/sell?topic=sell-iam-access-pc-sell#give-access-pc) documentation section.
 
 ## Add team members to your account
 {: #operators-reg-invite}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-06-10"
+  years: 2021, 2025
+lastupdated: "2025-09-19"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register
 
@@ -37,8 +37,8 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 {: #svc-reg-company}
 {: step}
 
-1.  In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Overview** > **Get started**.
-2. Enter the name of your company as you want it to be displayed in the catalog, and click **Save**. For the purpose of this tutorial, enter `Example Corp` as the company name.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **Overview** > **Get started**.
+1. Enter the name of your company as you want it to be displayed in the catalog, and click **Save**. For the purpose of this tutorial, enter `Example Corp` as the company name.
 
 ## Create your test environment
 {: #svc-reg-test}
@@ -56,15 +56,9 @@ A test environment is not needed for onboarding services but is needed for any s
 You can enlist team members to help with the onboarding process by assigning them specific levels of {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access. To streamline the process of assigning access, complete the following steps to create your access group:
 
 1. Click **Assign** in the Assign access section.
-1. Enter `Example Corp Service` as the name of the access group, and click **Create**. The following roles are assigned to the access group by default:
+1. Enter `Example Corp Service` as the name of the access group, and click **Create**.
 
-    * Administrator on the Catalog Management service
-    * Editor on the Partner Center - Sell service
-    * Editor on the User Management service
-    * Editor on the IAM Access Groups service
-    * Viewer on all account management services
-
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
+To review the list of permissions granted to this access group, see the [Giving team members access in Partner Center](/docs/sell?topic=sell-iam-access-pc-sell#give-access-pc) documentation section.
 
 ## Next steps
 {: #svc-reg-next}
