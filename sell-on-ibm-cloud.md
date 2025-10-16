@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-07-01"
+lastupdated: "2025-10-16"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy, Onboarding Workbench
 
@@ -34,8 +34,6 @@ If you plan to offer products on the {{site.data.keyword.cloud_notm}} platform, 
 * To sell services, verify that your company is an approved {{site.data.keyword.cloud_notm}} build partner with an [Embedded Solutions Agreement (ESA)](https://ibm.seismic.com/app?ContentId=efd7827b-910e-4e91-a5f6-6020730e88c3){: external}. For more information about being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
 
 * Verify that your product is ready to be publicly listed and sold through the {{site.data.keyword.cloud_notm}} catalog.
-
-* Verify that your product does not include Consulting and Professional Services.
 
 * Be prepared to create and maintain the products that you list in the {{site.data.keyword.cloud_notm}} catalog, which includes being responsive to addressing updates and providing timely support to your customers.
 

@@ -1,4 +1,3 @@
----
 toc:
   properties:
     subcollection: sell
@@ -21,10 +20,10 @@ toc:
           - software-get-start.md
           - software-checklist.md
       - topicgroup:
-           label: Understanding how to sell deployable architectures
-           topics:
-           - da-get-start.md
-           - da-checklist.md
+          label: Understanding how to sell deployable architectures
+          topics:
+          - da-get-start.md
+          - da-checklist.md
       - topicgroup:
           label: Understanding how to sell services
           topics:
