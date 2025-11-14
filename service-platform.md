@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2025
 
-lastupdated: "2025-06-17"
+lastupdated: "2025-11-14"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -44,7 +44,7 @@ The provisioning layer provides APIs to help you manage the following elements o
 
 Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.Bluemix_notm}}. The {{site.data.keyword.Bluemix_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party product providers use IAM to create an authentication flow (OAuth). See [What is IAM?](/docs/account?topic=account-iamoverview) for more information.
 
-If your product uses OpenID Connect (OIDC) libraries, IAM supports OIDC integration. OIDC is an authentication layer on top of OAuth 2.0, an authorization framework and can help simplify the onboarding process. For more information on OIDC, see [Open ID Connect](https://openid.net/developers/how-connect-works/){: external}.
+If your product uses OpenID Connect (OIDC) libraries, IAM supports OIDC integration. OIDC is an authentication layer built on OAuth 2.0, an authorization framework and can help simplify the onboarding process. For more information on OIDC, see [Open ID Connect](https://openid.net/developers/how-connect-works/){: external}.
 
 ## {{site.data.keyword.cloud_notm}} catalog
 {: #catalog}
