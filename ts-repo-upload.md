@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2025
-lastupdated: "2025-02-21"
+lastupdated: "2025-11-14"
 
 keywords: troubleshoot software, HTTPS protocol, repo, github, tgz
 
@@ -24,7 +24,9 @@ If you encounter an error when you are importing your software into a private ca
 You receive the following error message when you try to upload your product's source details from a GitHub or GitLab repository to your private catalog:
 {: tsSymptoms}
 
-> There was an error while contacting this URL.
+```text
+There was an error while contacting this URL.
+```
 
 This error typically occurs because a file is missing or formatted incorrectly. Or, if your repository is private, there was an error authenticating with it.
 {: tsCauses}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022, 2023
-lastupdated: "2023-01-06"
+lastupdated: "2025-11-14"
 
 keywords: troubleshoot software, tgz, helm charts, cloud pak, terraform
 
@@ -24,11 +24,15 @@ If the files in your source repository were changed after you imported your soft
 You imported your software package as a `.tgz` file from the Software tab in Partner Center, but you can't validate it. In your Schematics logs, the following message is displayed:
 {: tsSymptoms}
 
-> Error: Failed SHA validation, reload version to update the Digest
+```text
+Error: Failed SHA validation, reload version to update the Digest
+```
 
 When you access your product in the private catalog, the following message is also displayed:
 
-> Package required: We couldn't find the URL for your package. Verify that the package exists and that the access secret is valid.
+```text
+Package required: We couldn't find the URL for your package. Verify that the package exists and that the access secret is valid.
+```
 
 These errors typically occur because the contents of your software package were changed after you imported the package.
 {: tsCauses}

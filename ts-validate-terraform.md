@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-08-01"
+lastupdated: "2025-11-14"
 
 keywords: troubleshooting, Terraform, validate, version, unknown token
 
@@ -24,7 +24,9 @@ When you try to add a Terraform template to your private catalog, the validation
 The following error is displayed when you try to validate that the Terraform template can be installed on the target infrastructure:
 {: tsSymptoms}
 
-> Error: Error parsing /file-path/main.tf: At 9:14: Unknown token : 9:14 IDENT var.resource_group
+```text
+Error: Error parsing /file-path/main.tf: At 9:14: Unknown token : 9:14 IDENT var.resource_group
+```
 
 The Terraform version that you specify during the validation process is incorrect. You might be specifying a version of Terraform that's used when you run stand-alone {{site.data.keyword.bplong_notm}}.
 {: tsCauses}
