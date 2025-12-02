@@ -32,7 +32,7 @@ The following tasks are typically completed by a team member who is familiar wit
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Assign team access | With the correct {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access, members of your team can help onboard your software. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Invite team members to your account | Members of your account are assigned the IAM access that you set up in the previous task.  | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM_notm}} | Review and submit the {{site.data.keyword.IBM_notm}} Digital Provider Agreement if you plan to offer bring your own license plans, review and submit the {{site.data.keyword.IBM_notm}} Digital Reseller Agreement if you plan to offer free plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Getting started tasks for selling software" caption-side="top"}
+{: caption="Table 1. Getting started tasks for selling software" caption-side="top"}
 
 For more information, see [Getting set up to sell software](/docs/sell?topic=sell-sw-getting-started).
 
@@ -48,7 +48,7 @@ The following tasks are typically completed by a team member familiar with the b
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify your partner details | Review the Company and Team information and make sure that everything is correct.	| {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your product details | Add details, such as your product logo, keywords, description, features, and documentation URL, for your product's entry and details page in the {{site.data.keyword.cloud_notm}} catalog. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your support details | Provide your support site URL, contacts, escalation process, and the locations where your support teams are based. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Tasks for defining software details" caption-side="top"}
+{: caption="Table 2. Tasks for defining software details" caption-side="top"}
 
 For more information, see the following links:
 
@@ -67,7 +67,7 @@ For more information, see the following links:
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add metrics to your pricing plan | Add metrics to your usage-based pricing plan to determine how customers are charged. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test and submit resource usage | Review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured by enabling and submitting a usage test. This usage test includes creating your metering JSON, calling the Usage Metering API and submitting metering evidence. For more information, see [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}. | Development environment and documentation, {{site.data.keyword.cloud_notm}} console  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Review and submit the {{site.data.keyword.cloud_notm}}'s Digital Platform Reseller Agreement | Review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement if you plan to offer free or paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Tasks for adding pricing plans for software" caption-side="top"}
+{: caption="Table 3. Tasks for adding pricing plans for software" caption-side="top"}
 
 Usage-based pricing plans are available only for software that are onboarded with the virtual server image delivery method.
 {: note}
@@ -87,7 +87,7 @@ The following tasks are typically completed by a technical member of your team.
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Set up your source code repository | Create a release or tag in your source code repository to deliver and manage versions of your software. | Your GitHub, GitLab, or Azure repository |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Upload a readme file | Provide a readme file that describes how users can install your software and get customer support. | Your GitHub, GitLab, or Azure repository |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Onboard your software| Import a version, configure the deployment details, set any license requirements, and validate that the version can be successfully installed on the infrastructure that you require. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Tasks for onboarding software" caption-side="top"}
+{: caption="Table 4. Tasks for onboarding software" caption-side="top"}
 
 For more information, see the following links:
 
@@ -104,7 +104,7 @@ The following tasks are completed by any member of your team.
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify that all tasks are completed | Confirm that you completed the getting started tasks, defined your software details, and onboarded your software. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Request to publish your software | Submit a request for {{site.data.keyword.cloud_notm}} to review your product details and approve it's ready for publishing. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Publish your software | After your publishing request is approved, publish your software to the {{site.data.keyword.cloud_notm}} catalog. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Tasks for publishing software" caption-side="top"}
+{: caption="Table 5. Tasks for publishing software" caption-side="top"}
 
 For more information, see [Publishing your software to the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-sw-publish).
 

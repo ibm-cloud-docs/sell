@@ -30,7 +30,7 @@ Use the following checklists to track all the tasks required to define, develop,
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Assign team access | With the correct {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access, members of your team can help onboard your service. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Invite team members to your account | Members of your account are assigned the IAM access that you set up in the previous task. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Confirm your legal agreement with {{site.data.keyword.IBM_notm}} | Review and submit the {{site.data.keyword.IBM_notm}} Digital Reseller Agreement if you plan to offer free or paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Getting started tasks for selling services" caption-side="top"} 
+{: caption="Table 1. Getting started tasks for selling services" caption-side="top"} 
 
 For more information, see [Getting set up to sell services](/docs/sell?topic=sell-get-started).
 
@@ -45,7 +45,7 @@ For more information, see [Getting set up to sell services](/docs/sell?topic=sel
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create your API key | Create an API key that is used to authenticate your service ID. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your product details | Add details, such as your product logo, keywords, description, features, and documentation URL for your product's entry and details page in the {{site.data.keyword.cloud_notm}} catalog. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your support details | Provide your support site URL, contacts, escalation process, and the locations where your support teams are based. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Tasks for defining service details" caption-side="top"} 
+{: caption="Table 2. Tasks for defining service details" caption-side="top"} 
 
 For more information, see the following links:
 
@@ -64,7 +64,7 @@ For more information, see the following links:
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add metrics to your pricing plan | Add metrics to your usage-based pricing plan to determine how customers are charged. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test and submit resource usage | Review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured by enabling and submitting a usage test. This usage test includes creating your metering JSON, calling the Usage Metering API and submitting metering evidence. For more information, see [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}. | Development environment and documentation, {{site.data.keyword.cloud_notm}} console  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Review and submit the {{site.data.keyword.cloud_notm}}'s Digital Platform Reseller Agreement | Review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement if you plan to offer free or paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Tasks for add pricing plans for services" caption-side="top"} 
+{: caption="Table 3. Tasks for add pricing plans for services" caption-side="top"} 
 
 For more information, see the following links:
 
@@ -101,7 +101,7 @@ For more information, see the following links:
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify that all tasks are completed | Confirm that you completed the getting started tasks, defined your service details, and added your broker. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Request to publish your service | Submit a request for {{site.data.keyword.cloud_notm}} to review your product details and approve it's ready for publishing. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Publish your service | After your publishing request is approved, publish your service to the {{site.data.keyword.cloud_notm}} catalog. | {{site.data.keyword.cloud_notm}} console |
-{: caption="Tasks for publishing services" caption-side="top"} 
+{: caption="Table 5. Tasks for publishing services" caption-side="top"} 
 
 For more information, see the following links:
 
@@ -119,7 +119,7 @@ As a third-party provider, you're responsible for maintaining all assets of publ
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Populate the **Docs** link | Provide a link to documentation from the {{site.data.keyword.cloud_notm}} catalog page that helps users understand and learn more about how to use your service. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Publish usage documentation for your service | Provide information about how to use your product. | Documentation |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Publish getting started information for your service | Include any customer onboarding timelines or steps as part of your Getting Started topic. | Documentation |
-{: caption="Tasks for documenting services" caption-side="top"}
+{: caption="Table 6. Tasks for documenting services" caption-side="top"}
 
 For more information, see the following links:
 

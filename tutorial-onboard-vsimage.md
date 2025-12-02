@@ -100,7 +100,7 @@ After you review the version details, you're ready to configure the deployment v
 | **`vsi_instance_name`** | The name of the virtual server instance. | True | False |
 | **`vsi_profile`** | The profile of the compute CPU and memory resources to use when creating the virtual server instance. | True | False |
 | **`vsi_security_group`** | The name of the security group that is created. | True | False |
-{: caption="Deployment values for a virtual server image" caption-side="top"}
+{: caption="Table 1. Deployment values for a virtual server image" caption-side="top"}
 
 Next, update the configuration type of the **`region`** parameter:
 
