@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2025
 
-lastupdated: "2025-09-19"
+lastupdated: "2025-12-02"
 
 keywords: third-party service, sell on IBM Cloud, partner center, integrated billing service
 
@@ -22,7 +22,7 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to the {{site.data.keyword.Bluemix_notm}} platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
+Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to the {{site.data.keyword.cloud_notm}} platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
    It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
@@ -83,12 +83,12 @@ After your product is approved, return to Partner Center and publish it to the {
 ## Before you begin
 {: #prereq}
 
-To onboard your services to the {{site.data.keyword.Bluemix_notm}} platform, you must be an approved {{site.data.keyword.Bluemix_notm}} build partner. You can expand your network by receiving access to {{site.data.keyword.IBM_notm}}’s global ecosystem, receive insights to better engage customers, grow your business, and increase revenue. For more information on being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
+To onboard your services to the {{site.data.keyword.cloud_notm}} platform, you must be an approved {{site.data.keyword.cloud_notm}} build partner. You can expand your network by receiving access to {{site.data.keyword.IBM_notm}}’s global ecosystem, receive insights to better engage customers, grow your business, and increase revenue. For more information on being an {{site.data.keyword.cloud_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
 
-Besides being an {{site.data.keyword.Bluemix_notm}} build partner, service onboarding is limited to providers who meet the following prerequisites due to current processing times:
+Besides being an {{site.data.keyword.cloud_notm}} build partner, service onboarding is limited to providers who meet the following prerequisites due to current processing times:
 
-* Providers who leverage one or more services in the {{site.data.keyword.Bluemix_notm}} catalog.
-* Providers who intend on selling their product in the {{site.data.keyword.Bluemix_notm}} catalog.
+* Providers who leverage one or more services in the {{site.data.keyword.cloud_notm}} catalog.
+* Providers who intend on selling their product in the {{site.data.keyword.cloud_notm}} catalog.
 
 ## Provide your company name
 {: #step1-register}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2025
 
-lastupdated: "2025-03-27"
+lastupdated: "2025-12-02"
 
 keywords:  pricing, IBM Cloud, selling services, pricing plan, plan features,
 
@@ -17,7 +17,7 @@ subcollection: sell
 # Defining your pricing plan
 {: #service-pricing-info}
 
-When you onboard your service to {{site.data.keyword.Bluemix}}, you must define a pricing plan. If you have detailed knowledge about how you want to charge users for your service, you can provide that information in your plan. However, you can start by enabling a free plan, and then set up a paid plan later if your needs change. Currently, {{site.data.keyword.Bluemix_notm}} supports free and paid usage-based pricing plans.
+When you onboard your service to {{site.data.keyword.cloud}}, you must define a pricing plan. If you have detailed knowledge about how you want to charge users for your service, you can provide that information in your plan. However, you can start by enabling a free plan, and then set up a paid plan later if your needs change. Currently, {{site.data.keyword.cloud_notm}} supports free and paid usage-based pricing plans.
 {: shortdesc}
 
 ## Before you begin

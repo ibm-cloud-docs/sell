@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2025
 
-lastupdated: "2025-02-17"
+lastupdated: "2025-12-02"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
@@ -28,7 +28,7 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 {: #metering}
 {: faq}
 
-{{site.data.keyword.Bluemix}} supports multiple models for aggregating service usage. Service providers measure various metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that service providers choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
+{{site.data.keyword.cloud}} supports multiple models for aggregating service usage. Service providers measure various metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that service providers choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
 
 You're required to automate hourly usage submission by using the metering service API if you offer a metered plan.
 {: note}
@@ -63,7 +63,7 @@ Disbursements are paid against revenue recognized by {{site.data.keyword.IBM}} i
 
 We are adding features to support reports soon. Disbursements are based on the quantities that you submit to the usage metering service and the price that is defined when you set up your pricing plan in Partner Center. Third-party disbursements are calculated as a percentage of the net revenue for each product that is sold by {{site.data.keyword.IBM_notm}} for a given calendar month. Net revenue is defined as the revenue recognized by {{site.data.keyword.IBM_notm}} or an {{site.data.keyword.IBM_notm}} affiliate calculated using applicable discounts, refunds, returns, offsets, and other adjustments determined in accordance with the current revenue recognition policies of {{site.data.keyword.IBM_notm}} and its affiliates and the controlling accounting principles. For full detail regarding payouts, refer to the Digital Platform Reseller Agreement that must be signed in Partner Center to offer usage-based pricing.
 
-## How can I generate a new {{site.data.keyword.Bluemix_notm}} Identity and Access Management API Key?
+## How can I generate a new {{site.data.keyword.cloud_notm}} Identity and Access Management API Key?
 {: #iam-creds}
 {: faq}
 

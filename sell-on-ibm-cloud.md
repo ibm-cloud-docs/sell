@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-10-16"
+lastupdated: "2025-12-02"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy, Onboarding Workbench
 
@@ -31,7 +31,7 @@ If you plan to offer products on the {{site.data.keyword.cloud_notm}} platform, 
 
 * Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 
-* To sell services, verify that your company is an approved {{site.data.keyword.cloud_notm}} build partner with an [Embedded Solutions Agreement (ESA)](https://ibm.seismic.com/app?ContentId=efd7827b-910e-4e91-a5f6-6020730e88c3){: external}. For more information about being an {{site.data.keyword.Bluemix_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
+* To sell services, verify that your company is an approved {{site.data.keyword.cloud_notm}} build partner with an [Embedded Solutions Agreement (ESA)](https://ibm.seismic.com/app?ContentId=efd7827b-910e-4e91-a5f6-6020730e88c3){: external}. For more information about being an {{site.data.keyword.cloud_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
 
 * Verify that your product is ready to be publicly listed and sold through the {{site.data.keyword.cloud_notm}} catalog.
 
@@ -94,7 +94,7 @@ The process is as simple as selecting the Deployable Software option, providing 
 ### Services
 {: #selling-service}
 
-Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.Bluemix_notm}}. If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.cloud_notm}} by defining your service, building pricing plans, and creating brokers.
+Managed services help run the infrastructure in your own account and to deploy instances by using the {{site.data.keyword.cloud_notm}}. If you have a service that you want to provide, you can offer it as an integrated billing service. Offering it as an integrated billing service means that users can create an instance of your service automatically. You can onboard your service to {{site.data.keyword.cloud_notm}} by defining your service, building pricing plans, and creating brokers.
 
 When you onboard your service, you must select the type of service that you are onboarding. Your service type is used for tax assessment purposes. {{site.data.keyword.cloud_notm}} supports three types of services:
 

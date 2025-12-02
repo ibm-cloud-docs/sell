@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2025
 
-lastupdated: "2025-11-14"
+lastupdated: "2025-12-02"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -14,22 +14,22 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# How third-party services use the {{site.data.keyword.Bluemix_notm}} platform
+# How third-party services use the {{site.data.keyword.cloud_notm}} platform
 {: #how-it-works}
 
-A third-party service uses the {{site.data.keyword.Bluemix_notm}} platform for authentication, access, self-service instance creation, metering, and billing. This topic provides a high-level overview of the platform components that your service uses, and pulls these concepts together into an end-to-end provisioning scenario.
+A third-party service uses the {{site.data.keyword.cloud_notm}} platform for authentication, access, self-service instance creation, metering, and billing. This topic provides a high-level overview of the platform components that your service uses, and pulls these concepts together into an end-to-end provisioning scenario.
 {: shortdesc}
 
 
-## The {{site.data.keyword.Bluemix_notm}} provisioning layer
+## The {{site.data.keyword.cloud_notm}} provisioning layer
 {: #provisioning-layer}
 
-The provisioning layer manages the lifecycle of {{site.data.keyword.Bluemix_notm}} resources. The provisioning layer is responsible for controlling and tracking the lifecycle of resources in a customer account. *Resources* are physical or logical components that can be created or reserved for an application or service instance. Examples of resources include database, accounts, processor, memory, and storage limits. In general, resources that are tracked by the provisioning layer are intended to associate usage metrics and billing, but that isn’t always the case. In some cases, the resource might be associated to the provisioning layer to ensure that the resource lifecycle can be managed along with the account lifecycle.
+The provisioning layer manages the lifecycle of {{site.data.keyword.cloud_notm}} resources. The provisioning layer is responsible for controlling and tracking the lifecycle of resources in a customer account. *Resources* are physical or logical components that can be created or reserved for an application or service instance. Examples of resources include database, accounts, processor, memory, and storage limits. In general, resources that are tracked by the provisioning layer are intended to associate usage metrics and billing, but that isn’t always the case. In some cases, the resource might be associated to the provisioning layer to ensure that the resource lifecycle can be managed along with the account lifecycle.
 
 ### Resource lifecycle management
 {: #lifecycle}
 
-The provisioning layer provides common APIs to control the lifecycle of resources from creation (creating an instance) to service credentials (creating and removing access credentials) to deletion (deleting an instance). Additionally, the {{site.data.keyword.Bluemix_notm}} platform provides CLIs and a UI that can manage the lifecycle of these resources that don’t require you to create your own facilities.
+The provisioning layer provides common APIs to control the lifecycle of resources from creation (creating an instance) to service credentials (creating and removing access credentials) to deletion (deleting an instance). Additionally, the {{site.data.keyword.cloud_notm}} platform provides CLIs and a UI that can manage the lifecycle of these resources that don’t require you to create your own facilities.
 
 The provisioning layer provides APIs to help you manage the following elements of your resource lifecycle:
 * Creating a resource instance
@@ -39,10 +39,10 @@ The provisioning layer provides APIs to help you manage the following elements o
 * Resource keys
 * Deleting a resource instance
 
-## {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM)
+## {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM)
 {: #iam}
 
-Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.Bluemix_notm}}. The {{site.data.keyword.Bluemix_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party product providers use IAM to create an authentication flow (OAuth). See [What is IAM?](/docs/account?topic=account-iamoverview) for more information.
+Identity Access Management (IAM) enables you to securely authenticate users and control access to all cloud resources consistently across {{site.data.keyword.cloud_notm}}. The {{site.data.keyword.cloud_notm}} provisioning layer adopted IAM for authentication and authorization of actions that are taken against the provisioning layer. Third-party product providers use IAM to create an authentication flow (OAuth). See [What is IAM?](/docs/account?topic=account-iamoverview) for more information.
 
 If your product uses OpenID Connect (OIDC) libraries, IAM supports OIDC integration. OIDC is an authentication layer built on OAuth 2.0, an authorization framework and can help simplify the onboarding process. For more information on OIDC, see [Open ID Connect](https://openid.net/developers/how-connect-works/){: external}.
 
@@ -64,7 +64,7 @@ Company or product logo
 :   An SVG file with your product logo.
 
 Short description
-:   The short description of what your product is, its value, and any other details that you want to be displayed in your {{site.data.keyword.Bluemix_notm}} catalog entry. You can add a single sentence or phrase as the description.
+:   The short description of what your product is, its value, and any other details that you want to be displayed in your {{site.data.keyword.cloud_notm}} catalog entry. You can add a single sentence or phrase as the description.
 
 Detailed description
 :   This description is displayed at the beginning of your product page in the catalog. Include relevant keywords and consider at least two sentences for a detailed description.
@@ -99,18 +99,18 @@ Programmatic name of the plan
 ## Open Service Broker
 {: #open-service}
 
-Service brokers manage the lifecycle of services. The {{site.data.keyword.Bluemix_notm}} platform interacts with service brokers to create and manage service instances and service bindings. Service bindings are the representation of an association between an application and a service instance, which often include the credentials that the application uses to communicate with the service instance. Providing valid metadata values creates a successful REST API response when a request is performed.
+Service brokers manage the lifecycle of services. The {{site.data.keyword.cloud_notm}} platform interacts with service brokers to create and manage service instances and service bindings. Service bindings are the representation of an association between an application and a service instance, which often include the credentials that the application uses to communicate with the service instance. Providing valid metadata values creates a successful REST API response when a request is performed.
 
-{{site.data.keyword.Bluemix_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification. Read through and familiarize yourself with the [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more.
+{{site.data.keyword.cloud_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification. Read through and familiarize yourself with the [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more.
 
-When the resource controller receives a request to create a resource, it calls your OSB to validate the service type, product, plans, and regions availability. The resource controller also validates the visibility of the plan that is associated with the customer account. {{site.data.keyword.Bluemix_notm}} provides broker samples and API docs that extend the OSB spec. You can find more details about developing and hosting your broker as you walk through the detailed integrated billing onboarding development steps.
+When the resource controller receives a request to create a resource, it calls your OSB to validate the service type, product, plans, and regions availability. The resource controller also validates the visibility of the plan that is associated with the customer account. {{site.data.keyword.cloud_notm}} provides broker samples and API docs that extend the OSB spec. You can find more details about developing and hosting your broker as you walk through the detailed integrated billing onboarding development steps.
 
-## {{site.data.keyword.Bluemix_notm}} metering service
+## {{site.data.keyword.cloud_notm}} metering service
 {: #metering-service}
 
-If a service offers a metered plan, {{site.data.keyword.Bluemix_notm}} users are charged based on the amount of resources that they use. For example, {{site.data.keyword.Bluemix_notm}} users that use database services might be charged based on the amount of storage that their applications use. Usage submission must occur in order for the usage to be converted into a chargeable record.
+If a service offers a metered plan, {{site.data.keyword.cloud_notm}} users are charged based on the amount of resources that they use. For example, {{site.data.keyword.cloud_notm}} users that use database services might be charged based on the amount of storage that their applications use. Usage submission must occur in order for the usage to be converted into a chargeable record.
 
-All integrated billing services that offer a metered plan must use the {{site.data.keyword.Bluemix_notm}} metering service to report usage data.
+All integrated billing services that offer a metered plan must use the {{site.data.keyword.cloud_notm}} metering service to report usage data.
 
 You’re required to automate hourly usage submission by using metering service API if you offer a metered plan.
 
@@ -119,7 +119,7 @@ For more information on metering, see [Metering integration](/docs/sell?topic=se
 ## Creation scenario: Pulling it all together
 {: #provision2}
 
-Now let's pull all of the concepts together and look at an example of how service instance creation works by using the {{site.data.keyword.Bluemix_notm}} platform.
+Now let's pull all of the concepts together and look at an example of how service instance creation works by using the {{site.data.keyword.cloud_notm}} platform.
 
 ![Provisioning scenario](images/flow-am.svg "How the platform handles service instance creation"){: caption="Figure 1. How the platform handles service instance creation" caption-side="bottom"}
 
@@ -129,8 +129,8 @@ Now let's pull all of the concepts together and look at an example of how servic
 
 When a user wants to create a service instance, they can select the service, plan, and use the **Create** operation.
 
-The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's creation endpoint (`PUT /v2/resource_instances/:resource_instance_id`) is started. For the instance to be created, the following rules must be met:
-* The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
+The {{site.data.keyword.cloud_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.cloud_notm}} IAM. After this validation occurs, your service broker's creation endpoint (`PUT /v2/resource_instances/:resource_instance_id`) is started. For the instance to be created, the following rules must be met:
+* The {{site.data.keyword.cloud_notm}} context is included in the context variable
 * The `X-Broker-API-Originating-Identity` has the IBM IAM ID of the user that started the request
 * The parameters section includes the requested location (and more parameters that are required by your service).
 
@@ -165,8 +165,8 @@ Example request for creating an instance:
 
 When a user wants to create a service instance, they can use `ibmcloud cli [ ibmcloud resource service-instance-create NAME SERVICE_NAME SERVICE_PLAN_NAME LOCATION ]`.
 
-The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's creation endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
-* The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
+The {{site.data.keyword.cloud_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.cloud_notm}} IAM. After this validation occurs, your service broker's creation endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
+* The {{site.data.keyword.cloud_notm}} context is included in the context variable
 * The `X-Broker-API-Originating-Identity` has the IBM IAM ID of the user that started the request
 * The parameters section includes the requested location (and more parameters that are required by your service).
 
@@ -201,8 +201,8 @@ Example request for creating an instance:
 
 This action can be done only through the UI or CLI. To see the steps, switch to the UI or CLI instructions.
 
-The {{site.data.keyword.Bluemix_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.Bluemix_notm}} IAM. After this validation occurs, your service broker's creation endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
-* The {{site.data.keyword.Bluemix_notm}} context is included in the context variable
+The {{site.data.keyword.cloud_notm}} platform validates that the user has permission to create the service instance by using {{site.data.keyword.cloud_notm}} IAM. After this validation occurs, your service broker's creation endpoint (PUT /v2/resource_instances/:resource_instance_id) is started. For the instance to be created, the following rules must be met:
+* The {{site.data.keyword.cloud_notm}} context is included in the context variable
 * The `X-Broker-API-Originating-Identity` has the IBM IAM ID of the user that started the request
 * The parameters section includes the requested location (and more parameters that are required by your service).
 
@@ -231,16 +231,16 @@ Example request for creating an instance:
     }
 ```
 
-### Understanding the {{site.data.keyword.Bluemix_notm}} `context` parameter
+### Understanding the {{site.data.keyword.cloud_notm}} `context` parameter
 {: #parameter}
 
-In the previous example, you can see the metadata returned in the `context` parameter. The context for {{site.data.keyword.Bluemix_notm}} returns the following:
+In the previous example, you can see the metadata returned in the `context` parameter. The context for {{site.data.keyword.cloud_notm}} returns the following:
 
 * **platform**: Identifies the platform as `ibmcloud`
 
-* **"account_id"**: Returns the ID of the account in {{site.data.keyword.Bluemix_notm}} that is creating the service instance.
+* **"account_id"**: Returns the ID of the account in {{site.data.keyword.cloud_notm}} that is creating the service instance.
 
-* **crn**: When a customer creates your service in {{site.data.keyword.Bluemix_notm}}, a service instance is created, and this instance is identified by its {{site.data.keyword.Bluemix_notm}} Resource Name (CRN). The CRN is used in all aspects of the interaction with {{site.data.keyword.Bluemix_notm}} including creating instances, binding (creating credentials and endpoints), metering, dashboard display, and access control. From a product provider perspective, the CRN can largely be treated as an opaque string to be used with the {{site.data.keyword.Bluemix_notm}} APIs. It can also be decomposed by using the following structure:
+* **crn**: When a customer creates your service in {{site.data.keyword.cloud_notm}}, a service instance is created, and this instance is identified by its {{site.data.keyword.cloud_notm}} Resource Name (CRN). The CRN is used in all aspects of the interaction with {{site.data.keyword.cloud_notm}} including creating instances, binding (creating credentials and endpoints), metering, dashboard display, and access control. From a product provider perspective, the CRN can largely be treated as an opaque string to be used with the {{site.data.keyword.cloud_notm}} APIs. It can also be decomposed by using the following structure:
 
    ```text
    crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource
@@ -252,7 +252,7 @@ In the previous example, you can see the metadata returned in the `context` para
    crn:v1:bluemix:public:compose-redis:us-south:a/46aa677e-e83f-4d17-a2b6-5b752564477c:416d769b-682d-4833-8bd7-5ef8778e5b52::
    ```
 
-   In this sample, this `compose-redis` instance is part of {{site.data.keyword.Bluemix_notm}} account with ID. The unique ID for the instance is `416d769b-682d-4833-8bd7-5ef8778e5b52`, and the instance is hosted in the `us-south` region of the public {{site.data.keyword.Bluemix_notm}}.
+   In this sample, this `compose-redis` instance is part of {{site.data.keyword.cloud_notm}} account with ID. The unique ID for the instance is `416d769b-682d-4833-8bd7-5ef8778e5b52`, and the instance is hosted in the `us-south` region of the public {{site.data.keyword.cloud_notm}}.
 
 * **resource_group_crn**: Returns the resource group that includes the service instance. For more details, see [Managing resource groups](/docs/account?topic=account-rgs).
 

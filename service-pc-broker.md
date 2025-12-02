@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2025
 
-lastupdated: "2025-06-16"
+lastupdated: "2025-12-02"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, host service broker
 
@@ -53,17 +53,17 @@ Deprovisioning service instances
 ## Before you begin
 {: #pc-broker-pre-reqs}
 
-* [Register your service in {{site.data.keyword.Bluemix_notm}} Partner Center](/docs/sell?topic=sell-svc-register).
+* [Register your service in {{site.data.keyword.cloud_notm}} Partner Center](/docs/sell?topic=sell-svc-register).
 * [Define the product details of your service](/docs/sell?topic=sell-svc-define).
 * Review the [Provisioning scenario](/docs/sell?topic=sell-how-it-works#provision2) to gain an understanding of how resource creation works.
-* Read and familiarize yourself with the [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more. {{site.data.keyword.Bluemix_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification.
+* Read and familiarize yourself with the [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}, and use the readme file as a guide to learn more. {{site.data.keyword.cloud_notm}} uses the Open Service Broker API (OSB) `version 2.12` specification.
 
 ## Building your broker
 {: #pc-broker-guides}
 
 Configure and deploy a broker that has your required specifications by using the following documentation and sample applications:
 
-* Use the [{{site.data.keyword.Bluemix_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api){: external} to set required specifications, including required endpoints.
+* Use the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api){: external} to set required specifications, including required endpoints.
 
 Review the following sample application:
 
@@ -77,7 +77,7 @@ All service brokers must set certain required endpoints. Additional endpoint log
 #### Required endpoint logic for all service brokers
 {: #pc-endpoint-sb}
 
-Service brokers must provide a standard set of metadata values that are consumed by REST APIs, and {{site.data.keyword.Bluemix_notm}} brokers must have logic for the following REST API endpoints or paths:
+Service brokers must provide a standard set of metadata values that are consumed by REST APIs, and {{site.data.keyword.cloud_notm}} brokers must have logic for the following REST API endpoints or paths:
 
 catalog (GET)
 :   Returns your catalog metadata included in your broker. 
@@ -91,7 +91,7 @@ resource instances (DELETE)
 resource instances (PATCH)
 :   Updates your service instance.
 
-**Note on catalog (GET)**: This endpoint defines the contract between the broker and the {{site.data.keyword.Bluemix_notm}} platform for the services and plans that the broker supports. This endpoint returns the catalog metadata that is stored within your broker. These values define the minimal contract between your service and the {{site.data.keyword.Bluemix_notm}} platform. All additional catalog metadata that isn't required is stored within the {{site.data.keyword.Bluemix_notm}} catalog. Any updates to catalog display values like links and icons must be updated in the {{site.data.keyword.Bluemix_notm}} console, and not housed in your broker. None of metadata that is stored in your broker is displayed in the {{site.data.keyword.Bluemix_notm}} console or the {{site.data.keyword.Bluemix_notm}} CLI. The console and CLI return what was set within Partner Center Sell and stored in the {{site.data.keyword.Bluemix_notm}} catalog. The following section shows the minimal-required values that catalog (GET) returns:
+**Note on catalog (GET)**: This endpoint defines the contract between the broker and the {{site.data.keyword.cloud_notm}} platform for the services and plans that the broker supports. This endpoint returns the catalog metadata that is stored within your broker. These values define the minimal contract between your service and the {{site.data.keyword.cloud_notm}} platform. All additional catalog metadata that isn't required is stored within the {{site.data.keyword.cloud_notm}} catalog. Any updates to catalog display values like links and icons must be updated in the {{site.data.keyword.cloud_notm}} console, and not housed in your broker. None of metadata that is stored in your broker is displayed in the {{site.data.keyword.cloud_notm}} console or the {{site.data.keyword.cloud_notm}} CLI. The console and CLI return what was set within Partner Center Sell and stored in the {{site.data.keyword.cloud_notm}} catalog. The following section shows the minimal-required values that catalog (GET) returns:
 
 ```json
 {
@@ -117,7 +117,7 @@ resource instances (PATCH)
 #### Required endpoints logic for bindable services
 {: #pc-bindable}
 
-If your service can be bound to applications in {{site.data.keyword.Bluemix_notm}}, it must return API endpoints and credentials to your service consumers. A bindable service must use the bindable operations in the Open Service Broker specification, and implement the following endpoints or paths:
+If your service can be bound to applications in {{site.data.keyword.cloud_notm}}, it must return API endpoints and credentials to your service consumers. A bindable service must use the bindable operations in the Open Service Broker specification, and implement the following endpoints or paths:
 
 bindings and credentials (PUT)
 :   Binds your service instance to an application.
@@ -125,10 +125,10 @@ bindings and credentials (PUT)
 bindings and credentials (DEL)
 :   Unbinds your service instance from an application.
 
-#### Required {{site.data.keyword.Bluemix_notm}} extension endpoints
+#### Required {{site.data.keyword.cloud_notm}} extension endpoints
 {: #pc-extension}
 
-The OSB specification doesn't support a disabled instance state. A disabled state includes a missing payment or other situations that result in an account suspension (but not yet cancellation) and is different from a deleted instance state. In order for {{site.data.keyword.Bluemix_notm}} to support customers that might experience a disabled state, {{site.data.keyword.Bluemix_notm}} defined the extended API endpoints that allow service instances to be disabled and re-enabled. The following endpoint extensions are required:
+The OSB specification doesn't support a disabled instance state. A disabled state includes a missing payment or other situations that result in an account suspension (but not yet cancellation) and is different from a deleted instance state. In order for {{site.data.keyword.cloud_notm}} to support customers that might experience a disabled state, {{site.data.keyword.cloud_notm}} defined the extended API endpoints that allow service instances to be disabled and re-enabled. The following endpoint extensions are required:
 
 enable and disable instances (GET)
 :   Status - returns the state of your service instance.
@@ -139,15 +139,15 @@ enable and disable instances (PUT)
 It's the service provider's responsibility to disable access to the service instance when the disable endpoint starts and to re-enable that access when the enable endpoint is started.
 {: note}
 
-### Broker information provided by the {{site.data.keyword.Bluemix_notm}} platform
+### Broker information provided by the {{site.data.keyword.cloud_notm}} platform
 {: #pc-broker-info}
 
-Your service broker or brokers receive the following information from the {{site.data.keyword.Bluemix_notm}} platform:
+Your service broker or brokers receive the following information from the {{site.data.keyword.cloud_notm}} platform:
 
 #### X-Broker-API-Originating-Identity
 {: #pc-x-broker}
 
-The **user identity header** is provided through an API originating identity header. This request header includes the user's {{site.data.keyword.Bluemix_notm}} IAM Identity. The IAM Identity is base64 encoded. {{site.data.keyword.Bluemix_notm}} supports a single authentication realm: `IBMid`. The `IBMid` realm uses an IBMid Unique ID (IUI) to identify the user's identity in {{site.data.keyword.Bluemix_notm}}. This IUI is an opaque string to the service provider.
+The **user identity header** is provided through an API originating identity header. This request header includes the user's {{site.data.keyword.cloud_notm}} IAM Identity. The IAM Identity is base64 encoded. {{site.data.keyword.cloud_notm}} supports a single authentication realm: `IBMid`. The `IBMid` realm uses an IBMid Unique ID (IUI) to identify the user's identity in {{site.data.keyword.cloud_notm}}. This IUI is an opaque string to the service provider.
 
 Example:
 
@@ -181,18 +181,18 @@ The OSB API supports both synchronous and asynchronous modes of operation. If yo
 
 It's important for users to understand the location of their cloud services for latency, availability, and data residency.
 
-When you're creating service instances on {{site.data.keyword.Bluemix_notm}}, one of the required parameters your users provide is the location where they want that service instance to be created. Some services can support creation in multiple locations. For example, a database service can support creation in all {{site.data.keyword.Bluemix_notm}} regions or it can support a subset.
+When you're creating service instances on {{site.data.keyword.cloud_notm}}, one of the required parameters your users provide is the location where they want that service instance to be created. Some services can support creation in multiple locations. For example, a database service can support creation in all {{site.data.keyword.cloud_notm}} regions or it can support a subset.
 
-If your third-party API-based service is implemented in another cloud and exposed into {{site.data.keyword.Bluemix_notm}}, the location indicates the service's location in the other cloud.
+If your third-party API-based service is implemented in another cloud and exposed into {{site.data.keyword.cloud_notm}}, the location indicates the service's location in the other cloud.
 
-When you onboard to {{site.data.keyword.Bluemix_notm}}, you must implement at least one OSB broker. You can have more than one broker depending on your deployment strategy and the locations you want to support for your service. Within Partner Center Sell, you establish the mapping between your pricing plan and the broker. The typical choices are to define a single broker to service all locations for your service or to define a broker per location; this choice is up to the service provider.
+When you onboard to {{site.data.keyword.cloud_notm}}, you must implement at least one OSB broker. You can have more than one broker depending on your deployment strategy and the locations you want to support for your service. Within Partner Center Sell, you establish the mapping between your pricing plan and the broker. The typical choices are to define a single broker to service all locations for your service or to define a broker per location; this choice is up to the service provider.
 
-For a list of available locations, review the [{{site.data.keyword.IBM_notm}} global catalog locations](https://globalcatalog.cloud.ibm.com/search?q=kind:geography&noLocations=true){: external}. If your service requires more locations to be defined, consult the {{site.data.keyword.Bluemix_notm}} onboarding team.
+For a list of available locations, review the [{{site.data.keyword.IBM_notm}} global catalog locations](https://globalcatalog.cloud.ibm.com/search?q=kind:geography&noLocations=true){: external}. If your service requires more locations to be defined, consult the {{site.data.keyword.cloud_notm}} onboarding team.
 
 ## Hosting your brokers
 {: #pc-host}
 
-Your broker must be hosted as part of an application that can respond to REST API calls and your hosted location must meet {{site.data.keyword.Bluemix_notm}} security guidelines. You might host your broker in {{site.data.keyword.Bluemix_notm}}, or it can be hosted externally, if it's publicly accessible from {{site.data.keyword.Bluemix_notm}} itself.
+Your broker must be hosted as part of an application that can respond to REST API calls and your hosted location must meet {{site.data.keyword.cloud_notm}} security guidelines. You might host your broker in {{site.data.keyword.cloud_notm}}, or it can be hosted externally, if it's publicly accessible from {{site.data.keyword.cloud_notm}} itself.
 
 To host your broker outside of {{site.data.keyword.IBM_notm}}, you must ensure that it meets the following security guidelines:
 - Must follow Transport Layer Security (TLS) protocol version 1.2. For more information, see [TLS protocol overview](https://www.ibm.com/docs/en/sdk-java-technology/8?topic=provider-tls-protocol-overview){: external}.
