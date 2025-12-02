@@ -28,7 +28,7 @@ To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/do
 {: #metering}
 {: faq}
 
-{{site.data.keyword.Bluemix}} supports multiple models for aggregating service usage. Service providers measure various metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that service providers choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
+{{site.data.keyword.cloud}} supports multiple models for aggregating service usage. Service providers measure various metrics on the created instances and submit those measures to the metering service. The rating service aggregates the submitted usage into different buckets (instance, resource group, and account) based on the model that service providers choose. The aggregation and rating models for all the metrics in a plan are contained in the metering and rating definition documents for the plan.
 
 You're required to automate hourly usage submission by using the metering service API if you offer a metered plan.
 {: note}
