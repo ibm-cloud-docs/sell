@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2024
 
-lastupdated: "2024-01-05"
+lastupdated: "2025-12-02"
 
 keywords: service parameter definition, parameters, parameter example,
 
@@ -69,7 +69,7 @@ Each custom service parameter in the `parameters` structure has the following la
 :   The name of the parameter that is displayed.
 
 `parameters.type`
-:   The type of put field that is displayed by the {{site.data.keyword.Bluemix_notm}} user interface. The value can be `text`, `password`, `dropdown`, `check box`, or `radio`.
+:   The type of put field that is displayed by the {{site.data.keyword.cloud_notm}} user interface. The value can be `text`, `password`, `dropdown`, `check box`, or `radio`.
 
 This value is required.
 {: note}
@@ -179,7 +179,7 @@ The console passes the `ace_config` query parameter, which contains the current 
 :   The description of the parameter that is displayed to help users with the value of the parameter.
 
 `parameters.required`
-:   A Boolean value that indicates whether the parameter must be entered in the {{site.data.keyword.Bluemix_notm}} user interface.
+:   A Boolean value that indicates whether the parameter must be entered in the {{site.data.keyword.cloud_notm}} user interface.
 
 `parameters.pattern`
 :   A regular expression that the value is checked against.

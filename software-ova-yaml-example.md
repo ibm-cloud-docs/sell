@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2024
 
-lastupdated: "2024-08-01"
+lastupdated: "2025-12-02"
 
 keywords: OVA images, metadata, YAML, onboard, GitHub, publish
 
@@ -39,7 +39,7 @@ The following table lists the metadata to include in your YAML file:
 | `sha256`      | A child value of `image`. The signature of the file referenced in `image`. |
 | `eula_url`    | The link to a publicly accessible license document. Optional. |
 | `eula_label`  | The label for the license link. Optional. |
-| `categories`  | The array of {{site.data.keyword.Bluemix_notm}} catalog categories that are used to filter items in the catalog. Optional. |
+| `categories`  | The array of {{site.data.keyword.cloud_notm}} catalog categories that are used to filter items in the catalog. Optional. |
 | `logo`        | The URL path to the product logo that's externally displayed in the public catalog along with the `title` value. |
 | `description` | The short description of the OVA image that's externally displayed in the public catalog along with the `title` and `logo` values. |
 | `readme`      |  The readme file text for the OVA image. |

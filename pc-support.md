@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2024
 
-lastupdated: "2024-10-29"
+lastupdated: "2025-12-02"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -24,8 +24,8 @@ You can also use the following resources before you contact {{site.data.keyword.
 
 * Review the [FAQs](/docs/sell?topic=sell-thirdparty-sw-faqs) in the product documentation.
 * Review the [troubleshooting documentation](/docs/sell?topic=sell-repo-upload-error) to troubleshoot and resolve common issues.
-* Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
-* Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `partner-center`, so that it's seen by the {{site.data.keyword.Bluemix_notm}} development teams.
+* Check the status of the {{site.data.keyword.cloud_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
+* Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `partner-center`, so that it's seen by the {{site.data.keyword.cloud_notm}} development teams.
 
 
 ## Getting help with onboarding
@@ -52,7 +52,7 @@ To contact an onboarding specialist, complete the following steps:
 ## Creating a Partner Center support case
 {: #pc-support-case}
 
-If you're experiencing issues with Partner Center, you can create a support case by using the [{{site.data.keyword.Bluemix_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
+If you're experiencing issues with Partner Center, you can create a support case by using the [{{site.data.keyword.cloud_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
 To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/account?topic=account-access-cases).
 {: note}

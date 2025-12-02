@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2025
 
-lastupdated: "2025-07-01"
+lastupdated: "2025-12-02"
 
 keywords: billing service, partner center, Open Service Broker, end-to-end
 
@@ -77,14 +77,14 @@ For more information, see the following links:
 
 | Task | Description | Environment |
 |------| ----------| ------------ |
-|![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Learn about the Open Service Broker specification version 2.12 | Service brokers manage the lifecycle of services. The {{site.data.keyword.Bluemix_notm}} platform interacts with Open Service Brokers to create and manage service instances and service bindings. For more information, see [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}.| Documentation |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.Bluemix_notm}} broker samples |  Clone the repo, browse the broker samples, and use these samples to start development. For more information, see [Sample Resource Service Brokers](https://github.com/IBM/sample-resource-service-brokers){: external}. | Code examples |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.Bluemix_notm}} Open Service Broker API documentation | Review the criteria that the broker must meet. The {{site.data.keyword.Bluemix_notm}} Open Service Broker extends the Open Service Broker 2.12 specification. For more information, see [Open Service Broker API](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api).| Documentation  |
+|![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Learn about the Open Service Broker specification version 2.12 | Service brokers manage the lifecycle of services. The {{site.data.keyword.cloud_notm}} platform interacts with Open Service Brokers to create and manage service instances and service bindings. For more information, see [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}.| Documentation |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.cloud_notm}} broker samples |  Clone the repo, browse the broker samples, and use these samples to start development. For more information, see [Sample Resource Service Brokers](https://github.com/IBM/sample-resource-service-brokers){: external}. | Code examples |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.cloud_notm}} Open Service Broker API documentation | Review the criteria that the broker must meet. The {{site.data.keyword.cloud_notm}} Open Service Broker extends the Open Service Broker 2.12 specification. For more information, see [Open Service Broker API](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api).| Documentation  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Develop your service broker |  Use your development environment and {{site.data.keyword.cloud_notm}} resources to develop your broker. | Development environment and documentation |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Host your Open Service Broker | The hosted location of the service broker must follow Transport Layer Security (TLS) protocol version 1.2. The service broker must be hosted as part of an app that can respond to REST API calls, and it must meet {{site.data.keyword.Bluemix_notm}} security guidelines. |  Development environment and documentation |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Host your Open Service Broker | The hosted location of the service broker must follow Transport Layer Security (TLS) protocol version 1.2. The service broker must be hosted as part of an app that can respond to REST API calls, and it must meet {{site.data.keyword.cloud_notm}} security guidelines. |  Development environment and documentation |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test your hosted Open Service Broker |  Validate each of the API endpoints your service broker supports by running curl commands against your hosted service broker. Validate your service broker by running curl commands against the different endpoints you’re enabling. | Development environment and documentation |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Set up {{site.data.keyword.Bluemix_notm}} SSO and redirect URLs | You can enable single sign-on and add redirect URLs that can handle authentication and authorization. | {{site.data.keyword.Bluemix_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your broker | Add your broker to your product and link it to your pricing plans. | {{site.data.keyword.Bluemix_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Set up {{site.data.keyword.cloud_notm}} SSO and redirect URLs | You can enable single sign-on and add redirect URLs that can handle authentication and authorization. | {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your broker | Add your broker to your product and link it to your pricing plans. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Developing your broker" caption-side="top"}
 
 For more information, see the following links:
