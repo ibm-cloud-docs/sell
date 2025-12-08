@@ -3,7 +3,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-05-16"
+lastupdated: "2025-12-08"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, catalog details, software, partner, sellers, partner center, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -72,7 +72,7 @@ The following table describes each type of category that you can select.
 | Networking | Products that support or augment the linking of computers so they can operate interactively. |
 | Security | Products that provide the protection of stored data from theft, leakage, and deletion. |
 | Storage | Products that support data to be created, read, updated, and deleted.|
-{: caption="Table 1. Category descriptions" caption-side="top"}
+{: caption="Category descriptions" caption-side="top"}
 
 ### Adding search keywords
 {: #catalog-keywords}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2025
 
-lastupdated: "2025-12-02"
+lastupdated: "2025-12-08"
 
 keywords: IBM Cloud platform, integrated billing services, lifecycle of IBM Cloud resources, provisioning layer
 
@@ -121,7 +121,7 @@ For more information on metering, see [Metering integration](/docs/sell?topic=se
 
 Now let's pull all of the concepts together and look at an example of how service instance creation works by using the {{site.data.keyword.cloud_notm}} platform.
 
-![Provisioning scenario](images/flow-am.svg "How the platform handles service instance creation"){: caption="Figure 1. How the platform handles service instance creation" caption-side="bottom"}
+![Provisioning scenario](images/flow-am.svg "How the platform handles service instance creation"){: caption="How the platform handles service instance creation" caption-side="bottom"}
 
 ### Creating a service instance by using the console
 {: #service-instance-ui}

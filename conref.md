@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2024
 
-lastupdated: "2024-10-21"
+lastupdated: "2025-12-08"
 
 keywords:
 
@@ -123,7 +123,7 @@ Use the following steps to add support details for your product:
    | Slack          | The URL for the company Slack channel. |
    | Phone number   | The company phone number where users can get direct contact with a support representative. |
    | Other          | Any additional information, email, URL, or phone number that you want to provide. |
-   {: caption="Table 1. Support details" caption-side="bottom"}
+   {: caption="Support details" caption-side="bottom"}
 
 1. After you add all of your product's support details, provide the required URLs for your product.
 1. Add all locations where you provide support for your product.

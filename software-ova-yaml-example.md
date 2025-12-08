@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020, 2024
+  years: 2020, 2025
 
-lastupdated: "2025-12-02"
+lastupdated: "2025-12-08"
 
 keywords: OVA images, metadata, YAML, onboard, GitHub, publish
 
@@ -44,7 +44,7 @@ The following table lists the metadata to include in your YAML file:
 | `description` | The short description of the OVA image that's externally displayed in the public catalog along with the `title` and `logo` values. |
 | `readme`      |  The readme file text for the OVA image. |
 | `links`       | Links to product support or documentation. Optional. |
-{: caption="Table 1. Required metadata for OVA images" caption-side="top"}
+{: caption="Required metadata for OVA images" caption-side="top"}
 
 
 ## YAML example
