@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-04-22"
+lastupdated: "2025-12-08"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -100,7 +100,7 @@ After you review the version details, you're ready to configure the deployment v
 | **`vsi_instance_name`** | The name of the virtual server instance. | True | False |
 | **`vsi_profile`** | The profile of the compute CPU and memory resources to use when creating the virtual server instance. | True | False |
 | **`vsi_security_group`** | The name of the security group that is created. | True | False |
-{: caption="Table 1. Deployment values for a virtual server image" caption-side="top"}
+{: caption="Deployment values for a virtual server image" caption-side="top"}
 
 Next, update the configuration type of the **`region`** parameter:
 

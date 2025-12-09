@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2025
 
-lastupdated: "2025-12-02"
+lastupdated: "2025-12-08"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, host service broker
 
@@ -30,7 +30,7 @@ Service brokers manage the lifecycle of services. Platforms interact with servic
 A broker is useful if you are developing and offering software as a service, platform as a service, or infrastructure as a service across multiple vendors. It can increase business value by introducing the service broker to automate the provisioning and binding for customers. Also, customer management and usage tracking can be easier with a middleware component that handles these cross-cutting concerns. However, a service broker is not suitable if you have custom software that can be deployed on any virtual machine or platform.
 
 When a user selects your service and its pricing plan from the {{site.data.keyword.cloud_notm}} catalog and creates an instance, the data for the service including the pricing plan and metrics, is sent to your service broker. The broker is integrated with the backend system that manages the provisioning of service instances and the metrics for a selected pricing plan. If a customer deletes an instance of the product, a request is sent to the service broker, and it manages the deprovisioning of the instance.
-![A diagram that shows third-party providers what role a service broker performs when a user selects their product from the catalog.](images/Broker_role.svg "Understanding the role of a service broker when a user selects a product from the {{site.data.keyword.cloud_notm}} catalog."){: caption="Figure 1. Understanding the role of a service broker when a user selects a product from the {{site.data.keyword.cloud_notm}} catalog."}
+![A diagram that shows third-party providers what role a service broker performs when a user selects their product from the catalog.](images/Broker_role.svg "Understanding the role of a service broker when a user selects a product from the {{site.data.keyword.cloud_notm}} catalog."){: caption="Understanding the role of a service broker when a user selects a product from the {{site.data.keyword.cloud_notm}} catalog."}
 
 The broker architecture provides significant benefits for both development and operations teams:
 * Developers can connect their applications and containers to the backing services they need. The operation is the same, regardless of the backing service.
