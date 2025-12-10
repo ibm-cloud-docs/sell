@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2025-12-08"
+lastupdated: "2025-12-10"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image
@@ -154,12 +154,7 @@ Validate that you can deploy the virtual server image to your VPC.
     You can monitor the progress of the validation process by clicking **View logs**.
     {: tip}
 
-After the validation completes successfully, you can go back to the Manage compliance page to view the results of the Code Risk Analyzer scan that ran against your controls during validation. Next, you can optionally add on results for an {{site.data.keyword.compliance_long}} scan based on a profile that you have already configured in your account for additional evidence of compliance.
-
-1. On the Validate version page, go to the **Submit scan** tab.
-1. Select an available scan, and click **Submit scan**. If you don't have any profile options to choose from, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles&interface=ui).
-
-You can view the results of applying this scan on the Manage compliance page.
+After the validation completes successfully, you can go to the **Manage compliance** page to claim compliance for your software by adding controls that are used to meet security and compliance requirements, and inventory results from {{site.data.keyword.sysdigsecure_short}}.
 
 {{site.data.content.manage-compliance}}
 

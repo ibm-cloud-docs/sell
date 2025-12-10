@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2025
 
-lastupdated: "2025-02-21"
+lastupdated: "2025-12-10"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -257,24 +257,39 @@ fmt.Println(response)
 {: codeblock}
 {: go}
 
-## Manage security and compliance controls
+## Managing security and compliance controls
 {: #sell-controls}
 {: ui}
 
-Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by Security and Compliance Center, formatted correctly, and validated by Code Risk Analysis and Security and Compliance Center scans appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
+Controls are safeguards that are used to meet security and compliance requirements. Only controls that are supported by {{site.data.keyword.sysdigsecure_short}} appear in the catalog. For more information, see [Formatting controls in your readme file](/docs/sell?topic=sell-sell-format-controls).
 
-1. Click **Add controls**.
-1. Choose a profile.
-1. Select the controls that you want to add to your version.
+### Adding controls
+{: #add-sell-controls}
+{: ui}
+
+To add controls, complete the following steps:
+
+1. On the Manage compliance page, select **Add controls**.
+1. Select a {{site.data.keyword.sysdigsecure_short}} instance, then a policy.
+
+    If you haven't provisioned a {{site.data.keyword.sysdigsecure_short}} instance yet, you must [set up one](/docs/workload-protection?topic=workload-protection-provision&interface=ui) from the {{site.data.keyword.cloud_notm}} catalog and [enable Cloud Security Posture Management (CSPM)](/docs/workload-protection?topic=workload-protection-cspm-implement&interface=ui) for your {{site.data.keyword.cloud_notm}} account. Then, complete the steps to [integrate with either an existing {{site.data.keyword.sysdigsecure_short}} instance or a new instance](/docs/workload-protection?topic=workload-protection-cspm-implement&interface=ui).
+    {: important}
+
+1. Select whether you want to add the entire policy or only a subset of controls.
+1. If you select to add an entire policy, continue to the next step. If you select to add a subset of controls, select the controls that you want to add.
 1. Click **Add**.
-1. In the Code Risk Analyzer scan section, click **Run scan**.
-1. Wait for the scan to finish.
-1. In the Security and Compliance Center scan section, select the profile that you scanned.
-1. Select the Security and Compliance Center scan.
-1. Click **Add scan**.
-1. Click **Next**.
 
-## Review requirements
-{: #catalog-manage-review-reqs}
+### Adding inventory results from {{site.data.keyword.sysdigsecure_short}}
+{: #add-sell-inventory}
+{: ui}
 
-You must complete validation and any other requirements to publish your product.
+You can add inventory results from {{site.data.keyword.sysdigsecure_short}} so that users can see the claimed compliance when they evaluate your product in the catalog.
+
+In {{site.data.keyword.sysdigsecure_short}}, your inventory is updated once every day. You must deploy your resources and wait for the inventory to be updated before you add the inventory to your catalog listing. For more information, go to [Inventory](/docs/workload-protection?topic=workload-protection-inventory).
+{: important}
+
+To add inventory results, complete the following steps:
+
+1. On the Manage compliance page, click **Add results**.
+1. Select the {{site.data.keyword.sysdigsecure_short}} instance that you provisioned previously.
+1. Click **Apply** to apply the latest inventory results.
