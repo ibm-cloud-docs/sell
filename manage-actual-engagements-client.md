@@ -32,7 +32,7 @@ After the pricing is approved, you can publish the service and view it in the {{
     1. Click **Create**. You are directed to the instance page.
 1. In the instance page, the **Engagement status** section displays the request stated as **Pending**. An email notification is sent to the partner for approval.
 
-For more information on using managed professional services as a partner, see [Administering managed professional service as a partner](/docs/sell?topic=sell-consume-mps-partner&interface=ui).
+For more information on using managed professional services as a partner, see [Administering managed professional services as a partner](/docs/sell?topic=sell-consume-mps-partner&interface=ui).
 
 ## Requesting to complete the engagement
 {: #request-complete-engagement}

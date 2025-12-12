@@ -22,10 +22,10 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-Managed professional services provide clients with end-to-end solutions delivered and maintained by expert partners, eliminating the need for clients to manage technical complexity themselves. These services typically include setup, configuration, monitoring, compliance, and ongoing support, which can ensure reliability and scalability. By using platforms like Partner Center for service creation and the Global catalog for seamless discovery and provisioning, businesses can access tailored, fully managed offerings that accelerate time-to-value and reduce operational burden.
-
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your managed professional services as a partner, you can use Partner Center to set up the offering. It process includes onboarding your product, configuring custom parameters and contact information, setting up new pricing plans, adding metrics to your pricing plan, providing support details, and managing resource provisioning. After your service is published, it becomes available in the {{site.data.keyword.cloud_notm}} catalog, ready for clients to discover and consume.
 {: shortdesc}
+
+Managed professional services provide clients with end-to-end solutions delivered and maintained by expert partners, eliminating the need for clients to manage technical complexity themselves. These services typically include setup, configuration, monitoring, compliance, and ongoing support, which can ensure reliability and scalability. By using tools like Partner Center for service creation and the {{site.data.keyword.cloud_notm}} for seamless discovery and provisioning, businesses can access tailored, fully managed offerings that accelerate time-to-value and reduce operational burden.
 
 ## Lifecycle management of an engagement
 {: #lifecycle-engagement}
@@ -44,7 +44,7 @@ Onboarding your professional services to {{site.data.keyword.cloud_notm}} involv
 1. The engagement is complete
 
 **Partner role**:
-The partner uses Partner Center to onboard and configure managed professional services. This process involves setting up the service offering, defining custom parameters, adding contact and support details, creating pricing plans with relevant metrics, and managing resource provisioning. For more information on how to manage published engagements as a partner, see [Administering managed professional service as a partner](/docs/sell?topic=sell-consume-mps-partner&interface=ui).
+The partner uses Partner Center to onboard and configure managed professional services. This process involves setting up the service offering, defining custom parameters, adding contact and support details, creating pricing plans with relevant metrics, and managing resource provisioning. For more information on how to manage published engagements as a partner, see [Administering managed professional services as a partner](/docs/sell?topic=sell-consume-mps-partner&interface=ui).
 
 **Client role**:
 Clients access the {{site.data.keyword.cloud_notm}} catalog to explore and select published managed professional services. They can review the available offerings and engage with the service as configured by the partner, ensuring a streamlined experience for consuming professional services. For more information on how to manage published enagagements as a client, see [Consuming managed professional services as a client](/docs/sell?topic=sell-consume-mps-client&interface=ui).
@@ -133,8 +133,8 @@ As part of onboarding, it’s important to provide support information so client
 
 Now that you completed the onboarding tasks, you're ready to manage published engagements.
 
-- To manage published engagements as a partner, see [Administering managed professional service as a partner](/docs/sell?topic=sell-consume-mps-partner&interface=ui).
-- To manage published engagements as a client, see [Consuming managed professional services as a client](/docs/sell?topc=sell-consume-mps-client).
+- To manage published engagements as a client, see [Consuming managed professional services as a client](/docs/sell?topic=sell-consume-mps-client).
+- To manage published engagements as a partner, see [Administering managed professional services as a partner](/docs/sell?topic=sell-consume-mps-partner).
 
 To get an overview of all the tasks involved in the process, see the [Checklist for selling managed professional services on {{site.data.keyword.cloud_notm}}](/docs/sell?topic=sell-checklist-mps&interface=ui).
 {: tip}
