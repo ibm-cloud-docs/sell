@@ -30,6 +30,13 @@ toc:
           - service-get-start.md
           - service-checklist.md
           - service-platform.md
+      - topicgroup:
+          label: Understanding how to sell managed professional services
+          topics:
+          - managed-professional-service-get-start.md
+          - managed-professional-services-checklist.md
+          - manage-actual-engagements-client.md
+          - manage-actual-engagements-partner.md
   - navgroup:
       id: tutorial
       topics:
