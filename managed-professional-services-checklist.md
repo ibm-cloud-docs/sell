@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2025
+  years: 2026
 
-lastupdated: "2025-12-12"
+lastupdated: "2026-01-13"
 
 keywords: end-to-end, managed professional services, checklist, requirements, partners, global catalog, partner center sell
 
@@ -45,7 +45,7 @@ The following tasks are typically completed by a team member familiar with the b
 |------|-------------|-------------|
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Review display name | Review the display name of the product that was generated for you and make any updates to it if needed. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Create and submit programmatic name | Create a programmatic name for your product and submit it for review. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify your partner details | Review the company and team information and make sure that everything is correct.	| {{site.data.keyword.cloud_notm}} console |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Verify your IBM Business Partner details | Review the company and team information and make sure that everything is correct.	| {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your product details | Add details, such as your product logo, keywords, description, features, and documentation URL, for your product's entry and details page in the {{site.data.keyword.cloud_notm}} catalog. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your support details | Provide your support site URL, contacts, escalation process, and the locations where your support teams are based. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Tasks for defining managed professional services details" caption-side="top"}
