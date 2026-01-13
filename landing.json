@@ -47,16 +47,16 @@
     "view_more": "/docs/overview?topic=overview-whatsnew",
     "tiles": [
       {
+        "date": "12 Dec 2025",
+        "title": "Onboarding managed professional services with usage-based pricing plans"
+      },
+      {
         "date": "31 May 2024",
         "title": "Onboarding software with usage-based pricing plans"
       },
       {
         "date": "20 September 2023",
         "title": "Support for onboarding third-party deployable architectures in Partner Center"
-      },
-      {
-        "date": "12 April 2023",
-        "title": "Specify language support for community-supported products"
       }
     ]
   }
