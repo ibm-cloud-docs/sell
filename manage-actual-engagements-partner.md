@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2025
+  years: 2026
 
-lastupdated: "2025-12-12"
+lastupdated: "2026-01-13"
 
 keywords: IBM Cloud platform, managed professional services
 
@@ -14,10 +14,10 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Administering managed professional services as a partner
+# Administering managed professional services as an IBM Business Partner
 {: #consume-mps-partner}
 
-To administer managed professional services tile as a partner, navigate to Partner Center to approve requests, add billing entries, and confirm engagements to help ensure a smooth activation of the partnership and service setup.
+To administer managed professional services tile as a Business Partner, navigate to Partner Center to approve requests, add billing entries, and confirm engagements to help ensure a smooth activation of the partnership and service setup.
 
 ## Approving requests
 {: #approve-requests}
