@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2019, 2024
+  years: 2019, 2026
 
-lastupdated: "2025-12-02"
+lastupdated: "2026-02-10"
 
 keywords: service parameter definition, parameters, parameter example,
 
@@ -23,7 +23,7 @@ Service parameters are used to collect and add additional data points to a call 
 
 The following example illustrates how to specify a custom service parameter for a required text field.
 
-Inside the surrounding `metadata` and `service` JSON structures, the `parameters` key identifies a JSON array of custom service parameters. In this example, the array contains only one custom parameter, which has the identifier `subscription_id`. It is a required text field with the label "Subscription ID" and the description "Subscription ID that will be used when provisioning the service instance". This custom parameter will be displayed in the UI whenever the user selects either of the two associated price plans, '068f8a20-8b27-4049-91fe-a3ff5f505352' or '45333bd7-79f5-475f-9b14-9fe99734592a':
+Inside the surrounding `metadata` and `service` JSON structures, the `parameters` key identifies a JSON array of custom service parameters. In this example, the array contains only one custom parameter, which has the identifier `subscription_id`. It is a required text field with the label `Subscription ID` and the description `Subscription ID that will be used when provisioning the service instance`. This custom parameter will be displayed in the UI whenever the user selects either of the two associated price plans, `068f8a20-8b27-4049-91fe-a3ff5f505352` or `45333bd7-79f5-475f-9b14-9fe99734592a`:
 
 ```json
 {
