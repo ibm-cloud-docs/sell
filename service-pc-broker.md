@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2025
+  years: 2022, 2026
 
-lastupdated: "2025-12-08"
+lastupdated: "2026-02-10"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, host service broker
 
@@ -39,7 +39,7 @@ The broker architecture provides significant benefits for both development and o
 Each service broker that's built to the Open Service Broker API specification has the same intuitive set of lifecycle commands. These commands provide useful benefits for the service broker:
 
 Fetching the catalog of backing services that a service broker offers
-:   The catalog describes all of the services that can be created through a service broker, and each service is made up of plans. Plans typically represent the costs and benefits for a given variant of the service. Many services use plans related to the size the product, for example small, medium, and large.
+:   The catalog describes all of the services that can be created through a service broker, and each service is made up of plans. Plans typically represent the costs and benefits for a given variant of the service. Many services use plans that represent different tiers or configurations of the product.
 
 Provisioning new service instances
 :   A service instance is a created instance of a service and plan as described in the service broker’s catalog.
