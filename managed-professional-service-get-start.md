@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2026
+  years: 2025, 2026
 
-lastupdated: "2026-01-13"
+lastupdated: "2026-02-11"
 
 keywords: managed professional services, getting started, partner center, partner center sell, global catalog
 
@@ -106,6 +106,7 @@ The consulting Business Partner then adds metrics to measure usage with usage-ba
 1. Select the unit for measuring metrics.
     * **Hours**: Represents the amount of time spent delivering the service during the engagement.
     * **Implementation**: Captures a one-time agreed upon cost for setting up or configuring the service.
+    * **Unit**: Defines any custom measurement metric such as consulting units, managed services units.
 
     The **Hours** unit is the most frequently used measurement.
     {: note}
