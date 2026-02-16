@@ -3,7 +3,7 @@
 copyright:
   years: 2025, 2026
 
-lastupdated: "2026-02-11"
+lastupdated: "2026-02-16"
 
 keywords: managed professional services, getting started, partner center, partner center sell, global catalog
 
@@ -32,7 +32,7 @@ Managed professional services provide clients with end-to-end solutions delivere
 
 Onboarding your professional services to {{site.data.keyword.cloud_notm}} involves eight major steps. Check out the following workflow for a walk-through of the complete process.
 
-![A diagram that shows how you can onboard managed professional services to {{site.data.keyword.cloud_notm}}.](images/managed-prof-service-workflow.svg "Onboard managed professional services to {{site.data.keyword.cloud_notm}}."){: caption="Onboard managed professional services to {{site.data.keyword.cloud_notm}}."}
+![A diagram that shows how you can onboard managed professional services to {{site.data.keyword.cloud_notm}}.](images/managed-prof-service-workflow-translation-v2.svg){: caption="Onboard managed professional services to {{site.data.keyword.cloud_notm}}."}
 
 1. The Business Partner registers the service in Partner Center
 1. The client selects the service from the catalog and creates an instance
