@@ -219,8 +219,8 @@
       <polygon class="st12" points="1660.5 406.9 1664.7 418.7 1669 406.9 1660.5 406.9"/>
     </g>
     <g>
-      <line class="st2" x1="1955.7" y1="434.3" x2="1955.7" y2="207.9"/>
-      <polygon class="st12" points="1960.4 209.9 1955.7 197.9 1951.1 209.9 1960.4 209.9"/>
+      <line class="st2" x1="1955.8" y1="437.3" x2="1955.8" y2="207.1"/>
+      <polygon class="st12" points="1960.5 209.1 1955.8 196.9 1951.1 209.1 1960.5 209.1"/>
     </g>
     <g>
       <rect class="st19" x="1943.8" y="297.7" width="23.3" height="16.9"/>
@@ -926,7 +926,7 @@
         <text class="st13" transform="translate(1589.4 135.3)"><tspan x="0" y="0">s</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(1595.2 135.3)"><tspan x="0" y="0">sional se</tspan></text>
+        <text class="st13" transform="translate(1595.2 135.3)"><tspan x="0" y="0">sional Se</tspan></text>
       </g>
       <g class="st16">
         <text class="st13" transform="translate(1642.5 135.3)"><tspan x="0" y="0">r</tspan></text>
@@ -1124,32 +1124,6 @@
     </g>
     <g class="st16">
       <g class="st16">
-        <text class="st13" transform="translate(2159.8 304.9)"><tspan x="0" y="0">R</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2167.3 304.9)"><tspan x="0" y="0">aise i</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2195 304.9)"><tspan x="0" y="0">n</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2207.5 304.9)"><tspan x="0" y="0">oi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2217.2 304.9)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2223.2 304.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2232.6 304.9)"><tspan x="0" y="0">t</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2236.8 304.9)"><tspan x="0" y="0">o client</tspan></text>
-      </g>
-    </g>
-    <g class="st16">
-      <g class="st16">
         <text class="st13" transform="translate(2430 282.9)"><tspan x="0" y="0">13</tspan></text>
       </g>
     </g>
@@ -1285,11 +1259,12 @@
       </g>
     </g>
     <text class="st21" transform="translate(1864.2 122.1)"><tspan x="0" y="0">Review configuration.</tspan><tspan x="0" y="14.4">Reach out to the client or </tspan><tspan x="0" y="28.8">approve the request</tspan></text>
-    <text class="st21" transform="translate(2444.8 126.3)"><tspan x="0" y="0">Receive royal</tspan><tspan x="72" y="0">-</tspan></text>
     <text class="st21" transform="translate(2454.9 306.8)"><tspan x="0" y="0">Receive payment and </tspan><tspan x="0" y="14.4">release royalty</tspan></text>
     <text class="st21" transform="translate(2161.2 462.9)"><tspan x="0" y="0">Receive invoice and make </tspan><tspan x="0" y="14.4">a payment </tspan></text>
     <text class="st21" transform="translate(989.7 300.5)"><tspan x="0" y="0">Billing team reviews and </tspan><tspan x="0" y="14.4">approves pricing </tspan><tspan x="0" y="28.8">configuration</tspan></text>
     <text class="st21" transform="translate(693.7 300.6)"><tspan x="0" y="0">Ecosystem team reviews </tspan><tspan x="0" y="14.4">and approves pricing </tspan><tspan x="0" y="28.8">configuration</tspan></text>
     <text class="st21" transform="translate(109.3 122.8)"><tspan x="0" y="0">Initiate creation of Managed </tspan><tspan x="0" y="14.4">Professional Service tile</tspan></text>
+    <text class="st21" transform="translate(2446.9 124.3)"><tspan x="0" y="0">Receive royal</tspan><tspan x="72" y="0">-</tspan></text>
+    <text class="st21" transform="translate(2160.9 303.4)"><tspan x="0" y="0">Raise invoice to </tspan></text>
   </g>
 </svg>
