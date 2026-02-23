@@ -80,13 +80,13 @@
         fill: #f4f4f5;
       }
 
-      .st11 {
-        stroke-dasharray: 3.1 3.1;
-      }
-
-      .st13, .st17 {
+      .st21, .st13, .st17 {
         font-family: IBMPlexSans, 'IBM Plex Sans';
         font-size: 12px;
+      }
+
+      .st11 {
+        stroke-dasharray: 3.1 3.1;
       }
     </style>
   </defs>
@@ -743,56 +743,6 @@
         <text class="st13" transform="translate(53 56.2) rotate(-90)"><tspan x="0" y="0">er</tspan></text>
       </g>
     </g>
-    <g>
-      <path class="st12" d="M106.9,122.3v-.8h1.2v-6.7h-1.2v-.8h3.4v.8h-1.2v6.7h1.2v.8h-3.4Z"/>
-      <path class="st12" d="M112,122.3v-6.2h1v1h0c.3-.7.8-1.2,1.8-1.2s2.1.9,2.1,2.4v4h-1v-3.8c0-1.1-.5-1.7-1.4-1.7s-1.5.4-1.5,1.2v4.3s-1,0-1,0Z"/>
-      <path class="st12" d="M118.7,114.1v-.2c0-.3.2-.5.6-.5s.6.2.6.5v.2c0,.3-.2.5-.6.5s-.6-.2-.6-.5ZM118.8,116.1h1v6.2h-1v-6.2Z"/>
-      <path class="st12" d="M123.2,122.3c-.7,0-1-.4-1-1v-4.3h-1v-.8h.6c.4,0,.5,0,.5-.6v-1.2h.9v1.7h1.4v.8h-1.4v4.5h1.3v.8h-1.3Z"/>
-      <path class="st12" d="M125.9,114.1v-.2c0-.3.2-.5.6-.5s.6.2.6.5v.2c0,.3-.2.5-.6.5s-.6-.2-.6-.5ZM126,116.1h1v6.2h-1v-6.2Z"/>
-      <path class="st12" d="M133.5,122.3c-.7,0-1-.4-1.1-1h0c-.3.8-.9,1.2-1.8,1.2-1.3,0-2.1-.7-2.1-1.9s.8-1.8,2.6-1.8h1.2v-.6c0-.9-.5-1.4-1.5-1.4s-1.2.4-1.6.9l-.6-.5c.3-.7,1.1-1.2,2.2-1.2s2.4.8,2.4,2.1v3.4h.7v.8h-.5.1ZM132.4,120.5v-1h-1.3c-1.1,0-1.6.3-1.6.9v.3c0,.6.5,1,1.2,1s1.6-.5,1.6-1.1h.1Z"/>
-      <path class="st12" d="M136.8,122.3c-.7,0-1-.4-1-1v-4.3h-1v-.8h.6c.4,0,.5,0,.5-.6v-1.2h.9v1.7h1.4v.8h-1.4v4.5h1.3v.8h-1.3Z"/>
-      <path class="st12" d="M139.1,119.2c0-2,1.1-3.2,2.8-3.2s2.7,1.3,2.7,3v.5h-4.4v.3c0,1.1.7,1.9,1.8,1.9s1.4-.4,1.7-1.1l.7.5c-.4.8-1.3,1.4-2.4,1.4-1.7,0-2.8-1.3-2.8-3.2h-.1ZM140.1,118.7h3.4c0-1.2-.7-2-1.6-2s-1.8.8-1.8,1.9h0Z"/>
-      <path class="st12" d="M148.5,119.2c0-2,1-3.2,2.8-3.2s2,.6,2.3,1.5l-.8.4c-.2-.6-.8-1-1.5-1-1.1,0-1.7.8-1.7,1.9v1.1c0,1.1.6,1.9,1.7,1.9s1.3-.4,1.7-1.1l.7.5c-.4.9-1.2,1.5-2.4,1.5-1.7,0-2.8-1.3-2.8-3.2h0v-.3Z"/>
-      <path class="st12" d="M155,122.3v-6.2h1v1.1h0c.2-.6.8-1.1,1.8-1.1h.4v1h-.6c-1,0-1.7.4-1.7,1v4.2h-1,.1Z"/>
-      <path class="st12" d="M158.9,119.2c0-2,1.1-3.2,2.8-3.2s2.7,1.3,2.7,3v.5h-4.4v.3c0,1.1.7,1.9,1.8,1.9s1.4-.4,1.7-1.1l.7.5c-.4.8-1.3,1.4-2.4,1.4-1.7,0-2.8-1.3-2.8-3.2h-.1ZM159.9,118.7h3.4c0-1.2-.7-2-1.6-2s-1.8.8-1.8,1.9h0Z"/>
-      <path class="st12" d="M170.5,122.3c-.7,0-1-.4-1.1-1h0c-.3.8-.9,1.2-1.8,1.2-1.3,0-2.1-.7-2.1-1.9s.8-1.8,2.6-1.8h1.2v-.6c0-.9-.5-1.4-1.5-1.4s-1.2.4-1.6.9l-.6-.5c.3-.7,1.1-1.2,2.2-1.2s2.4.8,2.4,2.1v3.4h.7v.8h-.5.1ZM169.3,120.5v-1h-1.3c-1.1,0-1.6.3-1.6.9v.3c0,.6.5,1,1.2,1s1.6-.5,1.6-1.1h.1Z"/>
-      <path class="st12" d="M173.7,122.3c-.7,0-1-.4-1-1v-4.3h-1v-.8h.6c.4,0,.5,0,.5-.6v-1.2h.9v1.7h1.4v.8h-1.4v4.5h1.3v.8h-1.3Z"/>
-      <path class="st12" d="M176.5,114.1v-.2c0-.3.2-.5.6-.5s.6.2.6.5v.2c0,.3-.2.5-.6.5s-.6-.2-.6-.5ZM176.6,116.1h1v6.2h-1v-6.2Z"/>
-      <path class="st12" d="M179.1,119.2c0-2,1.1-3.2,2.8-3.2s2.8,1.3,2.8,3.2-1.1,3.2-2.8,3.2-2.8-1.3-2.8-3.2ZM183.7,119.7v-.9c0-1.3-.7-1.9-1.8-1.9s-1.8.6-1.8,1.9v.9c0,1.3.7,1.9,1.8,1.9s1.8-.6,1.8-1.9Z"/>
-      <path class="st12" d="M186.3,122.3v-6.2h1v1h0c.3-.7.8-1.2,1.8-1.2s2.1.9,2.1,2.4v4h-1v-3.8c0-1.1-.5-1.7-1.4-1.7s-1.5.4-1.5,1.2v4.3h-1Z"/>
-      <path class="st12" d="M195.5,119.2c0-2,1.1-3.2,2.8-3.2s2.8,1.3,2.8,3.2-1.1,3.2-2.8,3.2-2.8-1.3-2.8-3.2ZM200.1,119.7v-.9c0-1.3-.7-1.9-1.8-1.9s-1.8.6-1.8,1.9v.9c0,1.3.7,1.9,1.8,1.9s1.8-.6,1.8-1.9Z"/>
-      <path class="st12" d="M202.9,117h-1v-.8h1v-1.2c0-.9.4-1.4,1.4-1.4h.9v.8h-1.3v1.8h1.3v.8h-1.3v5.3h-1v-5.3h0Z"/>
-      <path class="st12" d="M209.4,113.9h1.3l2.4,4.5h0l2.4-4.5h1.3v8.4h-1v-7.1h0l-.7,1.4-2,3.6-2-3.6-.7-1.4h0v7.1h-1v-8.4h0Z"/>
-      <path class="st12" d="M223.6,122.3c-.7,0-1-.4-1.1-1h0c-.3.8-.9,1.2-1.8,1.2-1.3,0-2.1-.7-2.1-1.9s.8-1.8,2.6-1.8h1.2v-.6c0-.9-.5-1.4-1.5-1.4s-1.2.4-1.6.9l-.6-.5c.3-.7,1.1-1.2,2.2-1.2s2.4.8,2.4,2.1v3.4h.7v.8h-.5.1ZM222.4,120.5v-1h-1.3c-1.1,0-1.6.3-1.6.9v.3c0,.6.5,1,1.2,1s1.6-.5,1.6-1.1h.1Z"/>
-      <path class="st12" d="M225.5,122.3v-6.2h1v1h0c.3-.7.8-1.2,1.8-1.2s2.1.9,2.1,2.4v4h-1v-3.8c0-1.1-.5-1.7-1.4-1.7s-1.5.4-1.5,1.2v4.3h-1Z"/>
-      <path class="st12" d="M236.8,122.3c-.7,0-1-.4-1.1-1h0c-.3.8-.9,1.2-1.8,1.2-1.3,0-2.1-.7-2.1-1.9s.8-1.8,2.6-1.8h1.2v-.6c0-.9-.5-1.4-1.5-1.4s-1.2.4-1.6.9l-.6-.5c.3-.7,1.1-1.2,2.2-1.2s2.4.8,2.4,2.1v3.4h.7v.8h-.5.1ZM235.7,120.5v-1h-1.3c-1.1,0-1.6.3-1.6.9v.3c0,.6.5,1,1.2,1s1.6-.5,1.6-1.1h.1Z"/>
-      <path class="st12" d="M240.9,124.9c-1.9,0-2.7-.6-2.7-1.5s.4-1,1-1.2h0c-.3-.3-.6-.6-.6-1,0-.6.4-.9,1.1-1.1h0c-.7-.4-1.2-1.1-1.2-1.9,0-1.3.9-2.1,2.3-2.1s.8,0,1.2.2h0c0-.6.2-.9.7-.9h.9v.8h-1.2v.4c.4.4.7.9.7,1.6,0,1.3-.9,2.1-2.3,2.1s-.4,0-.6,0c-.4,0-.8.3-.8.7s.4.5.9.5h1.3c1.5,0,2.2.6,2.2,1.6s-1,1.9-3,1.9h.1ZM241.7,122.2h-2.1c-.4.2-.6.5-.6.8s.4,1,1.3,1h.9c1.1,0,1.7-.3,1.7-1s-.3-.8-1.3-.8h.1ZM242.2,118.3v-.3c0-.8-.5-1.2-1.3-1.2s-1.3.4-1.3,1.2v.3c0,.8.5,1.2,1.3,1.2s1.3-.4,1.3-1.2Z"/>
-      <path class="st12" d="M244.5,119.2c0-2,1.1-3.2,2.8-3.2s2.7,1.3,2.7,3v.5h-4.4v.3c0,1.1.7,1.9,1.8,1.9s1.4-.4,1.7-1.1l.7.5c-.4.8-1.3,1.4-2.4,1.4-1.7,0-2.8-1.3-2.8-3.2h-.1ZM245.5,118.7h3.4c0-1.2-.7-2-1.6-2s-1.8.8-1.8,1.9h0Z"/>
-      <path class="st12" d="M255.5,121.3h0c-.4.8-1,1.2-1.8,1.2-1.5,0-2.5-1.3-2.5-3.2s1-3.2,2.5-3.2,1.5.4,1.8,1.2h0v-3.7h1v8.9h-1v-1h0v-.2ZM255.5,120.3v-2.3c0-.7-.7-1.2-1.6-1.2s-1.8.7-1.8,1.8v1.1c0,1.1.7,1.8,1.8,1.8s1.6-.5,1.6-1.3h0Z"/>
-      <path class="st12" d="M107.3,136.7v-8.4h3.3c1.5,0,2.3.9,2.3,2.4s-.8,2.4-2.3,2.4h-2.3v3.6h-1ZM108.3,132.2h2.3c.8,0,1.3-.4,1.3-1.2v-.6c0-.8-.5-1.2-1.3-1.2h-2.3v3h0Z"/>
-      <path class="st12" d="M114.3,136.7v-6.2h1v1.1h0c.2-.6.8-1.1,1.8-1.1h.4v1h-.6c-1,0-1.7.4-1.7,1v4.2h-1,0Z"/>
-      <path class="st12" d="M118.2,133.6c0-2,1.1-3.2,2.8-3.2s2.8,1.3,2.8,3.2-1.1,3.2-2.8,3.2-2.8-1.3-2.8-3.2ZM122.8,134.1v-.9c0-1.3-.7-1.9-1.8-1.9s-1.8.6-1.8,1.9v.9c0,1.3.7,1.9,1.8,1.9s1.8-.6,1.8-1.9Z"/>
-      <path class="st12" d="M125.7,131.4h-1v-.8h1v-1.2c0-.9.4-1.4,1.4-1.4h.9v.8h-1.3v1.8h1.3v.8h-1.3v5.3h-1v-5.3h0Z"/>
-      <path class="st12" d="M128.7,133.6c0-2,1.1-3.2,2.8-3.2s2.7,1.3,2.7,3v.5h-4.4v.3c0,1.1.7,1.9,1.8,1.9s1.4-.4,1.7-1.1l.7.5c-.4.8-1.3,1.4-2.4,1.4-1.7,0-2.8-1.3-2.8-3.2h-.1ZM129.7,133h3.4c0-1.2-.7-2-1.6-2s-1.8.8-1.8,1.9h0Z"/>
-      <path class="st12" d="M135.2,135.6l.7-.6c.5.6,1.1.9,1.8.9s1.3-.4,1.3-1-.3-.9-1.1-1h-.5c-1.1-.2-2-.7-2-1.9s.9-1.8,2.2-1.8,1.7.4,2.2,1l-.6.6c-.3-.4-.8-.8-1.6-.8s-1.2.4-1.2,1,.4.8,1.2,1h.5c1.4.3,1.9.9,1.9,1.8s-.9,1.9-2.3,1.9-1.9-.5-2.4-1.2h0Z"/>
-      <path class="st12" d="M140.9,135.6l.7-.6c.5.6,1.1.9,1.8.9s1.3-.4,1.3-1-.3-.9-1.1-1h-.5c-1.1-.2-2-.7-2-1.9s.9-1.8,2.2-1.8,1.7.4,2.2,1l-.6.6c-.3-.4-.8-.8-1.6-.8s-1.2.4-1.2,1,.4.8,1.2,1h.5c1.4.3,1.9.9,1.9,1.8s-.9,1.9-2.3,1.9-1.9-.5-2.4-1.2h0Z"/>
-      <path class="st12" d="M147.3,128.5v-.2c0-.3.2-.5.6-.5s.6.2.6.5v.2c0,.3-.2.5-.6.5s-.6-.2-.6-.5ZM147.4,130.5h1v6.2h-1v-6.2Z"/>
-      <path class="st12" d="M149.9,133.6c0-2,1.1-3.2,2.8-3.2s2.8,1.3,2.8,3.2-1.1,3.2-2.8,3.2-2.8-1.3-2.8-3.2ZM154.5,134.1v-.9c0-1.3-.7-1.9-1.8-1.9s-1.8.6-1.8,1.9v.9c0,1.3.7,1.9,1.8,1.9s1.8-.6,1.8-1.9Z"/>
-      <path class="st12" d="M157.1,136.7v-6.2h1v1h0c.3-.7.8-1.2,1.8-1.2s2.1.9,2.1,2.4v4h-1v-3.8c0-1.1-.5-1.7-1.4-1.7s-1.5.4-1.5,1.2v4.3h-1Z"/>
-      <path class="st12" d="M168.4,136.7c-.7,0-1-.4-1.1-1h0c-.3.8-.9,1.2-1.8,1.2-1.3,0-2.1-.7-2.1-1.9s.8-1.8,2.6-1.8h1.2v-.6c0-.9-.5-1.4-1.5-1.4s-1.2.4-1.6.9l-.6-.5c.3-.7,1.1-1.2,2.2-1.2s2.4.8,2.4,2.1v3.4h.7v.8h-.5.1ZM167.3,134.9v-1h-1.3c-1.1,0-1.6.3-1.6.9v.3c0,.6.5,1,1.2,1s1.6-.5,1.6-1.1h.1Z"/>
-      <path class="st12" d="M171.3,136.7c-.7,0-1-.4-1-1v-7.9h1v8h.9v.8h-.9Z"/>
-      <path class="st12" d="M175.9,135.4l.7-.6c.6.8,1.3,1.2,2.3,1.2s1.8-.6,1.8-1.6-.4-1.2-1.5-1.4l-.7-.2c-1.5-.3-2.4-1-2.4-2.3s1.1-2.3,2.8-2.3,2.1.5,2.8,1.4l-.8.6c-.5-.6-1.1-1-2.1-1s-1.7.5-1.7,1.4.5,1.2,1.6,1.4l.7.2c1.6.4,2.3,1.1,2.3,2.3s-1.1,2.5-2.9,2.5-2.3-.6-3-1.5h0Z"/>
-      <path class="st12" d="M182.9,133.6c0-2,1.1-3.2,2.8-3.2s2.7,1.3,2.7,3v.5h-4.4v.3c0,1.1.7,1.9,1.8,1.9s1.4-.4,1.7-1.1l.7.5c-.4.8-1.3,1.4-2.4,1.4-1.7,0-2.8-1.3-2.8-3.2h-.1ZM183.9,133h3.4c0-1.2-.7-2-1.6-2s-1.8.8-1.8,1.9h0Z"/>
-      <path class="st12" d="M190,136.7v-6.2h1v1.1h0c.2-.6.8-1.1,1.8-1.1h.4v1h-.6c-1,0-1.7.4-1.7,1v4.2h-1,.1Z"/>
-      <path class="st12" d="M195.9,136.7l-2.2-6.2h1l1.1,3.1.7,2.1h0l.7-2.1,1.1-3.1h.9l-2.2,6.2h-1.1Z"/>
-      <path class="st12" d="M200.3,128.5v-.2c0-.3.2-.5.6-.5s.6.2.6.5v.2c0,.3-.2.5-.6.5s-.6-.2-.6-.5ZM200.4,130.5h1v6.2h-1v-6.2Z"/>
-      <path class="st12" d="M202.9,133.6c0-2,1-3.2,2.8-3.2s2,.6,2.3,1.5l-.8.4c-.2-.6-.8-1-1.5-1-1.1,0-1.7.8-1.7,1.9v1.1c0,1.1.6,1.9,1.7,1.9s1.3-.4,1.7-1.1l.7.5c-.4.9-1.2,1.5-2.4,1.5-1.7,0-2.8-1.3-2.8-3.2h0v-.3Z"/>
-      <path class="st12" d="M208.9,133.6c0-2,1.1-3.2,2.8-3.2s2.7,1.3,2.7,3v.5h-4.4v.3c0,1.1.7,1.9,1.8,1.9s1.4-.4,1.7-1.1l.7.5c-.4.8-1.3,1.4-2.4,1.4-1.7,0-2.8-1.3-2.8-3.2h-.1ZM209.9,133h3.4c0-1.2-.7-2-1.6-2s-1.8.8-1.8,1.9h0Z"/>
-      <path class="st12" d="M220.1,136.7c-.7,0-1-.4-1-1v-4.3h-1v-.8h.6c.4,0,.5-.1.5-.6v-1.2h.9v1.7h1.4v.8h-1.4v4.5h1.3v.8h-1.3Z"/>
-      <path class="st12" d="M222.9,128.5v-.2c0-.3.2-.5.6-.5s.6.2.6.5v.2c0,.3-.2.5-.6.5s-.6-.2-.6-.5ZM223,130.5h1v6.2h-1v-6.2Z"/>
-      <path class="st12" d="M227,136.7c-.7,0-1-.4-1-1v-7.9h1v8h.9v.8h-.9Z"/>
-      <path class="st12" d="M228.8,133.6c0-2,1.1-3.2,2.8-3.2s2.7,1.3,2.7,3v.5h-4.4v.3c0,1.1.7,1.9,1.8,1.9s1.4-.4,1.7-1.1l.7.5c-.4.8-1.3,1.4-2.4,1.4-1.7,0-2.8-1.3-2.8-3.2h-.1ZM229.8,133h3.4c0-1.2-.7-2-1.6-2s-1.8.8-1.8,1.9h0Z"/>
-    </g>
     <g class="st16">
       <g class="st16">
         <text class="st13" transform="translate(371 99.9)"><tspan x="0" y="0">2</tspan></text>
@@ -998,177 +948,71 @@
     </g>
     <g class="st16">
       <g class="st16">
-        <text class="st13" transform="translate(1868 118.2)"><tspan x="0" y="0">R</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1875.5 118.2)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1882 118.2)"><tspan x="0" y="0">vi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1890.9 118.2)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1897.5 118.2)"><tspan x="0" y="0">w</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1909.5 118.2)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1915.5 118.2)"><tspan x="0" y="0">onfi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1935.8 118.2)"><tspan x="0" y="0">g</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1942.1 118.2)"><tspan x="0" y="0">u</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1948.9 118.2)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1953.3 118.2)"><tspan x="0" y="0">ation.</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1868 132.6)"><tspan x="0" y="0">R</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1875.5 132.6)"><tspan x="0" y="0">each out</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1924.8 132.6)"><tspan x="0" y="0">t</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1929 132.6)"><tspan x="0" y="0">o the client or</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1868 147)"><tspan x="0" y="0">app</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1888.4 147)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1892.7 147)"><tspan x="0" y="0">o</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1905.1 147)"><tspan x="0" y="0">e the</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1935 147)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1939.3 147)"><tspan x="0" y="0">eque</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1966.3 147)"><tspan x="0" y="0">s</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1972.1 147)"><tspan x="0" y="0">t</tspan></text>
-      </g>
-    </g>
-    <g class="st16">
-      <g class="st16">
         <text class="st13" transform="translate(2130 101.9)"><tspan x="0" y="0">10</tspan></text>
       </g>
     </g>
     <g class="st16">
       <g class="st16">
-        <text class="st13" transform="translate(2157 116.6)"><tspan x="0" y="0">Deli</tspan></text>
+        <text class="st13" transform="translate(2157 122.6)"><tspan x="0" y="0">Deli</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2177.9 116.6)"><tspan x="0" y="0">v</tspan></text>
+        <text class="st13" transform="translate(2177.9 122.6)"><tspan x="0" y="0">v</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2183.7 116.6)"><tspan x="0" y="0">er p</tspan></text>
+        <text class="st13" transform="translate(2183.7 122.6)"><tspan x="0" y="0">er p</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2204.5 116.6)"><tspan x="0" y="0">r</tspan></text>
+        <text class="st13" transform="translate(2204.5 122.6)"><tspan x="0" y="0">r</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2208.9 116.6)"><tspan x="0" y="0">o</tspan></text>
+        <text class="st13" transform="translate(2208.9 122.6)"><tspan x="0" y="0">o</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2215.5 116.6)"><tspan x="0" y="0">f</tspan></text>
+        <text class="st13" transform="translate(2215.5 122.6)"><tspan x="0" y="0">f</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2219.4 116.6)"><tspan x="0" y="0">e</tspan></text>
+        <text class="st13" transform="translate(2219.4 122.6)"><tspan x="0" y="0">e</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2225.9 116.6)"><tspan x="0" y="0">s</tspan></text>
+        <text class="st13" transform="translate(2225.9 122.6)"><tspan x="0" y="0">s</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2231.7 116.6)"><tspan x="0" y="0">sional</tspan></text>
+        <text class="st13" transform="translate(2231.7 122.6)"><tspan x="0" y="0">sional</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2157 131)"><tspan x="0" y="0">se</tspan></text>
+        <text class="st13" transform="translate(2157 137)"><tspan x="0" y="0">se</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2169.5 131)"><tspan x="0" y="0">r</tspan></text>
+        <text class="st13" transform="translate(2169.5 137)"><tspan x="0" y="0">r</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2174 131)"><tspan x="0" y="0">vi</tspan></text>
+        <text class="st13" transform="translate(2174 137)"><tspan x="0" y="0">vi</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2182.9 131)"><tspan x="0" y="0">c</tspan></text>
+        <text class="st13" transform="translate(2182.9 137)"><tspan x="0" y="0">c</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2188.9 131)"><tspan x="0" y="0">es and add a bi</tspan></text>
+        <text class="st13" transform="translate(2188.9 137)"><tspan x="0" y="0">es and add a bi</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2269.5 131)"><tspan x="0" y="0">l</tspan></text>
+        <text class="st13" transform="translate(2269.5 137)"><tspan x="0" y="0">l</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2272.7 131)"><tspan x="0" y="0">ling</tspan></text>
+        <text class="st13" transform="translate(2272.7 137)"><tspan x="0" y="0">ling</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2157 145.4)"><tspan x="0" y="0">ent</tspan></text>
+        <text class="st13" transform="translate(2157 151.4)"><tspan x="0" y="0">ent</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2174.6 145.4)"><tspan x="0" y="0">r</tspan></text>
+        <text class="st13" transform="translate(2174.6 151.4)"><tspan x="0" y="0">r</tspan></text>
       </g>
       <g class="st16">
-        <text class="st13" transform="translate(2179.2 145.4)"><tspan x="0" y="0">y</tspan></text>
+        <text class="st13" transform="translate(2179.2 151.4)"><tspan x="0" y="0">y</tspan></text>
       </g>
     </g>
     <g class="st16">
       <g class="st16">
         <text class="st13" transform="translate(2423.3 103.4)"><tspan x="0" y="0">14</tspan></text>
-      </g>
-    </g>
-    <g class="st16">
-      <g class="st16">
-        <text class="st13" transform="translate(2454.2 121.9)"><tspan x="0" y="0">R</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2461.7 121.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2468.3 121.9)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2474.3 121.9)"><tspan x="0" y="0">ei</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2483.9 121.9)"><tspan x="0" y="0">v</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2489.7 121.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2499.1 121.9)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2510.1 121.9)"><tspan x="0" y="0">y</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2515.9 121.9)"><tspan x="0" y="0">a</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2522.3 121.9)"><tspan x="0" y="0">l</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2525.5 121.9)"><tspan x="0" y="0">ties</tspan></text>
       </g>
     </g>
     <g class="st16">
@@ -1254,152 +1098,7 @@
     </g>
     <g class="st16">
       <g class="st16">
-        <text class="st13" transform="translate(695.9 302.5)"><tspan x="0" y="0">E</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(702.8 302.5)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(708.7 302.5)"><tspan x="0" y="0">o</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(715.4 302.5)"><tspan x="0" y="0">s</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(721.1 302.5)"><tspan x="0" y="0">y</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(727 302.5)"><tspan x="0" y="0">s</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(732.8 302.5)"><tspan x="0" y="0">t</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(736.9 302.5)"><tspan x="0" y="0">em</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(756.8 302.5)"><tspan x="0" y="0">t</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(761 302.5)"><tspan x="0" y="0">eam</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(787.3 302.5)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(791.6 302.5)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(798.1 302.5)"><tspan x="0" y="0">vi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(807 302.5)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(813.6 302.5)"><tspan x="0" y="0">w</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(822.8 302.5)"><tspan x="0" y="0">s</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(695.9 316.9)"><tspan x="0" y="0">and app</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(739.2 316.9)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(743.6 316.9)"><tspan x="0" y="0">o</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(756 316.9)"><tspan x="0" y="0">es pricing</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(695.9 331.3)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(701.8 331.3)"><tspan x="0" y="0">onfi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(722.2 331.3)"><tspan x="0" y="0">g</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(728.5 331.3)"><tspan x="0" y="0">u</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(735.3 331.3)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(739.6 331.3)"><tspan x="0" y="0">ation</tspan></text>
-      </g>
-    </g>
-    <g class="st16">
-      <g class="st16">
         <text class="st13" transform="translate(959 274.9)"><tspan x="0" y="0">4b</tspan></text>
-      </g>
-    </g>
-    <g class="st16">
-      <g class="st16">
-        <text class="st13" transform="translate(983.5 297.9)"><tspan x="0" y="0">Bi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(994.4 297.9)"><tspan x="0" y="0">l</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(997.6 297.9)"><tspan x="0" y="0">ling</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1019.8 297.9)"><tspan x="0" y="0">t</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1024 297.9)"><tspan x="0" y="0">eam</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1050.3 297.9)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1054.6 297.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1061.1 297.9)"><tspan x="0" y="0">vi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1070 297.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1076.6 297.9)"><tspan x="0" y="0">w</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1085.8 297.9)"><tspan x="0" y="0">s</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(983.5 312.3)"><tspan x="0" y="0">and app</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1026.9 312.3)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1031.2 312.3)"><tspan x="0" y="0">o</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1043.7 312.3)"><tspan x="0" y="0">es pricing</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(983.5 326.7)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(989.5 326.7)"><tspan x="0" y="0">onfi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1009.9 326.7)"><tspan x="0" y="0">g</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1016.1 326.7)"><tspan x="0" y="0">u</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1023 326.7)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(1027.3 326.7)"><tspan x="0" y="0">ation</tspan></text>
       </g>
     </g>
     <g class="st16">
@@ -1456,101 +1155,7 @@
     </g>
     <g class="st16">
       <g class="st16">
-        <text class="st13" transform="translate(2452.4 298.9)"><tspan x="0" y="0">R</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2459.9 298.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2466.5 298.9)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2472.4 298.9)"><tspan x="0" y="0">ei</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2482 298.9)"><tspan x="0" y="0">v</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2487.8 298.9)"><tspan x="0" y="0">e p</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2504.2 298.9)"><tspan x="0" y="0">a</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2510.6 298.9)"><tspan x="0" y="0">yment and</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2452.4 313.3)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2456.7 313.3)"><tspan x="0" y="0">elease</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2494.8 313.3)"><tspan x="0" y="0">r</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2505.8 313.3)"><tspan x="0" y="0">y</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2511.7 313.3)"><tspan x="0" y="0">a</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2518.1 313.3)"><tspan x="0" y="0">l</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2521.3 313.3)"><tspan x="0" y="0">ty</tspan></text>
-      </g>
-    </g>
-    <g class="st16">
-      <g class="st16">
         <text class="st13" transform="translate(2132 442.9)"><tspan x="0" y="0">12</tspan></text>
-      </g>
-    </g>
-    <g class="st16">
-      <g class="st16">
-        <text class="st13" transform="translate(2161.1 463.9)"><tspan x="0" y="0">R</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2168.6 463.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2175.2 463.9)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2181.2 463.9)"><tspan x="0" y="0">ei</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2190.8 463.9)"><tspan x="0" y="0">v</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2196.6 463.9)"><tspan x="0" y="0">e i</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2209 463.9)"><tspan x="0" y="0">n</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2221.5 463.9)"><tspan x="0" y="0">oi</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2231.2 463.9)"><tspan x="0" y="0">c</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2237.2 463.9)"><tspan x="0" y="0">e and ma</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2286.5 463.9)"><tspan x="0" y="0">k</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2292.7 463.9)"><tspan x="0" y="0">e</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2161.1 478.3)"><tspan x="0" y="0">a p</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2177.3 478.3)"><tspan x="0" y="0">a</tspan></text>
-      </g>
-      <g class="st16">
-        <text class="st13" transform="translate(2183.7 478.3)"><tspan x="0" y="0">yment</tspan></text>
       </g>
     </g>
     <g class="st16">
@@ -1679,5 +1284,12 @@
         <text class="st17" transform="translate(2082.9 93)"><tspan x="0" y="0">e</tspan></text>
       </g>
     </g>
+    <text class="st21" transform="translate(1864.2 122.1)"><tspan x="0" y="0">Review configuration.</tspan><tspan x="0" y="14.4">Reach out to the client or </tspan><tspan x="0" y="28.8">approve the request</tspan></text>
+    <text class="st21" transform="translate(2444.8 126.3)"><tspan x="0" y="0">Receive royal</tspan><tspan x="72" y="0">-</tspan></text>
+    <text class="st21" transform="translate(2454.9 306.8)"><tspan x="0" y="0">Receive payment and </tspan><tspan x="0" y="14.4">release royalty</tspan></text>
+    <text class="st21" transform="translate(2161.2 462.9)"><tspan x="0" y="0">Receive invoice and make </tspan><tspan x="0" y="14.4">a payment </tspan></text>
+    <text class="st21" transform="translate(989.7 300.5)"><tspan x="0" y="0">Billing team reviews and </tspan><tspan x="0" y="14.4">approves pricing </tspan><tspan x="0" y="28.8">configuration</tspan></text>
+    <text class="st21" transform="translate(693.7 300.6)"><tspan x="0" y="0">Ecosystem team reviews </tspan><tspan x="0" y="14.4">and approves pricing </tspan><tspan x="0" y="28.8">configuration</tspan></text>
+    <text class="st21" transform="translate(109.3 122.8)"><tspan x="0" y="0">Initiate creation of Managed </tspan><tspan x="0" y="14.4">Professional Service tile</tspan></text>
   </g>
 </svg>
