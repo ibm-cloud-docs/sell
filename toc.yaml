@@ -55,13 +55,6 @@ toc:
           - tutorial-onboard-bundle.md
           - tutorial-publish-bundle.md
       - topicgroup:
-          label: Onboarding a virtual server image with Terraform
-          topics:
-          - tutorial-register-vsimage.md
-          - tutorial-define-vsimage.md
-          - tutorial-onboard-vsimage.md
-          - tutorial-publish-vsimage.md
-      - topicgroup:
           label: Onboarding a virtual server image for VPC
           topics:
           - tutorial-register-vsivpc.md
