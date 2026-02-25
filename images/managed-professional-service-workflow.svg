@@ -1250,7 +1250,6 @@
         <text class="st17" transform="translate(2082.9 93)"><tspan x="0" y="0">e</tspan></text>
       </g>
     </g>
-    <text class="st21" transform="translate(1864.2 122.1)"><tspan x="0" y="0">Review configuration.</tspan><tspan x="0" y="14.4">Reach out to the client or </tspan><tspan x="0" y="28.8">approve the request</tspan></text>
     <text class="st21" transform="translate(2454.9 306.8)"><tspan x="0" y="0">Receive payment and </tspan><tspan x="0" y="14.4">release royalty</tspan></text>
     <text class="st21" transform="translate(2161.2 462.9)"><tspan x="0" y="0">Receive invoice and make </tspan><tspan x="0" y="14.4">a payment </tspan></text>
     <text class="st21" transform="translate(989.7 300.5)"><tspan x="0" y="0">Billing team reviews and </tspan><tspan x="0" y="14.4">approves pricing </tspan><tspan x="0" y="28.8">configuration</tspan></text>
@@ -1258,5 +1257,6 @@
     <text class="st21" transform="translate(109.3 122.8)"><tspan x="0" y="0">Initiate creation of Managed </tspan><tspan x="0" y="14.4">Professional Service tile</tspan></text>
     <text class="st21" transform="translate(2446.9 124.3)"><tspan x="0" y="0">Receive royalties</tspan></text>
     <text class="st21" transform="translate(2160.9 303.4)"><tspan x="0" y="0">Raise invoice to client</tspan></text>
+    <text class="st21" transform="translate(1871 121.9)"><tspan x="0" y="0">Review configuration. </tspan><tspan x="0" y="14.4">Reach out to the client or </tspan><tspan x="0" y="28.8">approve the request</tspan></text>
   </g>
 </svg>
