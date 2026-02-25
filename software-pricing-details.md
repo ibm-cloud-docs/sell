@@ -2,9 +2,9 @@
 
 
 copyright:
-  years: 2021, 2025
+  years: 2021, 2026
 
-lastupdated: "2025-03-27"
+lastupdated: "2026-02-25"
 
 keywords: software, pricing, paid, usage-based, free, third-party, license, BYOL, bring your own license
 
@@ -158,6 +158,7 @@ By adding a usage-based pricing plan, you are indicating that you offer your pro
 When you add a usage-based pricing plan, you provide your suggested retail pricing information. However, {{site.data.keyword.IBM_notm}} reserves the right to set the final pricing for any product that is offered to customers in the {{site.data.keyword.cloud_notm}} catalog.
 {: important}
 
+
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you're onboarding, and click **Pricing**.
 1. Click **Add plan > Usage-based**.
@@ -167,6 +168,8 @@ When you add a usage-based pricing plan, you provide your suggested retail prici
 1. Enter your software version. You must select whether you want to validate only one version or a range of versions, or add a semantic version string to match the versions you want to validate.
 1. Provide a description for your pricing plan.
 1. Click **Save**.
+
+
 
 Before you can submit your pricing plan for approval, you must complete the following tasks:
 
