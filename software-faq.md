@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020, 2025
+  years: 2020, 2026
 
-lastupdated: "2025-02-17"
+lastupdated: "2026-02-26"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -162,7 +162,7 @@ It takes approximately one to two business days for your product to be reviewed.
 {: #share-vsimage}
 {: faq}
 
-Yes, you can share your virtual server image with other users. To share with users in your personal or enterprise account, see [Onboarding software to your account](/docs/account?topic=account-create-private-catalog&interface=ui). To share with {{site.data.keyword.cloud_notm}} catalog users, see [Registering a virtual server image in IBM Cloud Partner Center](/docs/sell?topic=sell-vsimage-register).
+Yes, you can share your virtual server image with other users. To share with users in your personal or enterprise account, see [Onboarding software to your account](/docs/account?topic=account-create-private-catalog&interface=ui). To share with {{site.data.keyword.cloud_notm}} catalog users, see [Registering a virtual server image for VPC](/docs/sell?topic=sell-vsivpc-register).
 
 ## How do I claim a certification or designation for my product?
 {: #claim-certs-how}
