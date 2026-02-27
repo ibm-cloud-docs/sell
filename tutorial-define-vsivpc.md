@@ -1,11 +1,11 @@
 ---
 
 copyright:
-  years: 2023, 2024
+  years: 2023, 2026
 
-lastupdated: "2024-05-02"
+lastupdated: "2026-02-27"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, BYOL, terraform, catalog, vpc, virtual private cloud
+keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, terraform, catalog, vpc, virtual private cloud
 
 subcollection: sell
 
@@ -100,6 +100,7 @@ Summarize what the product is and its value.
 {: #vsivpc-pricing}
 {: step}
 
+
 {{site.data.keyword.cloud_notm}} supports two pricing models: free or bring your own license (BYOL). With the free pricing model, users can deploy as many instances with no additional software charges incurred. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the software, and the third-party provider is responsible for licensing entitlement and enforcement.
 
 For the purposes of this tutorial, complete the following steps to add a BYOL pricing plan.
@@ -111,6 +112,8 @@ For the purposes of this tutorial, complete the following steps to add a BYOL pr
 * Name: `BYOL for Example Virtual Server Image 1.0.0`
 * URL: `byol.vsimage.example.html`
 * Description: `This BYOL license is required for the installation and use of the Example Virtual Server Image.`
+
+
 
 ## Define your support experience
 {: #vsivpc-support}
