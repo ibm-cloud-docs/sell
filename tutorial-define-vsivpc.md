@@ -3,7 +3,7 @@
 copyright:
   years: 2023, 2026
 
-lastupdated: "2026-02-27"
+lastupdated: "2026-03-25"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, terraform, catalog, vpc, virtual private cloud
 
@@ -100,20 +100,22 @@ Summarize what the product is and its value.
 {: #vsivpc-pricing}
 {: step}
 
+{{site.data.keyword.cloud_notm}} supports three pricing models: free, usage-based, and bring your own license (BYOL). With the free pricing model, customers can deploy as many instances with no additional software charges incurred. With the usage-based pricing model, you offer your product as a paid integrated product, and customers need to pay to use it. Optionally, you can select licenses to add to your usage-based pricing plan, which allows you to track and manage license entitlements for each provisioned instance of your software. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the software, and the third-party provider is responsible for licensing entitlement and enforcement.
 
-{{site.data.keyword.cloud_notm}} supports two pricing models: free or bring your own license (BYOL). With the free pricing model, users can deploy as many instances with no additional software charges incurred. With the BYOL pricing model, {{site.data.keyword.cloud_notm}} doesn't charge users for the usage of the software, and the third-party provider is responsible for licensing entitlement and enforcement.
+For the purposes of this tutorial, complete the following steps to add a usage-based pricing plan.
 
-For the purposes of this tutorial, complete the following steps to add a BYOL pricing plan.
+1. Click **Pricing > Add plan > Usage-based**.
+1. Enter the name of your pricing plan, for example, `Standard plan`.
+1. Enter the programmatic name of your pricing plan, for example, `standard-plan`.
+1. Optionally, select a license type to add license entitlements to this pricing plan. This allows you to track and manage license entitlements for each provisioned instance of your software.
 
-1. Click **Pricing** > **Pricing plans**.
-1. Click **Add plan** > **BYOL**.
-1. Enter the name, URL, and description of the license, for example:
+   Adding licenses to a pricing plan is available only for select customers. License entitlements require a configured license provider, which defines the license for your product. For more information, contact [{{site.data.keyword.cloud_notm}} Support](/unifiedsupport/supportcenter){: external}.
+   {: preview}
 
-* Name: `BYOL for Example Virtual Server Image 1.0.0`
-* URL: `byol.vsimage.example.html`
-* Description: `This BYOL license is required for the installation and use of the Example Virtual Server Image.`
-
-
+1. The software type is automatically set to `VPC VSI Image`.
+1. Select whether you want to validate only one version or a range of versions, or add a semantic version string to match the versions you want to validate. For example, select **All current and future versions**.
+1. Provide a description for your pricing plan, for example, `This plan provides usage-based pricing for the Example Virtual Server Image.`
+1. Click **Save**.
 
 ## Define your support experience
 {: #vsivpc-support}
