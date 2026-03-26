@@ -3,7 +3,7 @@
 copyright:
   years: 2023, 2026
 
-lastupdated: "2026-03-25"
+lastupdated: "2026-03-26"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, terraform, catalog, vpc, virtual private cloud
 
@@ -109,7 +109,7 @@ For the purposes of this tutorial, complete the following steps to add a usage-b
 1. Enter the programmatic name of your pricing plan, for example, `standard-plan`.
 1. Optionally, select a license type to add license entitlements to this pricing plan. This allows you to track and manage license entitlements for each provisioned instance of your software.
 
-   Adding licenses to a pricing plan is available only for select customers. License entitlements require a configured license provider, which defines the license for your product. For more information, contact [{{site.data.keyword.cloud_notm}} Support](/unifiedsupport/supportcenter){: external}.
+   Adding licenses to a pricing plan is available only for select {{site.data.keyword.IBM_notm}} Business Partners. License entitlements require a configured license provider, which defines the license for your product. For more information, contact [{{site.data.keyword.cloud_notm}} Support](/unifiedsupport/supportcenter){: external}.
    {: preview}
 
 1. The software type is automatically set to `VPC VSI Image`.
