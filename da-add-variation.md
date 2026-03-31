@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-04-24"
+lastupdated: "2026-03-31"
 
 keywords: deployable architecture, third party, product center sell, variation, add variation, add version, deployable architecture version, partner center, partners, deployable architecture variation
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Adding deployable architecture variations
 {: #da-variation}
 
-You can add up to three variations to your deployable architecture based on your business needs. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for your customers to try out that might be considered small, medium, or large variations. A variation addresses a common business problem that your deployable architecture solves, but the implementation differs. Also, each deployable architecture variation can have more than one version. Provide a unique display name for the different variations during onboarding, and at least one architecture diagram for each variation. You must specify the same version number during onboarding to connect multiple variations together in a single deployable architecture tile.
+You can add up to three variations to your deployable architecture based on your business needs. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for your customers to try out with varying levels of capability or complexity. A variation addresses a common business problem that your deployable architecture solves, but the implementation differs. Also, each deployable architecture variation can have more than one version. Provide a unique display name for the different variations during onboarding, and at least one architecture diagram for each variation. You must specify the same version number during onboarding to connect multiple variations together in a single deployable architecture tile.
 {: shortdesc}
 
 ## Adding variations to your deployable architecture
@@ -54,4 +54,3 @@ After you add a version, you can configure it by completing the following steps:
 {: #da-next-variation}
 
 [Review the pricing details of your deployable architecture](/docs/sell?topic=sell-da-pricing&interface=ui).
-

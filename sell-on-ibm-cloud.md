@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2025
-lastupdated: "2025-12-02"
+  years: 2021, 2026
+lastupdated: "2026-03-31"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy, Onboarding Workbench
 
@@ -132,7 +132,7 @@ Categories of third-party deployable architectures that you can select in Partne
 * Converged infrastructure
 * Enterprise applications
 
-Deployable architectures are different from software in that they require an architecture diagram, and offer the ability to list dependencies. A deployable architecture can have up to three architecture variations. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for a user to try out that might be considered small, medium, or large variations. Or, the different architectures might be based on capability or complexity for running a proof of concept or production workload that uses names like quick start, standard, or advanced.
+Deployable architectures are different from software in that they require an architecture diagram, and offer the ability to list dependencies. A deployable architecture can have up to three architecture variations. This means that a single deployable architecture tile in the {{site.data.keyword.cloud_notm}} catalog can have different options for a user to try out with varying levels of capability or complexity. The different architectures might be based on capability or complexity for running a proof of concept or production workload that uses names like quick start, standard, or advanced.
 
 The only deployable architecture type that {{site.data.keyword.cloud_notm}} supports is Terraform.
 
