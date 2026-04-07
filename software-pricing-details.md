@@ -4,7 +4,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-03-26"
+lastupdated: "2026-04-07"
 
 keywords: software, pricing, paid, usage-based, free, third-party, license, BYOL, bring your own license
 
@@ -164,6 +164,8 @@ When you add a usage-based pricing plan, you provide your suggested retail prici
 1. Provide a name for your pricing plan. This name refers to the plan name that appears in the pricing plan list on your product's catalog page when your customers select a pricing plan.
 1. Provide a programmatic name for your pricing plan.
 1. Optionally, select a license type to add license entitlements to this pricing plan. This allows you to track and manage license entitlements for each provisioned instance of your software. You can add licenses to a pricing plan only if you're onboarding a virtual server image.
+
+   To view the list of available licenses that are shared with your account, you must have the IAM Viewer role or higher on the **License and Entitlement** service and **license-provider** resource type in the account.
 
    Adding licenses to a pricing plan is available only for select {{site.data.keyword.IBM_notm}} Business Partners. License entitlements require a configured license provider, which defines the license for your product. For more information, contact [{{site.data.keyword.cloud_notm}} Support](/unifiedsupport/supportcenter){: external}.
    {: preview}
