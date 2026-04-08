@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-04-24"
+  years: 2020, 2026
+lastupdated: "2026-04-08"
 
-keywords: onboard software, third-party software, Helm chart, software, partner, sellers, deploy, partner center, target, deployment target
+keywords: Helm chart, deploy, target, deployment target
 
 subcollection: sell
 
@@ -16,8 +16,7 @@ subcollection: sell
 # Deploying a Helm chart to a new target
 {: #helm-target-new}
 
-
-To deploy a version of a Helm chart to another deployment target, you can copy the configuration of the existing version and deploy it to a new target. The deployment target options for Helm charts are {{site.data.keyword.containerlong_notm}} and {{site.data.keyword.openshiftlong_notm}}.
+To deploy a version of a Helm chart to another deployment target, copy the configuration of the existing version and deploy it to a new target. The deployment target options for Helm charts are {{site.data.keyword.containerlong_notm}} and {{site.data.keyword.openshiftlong_notm}}.
 {: shortdesc}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
@@ -27,8 +26,8 @@ To deploy a version of a Helm chart to another deployment target, you can copy t
 1. Select **Copy the configuration of an existing version and deploy it to a new target.**
 1. Select the deployment target.
 
-Your source deployment target is the target that your existing version deploys to.
-{: note}
+    Your source deployment target is the target that your existing version deploys to.
+    {: note}
 
 1. Select your existing version.
 1. Click **Copy existing version**.

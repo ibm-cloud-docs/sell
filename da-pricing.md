@@ -2,10 +2,10 @@
 
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-04-24"
+  years: 2023, 2026
+lastupdated: "2026-04-08"
 
-keywords: deployable architecture, third party, product center sell, deployable architecture, estimated cost, pricing, resource cost, starting cost
+keywords: deployable architecture, estimated cost, pricing, resource cost, starting cost
 
 subcollection: sell
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Reviewing pricing details
 {: #da-pricing}
 
-Deployable architectures have no costs, although the resources that they create might have their own licenses or costs. You can review the estimated starting cost of your product, which can be a starting point to help you determine how much your customers would be charged for deploying the architecture.
+Deployable architectures have no costs, although the resources that they create might have their own licenses or costs. You can review the estimated starting cost of your product, which can help you determine how much your customers would be charged for deploying the architecture.
 {: shortdesc}
 
 ## Before you begin

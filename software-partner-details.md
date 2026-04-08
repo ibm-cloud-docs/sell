@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-04-22"
+  years: 2021, 2026
+lastupdated: "2026-04-08"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software, company details
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Updating your company and product details
 {: #sw-partner-details}
 
-As an account administrator, you can update your company and product details in the {{site.data.keyword.cloud}} Partner Center. The details include the name of the product that you're onboarding and the name and email address of the primary contact for the product.
+As an account administrator, you can update your company and product details in {{site.data.keyword.cloud}} Partner Center. The details include the name of the product that you're onboarding and the name and email address of the primary contact for the product.
 {: shortdesc}
 
 ## Updating your partner information
@@ -51,4 +51,3 @@ As an account administrator, you can update your company and product details in 
    * Use 60 characters or less.
    * Do not include the name of the company, any former product names, or details such as deployment target, method, or pricing. You can include this information in your readme file.
    * Do not include "{{site.data.keyword.cloud_notm}}".
-

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-10-18"
+  years: 2021, 2026
+lastupdated: "2026-04-08"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, partner center, publish, review, operator, Red Hat OpenShift cluster, sample Node-RED Operator, tutorial, sample
+keywords: publish, operator, Red Hat OpenShift cluster, sample Node-RED Operator
 
 subcollection: sell
 
@@ -22,7 +22,7 @@ completion-time: 5m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
 
-This tutorial walks you through how to publish your sample Node-RED Operator to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your publishing request, get your approval notification, and then publish your product to the {{site.data.keyword.cloud}} catalog.
+This tutorial walks you through how to publish your sample Node-RED Operator to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your publishing request, receive your approval notification, and publish your product to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
 
 ## Before you begin
@@ -39,7 +39,7 @@ Make sure you complete all onboarding tasks, including [defining your product de
 1. From the Onboarding checklist, click **Request Approval**.
 1. Select **1.0** as the version that you want to publish, and click **Request Approval**.
 
-At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure the required details, such as your product name, catalog entry, product page, and support experience are complete and accurate. When your request is approved, you receive an email notifiying you that you can publish your product to the catalog.
+At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure the required details, such as your product name, catalog entry, product page, and support experience are complete and accurate. When your request is approved, you receive an email notifying you that you can publish your product to the catalog.
 
 If updates are required, you receive a separate email that includes review feedback explaining what updates you need to make. After you address all review feedback, you can submit another publishing request.
 {: note}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-10-18"
+  years: 2021, 2026
+lastupdated: "2026-04-08"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, publish, tutorial, sample
 
@@ -22,7 +22,7 @@ completion-time: 30m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="30m"}
 
-This tutorial walks you through how to publish your service to {{site.data.keyword.cloud}}. By completing this tutorial, you submit your publishing request, respond to any review feedback, and then publish the service to the {{site.data.keyword.cloud_notm}} catalog.
+This tutorial walks you through how to publish your service to {{site.data.keyword.cloud}}. By completing this tutorial, you submit your publishing request, respond to any review feedback, and publish the service to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a service. As you complete the tutorial, adapt each step to fit your product's needs.
@@ -47,7 +47,7 @@ The details of any third-party service must be reviewed by {{site.data.keyword.c
 1. From the Onboarding checklist, click **Request Approval**.
 1. Click **Request Approval**.
 
-At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure the required details, such as the product name, catalog entry, product page, pricing model, and support experience are complete and accurate. When your request is approved, you receive an email notifying you that you can publish your product to the catalog.
+At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure that the required details, such as the product name, catalog entry, product page, pricing model, and support experience are complete and accurate. When your request is approved, you receive an email notifying you that you can publish your product to the catalog.
 
 If updates are required, you'll receive a separate email with details about the required updates. After you address all review feedback, you can submit another publishing request.
 {: note}
