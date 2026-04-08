@@ -16,7 +16,7 @@ subcollection: sell
 # Publishing your service
 {: #service-publish}
 
-As the last step in the onboarding process, you can submit a request to publish your third-party service to the {{site.data.keyword.cloud}} catalog. When you publish your service to the catalog, it is available to all {{site.data.keyword.cloud_notm}} users in the catalog.
+As the last step in the onboarding process, you can submit a request to publish your third-party service to the {{site.data.keyword.cloud}} catalog. When you publish your service to the catalog, it is available to all {{site.data.keyword.cloud_notm}} users.
 {: shortdesc}
 
 
