@@ -2,10 +2,10 @@
 
 
 copyright:
-  years: 2022, 2024
-lastupdated: "2024-04-24"
+  years: 2022, 2026
+lastupdated: "2026-04-08"
 
-keywords: service, third party, publish service, partners
+keywords: publish service, approval, request approval
 
 subcollection: sell
 
@@ -23,7 +23,7 @@ As the last step in the onboarding process, you can submit a request to publish 
 ## Requesting for approval
 {: #service-request-approval}
 
-Before you can publish your product to the catalog, your service must be submitted for approval.
+Before you can publish your product to the catalog, you must submit your service for approval.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product that you are onboarding.

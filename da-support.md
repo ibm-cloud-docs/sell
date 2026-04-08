@@ -2,11 +2,11 @@
 
 copyright:
 
-  years: 2023
+  years: 2023, 2026
 
-lastupdated: "2023-09-26"
+lastupdated: "2026-04-08"
 
-keywords: IBM Cloud, selling deployable architectures, selling products, partner center support
+keywords: deployable architectures, partner center support, support experience
 
 subcollection: sell
 
