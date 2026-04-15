@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2025
-lastupdated: "2025-09-19"
+  years: 2023, 2026
+lastupdated: "2026-04-15"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, vpc, vsi, register, virtual private cloud
 
@@ -33,7 +33,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 Before you register a virtual server image for VPC, make sure that you do the following:
 
 1. Verify that you're using a Pay-As-You-Go or Subscription account by going to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console.
-1. Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+1. Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. For more information, see [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui) and [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui).
 
 ## Provide the company name
 {: #vsivpc-reg-company}

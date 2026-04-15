@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2022, 2025
+  years: 2022, 2026
 
-lastupdated: "2025-12-02"
+lastupdated: "2026-04-15"
 
 keywords: third-party service, sell on IBM Cloud, partner center, integrated billing service
 
@@ -25,7 +25,7 @@ completion-time: 60m
 Welcome to {{site.data.keyword.cloud}}! To start onboarding your service to the {{site.data.keyword.cloud_notm}} platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
 {: shortdesc}
 
-   It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
+   It's recommended that you use an account that was created with a [functional ID](/docs/iam?topic=iam-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
    {: tip}
 
 ## Watch and learn

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-04-22"
+lastupdated: "2026-04-15"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -35,7 +35,7 @@ This tutorial is one of four in a series that demonstrates how to onboard and pu
 1. Go to {{site.data.keyword.redhat_notm}} OperatorHub to confirm that your Operator bundle exists in the {{site.data.keyword.redhat_notm}} Certified registry.
 1. [Create your {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started).
 1. [Upload your Operator bundle and application images to {{site.data.keyword.registrylong_notm}}](/docs/Registry?topic=Registry-getting-started).
-1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+1. Verify that you're assigned the correct roles. For more information, see [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui) and [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui).
    * Administrator on all account management services and all IAM services
    * Editor on the catalog management service
    * Editor on the {{site.data.keyword.registrylong_notm}} service

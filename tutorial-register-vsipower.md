@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2025
-lastupdated: "2025-09-19"
+  years: 2022, 2026
+lastupdated: "2026-04-15"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, terraform, register, power, power vsi, power systems virtual server
 
@@ -31,7 +31,7 @@ This tutorial demonstrates how to onboard and publish a [sample virtual server i
 {: #vsipower-reg-prereqs}
 
 1. Verify that you're using a Pay-As-You-Go or Subscription account by going to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console.
-1. Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+1. Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. For more information, see [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui) and [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui).
 
 ## Provide the company name
 {: #vsipower-reg-company}

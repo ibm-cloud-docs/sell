@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2022, 2025
-lastupdated: "2025-09-19"
+  years: 2022, 2026
+lastupdated: "2026-04-15"
 
 keywords: IAM, access, service, third-party, Partner Center Sell, access group, roles
 
@@ -48,7 +48,7 @@ To create an access group for your team, complete the following steps:
     * Editor on All Identity and Access enabled services in your default resource group to be able to edit and manage broker registration entries.
     * Viewer on All Account Management services to complete all actions for the account management services.
 
-    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/account?topic=account-account-services&interface=ui#account-management-actions-roles).
+    For more information about the actions associated with each role, see [Actions and roles for account management services](/docs/iam?topic=iam-account-services&interface=ui#account-management-actions-roles).
 
 1. Click **Let's go**.
 
