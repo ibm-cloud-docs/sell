@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-03-31"
+lastupdated: "2026-04-15"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy, Onboarding Workbench
 
@@ -26,10 +26,10 @@ If you plan to offer products on the {{site.data.keyword.cloud_notm}} platform, 
 
 * Verify that you're using a Pay-As-You-Go or Subscription account. To check your account type, go to **Manage** > **Account** > **Account settings** in the {{site.data.keyword.cloud_notm}} console.
 
-   It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
+   It's recommended that you use an account that was created with a [functional ID](/docs/iam?topic=iam-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
    {: tip}
 
-* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui) and [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui).
 
 * To sell services, verify that your company is an approved {{site.data.keyword.cloud_notm}} build partner with an [Embedded Solutions Agreement (ESA)](https://ibm.seismic.com/app?ContentId=efd7827b-910e-4e91-a5f6-6020730e88c3){: external}. For more information about being an {{site.data.keyword.cloud_notm}} build partner, see the [IBM Partner Plus](https://www.ibm.com/partnerplus){: external} page.
 

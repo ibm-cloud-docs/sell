@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2026
 
-lastupdated: "2026-02-26"
+lastupdated: "2026-04-15"
 
 
 keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -55,7 +55,7 @@ See the following list for the types of third-party software that you can curren
 {: #accountuse-sw}
 {: faq}
 
-Use your {{site.data.keyword.cloud_notm}} account to onboard software to the catalog. In some cases an {{site.data.keyword.IBM_notm}} representative, with their own account, might be helping you with the onboarding process. If you want the representative to access your software in your test environment, you can add them to your account. For more details, see [Inviting users to an account](/docs/account?topic=account-iamuserinv).
+Use your {{site.data.keyword.cloud_notm}} account to onboard software to the catalog. In some cases an {{site.data.keyword.IBM_notm}} representative, with their own account, might be helping you with the onboarding process. If you want the representative to access your software in your test environment, you can add them to your account. For more details, see [Inviting users to an account](/docs/iam?topic=iam-iamuserinv&interface=ui).
 
 ## How do I upload a version from my GitHub repository?
 {: #gh-upload-sw}
@@ -103,7 +103,7 @@ Make sure the version of the software that you're restoring in your private cata
 {: #invite-team}
 {: faq}
 
-Yes, you can add team members to help onboard software. You need to assign them specific levels of access. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv) and [Set up access for your team](/docs/sell?topic=sell-sw-getting-started#sw-team-access).
+Yes, you can add team members to help onboard software. You need to assign them specific levels of access. For more information, see [Inviting users to an account](/docs/iam?topic=iam-iamuserinv&interface=ui) and [Set up access for your team](/docs/sell?topic=sell-sw-getting-started#sw-team-access).
 
 ## Can I remove a team member's access to my account?
 {: #remove-team}
@@ -111,7 +111,7 @@ Yes, you can add team members to help onboard software. You need to assign them 
 
 Yes, go to **Manage > Access (IAM)** in the console, select **Users**, find the user that you want to remove, select **Remove user** from the **Actions** menu.
 
-Only account owners and users with specific access can remove a user. For more information, see [Removing users from an account](/docs/account?topic=account-iamuserinv&interface=ui#remove-user-acount-ui).
+Only account owners and users with specific access can remove a user. For more information, see [Removing users from an account](/docs/iam?topic=iam-iamuserinv&interface=ui#remove-user-acount-ui).
 
 ## Can I view my assigned roles and permissions?
 {: #access-onboard}

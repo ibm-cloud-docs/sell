@@ -2,9 +2,9 @@
 
 
 copyright:
-  years: 2020, 2025
+  years: 2020, 2026
 
-lastupdated: "2025-12-10"
+lastupdated: "2026-04-15"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -25,7 +25,7 @@ The process to onboard your software includes importing a version to your privat
 
 1. Upload your source code to a release in your GitHub, GitLab, or Azure repository. For more information, see [Setting up your source code repository](/docs/sell?topic=sell-source-repo-setup).
 1. Verify that you're using a Pay-As-You-Go or Subscription account. See [Viewing your account type](/docs/account?topic=account-account_settings#view-acct-type) for more information.
-1. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/account?topic=account-account-services).
+1. Make sure you're assigned the editor role on the catalog management service. See [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui).
 1. Set up the test environment that was previously created for you:
 
     * Install the {{site.data.keyword.cloud_notm}} CLI and the {{site.data.keyword.cloud_notm}} Schematics plug-in. See [Setting up the CLI](/docs/schematics?topic=schematics-setup-cli).

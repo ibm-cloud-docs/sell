@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2023, 2025
+  years: 2023, 2026
 
-lastupdated: "2025-09-19"
+lastupdated: "2026-04-15"
 
 keywords: onboard deployable architecture, third-party deployable architecture, getting started, deployable architecture, partner, sellers, partner portal, partner center, partner center sell
 
@@ -31,10 +31,10 @@ Welcome to {{site.data.keyword.cloud}}! To start onboarding your deployable arch
 
 * Verify that you're using a Pay-As-You-Go or Subscription account. To check which type of account you're using, go to **Manage > Account > Account settings** in the {{site.data.keyword.cloud_notm}} console.
 
-   It's recommended that you use an account that was created with a [functional ID](/docs/account?topic=account-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
+   It's recommended that you use an account that was created with a [functional ID](/docs/iam?topic=iam-identity-overview#functionalid-bestpract) to ensure your continued access to the products that are onboarded in the account.
    {: tip}
 
-* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/account?topic=account-account-services) and [Managing access to resources](/docs/account?topic=account-assign-access-resources).
+* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui) and [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui).
 
 * The only supported deployable architecture type is Terraform.
 

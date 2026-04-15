@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2025
+  years: 2015, 2026
 
-lastupdated: "2025-12-02"
+lastupdated: "2026-04-15"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
@@ -67,7 +67,7 @@ We are adding features to support reports soon. Disbursements are based on the q
 {: #iam-creds}
 {: faq}
 
-You're given your API Key when you enable IAM. It is critical that you save the API Key. The value is not shown again. If you lose your API Key, you can delete the key and create a new one. For more information, see [Managing service ID API keys](/docs/account?topic=account-serviceidapikeys).
+You're given your API Key when you enable IAM. It is critical that you save the API Key. The value is not shown again. If you lose your API Key, you can delete the key and create a new one. For more information, see [Managing service ID API keys](/docs/iam?topic=iam-serviceidapikeys&interface=ui).
 
 ## How can I view and test my service as a customer?
 {: #test-service-user}

@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2024
+  years: 2021, 2026
 
-lastupdated: "2024-04-22"
+lastupdated: "2026-04-15"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -90,9 +90,9 @@ Your programmatic name can't be updated after you submit it for review.
 {: #svc-service-id}
 {: step}
 
-After your programmatic name is reviewed, you can create your service ID. A service ID is used to identify your service when communicating with other {{site.data.keyword.cloud_notm}} services, for example, when submitting metering usage data for your service. For more information, see [Creating and working with service IDs](/docs/account?topic=account-serviceids&interface=ui).
+After your programmatic name is reviewed, you can create your service ID. A service ID is used to identify your service when communicating with other {{site.data.keyword.cloud_notm}} services, for example, when submitting metering usage data for your service. For more information, see [Creating and working with service IDs](/docs/iam?topic=iam-serviceids&interface=ui).
 
-You're also required to create an API key for your service ID. To create your API key, see [Creating an API key for a service ID](/docs/account?topic=account-serviceidapikeys&interface=ui#create_service_key).
+You're also required to create an API key for your service ID. To create your API key, see [Creating an API key for a service ID](/docs/iam?topic=iam-serviceidapikeys&interface=ui&interface=ui#create_service_key).
 
 
 ## Provide details for your product

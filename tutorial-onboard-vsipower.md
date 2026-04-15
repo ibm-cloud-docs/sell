@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2024
 
-lastupdated: "2025-12-08"
+lastupdated: "2026-04-15"
 
 
 keywords: onboard software, Terraform, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, validate, test, VSI image, VM image, power, power vsi, power systems virtual server
@@ -44,7 +44,7 @@ This tutorial includes deploying the virtual server image to a target {{site.dat
    Use the latest release of the [sample code](https://github.com/IBM-Cloud/isv-power-vsi-product-deploy-sample ){: external} as an example of how to set up your repository.
    {: tip}
 
-1. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the Catalog Management and Partner Center - Sell services. For more information, see [Assigning access to account management services](/docs/account?topic=account-account-services).
+1. Make sure you're assigned the {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) editor role on the Catalog Management and Partner Center - Sell services. For more information, see [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui).
 1. Complete the previous tutorials in the series: [Registering a virtual server image for Power Systems in the Partner Center](/docs/sell?topic=sell-vsipower-register) and [Defining the product details of a virtual server image for Power Systems](/docs/sell?topic=sell-vsipower-define).
 
 ## Import the virtual server image to your private catalog
