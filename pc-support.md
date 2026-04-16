@@ -4,7 +4,7 @@ copyright:
 
   years: 2021, 2026
 
-lastupdated: "2026-04-15"
+lastupdated: "2026-04-16"
 
 keywords: third-party software, partners, sellers, help, third-party, software, partner center, support
 
@@ -54,7 +54,7 @@ To contact an onboarding specialist, complete the following steps:
 
 If you're experiencing issues with Partner Center, you can create a support case by using the [{{site.data.keyword.cloud_notm}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}.
 
-To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/account?topic=account-access-cases).
+To create a support case, you must have a Pay-As-You-Go or Subscription account. Also, ensure that you're assigned at least the editor role on the Support Center account management service to create, edit, or view support cases. For more information about actions and roles for account management services, see [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui#account-management-actions-roles) or to assign other users access, see [Assigning user access for working with support cases](/docs/support?topic=support-access-cases).
 {: note}
 
 
