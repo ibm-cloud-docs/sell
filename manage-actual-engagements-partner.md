@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2026
+  years: 2025, 2026
 
-lastupdated: "2026-01-13"
+lastupdated: "2026-04-30"
 
 keywords: IBM Cloud platform, managed professional services
 
@@ -18,11 +18,23 @@ subcollection: sell
 {: #consume-mps-partner}
 
 To administer managed professional services tile as a Business Partner, navigate to Partner Center to approve requests, add billing entries, and confirm engagements to help ensure a smooth activation of the partnership and service setup.
+{: shortdesc}
+
+## Before you begin
+{: #prereqs-access}
+
+Before you submit or view usage in Partner Center for professional services, make sure that you have the following roles assigned:
+
+- `Partner Pricing Viewer` and `Partner Pricing Submitter` on the Partner Center - Sell service
+- `Editor` on the Software Instance service
+
+If you complete end-to-end testing for usage submission and review, make sure that you have all the required access assigned.
+{: important}
 
 ## Approving requests
 {: #approve-requests}
 
-The process is initiated for reviewing and approving a client's request.
+Complete the following steps to review and approve a client's request.
 
 1. Go to **Partner Center > My products** and select the account that you requested an approval for, and click **Product instance > Current engagements** to view the pending requests.
 1. In the **Current engagements** section, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg "Actions") for the instance that has a pending request and click **View details**.

@@ -3,7 +3,7 @@
 copyright:
   years: 2025, 2026
 
-lastupdated: "2026-04-15"
+lastupdated: "2026-04-30"
 
 keywords: managed professional services, getting started, partner center, partner center sell, global catalog
 
@@ -99,6 +99,16 @@ The Business Partner creates a new pricing plan. When a managed service is onboa
 {: step}
 
 The consulting Business Partner then adds metrics to measure usage with usage-based pricing plans.
+
+To add metrics and submit or view usage in Partner Center, you must have the following roles:
+
+- `Partner Pricing Viewer` and `Partner Pricing Submitter` on the Partner Center - Sell service
+- `Editor` on the Software Instance service
+
+If you complete end-to-end testing for usage submission and review, make sure that you have all the required access assigned.
+{: important}
+
+Complete the following steps to add metrics to your pricing plan:
 
 1. From the **Pricing plan** table, click **Add metrics**.
 1. In the **Usage metrics** section, click **Add metrics**.
