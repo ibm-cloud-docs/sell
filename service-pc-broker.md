@@ -4,7 +4,7 @@ copyright:
 
   years: 2022, 2026
 
-lastupdated: "2026-02-10"
+lastupdated: "2026-06-30"
 
 keywords: service brokers, IBM Cloud platform, new service brokers, OSB, open service broker, partner center, host service broker
 
@@ -63,7 +63,7 @@ Deprovisioning service instances
 
 Configure and deploy a broker that has your required specifications by using the following documentation and sample applications:
 
-* Use the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api){: external} to set required specifications, including required endpoints.
+* Use the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/docs/apis/resource-controller/ibm-cloud-osb-api){: external} to set required specifications, including required endpoints.
 
 Review the following sample application:
 
@@ -174,7 +174,7 @@ The **API version header** is [2.12](https://github.com/cloudfoundry/servicebrok
 #### Recommendations on using asynchronous instead of synchronous operations
 {: #pc-asynch-ops}
 
-The OSB API supports both synchronous and asynchronous modes of operation. If your operations are going to take less than 10 seconds, you must use synchronous responses. Otherwise, you must use the asynchronous mode of operation. The asynchronous mode requires the `last_operation` endpoint. For more information, see [Get the status of a provision in-progress for a service instance](/apidocs/resource-controller/ibm-cloud-osb-api).
+The OSB API supports both synchronous and asynchronous modes of operation. If your operations are going to take less than 10 seconds, you must use synchronous responses. Otherwise, you must use the asynchronous mode of operation. The asynchronous mode requires the `last_operation` endpoint. For more information, see [Get the status of a provision in-progress for a service instance](/docs/apis/resource-controller/ibm-cloud-osb-api).
 
 #### Recommendations for managing brokers across locations
 {: #pc-managing-broker}

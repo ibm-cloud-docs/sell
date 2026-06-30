@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2026
+  years: 2025, 2026
 
-lastupdated: "2026-01-13"
+lastupdated: "2026-06-30"
 
 keywords: end-to-end, managed professional services, checklist, requirements, partners, global catalog, partner center sell
 
@@ -65,7 +65,7 @@ For more information, see the following links:
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your UNSPSC | Add the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Define your pricing information | Add pricing plans to your product: free, usage-based, and bring your own license (BYOL). If you choose BYOL, provide details about your license.  | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add metrics to your pricing plan | Add metrics to your usage-based pricing plan to determine how customers are charged. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test and submit resource usage | Review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured by enabling and submitting a usage test. This usage test includes creating your metering JSON, calling the Usage Metering API and submitting metering evidence. For more information, see [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}. | Development environment and documentation, {{site.data.keyword.cloud_notm}} console  |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test and submit resource usage | Review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured by enabling and submitting a usage test. This usage test includes creating your metering JSON, calling the Usage Metering API and submitting metering evidence. For more information, see [Usage Metering API](/docs/apis/usage-metering#report-resource-usage){: external}. | Development environment and documentation, {{site.data.keyword.cloud_notm}} console  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Review and submit the {{site.data.keyword.cloud_notm}}'s Digital Platform Reseller Agreement | Review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement if you plan to offer free or paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Tasks for adding pricing plans for managed professional services" caption-side="top"}
 

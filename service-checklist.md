@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2025
+  years: 2018, 2026
 
-lastupdated: "2025-12-08"
+lastupdated: "2026-06-30"
 
 keywords: billing service, partner center, Open Service Broker, end-to-end
 
@@ -62,7 +62,7 @@ For more information, see the following links:
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your UNSPSC | Add the United Nations Standard Products and Services Code (UNSPSC) that applies to your product. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add your pricing plans | {{site.data.keyword.cloud_notm}} supports two pricing models: free or usage-based. | {{site.data.keyword.cloud_notm}} console |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Add metrics to your pricing plan | Add metrics to your usage-based pricing plan to determine how customers are charged. | {{site.data.keyword.cloud_notm}} console |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test and submit resource usage | Review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured by enabling and submitting a usage test. This usage test includes creating your metering JSON, calling the Usage Metering API and submitting metering evidence. For more information, see [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}. | Development environment and documentation, {{site.data.keyword.cloud_notm}} console  |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test and submit resource usage | Review how customers understand and experience your pricing plan, and validate that your metered plans are correctly configured by enabling and submitting a usage test. This usage test includes creating your metering JSON, calling the Usage Metering API and submitting metering evidence. For more information, see [Usage Metering API](/docs/apis/usage-metering#report-resource-usage){: external}. | Development environment and documentation, {{site.data.keyword.cloud_notm}} console  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Review and submit the {{site.data.keyword.cloud_notm}}'s Digital Platform Reseller Agreement | Review and submit the {{site.data.keyword.IBM_notm}} Digital Platform Reseller Agreement if you plan to offer free or paid plans, or upload your custom digital provider agreement to be reviewed and approved by {{site.data.keyword.IBM_notm}}. | {{site.data.keyword.cloud_notm}} console |
 {: caption="Tasks for add pricing plans for services" caption-side="top"} 
 
@@ -79,7 +79,7 @@ For more information, see the following links:
 |------| ----------| ------------ |
 |![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Learn about the Open Service Broker specification version 2.12 | Service brokers manage the lifecycle of services. The {{site.data.keyword.cloud_notm}} platform interacts with Open Service Brokers to create and manage service instances and service bindings. For more information, see [Open Broker API spec](https://github.com/cloudfoundry/servicebroker/blob/v2.12/spec.md){: external}.| Documentation |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.cloud_notm}} broker samples |  Clone the repo, browse the broker samples, and use these samples to start development. For more information, see [Sample Resource Service Brokers](https://github.com/IBM/sample-resource-service-brokers){: external}. | Code examples |
-| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.cloud_notm}} Open Service Broker API documentation | Review the criteria that the broker must meet. The {{site.data.keyword.cloud_notm}} Open Service Broker extends the Open Service Broker 2.12 specification. For more information, see [Open Service Broker API](https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api).| Documentation  |
+| ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") View the {{site.data.keyword.cloud_notm}} Open Service Broker API documentation | Review the criteria that the broker must meet. The {{site.data.keyword.cloud_notm}} Open Service Broker extends the Open Service Broker 2.12 specification. For more information, see [Open Service Broker API](https://cloud.ibm.com/docs/apis/resource-controller/ibm-cloud-osb-api).| Documentation  |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Develop your service broker |  Use your development environment and {{site.data.keyword.cloud_notm}} resources to develop your broker. | Development environment and documentation |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Host your Open Service Broker | The hosted location of the service broker must follow Transport Layer Security (TLS) protocol version 1.2. The service broker must be hosted as part of an app that can respond to REST API calls, and it must meet {{site.data.keyword.cloud_notm}} security guidelines. |  Development environment and documentation |
 | ![Checkbox icon](../icons/checkbox-icon.svg "Checkbox") Test your hosted Open Service Broker |  Validate each of the API endpoints your service broker supports by running curl commands against your hosted service broker. Validate your service broker by running curl commands against the different endpoints you’re enabling. | Development environment and documentation |
