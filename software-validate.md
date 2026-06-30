@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2026
 
-lastupdated: "2026-06-17"
+lastupdated: "2026-06-30"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -217,7 +217,7 @@ To monitor the progress of the validation process, click **View logs**.
 {: #sw-validate-edits-api}
 {: api}
 
-You can validate your software by calling the [Catalog Management API](/apidocs/resource-catalog/private-catalog?code=java#validate-install){: external}.
+You can validate your software by calling the [Catalog Management API](/docs/apis/resource-catalog/private-catalog?code=java#validate-install){: external}.
 
 ```java
 String authRefreshToken = "{authRefreshToken}";

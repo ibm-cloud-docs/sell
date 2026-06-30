@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2025
+  years: 2021, 2026
 
-lastupdated: "2025-05-06"
+lastupdated: "2026-06-30"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -33,7 +33,7 @@ This tutorial is one of five in a series that demonstrates how to onboard and pu
 
 Before you can start onboarding your broker, complete the following step:
 
-* For an example of how to build your broker, see the [Open Service Broker reference application](https://github.com/IBM/onboarding-osb-node){: external} and the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/apidocs/resource-controller/ibm-cloud-osb-api).
+* For an example of how to build your broker, see the [Open Service Broker reference application](https://github.com/IBM/onboarding-osb-node){: external} and the [{{site.data.keyword.cloud_notm}} Open Service Broker API](/docs/apis/resource-controller/ibm-cloud-osb-api).
 
 ## Authentication schemes for brokers
 {: #authentication-scheme-broker}

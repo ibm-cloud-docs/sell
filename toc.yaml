@@ -157,16 +157,16 @@ toc:
               topics:
               - link:
                   label: IBM Cloud Open Service Broker API
-                  href: https://cloud.ibm.com/apidocs/resource-controller/ibm-cloud-osb-api
+                  href: https://cloud.ibm.com/docs/apis/resource-controller/ibm-cloud-osb-api
               - link:
                   label: IBM Cloud Usage Metering API
-                  href: https://cloud.ibm.com/apidocs/usage-metering
+                  href: https://cloud.ibm.com/docs/apis/usage-metering
           - topicgroup:
               label: Software
               topics:
               - link:
                   label: Catalog Management API
-                  href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
+                  href: https://cloud.ibm.com/docs/apis/resource-catalog/private-catalog
       - service-parameter-example.md
       - software-ova-yaml-example.md
   - navgroup:

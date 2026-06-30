@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2025
+  years: 2022, 2026
 
-lastupdated: "2025-05-22"
+lastupdated: "2026-06-30"
 
 keywords: IBM Cloud, selling services, metrics, submit evidence, testing metrics, metering
 
@@ -56,7 +56,7 @@ To review how customers understand and experience your pricing plan, and validat
 ### Creating your metering JSON
 {: #create-metering-json}
 
-To submit your resource usage, you must develop a JSON file with your metering information. After you develop your metering JSON, you can submit your resource usage by calling the Usage Metering API. There are specific fields that you must include in the request body of your JSON file to make sure that it contains all your metering information. For more information on the required fields and submitting usage records, see the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external}.
+To submit your resource usage, you must develop a JSON file with your metering information. After you develop your metering JSON, you can submit your resource usage by calling the Usage Metering API. There are specific fields that you must include in the request body of your JSON file to make sure that it contains all your metering information. For more information on the required fields and submitting usage records, see the [Usage Metering API](/docs/apis/usage-metering#report-resource-usage){: external}.
 
 To create the JSON that contains all your metering information, you must include the following fields in the request body:
 
@@ -112,7 +112,7 @@ See the following JSON example that includes the required fields:
 ### Calling the {{site.data.keyword.cloud_notm}} Usage Metering API
 {: #call-metering-api}
 
-After you create your metering JSON, you can submit your resource usage by calling the Usage Metering API. To successfully call that API, you must have an {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) token that you can include in your API request. To create an IAM access token, call the [IAM Identity Services API](/apidocs/iam-identity-token-api#gettoken-apikey){: external} as shown in the following sample request:
+After you create your metering JSON, you can submit your resource usage by calling the Usage Metering API. To successfully call that API, you must have an {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) token that you can include in your API request. To create an IAM access token, call the [IAM Identity Services API](/docs/apis/iam-identity-token-api#gettoken-apikey){: external} as shown in the following sample request:
 
 ```bash
 curl -X POST \
@@ -123,9 +123,9 @@ curl -X POST \
 {: codeblock}
 {: curl}
 
-For more information, see the [IAM Identity Services API](/apidocs/iam-identity-token-api#introduction){: external}.
+For more information, see the [IAM Identity Services API](/docs/apis/iam-identity-token-api#introduction){: external}.
 
-To submit usage for your active service instances, call the [Usage Metering API](/apidocs/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your pricing approval request must be approved by {{site.data.keyword.cloud_notm}}.
+To submit usage for your active service instances, call the [Usage Metering API](/docs/apis/usage-metering#report-resource-usage){: external} as shown in the following sample request. To make the API call, your pricing approval request must be approved by {{site.data.keyword.cloud_notm}}.
 
 ```bash
 curl -X POST -H "Authorization: {iam_token}" \
@@ -354,7 +354,7 @@ The response body includes the acceptance status of every usage record. A succes
    ```
 {: codeblock}
 
-For more information on status codes, see [Response status codes](/apidocs/usage-metering#report-resource-usage-response).
+For more information on status codes, see [Response status codes](/docs/apis/usage-metering#report-resource-usage-response).
 
 ## Review your metrics and provide evidence of your testing
 {: #submit-evidence}
