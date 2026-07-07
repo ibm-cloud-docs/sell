@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-15"
+lastupdated: "2026-07-07"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register
 
@@ -17,7 +17,7 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Register your service
+# Registering your service in Partner Center
 {: #svc-register}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}

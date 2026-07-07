@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2025
+  years: 2021, 2026
 
-lastupdated: "2025-03-27"
+lastupdated: "2026-07-07"
 
 keywords: onboard, SaaS, third-party service, partner center, pricing, usage, metering, plan, free, feature
 
@@ -18,7 +18,7 @@ completion-time: 10m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Add a pricing plan for your service
+# Adding a pricing plan for your service
 {: #svc-pricing}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}

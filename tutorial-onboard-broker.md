@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-06-30"
+lastupdated: "2026-07-07"
 
 keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
 
@@ -18,7 +18,7 @@ completion-time: 10m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Onboard a broker
+# Onboarding a broker
 {: #broker-onboard}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}

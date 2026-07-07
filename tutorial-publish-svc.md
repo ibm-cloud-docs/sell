@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-08"
+lastupdated: "2026-07-07"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, publish, tutorial, sample
 
@@ -17,7 +17,7 @@ completion-time: 30m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Publish your service to the {{site.data.keyword.cloud_notm}} catalog
+# Publishing your service to the {{site.data.keyword.cloud_notm}} catalog
 {: #svc-publish}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="30m"}

@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-04-15"
+lastupdated: "2026-07-07"
 
 keywords: onboard, SaaS, third-party service, sell on IBM Cloud, partner center, product details, catalog entry, support, pricing, catalog, service name, display name, customize, programmatic name
 
@@ -18,10 +18,10 @@ completion-time: 10m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Define the product details of your service
+# Defining the product details of your service
 {: #svc-define}
-{: toc-content-type="tutorial"} 
-{: toc-completion-time="10m"} 
+{: toc-content-type="tutorial"}
+{: toc-completion-time="10m"}
 
 This tutorial walks you through the steps for defining specific details about your service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement, customize your catalog entry and product page, and define support experience.  
 {: shortdesc}
