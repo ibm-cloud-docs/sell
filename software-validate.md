@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2026
 
-lastupdated: "2026-06-30"
+lastupdated: "2026-07-23"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -285,7 +285,7 @@ To add controls, complete the following steps:
 
 You can add inventory results from {{site.data.keyword.sysdigsecure_short}} so that users can see the claimed compliance when they evaluate your product in the catalog.
 
-In {{site.data.keyword.sysdigsecure_short}}, your inventory is updated once every day. You must deploy your resources and wait for the inventory to be updated before you add the inventory to your catalog listing. For more information, go to [Inventory](/docs/workload-protection?topic=workload-protection-inventory).
+In {{site.data.keyword.sysdigsecure_short}}, your inventory is updated once every day. You must deploy your resources and wait for the inventory to be updated before you add the inventory to your catalog listing. For more information, go to [Inventory](https://docs.sysdig.com/en/docs/sysdig-secure/inventory/){: external}.
 {: important}
 
 To add inventory results, complete the following steps:
