@@ -5,7 +5,7 @@ copyright:
   years: 2021, 2026
 lastupdated: "2026-09-02"
 
-keywords: onboard software, onboard service, onboard deployable architecture, onboard agent, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy, watsonx Orchestrate, agent
+keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy
 
 subcollection: sell
 
