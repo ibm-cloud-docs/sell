@@ -3,9 +3,9 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-15"
+lastupdated: "2026-09-02"
 
-keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy, Onboarding Workbench
+keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy
 
 subcollection: sell
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Selling on {{site.data.keyword.cloud_notm}}
 {: #selling-clouds}
 
-Are you looking to sell your software, services, or deployable architectures on {{site.data.keyword.cloud}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service creation, metering, and billing. Join our strategic growing network of 70 ISV partners with over 600,000 active monthly users.
+Are you looking to sell your software, services, or deployable architectures on {{site.data.keyword.cloud}}? You can use our broad portfolio of managed infrastructure services and developer tools to build your applications on the public cloud and manage authentication, access, self-service creation, metering, and billing. Join our strategic growing network of 70 independent software vendor (ISV) partners with over 600,000 active monthly users.
 {: shortdesc}
 
 ## Before you begin
