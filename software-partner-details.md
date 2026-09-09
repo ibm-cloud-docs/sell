@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-08"
+lastupdated: "2026-09-03"
 
 keywords: onboard software, partner details, product details, partner center, third-party, software, company details
 
@@ -27,7 +27,7 @@ As an account administrator, you can update your company and product details in 
 1. Click **Product details**.
 1. To update the company name or primary contact, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to each field.
 
-   To update the primary contact, the user must already be a member of your account. For more information, see [Inviting team members to help onboard software](/docs/sell?topic=sell-sw-invite-team).
+   To update the primary contact, the user must already be a member of your account. For more information, see [Giving team members access in Partner Center](/docs/sell?topic=sell-iam-access-pc-sell#give-access-pc).
    {: tip}
 
 ## Updating your company information
