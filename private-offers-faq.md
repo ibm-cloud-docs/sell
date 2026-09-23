@@ -38,6 +38,12 @@ You receive email notifications when the status of your private offer changes. Y
 
 If the client requests a different discount, you receive an email notification. The requested changes are also visible in Partner Center, where you can review and either approve the changes or propose other changes.
 
+## Which products can have private offers?
+{: #faq-private-offers-eligible-products}
+{: faq}
+
+You can create a private offer for any paid product that is either published, or approved and waiting to be published in Partner Center.
+
 ## How do I create a private offer?
 {: #faq-private-offers-create}
 {: faq}
