@@ -145,6 +145,7 @@ toc:
           - service-pricing-change.md
           - service-publish.md
       - assign-access-pc.md
+      - private-offers.md
   - navgroup:
       id: reference
       topics:
@@ -176,6 +177,7 @@ toc:
           topics:
           - software-faq.md
           - service-faq.md
+          - private-offers-faq.md
           - faqs-migrated.md
       - topicgroup:
           label: Troubleshooting
