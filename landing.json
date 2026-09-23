@@ -47,16 +47,16 @@
     "view_more": "/docs/overview?topic=overview-whatsnew",
     "tiles": [
       {
+        "date": "23 Sept 202",
+        "title": "Private offers from independent software vendors"
+      },
+      {
         "date": "12 Dec 2025",
         "title": "Onboarding managed professional services with usage-based pricing plans"
       },
       {
         "date": "31 May 2024",
         "title": "Onboarding software with usage-based pricing plans"
-      },
-      {
-        "date": "20 September 2023",
-        "title": "Support for onboarding third-party deployable architectures in Partner Center"
       }
     ]
   }
