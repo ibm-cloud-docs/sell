@@ -20,6 +20,9 @@ As an independent software vendor (ISV), you can create private offers to provid
 
 A private offer is an arrangement between you and a specific client. The offer provides that client access to one of your paid products at a discounted rate. The discounted rate is only available to the client that you specify.
 
+You can create a private offer for a product that is either published, or approved and waiting to be published in Partner Center.
+{: important}
+
 ## Creating a private offer for a client
 {: #private-offers-create}
 
