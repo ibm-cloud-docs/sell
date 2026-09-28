@@ -1,0 +1,1 @@
+This tutorial is one of six in a series that demonstrates how to onboard and publish an agent to the {{site.data.keyword.wxorchestrate_short}} and {{site.data.keyword.cloud_notm}} catalogs. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
