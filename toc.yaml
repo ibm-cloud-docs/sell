@@ -83,6 +83,16 @@ toc:
           - tutorial-onboard-broker.md
           - tutorial-pricing-svc.md
           - tutorial-publish-svc.md
+      - topicgroup:
+          label: Onboarding an agent
+          topics:
+          - tutorial-register-agent.md
+          - tutorial-define-agent.md
+          - tutorial-onboard-broker-agent.md
+          - tutorial-pricing-agent.md
+          - tutorial-onboard-agent.md
+          - topic: tutorial-publish-agent.md
+            navtitle: Publishing your agent
   - navgroup:
       id: howto
       topics:
