@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-09-02"
+lastupdated: "2026-09-29"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy
 
@@ -137,3 +137,18 @@ Deployable architectures are different from software in that they require an arc
 The only deployable architecture type that {{site.data.keyword.cloud_notm}} supports is Terraform.
 
 For more information, see [What is a deployable architecture?](/docs/secure-enterprise?topic=secure-enterprise-understand-module-da#what-is-da) and [Getting set up to sell deployable architectures](/docs/sell?topic=sell-da-getting-started&interface=ui).
+
+### Agents
+{: #selling-agents}
+
+Agents are prebuilt AI services that run within the {{site.data.keyword.wxorchestrate_short}} platform and automate domain-specific workflows, such as HR, finance, or IT service management. As an ISV, you can build an agent and list it in the {{site.data.keyword.cloud_notm}} catalog, where enterprise clients can discover, subscribe to, and deploy it directly into their {{site.data.keyword.wxorchestrate_short}} environment.
+
+You can onboard two types of agents:
+
+External agent
+:   An agent that runs on your own infrastructure and connects to {{site.data.keyword.wxorchestrate_short}} through an API. External agents require authentication and connection configuration.
+
+Native agent
+:   An agent that is built and deployed directly within {{site.data.keyword.wxorchestrate_short}} by using the Agent Development Kit (ADK) or Agent Builder. Native agents use IBM-managed models, tools, and runtime, and can be chatted with directly by end users.
+
+The onboarding process includes registering your agent in Partner Center, defining your product details, onboarding a broker, adding a pricing plan, and submitting your agent package for review. For more information, see [Registering an agent in Partner Center](/docs/sell?topic=sell-agent-register) and the [IBM Agent Connect documentation](https://connect.watson-orchestrate.ibm.com/introduction){: external}.
