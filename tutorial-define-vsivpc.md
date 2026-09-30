@@ -3,7 +3,7 @@
 copyright:
   years: 2023, 2026
 
-lastupdated: "2026-04-07"
+lastupdated: "2026-09-30"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, product details, catalog entry, support, pricing, terraform, catalog, vpc, virtual private cloud
 
@@ -79,7 +79,7 @@ Provide details that are displayed on your catalog entry and product page when y
 Summarize what the product is and its value.
 
 1. Click **Catalog entry**.
-1. Click **Add logo** to enter the URL to your company or product logo, such as `http://svgur.com/i/TTP.svg`.
+1. Click **Add logo** to enter the URL to your company or product logo, such as `https://svgur.com/i/TTP.svg`.
 1. Provide a short description of your product, which is displayed on your catalog entry.
 1. From the **Category** list, select an option that best fits how users might use your product, for example, **Compute/Virutal Machines**. Categories are used to organize products in the catalog based on common solutions, function, or use.
 1. Enter keywords that users might use when they search the catalog for your product, for example, `virtual machine`, `compute`, and `terraform`.
