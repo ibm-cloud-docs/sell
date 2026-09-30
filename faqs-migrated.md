@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2025
+  years: 2022, 2026
 
-lastupdated: "2025-02-17"
+lastupdated: "2026-09-30"
 
 keywords: migrated from RMC, migrated products, migrated from resource management console, migration changes
 
@@ -48,9 +48,9 @@ Yes. But, all plans for a single product must be set as either global or per loc
 ## Why can't I edit my support information?
 {: #migrated-support}
 
-The support details that you previously provided to {{site.data.keyword.IBM_notm}} aren't currently displayed on the Support tab in Partner Center, but they have been saved and are still available for all of your published products. We are improving the support details experience in Partner Center, so if you need to make any changes, we ask that you contact support. No information was lost or changed during the migration, and all of your published products include your support details. For information about opening a support case, see [Creating a Partner Center support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
+The support details that you previously provided to {{site.data.keyword.IBM_notm}} aren't displayed on the Support tab in Partner Center, but they are saved and available for all of your published products. If you need to make any changes to your support details, open a support case. No information was lost or changed during the migration, and all of your published products include your support details. For information about opening a support case, see [Creating a Partner Center support case](/docs/sell?topic=sell-get-pc-support#pc-support-case).
 
 ## Where is my custom agreement?
 {: #custom-agreement}
 
-Any previously approved custom agreements are saved and still valid. If you need to upload a new version of the custom agreement for review and approval, you can do this from the My company page. On the My company page, click **Edit** and expand the **Upload the custom agreement that you company has made with IBM Cloud**. You can drag and upload the custom agreement file, and it is reviewed by {{site.data.keyword.IBM_notm}}.
+Any previously approved custom agreements are saved and still valid. If you need to upload a new version of the custom agreement for review and approval, you can do this from the My company page. On the My company page, click **Edit** and expand the **Upload the custom agreement that your company has made with IBM Cloud**. You can drag and upload the custom agreement file, and it is reviewed by {{site.data.keyword.IBM_notm}}.

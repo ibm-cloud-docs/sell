@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2024
+  years: 2021, 2026
 
-lastupdated: "2024-06-10"
+lastupdated: "2026-09-30"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, validate, test, Terraform, terraform template
@@ -40,7 +40,7 @@ This tutorial walks you through how to onboard a Terraform template to your priv
 
 1. Upload your Terraform template to a GitHub release and create a `.tgz` file. For more information, see [Upload your Terraform template and readme file to your GitHub repository](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/tree/main#upload-your-terraform-template-to-a-github-release){: external}.
 
-   Use the [latest release of the sample Terraform code](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/tag/v1.0 ){: external} as an example of how to set up your repository.
+   Use the [latest release of the sample Terraform code](https://github.com/IBM-Cloud/isv-vsi-product-deploy-sample/releases/tag/v1.0){: external} as an example of how to set up your repository.
    {: tip}
 
 1. Verify that you're assigned the correct roles. For Terraform, you need the following {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) roles.
@@ -50,7 +50,6 @@ This tutorial walks you through how to onboard a Terraform template to your priv
    * Manager service access role for IBM Cloud Schematics
    * Operator platform role for VPC Infrastructure
    * Editor on the software instance service
-   * The required permission to complete a specific task
 
 ## Import your Terraform template
 {: #terraform-template-onboard-import}

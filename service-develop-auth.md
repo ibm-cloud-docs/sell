@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2024
+  years: 2022, 2026
 
-lastupdated: "2024-11-26"
+lastupdated: "2026-09-30"
 
 keywords: client ID, authentication flow, OAuth, authentication, access token
 
@@ -28,7 +28,7 @@ Before you can start developing an authentication flow, you must have a client I
 ### Configuring your client ID and secret
 {: #configure-client-id}
 
-To develop an authentication flow, you need a client ID and a secret, and a redirect URL. The client ID is generated to identify your service, along with the secret, which is the password for your service. Your client ID is not confidential since it is publicly identified. However, the secret is confidential and is only known to the application and the authorization server. You can create and manage you client ID in Partner Center. A redirect URL is the host URL for your service that users are redirected to after a successful authentication.
+To develop an authentication flow, you need a client ID and a secret, and a redirect URL. The client ID is generated to identify your service, along with the secret, which is the password for your service. Your client ID is not confidential since it is publicly identified. However, the secret is confidential and is only known to the application and the authorization server. You can create and manage your client ID in Partner Center. A redirect URL is the host URL for your service that users are redirected to after a successful authentication.
 
 The following example shows redirect URLs:
 
@@ -58,7 +58,7 @@ To generate your client ID, complete the following steps:
 ## Step 1: Finding the regional endpoint
 {: #auth-step1}
 
-After you successfully generate your client ID, you can start developing the oAuth flow. First, find the IAM regional endpoint for UI login that is closer to your deployed application by calling the following endpoint:
+After you successfully generate your client ID, you can start developing the OAuth flow. First, find the IAM regional endpoint for UI login that is closer to your deployed application by calling the following endpoint:
 
 `https://iam.cloud.ibm.com/identity/.well-known/openid-configuration`
 
@@ -166,4 +166,4 @@ See the following example of a successful access token response:
 
 User access tokens that are created with your client ID can be used to access only your service APIs. Requests to other {{site.data.keyword.cloud_notm}} APIs that use this token are denied access, even if the user has an appropriate policy configured.
 
-As part of third-party integration, token scoping is being used to ensure that tokens have the minimal access scope that is needed to accomplish the user's goals. To facilitate this, IAM tokens access is based on the client ID that created the token.
+As part of third-party integration, token scoping is being used to ensure that tokens have the minimal access scope that is needed to accomplish the user's goals. To facilitate this, IAM token access is based on the client ID that created the token.
