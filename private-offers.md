@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-23"
+lastupdated: "2026-09-30"
 
 keywords: private offer, discount, ISV, IBM seller, client discount, third-party product, Partner Center
 
@@ -20,13 +20,13 @@ As an independent software vendor (ISV), you can create private offers to provid
 
 A private offer is an arrangement between you and a specific client. The offer provides that client access to one of your paid products at a discounted rate. The discounted rate is only available to the client that you specify.
 
-You can create a private offer for a product that is either published, or approved and waiting to be published in Partner Center.
-{: important}
+To request a private offer from another ISV, contact [{{site.data.keyword.cloud_notm}} Sales](https://www.ibm.com/solutions/cloud?contactmodule){: external}.
+{: note}
 
 ## Creating a private offer for a client
 {: #private-offers-create}
 
-To create a private offer, complete the following steps:
+You can create a private offer for a product that is either published, or approved and waiting to be published in Partner Center. To create a private offer, complete the following steps:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select the product for which you want to create a private offer, and click **Private offers**.
