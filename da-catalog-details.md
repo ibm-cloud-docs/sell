@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-05-16"
+  years: 2023, 2026
+lastupdated: "2026-09-30"
 
 keywords: onboard deployable architecture, third-party deployable architecture, sell on IBM Cloud, partner, sellers, partner center, catalog details, catalog, logo, catalog entry, about, product page, catalog listing
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Defining your catalog entry and product page for your deployable architecture
 {: #da-catalog-details}
 
-When your deployable architecture is published in the {{site.data.keyword.cloud}} catalog, it is represented by a catalog entry and a product page. During the onboarding process, you provide the contents of your catalog entry include your company or product logo and a short description. The contents of your product page include a list of features, a detailed description, and a link to your product's warranted documentation.
+When your deployable architecture is published in the {{site.data.keyword.cloud}} catalog, it is represented by a catalog entry and a product page. During the onboarding process, you provide the contents of your catalog entry, including your company or product logo and a short description. The contents of your product page include a list of features, a detailed description, and a link to your product's warranted documentation.
 {: shortdesc}
 
 ## Defining your catalog entry

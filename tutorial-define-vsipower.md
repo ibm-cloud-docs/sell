@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2022, 2024
+  years: 2022, 2026
 
 lastupdated: "2026-09-30"
 
@@ -79,7 +79,7 @@ Provide details that are displayed on your catalog entry and product page when y
 
 1. Click **Catalog entry**, and enter the URL to your company or product logo, such as `https://svgur.com/i/TTP.svg`.
 1. Provide a short description of your product, which is displayed on your catalog entry. 
-1. From the **Category** list, select an option that best fits how users might use your product, for example, **Compute/Virutal Machines**. Categories are used to organize products in the catalog based on common solutions, function, or use.
+1. From the **Category** list, select an option that best fits how users might use your product, for example, **Compute/Virtual Machines**. Categories are used to organize products in the catalog based on common solutions, function, or use.
 1. Enter keywords that users might use when they search the catalog for your product, for example, `virtual machine`, `compute`,`terraform`, and `power`.
 1. Provide a list of features that highlights your product's attributes and benefits for users.
 

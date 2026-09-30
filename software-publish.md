@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-04-22"
+  years: 2020, 2026
+lastupdated: "2026-09-30"
 
 keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
 
@@ -50,7 +50,7 @@ To publish your software to the {{site.data.keyword.cloud_notm}} catalog after y
 1. Select **{{site.data.keyword.cloud_notm}} catalog**.
 1. Click **Publish version**.
 
-After you publish your product to the {{site.data.keyword.cloud_notm}} catalog, it will be publicly available to all {{site.data.keyword.cloud_notm}} users.
+After you publish your product to the {{site.data.keyword.cloud_notm}} catalog, it is publicly available to all {{site.data.keyword.cloud_notm}} users.
 
 As a third-party provider, you're responsible for maintaining all assets of the published software in the {{site.data.keyword.cloud_notm}} catalog and deprecating outdated versions. For more information, see [Deprecating software from the {{site.data.keyword.cloud_notm}} catalog](/docs/sell?topic=sell-deprecate-product).
 {: note}
@@ -78,4 +78,3 @@ If you published your product to only specific accounts and you want to add othe
 1. Click **Manage publish visibility**.
 1. Choose from the **{{site.data.keyword.cloud_notm}} catalog** or **Accounts** options based on where you want to publish your product to.
 1. Click **Publish version**.
-

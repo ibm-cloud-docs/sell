@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-04-24"
+  years: 2023, 2026
+lastupdated: "2026-09-30"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, virtual machine image, image, vm, vsi, publish, tutorial, sample, vpc, virtual public cloud
 
@@ -65,4 +65,4 @@ If updates are required, you receive a separate email with details about the req
 ## Next steps
 {: #vsivpc-publish-next}
 
-Verify that the virtual server image is officially live in the catalog for all users. Go to the [catalog](https://cloud.ibm.com/catalog){: external}, select **Type** > **Software**, and search for the name of your virtual server image.
+Verify that the virtual server image is officially live in the catalog for all users. Go to the [IBM Cloud catalog](https://cloud.ibm.com/catalog){: external}, select **Type** > **Software**, and search for the name of your virtual server image.

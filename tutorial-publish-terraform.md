@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-08"
+lastupdated: "2026-09-30"
 
 keywords: onboard software, terraform template, Terraform
 
@@ -48,5 +48,5 @@ If updates are required, you receive a separate email that includes review feedb
 {: #terraform-publish-submit}
 {: step}
 
-1. Navigate to the Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you receive with the publishing request approval.
+1. Go to the Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you receive with the publishing request approval.
 1. Click **Publish to catalog**.

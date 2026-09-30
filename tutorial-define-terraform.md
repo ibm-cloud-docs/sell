@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021, 2024
+  years: 2021, 2026
 
 lastupdated: "2026-09-30"
 
@@ -26,7 +26,7 @@ completion-time: 10m
 This tutorial walks you through the steps to define the details of a Terraform template in {{site.data.keyword.cloud}} Partner Center. You can onboard a Terraform template by using a `.tgz` file. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Provider Agreement, and define your catalog entry, pricing model, and customer support experience.
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish a [Terraform template](https://github.com/IBM-Cloud/terraform-sample/releases/tag/v1.0.0){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your products needs.
+This tutorial is one of four in a series that demonstrates how to onboard and publish a [Terraform template](https://github.com/IBM-Cloud/terraform-sample/releases/tag/v1.0.0){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 ## Before you begin
 {: #terraform-template-define-prereqs}

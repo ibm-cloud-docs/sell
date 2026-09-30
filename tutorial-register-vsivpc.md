@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-04-15"
+lastupdated: "2026-09-30"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, virtual server image, vpc, vsi, register, virtual private cloud
 
@@ -74,10 +74,9 @@ After you create the `Example Corp Virtual Server Image` access group, you're re
 To invite team members to your account, complete the following steps:
 
 1. Go to **Partner Center > My team**.
-1. Select the service that you're onboarding.
 1. Click **Invite users**.
 1. Enter the email address of the user that you want to invite.
-1. Click the checkbox if the user that you invite is a technical team member who will be doing technical tasks.
+1. Click the checkbox if the user that you invite is a technical team member who is doing technical tasks.
 1. Click **Invite**.
 
 ## Next steps

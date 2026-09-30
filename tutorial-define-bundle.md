@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021, 2024
+  years: 2021, 2026
 
 lastupdated: "2026-09-30"
 
@@ -89,7 +89,7 @@ Provide details that are displayed on your catalog entry and product page when y
 
 1. Provide a link to your product's warranted documentation.
 
-## Defining your pricing model
+## Define your pricing model
 {: #bundle-pricing}
 {: step}
 
@@ -110,4 +110,4 @@ To define your product's support experience, use the following steps:
 ## Next steps
 {: #bundle-define-next}
 
-[Onboard and validate your Operator bundle](/docs/sell?topic=sell-bundle-onboard)
+[Onboard and validate your Operator bundle](/docs/sell?topic=sell-bundle-onboard).

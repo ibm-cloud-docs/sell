@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2025-11-14"
+  years: 2021, 2026
+lastupdated: "2026-09-30"
 
 keywords: troubleshooting, Terraform, validate, version, unknown token
 
@@ -16,7 +16,7 @@ content-type: troubleshoot
 
 # Why can't I validate my Terraform template?
 {: #ts-validate-terraform}
-{: #troubleshoot}
+{: troubleshoot}
 
 When you try to add a Terraform template to your private catalog, the validation process fails because the correct version of the Terraform template isn't specified.
 {: shortdesc}

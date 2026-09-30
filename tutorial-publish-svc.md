@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-07-07"
+lastupdated: "2026-09-30"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, publish, tutorial, sample
 
@@ -44,22 +44,22 @@ The details of any third-party service must be reviewed by {{site.data.keyword.c
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select your product.
-1. From the Onboarding checklist, click **Request Approval**.
-1. Click **Request Approval**.
+1. From the Onboarding checklist, click **Request approval**.
+1. Click **Request approval**.
 
 At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure that the required details, such as the product name, catalog entry, product page, pricing model, and support experience are complete and accurate. When your request is approved, you receive an email notifying you that you can publish your product to the catalog.
 
-If updates are required, you'll receive a separate email with details about the required updates. After you address all review feedback, you can submit another publishing request.
+If updates are required, you receive a separate email with details about the required updates. After you address all review feedback, you can submit another publishing request.
 {: note}
 
 ## Publish the service
 {: #svc-publish-submit}
 {: step}
 
-1. Navigate to Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you received notifying you that your publishing request was approved.
+1. Go to Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you received notifying you that your publishing request was approved.
 1. Click **Publish to catalog**.
 
 ## Next steps
 {: #svc-publish-next}
 
-Verify that your service is officially live in the catalog for all users. Go to the [catalog](https://cloud.ibm.com/catalog){: external}, select **Type** > **Service**, and search for the name of your product.
+Verify that your service is officially live in the catalog for all users. Go to the [IBM Cloud catalog](https://cloud.ibm.com/catalog){: external}, select **Type** > **Service**, and search for the name of your product.

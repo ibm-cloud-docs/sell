@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-08"
+lastupdated: "2026-09-30"
 
 keywords: publish, operator, Red Hat OpenShift cluster, sample Node-RED Operator
 
@@ -36,8 +36,8 @@ Make sure you complete all onboarding tasks, including [defining your product de
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Navigation Menu** icon ![Navigation Menu icon](../icons/icon_hamburger.svg "Menu") > **Partner Center** > **My products**.
 1. Select **Sample Node-RED Operator v1.0** from the list.
-1. From the Onboarding checklist, click **Request Approval**.
-1. Select **1.0** as the version that you want to publish, and click **Request Approval**.
+1. From the Onboarding checklist, click **Request approval**.
+1. Select **1.0** as the version that you want to publish, and click **Request approval**.
 
 At this point, your publishing request is reviewed by {{site.data.keyword.cloud_notm}} to ensure the required details, such as your product name, catalog entry, product page, and support experience are complete and accurate. When your request is approved, you receive an email notifying you that you can publish your product to the catalog.
 
@@ -48,5 +48,5 @@ If updates are required, you receive a separate email that includes review feedb
 {: #operator-publish-submit}
 {: step}
 
-1. Navigate to the Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you receive notifying you that your publishing request is approved.
+1. Go to the Partner Center in the {{site.data.keyword.cloud_notm}} console by clicking the link in the email that you receive notifying you that your publishing request is approved.
 1. Click **Publish to catalog**.

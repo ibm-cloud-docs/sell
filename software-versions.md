@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-06-10"
+  years: 2021, 2026
+lastupdated: "2026-09-30"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, version
 
@@ -30,7 +30,7 @@ This process is for adding a new version. If you want to deploy your existing ve
 1. Click **Import a version**.
 1. Select **Helm chart** as your deployment method.
 1. Indicate whether your repository type is private or public.
-1. Enter your source url.
+1. Enter your source URL.
 1. Choose your deployment target.
 1. Review the **Summary**.
 1. Click **Add version**.
@@ -45,7 +45,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 1. Click **Import a version**.
 1. Select **Terraform** as your deployment method.
 1. Indicate whether your repository type is private or public.
-1. Enter your source url.
+1. Enter your source URL.
 1. Enter your software version in the format of major version, minor version, and revision, for example, 1.0.0.
 1. Review the **Summary**.
 1. Click **Add version**.
@@ -61,7 +61,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 4. Select **Operator** as your deployment method.
 5. In the source repository menu, select **Import from your repository**.
 6. Indicate whether your repository type is private or public.
-7. Enter your source url.
+7. Enter your source URL.
 8. Enter your software version in the format of major version, minor version, and revision, for example, 1.0.0.
 
    Enter the version of your software and not the version of your operator. For example, you can use operator version 1.3.0 to install software version 3.1.1. The software version field is asking for version number 3.1.1.
@@ -96,7 +96,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 1. In Software, click **Import a version**.
 1. Select **OVA image** as your deployment method.
 1. Indicate whether your repository type is private or public.
-1. Enter your source url.
+1. Enter your source URL.
 1. Review the **Summary**.
 1. Click **Add version**.
 
@@ -110,7 +110,7 @@ To complete the validation process, see [Configure the product details](/docs/se
 1. In Software, click **Import a version**.
 1. Select **Virtual server image with Terraform** as your deployment method.
 1. Indicate whether your repository type is private or public.
-1. Enter your source url.
+1. Enter your source URL.
 1. Enter your software version in the format of major version, minor version, and revision, for example, 1.0.0.
 1. Review the **Summary**.
 1. Click **Add version**.
