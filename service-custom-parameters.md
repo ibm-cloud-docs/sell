@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2022, 2024
+  years: 2022, 2026
 
-lastupdated: "2025-12-02"
+lastupdated: "2026-09-30"
 
 keywords: IBM Cloud, selling services, custom, parameters
 
@@ -24,7 +24,7 @@ When you onboard your service to {{site.data.keyword.cloud}}, you might need to 
 ## Adding custom input fields
 {: #service-add-field}
 
-Partner center offers two input options for the required customer information. You can choose a **Simple** input option to add custom fields like short text and paragraph entries. Or, for advanced use cases that require more complex inputs, you can choose the **Advanced** option to receive the input as JSON code.
+Partner Center offers two input options for the required customer information. You can choose a **Simple** input option to add custom fields like short text and paragraph entries. Or, for advanced use cases that require more complex inputs, you can choose the **Advanced** option to receive the input as JSON code.
 
 ### Simple input option to add custom fields
 {: #service-simple}

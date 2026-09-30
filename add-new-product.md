@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2022, 2024
-lastupdated: "2024-03-04"
+  years: 2022, 2026
+lastupdated: "2026-09-30"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, add product, software, partner, sellers, partner center, name, type, create product
 
@@ -32,6 +32,10 @@ During the onboarding process, you can add a new product or import an existing p
 
 1. Enter the display name of your product.
 1. Optionally, enter the programmatic name of your product, and click **Next**.
+
+   If you don't provide a programmatic name, one is automatically generated from your company name and display name. You can update the programmatic name before you submit it for approval, but you cannot change it after it is submitted.
+   {: note}
+
 1. Review your product details and click **Create**.
 
 ## Importing an existing product

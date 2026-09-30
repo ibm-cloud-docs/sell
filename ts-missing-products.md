@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-08-01"
+  years: 2021, 2026
+lastupdated: "2026-09-30"
 
 keywords: troubleshoot software, products, onboard, missing
 
@@ -24,8 +24,8 @@ If you expect to see a list of your products on the `My products` page in Partne
 When you go to the `My products` page in Partner Center, you see Getting started steps instead of a list of your products.
 {: tsSymptoms}
 
-This error typically occurs because no products are associated with the account you are accessing.
+This error typically occurs because no products are associated with the account that you are currently using.
 {: tsCauses}
 
-Make sure you are in the correct account by opening the account menu in the navigation bar and selecting the account where the product is located.
+Switch to the account where your products are located. In the {{site.data.keyword.cloud_notm}} console, click your account name in the navigation bar to open the account selector, and select the account where your product was onboarded.
 {: tsResolve}
