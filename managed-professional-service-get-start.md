@@ -3,7 +3,7 @@
 copyright:
   years: 2025, 2026
 
-lastupdated: "2026-04-30"
+lastupdated: "2026-09-30"
 
 keywords: managed professional services, getting started, partner center, partner center sell, global catalog
 
@@ -22,7 +22,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-Welcome to {{site.data.keyword.cloud}}! To start onboarding your managed professional services as an IBM Business Partner, you can use Partner Center to set up the offering. It process includes onboarding your product, configuring custom parameters and contact information, setting up new pricing plans, adding metrics to your pricing plan, providing support details, and managing resource provisioning. After your service is published, it becomes available in the {{site.data.keyword.cloud_notm}} catalog, ready for clients to discover and consume.
+Welcome to {{site.data.keyword.cloud}}! To start onboarding your managed professional services as an IBM Business Partner, you can use Partner Center to set up the offering. The process includes onboarding your product, configuring custom parameters and contact information, setting up new pricing plans, adding metrics to your pricing plan, providing support details, and managing resource provisioning. After your service is published, it becomes available in the {{site.data.keyword.cloud_notm}} catalog, ready for clients to discover and consume.
 {: shortdesc}
 
 Managed professional services provide clients with end-to-end solutions delivered and maintained by expert Business Partners, eliminating the need for clients to manage technical complexity themselves. These services typically include setup, configuration, monitoring, compliance, and ongoing support, which can ensure reliability and scalability. By using tools like Partner Center for service creation and the {{site.data.keyword.cloud_notm}} for seamless discovery and provisioning, businesses can access tailored, fully managed offerings that accelerate time-to-value and reduce operational burden.
@@ -47,7 +47,7 @@ Onboarding your professional services to {{site.data.keyword.cloud_notm}} involv
 The Business Partner uses Partner Center to onboard and configure managed professional services. This process involves setting up the service offering, defining custom parameters, adding contact and support details, creating pricing plans with relevant metrics, and managing resource provisioning. For more information on how to manage published engagements as a Business Partner, see [Administering managed professional services as an IBM Business Partner](/docs/sell?topic=sell-consume-mps-partner&interface=ui).
 
 **Client role**:
-Clients access the {{site.data.keyword.cloud_notm}} catalog to explore and select published managed professional services. They can review the available offerings and engage with the service as configured by the Business Partner, ensuring a streamlined experience for consuming professional services. For more information on how to manage published enagagements as a client, see [Consuming managed professional services as a client](/docs/sell?topic=sell-consume-mps-client&interface=ui).
+Clients access the {{site.data.keyword.cloud_notm}} catalog to explore and select published managed professional services. They can review the available offerings and engage with the service as configured by the Business Partner, ensuring a streamlined experience for consuming professional services. For more information on how to manage published engagements as a client, see [Consuming managed professional services as a client](/docs/sell?topic=sell-consume-mps-client&interface=ui).
 
 ## Before you begin
 {: #mps-getstart-prereqs}
@@ -57,7 +57,7 @@ Clients access the {{site.data.keyword.cloud_notm}} catalog to explore and selec
    It's recommended that you use an account that was created with a [functional ID](/docs/iam?topic=iam-identity-overview#functionalid-bestpract) to help ensure your continued access to the products that are onboarded in the account.
    {: tip}
 
-* Verify that you're assigned as the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui) and [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui).
+* Verify that you're assigned the administrator role on all account management services and all IAM-enabled services. See [Assigning access to account management services](/docs/iam?topic=iam-account-services&interface=ui) and [Managing access to resources](/docs/iam?topic=iam-assign-access-resources&interface=ui).
 
 ## Onboard your product
 {: #onboard-product}

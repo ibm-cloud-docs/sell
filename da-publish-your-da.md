@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-04-24"
+  years: 2023, 2026
+lastupdated: "2026-09-30"
 
 keywords: deployable architecture, third party, product center sell, publish deployable architecture, partner center, partners, sellers
 
@@ -48,7 +48,7 @@ To publish your deployable architecture to the {{site.data.keyword.cloud_notm}} 
 1. Select **{{site.data.keyword.cloud_notm}} catalog**.
 1. Click **Publish version**.
 
-After you publish your product to the {{site.data.keyword.cloud_notm}} catalog, it will be publicly available to all {{site.data.keyword.cloud_notm}} users.
+After you publish your product to the {{site.data.keyword.cloud_notm}} catalog, it is publicly available to all {{site.data.keyword.cloud_notm}} users.
 
 As a third-party provider, you're responsible for maintaining all assets of the published deployable architecture in the {{site.data.keyword.cloud_notm}} catalog and deprecating outdated versions.
 {: note}

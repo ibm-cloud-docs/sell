@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2026
 
-lastupdated: "2026-04-15"
+lastupdated: "2026-09-30"
 
 keywords: IBM Cloud, different metering options, new IBM Cloud Identity, selling products, paid products, payments for third-party products, disbursements, funds, testing
 
@@ -73,7 +73,7 @@ You're given your API Key when you enable IAM. It is critical that you save the 
 {: #test-service-user}
 {: faq}
 
-Before you publish your service to the catalog, you can test how your customers will see and use it from the {{site.data.keyword.cloud_notm}} catalog. In Partner Center, go to your **Product details**, and click **View catalog entry**. This view enables you to preview your service in the catalog and check that the broker and pricing is working as expected by creating an instance in your account.
+Before you publish your service to the catalog, you can test how your customers see and use it from the {{site.data.keyword.cloud_notm}} catalog. In Partner Center, go to your **Product details**, and click **View catalog entry**. This view enables you to preview your service in the catalog and check that the broker and pricing is working as expected by creating an instance in your account.
 
 
 

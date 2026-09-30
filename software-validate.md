@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2026
 
-lastupdated: "2026-07-23"
+lastupdated: "2026-09-30"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -192,7 +192,7 @@ Imported licenses don't replace any license agreements that you already added to
 When users install the software, they can view product information by clicking the Readme link. The information in the Readme link is generated from the readme file that you uploaded to your source repository.
 
 1. From the Edit readme tab, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit").
-1. Preview how the information in the readme file will be displayed to users when they are installing the software.
+1. Preview how the information in the readme file is displayed to users when they are installing the software.
 1. To make updates, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg "Edit") next to the Readme section title.
 1. Click **Save**.
 1. Click **Next**.

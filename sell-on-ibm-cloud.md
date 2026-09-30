@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-09-29"
+lastupdated: "2026-09-30"
 
 keywords: onboard software, onboard service, onboard deployable architecture, third-party software, sell on IBM Cloud, third-party service, Partner Center, product onboarding, deploy
 
@@ -73,7 +73,7 @@ By using Partner Center Sell to onboard your product, you can create a tile to o
 Take advantage of a simplified installation and deployment process for your customers through the {{site.data.keyword.cloud_notm}} catalog. Review the following sections to understand how your product can be offered through {{site.data.keyword.cloud_notm}}.
 
 ### Software
-{: #selling-sotware}
+{: #selling-software}
 
 Software includes containerized applications or system images that your customers can run on their own infrastructure.
 

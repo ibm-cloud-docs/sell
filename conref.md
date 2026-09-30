@@ -3,7 +3,7 @@
 copyright:
   years: 2022, 2026
 
-lastupdated: "2026-07-23"
+lastupdated: "2026-09-30"
 
 keywords:
 
@@ -111,7 +111,7 @@ Use the following steps to add support details for your product:
 
 1. From the Partner Center Support tab, provide your product's support statement.
 
-   For the support statement, describe the provided support for your product and Add any additional support information that isn't provided in the other fields.
+   For the support statement, describe the provided support for your product and add any additional support information that isn't provided in the other fields.
    {: note}
 
 1. Click **Add support details**, provide your support availability, then click **Save** to add each detail. You must add at least 1 support detail for your product.
