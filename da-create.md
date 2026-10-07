@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-12-03"
+  years: 2023, 2026
+lastupdated: "2026-10-07"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: sell
 # Adding a deployable architecture to Partner Center
 {: #create-da-product}
 
-As the first step in the onboarding process, you can either add the deployable architecture to Partner Center, or you can import an existing one from a private catalog.
+Start the onboarding process by adding your deployable architecture to Partner Center, or import an existing one from a private catalog.
 {: shortdesc}
 
 A deployable architecture is cloud automation for deploying a common architectural pattern that combines one or more cloud resources. It is designed to provide simplified deployment by users, scalability, and modularity. A deployable architecture incorporates one or more modules. Deployable architectures are coded in Terraform, which you configure with input variables to achieve the behavior that you want. For more information, see [What is a deployable architecture?](/docs/secure-enterprise?topic=secure-enterprise-understand-module-da&interface=ui#what-is-da).
