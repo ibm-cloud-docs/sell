@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2021, 2024
+  years: 2021, 2026
 
-lastupdated: "2026-04-15"
+lastupdated: "2026-10-14"
 
 
-keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
+keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, onboard operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
 
 subcollection: sell
 
@@ -19,14 +19,16 @@ completion-time: 45m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Onboarding your Operator
+# Onboarding an Operator to your private catalog in {{site.data.keyword.cloud_notm}}
 {: #operator-onboard}
 {: toc-content-type="tutorial"}
 {: toc-services="Registry"}
 {: toc-completion-time="45m"}
 
-This tutorial walks you through how to onboard a sample Node-RED Operator to your private catalog in {{site.data.keyword.cloud}}. You can onboard an Operator or Operator bundle by using a TGZ file. By completing this tutorial, you learn how to import the Operator, configure the deployment, license, and other details, and validate that the Operator can be installed on a Red Hat OpenShift cluster.
+Learn how to onboard a sample Node-RED Operator to your private catalog in {{site.data.keyword.cloud}} and validate that it can be installed on a Red Hat OpenShift cluster.
 {: shortdesc}
+
+You can onboard an Operator or Operator bundle by using a TGZ file. In this tutorial, you import the Operator, configure the deployment, license, and other details, and validate that the Operator can be installed.
 
 ## Before you begin
 {: #operator-onboard-prereqs}

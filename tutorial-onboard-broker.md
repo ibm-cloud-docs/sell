@@ -3,9 +3,9 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-07-07"
+lastupdated: "2026-10-14"
 
-keywords: third-party, sell on IBM Cloud, partner center, service, broker, pricing plan, regions, location
+keywords: third-party, sell on IBM Cloud, partner center, service, broker, onboard broker, pricing plan, regions, location
 
 subcollection: sell
 
@@ -18,13 +18,15 @@ completion-time: 10m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Onboarding a broker
+# Onboarding a broker for your service in {{site.data.keyword.cloud_notm}} Partner Center
 {: #broker-onboard}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-This tutorial walks you through how to onboard a broker that you can use to connect a pricing plan to your third-party service. When users create instances of your service from the {{site.data.keyword.cloud}} catalog, the broker manages the lifecycle of those instances, and connects the service to the applications that developers are building.
+Learn how to onboard a broker to connect a pricing plan to your service and manage the lifecycle of service instances in {{site.data.keyword.cloud}}.
 {: shortdesc}
+
+When users create instances of your service from the {{site.data.keyword.cloud_notm}} catalog, the broker manages the lifecycle of those instances and connects the service to the applications that developers are building.
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a third-party service to {{site.data.keyword.cloud_notm}}. As you complete the tutorial, adjust each step to fit your product's needs.
 

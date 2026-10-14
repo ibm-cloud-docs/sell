@@ -4,9 +4,9 @@ copyright:
 
   years: 2022, 2026
 
-lastupdated: "2026-09-30"
+lastupdated: "2026-10-14"
 
-keywords: migrated from RMC, migrated products, migrated from resource management console, migration changes
+keywords: migrated from RMC, migrated products, migrated from resource management console, migration changes, partner center, frequently asked questions
 
 subcollection: sell
 
@@ -14,10 +14,10 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQ for migrated products
+# FAQ for products migrated to {{site.data.keyword.cloud_notm}} Partner Center
 {: #migrated-products}
 
-FAQ about products that are migrated from the resource management console might include questions about Lite plans, changing pricing plans, and brokers connected to approved pricing plans.
+Get answers to frequently asked questions about managing products that were migrated from the resource management console to {{site.data.keyword.cloud_notm}} Partner Center.
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).

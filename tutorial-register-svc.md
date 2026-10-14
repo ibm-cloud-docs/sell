@@ -2,9 +2,9 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-09-30"
+lastupdated: "2026-10-14"
 
-keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register
+keywords: onboard service, third-party service, sell on IBM Cloud, partner center, register, register service
 
 subcollection: sell
 
@@ -17,12 +17,12 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Registering your service in Partner Center
+# Registering your service in {{site.data.keyword.cloud_notm}} Partner Center
 {: #svc-register}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
 
-This tutorial walks you through how to register a service in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide your company details, create a test environment, and grant team members access to help with the onboarding process.
+Register your service in {{site.data.keyword.cloud}} Partner Center by providing your company details, creating a test environment, and setting up team access.
 {: shortdesc}
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a service to the {{site.data.keyword.cloud_notm}} catalog. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your needs.

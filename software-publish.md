@@ -3,9 +3,9 @@
 
 copyright:
   years: 2020, 2026
-lastupdated: "2026-09-30"
+lastupdated: "2026-10-14"
 
-keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers
+keywords: software, third party, product portal, publish software, promote software, partner portal, partners, sellers, IBM Cloud catalog
 
 subcollection: sell
 
@@ -13,11 +13,13 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Publishing your software
+# Publishing your software to the {{site.data.keyword.cloud_notm}} catalog
 {: #sw-publish}
 
-As the last step in the onboarding process, you can submit a request to publish your third-party software to the {{site.data.keyword.cloud}} catalog. When you publish your software to the catalog, you can choose to publish it to all {{site.data.keyword.cloud_notm}} users in the catalog or to only specific accounts. If you choose to publish to specific accounts, your product is available only for users in those accounts.
+Learn how to publish your software to the {{site.data.keyword.cloud}} catalog as the last step in the onboarding process.
 {: shortdesc}
+
+When you publish your software, you can make it available to all {{site.data.keyword.cloud_notm}} users in the catalog or restrict it to specific accounts. If you choose to publish to specific accounts, your product is available only for users in those accounts.
 
 
 
