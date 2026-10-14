@@ -3,9 +3,9 @@
 
 copyright:
   years: 2022, 2026
-lastupdated: "2026-09-30"
+lastupdated: "2026-10-14"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, add product, software, partner, sellers, partner center, name, type, create product
+keywords: onboard software, third-party software, sell on IBM Cloud, add product, import product, software, partner, sellers, partner center, name, type, create product
 
 subcollection: sell
 
@@ -13,11 +13,14 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Creating a product
+# Creating a product in {{site.data.keyword.cloud_notm}} Partner Center
 {: #add-product}
 
-During the onboarding process, you can add a new product or import an existing product. Importing an existing product is limited to software that was previously added to a private catalog.
+Learn how to add a new product or import an existing one during the onboarding process in {{site.data.keyword.cloud}} Partner Center.
 {: shortdesc}
+
+Importing an existing product is limited to software that was previously added to a private catalog.
+{: note}
 
 ## Adding a new product
 {: #add-new-product}

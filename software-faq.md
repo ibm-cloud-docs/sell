@@ -4,10 +4,10 @@ copyright:
 
   years: 2020, 2026
 
-lastupdated: "2026-04-15"
+lastupdated: "2026-10-14"
 
 
-keywords: third-party software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
+keywords: third-party software, selling software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
 
 subcollection: sell
 
@@ -17,10 +17,10 @@ content-type: faq
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQ about selling software
+# FAQ for selling software in {{site.data.keyword.cloud_notm}} Partner Center
 {: #thirdparty-sw-faqs}
 
-FAQ about selling third-party software on {{site.data.keyword.cloud}} might include questions about the types of software you can add to the catalog, pricing plans, and updating and restoring software versions.
+Get answers to frequently asked questions about selling software on {{site.data.keyword.cloud}}, including software types, onboarding, versions, and team access.
 {: shortdesc}
 
 To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).

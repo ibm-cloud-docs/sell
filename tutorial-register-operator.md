@@ -3,9 +3,9 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-04-15"
+lastupdated: "2026-10-14"
 
-keywords: onboard software, third-party software, sell on IBM Cloud, partner center, register, Red Hat OpenShift, cluster, Node-RED Operator, Kubernetes cluster, operator
+keywords: onboard software, third-party software, sell on IBM Cloud, partner center, register, register operator, Red Hat OpenShift, cluster, Node-RED Operator, Kubernetes cluster, operator
 
 subcollection: sell
 
@@ -18,15 +18,15 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Registering an Operator
+# Registering an Operator in {{site.data.keyword.cloud_notm}} Partner Center
 {: #operator-register}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
 
-This tutorial walks you through how to register a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center. You can onboard an Operator or Operator bundle using a TGZ file. By completing this tutorial, you learn how to provide your company details, create a test environment, and set up access for your team to help with the onboarding process.
+Learn how to register a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center by adding your company name, creating a test environment, and setting up team access.
 {: shortdesc}
 
-This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample Node-RED Operator](https://github.com/IBM-Cloud/operator-bundle-sample/releases){: external}. It uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
+This tutorial is one of four in a series that demonstrates how to onboard and publish a [sample Node-RED Operator](https://github.com/IBM-Cloud/operator-bundle-sample/releases){: external}. You can onboard an Operator or Operator bundle by using a TGZ file. The tutorial uses a fictitious company that's called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 
 ## Before you begin
 {: #operator-reg-prereqs}

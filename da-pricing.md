@@ -3,7 +3,7 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-04-08"
+lastupdated: "2026-10-14"
 
 keywords: deployable architecture, estimated cost, pricing, resource cost, starting cost
 
@@ -13,11 +13,13 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Reviewing pricing details
+# Reviewing pricing details for deployable architectures
 {: #da-pricing}
 
-Deployable architectures have no costs, although the resources that they create might have their own licenses or costs. You can review the estimated starting cost of your product, which can help you determine how much your customers would be charged for deploying the architecture.
+Review the estimated starting cost of your deployable architecture to understand how much your customers would be charged for the resources it creates.
 {: shortdesc}
+
+Deployable architectures have no costs, although the resources that they create might have their own licenses or costs.
 
 ## Before you begin
 {: #before-da-pricing}
