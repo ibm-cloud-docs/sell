@@ -20,7 +20,7 @@ subcollection: sell
 Learn how to define your support experience for deployable architectures in {{site.data.keyword.cloud}} Partner Center, including how to select a support provider and add support details.
 {: shortdesc}
 
-Making sure that your users understand how to get help and support for your product is key. Defining your support experience includes providing details about how users can contact your support team and escalate issues. To define your product's support experience, you need to select the type of support that is provided, add support details, and then provide information about how users can escalate support cases.
+Making sure that your users understand how to get help and support for your product is key. Defining your support experience includes providing details about how users can contact your support team and escalate issues.
 
 {{site.data.content.select-support-provider}}
 
