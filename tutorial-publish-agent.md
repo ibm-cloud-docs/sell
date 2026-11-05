@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-11-05"
 
 keywords: publish agent, third-party agent, sell on IBM Cloud, partner center, publish, watsonx Orchestrate, catalog
 
@@ -59,7 +59,7 @@ If updates are required, you receive a separate email with details about what ne
 {: #agent-publish-submit}
 {: step}
 
-When all product details are approved, the **Publish to {{site.data.keyword.wxorchestrate_short}}** button appears at the top of the page. Click **Publish to {{site.data.keyword.wxorchestrate_short}}** to submit your agent for publishing.
+When all product details are approved, the **Publish to {{site.data.keyword.wxorchestrate_short}}** button appears on the page. Click **Publish to {{site.data.keyword.wxorchestrate_short}}** to submit your agent for publishing.
 
 After you click the button, a **Publish request sent** confirmation appears. Your request to publish your agent to the {{site.data.keyword.wxorchestrate_short}} catalog has been sent. After your agent is published there, it is automatically published to the {{site.data.keyword.cloud_notm}} catalog as well.
 

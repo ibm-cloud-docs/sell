@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2026
 
-lastupdated: "2026-10-14"
+lastupdated: "2026-11-05"
 
 
 keywords: third-party software, selling software, faq, product portal, partner portal, partners, sellers, help, third-party, software, partner center, frequently asked questions
@@ -84,7 +84,7 @@ To update your software, you can add a new version of it or update and republish
 Make sure the version of the software that you're updating in your private catalog is the same as the version that was onboarded in the Partner Center UI.
 {: note}
 
-## A sponsored {{site.data.keyword.IBM_notm}} team is helping me onboard. Should I use their {{site.data.keyword.cloud_notm}} account or my {{site.data.keyword.cloud_notm}} account to go through the onboarding process?
+## Which account do I use if a sponsored {{site.data.keyword.IBM_notm}} team is helping me onboard?
 {: #choose-account-sw}
 {: faq}
 
