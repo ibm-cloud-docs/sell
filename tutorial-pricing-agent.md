@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-11-05"
 
 keywords: onboard agent, third-party agent, sell on IBM Cloud, partner center, pricing, usage, metering, plan, ECCN, UNSPSC, feature, metrics
 
@@ -76,7 +76,7 @@ An Export Control Classification Number (ECCN) is a five-character alphanumeric 
 {: #agent-pricing-unspsc}
 {: step}
 
-A United Nations Standard Products and Services Code (UNSPSC) is an eight-digit global classification system that categorizes products and services. You must provide a UNSPSC to onboard your agent to the {{site.data.keyword.cloud_notm}} catalog. You can choose from a list of common UNSPSCs or search for one that applies to your product. If you need help selecting the right code, see [How to select UNSPSC codes](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes){: external}. For the purposes of this tutorial, select a common UNSPSC.
+A United Nations Standard Products and Services Code (UNSPSC) is an eight-digit global classification system that categorizes products and services. You must provide a UNSPSC to onboard your agent to the {{site.data.keyword.cloud_notm}} catalog. You can choose from a list of common UNSPSCs or search for one that applies to your product. If you need help selecting a suitable code, see [How to select UNSPSC codes](https://help.ungm.org/hc/en-us/articles/360013132940-How-to-select-UNSPSC-codes){: external}. For the purposes of this tutorial, select a common UNSPSC.
 
 1. Click **Add UNSPSC**.
 1. Select a common UNSPSC, for example, **Cloud-based software as a service (81162000)**.

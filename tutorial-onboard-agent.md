@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-11-05"
 
 keywords: onboard agent, third-party agent, sell on IBM Cloud, partner center, native agent, agent development kit, watsonx Orchestrate, package, submit
 
@@ -56,7 +56,7 @@ You can choose between two agent types. Native agents are built and deployed wit
 {: #agent-onboard-submit}
 {: step}
 
-After you select the agent type, upload your agent package and review the details that are automatically populated from your package file. The maximum file size is 200 MB and the supported file type is `.zip`.
+After you select the agent type, upload your agent package and review the details that are automatically populated from your package file. The package file must be a `.zip` file that is 200 MB or smaller.
 
 1. In the **Add agent package** section, drag and drop your ZIP package file or click to upload it.
 1. Review the fields in the **Agent details** form to confirm that they reflect the values from your package file. The form is populated with the following fields from your package:
