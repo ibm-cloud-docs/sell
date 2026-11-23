@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-09-30"
+lastupdated: "2026-11-23"
 
 keywords: publish, operator, Red Hat OpenShift cluster, sample Node-RED Operator
 
@@ -21,6 +21,8 @@ completion-time: 5m
 {: #operator-publish}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
+
+
 
 This tutorial walks you through how to publish your sample Node-RED Operator to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your publishing request, receive your approval notification, and publish your product to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}

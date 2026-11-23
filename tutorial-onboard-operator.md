@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-10-14"
+lastupdated: "2026-11-23"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, onboard operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
@@ -24,6 +24,8 @@ completion-time: 45m
 {: toc-content-type="tutorial"}
 {: toc-services="Registry"}
 {: toc-completion-time="45m"}
+
+
 
 Learn how to onboard a sample Node-RED Operator to your private catalog in {{site.data.keyword.cloud}} and validate that it can be installed on a Red Hat OpenShift cluster.
 {: shortdesc}

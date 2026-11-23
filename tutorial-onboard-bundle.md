@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2026-04-15"
+  years: 2021, 2026
+lastupdated: "2026-11-23"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -22,6 +22,8 @@ completion-time: 45m
 {: toc-content-type="tutorial"}
 {: toc-services="Registry"}
 {: toc-completion-time="45m"}
+
+
 
 This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.openshiftshort}} Operator bundle, configure a deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
 {: shortdesc}
