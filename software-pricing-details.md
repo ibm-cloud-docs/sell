@@ -4,7 +4,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-04-07"
+lastupdated: "2026-11-24"
 
 keywords: software, pricing, paid, usage-based, free, third-party, license, BYOL, bring your own license
 
@@ -14,11 +14,13 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Defining your pricing model for software
+# Defining your pricing model for software in Partner Center
 {: #sw-pricing}
 
-When you onboard your product to {{site.data.keyword.cloud}}, you must define a pricing model for your software in Partner Center. Currently, {{site.data.keyword.cloud_notm}} supports free, usage-based, and bring your own license (BYOL) plans.
+Define a pricing model for your software in Partner Center. {{site.data.keyword.cloud}} supports free, usage-based, and bring your own license (BYOL) plans.
 {: shortdesc}
+
+When you onboard your product to {{site.data.keyword.cloud_notm}}, you must define a pricing model for your software.
 
 Usage-based pricing plans are available only for software that are onboarded with the virtual server image delivery method.
 {: note}

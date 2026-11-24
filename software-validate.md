@@ -4,7 +4,7 @@
 copyright:
   years: 2020, 2026
 
-lastupdated: "2026-09-30"
+lastupdated: "2026-11-24"
 
 keywords: software, third-party software, sellers, partners, validate, test, partner center
 
@@ -14,10 +14,10 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Onboarding software to your private catalog
+# Onboarding software to your private catalog in {{site.data.keyword.cloud_notm}}
 {: #sw-validate}
 
-The process to onboard your software includes importing a version to your private catalog, configuring the deployment details, setting any license requirements, and validating that the version can be successfully installed on the target infrastructure that you require.
+Onboard your software by importing a version to your private catalog, configuring deployment and license details, and validating installation.
 {: shortdesc}
 
 ## Before you begin

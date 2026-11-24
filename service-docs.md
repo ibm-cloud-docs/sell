@@ -3,9 +3,9 @@
 
 copyright:
   years: 2024, 2026
-lastupdated: "2026-04-08"
+lastupdated: "2026-11-24"
 
-keywords: service documentation, documenting
+keywords: service documentation, documenting, Docs link, catalog, getting started
 
 subcollection: sell
 
@@ -13,10 +13,10 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Documenting your service
+# Documenting your service for the {{site.data.keyword.cloud_notm}} catalog
 {: #service-docs}
 
-Documenting your service includes providing details about how to use your product and making sure that users can find these instructions by providing a link from the {{site.data.keyword.cloud_notm}} catalog.
+Document how to use your service and provide the documentation link in the {{site.data.keyword.cloud}} catalog so that users can find your instructions.
 {: shortdesc}
 
 ## Creating your service documentation

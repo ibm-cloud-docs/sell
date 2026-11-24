@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022, 2025
-lastupdated: "2025-11-14"
+  years: 2022, 2026
+lastupdated: "2026-11-24"
 
 keywords: troubleshoot software, HTTPS protocol, repo, github, tgz
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #repo-upload-error}
 {: troubleshoot}
 
-If you encounter an error when you are importing your software into a private catalog, a file might be missing or formatted incorrectly within your source repository. Or, if your repository is private, authentication failed.
+If you get an error when you import software into a private catalog, a file might be missing or incorrectly formatted. Or, if your repository is private, authentication failed.
 {: shortdesc}
 
 You receive the following error message when you try to upload your product's source details from a GitHub or GitLab repository to your private catalog:

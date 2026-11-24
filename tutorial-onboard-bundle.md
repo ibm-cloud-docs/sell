@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-11-23"
+lastupdated: "2026-11-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, sample Red Hat OpenShift operator, operator bundle
 
@@ -17,7 +17,7 @@ completion-time: 45m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Onboarding your Operator bundle
+# Onboarding a Certified Operator bundle to {{site.data.keyword.cloud_notm}}
 {: #bundle-onboard}
 {: toc-content-type="tutorial"}
 {: toc-services="Registry"}
@@ -25,8 +25,10 @@ completion-time: 45m
 
 
 
-This tutorial walks you through how to onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry. By completing this tutorial, you learn how to import the {{site.data.keyword.openshiftshort}} Operator bundle, configure a deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
+Onboard a Certified Operator bundle from a {{site.data.keyword.redhat_notm}} registry, configure deployment and license details, and validate installation on a cluster.
 {: shortdesc}
+
+By completing this tutorial, you import the {{site.data.keyword.openshiftshort}} Operator bundle, configure a deployment, license, and other details, and validate that the Operator bundle can be installed on a cluster.
 
 This tutorial is one of four in a series that demonstrates how to onboard and publish a sample Operator bundle from the {{site.data.keyword.openshiftshort}} Certified registry. It uses a fictitious company called *Example Corp*. As you complete the tutorial, adapt each step to fit your product's needs.
 

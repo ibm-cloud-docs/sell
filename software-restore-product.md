@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-09-30"
+lastupdated: "2026-11-24"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, suspend, support, software, partner center, sellers, catalog, restore
 
@@ -13,10 +13,10 @@ subcollection: sell
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Restoring a deprecated product or version
+# Restoring a deprecated software or version
 {: #restore-deprecated-product}
 
-After you deprecate your product or version, your software enters a 90-day deprecation period before it is removed from the {{site.data.keyword.cloud}} catalog. During this period, you cannot make changes to your product, but you can restore your software to its last published state to keep it in the catalog.
+Learn how to restore a deprecated software or version to its last published state during the 90-day deprecation period to keep it in the {{site.data.keyword.cloud}} catalog.
 {: shortdesc}
 
 After the 90-day deprecation period expires, the product or version is permanently removed and cannot be restored.
