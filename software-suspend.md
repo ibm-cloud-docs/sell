@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-08"
+lastupdated: "2026-11-24"
 
 keywords: suspend software, suspend, partner center, catalog
 
@@ -16,8 +16,10 @@ subcollection: sell
 # Suspending your product from the {{site.data.keyword.cloud_notm}} catalog
 {: #suspend-product}
 
-If you need to remove a product from the {{site.data.keyword.cloud}} catalog without permanently deleting or deprecating it, you can suspend it for up to 7 days. Suspending a product can be useful if, for example, you discover a bug or vulnerability in your product that must be investigated before more customers install it.
+Learn how to temporarily suspend your product from the {{site.data.keyword.cloud}} catalog for up to 7 days without deleting or deprecating it.
 {: shortdesc}
+
+Suspending a product can be useful if, for example, you discover a bug or vulnerability in your product that must be investigated before more customers install it.
 
 Suspending your product does not permanently delete it from the {{site.data.keyword.cloud_notm}} catalog. If you need to permanently delete your product, deprecate it instead.
 {: note}

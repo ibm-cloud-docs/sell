@@ -3,7 +3,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-10-07"
+lastupdated: "2026-11-24"
 
 keywords: software, third-party software, sellers, partners, versions, test, partner center, reload 
 
@@ -14,10 +14,10 @@ subcollection: sell
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Reloading a software version
+# Reloading a software version in your private catalog
 {: #software-reload}
 
-You can reload a version of your software in your private catalog to update the version based on your current repository. When you reload a version, you revert it to its default state when you first imported the software. 
+Learn how to reload a software version in your private catalog to update it based on your current repository and revert it to its default state from when you first imported it.
 {: shortdesc}
 
 ## Reloading an unpublished version

@@ -3,7 +3,7 @@
 copyright:
   years: 2026, 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-11-24"
 
 keywords: onboard agent, third-party agent, sell on IBM Cloud, partner center, product details, catalog entry, support, WXO agent, watsonx, programmatic name, catalog listing agreement
 
@@ -17,13 +17,15 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Defining the product details of your agent
+# Defining product details for your agent in Partner Center
 {: #agent-define}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-This tutorial walks you through the steps for defining specific details about your agent in Partner Center. By completing this tutorial, you accept the required agreement for agents, create your product, confirm your programmatic name, and define your catalog entry and support experience.
+Define product details for your agent in {{site.data.keyword.cloud}} Partner Center, including the agent agreement, programmatic name, catalog entry, and support experience.
 {: shortdesc}
+
+By completing this tutorial, you accept the required agreement for agents, create your product, confirm your programmatic name, and define your catalog entry and support experience.
 
 {{_include-segments/notes.md}}
 

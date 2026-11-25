@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-11-05"
+lastupdated: "2026-11-24"
 
 keywords: onboard agent, third-party agent, sell on IBM Cloud, partner center, pricing, usage, metering, plan, ECCN, UNSPSC, feature, metrics
 
@@ -17,13 +17,15 @@ completion-time: 15m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Adding a pricing plan for your agent
+# Adding a pricing plan and metrics for your agent
 {: #agent-pricing}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="15m"}
 
-This tutorial walks you through the steps for adding a pricing plan and metrics for your agent. By completing this tutorial, you submit the required Electronic Funds Transfer (EFT) and tax forms, and add your Export Control Classification Number (ECCN) and United Nations Standard Products and Services Code (UNSPSC). You also define your pricing plan, add usage metrics, and configure plan features.
+Add a pricing plan, usage metrics, and plan features for your agent in {{site.data.keyword.cloud}} Partner Center, and submit the required payment and tax forms.
 {: shortdesc}
+
+By completing this tutorial, you submit the required Electronic Funds Transfer (EFT) and tax forms, and add your Export Control Classification Number (ECCN) and United Nations Standard Products and Services Code (UNSPSC). You also define your pricing plan, add usage metrics, and configure plan features.
 
 {{_include-segments/notes.md}}
 

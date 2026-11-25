@@ -3,7 +3,7 @@
 copyright:
   years: 2026, 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-11-24"
 
 keywords: onboard agent, third-party agent, sell on IBM Cloud, partner center, register, WXO agent, watsonx
 
@@ -18,13 +18,15 @@ completion-time: 5m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Registering an agent in Partner Center
+# Registering an agent in {{site.data.keyword.cloud_notm}} Partner Center
 {: #agent-register}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
 
-This tutorial walks you through how to register an agent in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you learn how to provide your company details and set up access for your team to help with the onboarding process.
+Register your agent for {{site.data.keyword.wxorchestrate_short}} in {{site.data.keyword.cloud}} Partner Center by providing company details and setting up team access.
 {: shortdesc}
+
+By completing this tutorial, you provide your company details and set up access for your team to help with the onboarding process.
 
 Agents are AI-powered services that you can list in the {{site.data.keyword.wxorchestrate_short}} and {{site.data.keyword.cloud_notm}} catalogs. You can choose between two types:
 

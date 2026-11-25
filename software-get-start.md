@@ -3,7 +3,7 @@
 copyright:
   years: 2020, 2026
 
-lastupdated: "2026-09-30"
+lastupdated: "2026-11-24"
 
 keywords: onboard software, third-party software, getting started, software, partner, sellers, partner portal, partner center
 
@@ -18,12 +18,12 @@ completion-time: 10m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Getting set up to sell software
+# Getting started with selling software on {{site.data.keyword.cloud_notm}}
 {: #sw-getting-started}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-Welcome to {{site.data.keyword.cloud}}! To start onboarding your software to our cloud platform, first complete a few tasks: provide your company and product details, create a test environment, and set up access for your team to help with the onboarding process.
+Start onboarding your software to {{site.data.keyword.cloud}} by providing company and product details, creating a test environment, and setting up team access.
 {: shortdesc}
 
 ## Watch and learn

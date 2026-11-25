@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-09-30"
+lastupdated: "2026-11-24"
 
 keywords: onboard service, third-party service, sell on IBM Cloud, partner center, publish, tutorial, sample
 
@@ -22,7 +22,7 @@ completion-time: 30m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="30m"}
 
-This tutorial walks you through how to publish your service to {{site.data.keyword.cloud}}. By completing this tutorial, you submit your publishing request, respond to any review feedback, and publish the service to the {{site.data.keyword.cloud_notm}} catalog.
+Publish your service to the {{site.data.keyword.cloud}} catalog by submitting your publishing request and responding to any review feedback.
 {: shortdesc}
 
 This tutorial is one of five in a series that demonstrates how to onboard and publish a service. As you complete the tutorial, adapt each step to fit your product's needs.

@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-10-14"
+lastupdated: "2026-11-23"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, register, register operator, Red Hat OpenShift, cluster, Node-RED Operator, Kubernetes cluster, operator
 
@@ -22,6 +22,8 @@ completion-time: 5m
 {: #operator-register}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
+
+
 
 Learn how to register a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center by adding your company name, creating a test environment, and setting up team access.
 {: shortdesc}

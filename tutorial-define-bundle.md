@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-09-30"
+lastupdated: "2026-11-25"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, validate, test, Red Hat OpenShift cluster, bundle, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL
 
@@ -18,10 +18,12 @@ completion-time: 15m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Defining the product details of your Operator bundle
+# Defining the product details of your Certified Operator bundle
 {: #bundle-define}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="15m"}
+
+
 
 This tutorial walks you through the steps for defining the details of an Operator bundle in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement, and define your catalog entry and product page, pricing model, and support experience.
 {: shortdesc}
