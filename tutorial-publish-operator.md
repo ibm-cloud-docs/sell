@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-11-23"
+lastupdated: "2026-11-25"
 
 keywords: publish, operator, Red Hat OpenShift cluster, sample Node-RED Operator
 
@@ -22,7 +22,8 @@ completion-time: 5m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
 
-
+Operator onboarding, publishing, discovery, and installation capabilities in the {{site.data.keyword.cloud_notm}} catalog are deprecated and will be removed on March 31, 2027. To continue discovering and installing operators for {{site.data.keyword.openshiftshort}} environments, migrate to {{site.data.keyword.redhat_notm}} OperatorHub. Operators that are already installed in clusters continue to run after March 31, 2027, but {{site.data.keyword.IBM_notm}} no longer provides support, maintenance, or updates for operators distributed through the {{site.data.keyword.cloud_notm}} catalog.
+{: deprecated}
 
 This tutorial walks you through how to publish your sample Node-RED Operator to {{site.data.keyword.cloud}}. By completing this tutorial, you learn how to submit your publishing request, receive your approval notification, and publish your product to the {{site.data.keyword.cloud_notm}} catalog.
 {: shortdesc}

@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-11-24"
+lastupdated: "2026-11-25"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, Red Hat OpenShift cluster, sample Node-RED Operator, Kubernetes cluster, product details, catalog listing, support, pricing, BYOL, DPA, digital provider agreement
 
@@ -22,7 +22,8 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-
+Operator onboarding, publishing, discovery, and installation capabilities in the {{site.data.keyword.cloud_notm}} catalog are deprecated and will be removed on March 31, 2027. To continue discovering and installing operators for {{site.data.keyword.openshiftshort}} environments, migrate to {{site.data.keyword.redhat_notm}} OperatorHub. Operators that are already installed in clusters continue to run after March 31, 2027, but {{site.data.keyword.IBM_notm}} no longer provides support, maintenance, or updates for operators distributed through the {{site.data.keyword.cloud_notm}} catalog.
+{: deprecated}
 
 Define product details for a Node-RED Operator in {{site.data.keyword.cloud}} Partner Center, including your catalog entry, pricing model, and support experience.
 {: shortdesc}
