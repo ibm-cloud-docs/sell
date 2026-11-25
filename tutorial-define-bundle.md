@@ -23,7 +23,8 @@ completion-time: 15m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="15m"}
 
-
+Operator onboarding, publishing, discovery, and installation capabilities in the {{site.data.keyword.cloud_notm}} catalog are deprecated and will be removed on March 31, 2027. To continue discovering and installing operators for {{site.data.keyword.openshiftshort}} environments, migrate to {{site.data.keyword.redhat_notm}} OperatorHub. Operators that are already installed in clusters continue to run after March 31, 2027, but {{site.data.keyword.IBM_notm}} no longer provides support, maintenance, or updates for operators distributed through the {{site.data.keyword.cloud_notm}} catalog.
+{: deprecated}
 
 This tutorial walks you through the steps for defining the details of an Operator bundle in {{site.data.keyword.cloud}} Partner Center. By completing this tutorial, you review and sign the {{site.data.keyword.IBM}} Digital Platform Reseller Agreement, and define your catalog entry and product page, pricing model, and support experience.
 {: shortdesc}

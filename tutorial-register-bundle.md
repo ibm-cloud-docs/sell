@@ -23,7 +23,8 @@ completion-time: 15m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="15m"}
 
-
+Operator onboarding, publishing, discovery, and installation capabilities in the {{site.data.keyword.cloud_notm}} catalog are deprecated and will be removed on March 31, 2027. To continue discovering and installing operators for {{site.data.keyword.openshiftshort}} environments, migrate to {{site.data.keyword.redhat_notm}} OperatorHub. Operators that are already installed in clusters continue to run after March 31, 2027, but {{site.data.keyword.IBM_notm}} no longer provides support, maintenance, or updates for operators distributed through the {{site.data.keyword.cloud_notm}} catalog.
+{: deprecated}
 
 This tutorial walks you through how to register an Operator bundle in {{site.data.keyword.cloud}} Partner Center as part of the process of onboarding to the {{site.data.keyword.cloud_notm}} catalog. By completing this tutorial, you learn how to provide your company and product information, create a test environment, and set up team access.
 {: shortdesc}

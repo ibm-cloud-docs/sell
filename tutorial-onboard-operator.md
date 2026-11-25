@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2026
 
-lastupdated: "2026-11-23"
+lastupdated: "2026-11-25"
 
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, operator, onboard operator, validate, test, Red Hat OpenShift cluster, sample Node-RED Operator, CSV file, CSV, operator bundle
@@ -25,7 +25,8 @@ completion-time: 45m
 {: toc-services="Registry"}
 {: toc-completion-time="45m"}
 
-
+Operator onboarding, publishing, discovery, and installation capabilities in the {{site.data.keyword.cloud_notm}} catalog are deprecated and will be removed on March 31, 2027. To continue discovering and installing operators for {{site.data.keyword.openshiftshort}} environments, migrate to {{site.data.keyword.redhat_notm}} OperatorHub. Operators that are already installed in clusters continue to run after March 31, 2027, but {{site.data.keyword.IBM_notm}} no longer provides support, maintenance, or updates for operators distributed through the {{site.data.keyword.cloud_notm}} catalog.
+{: deprecated}
 
 Learn how to onboard a sample Node-RED Operator to your private catalog in {{site.data.keyword.cloud}} and validate that it can be installed on a Red Hat OpenShift cluster.
 {: shortdesc}
