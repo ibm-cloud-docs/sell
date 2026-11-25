@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-11-23"
+lastupdated: "2026-11-25"
 
 keywords: onboard software, third-party software, sell on IBM Cloud, partner center, publish, review, operator, Red Hat OpenShift cluster, sample Operator bundle, tutorial, sample, bundle
 
@@ -16,7 +16,7 @@ completion-time: 5m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Publishing your Operator bundle to the {{site.data.keyword.cloud_notm}} catalog
+# Publishing your Certified Operator bundle to the {{site.data.keyword.cloud_notm}} catalog
 {: #bundle-publish}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="5m"}
